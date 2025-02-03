@@ -41,12 +41,20 @@ jobs:
 
       - name: Commit combined data.json
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add data/data.json
-          git commit -m "Update combined data.json"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push
+            git config --global user.name 'github-actions'
+            git config --global user.email 'github-actions@github.com'
+            
+            # Stage the changes
+            git add data/data.json
+            
+            # Check if there are any changes before committing
+            if ! git diff --cached --quiet; then
+              git commit -m "Update combined data.json"
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+              git push
+            else
+              echo "No changes to commit."
+            fi
 
       # Notify Discord that the process is complete
       - name: Send Discord Notification
