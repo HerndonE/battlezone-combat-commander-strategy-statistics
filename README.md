@@ -1,1 +1,1 @@
-# battlezone combat commander stratey statistics
+# battlezone combat commander strategy statistics
