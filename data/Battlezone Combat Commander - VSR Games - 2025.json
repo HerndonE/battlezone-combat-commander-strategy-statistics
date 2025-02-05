@@ -683,6 +683,32 @@
 					]
 				}
 			}
+		},
+		"February": {
+			"02.3.25": {
+				"Overlook": {
+					"date": "02.3.25",
+					"map": "Overlook",
+					"commanders": "Zack vs MAX",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "MAX",
+					"time": "21:28",
+					"teamOne": [
+						"F9bomber",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Sev",
+						"M.S",
+						"DD"
+					],
+					"teamOneStraggler": [
+						"Lisicia96",
+						"Pantouf"
+					]
+				}
+			}
 		}
 	}
 }
