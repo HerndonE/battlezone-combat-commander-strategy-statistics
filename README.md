@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="images\api-icon.png" alt="logo" width="150" height="auto" />
+  <img src="assets\images\api-icon.png" alt="logo" width="150" height="auto" />
   <h1>Battlezone Combat Commander Strategy Statistics</h1>
 
   <p align="center">
