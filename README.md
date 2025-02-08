@@ -1,4 +1,17 @@
-# Battlezone Combat Commander Strategy Statistics
+<div align="center">
+
+  <img src="images\api-icon.png" alt="logo" width="150" height="auto" />
+  <h1>Battlezone Combat Commander Strategy Statistics</h1>
+
+  <p align="center">
+   <a href = ""><img src="https://img.shields.io/github/languages/top/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Languages" /></a>
+   <a href = ""><img src="https://img.shields.io/github/repo-size/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Code Size" /></a>
+   <a href = ""><img src="https://img.shields.io/github/last-commit/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Last Commit" /></a>
+   <a href = ""><img src="https://img.shields.io/github/actions/workflow/status/HerndonE/battlezone-combat-commander-strategy-statistics/ci.yml" alt="GitHub Actions Workflow Status" /></a>
+  </p>
+
+</div>
+
 
 This repository displays the statistics for **Battlezone Combat Commander** strategy games.
 
