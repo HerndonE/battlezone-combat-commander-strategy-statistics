@@ -708,6 +708,26 @@
 						"Pantouf"
 					]
 				}
+			},
+			"02.9.25": {
+				"Overlook": {
+					"date": "02.9.25",
+					"map": "Overlook",
+					"commanders": "SpaceWars vs DD",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "DD",
+					"time": "19:02",
+					"teamOne": [
+						"F9bomber",
+						"VTrider",
+						"sahd0w"
+					],
+					"teamTwo": [
+						"Domakus",
+						"X-Triage"
+					]
+				}
 			}
 		}
 	}
