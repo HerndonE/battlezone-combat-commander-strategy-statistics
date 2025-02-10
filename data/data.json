@@ -3077,100 +3077,100 @@
                 ]
             ],
             "unique_map_values": [
-                "Vegan",
-                "Aztec",
-                "Domain",
+                "Bridges",
                 "Assualt",
-                "Transfer",
-                "Terrace",
-                "Lunix",
-                "Garden",
-                "Terron",
+                "Bowl",
+                "Europa",
+                "Red Slope",
+                "Europa Night",
+                "Dune Night",
+                "Rectal",
                 "Plaza",
-                "Dusk",
                 "Hi-Mid-Lo",
+                "Forgotten",
+                "Mountain Top",
+                "Oxide",
+                "Mesa",
+                "Oasis",
+                "Vegan",
+                "Consciousness",
+                "Lunix",
+                "Ancient Hills",
+                "Quarry",
+                "Dusk",
+                "Reflex",
+                "Mort's Wasteland",
+                "Satart",
+                "Echelon",
+                "Casius",
+                "Scammed",
                 "Quagmire",
-                "Crater",
-                "Ragnarok",
+                "Redslope",
+                "Terron",
                 "Vortex",
                 "Sahara",
-                "Scion Central",
-                "Ogg Vorbis",
-                "Pitbull",
-                "Scammed",
-                "Lunar",
-                "Europa",
                 "Mexcian Mission",
-                "Prodigy Ver .2",
-                "Phoenix",
-                "Rendon",
-                "Trench",
-                "High Heat",
-                "Egypt",
-                "Twin Peaks",
-                "Caiscus",
-                "Hound",
-                "Overlook",
-                "Reflex",
-                "Snow Central",
-                "Ice Age",
-                "Throbbing Gristle",
-                "Excavation",
-                "No Mans Land",
-                "Iraq",
-                "310",
-                "Haven",
-                "Selena",
-                "Mort's Wasteland",
-                "Echelon",
+                "Madern Warfare",
                 "Remnant",
-                "Mountain Top",
-                "Stone Circle",
-                "Chill",
-                "Island of V8",
-                "Redslope",
+                "Iceberg",
+                "Ragnarok",
                 "Mojave",
-                "Dune Night",
-                "Quarry",
-                "Bridges",
-                "Ancient Hills",
-                "Insula",
-                "Oasis",
-                "Ravine",
-                "Europa Night",
-                "Abuse",
-                "JO Crystal",
-                "Royal Stadium",
-                "Mesa",
-                "Tempest",
-                "Ridges",
                 "Plus",
                 "Strategy Arena",
-                "Dream",
-                "Trail",
-                "Rectal",
-                "Moonshroud",
-                "Barren",
-                "Alien Dunes",
-                "Casius",
-                "Forgotten",
+                "Chill",
                 "Concrete Jungle",
-                "Satart",
-                "Abundance",
-                "Consciousness",
-                "Sinister",
+                "Selena",
+                "Ridges",
+                "Excavation",
+                "Haven",
+                "Prodigy Ver .2",
+                "Ice Age",
+                "Terrace",
                 "Phazon",
-                "High & Low",
-                "Red Slope",
-                "Oldboy",
-                "Beyond",
-                "Oxide",
+                "Trench",
+                "Dream",
+                "Ogg Vorbis",
+                "Alien Dunes",
                 "Ebola",
-                "Bowl",
-                "Madern Warfare",
-                "Iceberg",
+                "Tempest",
+                "Scion Central",
+                "No Mans Land",
+                "Ravine",
+                "Garden",
+                "Iraq",
+                "Pitbull",
+                "High Heat",
+                "Rendon",
+                "Lunar",
+                "Stone Circle",
+                "Abundance",
+                "JO Crystal",
+                "Island of V8",
+                "Overlook",
+                "Trail",
+                "Moonshroud",
                 "Giza",
-                "Titan"
+                "Caiscus",
+                "Titan",
+                "Domain",
+                "Sinister",
+                "Hound",
+                "Snow Central",
+                "Phoenix",
+                "Insula",
+                "Royal Stadium",
+                "Beyond",
+                "Twin Peaks",
+                "Throbbing Gristle",
+                "Crater",
+                "Egypt",
+                "Abuse",
+                "Aztec",
+                "310",
+                "Oldboy",
+                "Transfer",
+                "Barren",
+                "High & Low"
             ],
             "commander_list": [
                 [
@@ -4534,6 +4534,26 @@
                                 "Pantouf"
                             ]
                         }
+                    },
+                    "02.9.25": {
+                        "Overlook": {
+                            "date": "02.9.25",
+                            "map": "Overlook",
+                            "commanders": "SpaceWars vs DD",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "DD",
+                            "time": "19:02",
+                            "teamOne": [
+                                "F9bomber",
+                                "VTrider",
+                                "sahd0w"
+                            ],
+                            "teamTwo": [
+                                "Domakus",
+                                "X-Triage"
+                            ]
+                        }
                     }
                 }
             }
@@ -4546,7 +4566,7 @@
                 ],
                 [
                     "Overlook",
-                    4
+                    5
                 ],
                 [
                     "Mojave",
@@ -4627,24 +4647,24 @@
             ],
             "unique_map_values": [
                 "Domain",
-                "Fort 12C",
-                "Echelon",
-                "Remnant",
-                "Garden",
                 "Jade Green",
-                "Terron",
-                "Mojave",
-                "Consciousness",
+                "Echelon",
                 "Hound",
-                "Quagmire",
-                "Overlook",
-                "Red Slope",
-                "Snow Central",
-                "Oasis",
-                "Insula",
                 "Bowl",
                 "Europa Night",
+                "Quagmire",
+                "Red Slope",
+                "Terron",
+                "Snow Central",
+                "Insula",
+                "Garden",
+                "Oasis",
+                "Consciousness",
+                "Remnant",
+                "Mojave",
+                "Overlook",
                 "Giza",
+                "Fort 12C",
                 "Titan",
                 "Ridges"
             ],
@@ -4683,7 +4703,7 @@
                 ],
                 [
                     "DD",
-                    2
+                    3
                 ],
                 [
                     "Sly",
@@ -4699,6 +4719,10 @@
                 ],
                 [
                     "MAX",
+                    1
+                ],
+                [
+                    "SpaceWars",
                     1
                 ]
             ],
@@ -4734,6 +4758,12 @@
                     5
                 ],
                 [
+                    "DD",
+                    66.66666666666666,
+                    3,
+                    2
+                ],
+                [
                     "Sev",
                     54.54545454545454,
                     11,
@@ -4744,12 +4774,6 @@
                     54.54545454545454,
                     11,
                     6
-                ],
-                [
-                    "DD",
-                    50.0,
-                    2,
-                    1
                 ],
                 [
                     "Rosario",
@@ -4780,10 +4804,16 @@
                     14.285714285714285,
                     7,
                     1
+                ],
+                [
+                    "SpaceWars",
+                    0.0,
+                    1,
+                    0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 31,
+                "I.S.D.F": 33,
                 "Hadean": 27,
                 "Scion": 16
             },
@@ -4818,7 +4848,7 @@
                 },
                 "DD": {
                     "Scion": 1,
-                    "I.S.D.F": 1
+                    "I.S.D.F": 2
                 },
                 "Lamper": {
                     "I.S.D.F": 1
@@ -4835,6 +4865,9 @@
                     "I.S.D.F": 1
                 },
                 "MAX": {
+                    "I.S.D.F": 1
+                },
+                "SpaceWars": {
                     "I.S.D.F": 1
                 }
             },
@@ -4865,7 +4898,8 @@
                     "I.S.D.F": 1
                 },
                 "DD": {
-                    "Scion": 1
+                    "Scion": 1,
+                    "I.S.D.F": 1
                 },
                 "Lamper": {
                     "I.S.D.F": 1
