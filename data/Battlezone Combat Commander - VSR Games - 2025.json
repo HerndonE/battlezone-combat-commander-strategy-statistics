@@ -728,6 +728,73 @@
 						"X-Triage"
 					]
 				}
+			},
+			"02.9.25": {
+				"Remnant": {
+					"date": "02.9.25",
+					"map": "Remnant",
+					"commanders": "Sev vs Xohm",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Xohm",
+					"time": "14:24",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"M.S",
+						"Maverick"
+					],
+					"teamOneStraggler": [
+						"VTrider"
+					],
+					"teamTwoStraggler": [
+						"Domakus"
+					]
+				},
+				"Terron": {
+					"date": "02.9.25",
+					"map": "Terron",
+					"commanders": "VTrider vs Sev",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "18:37",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns",
+						"Xohm"
+					],
+					"teamTwo": [
+						"Domakus",
+						"M.S",
+						"Maverick"
+					]
+				},
+				"Casius": {
+					"date": "02.9.25",
+					"map": "Casius",
+					"commanders": "VTrider vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "1:15:25",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"M.S",
+						"Maverick"
+					],
+					"teamOneStraggler": [
+						"Xohm"
+					],
+					"teamTwoStraggler": [
+						"Domakus"
+					]
+				}
 			}
 		}
 	}
