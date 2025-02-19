@@ -729,9 +729,9 @@
 					]
 				}
 			},
-			"02.9.25": {
+			"02.14.25": {
 				"Remnant": {
-					"date": "02.9.25",
+					"date": "02.14.25",
 					"map": "Remnant",
 					"commanders": "Sev vs Xohm",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -754,7 +754,7 @@
 					]
 				},
 				"Terron": {
-					"date": "02.9.25",
+					"date": "02.14.25",
 					"map": "Terron",
 					"commanders": "VTrider vs Sev",
 					"factions": "[Hadean, Scion]",
@@ -773,7 +773,7 @@
 					]
 				},
 				"Casius": {
-					"date": "02.9.25",
+					"date": "02.14.25",
 					"map": "Casius",
 					"commanders": "VTrider vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -795,7 +795,33 @@
 						"Domakus"
 					]
 				}
-			}
+			},
+			"02.16.25": {
+				"Red Slope": {
+					"date": "02.16.25",
+					"map": "Red Slope",
+					"commanders": "Zack vs Sev", 
+					"factions": "[I.S.D.F, Scion]", 
+					"winning faction": "Scion",
+					"winner": "Sev",
+					"time": "28:06",
+					"teamOne": ["F9bomber", "Herp McDerperson", "Xohm"], 
+					"teamTwo": ["M.S", "Domakus", "Darkvale"]
+				},
+				"Oldboy": {
+					"date": "02.16.25",
+					"map": "Oldboy",
+					"commanders": "Zack vs M.S", 
+					"factions": "[Hadean, I.S.D.F]", 
+					"winning faction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "52:39",
+					"teamOne": ["F9bomber"], 
+					"teamTwo": ["X-Triage"],
+					"teamOneStraggler": ["Muerte", "Herp McDerperson"],
+					"teamTwoStraggler": ["Gravey", "Sev"]	
+				}
+			},
 		}
 	}
 }
