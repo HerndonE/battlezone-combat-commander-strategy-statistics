@@ -800,28 +800,46 @@
 				"Red Slope": {
 					"date": "02.16.25",
 					"map": "Red Slope",
-					"commanders": "Zack vs Sev", 
-					"factions": "[I.S.D.F, Scion]", 
+					"commanders": "Zack vs Sev",
+					"factions": "[I.S.D.F, Scion]",
 					"winning faction": "Scion",
 					"winner": "Sev",
 					"time": "28:06",
-					"teamOne": ["F9bomber", "Herp McDerperson", "Xohm"], 
-					"teamTwo": ["M.S", "Domakus", "Darkvale"]
+					"teamOne": [
+						"F9bomber",
+						"Herp McDerperson",
+						"Xohm"
+					],
+					"teamTwo": [
+						"M.S",
+						"Domakus",
+						"Darkvale"
+					]
 				},
 				"Oldboy": {
 					"date": "02.16.25",
 					"map": "Oldboy",
-					"commanders": "Zack vs M.S", 
-					"factions": "[Hadean, I.S.D.F]", 
+					"commanders": "Zack vs M.S",
+					"factions": "[Hadean, I.S.D.F]",
 					"winning faction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "52:39",
-					"teamOne": ["F9bomber"], 
-					"teamTwo": ["X-Triage"],
-					"teamOneStraggler": ["Muerte", "Herp McDerperson"],
-					"teamTwoStraggler": ["Gravey", "Sev"]	
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"X-Triage"
+					],
+					"teamOneStraggler": [
+						"Muerte",
+						"Herp McDerperson"
+					],
+					"teamTwoStraggler": [
+						"Gravey",
+						"Sev"
+					]
 				}
-			},
+			}
 		}
 	}
 }
