@@ -1,5 +1,51 @@
 {
 	"year": "2025",
 	"month": {
+		"February": {
+			"2.15.25": {
+				"Mojave": {
+					"map": "Mojave",
+					"date": "2.15.25",
+					"round #": "1",
+					"teams": "Juliet vs Golf",
+					"factions": "[Hadean, I.S.D.F]",
+					"winner": "Juliet",
+					"commander-team-one": "F9bomber",
+					"commander-team-two": "Maverick"
+				},
+				"Red Slope": {
+					"map": "Red Slope",
+					"date": "2.15.25",
+					"round #": "2",
+					"teams": "Juliet vs Golf",
+					"factions": "[I.S.D.F, Hadean]",
+					"winner": "Juliet",
+					"commander-team-one": "SpaceWars",
+					"commander-team-two": "DriveLine"
+				}
+			},
+			"2.16.25": {
+				"Red Slope": {
+					"map": "Red Slope",
+					"date": "2.16.25",
+					"round #": "1",
+					"teams": "Juliet vs Echo",
+					"factions": "[Hadean, Hadean]",
+					"winner": "Juliet",
+					"commander-team-one": "F9bomber",
+					"commander-team-two": "Shock"
+				},
+				"Terron": {
+					"map": "Terron",
+					"date": "2.16.25",
+					"round #": "2",
+					"teams": "Juliet vs Echo",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winner": "Juliet",
+					"commander-team-one": "SpaceWars",
+					"commander-team-two": "Pantouf"
+				}
+			}
+		}
 	}
 }
