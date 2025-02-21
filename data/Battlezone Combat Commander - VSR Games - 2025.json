@@ -839,6 +839,65 @@
 						"Sev"
 					]
 				}
+			},
+			"02.19.25": {
+				"Mojave": {
+					"date": "02.19.25",
+					"map": "Mojave",
+					"commanders": "DD vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "DD",
+					"time": "19:23",
+					"teamOne": [
+						"F9bomber",
+						"Andrey",
+						"Cyber"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"lux"
+					]
+				},
+				"Lunar": {
+					"date": "02.19.25",
+					"map": "Lunar",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "13:53",
+					"teamOne": [
+						"Cyber",
+						"Judgeguns",
+						"lux"
+					],
+					"teamTwo": [
+						"M.S",
+						"Zack"
+					],
+					"teamTwoStraggler": [
+						"Andrey"
+					]
+				},
+				"Oldboy": {
+					"date": "02.19.25",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "54:20",
+					"teamOne": [
+						"Maverick",
+						"Zack"
+					],
+					"teamTwo": [
+						"M.S",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
