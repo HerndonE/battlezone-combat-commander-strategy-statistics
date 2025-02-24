@@ -179,6 +179,47 @@ for file_path, year in files:
         f'data_{year}': processed_data
     }
 
+def combine_map_counts(data):
+    keys = list(data.keys())[:-1]
+    combined_counts = {}
+
+    # Iterate through each key and its corresponding "map_counts"
+    for key in keys:
+        map_counts = data[key][f"data_{key}"]["map_counts"]
+        for location, count in map_counts:
+            if location in combined_counts:
+                combined_counts[location] += count
+            else:
+                combined_counts[location] = count
+
+    combined_counts = dict(sorted(combined_counts.items(), key=lambda x: x[1], reverse=True))
+    return combined_counts
+
+
+def combine_most_played_factions(data):
+    keys = list(data.keys())[:-1]
+    combined_counts = {}
+
+    # Iterate through each key and its corresponding "map_counts"
+    for key in keys:
+        faction_counts = data[key][f"data_{key}"]["faction_counter"]
+        # If it's the first entry, initialize combined_counts with faction counts
+        if not combined_counts:
+            combined_counts = faction_counts.copy()
+        else:
+            # Otherwise, add the counts from the current faction counter
+            for faction, count in faction_counts.items():
+                combined_counts[faction] = combined_counts.get(faction, 0) + count
+
+    result = dict(combined_counts)
+    return result
+
+
+output_data["combined_data"] = {
+    "combine_map_counts": combine_map_counts(output_data),
+    "combine_most_played_factions": combine_most_played_factions(output_data)
+}
+
 # Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
 bzcc_2025_data = read_file('data/BZCC-2025-Tournament.json')  # Read the raw data file
 output_data["BZCC-2025-Tournament"] = {
