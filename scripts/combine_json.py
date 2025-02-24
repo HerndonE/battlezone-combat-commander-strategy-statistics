@@ -180,7 +180,7 @@ for file_path, year in files:
     }
 
 def combine_map_counts(data):
-    keys = list(data.keys())[:-1]
+    keys = list(data.keys())
     combined_counts = {}
 
     # Iterate through each key and its corresponding "map_counts"
@@ -197,7 +197,7 @@ def combine_map_counts(data):
 
 
 def combine_most_played_factions(data):
-    keys = list(data.keys())[:-1]
+    keys = list(data.keys())
     combined_counts = {}
 
     # Iterate through each key and its corresponding "map_counts"
