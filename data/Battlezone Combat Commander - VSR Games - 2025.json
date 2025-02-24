@@ -898,6 +898,44 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"02.21.25": {
+				"Terron": {
+					"date": "02.21.25",
+					"map": "Terron",
+					"commanders": "Rosario vs Sev",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "22:30",
+					"teamOne": [
+						"Andrey",
+						"Sara",
+						"F9bomber",
+						"Zack"
+					],
+					"teamTwo": [
+						"M.S",
+						"Cyber"
+					]
+				},
+				"Trench": {
+					"date": "02.21.25",
+					"map": "Trench",
+					"commanders": "Rosario vs Cyber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "19:09",
+					"teamOne": [
+						"Sev",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"M.S",
+						"Zack"
+					]
+				}
 			}
 		}
 	}
