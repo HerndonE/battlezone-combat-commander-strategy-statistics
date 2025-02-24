@@ -3077,100 +3077,100 @@
                 ]
             ],
             "unique_map_values": [
-                "Twin Peaks",
-                "Assualt",
-                "Scammed",
-                "Lunix",
-                "Titan",
-                "Haven",
-                "Plus",
-                "Royal Stadium",
-                "Trench",
-                "Aztec",
+                "Phazon",
+                "Terron",
                 "Europa Night",
-                "Remnant",
-                "Beyond",
-                "Mountain Top",
-                "Ogg Vorbis",
-                "Transfer",
-                "Alien Dunes",
-                "Stone Circle",
-                "Egypt",
-                "Lunar",
-                "Scion Central",
-                "Ancient Hills",
-                "Selena",
+                "Bowl",
+                "Island of V8",
                 "Dune Night",
-                "Red Slope",
-                "Moonshroud",
-                "Barren",
-                "Prodigy Ver .2",
+                "Ragnarok",
+                "Reflex",
+                "High & Low",
+                "Chill",
+                "Ebola",
+                "Terrace",
+                "Ancient Hills",
+                "Transfer",
+                "Pitbull",
+                "Ogg Vorbis",
                 "Trail",
-                "Iraq",
+                "Mort's Wasteland",
+                "High Heat",
+                "Consciousness",
+                "Lunar",
+                "Sahara",
+                "Plus",
+                "Dusk",
+                "Echelon",
+                "Abundance",
+                "Strategy Arena",
+                "Garden",
+                "Beyond",
+                "Rendon",
+                "Plaza",
+                "Ridges",
+                "Titan",
+                "Remnant",
+                "Stone Circle",
+                "Moonshroud",
                 "Crater",
+                "Twin Peaks",
+                "No Mans Land",
+                "Ice Age",
                 "Domain",
                 "Sinister",
-                "Quarry",
-                "Mort's Wasteland",
-                "Overlook",
-                "Forgotten",
-                "Concrete Jungle",
-                "Bridges",
-                "310",
-                "Sahara",
-                "Chill",
-                "Casius",
-                "Iceberg",
+                "Satart",
+                "Mesa",
+                "Rectal",
                 "JO Crystal",
-                "Bowl",
-                "Rendon",
-                "Insula",
-                "Garden",
-                "Mexcian Mission",
-                "Island of V8",
-                "Plaza",
+                "Oasis",
+                "Iceberg",
+                "Tempest",
+                "Prodigy Ver .2",
+                "Ravine",
+                "Bridges",
+                "Quagmire",
+                "Scammed",
+                "Scion Central",
+                "Barren",
+                "Selena",
+                "Abuse",
+                "Iraq",
+                "Casius",
+                "Giza",
+                "Lunix",
+                "Haven",
+                "Vegan",
+                "Forgotten",
+                "Madern Warfare",
+                "Concrete Jungle",
                 "Throbbing Gristle",
-                "Vortex",
-                "Phoenix",
-                "Oxide",
-                "Abundance",
+                "Overlook",
+                "310",
                 "Hi-Mid-Lo",
                 "Caiscus",
-                "Vegan",
-                "Hound",
-                "Dream",
-                "Oldboy",
-                "Europa",
-                "Quagmire",
-                "Giza",
-                "Dusk",
-                "Abuse",
-                "Mesa",
-                "Excavation",
-                "Reflex",
-                "Strategy Arena",
-                "Oasis",
-                "Ravine",
-                "Terrace",
-                "High Heat",
-                "Echelon",
-                "Mojave",
-                "Ebola",
-                "Tempest",
-                "No Mans Land",
-                "Madern Warfare",
-                "Terron",
-                "Ice Age",
-                "Phazon",
-                "Pitbull",
+                "Assualt",
                 "Redslope",
-                "Satart",
-                "Rectal",
-                "Consciousness",
-                "High & Low",
+                "Trench",
+                "Oxide",
+                "Egypt",
+                "Oldboy",
+                "Vortex",
+                "Insula",
+                "Red Slope",
+                "Mountain Top",
+                "Mojave",
+                "Hound",
+                "Excavation",
                 "Snow Central",
-                "Ridges",
-                "Ragnarok"
+                "Dream",
+                "Phoenix",
+                "Europa",
+                "Royal Stadium",
+                "Aztec",
+                "Quarry",
+                "Mexcian Mission",
+                "Alien Dunes"
             ],
             "commander_list": [
                 [
@@ -4724,6 +4724,44 @@
                                 "Judgeguns"
                             ]
                         }
+                    },
+                    "02.21.25": {
+                        "Terron": {
+                            "date": "02.21.25",
+                            "map": "Terron",
+                            "commanders": "Rosario vs Sev",
+                            "factions": "[Hadean, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Sev",
+                            "time": "22:30",
+                            "teamOne": [
+                                "Andrey",
+                                "Sara",
+                                "F9bomber",
+                                "Zack"
+                            ],
+                            "teamTwo": [
+                                "M.S",
+                                "Cyber"
+                            ]
+                        },
+                        "Trench": {
+                            "date": "02.21.25",
+                            "map": "Trench",
+                            "commanders": "Rosario vs Cyber",
+                            "factions": "[Hadean, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Cyber",
+                            "time": "19:09",
+                            "teamOne": [
+                                "Sev",
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "M.S",
+                                "Zack"
+                            ]
+                        }
                     }
                 }
             }
@@ -4732,7 +4770,7 @@
             "map_counts": [
                 [
                     "Terron",
-                    6
+                    7
                 ],
                 [
                     "Overlook",
@@ -4825,38 +4863,43 @@
                 [
                     "Lunar",
                     1
+                ],
+                [
+                    "Trench",
+                    1
                 ]
             ],
             "unique_map_values": [
+                "Fort 12C",
+                "Terron",
+                "Trench",
+                "Europa Night",
+                "Bowl",
+                "Echelon",
+                "Quagmire",
+                "Oldboy",
+                "Garden",
+                "Insula",
+                "Red Slope",
+                "Ridges",
+                "Titan",
+                "Remnant",
+                "Mojave",
+                "Casius",
+                "Giza",
+                "Hound",
+                "Snow Central",
+                "Consciousness",
                 "Domain",
                 "Jade Green",
-                "Terron",
-                "Titan",
-                "Overlook",
-                "Hound",
-                "Europa Night",
-                "Remnant",
-                "Oldboy",
-                "Casius",
-                "Quagmire",
-                "Giza",
-                "Consciousness",
                 "Lunar",
-                "Bowl",
-                "Snow Central",
-                "Insula",
-                "Garden",
-                "Red Slope",
-                "Oasis",
-                "Fort 12C",
-                "Ridges",
-                "Echelon",
-                "Mojave"
+                "Overlook",
+                "Oasis"
             ],
             "commander_list": [
                 [
                     "Sev",
-                    17
+                    18
                 ],
                 [
                     "F9bomber",
@@ -4880,7 +4923,7 @@
                 ],
                 [
                     "Rosario",
-                    6
+                    8
                 ],
                 [
                     "Xpi",
@@ -4912,6 +4955,10 @@
                 ],
                 [
                     "Xohm",
+                    1
+                ],
+                [
+                    "Cyber",
                     1
                 ]
             ],
@@ -4947,6 +4994,12 @@
                     1
                 ],
                 [
+                    "Cyber",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
                     "VTrider",
                     75.0,
                     8,
@@ -4960,21 +5013,15 @@
                 ],
                 [
                     "Sev",
-                    58.82352941176471,
-                    17,
-                    10
+                    61.111111111111114,
+                    18,
+                    11
                 ],
                 [
                     "Blue Banana",
                     54.54545454545454,
                     11,
                     6
-                ],
-                [
-                    "Rosario",
-                    50.0,
-                    6,
-                    3
                 ],
                 [
                     "F9bomber",
@@ -4987,6 +5034,12 @@
                     40.0,
                     5,
                     2
+                ],
+                [
+                    "Rosario",
+                    37.5,
+                    8,
+                    3
                 ],
                 [
                     "M.S",
@@ -5008,13 +5061,13 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 43,
-                "Hadean": 31,
+                "I.S.D.F": 45,
+                "Hadean": 33,
                 "Scion": 18
             },
             "commander_faction_counts": {
                 "Sev": {
-                    "I.S.D.F": 9,
+                    "I.S.D.F": 10,
                     "Scion": 7,
                     "Hadean": 1
                 },
@@ -5049,7 +5102,7 @@
                     "I.S.D.F": 1
                 },
                 "Rosario": {
-                    "Hadean": 6
+                    "Hadean": 8
                 },
                 "Zack": {
                     "I.S.D.F": 6,
@@ -5067,6 +5120,9 @@
                 },
                 "Xohm": {
                     "I.S.D.F": 1
+                },
+                "Cyber": {
+                    "I.S.D.F": 1
                 }
             },
             "commander_faction_wins": {
@@ -5079,7 +5135,7 @@
                 },
                 "Sev": {
                     "Scion": 4,
-                    "I.S.D.F": 5,
+                    "I.S.D.F": 6,
                     "Hadean": 1
                 },
                 "VTrider": {
@@ -5118,6 +5174,9 @@
                     "I.S.D.F": 1
                 },
                 "Xohm": {
+                    "I.S.D.F": 1
+                },
+                "Cyber": {
                     "I.S.D.F": 1
                 }
             }
