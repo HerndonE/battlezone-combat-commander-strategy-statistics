@@ -215,9 +215,62 @@ def combine_most_played_factions(data):
     return result
 
 
+def combine_commander_faction_counts(data):
+    keys = list(data.keys())
+    combined_counts = {}
+
+    # Iterate through each key and its corresponding "commander_faction_counts"
+    for key in keys:
+        commander_faction_counts = data[key][f"data_{key}"]["commander_faction_counts"]
+
+        for commander, factions in commander_faction_counts.items():
+            if commander not in combined_counts:
+                combined_counts[commander] = {}
+
+            for faction, count in factions.items():
+                if faction in combined_counts[commander]:
+                    combined_counts[commander][faction] += count
+                else:
+                    combined_counts[commander][faction] = count
+
+    return combined_counts
+
+
+def combine_commander_win_percentages(data):
+    combined_counts = {}
+
+    # Iterate through each key in the data
+    for key in data:
+        # Extract the "commander_win_percentages" from the nested structure
+        commander_faction_counts = data[key][f"data_{key}"]["commander_win_percentages"]
+
+        # Combine the win percentages
+        for commander, win_percentage, total_games, wins in commander_faction_counts:
+            if commander in combined_counts:
+                combined_counts[commander]['total_games'] += total_games
+                combined_counts[commander]['total_wins'] += wins
+            else:
+                combined_counts[commander] = {'total_games': total_games, 'total_wins': wins}
+
+    # Calculate the win percentage for each commander
+    combined_commander_win_percentages = []
+    for commander, stats in combined_counts.items():
+        total_games = stats['total_games']
+        total_wins = stats['total_wins']
+        win_percentage = (total_wins / total_games) * 100 if total_games > 0 else 0
+        combined_commander_win_percentages.append((commander, win_percentage, total_games, total_wins))
+
+    # Sort the commanders based on win percentage (from high to low)
+    combined_commander_win_percentages.sort(key=lambda x: x[1], reverse=True)
+
+    return combined_commander_win_percentages
+
+
 output_data["combined_data"] = {
-    "combine_map_counts": combine_map_counts(output_data),
-    "combine_most_played_factions": combine_most_played_factions(output_data)
+    "combined_map_counts": combine_map_counts(output_data),
+    "combined_most_played_factions": combine_most_played_factions(output_data),
+    "combined_commander_faction_counts": combine_commander_faction_counts(output_data),
+    "combine_commander_win_percentages": combine_commander_win_percentages(output_data)
 }
 
 # Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
