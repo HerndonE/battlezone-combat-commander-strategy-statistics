@@ -3077,100 +3077,100 @@
                 ]
             ],
             "unique_map_values": [
-                "Lunar",
-                "Mojave",
-                "Caiscus",
-                "Barren",
-                "Prodigy Ver .2",
-                "Casius",
-                "Crater",
-                "Transfer",
-                "Europa",
-                "Ebola",
-                "Plus",
-                "Plaza",
-                "Island of V8",
-                "Abundance",
-                "Satart",
-                "Beyond",
-                "Mountain Top",
-                "High & Low",
-                "Hi-Mid-Lo",
-                "Redslope",
-                "Moonshroud",
-                "Garden",
-                "Mort's Wasteland",
-                "310",
-                "Iceberg",
                 "Vortex",
-                "Abuse",
-                "No Mans Land",
-                "Sahara",
-                "Insula",
-                "Concrete Jungle",
-                "Quarry",
-                "Oxide",
                 "Red Slope",
-                "Madern Warfare",
+                "Hi-Mid-Lo",
+                "Ravine",
+                "Sinister",
+                "Ancient Hills",
+                "Abundance",
+                "Giza",
+                "Ogg Vorbis",
+                "High Heat",
+                "Bowl",
                 "Royal Stadium",
                 "Dune Night",
-                "Snow Central",
-                "Haven",
-                "Giza",
-                "Phazon",
-                "Terron",
-                "Vegan",
-                "Excavation",
-                "Sinister",
-                "Mesa",
-                "Chill",
-                "JO Crystal",
-                "Egypt",
-                "Selena",
-                "Oldboy",
-                "Titan",
-                "Ridges",
-                "Overlook",
-                "Hound",
-                "Assualt",
-                "Ragnarok",
-                "Domain",
-                "Trail",
-                "Iraq",
-                "Trench",
-                "Dream",
-                "Forgotten",
-                "Rectal",
-                "Aztec",
-                "Twin Peaks",
-                "Terrace",
+                "Ebola",
+                "Plaza",
+                "Mountain Top",
                 "Stone Circle",
-                "Phoenix",
-                "Bowl",
-                "Europa Night",
-                "Bridges",
-                "High Heat",
-                "Echelon",
-                "Ravine",
-                "Throbbing Gristle",
-                "Tempest",
-                "Ancient Hills",
-                "Dusk",
-                "Ogg Vorbis",
-                "Oasis",
-                "Scion Central",
-                "Pitbull",
-                "Scammed",
+                "Forgotten",
                 "Remnant",
-                "Mexcian Mission",
-                "Alien Dunes",
-                "Consciousness",
+                "Madern Warfare",
+                "Aztec",
+                "Europa Night",
+                "Mesa",
+                "Prodigy Ver .2",
+                "Transfer",
+                "Europa",
+                "Oasis",
                 "Lunix",
+                "Barren",
+                "Excavation",
+                "Oxide",
+                "Scion Central",
+                "Scammed",
+                "Echelon",
+                "Vegan",
+                "Concrete Jungle",
                 "Ice Age",
+                "Trail",
+                "Snow Central",
+                "Dream",
+                "JO Crystal",
+                "Garden",
+                "Moonshroud",
+                "Terrace",
+                "Redslope",
+                "Mexcian Mission",
+                "Iraq",
+                "Pitbull",
+                "Quarry",
+                "Throbbing Gristle",
+                "Ridges",
+                "Twin Peaks",
+                "Rectal",
+                "Island of V8",
+                "Crater",
+                "Tempest",
+                "Phazon",
+                "Trench",
+                "High & Low",
+                "Selena",
+                "No Mans Land",
+                "Bridges",
+                "Ragnarok",
+                "Oldboy",
+                "Sahara",
+                "Consciousness",
                 "Rendon",
+                "310",
+                "Mort's Wasteland",
+                "Assualt",
+                "Alien Dunes",
+                "Mojave",
+                "Dusk",
+                "Casius",
+                "Plus",
+                "Abuse",
+                "Phoenix",
+                "Satart",
+                "Titan",
+                "Chill",
+                "Egypt",
                 "Reflex",
+                "Beyond",
+                "Iceberg",
+                "Caiscus",
+                "Quagmire",
+                "Overlook",
+                "Domain",
+                "Haven",
+                "Hound",
                 "Strategy Arena",
-                "Quagmire"
+                "Terron",
+                "Insula",
+                "Lunar"
             ],
             "commander_list": [
                 [
@@ -4870,31 +4870,31 @@
                 ]
             ],
             "unique_map_values": [
-                "Insula",
-                "Lunar",
-                "Echelon",
-                "Mojave",
-                "Oldboy",
                 "Titan",
-                "Fort 12C",
-                "Ridges",
-                "Overlook",
-                "Casius",
-                "Hound",
+                "Remnant",
                 "Red Slope",
+                "Europa Night",
+                "Ridges",
                 "Oasis",
+                "Quagmire",
+                "Overlook",
                 "Domain",
-                "Snow Central",
                 "Trench",
                 "Giza",
-                "Remnant",
-                "Garden",
-                "Consciousness",
-                "Terron",
+                "Echelon",
                 "Bowl",
+                "Oldboy",
+                "Consciousness",
+                "Fort 12C",
+                "Hound",
+                "Terron",
+                "Snow Central",
+                "Mojave",
                 "Jade Green",
-                "Europa Night",
-                "Quagmire"
+                "Casius",
+                "Insula",
+                "Lunar",
+                "Garden"
             ],
             "commander_list": [
                 [
@@ -5183,7 +5183,7 @@
         }
     },
     "combined_data": {
-        "combine_map_counts": {
+        "combined_map_counts": {
             "Terron": 19,
             "Mojave": 18,
             "Overlook": 18,
@@ -5281,11 +5281,418 @@
             "Jade Green": 1,
             "Fort 12C": 1
         },
-        "combine_most_played_factions": {
+        "combined_most_played_factions": {
             "I.S.D.F": 401,
             "Scion": 114,
             "Hadean": 195
-        }
+        },
+        "combined_commander_faction_counts": {
+            "Jabbapop": {
+                "I.S.D.F": 20,
+                "Hadean": 1
+            },
+            "DD": {
+                "I.S.D.F": 12,
+                "Scion": 3
+            },
+            "F9bomber": {
+                "I.S.D.F": 27,
+                "Hadean": 71,
+                "Scion": 6
+            },
+            "VTrider": {
+                "Scion": 20,
+                "Hadean": 63,
+                "I.S.D.F": 17
+            },
+            "Gravey": {
+                "Scion": 9,
+                "I.S.D.F": 4,
+                "Hadean": 1
+            },
+            "Blue Banana": {
+                "Scion": 8,
+                "I.S.D.F": 33,
+                "Hadean": 13
+            },
+            "Sev": {
+                "I.S.D.F": 31,
+                "Hadean": 14,
+                "Scion": 10
+            },
+            "Herp McDerperson": {
+                "I.S.D.F": 18,
+                "Hadean": 1
+            },
+            "Sly": {
+                "I.S.D.F": 17,
+                "Scion": 12,
+                "Hadean": 1
+            },
+            "Darkvale": {
+                "I.S.D.F": 7,
+                "Scion": 4
+            },
+            "Lamper": {
+                "I.S.D.F": 20,
+                "Scion": 7,
+                "Hadean": 4
+            },
+            "Nozza34": {
+                "I.S.D.F": 4
+            },
+            "M.S": {
+                "I.S.D.F": 40,
+                "Scion": 1
+            },
+            "Muffin": {
+                "I.S.D.F": 15,
+                "Hadean": 5
+            },
+            "AI_Unit": {
+                "I.S.D.F": 7
+            },
+            "Zack": {
+                "I.S.D.F": 24,
+                "Scion": 3,
+                "Hadean": 3
+            },
+            "Zentuski": {
+                "I.S.D.F": 2
+            },
+            "Cyber": {
+                "Scion": 4,
+                "I.S.D.F": 14
+            },
+            "Econchump": {
+                "I.S.D.F": 9,
+                "Scion": 1
+            },
+            "Domakus": {
+                "Hadean": 3,
+                "Scion": 7,
+                "I.S.D.F": 6
+            },
+            "Xohm": {
+                "I.S.D.F": 21,
+                "Scion": 14,
+                "Hadean": 2
+            },
+            "Acolyte": {
+                "Hadean": 2,
+                "I.S.D.F": 1
+            },
+            "Laguna": {
+                "I.S.D.F": 2
+            },
+            "Judgeguns": {
+                "I.S.D.F": 5
+            },
+            "X-Triage": {
+                "I.S.D.F": 8
+            },
+            "Xpi": {
+                "I.S.D.F": 11,
+                "Scion": 3
+            },
+            "CamelBay": {
+                "I.S.D.F": 1,
+                "Hadean": 1
+            },
+            "DustRider": {
+                "I.S.D.F": 1
+            },
+            "HappyOtter": {
+                "Hadean": 2,
+                "I.S.D.F": 2,
+                "Scion": 2
+            },
+            "Seige": {
+                "I.S.D.F": 4
+            },
+            "DatGuy": {
+                "I.S.D.F": 1
+            },
+            "Cloaket": {
+                "I.S.D.F": 1
+            },
+            "Rosario": {
+                "I.S.D.F": 1,
+                "Hadean": 8
+            },
+            "General BlackDragon": {
+                "I.S.D.F": 1
+            },
+            "Nielk1": {
+                "I.S.D.F": 1
+            },
+            "Maverick": {
+                "I.S.D.F": 2
+            },
+            "Athelas": {
+                "I.S.D.F": 1
+            },
+            "DesUxS": {
+                "I.S.D.F": 4
+            },
+            "Shock": {
+                "I.S.D.F": 4
+            },
+            "MAX": {
+                "I.S.D.F": 1
+            },
+            "SpaceWars": {
+                "I.S.D.F": 1
+            }
+        },
+        "combine_commander_win_percentages": [
+            [
+                "DatGuy",
+                100.0,
+                1,
+                1
+            ],
+            [
+                "Cloaket",
+                100.0,
+                1,
+                1
+            ],
+            [
+                "General BlackDragon",
+                100.0,
+                1,
+                1
+            ],
+            [
+                "Shock",
+                100.0,
+                4,
+                4
+            ],
+            [
+                "MAX",
+                100.0,
+                1,
+                1
+            ],
+            [
+                "DD",
+                73.33333333333333,
+                15,
+                11
+            ],
+            [
+                "Sly",
+                73.33333333333333,
+                30,
+                22
+            ],
+            [
+                "Domakus",
+                68.75,
+                16,
+                11
+            ],
+            [
+                "Blue Banana",
+                66.66666666666666,
+                54,
+                36
+            ],
+            [
+                "Cyber",
+                66.66666666666666,
+                18,
+                12
+            ],
+            [
+                "Muffin",
+                65.0,
+                20,
+                13
+            ],
+            [
+                "F9bomber",
+                58.65384615384615,
+                104,
+                61
+            ],
+            [
+                "VTrider",
+                54.0,
+                100,
+                54
+            ],
+            [
+                "Lamper",
+                51.61290322580645,
+                31,
+                16
+            ],
+            [
+                "Sev",
+                50.90909090909091,
+                55,
+                28
+            ],
+            [
+                "Econchump",
+                50.0,
+                10,
+                5
+            ],
+            [
+                "Laguna",
+                50.0,
+                2,
+                1
+            ],
+            [
+                "Seige",
+                50.0,
+                4,
+                2
+            ],
+            [
+                "M.S",
+                46.34146341463415,
+                41,
+                19
+            ],
+            [
+                "Rosario",
+                44.44444444444444,
+                9,
+                4
+            ],
+            [
+                "Xpi",
+                35.714285714285715,
+                14,
+                5
+            ],
+            [
+                "HappyOtter",
+                33.33333333333333,
+                6,
+                2
+            ],
+            [
+                "Xohm",
+                32.432432432432435,
+                37,
+                12
+            ],
+            [
+                "Herp McDerperson",
+                31.57894736842105,
+                19,
+                6
+            ],
+            [
+                "Zack",
+                30.0,
+                30,
+                9
+            ],
+            [
+                "AI_Unit",
+                28.57142857142857,
+                7,
+                2
+            ],
+            [
+                "Nozza34",
+                25.0,
+                4,
+                1
+            ],
+            [
+                "X-Triage",
+                25.0,
+                8,
+                2
+            ],
+            [
+                "DesUxS",
+                25.0,
+                4,
+                1
+            ],
+            [
+                "Judgeguns",
+                20.0,
+                5,
+                1
+            ],
+            [
+                "Darkvale",
+                18.181818181818183,
+                11,
+                2
+            ],
+            [
+                "Jabbapop",
+                14.285714285714285,
+                21,
+                3
+            ],
+            [
+                "Gravey",
+                14.285714285714285,
+                14,
+                2
+            ],
+            [
+                "Zentuski",
+                0.0,
+                2,
+                0
+            ],
+            [
+                "Acolyte",
+                0.0,
+                3,
+                0
+            ],
+            [
+                "CamelBay",
+                0.0,
+                2,
+                0
+            ],
+            [
+                "DustRider",
+                0.0,
+                1,
+                0
+            ],
+            [
+                "Nielk1",
+                0.0,
+                1,
+                0
+            ],
+            [
+                "Maverick",
+                0.0,
+                2,
+                0
+            ],
+            [
+                "Athelas",
+                0.0,
+                1,
+                0
+            ],
+            [
+                "SpaceWars",
+                0.0,
+                1,
+                0
+            ]
+        ]
     },
     "BZCC-2025-Tournament": {
         "raw": {
