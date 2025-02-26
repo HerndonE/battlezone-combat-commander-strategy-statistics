@@ -179,7 +179,7 @@ for file_path, year in files:
         f'data_{year}': processed_data
     }
 
-def combine_map_counts(data):
+def process_map_counts(data):
     keys = list(data.keys())
     combined_counts = {}
 
@@ -196,7 +196,7 @@ def combine_map_counts(data):
     return combined_counts
 
 
-def combine_most_played_factions(data):
+def process_most_played_factions(data):
     keys = list(data.keys())
     combined_counts = {}
 
@@ -215,7 +215,7 @@ def combine_most_played_factions(data):
     return result
 
 
-def combine_commander_faction_counts(data):
+def process_commander_faction_counts(data):
     keys = list(data.keys())
     combined_counts = {}
 
@@ -236,7 +236,7 @@ def combine_commander_faction_counts(data):
     return combined_counts
 
 
-def combine_commander_win_percentages(data):
+def process_commander_win_percentages(data):
     combined_counts = {}
 
     # Iterate through each key in the data
@@ -266,11 +266,33 @@ def combine_commander_win_percentages(data):
     return combined_commander_win_percentages
 
 
-output_data["combined_data"] = {
-    "combined_map_counts": combine_map_counts(output_data),
-    "combined_most_played_factions": combine_most_played_factions(output_data),
-    "combined_commander_faction_counts": combine_commander_faction_counts(output_data),
-    "combine_commander_win_percentages": combine_commander_win_percentages(output_data)
+def process_commander_list(data):
+    combined_counts = {}
+
+    # Iterate through each key in the data
+    for key in data:
+        # Extract the "commander_list" for the current key
+        commander_list = data[key][f"data_{key}"]["commander_list"]
+
+        # Iterate through each commander in the list
+        for commander, count in commander_list:
+            # Add the count to the corresponding commander's total
+            if commander in combined_counts:
+                combined_counts[commander] += count
+            else:
+                combined_counts[commander] = count
+
+    # Convert the dictionary to a list of tuples if needed
+    combined_list = sorted(combined_counts.items(), key=lambda x: x[1], reverse=True)
+    return combined_list
+
+
+output_data["processed_data"] = {
+    "processed_map_counts": process_map_counts(output_data),
+    "processed_most_played_factions": process_most_played_factions(output_data),
+    "processed_commander_faction_counts": process_commander_faction_counts(output_data),
+    "processed_commander_win_percentages": process_commander_win_percentages(output_data),
+    "processed_commander_list" : process_commander_list(output_data)
 }
 
 # Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
