@@ -1,73 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Battlezone Combat Commander Strategy Statistics</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      color: #2a8bf2;
-    }
-    .repo-info {
-      margin-bottom: 20px;
-    }
-    pre {
-      white-space: pre-wrap;       /* Ensures the JSON content wraps */
-      word-wrap: break-word;       /* Allows the content to wrap */
-      background-color: #f4f4f4;  /* Light grey background */
-      padding: 10px;
-      border-radius: 4px;
-      max-height: 500px;
-      overflow-y: auto;            /* Adds a scrollbar if the content overflows */
-    }
-    a {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Battlezone Combat Commander Strategy Statistics</h1>
-
-  <div class="repo-info">
-    <p>This page displays the strategy statistics for Battlezone Combat Commander from the repository:</p>
-    <p><strong>Repository:</strong> Battlezone Combat Commander Strategy Statistics</p>
-    <p><strong>Repository URL:</strong> <a href="https://github.com/herndone/battlezone-combat-commander-strategy-statistics" target="_blank">View Repository on GitHub</a></p>
-    <p><strong>Raw JSON Data:</strong> <a href="https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json" target="_blank">View Raw JSON File</a></p>
-  </div>
-
-  <h2>Strategy Statistics JSON Data</h2>
-
-  <div id="jsonContent">
-    <p>Loading JSON data...</p>
-  </div>
-
-  <script>
-    // URL to the raw JSON file
-    const jsonUrl = 'https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json';
-
-    // Function to fetch JSON data from the URL and display it
-    async function fetchJsonData() {
-      try {
-        const response = await fetch(jsonUrl);
-        const data = await response.json();
-
-        // Render the JSON data in a formatted way
-        const jsonContentElement = document.getElementById('jsonContent');
-        jsonContentElement.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
-      } catch (error) {
-        console.error('Error fetching JSON:', error);
-        document.getElementById('jsonContent').innerHTML = '<p>Error loading JSON data.</p>';
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark" />
+    <title>Battlezone Combat Commander Strategy Statistics</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
       }
-    }
 
-    // Fetch JSON data when the page loads
-    window.onload = fetchJsonData;
-  </script>
+      h1 {
+        color: #2a8bf2;
+      }
 
-</body>
+      .repo-info {
+        margin-bottom: 20px;
+      }
+
+      pre {
+        white-space: pre-wrap;
+        /* Ensures the JSON content wraps */
+        word-wrap: break-word;
+        /* Allows the content to wrap */
+        padding: 10px;
+        border-radius: 4px;
+        max-height: 500px;
+        overflow-y: auto;
+        /* Adds a scrollbar if the content overflows */
+      }
+
+      a {
+        color: #007bff;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div align="center">
+      <img src="https://raw.githubusercontent.com/HerndonE/battlezone-combat-commander-strategy-statistics/refs/heads/main/assets/images/api-icon.png" alt="logo" width="150" height="auto" />
+      <h1>Battlezone Combat Commander Strategy Statistics</h1>
+          <p align="center">
+     <a href=""><img src="https://img.shields.io/github/languages/top/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Languages" /></a>
+     <a href=""><img src="https://img.shields.io/github/repo-size/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Code Size" /></a>
+     <a href=""><img src="https://img.shields.io/github/last-commit/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Last Commit" /></a>
+     <a href=""><img src="https://img.shields.io/github/actions/workflow/status/HerndonE/battlezone-combat-commander-strategy-statistics/ci.yml" alt="GitHub Actions Workflow Status" /></a>
+    </p>
+  </div>
+    </div>
+    <div class="repo-info">
+      <p>This page displays the statistics for Battlezone Combat Commander strategy games from the repository:</p>
+      <p>
+        <strong>Repository:</strong> Battlezone Combat Commander Strategy Statistics
+      </p>
+      <p>
+        <strong>Repository URL:</strong>
+        <a href="https://github.com/herndone/battlezone-combat-commander-strategy-statistics" target="_blank">View Repository on GitHub</a>
+      </p>
+      <p>
+        <strong>Raw JSON Data:</strong>
+        <a href="https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json" target="_blank">View Raw JSON File</a>
+      </p>
+    </div>
+    <h2>Strategy Statistics JSON Data</h2>
+    <div id="jsonContent">
+      <p>Loading JSON data...</p>
+    </div>
+    <script src="https://unpkg.com/json-format-highlight@1.0.4/dist/json-format-highlight.js"></script>
+    <script>
+      const jsonUrl = 'https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json';
+      const darkJSON = {
+        keyColor: "rgb(156, 220, 254)",
+        stringColor: "rgb(214, 157, 133)",
+        numberColor: "rgb(184, 215, 163)",
+        nullColor: "rgb(86, 156, 214)",
+        trueColor: "rgb(86, 156, 214)",
+        falseColor: "rgb(86, 156, 214)",
+      };
+      const lightJSON = {
+        keyColor: "rgb(84, 84, 84)",
+        stringColor: "rgb(0, 128, 0)",
+        trueColor: "rgb(170, 93, 0)",
+        falseColor: "rgb(170, 93, 0)",
+        numberColor: "rgb(170, 93, 0)",
+      };
+      // Function to fetch JSON data from the URL and display it
+      async function fetchJsonData() {
+        try {
+          const response = await fetch(jsonUrl);
+          const data = await response.json();
+          // Render the JSON data in a formatted way
+          const jsonContentElement = document.getElementById('jsonContent');
+          const jsonFormatted = JSON.stringify(data, null, 2);
+          // Highlight based on color scheme
+          const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
+          darkModePreference.addEventListener("change", highlight);
+
+          function highlight() {
+            const highlighted = jsonFormatHighlight(jsonFormatted, darkModePreference.matches ? darkJSON : lightJSON);
+            jsonContentElement.innerHTML = ' <pre> ' + highlighted + ' </pre>';
+          }
+          highlight(); // Initial highlight when data is fetched
+        } catch (error) {
+          console.error('Error fetching JSON:', error);
+          document.getElementById('jsonContent').innerHTML = ' <p> Error loading JSON data. </p>';
+        }
+      }
+      // Fetch JSON data when the page loads
+      window.onload = fetchJsonData;
+    </script>
+  </body>
 </html>

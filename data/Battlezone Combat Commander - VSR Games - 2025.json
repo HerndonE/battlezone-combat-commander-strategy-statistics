@@ -936,6 +936,38 @@
 						"Zack"
 					]
 				}
+			},
+			"02.26.25": {
+				"Europa": {
+					"date": "02.26.25",
+					"map": "Europa",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "14:14",
+					"teamOne": [
+						"Maverick"
+					],
+					"teamTwo": [
+						"Rosario"
+					]
+				},
+				"Europa": {
+					"date": "02.26.25",
+					"map": "Europa",
+					"commanders": "Maverick vs Rosario",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Rosario",
+					"time": "42:27",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Sev"
+					]
+				}
 			}
 		}
 	}
