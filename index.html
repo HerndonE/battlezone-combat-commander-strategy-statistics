@@ -34,6 +34,27 @@
       a {
         color: #007bff;
       }
+
+      .content-container {
+        max-width: 1000px;
+        /* You can adjust this width to match the size of the first section */
+        margin: 0 auto;
+      }
+
+      .repo-info {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+      }
+
+      #jsonContent {
+        text-align: left;
+        margin-top: 20px;
+      }
+
+      h2 {
+        text-align: center;
+      }
       }
     </style>
   </head>
@@ -47,25 +68,27 @@
      <a href=""><img src="https://img.shields.io/github/last-commit/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Last Commit" /></a>
      <a href=""><img src="https://img.shields.io/github/actions/workflow/status/HerndonE/battlezone-combat-commander-strategy-statistics/ci.yml" alt="GitHub Actions Workflow Status" /></a>
     </p>
-  </div>
     </div>
-    <div class="repo-info">
-      <p>This page displays the statistics for Battlezone Combat Commander strategy games from the repository:</p>
-      <p>
-        <strong>Repository:</strong> Battlezone Combat Commander Strategy Statistics
-      </p>
-      <p>
-        <strong>Repository URL:</strong>
-        <a href="https://github.com/herndone/battlezone-combat-commander-strategy-statistics" target="_blank">View Repository on GitHub</a>
-      </p>
-      <p>
-        <strong>Raw JSON Data:</strong>
-        <a href="https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json" target="_blank">View Raw JSON File</a>
-      </p>
-    </div>
-    <h2>Strategy Statistics JSON Data</h2>
-    <div id="jsonContent">
-      <p>Loading JSON data...</p>
+    <!-- Content Container -->
+    <div class="content-container">
+      <div class="repo-info">
+        <p>This page displays the statistics for Battlezone Combat Commander strategy games from the repository:</p>
+        <p>
+          <strong>Repository:</strong> Battlezone Combat Commander Strategy Statistics
+        </p>
+        <p>
+          <strong>Repository URL:</strong>
+          <a href="https://github.com/herndone/battlezone-combat-commander-strategy-statistics" target="_blank">View Repository on GitHub</a>
+        </p>
+        <p>
+          <strong>Raw JSON Data:</strong>
+          <a href="https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json" target="_blank">View Raw JSON File</a>
+        </p>
+      </div>
+      <h2>Strategy Statistics JSON Data</h2>
+      <div id="jsonContent">
+        <p>Loading JSON data...</p>
+      </div>
     </div>
     <script src="https://unpkg.com/json-format-highlight@1.0.4/dist/json-format-highlight.js"></script>
     <script>
@@ -99,12 +122,12 @@
 
           function highlight() {
             const highlighted = jsonFormatHighlight(jsonFormatted, darkModePreference.matches ? darkJSON : lightJSON);
-            jsonContentElement.innerHTML = ' <pre> ' + highlighted + ' </pre>';
+            jsonContentElement.innerHTML = '  <pre> ' + highlighted + ' </pre>';
           }
           highlight(); // Initial highlight when data is fetched
         } catch (error) {
           console.error('Error fetching JSON:', error);
-          document.getElementById('jsonContent').innerHTML = ' <p> Error loading JSON data. </p>';
+          document.getElementById('jsonContent').innerHTML = '  <p> Error loading JSON data. </p>';
         }
       }
       // Fetch JSON data when the page loads

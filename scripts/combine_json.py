@@ -1,6 +1,7 @@
 import json
 import os
 from collections import defaultdict, Counter
+from datetime import datetime
 
 # Define the paths to the JSON files and their corresponding years
 files = [
@@ -300,6 +301,19 @@ bzcc_2025_data = read_file('data/BZCC-2025-Tournament.json')  # Read the raw dat
 output_data["BZCC-2025-Tournament"] = {
     "raw": bzcc_2025_data
 }
+
+
+def get_timestamp():
+    # Get the current time in UTC
+    now = datetime.utcnow()
+
+    # Format the timestamp as YYYY/MM/DD HH:MM UTC
+    timestamp = now.strftime('%Y/%m/%d %H:%M%p UTC')
+
+    return timestamp
+
+
+output_data["last_updated"] = get_timestamp()
 
 # Write the combined and updated data to data.json
 with open(output_path, 'w') as output_file:
