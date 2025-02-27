@@ -450,25 +450,6 @@
 					"factions": "[Scion, I.S.D.F]",
 					"winning faction": "I.S.D.F]",
 					"winner": "Xpi",
-					"time": "8:27",
-					"teamOne": [
-						"Zack",
-						"Judgeguns",
-						"Domakus"
-					],
-					"teamTwo": [
-						"Cyber",
-						"F9bomber",
-						"Business Lawyer"
-					]
-				},
-				"Remnant": {
-					"date": "01.23.25",
-					"map": "Remnant",
-					"commanders": "Sev vs Xpi",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
-					"winner": "Xpi",
 					"time": "16:13",
 					"teamOne": [
 						"Zack",
@@ -952,7 +933,9 @@
 					"teamTwo": [
 						"Rosario"
 					]
-				},
+				}
+			},
+			"02.27.25": {
 				"Europa": {
 					"date": "02.26.25",
 					"map": "Europa",
@@ -966,6 +949,25 @@
 					],
 					"teamTwo": [
 						"Sev"
+					]
+				},
+				"Remnant": {
+					"date": "01.23.25",
+					"map": "Remnant",
+					"commanders": "Sev vs Xpi",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F]",
+					"winner": "Xpi",
+					"time": "8:27",
+					"teamOne": [
+						"Zack",
+						"Judgeguns",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Cyber",
+						"F9bomber",
+						"Business Lawyer"
 					]
 				}
 			}
