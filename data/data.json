@@ -3077,100 +3077,100 @@
                 ]
             ],
             "unique_map_values": [
-                "High & Low",
-                "Ragnarok",
-                "Royal Stadium",
-                "Scion Central",
-                "Satart",
-                "Transfer",
-                "Giza",
-                "Excavation",
-                "Strategy Arena",
-                "Prodigy Ver .2",
-                "Terrace",
-                "JO Crystal",
-                "Oasis",
-                "Dune Night",
-                "Snow Central",
-                "Europa",
-                "Oxide",
-                "Moonshroud",
-                "High Heat",
-                "Aztec",
-                "Plus",
-                "Sahara",
-                "Quagmire",
-                "Mort's Wasteland",
-                "Madern Warfare",
-                "Iraq",
-                "Bridges",
-                "Chill",
-                "Barren",
-                "Lunar",
-                "Ancient Hills",
-                "Plaza",
-                "Mexcian Mission",
-                "Abundance",
-                "Rendon",
-                "Remnant",
-                "310",
-                "Oldboy",
-                "Alien Dunes",
-                "Ridges",
-                "Hound",
-                "Selena",
-                "Abuse",
-                "Ravine",
-                "Sinister",
-                "Forgotten",
-                "Pitbull",
                 "Ogg Vorbis",
-                "Echelon",
-                "Stone Circle",
-                "Insula",
-                "Twin Peaks",
+                "Forgotten",
                 "Ice Age",
-                "Consciousness",
-                "Domain",
-                "Garden",
-                "Vortex",
-                "Phoenix",
-                "Throbbing Gristle",
-                "No Mans Land",
-                "Trench",
-                "Beyond",
-                "Titan",
-                "Caiscus",
-                "Dusk",
-                "Bowl",
-                "Trail",
-                "Terron",
-                "Crater",
-                "Lunix",
-                "Red Slope",
-                "Europa Night",
-                "Haven",
+                "Insula",
                 "Mountain Top",
-                "Casius",
-                "Scammed",
-                "Concrete Jungle",
-                "Tempest",
-                "Redslope",
-                "Assualt",
-                "Dream",
+                "Rendon",
+                "Abundance",
+                "Satart",
+                "Strategy Arena",
+                "Oldboy",
                 "Egypt",
-                "Quarry",
-                "Rectal",
-                "Island of V8",
                 "Ebola",
-                "Mojave",
-                "Vegan",
+                "Madern Warfare",
+                "Europa",
+                "Plus",
+                "Sinister",
+                "Domain",
+                "Selena",
+                "Terrace",
+                "Scammed",
+                "Trench",
+                "JO Crystal",
+                "Garden",
+                "Lunar",
+                "Ravine",
+                "Giza",
+                "Throbbing Gristle",
+                "Oasis",
+                "Titan",
+                "Quagmire",
+                "Sahara",
+                "Overlook",
+                "Plaza",
+                "Haven",
+                "Bowl",
+                "Transfer",
                 "Phazon",
+                "Vortex",
                 "Reflex",
-                "Hi-Mid-Lo",
+                "Chill",
+                "Mexcian Mission",
+                "Iraq",
+                "Dream",
+                "Caiscus",
+                "No Mans Land",
+                "Terron",
+                "Mojave",
+                "Ragnarok",
                 "Iceberg",
+                "Trail",
                 "Mesa",
-                "Overlook"
+                "Consciousness",
+                "Ridges",
+                "Scion Central",
+                "Bridges",
+                "Moonshroud",
+                "Excavation",
+                "Crater",
+                "Aztec",
+                "Stone Circle",
+                "Island of V8",
+                "Lunix",
+                "Snow Central",
+                "Beyond",
+                "Rectal",
+                "Prodigy Ver .2",
+                "Europa Night",
+                "Tempest",
+                "Remnant",
+                "Pitbull",
+                "Assualt",
+                "Oxide",
+                "High & Low",
+                "Red Slope",
+                "Phoenix",
+                "Barren",
+                "Alien Dunes",
+                "Hound",
+                "310",
+                "Ancient Hills",
+                "Dusk",
+                "Royal Stadium",
+                "Abuse",
+                "Mort's Wasteland",
+                "Twin Peaks",
+                "Casius",
+                "Echelon",
+                "Quarry",
+                "High Heat",
+                "Concrete Jungle",
+                "Redslope",
+                "Vegan",
+                "Hi-Mid-Lo",
+                "Dune Night"
             ],
             "commander_list": [
                 [
@@ -4762,6 +4762,23 @@
                                 "Zack"
                             ]
                         }
+                    },
+                    "02.26.25": {
+                        "Europa": {
+                            "date": "02.26.25",
+                            "map": "Europa",
+                            "commanders": "Maverick vs Rosario",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Rosario",
+                            "time": "42:27",
+                            "teamOne": [
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Sev"
+                            ]
+                        }
                     }
                 }
             }
@@ -4867,34 +4884,39 @@
                 [
                     "Trench",
                     1
+                ],
+                [
+                    "Europa",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Terron",
                 "Red Slope",
-                "Europa Night",
-                "Echelon",
-                "Insula",
-                "Quagmire",
-                "Casius",
-                "Giza",
-                "Consciousness",
-                "Domain",
-                "Lunar",
-                "Garden",
-                "Fort 12C",
-                "Mojave",
-                "Remnant",
-                "Oasis",
-                "Oldboy",
-                "Snow Central",
-                "Trench",
-                "Titan",
-                "Ridges",
+                "Terron",
                 "Jade Green",
+                "Mojave",
+                "Oasis",
+                "Consciousness",
+                "Ridges",
+                "Insula",
+                "Titan",
+                "Quagmire",
                 "Hound",
                 "Overlook",
-                "Bowl"
+                "Oldboy",
+                "Bowl",
+                "Fort 12C",
+                "Europa",
+                "Snow Central",
+                "Casius",
+                "Echelon",
+                "Europa Night",
+                "Domain",
+                "Remnant",
+                "Trench",
+                "Garden",
+                "Lunar",
+                "Giza"
             ],
             "commander_list": [
                 [
@@ -4914,15 +4936,15 @@
                     9
                 ],
                 [
+                    "Rosario",
+                    9
+                ],
+                [
                     "Zack",
                     9
                 ],
                 [
                     "VTrider",
-                    8
-                ],
-                [
-                    "Rosario",
                     8
                 ],
                 [
@@ -4959,6 +4981,10 @@
                 ],
                 [
                     "Cyber",
+                    1
+                ],
+                [
+                    "Maverick",
                     1
                 ]
             ],
@@ -5024,6 +5050,12 @@
                     6
                 ],
                 [
+                    "Rosario",
+                    44.44444444444444,
+                    9,
+                    4
+                ],
+                [
                     "F9bomber",
                     41.17647058823529,
                     17,
@@ -5034,12 +5066,6 @@
                     40.0,
                     5,
                     2
-                ],
-                [
-                    "Rosario",
-                    37.5,
-                    8,
-                    3
                 ],
                 [
                     "M.S",
@@ -5058,11 +5084,17 @@
                     0.0,
                     1,
                     0
+                ],
+                [
+                    "Maverick",
+                    0.0,
+                    1,
+                    0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 45,
-                "Hadean": 33,
+                "I.S.D.F": 46,
+                "Hadean": 34,
                 "Scion": 18
             },
             "commander_faction_counts": {
@@ -5102,7 +5134,7 @@
                     "I.S.D.F": 1
                 },
                 "Rosario": {
-                    "Hadean": 8
+                    "Hadean": 9
                 },
                 "Zack": {
                     "I.S.D.F": 6,
@@ -5122,6 +5154,9 @@
                     "I.S.D.F": 1
                 },
                 "Cyber": {
+                    "I.S.D.F": 1
+                },
+                "Maverick": {
                     "I.S.D.F": 1
                 }
             },
@@ -5168,7 +5203,7 @@
                     "I.S.D.F": 1
                 },
                 "Rosario": {
-                    "Hadean": 3
+                    "Hadean": 4
                 },
                 "MAX": {
                     "I.S.D.F": 1
@@ -5190,7 +5225,7 @@
             "Remnant": 11,
             "Red Slope": 11,
             "Garden": 10,
-            "Europa": 8,
+            "Europa": 9,
             "Scammed": 8,
             "Giza": 8,
             "Europa Night": 8,
@@ -5282,9 +5317,9 @@
             "Fort 12C": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 401,
+            "I.S.D.F": 402,
             "Scion": 114,
-            "Hadean": 195
+            "Hadean": 196
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -5418,7 +5453,7 @@
             },
             "Rosario": {
                 "I.S.D.F": 1,
-                "Hadean": 8
+                "Hadean": 9
             },
             "General BlackDragon": {
                 "I.S.D.F": 1
@@ -5427,7 +5462,7 @@
                 "I.S.D.F": 1
             },
             "Maverick": {
-                "I.S.D.F": 2
+                "I.S.D.F": 3
             },
             "Athelas": {
                 "I.S.D.F": 1
@@ -5537,6 +5572,12 @@
                 28
             ],
             [
+                "Rosario",
+                50.0,
+                10,
+                5
+            ],
+            [
                 "Econchump",
                 50.0,
                 10,
@@ -5559,12 +5600,6 @@
                 46.34146341463415,
                 41,
                 19
-            ],
-            [
-                "Rosario",
-                44.44444444444444,
-                9,
-                4
             ],
             [
                 "Xpi",
@@ -5677,7 +5712,7 @@
             [
                 "Maverick",
                 0.0,
-                2,
+                3,
                 0
             ],
             [
@@ -5772,7 +5807,7 @@
             ],
             [
                 "Rosario",
-                9
+                10
             ],
             [
                 "X-Triage",
@@ -5811,6 +5846,10 @@
                 3
             ],
             [
+                "Maverick",
+                3
+            ],
+            [
                 "Zentuski",
                 2
             ],
@@ -5820,10 +5859,6 @@
             ],
             [
                 "CamelBay",
-                2
-            ],
-            [
-                "Maverick",
                 2
             ],
             [
