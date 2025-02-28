@@ -218,8 +218,8 @@
 					"map": "Mojave",
 					"commanders": "AI_Unit vs M.S",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "",
-					"winner": ""
+					"winning faction": "I.S.D.F",
+					"winner": "M.S"
 				},
 				"Red Slope": {
 					"date": "6.02.24",
