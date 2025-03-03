@@ -3077,100 +3077,100 @@
                 ]
             ],
             "unique_map_values": [
-                "Iraq",
-                "High Heat",
-                "Transfer",
-                "Beyond",
-                "Trench",
-                "Plus",
-                "Moonshroud",
-                "Vortex",
-                "Egypt",
-                "Phazon",
-                "Twin Peaks",
-                "Echelon",
-                "Mojave",
-                "Oldboy",
-                "Strategy Arena",
-                "Rectal",
-                "Royal Stadium",
-                "Quagmire",
-                "Tempest",
-                "Vegan",
-                "310",
-                "Lunix",
-                "Caiscus",
-                "Dusk",
-                "Oasis",
-                "Phoenix",
-                "Assualt",
-                "Abundance",
-                "Throbbing Gristle",
-                "High & Low",
-                "Dune Night",
+                "Trail",
                 "Scammed",
-                "Barren",
-                "Snow Central",
-                "Remnant",
-                "Terrace",
-                "Giza",
-                "Dream",
-                "Abuse",
-                "Rendon",
-                "Domain",
-                "Plaza",
+                "Stone Circle",
+                "Hi-Mid-Lo",
+                "Europa",
+                "Rectal",
+                "Beyond",
+                "Consciousness",
+                "Red Slope",
+                "Selena",
+                "Ogg Vorbis",
                 "Bowl",
-                "Europa Night",
-                "Forgotten",
-                "No Mans Land",
+                "Ridges",
+                "Tempest",
+                "Dusk",
+                "Trench",
+                "Royal Stadium",
+                "Abundance",
+                "Egypt",
+                "Vortex",
                 "Terron",
                 "Mort's Wasteland",
-                "Prodigy Ver .2",
-                "Island of V8",
-                "Alien Dunes",
-                "Ancient Hills",
-                "Ogg Vorbis",
-                "Selena",
-                "Sahara",
-                "Europa",
-                "Consciousness",
-                "Satart",
-                "Ravine",
-                "Mexcian Mission",
-                "Aztec",
-                "Mesa",
-                "Scion Central",
-                "Ridges",
-                "Quarry",
-                "Iceberg",
                 "Ragnarok",
-                "Concrete Jungle",
-                "Sinister",
-                "Reflex",
-                "Oxide",
-                "Stone Circle",
-                "Mountain Top",
-                "Ebola",
-                "Redslope",
-                "Hound",
-                "Trail",
-                "Madern Warfare",
+                "Strategy Arena",
+                "Ravine",
+                "Alien Dunes",
+                "Plaza",
                 "Overlook",
-                "Red Slope",
-                "JO Crystal",
-                "Titan",
-                "Insula",
-                "Haven",
+                "Phazon",
+                "Phoenix",
+                "Mesa",
+                "Concrete Jungle",
+                "Snow Central",
+                "Reflex",
+                "Dune Night",
                 "Casius",
-                "Lunar",
-                "Chill",
-                "Excavation",
-                "Pitbull",
-                "Ice Age",
+                "Aztec",
+                "310",
+                "Plus",
+                "Insula",
+                "Oldboy",
                 "Bridges",
+                "Hound",
+                "Moonshroud",
+                "Transfer",
+                "Chill",
+                "Europa Night",
+                "Prodigy Ver .2",
+                "Lunar",
+                "Ice Age",
+                "Satart",
+                "Excavation",
+                "Scion Central",
+                "Abuse",
+                "Sahara",
+                "Lunix",
+                "Oxide",
+                "Barren",
+                "Haven",
+                "Twin Peaks",
+                "Ebola",
+                "JO Crystal",
+                "Quagmire",
+                "Sinister",
+                "Echelon",
+                "Caiscus",
+                "Terrace",
+                "Iceberg",
+                "Forgotten",
+                "Crater",
+                "Ancient Hills",
+                "No Mans Land",
+                "Vegan",
+                "Mexcian Mission",
+                "Giza",
+                "Domain",
+                "High & Low",
+                "Oasis",
+                "Throbbing Gristle",
+                "Titan",
+                "Redslope",
                 "Garden",
-                "Hi-Mid-Lo",
-                "Crater"
+                "Quarry",
+                "Pitbull",
+                "High Heat",
+                "Madern Warfare",
+                "Rendon",
+                "Assualt",
+                "Mojave",
+                "Dream",
+                "Iraq",
+                "Island of V8",
+                "Remnant",
+                "Mountain Top"
             ],
             "commander_list": [
                 [
@@ -4927,32 +4927,32 @@
                 ]
             ],
             "unique_map_values": [
-                "Fort 12C",
                 "Terron",
-                "Oasis",
                 "Hound",
-                "Trench",
-                "Jade Green",
-                "Overlook",
-                "Titan",
-                "Red Slope",
-                "Insula",
-                "Snow Central",
-                "Remnant",
-                "Echelon",
-                "Giza",
-                "Mojave",
-                "Consciousness",
-                "Casius",
-                "Oldboy",
-                "Lunar",
+                "Fort 12C",
                 "Europa",
-                "Ridges",
+                "Consciousness",
+                "Europa Night",
+                "Red Slope",
+                "Giza",
                 "Domain",
-                "Quagmire",
+                "Overlook",
+                "Oasis",
+                "Lunar",
+                "Titan",
                 "Bowl",
                 "Garden",
-                "Europa Night"
+                "Snow Central",
+                "Ridges",
+                "Casius",
+                "Trench",
+                "Mojave",
+                "Quagmire",
+                "Echelon",
+                "Jade Green",
+                "Remnant",
+                "Insula",
+                "Oldboy"
             ],
             "commander_list": [
                 [
@@ -5933,56 +5933,297 @@
     },
     "BZCC-2025-Tournament": {
         "raw": {
-            "year": "2025",
-            "month": {
-                "February": {
-                    "2.15.25": {
-                        "Mojave": {
-                            "map": "Mojave",
-                            "date": "2.15.25",
-                            "round #": "1",
-                            "teams": "Juliet vs Golf",
-                            "factions": "[Hadean, I.S.D.F]",
-                            "winner": "Juliet",
-                            "commander-team-one": "F9bomber",
-                            "commander-team-two": "Maverick"
-                        },
-                        "Red Slope": {
-                            "map": "Red Slope",
-                            "date": "2.15.25",
-                            "round #": "2",
-                            "teams": "Juliet vs Golf",
-                            "factions": "[I.S.D.F, Hadean]",
-                            "winner": "Juliet",
-                            "commander-team-one": "SpaceWars",
-                            "commander-team-two": "DriveLine"
-                        }
+            "February": {
+                "2.15.25": {
+                    "Mojave": {
+                        "map": "Mojave",
+                        "date": "2.15.25",
+                        "round #": "1",
+                        "teams": "Juliet vs Golf",
+                        "factions": "[Hadean, I.S.D.F]",
+                        "winner": "Juliet",
+                        "time": "20:45",
+                        "commander-team-one": "F9bomber",
+                        "commander-team-two": "Maverick"
                     },
-                    "2.16.25": {
-                        "Red Slope": {
+                    "Red Slope": {
+                        "map": "Red Slope",
+                        "date": "2.15.25",
+                        "round #": "2",
+                        "teams": "Juliet vs Golf",
+                        "factions": "[I.S.D.F, Hadean]",
+                        "winner": "Juliet",
+                        "time": "16:39",
+                        "commander-team-one": "SpaceWars",
+                        "commander-team-two": "DriveLine"
+                    }
+                },
+                "2.16.25": {
+                    "Red Slope": {
+                        "map": "Red Slope",
+                        "date": "2.16.25",
+                        "round #": "1",
+                        "teams": "Juliet vs Echo",
+                        "factions": "[Hadean, Hadean]",
+                        "winner": "Juliet",
+                        "time": "15:10",
+                        "commander-team-one": "F9bomber",
+                        "commander-team-two": "Shock"
+                    },
+                    "Terron": {
+                        "map": "Terron",
+                        "date": "2.16.25",
+                        "round #": "2",
+                        "teams": "Juliet vs Echo",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winner": "Juliet",
+                        "time": "17:47",
+                        "commander-team-one": "SpaceWars",
+                        "commander-team-two": "Pantouf"
+                    }
+                },
+                "2.20.25": {
+                    "Scammed": {
+                        "map": "Scammed",
+                        "date": "2.20.25",
+                        "round #": "1",
+                        "teams": "Golf vs Delta",
+                        "factions": "[Hadean, Scion]",
+                        "winner": "Delta",
+                        "time": "10:51",
+                        "commander-team-one": "DriveLine",
+                        "commander-team-two": "Domakus"
+                    },
+                    "Europa": {
+                        "map": "Europa",
+                        "date": "2.20.25",
+                        "round #": "2",
+                        "teams": "Golf vs Delta",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winner": "Delta",
+                        "time": "20:02",
+                        "commander-team-one": "Maverick",
+                        "commander-team-two": "GrizzlyOne95"
+                    }
+                },
+                "2.23.25": {
+                    "Red Slope": [
+                        {
                             "map": "Red Slope",
-                            "date": "2.16.25",
+                            "date": "2.23.25",
                             "round #": "1",
-                            "teams": "Juliet vs Echo",
-                            "factions": "[Hadean, Hadean]",
-                            "winner": "Juliet",
-                            "commander-team-one": "F9bomber",
-                            "commander-team-two": "Shock"
-                        },
-                        "Terron": {
-                            "map": "Terron",
-                            "date": "2.16.25",
-                            "round #": "2",
-                            "teams": "Juliet vs Echo",
+                            "teams": "Golf vs Alpha",
                             "factions": "[I.S.D.F, I.S.D.F]",
-                            "winner": "Juliet",
-                            "commander-team-one": "SpaceWars",
-                            "commander-team-two": "Pantouf"
+                            "winner": "Alpha",
+                            "time": "19:03",
+                            "commander-team-one": "DriveLine",
+                            "commander-team-two": "Zack"
+                        },
+                        {
+                            "map": "Red Slope",
+                            "date": "2.23.25",
+                            "round #": "1",
+                            "teams": "Bravo vs Echo",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winner": "Bravo",
+                            "time": "20:44",
+                            "commander-team-one": "Gravey",
+                            "commander-team-two": "Shock"
                         }
+                    ],
+                    "Terron": [
+                        {
+                            "map": "Terron",
+                            "date": "2.23.25",
+                            "round #": "2",
+                            "teams": "Golf vs Alpha",
+                            "factions": "[Scion, Hadean]",
+                            "winner": "Golf",
+                            "time": "18:22",
+                            "commander-team-one": "Maverick",
+                            "commander-team-two": "Bylarge"
+                        },
+                        {
+                            "map": "Terron",
+                            "date": "2.23.25",
+                            "round #": "2",
+                            "teams": "Foxtrot vs Bravo",
+                            "factions": "[Hadean, I.S.D.F]",
+                            "winner": "Foxtrot",
+                            "time": "12:57",
+                            "commander-team-one": "Rosario",
+                            "commander-team-two": "sahd0w"
+                        }
+                    ],
+                    "Mojave": {
+                        "map": "Mojave",
+                        "date": "2.23.25",
+                        "round #": "3",
+                        "teams": "Golf vs Alpha",
+                        "factions": "[Hadean, Scion]",
+                        "winner": "Alpha",
+                        "time": "31:39",
+                        "commander-team-one": "Maverick",
+                        "commander-team-two": "Zack"
+                    },
+                    "Europa": {
+                        "map": "Europa",
+                        "date": "2.23.25",
+                        "round #": "2",
+                        "teams": "Bravo vs Echo",
+                        "factions": "[I.S.D.F, Hadean]",
+                        "winner": "Bravo",
+                        "time": "50:40",
+                        "commander-team-one": "sahd0w",
+                        "commander-team-two": "Pantouf"
+                    },
+                    "Giza": {
+                        "map": "Giza",
+                        "date": "2.23.25",
+                        "round #": "1",
+                        "teams": "Foxtrot vs Bravo",
+                        "factions": "[I.S.D.F, Scion]",
+                        "winner": "Foxtrot",
+                        "time": "17:38",
+                        "commander-team-one": "Sev",
+                        "commander-team-two": "Gravey"
+                    }
+                },
+                "2.26.25": {
+                    "Red Slope": {
+                        "map": "Red Slope",
+                        "date": "2.26.25",
+                        "round #": "1",
+                        "teams": "Golf vs Foxtrot",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winner": "Foxtrot",
+                        "time": "16:23",
+                        "commander-team-one": "Maverick",
+                        "commander-team-two": "Sev"
+                    },
+                    "Overlook": {
+                        "map": "Overlook",
+                        "date": "2.26.25",
+                        "round #": "2",
+                        "teams": "Golf vs Foxtrot",
+                        "factions": "[Hadean, Hadean]",
+                        "winner": "Foxtrot",
+                        "time": "8:28",
+                        "commander-team-one": "DriveLine",
+                        "commander-team-two": "Rosario"
+                    }
+                },
+                "2.27.25": {
+                    "Europa": {
+                        "map": "Europa",
+                        "date": "2.27.25",
+                        "round #": "1",
+                        "teams": "Juliet vs Alpha",
+                        "factions": "[Hadean, I.S.D.F]",
+                        "winner": "Juliet",
+                        "time": "24:48",
+                        "commander-team-one": "F9bomber",
+                        "commander-team-two": "Zack"
+                    },
+                    "Terron": {
+                        "map": "Terron",
+                        "date": "2.27.25",
+                        "round #": "2",
+                        "teams": "Juliet vs Alpha",
+                        "factions": "[I.S.D.F, Hadean]",
+                        "winner": "Alpha",
+                        "time": "19:56",
+                        "commander-team-one": "SpaceWars",
+                        "commander-team-two": "Bylarge"
+                    },
+                    "Mojave": {
+                        "map": "Mojave",
+                        "date": "2.27.25",
+                        "round #": "3",
+                        "teams": "Juliet vs Alpha",
+                        "factions": "[Scion, Scion]",
+                        "winner": "Juliet",
+                        "time": "28:51",
+                        "commander-team-one": "F9bomber",
+                        "commander-team-two": "Zack"
                     }
                 }
             }
+        },
+        "most_played_maps": [
+            [
+                "Red Slope",
+                5
+            ],
+            [
+                "Terron",
+                4
+            ],
+            [
+                "Mojave",
+                3
+            ],
+            [
+                "Europa",
+                3
+            ],
+            [
+                "Scammed",
+                1
+            ],
+            [
+                "Giza",
+                1
+            ],
+            [
+                "Overlook",
+                1
+            ]
+        ],
+        "game_times": {
+            "average_time": "20:36",
+            "longest_time": {
+                "time": "50:40",
+                "data": {
+                    "map": "Europa",
+                    "date": "2.23.25",
+                    "round #": "2",
+                    "teams": "Bravo vs Echo",
+                    "factions": "[I.S.D.F, Hadean]",
+                    "winner": "Bravo",
+                    "time": "50:40",
+                    "commander-team-one": "sahd0w",
+                    "commander-team-two": "Pantouf"
+                }
+            },
+            "shortest_time": {
+                "time": "8:28",
+                "data": {
+                    "map": "Overlook",
+                    "date": "2.26.25",
+                    "round #": "2",
+                    "teams": "Golf vs Foxtrot",
+                    "factions": "[Hadean, Hadean]",
+                    "winner": "Foxtrot",
+                    "time": "8:28",
+                    "commander-team-one": "DriveLine",
+                    "commander-team-two": "Rosario"
+                }
+            }
+        },
+        "popular_matchups": {
+            "[Hadean, I.S.D.F]": 6,
+            "[I.S.D.F, I.S.D.F]": 4,
+            "[Hadean, Scion]": 3,
+            "[Hadean, Hadean]": 2,
+            "[I.S.D.F, Scion]": 2,
+            "[Scion, Scion]": 1
+        },
+        "faction_counts": {
+            "I.S.D.F": 16,
+            "Hadean": 13,
+            "Scion": 7
         }
     },
-    "last_updated": "2025/02/28 02:05AM UTC"
+    "last_updated": "2025/03/03 04:20AM UTC"
 }
