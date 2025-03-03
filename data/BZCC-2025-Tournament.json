@@ -10,6 +10,7 @@
 					"teams": "Juliet vs Golf",
 					"factions": "[Hadean, I.S.D.F]",
 					"winner": "Juliet",
+					"time": "20:45",
 					"commander-team-one": "F9bomber",
 					"commander-team-two": "Maverick"
 				},
@@ -20,6 +21,7 @@
 					"teams": "Juliet vs Golf",
 					"factions": "[I.S.D.F, Hadean]",
 					"winner": "Juliet",
+					"time": "16:39",
 					"commander-team-one": "SpaceWars",
 					"commander-team-two": "DriveLine"
 				}
@@ -32,6 +34,7 @@
 					"teams": "Juliet vs Echo",
 					"factions": "[Hadean, Hadean]",
 					"winner": "Juliet",
+					"time": "15:10",
 					"commander-team-one": "F9bomber",
 					"commander-team-two": "Shock"
 				},
@@ -42,10 +45,251 @@
 					"teams": "Juliet vs Echo",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winner": "Juliet",
+					"time": "17:47",
 					"commander-team-one": "SpaceWars",
 					"commander-team-two": "Pantouf"
 				}
+			},
+			"2.20.25": {
+				"Scammed": {
+					"map": "Scammed",
+					"date": "2.20.25",
+					"round #": "1",
+					"teams": "Golf vs Delta",
+					"factions": "[Hadean, Scion]",
+					"winner": "Delta",
+					"time": "10:51",
+					"commander-team-one": "DriveLine",
+					"commander-team-two": "Domakus"
+				},
+				"Europa": {
+					"map": "Europa",
+					"date": "2.20.25",
+					"round #": "2",
+					"teams": "Golf vs Delta",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winner": "Delta",
+					"time": "20:02",
+					"commander-team-one": "Maverick",
+					"commander-team-two": "GrizzlyOne95"
+				}
+			},
+			"2.23.25": {
+				"Red Slope": [
+					{
+						"map": "Red Slope",
+						"date": "2.23.25",
+						"round #": "1",
+						"teams": "Golf vs Alpha",
+						"factions": "[I.S.D.F, I.S.D.F]",
+						"winner": "Alpha",
+						"time": "19:03",
+						"commander-team-one": "DriveLine",
+						"commander-team-two": "Zack"
+					},
+					{
+						"map": "Red Slope",
+						"date": "2.23.25",
+						"round #": "1",
+						"teams": "Bravo vs Echo",
+						"factions": "[Scion, I.S.D.F]",
+						"winner": "Bravo",
+						"time": "20:44",
+						"commander-team-one": "Gravey",
+						"commander-team-two": "Shock"
+					}
+				],
+				"Terron": [
+					{
+						"map": "Terron",
+						"date": "2.23.25",
+						"round #": "2",
+						"teams": "Golf vs Alpha",
+						"factions": "[Scion, Hadean]",
+						"winner": "Golf",
+						"time": "18:22",
+						"commander-team-one": "Maverick",
+						"commander-team-two": "Bylarge"
+					},
+					{
+						"map": "Terron",
+						"date": "2.23.25",
+						"round #": "2",
+						"teams": "Foxtrot vs Bravo",
+						"factions": "[Hadean, I.S.D.F]",
+						"winner": "Foxtrot",
+						"time": "12:57",
+						"commander-team-one": "Rosario",
+						"commander-team-two": "sahd0w"
+					}
+				],
+				"Mojave": {
+					"map": "Mojave",
+					"date": "2.23.25",
+					"round #": "3",
+					"teams": "Golf vs Alpha",
+					"factions": "[Hadean, Scion]",
+					"winner": "Alpha",
+					"time": "31:39",
+					"commander-team-one": "Maverick",
+					"commander-team-two": "Zack"
+				},
+				"Europa": {
+					"map": "Europa",
+					"date": "2.23.25",
+					"round #": "2",
+					"teams": "Bravo vs Echo",
+					"factions": "[I.S.D.F, Hadean]",
+					"winner": "Bravo",
+					"time": "50:40",
+					"commander-team-one": "sahd0w",
+					"commander-team-two": "Pantouf"
+				},
+				"Giza": {
+					"map": "Giza",
+					"date": "2.23.25",
+					"round #": "1",
+					"teams": "Foxtrot vs Bravo",
+					"factions": "[I.S.D.F, Scion]",
+					"winner": "Foxtrot",
+					"time": "17:38",
+					"commander-team-one": "Sev",
+					"commander-team-two": "Gravey"
+				}
+			},
+			"2.26.25": {
+				"Red Slope": {
+					"map": "Red Slope",
+					"date": "2.26.25",
+					"round #": "1",
+					"teams": "Golf vs Foxtrot",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winner": "Foxtrot",
+					"time": "16:23",
+					"commander-team-one": "Maverick",
+					"commander-team-two": "Sev"
+				},
+				"Overlook": {
+					"map": "Overlook",
+					"date": "2.26.25",
+					"round #": "2",
+					"teams": "Golf vs Foxtrot",
+					"factions": "[Hadean, Hadean]",
+					"winner": "Foxtrot",
+					"time": "8:28",
+					"commander-team-one": "DriveLine",
+					"commander-team-two": "Rosario"
+				}
+			},
+			"2.27.25": {
+				"Europa": {
+					"map": "Europa",
+					"date": "2.27.25",
+					"round #": "1",
+					"teams": "Juliet vs Alpha",
+					"factions": "[Hadean, I.S.D.F]",
+					"winner": "Juliet",
+					"time": "24:48",
+					"commander-team-one": "F9bomber",
+					"commander-team-two": "Zack"
+				},
+				"Terron": {
+					"map": "Terron",
+					"date": "2.27.25",
+					"round #": "2",
+					"teams": "Juliet vs Alpha",
+					"factions": "[I.S.D.F, Hadean]",
+					"winner": "Alpha",
+					"time": "19:56",
+					"commander-team-one": "SpaceWars",
+					"commander-team-two": "Bylarge"
+				},
+				"Mojave": {
+					"map": "Mojave",
+					"date": "2.27.25",
+					"round #": "3",
+					"teams": "Juliet vs Alpha",
+					"factions": "[Scion, Scion]",
+					"winner": "Juliet",
+					"time": "28:51",
+					"commander-team-one": "F9bomber",
+					"commander-team-two": "Zack"
+				}
 			}
 		}
+	},
+	"most_played_maps": [
+		[
+			"Red Slope",
+			5
+		],
+		[
+			"Terron",
+			4
+		],
+		[
+			"Mojave",
+			3
+		],
+		[
+			"Europa",
+			3
+		],
+		[
+			"Scammed",
+			1
+		],
+		[
+			"Giza",
+			1
+		],
+		[
+			"Overlook",
+			1
+		]
+	],
+	"game_times": {
+		"average_time": "20:36",
+		"longest_time": {
+			"time": "50:40",
+			"data": {
+				"map": "Europa",
+				"date": "2.23.25",
+				"round #": "2",
+				"teams": "Bravo vs Echo",
+				"factions": "[I.S.D.F, Hadean]",
+				"winner": "Bravo",
+				"time": "50:40",
+				"commander-team-one": "sahd0w",
+				"commander-team-two": "Pantouf"
+			}
+		},
+		"shortest_time": {
+			"time": "8:28",
+			"data": {
+				"map": "Overlook",
+				"date": "2.26.25",
+				"round #": "2",
+				"teams": "Golf vs Foxtrot",
+				"factions": "[Hadean, Hadean]",
+				"winner": "Foxtrot",
+				"time": "8:28",
+				"commander-team-one": "DriveLine",
+				"commander-team-two": "Rosario"
+			}
+		}
+	},
+	"popular_matchups": {
+		"[Hadean, I.S.D.F]": 6,
+		"[I.S.D.F, I.S.D.F]": 4,
+		"[Hadean, Scion]": 3,
+		"[Hadean, Hadean]": 2,
+		"[I.S.D.F, Scion]": 2,
+		"[Scion, Scion]": 1
+	},
+	"faction_counts": {
+		"I.S.D.F": 16,
+		"Hadean": 13,
+		"Scion": 7
 	}
 }
