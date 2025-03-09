@@ -971,6 +971,27 @@
 					]
 				}
 			}
+		},
+		"March": {
+			"03.9.25": {
+				"Terron": {
+					"date": "03.9.25",
+					"map": "Terron",
+					"commanders": "Sev vs Zack",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "1:24:48",
+					"teamOne": [
+						"Maverick",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Zack"
+					]
+				}
+			}
 		}
 	}
 }
