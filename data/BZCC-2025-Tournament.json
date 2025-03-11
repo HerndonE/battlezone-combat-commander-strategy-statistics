@@ -22,7 +22,7 @@
 					"factions": "[I.S.D.F, Hadean]",
 					"winner": "Juliet",
 					"time": "16:39",
-					"commander-team-one": "SpaceWars",
+					"commander-team-one": "Spacewars",
 					"commander-team-two": "DriveLine"
 				}
 			},
@@ -46,7 +46,7 @@
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winner": "Juliet",
 					"time": "17:47",
-					"commander-team-one": "SpaceWars",
+					"commander-team-one": "Spacewars",
 					"commander-team-two": "Pantouf"
 				}
 			},
@@ -201,7 +201,7 @@
 					"factions": "[I.S.D.F, Hadean]",
 					"winner": "Alpha",
 					"time": "19:56",
-					"commander-team-one": "SpaceWars",
+					"commander-team-one": "Spacewars",
 					"commander-team-two": "Bylarge"
 				},
 				"Mojave": {

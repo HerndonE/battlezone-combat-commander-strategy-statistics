@@ -694,7 +694,7 @@
 				"Overlook": {
 					"date": "02.9.25",
 					"map": "Overlook",
-					"commanders": "SpaceWars vs DD",
+					"commanders": "Spacewars vs DD",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winning faction": "I.S.D.F",
 					"winner": "DD",
@@ -989,6 +989,57 @@
 					"teamTwo": [
 						"F9bomber",
 						"Zack"
+					]
+				}
+			},
+			"03.10.25": {
+				"Europa Night": {
+					"date": "03.10.25",
+					"map": "Europa Night",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "8:25",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Sev",
+						"RollyPolly"
+					]
+				},
+				"Vegan": {
+					"date": "03.10.25",
+					"map": "Vegan",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "15:19",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Sev",
+						"RollyPolly"
+					]
+				},
+				"Sahara": {
+					"date": "03.10.25",
+					"map": "Sahara",
+					"commanders": "Judgeguns vs RollyPolly",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "19:52",
+					"teamOne": [
+						"Bylarge"
+					],
+					"teamTwo": [
+						"F9bomber"
 					]
 				}
 			}
