@@ -1042,6 +1042,41 @@
 						"F9bomber"
 					]
 				}
+			},
+			"03.11.25": {
+				"Ice Age": {
+					"date": "03.11.25",
+					"map": "Ice Age",
+					"commanders": "M.S vs Sev", 
+					"factions": "[I.S.D.F, Hadean]", 
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "19:40",
+					"teamOne": ["F9bomber", "Maverick"], 
+					"teamTwo": ["Zack", "Judgeguns", "RollyPolly"]
+				},
+				"Insula": {
+					"date": "03.11.25",
+					"map": "Insula",
+					"commanders": "M.S vs Sev", 
+					"factions": "[I.S.D.F, Hadean]", 
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "8:38",
+					"teamOne": ["F9bomber", "Maverick"], 
+					"teamTwo": ["Zack", "Judgeguns", "RollyPolly"]
+				},
+				"Oasis": {
+					"date": "03.11.25",
+					"map": "Oasis",
+					"commanders": "M.S vs Sev", 
+					"factions": "[I.S.D.F, Scion]", 
+					"winning faction": "Scion",
+					"winner": "Sev",
+					"time": "",
+					"teamOne": ["F9bomber", "Maverick"], 
+					"teamTwo": ["Zack", "Judgeguns", "RollyPolly"]
+				},
 			}
 		}
 	}
