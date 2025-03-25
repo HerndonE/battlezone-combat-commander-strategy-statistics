@@ -1152,6 +1152,163 @@
 						"Igugf"
 					]
 				}
+			},
+			"03.16.25": {
+				"Mojave": {
+					"date": "03.16.25",
+					"map": "Mojave",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "22:48",
+					"teamOne": [
+						"RollyPolly",
+						"KingFuryKiller",
+						"Zack",
+						"Pantouf"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Cyber",
+						"Rosario",
+						"Judgeguns"
+					]
+				},
+				"Quagmire": {
+					"date": "03.16.25",
+					"map": "Quagmire",
+					"commanders": "Maverick vs Rosario",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Maverick",
+					"time": "19:19",
+					"teamOne": [
+						"Zack",
+						"Sev",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"KingFuryKiller",
+						"F9bomber",
+						"Judgeguns",
+						"Bylarge"
+					]
+				}
+			},
+			"03.17.25": {
+				"Garden": {
+					"date": "03.17.25",
+					"map": "Garden",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "17:14",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"RollyPolly",
+						"Darkvale"
+					]
+				},
+				"Vegan": {
+					"date": "03.17.25",
+					"map": "Vegan",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "33:05",
+					"teamOne": [
+						"Sev",
+						"X-Triage",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns",
+						"RollyPolly"
+					]
+				}
+			},
+			"03.20.25": {
+				"Domain": {
+					"date": "03.20.25",
+					"map": "Domain",
+					"commanders": "Zack vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "17:37",
+					"teamOne": [
+						"Sev",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"RollyPolly",
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"Punished Fridge"
+					]
+				},
+				"Lunix": {
+					"date": "03.20.25",
+					"map": "Lunix",
+					"commanders": "Sev vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "41:41",
+					"teamOne": [
+						"F9bomber",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Zack"
+					]
+				}
+			},
+			"03.22.25": {
+				"Quagmire": {
+					"date": "03.22.25",
+					"map": "Quagmire",
+					"commanders": "RollyPolly vs Sev",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Sev",
+					"time": "21:56",
+					"teamOne": [
+						"Spymaster",
+						"arielle",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				},
+				"Mojave": {
+					"date": "03.22.25",
+					"map": "Mojave",
+					"commanders": "RollyPolly vs Sev",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "54:49",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"arielle"
+					]
+				}
 			}
 		}
 	}
