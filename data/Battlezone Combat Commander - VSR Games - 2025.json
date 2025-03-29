@@ -1309,6 +1309,72 @@
 						"arielle"
 					]
 				}
+			},
+			"03.28.25": {
+				"Mojave": {
+					"date": "03.28.25",
+					"map": "Mojave",
+					"commanders": "Zack vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "23:29",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin"
+					]
+				},
+				"Lunar": {
+					"date": "03.28.25",
+					"map": "Lunar",
+					"commanders": "Zack vs Muffin",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "16:00",
+					"teamOne": [
+						"F9bomber",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Sev"
+					]
+				},
+				"Quagmire": {
+					"date": "03.28.25",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "15:21",
+					"teamOne": [
+						"Zack",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Muffin"
+					]
+				},
+				"Giza": {
+					"date": "03.28.25",
+					"map": "Giza",
+					"commanders": "RollyPolly vs Muffin",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "11:33",
+					"teamOne": [
+						"Zack",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
