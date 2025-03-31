@@ -1375,6 +1375,76 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"03.29.25": {
+				"Strategy Arena": {
+					"date": "03.29.25",
+					"map": "Strategy Arena",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "14:23",
+					"teamOne": [
+						"X-Triage",
+						"Jabbapop"
+					],
+					"teamTwo": [
+						"Sev"
+					]
+				},
+				"Throbbing Gristle": {
+					"date": "03.29.25",
+					"map": "Throbbing Gristle",
+					"commanders": "Jabbapop vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "19:27",
+					"teamOne": [
+						"Zack"
+					],
+					"teamTwo": [
+						"Sev"
+					]
+				}
+			},
+			"03.30.25": {
+				"Mojave": {
+					"date": "03.30.25",
+					"map": "Mojave",
+					"commanders": "RollyPolly vs Sev",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "31:06",
+					"teamOne": [
+						"F9bomber",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Zack",
+						"VTrider"
+					]
+				},
+				"Lunar": {
+					"date": "03.30.25",
+					"map": "Lunar",
+					"commanders": "Judgeguns vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "30:18",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Zack"
+					],
+					"teamOneStraggler": [
+						"RollyPolly"
+					]
+				}
 			}
 		}
 	}
