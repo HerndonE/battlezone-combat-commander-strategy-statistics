@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Island of V8",
-                "Dune Night",
-                "Europa Night",
-                "Iceberg",
-                "Terron",
                 "Mesa",
-                "Ogg Vorbis",
-                "Concrete Jungle",
-                "Assualt",
-                "Overlook",
-                "Haven",
-                "Quagmire",
-                "Scammed",
-                "Reflex",
-                "Forgotten",
-                "JO Crystal",
-                "Hound",
-                "Rendon",
-                "Selena",
+                "Europa Night",
+                "Twin Peaks",
+                "Caiscus",
                 "Prodigy Ver .2",
-                "Beyond",
-                "Vortex",
-                "Trench",
-                "Mexcian Mission",
-                "No Mans Land",
-                "Europa",
-                "Trail",
-                "Tempest",
-                "Aztec",
-                "Ragnarok",
-                "Oldboy",
-                "Bowl",
-                "Chill",
-                "Quarry",
-                "Pitbull",
-                "High & Low",
-                "Oxide",
-                "Alien Dunes",
-                "Echelon",
-                "Mojave",
-                "Ravine",
-                "Terrace",
-                "Rectal",
-                "Plaza",
-                "Madern Warfare",
-                "Insula",
-                "Hi-Mid-Lo",
-                "Excavation",
-                "Abuse",
-                "Iraq",
-                "Barren",
-                "Ebola",
+                "Moonshroud",
+                "Vegan",
                 "Casius",
+                "Dusk",
+                "Assualt",
+                "Scion Central",
+                "Transfer",
+                "Iceberg",
+                "Tempest",
+                "Vortex",
+                "Dune Night",
+                "Aztec",
+                "Haven",
+                "Ancient Hills",
+                "Domain",
+                "Terrace",
+                "Echelon",
+                "Consciousness",
+                "Dream",
+                "Strategy Arena",
+                "Garden",
+                "Quagmire",
+                "Madern Warfare",
+                "Mountain Top",
+                "Insula",
+                "Barren",
+                "Iraq",
+                "Lunix",
+                "Sinister",
+                "Oasis",
+                "Ebola",
+                "Alien Dunes",
+                "Phoenix",
+                "Pitbull",
+                "Hi-Mid-Lo",
+                "Trench",
+                "Scammed",
+                "Forgotten",
+                "Mexcian Mission",
+                "Ice Age",
+                "Chill",
+                "Ragnarok",
+                "High Heat",
+                "Abundance",
+                "Bridges",
                 "Throbbing Gristle",
+                "Ravine",
+                "Red Slope",
+                "Ogg Vorbis",
+                "Hound",
+                "Oxide",
+                "Mojave",
+                "Rectal",
+                "JO Crystal",
+                "Terron",
                 "Giza",
                 "Titan",
-                "Oasis",
-                "Satart",
-                "Transfer",
-                "Stone Circle",
-                "High Heat",
-                "Red Slope",
-                "Strategy Arena",
-                "Vegan",
-                "Egypt",
-                "Mort's Wasteland",
-                "Dusk",
-                "Sinister",
-                "Phoenix",
-                "Domain",
-                "Lunix",
-                "Bridges",
-                "Ice Age",
-                "Crater",
-                "Remnant",
-                "Lunar",
-                "Mountain Top",
+                "Rendon",
                 "Sahara",
-                "Twin Peaks",
-                "Phazon",
-                "Caiscus",
-                "Garden",
-                "Consciousness",
-                "310",
-                "Scion Central",
+                "Stone Circle",
+                "Bowl",
+                "Europa",
+                "Trail",
+                "Egypt",
+                "Quarry",
+                "Oldboy",
+                "High & Low",
+                "Beyond",
+                "Abuse",
+                "Satart",
                 "Plus",
-                "Ridges",
-                "Dream",
-                "Moonshroud",
+                "Excavation",
+                "Royal Stadium",
+                "Remnant",
                 "Snow Central",
-                "Abundance",
-                "Ancient Hills",
-                "Royal Stadium"
+                "Phazon",
+                "Overlook",
+                "310",
+                "No Mans Land",
+                "Ridges",
+                "Concrete Jungle",
+                "Island of V8",
+                "Reflex",
+                "Crater",
+                "Selena",
+                "Lunar",
+                "Plaza",
+                "Mort's Wasteland"
             ],
             "commander_list": [
                 [
@@ -5215,6 +5215,76 @@
                                 "Judgeguns"
                             ]
                         }
+                    },
+                    "03.29.25": {
+                        "Strategy Arena": {
+                            "date": "03.29.25",
+                            "map": "Strategy Arena",
+                            "commanders": "Zack vs F9bomber",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Zack",
+                            "time": "14:23",
+                            "teamOne": [
+                                "X-Triage",
+                                "Jabbapop"
+                            ],
+                            "teamTwo": [
+                                "Sev"
+                            ]
+                        },
+                        "Throbbing Gristle": {
+                            "date": "03.29.25",
+                            "map": "Throbbing Gristle",
+                            "commanders": "Jabbapop vs F9bomber",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "F9bomber",
+                            "time": "19:27",
+                            "teamOne": [
+                                "Zack"
+                            ],
+                            "teamTwo": [
+                                "Sev"
+                            ]
+                        }
+                    },
+                    "03.30.25": {
+                        "Mojave": {
+                            "date": "03.30.25",
+                            "map": "Mojave",
+                            "commanders": "RollyPolly vs Sev",
+                            "factions": "[Scion, Scion]",
+                            "winning faction": "Scion",
+                            "winner": "RollyPolly",
+                            "time": "31:06",
+                            "teamOne": [
+                                "F9bomber",
+                                "Domakus"
+                            ],
+                            "teamTwo": [
+                                "Zack",
+                                "VTrider"
+                            ]
+                        },
+                        "Lunar": {
+                            "date": "03.30.25",
+                            "map": "Lunar",
+                            "commanders": "Judgeguns vs Sev",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Sev",
+                            "time": "30:18",
+                            "teamOne": [
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Zack"
+                            ],
+                            "teamOneStraggler": [
+                                "RollyPolly"
+                            ]
+                        }
                     }
                 }
             }
@@ -5223,7 +5293,7 @@
             "map_counts": [
                 [
                     "Mojave",
-                    8
+                    9
                 ],
                 [
                     "Terron",
@@ -5258,6 +5328,10 @@
                     3
                 ],
                 [
+                    "Lunar",
+                    3
+                ],
+                [
                     "Oasis",
                     2
                 ],
@@ -5271,10 +5345,6 @@
                 ],
                 [
                     "Oldboy",
-                    2
-                ],
-                [
-                    "Lunar",
                     2
                 ],
                 [
@@ -5340,52 +5410,62 @@
                 [
                     "Lunix",
                     1
+                ],
+                [
+                    "Strategy Arena",
+                    1
+                ],
+                [
+                    "Throbbing Gristle",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Remnant",
-                "Lunar",
+                "Jade Green",
+                "Strategy Arena",
+                "Garden",
+                "Ice Age",
+                "Quagmire",
                 "Europa Night",
-                "Sahara",
-                "Oldboy",
-                "Terron",
-                "Bowl",
+                "Remnant",
+                "Snow Central",
+                "Overlook",
                 "Fort 12C",
+                "Insula",
+                "Throbbing Gristle",
+                "Red Slope",
+                "Hound",
                 "Casius",
+                "Vegan",
+                "Mojave",
+                "Ridges",
+                "Lunix",
+                "Oasis",
+                "Terron",
                 "Giza",
                 "Titan",
-                "Overlook",
-                "Oasis",
-                "Consciousness",
-                "Garden",
-                "Quagmire",
-                "Ridges",
-                "Jade Green",
-                "Red Slope",
-                "Vegan",
-                "Hound",
-                "Echelon",
-                "Domain",
-                "Mojave",
-                "Snow Central",
-                "Lunix",
-                "Trench",
-                "Insula",
+                "Sahara",
+                "Bowl",
                 "Europa",
-                "Ice Age"
+                "Lunar",
+                "Domain",
+                "Trench",
+                "Echelon",
+                "Consciousness",
+                "Oldboy"
             ],
             "commander_list": [
                 [
                     "Sev",
-                    30
+                    32
                 ],
                 [
                     "F9bomber",
-                    23
+                    25
                 ],
                 [
                     "Zack",
-                    18
+                    19
                 ],
                 [
                     "VTrider",
@@ -5409,7 +5489,7 @@
                 ],
                 [
                     "RollyPolly",
-                    5
+                    6
                 ],
                 [
                     "DD",
@@ -5417,6 +5497,10 @@
                 ],
                 [
                     "Maverick",
+                    2
+                ],
+                [
+                    "Judgeguns",
                     2
                 ],
                 [
@@ -5452,7 +5536,7 @@
                     1
                 ],
                 [
-                    "Judgeguns",
+                    "Jabbapop",
                     1
                 ]
             ],
@@ -5507,9 +5591,9 @@
                 ],
                 [
                     "Sev",
-                    56.666666666666664,
-                    30,
-                    17
+                    56.25,
+                    32,
+                    18
                 ],
                 [
                     "Blue Banana",
@@ -5530,6 +5614,12 @@
                     1
                 ],
                 [
+                    "RollyPolly",
+                    50.0,
+                    6,
+                    3
+                ],
+                [
                     "Muffin",
                     50.0,
                     2,
@@ -5537,21 +5627,15 @@
                 ],
                 [
                     "F9bomber",
-                    47.82608695652174,
-                    23,
-                    11
+                    48.0,
+                    25,
+                    12
                 ],
                 [
                     "Rosario",
                     40.0,
                     10,
                     4
-                ],
-                [
-                    "RollyPolly",
-                    40.0,
-                    5,
-                    2
                 ],
                 [
                     "M.S",
@@ -5561,9 +5645,9 @@
                 ],
                 [
                     "Zack",
-                    22.22222222222222,
-                    18,
-                    4
+                    26.31578947368421,
+                    19,
+                    5
                 ],
                 [
                     "Spacewars",
@@ -5574,23 +5658,29 @@
                 [
                     "Judgeguns",
                     0.0,
+                    2,
+                    0
+                ],
+                [
+                    "Jabbapop",
+                    0.0,
                     1,
                     0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 63,
-                "Hadean": 54,
-                "Scion": 29
+                "I.S.D.F": 66,
+                "Hadean": 57,
+                "Scion": 31
             },
             "commander_faction_counts": {
                 "Sev": {
                     "I.S.D.F": 12,
-                    "Scion": 11,
-                    "Hadean": 7
+                    "Scion": 12,
+                    "Hadean": 8
                 },
                 "F9bomber": {
-                    "Hadean": 19,
+                    "Hadean": 21,
                     "Scion": 4
                 },
                 "M.S": {
@@ -5623,7 +5713,7 @@
                     "Hadean": 10
                 },
                 "Zack": {
-                    "I.S.D.F": 11,
+                    "I.S.D.F": 12,
                     "Scion": 1,
                     "Hadean": 6
                 },
@@ -5646,19 +5736,22 @@
                     "I.S.D.F": 2
                 },
                 "Judgeguns": {
-                    "I.S.D.F": 1
+                    "I.S.D.F": 2
                 },
                 "RollyPolly": {
-                    "Scion": 5
+                    "Scion": 6
                 },
                 "Muffin": {
                     "Hadean": 1,
+                    "I.S.D.F": 1
+                },
+                "Jabbapop": {
                     "I.S.D.F": 1
                 }
             },
             "commander_faction_wins": {
                 "F9bomber": {
-                    "Hadean": 9,
+                    "Hadean": 10,
                     "Scion": 2
                 },
                 "M.S": {
@@ -5667,7 +5760,7 @@
                 "Sev": {
                     "Scion": 6,
                     "I.S.D.F": 7,
-                    "Hadean": 4
+                    "Hadean": 5
                 },
                 "VTrider": {
                     "I.S.D.F": 3,
@@ -5696,7 +5789,7 @@
                     "I.S.D.F": 3
                 },
                 "Zack": {
-                    "I.S.D.F": 4
+                    "I.S.D.F": 5
                 },
                 "Rosario": {
                     "Hadean": 4
@@ -5711,7 +5804,7 @@
                     "I.S.D.F": 1
                 },
                 "RollyPolly": {
-                    "Scion": 2
+                    "Scion": 3
                 },
                 "Maverick": {
                     "I.S.D.F": 1
@@ -5724,7 +5817,7 @@
     },
     "processed_data": {
         "processed_map_counts": {
-            "Mojave": 22,
+            "Mojave": 23,
             "Terron": 20,
             "Overlook": 18,
             "Red Slope": 13,
@@ -5737,14 +5830,14 @@
             "Europa Night": 9,
             "Insula": 9,
             "Scammed": 8,
+            "Lunar": 8,
             "Tempest": 7,
             "Sahara": 7,
             "Lunix": 7,
-            "Lunar": 7,
+            "Throbbing Gristle": 7,
             "Domain": 7,
             "Ancient Hills": 6,
             "Twin Peaks": 6,
-            "Throbbing Gristle": 6,
             "Reflex": 6,
             "Excavation": 6,
             "Casius": 6,
@@ -5753,9 +5846,9 @@
             "Haven": 5,
             "Island of V8": 5,
             "Bowl": 5,
+            "Strategy Arena": 5,
             "Quarry": 4,
             "Sinister": 4,
-            "Strategy Arena": 4,
             "Titan": 4,
             "Oldboy": 4,
             "Ice Age": 4,
@@ -5821,13 +5914,13 @@
             "Fort 12C": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 419,
-            "Scion": 125,
-            "Hadean": 216
+            "I.S.D.F": 422,
+            "Scion": 127,
+            "Hadean": 219
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
-                "I.S.D.F": 20,
+                "I.S.D.F": 21,
                 "Hadean": 1
             },
             "DD": {
@@ -5836,7 +5929,7 @@
             },
             "F9bomber": {
                 "I.S.D.F": 27,
-                "Hadean": 77,
+                "Hadean": 79,
                 "Scion": 6
             },
             "VTrider": {
@@ -5856,8 +5949,8 @@
             },
             "Sev": {
                 "I.S.D.F": 33,
-                "Hadean": 20,
-                "Scion": 14
+                "Hadean": 21,
+                "Scion": 15
             },
             "Herp McDerperson": {
                 "I.S.D.F": 18,
@@ -5892,7 +5985,7 @@
                 "I.S.D.F": 7
             },
             "Zack": {
-                "I.S.D.F": 29,
+                "I.S.D.F": 30,
                 "Scion": 3,
                 "Hadean": 7
             },
@@ -5925,7 +6018,7 @@
                 "I.S.D.F": 2
             },
             "Judgeguns": {
-                "I.S.D.F": 6
+                "I.S.D.F": 7
             },
             "X-Triage": {
                 "I.S.D.F": 8
@@ -5984,7 +6077,7 @@
                 "I.S.D.F": 1
             },
             "RollyPolly": {
-                "Scion": 5
+                "Scion": 6
             }
         },
         "processed_commander_win_percentages": [
@@ -6056,9 +6149,9 @@
             ],
             [
                 "F9bomber",
-                59.09090909090909,
-                110,
-                65
+                58.92857142857143,
+                112,
+                66
             ],
             [
                 "VTrider",
@@ -6074,9 +6167,9 @@
             ],
             [
                 "Sev",
-                50.74626865671642,
-                67,
-                34
+                50.72463768115942,
+                69,
+                35
             ],
             [
                 "Econchump",
@@ -6097,6 +6190,12 @@
                 2
             ],
             [
+                "RollyPolly",
+                50.0,
+                6,
+                3
+            ],
+            [
                 "M.S",
                 46.666666666666664,
                 45,
@@ -6115,16 +6214,16 @@
                 6
             ],
             [
-                "RollyPolly",
-                40.0,
-                5,
-                2
-            ],
-            [
                 "HappyOtter",
                 33.33333333333333,
                 6,
                 2
+            ],
+            [
+                "Zack",
+                32.5,
+                40,
+                13
             ],
             [
                 "Xohm",
@@ -6137,12 +6236,6 @@
                 31.57894736842105,
                 19,
                 6
-            ],
-            [
-                "Zack",
-                30.76923076923077,
-                39,
-                12
             ],
             [
                 "AI_Unit",
@@ -6176,8 +6269,8 @@
             ],
             [
                 "Jabbapop",
-                19.047619047619047,
-                21,
+                18.181818181818183,
+                22,
                 4
             ],
             [
@@ -6188,8 +6281,8 @@
             ],
             [
                 "Judgeguns",
-                16.666666666666664,
-                6,
+                14.285714285714285,
+                7,
                 1
             ],
             [
@@ -6244,7 +6337,7 @@
         "processed_commander_list": [
             [
                 "F9bomber",
-                110
+                112
             ],
             [
                 "VTrider",
@@ -6252,7 +6345,7 @@
             ],
             [
                 "Sev",
-                67
+                69
             ],
             [
                 "Blue Banana",
@@ -6264,7 +6357,7 @@
             ],
             [
                 "Zack",
-                39
+                40
             ],
             [
                 "Xohm",
@@ -6279,12 +6372,12 @@
                 30
             ],
             [
-                "Muffin",
+                "Jabbapop",
                 22
             ],
             [
-                "Jabbapop",
-                21
+                "Muffin",
+                22
             ],
             [
                 "Herp McDerperson",
@@ -6331,16 +6424,16 @@
                 7
             ],
             [
+                "Judgeguns",
+                7
+            ],
+            [
                 "HappyOtter",
                 6
             ],
             [
-                "Judgeguns",
-                6
-            ],
-            [
                 "RollyPolly",
-                5
+                6
             ],
             [
                 "Nozza34",
@@ -6706,5 +6799,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/03/29 19:40PM UTC"
+    "last_updated": "2025/03/31 18:50PM UTC"
 }
