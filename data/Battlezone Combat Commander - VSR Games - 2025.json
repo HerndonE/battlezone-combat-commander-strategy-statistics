@@ -1446,6 +1446,21 @@
 					]
 				}
 			}
+		},
+		"April": {
+			"04.2.25": {
+				"Iraq": {
+					"date": "04.2.25",
+					"map": "Iraq",
+					"commanders": "VTrider vs RollyPolly", 
+					"factions": "[Hadean, Scion]", 
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "1:10:14",
+					"teamOne": ["sahd0w", "X-Triage"], 
+					"teamTwo": ["Zack", "F9bomber"]
+				}
+			}
 		}
 	}
 }
