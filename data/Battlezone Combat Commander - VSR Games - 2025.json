@@ -968,7 +968,8 @@
 						"Cyber",
 						"F9bomber",
 						"Business Lawyer"
-					]
+					],
+					"_comment": "Same map played again in 1 day"
 				}
 			}
 		},
@@ -1452,13 +1453,84 @@
 				"Iraq": {
 					"date": "04.2.25",
 					"map": "Iraq",
-					"commanders": "VTrider vs RollyPolly", 
-					"factions": "[Hadean, Scion]", 
+					"commanders": "VTrider vs RollyPolly",
+					"factions": "[Hadean, Scion]",
 					"winning faction": "Hadean",
 					"winner": "VTrider",
 					"time": "1:10:14",
-					"teamOne": ["sahd0w", "X-Triage"], 
-					"teamTwo": ["Zack", "F9bomber"]
+					"teamOne": [
+						"sahd0w",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Zack",
+						"F9bomber"
+					]
+				}
+			},
+			"04.3.25": {
+				"Terron": {
+					"date": "04.3.25",
+					"map": "Terron",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "40:04",
+					"teamOne": [
+						"Bylarge"
+					],
+					"teamTwo": [
+						"RollyPolly"
+					]
+				},
+				"Scammed": {
+					"date": "04.3.25",
+					"map": "Scammed",
+					"commanders": "Bylarge vs Zack",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Zack",
+					"time": "15:56",
+					"teamOne": [
+						"RollyPolly"
+					]
+				},
+				"Red Slope": {
+					"date": "04.3.25",
+					"map": "Red Slope",
+					"commanders": "Sev vs Zack",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "15:56",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"RollyPolly",
+						"X-Triage"
+					]
+				}
+			},
+			"04.4.25": {
+				"Scammed": {
+					"date": "04.3.25",
+					"map": "Scammed",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "F9bomber",
+					"time": "16:33",
+					"teamOne": [
+						"RollyPolly",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"X-Triage"
+					],
+					"_comment": "Same map played again in 1 day"
 				}
 			}
 		}

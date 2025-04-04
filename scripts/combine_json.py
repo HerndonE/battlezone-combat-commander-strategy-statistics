@@ -11,10 +11,12 @@ files = [
 
 output_path = 'data/data.json'  # Output path for the combined JSON
 
+
 # Function to read a JSON file and return the parsed data
 def read_file(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
+
 
 # Function to extract map values and counts
 def extract_map_counts(d):
@@ -43,6 +45,7 @@ def extract_map_counts(d):
 
     return map_counts_list, unique_map_values
 
+
 # Function to count commanders
 def count_commanders(data):
     commander_count = Counter()
@@ -59,6 +62,7 @@ def count_commanders(data):
     commander_list.sort(key=lambda x: x[1], reverse=True)  # Sort by count
 
     return commander_list
+
 
 # Function to calculate win percentage and graph
 def calculate_win_percentage_and_graph(data):
@@ -92,6 +96,7 @@ def calculate_win_percentage_and_graph(data):
 
     return commander_win_percentages
 
+
 # Function to calculate the most played factions
 def calculate_most_played_faction(data):
     faction_counter = Counter()
@@ -104,6 +109,7 @@ def calculate_most_played_faction(data):
                 faction_counter.update(factions)  # Update the counter with the factions for this game
 
     return faction_counter
+
 
 # Function to count faction plays and wins
 def count_faction_plays_and_wins(data):
@@ -135,6 +141,7 @@ def count_faction_plays_and_wins(data):
 
     return commander_faction_counts, commander_faction_wins
 
+
 # Function to process the data and collect results
 def process_file(data, year):
     print(f"Processing {year} data:")
@@ -164,8 +171,10 @@ def process_file(data, year):
         'commander_faction_wins': commander_faction_wins
     }
 
+
 # Create an empty dictionary to store the output data
 output_data = {}
+
 
 # Loop through each file and process it dynamically
 for file_path, year in files:
@@ -179,6 +188,7 @@ for file_path, year in files:
         f'raw_{year}': file_data,
         f'data_{year}': processed_data
     }
+
 
 def process_map_counts(data):
     keys = list(data.keys())
@@ -288,13 +298,48 @@ def process_commander_list(data):
     return combined_list
 
 
+def categorize_maps(map_counts):
+    sorted_counts = sorted(map_counts.values(), reverse=True)
+
+    total_maps = len(sorted_counts)
+
+    # Define the thresholds for each category based on the number of maps
+    very_popular_threshold = int(total_maps * 0.25)  # Top 25%
+    mostly_popular_threshold = int(total_maps * 0.5)  # Top 50%
+    moderately_popular_threshold = int(total_maps * 0.75)  # Top 75%
+
+    categories = {
+        "Very Popular": [],
+        "Mostly Popular": [],
+        "Moderately Popular": [],
+        "Least Popular": []
+    }
+
+    sorted_map_names = sorted(map_counts, key=map_counts.get, reverse=True)
+
+    # Categorize based on the thresholds
+    for i, map_name in enumerate(sorted_map_names):
+        if i < very_popular_threshold:
+            categories["Very Popular"].append(map_name)
+        elif i < mostly_popular_threshold:
+            categories["Mostly Popular"].append(map_name)
+        elif i < moderately_popular_threshold:
+            categories["Moderately Popular"].append(map_name)
+        else:
+            categories["Least Popular"].append(map_name)
+
+    return categories
+
+
 output_data["processed_data"] = {
     "processed_map_counts": process_map_counts(output_data),
     "processed_most_played_factions": process_most_played_factions(output_data),
     "processed_commander_faction_counts": process_commander_faction_counts(output_data),
     "processed_commander_win_percentages": process_commander_win_percentages(output_data),
-    "processed_commander_list" : process_commander_list(output_data)
+    "processed_commander_list": process_commander_list(output_data),
+    "processed_map_popularity": categorize_maps(process_map_counts(output_data))
 }
+
 
 # Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
 bzcc_2025_data = read_file('data/BZCC-2025-Tournament.json')  # Read the raw data file
