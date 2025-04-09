@@ -72,15 +72,15 @@
     </style>
   </head>
   <body>
-        <div align="center">
+    <div align="center">
       <img src="https://raw.githubusercontent.com/HerndonE/battlezone-combat-commander-strategy-statistics/refs/heads/main/assets/images/api-icon.png" alt="logo" width="150" height="auto" />
       <h1>Battlezone Combat Commander Strategy Statistics</h1>
-          <p align="center">
+      <p align="center">
      <a href=""><img src="https://img.shields.io/github/languages/top/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Languages" /></a>
      <a href=""><img src="https://img.shields.io/github/repo-size/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Code Size" /></a>
      <a href=""><img src="https://img.shields.io/github/last-commit/HerndonE/battlezone-combat-commander-strategy-statistics" alt="Last Commit" /></a>
      <a href=""><img src="https://img.shields.io/github/actions/workflow/status/HerndonE/battlezone-combat-commander-strategy-statistics/ci.yml" alt="GitHub Actions Workflow Status" /></a>
-    </p>
+      </p>
     </div>
     <!-- Content Container -->
     <div class="content-container">
@@ -97,16 +97,19 @@
           <strong>Raw JSON Data:</strong>
           <a href="https://herndone.github.io/battlezone-combat-commander-strategy-statistics/data/data.json" target="_blank">View Raw JSON File</a>
         </p>
-         <p>
-        <strong>JSON in use:</strong>
-        <a href="https://bz2vsr.com/stats/" target="_blank">BZ2 Stats</a>
+        <p>
+          <strong>JSON in use:</strong>
+          <a href="https://bz2vsr.com/stats/" target="_blank">BZ2 Stats</a>
         </p>
       </div>
+      <canvas id="mostPlayedMapChart" width="400" height="400"></canvas>
+      <button id="expandButton">Show All Data</button>
+      <canvas id="mostActiveCommadersChart" width="400" height="400"></canvas>
+      <button id="expandButton1">Show All Data</button>
       <h2>Strategy Statistics JSON Data</h2>
       <div id="jsonContent">
         <p>Loading JSON data...</p>
       </div>
-      <canvas id="myChart" width="400" height="200"></canvas>
     </div>
     <script src="https://unpkg.com/json-format-highlight@1.0.4/dist/json-format-highlight.js"></script>
     <script>
@@ -126,57 +129,172 @@
         falseColor: "rgb(170, 93, 0)",
         numberColor: "rgb(170, 93, 0)",
       };
-      // Function to fetch JSON data from the URL and display it
+
+      let myChart;
+      let allLabels = [];
+      let allValues = [];
+      let displayedLabels = [];
+      let displayedValues = [];
+      let isExpanded = false;
+
+      function mostPlayMapChart(data) {
+        console.log(data.processed_data.processed_commander_list);
+        const sortedData = Object.entries(data.processed_data.processed_map_counts).sort((a, b) => b[1] - a[1]).map(([key, value]) => ({
+          label: key,
+          value
+        }));
+        // Extract the sorted labels and values
+        allLabels = sortedData.map(item => item.label);
+        allValues = sortedData.map(item => item.value);
+        // Initially show only the first 10 labels/values
+        displayedLabels = allLabels.slice(0, 10);
+        displayedValues = allValues.slice(0, 10);
+        // Create chart with initial data (first 10 items)
+        const ctx = document.getElementById('mostPlayedMapChart').getContext('2d');
+        myChart = new Chart(ctx, {
+          type: 'bar', // Horizontal bar chart
+          data: {
+            labels: displayedLabels,
+            datasets: [{
+              label: 'Most Played Maps (2024-Present)',
+              data: displayedValues,
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgba(54, 162, 235, 1)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            indexAxis: 'y', // Horizontal bars
+            scales: {
+              x: {
+                beginAtZero: true // Ensure the x-axis starts at zero
+              },
+              y: {
+                ticks: {
+                  maxRotation: 0, // No rotation on y-axis labels
+                  minRotation: 0,
+                  autoSkip: false, // Ensure no skipping of labels
+                  font: {
+                    size: 10 // Adjust font size if labels are too large
+                  }
+                }
+              }
+            },
+            responsive: true
+          }
+        });
+        // Set up the "Show All Data" button
+        const expandButton = document.getElementById('expandButton');
+        expandButton.addEventListener('click', () => {
+          if (isExpanded) {
+            // Collapse to first 10 items
+            displayedLabels = allLabels.slice(0, 10);
+            displayedValues = allValues.slice(0, 10);
+            expandButton.innerText = 'Show All Data';
+          } else {
+            // Expand to show all data
+            displayedLabels = allLabels;
+            displayedValues = allValues;
+            expandButton.innerText = 'Show Less Data';
+          }
+          // Update chart data
+          myChart.data.labels = displayedLabels;
+          myChart.data.datasets[0].data = displayedValues;
+          // Update the chart to reflect the changes
+          myChart.update();
+          // Toggle the expanded state
+          isExpanded = !isExpanded;
+        });
+      }
+
+      function mostActiveCommaders(data) {
+        // Accessing the data from the provided structure
+        const commanderData = data.processed_data.processed_commander_list;
+        // Sort the commanders by the number of plays (second element in each array)
+        const sortedData = commanderData.sort((a, b) => b[1] - a[1]).map(([key, value]) => ({
+          label: key,
+          value
+        }));
+        // Extract the sorted labels and values
+        const allLabels = sortedData.map(item => item.label);
+        const allValues = sortedData.map(item => item.value);
+        // Show only the first 10 labels/values
+        let displayedLabels = allLabels.slice(0, 10);
+        let displayedValues = allValues.slice(0, 10);
+        // Create chart with initial data (first 10 items)
+        const ctx = document.getElementById('mostActiveCommadersChart').getContext('2d');
+        let myChart = new Chart(ctx, {
+          type: 'bar', // Horizontal bar chart
+          data: {
+            labels: displayedLabels,
+            datasets: [{
+              label: 'Active Commanders (2024-Present)',
+              data: displayedValues,
+              backgroundColor: 'rgba(255, 99, 71, 0.2)',
+              borderColor: 'rgba(255, 99, 71, 1)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            indexAxis: 'y', // Horizontal bars
+            scales: {
+              x: {
+                beginAtZero: true // Ensure the x-axis starts at zero
+              },
+              y: {
+                ticks: {
+                  maxRotation: 0, // No rotation on y-axis labels
+                  minRotation: 0,
+                  autoSkip: false, // Ensure no skipping of labels
+                  font: {
+                    size: 10 // Adjust font size if labels are too large
+                  }
+                }
+              }
+            },
+            responsive: true
+          }
+        });
+        // Set up the "Show All Data" button
+        const expandButton = document.getElementById('expandButton1');
+        let isExpanded = false;
+        expandButton.addEventListener('click', () => {
+          if (isExpanded) {
+            // Show only the first 10 labels/values
+            displayedLabels = allLabels.slice(0, 10);
+            displayedValues = allValues.slice(0, 10);
+            expandButton.innerText = 'Show All Data';
+          } else {
+            // Expand to show all data
+            displayedLabels = allLabels;
+            displayedValues = allValues;
+            expandButton.innerText = 'Show Less Data';
+          }
+          // Update chart data
+          myChart.data.labels = displayedLabels;
+          myChart.data.datasets[0].data = displayedValues;
+          // Update the chart to reflect the changes
+          myChart.update();
+          // Toggle the expanded state
+          isExpanded = !isExpanded;
+        });
+      }
       async function fetchJsonData() {
         try {
-          const response = await fetch(jsonUrl);
+          const response = await fetch(jsonUrl); // Replace with your actual JSON URL
           const data = await response.json();
           // Render the JSON data in a formatted way
           const jsonContentElement = document.getElementById('jsonContent');
           const jsonFormatted = JSON.stringify(data, null, 2);
-          const sortedData = Object.entries(data.processed_data.processed_map_counts).sort((a, b) => b[1] - a[1]).map(([key, value]) => ({
-            label: key,
-            value
-          }));
-          // Extract the sorted labels and values
-          const labels = sortedData.map(item => item.label);
-          const values = sortedData.map(item => item.value);
-          // Chart.js configuration
-          const ctx = document.getElementById('myChart').getContext('2d');
-          const myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-              labels: labels,
-              datasets: [{
-                label: 'Most Played Maps',
-                data: values,
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
-              }]
-            },
-            options: {
-              scales: {
-                y: {
-                  beginAtZero: true
-                },
-                x: {
-                  ticks: {
-                    maxRotation: 90,
-                    minRotation: 45
-                  }
-                }
-              },
-              responsive: true
-            }
-          });
+          mostPlayMapChart(data);
+          mostActiveCommaders(data);
           // Highlight based on color scheme
           const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
           darkModePreference.addEventListener("change", highlight);
 
           function highlight() {
             const highlighted = jsonFormatHighlight(jsonFormatted, darkModePreference.matches ? darkJSON : lightJSON);
-            jsonContentElement.innerHTML = '<pre> ' + highlighted + ' </pre>';
+            jsonContentElement.innerHTML = '<pre>' + highlighted + '</pre>';
           }
           highlight(); // Initial highlight when data is fetched
         } catch (error) {

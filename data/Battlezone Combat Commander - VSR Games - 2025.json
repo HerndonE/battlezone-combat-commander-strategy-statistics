@@ -1532,6 +1532,155 @@
 					],
 					"_comment": "Same map played again in 1 day"
 				}
+			},
+			"04.5.25": {
+				"Mojave": {
+					"date": "04.5.25",
+					"map": "Mojave",
+					"commanders": "RollyPolly vs Zack",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "14:54",
+					"teamOne": [
+						"Muffin",
+						"mueller43"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Econchump"
+					]
+				},
+				"Quagmire": {
+					"date": "04.5.25",
+					"map": "Quagmire",
+					"commanders": "Muffin vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "21:49",
+					"teamOne": [
+						"Econchump",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"mueller43"
+					]
+				}
+			},
+			"04.7.25": {
+				"Aztec": {
+					"date": "04.7.25",
+					"map": "Aztec",
+					"commanders": "Maverick vs Zack",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "13:18",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"VTrider",
+						"RollyPolly"
+					]
+				},
+				"Bowl": {
+					"date": "04.7.25",
+					"map": "Bowl",
+					"commanders": "Sev vs Zack",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "16:05",
+					"teamOne": [
+						"F9bomber",
+						"Maverick",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"RollyPolly",
+						"Darkvale",
+						"Gryphon"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
+						"VTrider"
+					]
+				},
+				"Consciousness": {
+					"date": "04.7.25",
+					"map": "Consciousness",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "9:34",
+					"teamOne": [
+						"F9bomber",
+						"Xpi",
+						"NOMAD",
+						"Maverick"
+					],
+					"teamTwo": [
+						"Sev",
+						"Darkvale",
+						"RollyPolly",
+						"Gryphon"
+					]
+				},
+				"Red Slope": {
+					"date": "04.7.25",
+					"map": "Red Slope",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "6:54",
+					"teamOne": [
+						"Sev",
+						"Maverick",
+						"RollyPolly",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Xpi",
+						"Gryphon",
+						"Darkvale"
+					]
+				},
+				"Mojave": {
+					"date": "04.7.25",
+					"map": "Mojave",
+					"commanders": "RollyPolly vs Xpi",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "23:57",
+					"teamOne": [
+						"Sev",
+						"VTrider",
+						"Maverick"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Zack",
+						"Darkvale"
+					],
+					"teamOneStraggler": [
+						"Gryphon"
+					],
+					"teamTwoStraggler": [
+						"NOMAD"
+					]
+				}
 			}
 		}
 	}
