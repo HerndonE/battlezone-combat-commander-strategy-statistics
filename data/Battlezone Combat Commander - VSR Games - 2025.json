@@ -1681,6 +1681,80 @@
 						"NOMAD"
 					]
 				}
+			},
+			"04.8.25": {
+				"Ground Zero": {
+					"date": "04.8.25",
+					"map": "Ground Zero",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "16:51",
+					"teamOne": [
+						"Sev",
+						"NOMAD",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Muffin",
+						"X-Triage"
+					]
+				},
+				"Quagmire": {
+					"date": "04.8.25",
+					"map": "Quagmire",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "24:23",
+					"teamOne": [
+						"Sev",
+						"NOMAD",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Muffin",
+						"X-Triage"
+					]
+				},
+				"Reflex": {
+					"date": "04.8.25",
+					"map": "Reflex",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "20:43",
+					"teamOne": [
+						"Sev",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Zack",
+						"Muffin"
+					]
+				},
+				"Sahara": {
+					"date": "04.8.25",
+					"map": "Sahara",
+					"commanders": "Zack vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "13:52",
+					"teamOne": [
+						"Sev",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
