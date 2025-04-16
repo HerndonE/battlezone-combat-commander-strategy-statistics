@@ -1755,6 +1755,188 @@
 						"F9bomber"
 					]
 				}
+			},
+			"04.9.25": {
+				"Plaza": {
+					"date": "04.9.25",
+					"map": "Plaza",
+					"commanders": "Xpi vs Maverick",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Maverick",
+					"time": "16:31",
+					"teamOne": [
+						"Zack",
+						"Sadh0w"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Sev"
+					]
+				},
+				"Scammed": {
+					"date": "04.9.25",
+					"map": "Scammed",
+					"commanders": "Xpi vs Maverick",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Xpi",
+					"time": "27:54",
+					"teamOne": [
+						"F9bomber",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Sev",
+						"Zack"
+					]
+				},
+				"Terron": {
+					"date": "04.9.25",
+					"map": "Terron",
+					"commanders": "Xpi vs Zack",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "15:36",
+					"teamOne": [
+						"F9bomber",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Sev",
+						"Maverick"
+					]
+				},
+				"Vortex": {
+					"date": "04.9.25",
+					"map": "Vortex",
+					"commanders": "Xpi vs Zack",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "20:07",
+					"teamOne": [
+						"F9bomber",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Sev",
+						"Maverick"
+					]
+				}
+			},
+			"04.12.25": {
+				"Terron": {
+					"date": "04.12.25",
+					"map": "Terron",
+					"commanders": "Zack vs RollyPolly",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "16:39",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Maverick",
+						"Bylarge"
+					]
+				},
+				"Strategy Arena": {
+					"date": "04.12.25",
+					"map": "Strategy Arena",
+					"commanders": "Zack vs RollyPolly",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "10:43",
+					"teamOne": [
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"MAX"
+					],
+					"teamOneStraggler": [
+						"F9bomber"
+					],
+					"teamTwoStraggler": [
+						"Maverick"
+					]
+				},
+				"Mojave": {
+					"date": "04.12.25",
+					"map": "Mojave",
+					"commanders": "F9bomber vs RollyPolly",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "27:34",
+					"teamOne": [
+						"Zack"
+					],
+					"teamTwo": [
+						"Muffin"
+					],
+					"teamTwoStraggler": [
+						"MAX"
+					]
+				},
+				"Barren": {
+					"date": "04.12.25",
+					"map": "Barren",
+					"commanders": "Zack vs RollyPolly",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "RollyPolly",
+					"time": "12:52",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"MAX",
+						"Muffin"
+					]
+				},
+				"Haven": {
+					"date": "04.12.25",
+					"map": "Haven",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:12:02",
+					"teamOne": [
+						"Muffin"
+					],
+					"teamTwo": [
+						"Xpi",
+						"Darkvale"
+					],
+					"teamOneStraggler": [
+						"Sadh0w"
+					],
+					"teamTwoStraggler": [
+						"Judgeguns"
+					]
+				},
+				"Insula": {
+					"date": "04.12.25",
+					"map": "Insula",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "9:58",
+					"teamOne": [
+						"Muffin",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Xpi",
+						"Darkvale"
+					]
+				}
 			}
 		}
 	}
