@@ -1937,6 +1937,50 @@
 						"Darkvale"
 					]
 				}
+			},
+			"04.15.25": {
+				"Overlook": {
+					"date": "04.15.25",
+					"map": "Overlook",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "35:46",
+					"teamOne": [
+						"Maverick",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"Bylarge"
+					],
+					"teamTwoStraggler": [
+						"Captain Quirk"
+					]
+				},
+				"Red Slope": {
+					"date": "04.15.25",
+					"map": "Red Slope",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "14:57",
+					"teamOne": [
+						"Maverick",
+						"X-Triage",
+						"Captain Quirk"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Judgeguns",
+						"Bylarge"
+					]
+				}
 			}
 		}
 	}
