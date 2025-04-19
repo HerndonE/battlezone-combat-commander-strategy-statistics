@@ -1981,6 +1981,85 @@
 						"Bylarge"
 					]
 				}
+			},
+			"04.17.25": {
+				"Island of V8": {
+					"date": "04.17.25",
+					"map": "Island of V8",
+					"commanders": "Zack vs Sev",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "20:58",
+					"teamOne": [
+						"Maverick",
+						"Judgeguns",
+						"Captain Quirk"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Gryphon"
+					]
+				},
+				"Mayhem": {
+					"date": "04.17.25",
+					"map": "Mayhem",
+					"commanders": "Zack vs Maverick",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "14:16",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns",
+						"Gryphon"
+					],
+					"teamTwo": [
+						"Sev",
+						"RollyPolly",
+						"Captain Quirk"
+					]
+				},
+				"Oasis": {
+					"date": "04.17.25",
+					"map": "Oasis",
+					"commanders": "Zack vs VTrider",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "14:48",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns",
+						"Gryphon",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Sev",
+						"Herp McDerperson",
+						"RollyPolly"
+					]
+				},
+				"Remnant": {
+					"date": "04.17.25",
+					"map": "Remnant",
+					"commanders": "Zack vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "17:10",
+					"teamOne": [
+						"F9bomber",
+						"Herp McDerperson",
+						"Judgeguns",
+						"Gryphon"
+					],
+					"teamTwo": [
+						"Sev",
+						"RollyPolly",
+						"NOMAD"
+					]
+				}
 			}
 		}
 	}
