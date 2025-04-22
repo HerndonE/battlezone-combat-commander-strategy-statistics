@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Madern Warfare",
-                "Reflex",
-                "High & Low",
-                "Assualt",
-                "Lunix",
-                "Lunar",
-                "Bowl",
-                "Vortex",
-                "Echelon",
-                "310",
-                "Quarry",
-                "Ravine",
-                "JO Crystal",
-                "Phoenix",
-                "Island of V8",
-                "Plus",
-                "Casius",
-                "Mojave",
-                "Egypt",
-                "Oldboy",
-                "Mountain Top",
-                "Hound",
-                "Abuse",
-                "Garden",
-                "Scion Central",
-                "Oxide",
-                "Europa Night",
-                "Alien Dunes",
-                "Caiscus",
-                "Plaza",
-                "Insula",
-                "Sinister",
-                "Terron",
-                "Barren",
-                "Prodigy Ver .2",
-                "Trench",
-                "Mexcian Mission",
-                "Pitbull",
-                "Ragnarok",
-                "Vegan",
-                "Moonshroud",
-                "Crater",
-                "Remnant",
-                "Mesa",
-                "Red Slope",
-                "No Mans Land",
-                "Consciousness",
-                "Dune Night",
-                "Bridges",
-                "Satart",
+                "Concrete Jungle",
                 "Forgotten",
-                "Iceberg",
-                "Overlook",
-                "Ice Age",
-                "Terrace",
-                "Titan",
-                "Strategy Arena",
-                "Snow Central",
-                "Scammed",
-                "Transfer",
-                "Royal Stadium",
-                "High Heat",
-                "Excavation",
-                "Hi-Mid-Lo",
-                "Phazon",
-                "Ancient Hills",
-                "Selena",
-                "Tempest",
+                "Abuse",
+                "Dream",
                 "Abundance",
                 "Ebola",
-                "Twin Peaks",
-                "Ridges",
-                "Aztec",
+                "Hi-Mid-Lo",
                 "Throbbing Gristle",
-                "Sahara",
-                "Europa",
-                "Oasis",
-                "Rectal",
-                "Chill",
-                "Stone Circle",
-                "Beyond",
-                "Concrete Jungle",
-                "Dusk",
-                "Dream",
-                "Mort's Wasteland",
-                "Giza",
+                "Europa Night",
+                "Dune Night",
+                "Trench",
                 "Ogg Vorbis",
-                "Domain",
                 "Iraq",
-                "Quagmire",
+                "Mojave",
+                "Mexcian Mission",
+                "Mountain Top",
+                "Prodigy Ver .2",
+                "Casius",
+                "Strategy Arena",
+                "Quarry",
+                "Madern Warfare",
+                "Barren",
+                "Europa",
+                "Reflex",
+                "Terron",
+                "Bridges",
+                "Ragnarok",
+                "Plaza",
+                "Giza",
+                "Oasis",
+                "Lunar",
+                "No Mans Land",
+                "Tempest",
+                "Island of V8",
+                "Iceberg",
+                "Twin Peaks",
+                "Royal Stadium",
+                "Echelon",
+                "Mort's Wasteland",
+                "Snow Central",
+                "Scion Central",
+                "High Heat",
+                "Crater",
+                "Terrace",
+                "Moonshroud",
+                "Haven",
+                "Aztec",
+                "Sinister",
+                "Selena",
+                "Ice Age",
                 "Rendon",
+                "Ridges",
+                "Quagmire",
+                "High & Low",
+                "310",
+                "Rectal",
+                "Transfer",
                 "Trail",
-                "Haven"
+                "Mesa",
+                "Pitbull",
+                "Chill",
+                "Hound",
+                "Caiscus",
+                "Scammed",
+                "Consciousness",
+                "Alien Dunes",
+                "Beyond",
+                "Assualt",
+                "Ancient Hills",
+                "Ravine",
+                "Vegan",
+                "Satart",
+                "JO Crystal",
+                "Insula",
+                "Red Slope",
+                "Vortex",
+                "Garden",
+                "Overlook",
+                "Domain",
+                "Phoenix",
+                "Sahara",
+                "Stone Circle",
+                "Titan",
+                "Egypt",
+                "Bowl",
+                "Lunix",
+                "Excavation",
+                "Remnant",
+                "Dusk",
+                "Plus",
+                "Oldboy",
+                "Oxide",
+                "Phazon"
             ],
             "commander_list": [
                 [
@@ -5900,6 +5900,50 @@
                                 "NOMAD"
                             ]
                         }
+                    },
+                    "04.21.25": {
+                        "Giza": {
+                            "date": "04.21.25",
+                            "map": "Giza",
+                            "commanders": "VTrider vs Herp McDerperson",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "22:04",
+                            "teamOne": [
+                                "Domakus",
+                                "Sev",
+                                "NOMAD",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Ultimate",
+                                "F9bomber",
+                                "Darkvale",
+                                "X-Triage"
+                            ]
+                        },
+                        "Revolution": {
+                            "date": "04.21.25",
+                            "map": "Revolution",
+                            "commanders": "X-Triage vs Ultimate",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Ultimate",
+                            "time": "16:31",
+                            "teamOne": [
+                                "Domakus",
+                                "Herp McDerperson",
+                                "Sev",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "VTrider",
+                                "Darkvale",
+                                "NOMAD"
+                            ]
+                        }
                     }
                 }
             }
@@ -5935,15 +5979,15 @@
                     4
                 ],
                 [
+                    "Giza",
+                    4
+                ],
+                [
                     "Garden",
                     4
                 ],
                 [
                     "Oasis",
-                    3
-                ],
-                [
-                    "Giza",
                     3
                 ],
                 [
@@ -6077,52 +6121,57 @@
                 [
                     "Mayhem",
                     1
+                ],
+                [
+                    "Revolution",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Aztec",
-                "Reflex",
-                "Throbbing Gristle",
-                "Sahara",
-                "Garden",
-                "Europa",
-                "Europa Night",
-                "Overlook",
-                "Oasis",
-                "Lunix",
-                "Ice Age",
-                "Lunar",
-                "Bowl",
-                "Titan",
-                "Strategy Arena",
-                "Plaza",
-                "Echelon",
-                "Vortex",
-                "Snow Central",
-                "Insula",
-                "Terron",
-                "Scammed",
-                "Barren",
-                "Ground Zero",
-                "Trench",
                 "Vegan",
-                "Oldboy",
-                "Remnant",
-                "Island of V8",
-                "Fort 12C",
-                "Mayhem",
+                "Plaza",
                 "Giza",
-                "Domain",
-                "Casius",
-                "Iraq",
-                "Mojave",
-                "Quagmire",
+                "Oasis",
+                "Insula",
+                "Lunar",
+                "Revolution",
+                "Island of V8",
+                "Ground Zero",
                 "Red Slope",
-                "Haven",
-                "Consciousness",
-                "Jade Green",
+                "Vortex",
+                "Garden",
+                "Overlook",
+                "Fort 12C",
+                "Domain",
+                "Echelon",
+                "Throbbing Gristle",
+                "Europa Night",
+                "Snow Central",
+                "Trench",
+                "Sahara",
                 "Hound",
-                "Ridges"
+                "Titan",
+                "Iraq",
+                "Haven",
+                "Bowl",
+                "Aztec",
+                "Scammed",
+                "Lunix",
+                "Mojave",
+                "Remnant",
+                "Consciousness",
+                "Ice Age",
+                "Casius",
+                "Oldboy",
+                "Mayhem",
+                "Strategy Arena",
+                "Ridges",
+                "Barren",
+                "Quagmire",
+                "Europa",
+                "Reflex",
+                "Jade Green",
+                "Terron"
             ],
             "commander_list": [
                 [
@@ -6139,7 +6188,7 @@
                 ],
                 [
                     "VTrider",
-                    23
+                    24
                 ],
                 [
                     "M.S",
@@ -6212,6 +6261,18 @@
                 [
                     "Bylarge",
                     1
+                ],
+                [
+                    "Herp McDerperson",
+                    1
+                ],
+                [
+                    "X-Triage",
+                    1
+                ],
+                [
+                    "Ultimate",
+                    1
                 ]
             ],
             "commander_win_percentages": [
@@ -6252,6 +6313,12 @@
                     1
                 ],
                 [
+                    "Ultimate",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
                     "DD",
                     75.0,
                     4,
@@ -6259,9 +6326,9 @@
                 ],
                 [
                     "VTrider",
-                    69.56521739130434,
-                    23,
-                    16
+                    70.83333333333334,
+                    24,
+                    17
                 ],
                 [
                     "Muffin",
@@ -6346,10 +6413,22 @@
                     0.0,
                     1,
                     0
+                ],
+                [
+                    "Herp McDerperson",
+                    0.0,
+                    1,
+                    0
+                ],
+                [
+                    "X-Triage",
+                    0.0,
+                    1,
+                    0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 88,
+                "I.S.D.F": 92,
                 "Hadean": 71,
                 "Scion": 59
             },
@@ -6368,7 +6447,7 @@
                     "I.S.D.F": 13
                 },
                 "VTrider": {
-                    "I.S.D.F": 6,
+                    "I.S.D.F": 7,
                     "Hadean": 12,
                     "Scion": 5
                 },
@@ -6433,6 +6512,15 @@
                 },
                 "Bylarge": {
                     "I.S.D.F": 1
+                },
+                "Herp McDerperson": {
+                    "I.S.D.F": 1
+                },
+                "X-Triage": {
+                    "I.S.D.F": 1
+                },
+                "Ultimate": {
+                    "I.S.D.F": 1
                 }
             },
             "commander_faction_wins": {
@@ -6450,7 +6538,7 @@
                     "Hadean": 6
                 },
                 "VTrider": {
-                    "I.S.D.F": 4,
+                    "I.S.D.F": 5,
                     "Hadean": 9,
                     "Scion": 3
                 },
@@ -6502,6 +6590,9 @@
                 },
                 "Muffin": {
                     "I.S.D.F": 2
+                },
+                "Ultimate": {
+                    "I.S.D.F": 1
                 }
             }
         }
@@ -6516,8 +6607,8 @@
             "Quagmire": 12,
             "Scammed": 11,
             "Garden": 11,
+            "Giza": 11,
             "Europa": 10,
-            "Giza": 10,
             "Insula": 10,
             "Vegan": 9,
             "Europa Night": 9,
@@ -6604,10 +6695,11 @@
             "Jade Green": 1,
             "Fort 12C": 1,
             "Ground Zero": 1,
-            "Mayhem": 1
+            "Mayhem": 1,
+            "Revolution": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 444,
+            "I.S.D.F": 448,
             "Scion": 155,
             "Hadean": 233
         },
@@ -6628,7 +6720,7 @@
             "VTrider": {
                 "Scion": 24,
                 "Hadean": 70,
-                "I.S.D.F": 21
+                "I.S.D.F": 22
             },
             "Gravey": {
                 "Scion": 9,
@@ -6646,7 +6738,7 @@
                 "Scion": 15
             },
             "Herp McDerperson": {
-                "I.S.D.F": 18,
+                "I.S.D.F": 19,
                 "Hadean": 1
             },
             "Sly": {
@@ -6714,7 +6806,7 @@
                 "I.S.D.F": 7
             },
             "X-Triage": {
-                "I.S.D.F": 8
+                "I.S.D.F": 9
             },
             "Xpi": {
                 "I.S.D.F": 13,
@@ -6775,6 +6867,9 @@
             },
             "Bylarge": {
                 "I.S.D.F": 1
+            },
+            "Ultimate": {
+                "I.S.D.F": 1
             }
         },
         "processed_commander_win_percentages": [
@@ -6804,6 +6899,12 @@
             ],
             [
                 "MAX",
+                100.0,
+                1,
+                1
+            ],
+            [
+                "Ultimate",
                 100.0,
                 1,
                 1
@@ -6852,9 +6953,9 @@
             ],
             [
                 "VTrider",
-                55.65217391304348,
-                115,
-                64
+                56.03448275862068,
+                116,
+                65
             ],
             [
                 "Lamper",
@@ -6930,8 +7031,8 @@
             ],
             [
                 "Herp McDerperson",
-                31.57894736842105,
-                19,
+                30.0,
+                20,
                 6
             ],
             [
@@ -6947,12 +7048,6 @@
                 1
             ],
             [
-                "X-Triage",
-                25.0,
-                8,
-                2
-            ],
-            [
                 "DesUxS",
                 25.0,
                 4,
@@ -6962,6 +7057,12 @@
                 "Maverick",
                 25.0,
                 8,
+                2
+            ],
+            [
+                "X-Triage",
+                22.22222222222222,
+                9,
                 2
             ],
             [
@@ -7044,7 +7145,7 @@
             ],
             [
                 "VTrider",
-                115
+                116
             ],
             [
                 "Sev",
@@ -7083,12 +7184,12 @@
                 22
             ],
             [
-                "Xpi",
+                "Herp McDerperson",
                 20
             ],
             [
-                "Herp McDerperson",
-                19
+                "Xpi",
+                20
             ],
             [
                 "Cyber",
@@ -7124,7 +7225,7 @@
             ],
             [
                 "X-Triage",
-                8
+                9
             ],
             [
                 "Maverick",
@@ -7209,6 +7310,10 @@
             [
                 "Bylarge",
                 1
+            ],
+            [
+                "Ultimate",
+                1
             ]
         ],
         "processed_map_popularity": {
@@ -7221,8 +7326,8 @@
                 "Quagmire",
                 "Scammed",
                 "Garden",
-                "Europa",
                 "Giza",
+                "Europa",
                 "Insula",
                 "Vegan",
                 "Europa Night",
@@ -7262,10 +7367,10 @@
                 "Plaza",
                 "Trench",
                 "Snow Central",
-                "JO Crystal"
+                "JO Crystal",
+                "Beyond"
             ],
             "Moderately Popular": [
-                "Beyond",
                 "Royal Stadium",
                 "No Mans Land",
                 "Mesa",
@@ -7288,10 +7393,10 @@
                 "Concrete Jungle",
                 "Dusk",
                 "Rectal",
-                "Iceberg"
+                "Iceberg",
+                "Trail"
             ],
             "Least Popular": [
-                "Trail",
                 "310",
                 "Mexcian Mission",
                 "Selena",
@@ -7315,7 +7420,8 @@
                 "Jade Green",
                 "Fort 12C",
                 "Ground Zero",
-                "Mayhem"
+                "Mayhem",
+                "Revolution"
             ]
         }
     },
@@ -7613,5 +7719,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/04/19 00:51AM UTC"
+    "last_updated": "2025/04/22 03:31AM UTC"
 }
