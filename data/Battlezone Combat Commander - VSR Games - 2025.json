@@ -2060,6 +2060,50 @@
 						"NOMAD"
 					]
 				}
+			},
+			"04.21.25": {
+				"Giza": {
+					"date": "04.21.25",
+					"map": "Giza",
+					"commanders": "VTrider vs Herp McDerperson",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "22:04",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"NOMAD",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"F9bomber",
+						"Darkvale",
+						"X-Triage"
+					]
+				},
+				"Revolution": {
+					"date": "04.21.25",
+					"map": "Revolution",
+					"commanders": "X-Triage vs Ultimate",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Ultimate",
+					"time": "16:31",
+					"teamOne": [
+						"Domakus",
+						"Herp McDerperson",
+						"Sev",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"VTrider",
+						"Darkvale",
+						"NOMAD"
+					]
+				}
 			}
 		}
 	}
