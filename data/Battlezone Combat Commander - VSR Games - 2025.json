@@ -2246,6 +2246,111 @@
 						"Sev"
 					]
 				}
+			},
+			"04.24.25": {
+				"Rendon": {
+					"date": "04.24.25",
+					"map": "Rendon",
+					"commanders": "Gravey vs Sev",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Gravey",
+					"time": "15:01",
+					"teamOne": [
+						"Ultimate",
+						"Zack",
+						"F9bomber",
+						"GrizzlyOne95"
+					],
+					"teamTwo": [
+						"Domakus",
+						"VTrider",
+						"Herp McDerperson",
+						"X-Triage"
+					]
+				},
+				"Europa Night": {
+					"date": "04.24.25",
+					"map": "Europa Night",
+					"commanders": "Gravey vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "25:26",
+					"teamOne": [
+						"Ultimate",
+						"Zack",
+						"F9bomber",
+						"GrizzlyOne95"
+					],
+					"teamTwo": [
+						"Domakus",
+						"VTrider",
+						"Herp McDerperson",
+						"X-Triage"
+					]
+				},
+				"Lunix": {
+					"date": "04.24.25",
+					"map": "Lunix",
+					"commanders": "Gravey vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "12:13",
+					"teamOne": [
+						"Ultimate",
+						"Zack",
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Domakus",
+						"VTrider",
+						"Herp McDerperson",
+						"X-Triage"
+					]
+				},
+				"Moonshroud": {
+					"date": "04.24.25",
+					"map": "Moonshroud",
+					"commanders": "Gravey vs Herp McDerperson",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "13:09",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"F9bomber",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"VTrider",
+						"Zack",
+						"Judgeguns"
+					]
+				},
+				"Overlook": {
+					"date": "04.24.25",
+					"map": "Overlook",
+					"commanders": "Gravey vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "14:31",
+					"teamOne": [
+						"Sev",
+						"F9bomber",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Herp McDerperson",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
