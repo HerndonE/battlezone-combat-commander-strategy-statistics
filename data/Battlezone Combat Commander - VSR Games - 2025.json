@@ -2351,6 +2351,61 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"04.25.25": {
+				"Strategy Arena": {
+					"date": "04.25.25",
+					"map": "Strategy Arena",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "20:42",
+					"teamOne": [
+						"Domakus"
+					],
+					"teamTwo": [
+						"Muffin"
+					]
+				},
+				"Quagmire": {
+					"date": "04.25.25",
+					"map": "Quagmire",
+					"commanders": "Cyber vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "31:30",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"RollyPolly"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Muffin",
+						"F9bomber"
+					]
+				},
+				"Oasis": {
+					"date": "04.25.25",
+					"map": "Oasis",
+					"commanders": "Sev vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "12:06",
+					"teamOne": [
+						"Ultimate",
+						"Cyber",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Muffin",
+						"RollyPolly"
+					]
+				}
 			}
 		}
 	}
