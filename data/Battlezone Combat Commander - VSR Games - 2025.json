@@ -2104,6 +2104,148 @@
 						"NOMAD"
 					]
 				}
+			},
+			"04.22.25": {
+				"Red Slope": {
+					"date": "04.22.25",
+					"map": "Red Slope",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Sev",
+					"time": "38:46",
+					"teamOne": [
+						"Herp McDerperson",
+						"Zack",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Domakus"
+					]
+				},
+				"Remnant": {
+					"date": "04.22.25",
+					"map": "Remnant",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "12:19",
+					"teamOne": [
+						"Ultimate",
+						"Sev",
+						"Gravey",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Cyber",
+						"F9bomber",
+						"X-Triage"
+					]
+				},
+				"Twin Peaks": {
+					"date": "04.22.25",
+					"map": "Twin Peaks",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "18:26",
+					"teamOne": [
+						"Ultimate",
+						"Sev",
+						"Herp McDerperson",
+						"NOMAD"
+					],
+					"teamTwo": [
+						"Domakus",
+						"F9bomber",
+						"Gravey",
+						"X-Triage"
+					]
+				},
+				"Vegan": {
+					"date": "04.22.25",
+					"map": "Vegan",
+					"commanders": "VTrider vs Zack",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "16:41",
+					"teamOne": [
+						"Ultimate",
+						"Sev",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Domakus",
+						"F9bomber",
+						"Gravey",
+						"X-Triage"
+					]
+				},
+				"Oasis": {
+					"date": "04.22.25",
+					"map": "Oasis",
+					"commanders": "Gravey vs Domakus",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Domakus",
+					"time": "10:10",
+					"teamOne": [
+						"Sly",
+						"Feared_1",
+						"Econchump",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Sev",
+						"F9bomber",
+						"X-Triage"
+					]
+				},
+				"Overlook": {
+					"date": "04.22.25",
+					"map": "Overlook",
+					"commanders": "RollyPolly vs Sev",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "15:33",
+					"teamOne": [
+						"Econchump",
+						"Feared_1",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"X-Triage"
+					]
+				},
+				"Plaza": {
+					"date": "04.22.25",
+					"map": "Plaza",
+					"commanders": "RollyPolly vs X-Triage",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "16:31",
+					"teamOne": [
+						"Econchump",
+						"Feared_1",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"Sev"
+					]
+				}
 			}
 		}
 	}
