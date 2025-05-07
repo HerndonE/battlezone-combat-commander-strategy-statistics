@@ -2406,6 +2406,86 @@
 						"RollyPolly"
 					]
 				}
+			},
+			"04.26.25": {
+				"Oldboy": {
+					"date": "04.26.25",
+					"map": "Oldboy",
+					"commanders": "Jabbapop vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Jabbapop",
+					"time": "22:31",
+					"teamOne": [
+						"Ultimate",
+						"Judgeguns",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Sev",
+						"Herp McDerperson",
+						"Sadh0w"
+					]
+				},
+				"Quagmire": {
+					"date": "04.26.25",
+					"map": "Quagmire",
+					"commanders": "Jabbapop vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Jabbapop",
+					"time": "18:43",
+					"teamOne": [
+						"Ultimate",
+						"Herp McDerperson",
+						"X-Triage",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"VTrider",
+						"Sadh0w",
+						"Judgeguns"
+					]
+				},
+				"Quarry": {
+					"date": "04.26.25",
+					"map": "Quarry",
+					"commanders": "Jabbapop vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "13:33",
+					"teamOne": [
+						"Ultimate",
+						"Herp McDerperson",
+						"X-Triage",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"VTrider",
+						"Sadh0w",
+						"Judgeguns"
+					]
+				},
+				"Vegan": {
+					"date": "04.26.25",
+					"map": "Vegan",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "18:11",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"Darkvale"
+					]
+				}
 			}
 		}
 	}
