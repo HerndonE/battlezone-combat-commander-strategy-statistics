@@ -2814,6 +2814,21 @@
 						"Bylarge"
 					]
 				},
+				"Sahara": {
+					"date": "05.9.25",
+					"map": "Sahara",
+					"commanders": "Gravey vs Whatever",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "NA",
+					"teamOne": [
+						"NA"
+					],
+					"teamTwo": [
+						"NA"
+					]
+				},
 				"Fort 12C": {
 					"date": "05.9.25",
 					"map": "Fort 12C",
