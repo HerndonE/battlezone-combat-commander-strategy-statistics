@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Giza",
-                "Red Slope",
-                "Snow Central",
-                "Alien Dunes",
-                "Bridges",
-                "Ridges",
-                "Vortex",
-                "Lunix",
-                "Assualt",
-                "Plaza",
-                "Oasis",
-                "Quagmire",
-                "Crater",
-                "Domain",
-                "Royal Stadium",
-                "Twin Peaks",
-                "Overlook",
-                "No Mans Land",
-                "Rendon",
-                "Scion Central",
-                "Aztec",
-                "Mesa",
-                "Ice Age",
-                "Vegan",
-                "Phazon",
-                "Beyond",
-                "Mexcian Mission",
-                "Egypt",
-                "Mojave",
-                "Transfer",
+                "Terron",
                 "Throbbing Gristle",
-                "Trail",
-                "Rectal",
-                "Mort's Wasteland",
-                "High & Low",
-                "Phoenix",
-                "Tempest",
-                "Casius",
-                "Ogg Vorbis",
-                "310",
-                "Ragnarok",
-                "Ravine",
-                "Bowl",
-                "Abundance",
-                "Forgotten",
-                "Scammed",
-                "Barren",
-                "Hound",
-                "Ancient Hills",
-                "Abuse",
-                "Remnant",
-                "Garden",
+                "Prodigy Ver .2",
                 "Pitbull",
-                "Iraq",
-                "Reflex",
+                "Domain",
+                "Caiscus",
+                "Dream",
+                "Consciousness",
+                "Trench",
                 "Island of V8",
-                "Selena",
-                "Plus",
+                "Ravine",
+                "Ebola",
+                "Mort's Wasteland",
+                "Royal Stadium",
                 "Excavation",
-                "Titan",
+                "Ogg Vorbis",
+                "Insula",
+                "Echelon",
+                "Assualt",
+                "Overlook",
+                "Reflex",
+                "Moonshroud",
                 "Europa",
+                "Garden",
+                "310",
+                "Vortex",
+                "Europa Night",
+                "Scion Central",
+                "Trail",
+                "Sinister",
+                "Abuse",
+                "Quagmire",
+                "Remnant",
+                "Dune Night",
+                "Titan",
+                "Vegan",
+                "Rectal",
+                "Ragnarok",
+                "Mexcian Mission",
+                "Lunix",
+                "Phoenix",
+                "Phazon",
+                "Rendon",
+                "Plus",
+                "Satart",
+                "Sahara",
+                "Ice Age",
                 "Terrace",
                 "Oldboy",
-                "Chill",
-                "Europa Night",
-                "Satart",
-                "Oxide",
-                "Caiscus",
-                "Mountain Top",
-                "Lunar",
-                "Madern Warfare",
-                "Dune Night",
-                "JO Crystal",
-                "Strategy Arena",
-                "Echelon",
-                "High Heat",
-                "Concrete Jungle",
-                "Insula",
-                "Quarry",
-                "Dusk",
-                "Terron",
-                "Trench",
-                "Hi-Mid-Lo",
-                "Consciousness",
-                "Sinister",
-                "Dream",
-                "Ebola",
-                "Stone Circle",
-                "Sahara",
+                "Selena",
                 "Haven",
-                "Prodigy Ver .2",
+                "Mojave",
+                "Twin Peaks",
+                "Quarry",
+                "High & Low",
+                "Madern Warfare",
+                "Snow Central",
+                "Hi-Mid-Lo",
+                "Concrete Jungle",
+                "Alien Dunes",
+                "Red Slope",
+                "Ancient Hills",
+                "Hound",
+                "Bridges",
+                "Tempest",
+                "Ridges",
+                "Plaza",
+                "Forgotten",
+                "Mountain Top",
                 "Iceberg",
-                "Moonshroud"
+                "Oasis",
+                "Aztec",
+                "Stone Circle",
+                "Giza",
+                "Strategy Arena",
+                "Abundance",
+                "JO Crystal",
+                "Beyond",
+                "Crater",
+                "Oxide",
+                "Chill",
+                "Casius",
+                "Barren",
+                "Mesa",
+                "High Heat",
+                "Transfer",
+                "Lunar",
+                "No Mans Land",
+                "Iraq",
+                "Egypt",
+                "Dusk",
+                "Scammed",
+                "Bowl"
             ],
             "commander_list": [
                 [
@@ -6654,6 +6654,21 @@
                                 "Bylarge"
                             ]
                         },
+                        "Sahara": {
+                            "date": "05.9.25",
+                            "map": "Sahara",
+                            "commanders": "Gravey vs Whatever",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winning faction": "Scion",
+                            "winner": "Gravey",
+                            "time": "NA",
+                            "teamOne": [
+                                "NA"
+                            ],
+                            "teamTwo": [
+                                "NA"
+                            ]
+                        },
                         "Fort 12C": {
                             "date": "05.9.25",
                             "map": "Fort 12C",
@@ -6797,6 +6812,10 @@
                     4
                 ],
                 [
+                    "Sahara",
+                    4
+                ],
+                [
                     "Strategy Arena",
                     4
                 ],
@@ -6814,10 +6833,6 @@
                 ],
                 [
                     "Lunar",
-                    3
-                ],
-                [
-                    "Sahara",
                     3
                 ],
                 [
@@ -6954,56 +6969,56 @@
                 ]
             ],
             "unique_map_values": [
-                "Giza",
-                "Red Slope",
-                "Snow Central",
-                "Aztec",
-                "Scammed",
-                "Ice Age",
-                "Vegan",
-                "Revolution",
-                "Barren",
-                "Lunar",
-                "Hound",
-                "Ridges",
-                "Vortex",
-                "Ancient Hills",
-                "Lunix",
-                "Jade Green",
-                "Echelon",
-                "Strategy Arena",
-                "Mojave",
-                "Insula",
-                "Remnant",
-                "Quarry",
-                "Throbbing Gristle",
-                "Garden",
-                "Terron",
-                "Plaza",
-                "Trench",
-                "Oasis",
-                "Iraq",
-                "Quagmire",
-                "Reflex",
-                "Island of V8",
-                "Consciousness",
-                "Domain",
-                "Titan",
-                "Ebola",
                 "Sahara",
-                "Twin Peaks",
-                "Casius",
-                "Mayhem",
-                "Fort 12C",
-                "Ground Zero",
-                "Europa",
-                "Haven",
-                "Oldboy",
-                "Overlook",
+                "Ice Age",
+                "Terron",
+                "Oasis",
+                "Aztec",
                 "Moonshroud",
-                "Bowl",
+                "Europa",
+                "Garden",
+                "Giza",
+                "Throbbing Gristle",
+                "Oldboy",
+                "Strategy Arena",
+                "Revolution",
+                "Jade Green",
+                "Domain",
+                "Vortex",
+                "Haven",
+                "Ground Zero",
+                "Mojave",
+                "Mayhem",
+                "Europa Night",
+                "Twin Peaks",
+                "Quarry",
+                "Consciousness",
+                "Fort 12C",
+                "Trench",
+                "Quagmire",
+                "Remnant",
+                "Island of V8",
+                "Casius",
+                "Snow Central",
+                "Barren",
+                "Ebola",
+                "Titan",
+                "Lunar",
+                "Vegan",
+                "Red Slope",
+                "Insula",
+                "Echelon",
+                "Ancient Hills",
+                "Hound",
+                "Overlook",
+                "Lunix",
+                "Iraq",
+                "Ridges",
+                "Plaza",
                 "Rendon",
-                "Europa Night"
+                "Scammed",
+                "Bowl",
+                "Reflex"
             ],
             "commander_list": [
                 [
@@ -7035,11 +7050,11 @@
                     13
                 ],
                 [
-                    "Blue Banana",
-                    12
+                    "Gravey",
+                    13
                 ],
                 [
-                    "Gravey",
+                    "Blue Banana",
                     12
                 ],
                 [
@@ -7083,6 +7098,10 @@
                     3
                 ],
                 [
+                    "Whatever",
+                    3
+                ],
+                [
                     "Cyber",
                     2
                 ],
@@ -7092,10 +7111,6 @@
                 ],
                 [
                     "Domakus",
-                    2
-                ],
-                [
-                    "Whatever",
                     2
                 ],
                 [
@@ -7274,9 +7289,9 @@
                 ],
                 [
                     "Gravey",
-                    25.0,
-                    12,
-                    3
+                    30.76923076923077,
+                    13,
+                    4
                 ],
                 [
                     "Darkvale",
@@ -7305,14 +7320,14 @@
                 [
                     "Whatever",
                     0.0,
-                    2,
+                    3,
                     0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 137,
+                "I.S.D.F": 138,
                 "Hadean": 88,
-                "Scion": 77
+                "Scion": 78
             },
             "commander_faction_counts": {
                 "Sev": {
@@ -7405,7 +7420,7 @@
                     "I.S.D.F": 2
                 },
                 "Gravey": {
-                    "Scion": 6,
+                    "Scion": 7,
                     "I.S.D.F": 6
                 },
                 "Domakus": {
@@ -7420,7 +7435,7 @@
                     "I.S.D.F": 2
                 },
                 "Whatever": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 3
                 }
             },
             "commander_faction_wins": {
@@ -7503,7 +7518,7 @@
                 },
                 "Gravey": {
                     "I.S.D.F": 1,
-                    "Scion": 2
+                    "Scion": 3
                 },
                 "Herp McDerperson": {
                     "I.S.D.F": 1
@@ -7534,8 +7549,8 @@
             "Vegan": 11,
             "Europa": 10,
             "Europa Night": 10,
+            "Sahara": 10,
             "Insula": 10,
-            "Sahara": 9,
             "Oasis": 9,
             "Lunix": 8,
             "Twin Peaks": 8,
@@ -7622,8 +7637,8 @@
             "Revolution": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 493,
-            "Scion": 173,
+            "I.S.D.F": 494,
+            "Scion": 174,
             "Hadean": 250
         },
         "processed_commander_faction_counts": {
@@ -7646,7 +7661,7 @@
                 "I.S.D.F": 25
             },
             "Gravey": {
-                "Scion": 15,
+                "Scion": 16,
                 "I.S.D.F": 10,
                 "Hadean": 1
             },
@@ -7795,7 +7810,7 @@
                 "I.S.D.F": 2
             },
             "Whatever": {
-                "I.S.D.F": 2
+                "I.S.D.F": 3
             }
         },
         "processed_commander_win_percentages": [
@@ -7998,16 +8013,16 @@
                 6
             ],
             [
+                "Gravey",
+                22.22222222222222,
+                27,
+                6
+            ],
+            [
                 "Darkvale",
                 20.0,
                 15,
                 3
-            ],
-            [
-                "Gravey",
-                19.230769230769234,
-                26,
-                5
             ],
             [
                 "Judgeguns",
@@ -8066,7 +8081,7 @@
             [
                 "Whatever",
                 0.0,
-                2,
+                3,
                 0
             ]
         ],
@@ -8109,7 +8124,7 @@
             ],
             [
                 "Gravey",
-                26
+                27
             ],
             [
                 "Jabbapop",
@@ -8196,6 +8211,10 @@
                 3
             ],
             [
+                "Whatever",
+                3
+            ],
+            [
                 "Zentuski",
                 2
             ],
@@ -8209,10 +8228,6 @@
             ],
             [
                 "Ultimate",
-                2
-            ],
-            [
-                "Whatever",
                 2
             ],
             [
@@ -8266,8 +8281,8 @@
                 "Vegan",
                 "Europa",
                 "Europa Night",
-                "Insula",
                 "Sahara",
+                "Insula",
                 "Oasis",
                 "Lunix",
                 "Twin Peaks",
@@ -8655,5 +8670,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/05/19 06:34AM UTC"
+    "last_updated": "2025/05/19 14:59PM UTC"
 }
