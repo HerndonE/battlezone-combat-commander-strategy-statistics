@@ -2709,6 +2709,203 @@
 						"Bylarge"
 					]
 				}
+			},
+			"05.9.25": {
+				"Reflex": {
+					"date": "05.9.25",
+					"map": "Reflex",
+					"commanders": "Gravey vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "NA",
+					"teamOne": [
+						"Econchump",
+						"F9bomber",
+						"F9mama",
+						"Bylarge"
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "Shadowplay not able to record video, only audio"
+				},
+				"Quarry": {
+					"date": "05.9.25",
+					"map": "Quarry",
+					"commanders": "Whatever vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Darkvale",
+					"time": "10:57",
+					"teamOne": [
+						"Sev",
+						"F9bomber",
+						"F9mama",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Zack",
+						"Herp McDerperson",
+						"Judgeguns"
+					]
+				},
+				"Vortex": {
+					"date": "05.9.25",
+					"map": "Vortex",
+					"commanders": "Whatever vs Ultimate",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Ultimate",
+					"time": "15:00",
+					"teamOne": [
+						"VTrider",
+						"Herp McDerperson",
+						"F9mama",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"X-Triage",
+						"Darkvale",
+						"Bylarge"
+					]
+				},
+				"Ancient Hills": {
+					"date": "05.9.25",
+					"map": "Ancient Hills",
+					"commanders": "VTrider vs Herp McDerperson",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "16:19",
+					"teamOne": [
+						"Econchump",
+						"F9bomber",
+						"Bylarge",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Whatever",
+						"X-Triage",
+						"F9mama"
+					]
+				},
+				"Mojave": {
+					"date": "05.9.25",
+					"map": "Mojave",
+					"commanders": "Darkvale vs X-Triage",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "I.S.D.F",
+					"time": "",
+					"teamOne": [
+						"Ultimate",
+						"F9bomber",
+						"Shock",
+						"Whatever"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Econchump",
+						"Herp McDerperson",
+						"Bylarge"
+					]
+				},
+				"Fort 12C": {
+					"date": "05.9.25",
+					"map": "Fort 12C",
+					"commanders": "Gravey vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "47:34",
+					"teamOne": [
+						"Blue Banana",
+						"Herp McDerperson",
+						"Whatever"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Lumi",
+						"Judgeguns"
+					]
+				}
+			},
+			"05.10.25": {
+				"Quarry": {
+					"date": "05.10.25",
+					"map": "Quarry",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "12:51",
+					"teamOne": [
+						"Muffin"
+					],
+					"teamTwo": [
+						"Zack"
+					]
+				},
+				"Terron": {
+					"date": "05.10.25",
+					"map": "Terron",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "12:15",
+					"teamOne": [
+						"Ultimate"
+					],
+					"teamTwo": [
+						"Zack",
+						"Muffin"
+					]
+				},
+				"Trench": {
+					"date": "05.10.25",
+					"map": "Trench",
+					"commanders": "F9bomber vs Muffin",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "21:26",
+					"teamOne": [
+						"Econchump"
+					],
+					"teamTwo": [
+						"Zack"
+					]
+				}
+			},
+			"05.12.25": {
+				"Red Slope": {
+					"date": "05.12.25",
+					"map": "Red Slope",
+					"commanders": "Darkvale vs Gravey",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "1:13:21",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Ultimate"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
+						"Herp McDerperson",
+						"VTrider"
+					]
+				}
 			}
 		}
 	}
