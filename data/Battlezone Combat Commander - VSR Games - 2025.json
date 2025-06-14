@@ -2924,6 +2924,112 @@
 					]
 				}
 			}
+		},
+		"June": {
+			"06.1.25": {
+				"Rendon": {
+					"date": "06.1.25",
+					"map": "Rendon",
+					"commanders": "X-Triage vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Darkvale",
+					"time": "16:31",
+					"teamOne": [
+						"F9bomber",
+						"VTrider",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Sev",
+						"Zack"
+					]
+				},
+				"Quarry": {
+					"date": "06.1.25",
+					"map": "Quarry",
+					"commanders": "X-Triage vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "16:28",
+					"teamOne": [
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Zack",
+						"Sev"
+					]
+				},
+				"Oasis": {
+					"date": "06.1.25",
+					"map": "Oasis",
+					"commanders": "X-Triage vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "13:34",
+					"teamOne": [
+						"F9bomber",
+						"Sev"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale"
+					]
+				}
+			},
+			"06.7.25": {
+				"Red Slope": {
+					"date": "06.7.25",
+					"map": "Red Slope",
+					"commanders": "Sly vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "32:00",
+					"teamOne": [
+						"HyperVivify",
+						"X-Triage",
+						"NOMAD",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwoStraggler": [
+						"Oldman",
+						"Judgeguns"
+					]
+				}
+			},
+			"06.8.25": {
+				"Overlook": {
+					"date": "06.8.25",
+					"map": "Overlook",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "",
+					"teamOne": [
+						"VTrider",
+						"Shock",
+						"Bylarge",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Gravey",
+						"Herp McDerperson",
+						"Judgeguns",
+						"Darkvale"
+					]
+				}
+			}
 		}
 	}
 }
