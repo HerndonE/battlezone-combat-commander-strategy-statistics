@@ -2486,442 +2486,442 @@
 						"Darkvale"
 					]
 				}
+			}
+		},
+		"May": {
+			"05.2.25": {
+				"Overlook": {
+					"date": "05.2.25",
+					"map": "Overlook",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "19:37",
+					"teamOne": [
+						"Ultimate",
+						"Herp McDerperson",
+						"Xpi"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"Judgeguns"
+					]
+				},
+				"Quarry": {
+					"date": "05.2.25",
+					"map": "Quarry",
+					"commanders": "Darkvale vs Xpi",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Xpi",
+					"time": "8:03",
+					"teamOne": [
+						"Ultimate",
+						"X-Triage",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Econchump",
+						"F9bomber",
+						"NOMAD"
+					]
+				},
+				"Red Slope": {
+					"date": "05.2.25",
+					"map": "Red Slope",
+					"commanders": "X-Triage vs Xpi",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "24:04",
+					"teamOne": [
+						"Ultimate",
+						"F9bomber",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Econchump",
+						"Darkvale",
+						"NOMAD"
+					]
+				},
+				"Strategy Arena": {
+					"date": "05.2.25",
+					"map": "Strategy Arena",
+					"commanders": "F9bomber vs Xpi",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "15:27",
+					"teamOne": [
+						"Herp McDerperson",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Econchump",
+						"NOMAD"
+					]
+				}
 			},
-			"May": {
-				"05.2.25": {
-					"Overlook": {
-						"date": "05.2.25",
-						"map": "Overlook",
-						"commanders": "F9bomber vs Econchump",
-						"factions": "[Hadean, I.S.D.F]",
-						"winning faction": "Hadean",
-						"winner": "F9bomber",
-						"time": "19:37",
-						"teamOne": [
-							"Ultimate",
-							"Herp McDerperson",
-							"Xpi"
-						],
-						"teamTwo": [
-							"VTrider",
-							"Darkvale",
-							"Judgeguns"
-						]
-					},
-					"Quarry": {
-						"date": "05.2.25",
-						"map": "Quarry",
-						"commanders": "Darkvale vs Xpi",
-						"factions": "[Scion, Scion]",
-						"winning faction": "Scion",
-						"winner": "Xpi",
-						"time": "8:03",
-						"teamOne": [
-							"Ultimate",
-							"X-Triage",
-							"Herp McDerperson",
-							"Judgeguns"
-						],
-						"teamTwo": [
-							"VTrider",
-							"Econchump",
-							"F9bomber",
-							"NOMAD"
-						]
-					},
-					"Red Slope": {
-						"date": "05.2.25",
-						"map": "Red Slope",
-						"commanders": "X-Triage vs Xpi",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "X-Triage",
-						"time": "24:04",
-						"teamOne": [
-							"Ultimate",
-							"F9bomber",
-							"Herp McDerperson",
-							"Judgeguns"
-						],
-						"teamTwo": [
-							"VTrider",
-							"Econchump",
-							"Darkvale",
-							"NOMAD"
-						]
-					},
-					"Strategy Arena": {
-						"date": "05.2.25",
-						"map": "Strategy Arena",
-						"commanders": "F9bomber vs Xpi",
-						"factions": "[Hadean, Scion]",
-						"winning faction": "Hadean",
-						"winner": "F9bomber",
-						"time": "15:27",
-						"teamOne": [
-							"Herp McDerperson",
-							"Darkvale"
-						],
-						"teamTwo": [
-							"Econchump",
-							"NOMAD"
-						]
-					}
+			"05.3.25": {
+				"Ebola": {
+					"date": "05.3.25",
+					"map": "Ebola",
+					"commanders": "Gravey vs Econchump",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "10:04",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"F9bomber",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Muffin",
+						"Judgeguns",
+						"Darkvale"
+					]
 				},
-				"05.3.25": {
-					"Ebola": {
-						"date": "05.3.25",
-						"map": "Ebola",
-						"commanders": "Gravey vs Econchump",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "Gravey",
-						"time": "10:04",
-						"teamOne": [
-							"Domakus",
-							"Sev",
-							"F9bomber",
-							"X-Triage"
-						],
-						"teamTwo": [
-							"Ultimate",
-							"Muffin",
-							"Judgeguns",
-							"Darkvale"
-						]
-					},
-					"Barren": {
-						"date": "05.3.25",
-						"map": "Barren",
-						"commanders": "Gravey vs Domakus",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Domakus",
-						"time": "11:37",
-						"teamOne": [
-							"Ultimate",
-							"Muffin",
-							"F9bomber",
-							"Darkvale"
-						],
-						"teamTwo": [
-							"Econchump",
-							"Sev",
-							"X-Triage",
-							"Judgeguns"
-						]
-					},
-					"Sahara": {
-						"date": "05.3.25",
-						"map": "Sahara",
-						"commanders": "Gravey vs Sev",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "Scion",
-						"time": "25:16",
-						"teamOne": [
-							"Domakus",
-							"Econchump",
-							"F9bomber",
-							"Darkvale"
-						],
-						"teamTwo": [
-							"Ultimate",
-							"Muffin",
-							"HonourWolf",
-							"X-Triage"
-						]
-					},
-					"Titan": {
-						"date": "05.3.25",
-						"map": "Titan",
-						"commanders": "F9bomber vs Sev",
-						"factions": "[Hadean, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "Sev",
-						"time": "13:26",
-						"teamOne": [
-							"Muffin",
-							"HonourWolf"
-						],
-						"teamTwo": [
-							"Ultimate",
-							"Darkvale"
-						]
-					}
+				"Barren": {
+					"date": "05.3.25",
+					"map": "Barren",
+					"commanders": "Gravey vs Domakus",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "11:37",
+					"teamOne": [
+						"Ultimate",
+						"Muffin",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Sev",
+						"X-Triage",
+						"Judgeguns"
+					]
 				},
-				"05.5.25": {
-					"Red Slope": {
-						"date": "05.5.25",
-						"map": "Red Slope",
-						"commanders": "Xpi vs Judgeguns",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "Xpi",
-						"time": "33:23",
-						"teamOne": [
-							"F9bomber",
-							"Econchump",
-							"Whatever"
-						],
-						"teamTwo": [
-							"VTrider",
-							"Sev",
-							"F9mama"
-						]
-					},
-					"Throbbing Gristle": {
-						"date": "05.5.25",
-						"map": "Throbbing Gristle",
-						"commanders": "Xpi vs F9bomber",
-						"factions": "[I.S.D.F, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "F9bomber",
-						"time": "17:09",
-						"teamOne": [
-							"Sev",
-							"Muffin",
-							"Judgeguns",
-							"KingFuryKiller"
-						],
-						"teamTwo": [
-							"Econchump",
-							"Whatever",
-							"F9mama",
-							"Bylarge"
-						]
-					},
-					"Twin Peaks": {
-						"date": "05.5.25",
-						"map": "Twin Peaks",
-						"commanders": "Muffin vs Econchump",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Econchump",
-						"time": "16:54",
-						"teamOne": [
-							"Sev",
-							"Xpi",
-							"F9mama"
-						],
-						"teamTwo": [
-							"F9bomber",
-							"Whatever",
-							"Bylarge"
-						]
-					}
+				"Sahara": {
+					"date": "05.3.25",
+					"map": "Sahara",
+					"commanders": "Gravey vs Sev",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Scion",
+					"time": "25:16",
+					"teamOne": [
+						"Domakus",
+						"Econchump",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Muffin",
+						"HonourWolf",
+						"X-Triage"
+					]
 				},
-				"05.9.25": {
-					"Reflex": {
-						"date": "05.9.25",
-						"map": "Reflex",
-						"commanders": "Gravey vs Sev",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Sev",
-						"time": "NA",
-						"teamOne": [
-							"Econchump",
-							"F9bomber",
-							"F9mama",
-							"Bylarge"
-						],
-						"teamTwo": [
-							""
-						],
-						"_comment": "Shadowplay not able to record video, only audio"
-					},
-					"Quarry": {
-						"date": "05.9.25",
-						"map": "Quarry",
-						"commanders": "Whatever vs Darkvale",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Darkvale",
-						"time": "10:57",
-						"teamOne": [
-							"Sev",
-							"F9bomber",
-							"F9mama",
-							"Bylarge"
-						],
-						"teamTwo": [
-							"Domakus",
-							"Zack",
-							"Herp McDerperson",
-							"Judgeguns"
-						]
-					},
-					"Vortex": {
-						"date": "05.9.25",
-						"map": "Vortex",
-						"commanders": "Whatever vs Ultimate",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Ultimate",
-						"time": "15:00",
-						"teamOne": [
-							"VTrider",
-							"Herp McDerperson",
-							"F9mama",
-							"Judgeguns"
-						],
-						"teamTwo": [
-							"F9bomber",
-							"X-Triage",
-							"Darkvale",
-							"Bylarge"
-						]
-					},
-					"Ancient Hills": {
-						"date": "05.9.25",
-						"map": "Ancient Hills",
-						"commanders": "VTrider vs Herp McDerperson",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "VTrider",
-						"time": "16:19",
-						"teamOne": [
-							"Econchump",
-							"F9bomber",
-							"Bylarge",
-							"Darkvale"
-						],
-						"teamTwo": [
-							"Ultimate",
-							"Whatever",
-							"X-Triage",
-							"F9mama"
-						]
-					},
-					"Mojave": {
-						"date": "05.9.25",
-						"map": "Mojave",
-						"commanders": "Darkvale vs X-Triage",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "I.S.D.F",
-						"time": "",
-						"teamOne": [
-							"Ultimate",
-							"F9bomber",
-							"Shock",
-							"Whatever"
-						],
-						"teamTwo": [
-							"VTrider",
-							"Econchump",
-							"Herp McDerperson",
-							"Bylarge"
-						]
-					},
-					"Sahara": {
-						"date": "05.9.25",
-						"map": "Sahara",
-						"commanders": "Gravey vs Whatever",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "Gravey",
-						"time": "NA",
-						"teamOne": [
-							"NA"
-						],
-						"teamTwo": [
-							"NA"
-						]
-					},
-					"Fort 12C": {
-						"date": "05.9.25",
-						"map": "Fort 12C",
-						"commanders": "Gravey vs VTrider",
-						"factions": "[I.S.D.F, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "VTrider",
-						"time": "47:34",
-						"teamOne": [
-							"Blue Banana",
-							"Herp McDerperson",
-							"Whatever"
-						],
-						"teamTwo": [
-							"Sev",
-							"F9bomber",
-							"Lumi",
-							"Judgeguns"
-						]
-					}
+				"Titan": {
+					"date": "05.3.25",
+					"map": "Titan",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Sev",
+					"time": "13:26",
+					"teamOne": [
+						"Muffin",
+						"HonourWolf"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Darkvale"
+					]
+				}
+			},
+			"05.5.25": {
+				"Red Slope": {
+					"date": "05.5.25",
+					"map": "Red Slope",
+					"commanders": "Xpi vs Judgeguns",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Xpi",
+					"time": "33:23",
+					"teamOne": [
+						"F9bomber",
+						"Econchump",
+						"Whatever"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Sev",
+						"F9mama"
+					]
 				},
-				"05.10.25": {
-					"Quarry": {
-						"date": "05.10.25",
-						"map": "Quarry",
-						"commanders": "F9bomber vs Econchump",
-						"factions": "[Hadean, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Econchump",
-						"time": "12:51",
-						"teamOne": [
-							"Muffin"
-						],
-						"teamTwo": [
-							"Zack"
-						]
-					},
-					"Terron": {
-						"date": "05.10.25",
-						"map": "Terron",
-						"commanders": "F9bomber vs Econchump",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Econchump",
-						"time": "12:15",
-						"teamOne": [
-							"Ultimate"
-						],
-						"teamTwo": [
-							"Zack",
-							"Muffin"
-						]
-					},
-					"Trench": {
-						"date": "05.10.25",
-						"map": "Trench",
-						"commanders": "F9bomber vs Muffin",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Muffin",
-						"time": "21:26",
-						"teamOne": [
-							"Econchump"
-						],
-						"teamTwo": [
-							"Zack"
-						]
-					}
+				"Throbbing Gristle": {
+					"date": "05.5.25",
+					"map": "Throbbing Gristle",
+					"commanders": "Xpi vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "17:09",
+					"teamOne": [
+						"Sev",
+						"Muffin",
+						"Judgeguns",
+						"KingFuryKiller"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Whatever",
+						"F9mama",
+						"Bylarge"
+					]
 				},
-				"05.12.25": {
-					"Red Slope": {
-						"date": "05.12.25",
-						"map": "Red Slope",
-						"commanders": "Darkvale vs Gravey",
-						"factions": "[I.S.D.F, Scion]",
-						"winning faction": "Scion",
-						"winner": "Gravey",
-						"time": "1:13:21",
-						"teamOne": [
-							"F9bomber"
-						],
-						"teamTwo": [
-							"Ultimate"
-						],
-						"teamOneStraggler": [
-							"Domakus"
-						],
-						"teamTwoStraggler": [
-							"Herp McDerperson",
-							"VTrider"
-						]
-					}
+				"Twin Peaks": {
+					"date": "05.5.25",
+					"map": "Twin Peaks",
+					"commanders": "Muffin vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "16:54",
+					"teamOne": [
+						"Sev",
+						"Xpi",
+						"F9mama"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Whatever",
+						"Bylarge"
+					]
+				}
+			},
+			"05.9.25": {
+				"Reflex": {
+					"date": "05.9.25",
+					"map": "Reflex",
+					"commanders": "Gravey vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "NA",
+					"teamOne": [
+						"Econchump",
+						"F9bomber",
+						"F9mama",
+						"Bylarge"
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "Shadowplay not able to record video, only audio"
+				},
+				"Quarry": {
+					"date": "05.9.25",
+					"map": "Quarry",
+					"commanders": "Whatever vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Darkvale",
+					"time": "10:57",
+					"teamOne": [
+						"Sev",
+						"F9bomber",
+						"F9mama",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Zack",
+						"Herp McDerperson",
+						"Judgeguns"
+					]
+				},
+				"Vortex": {
+					"date": "05.9.25",
+					"map": "Vortex",
+					"commanders": "Whatever vs Ultimate",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Ultimate",
+					"time": "15:00",
+					"teamOne": [
+						"VTrider",
+						"Herp McDerperson",
+						"F9mama",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"X-Triage",
+						"Darkvale",
+						"Bylarge"
+					]
+				},
+				"Ancient Hills": {
+					"date": "05.9.25",
+					"map": "Ancient Hills",
+					"commanders": "VTrider vs Herp McDerperson",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "16:19",
+					"teamOne": [
+						"Econchump",
+						"F9bomber",
+						"Bylarge",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Whatever",
+						"X-Triage",
+						"F9mama"
+					]
+				},
+				"Mojave": {
+					"date": "05.9.25",
+					"map": "Mojave",
+					"commanders": "Darkvale vs X-Triage",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "I.S.D.F",
+					"time": "",
+					"teamOne": [
+						"Ultimate",
+						"F9bomber",
+						"Shock",
+						"Whatever"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Econchump",
+						"Herp McDerperson",
+						"Bylarge"
+					]
+				},
+				"Sahara": {
+					"date": "05.9.25",
+					"map": "Sahara",
+					"commanders": "Gravey vs Whatever",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "NA",
+					"teamOne": [
+						"NA"
+					],
+					"teamTwo": [
+						"NA"
+					]
+				},
+				"Fort 12C": {
+					"date": "05.9.25",
+					"map": "Fort 12C",
+					"commanders": "Gravey vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "47:34",
+					"teamOne": [
+						"Blue Banana",
+						"Herp McDerperson",
+						"Whatever"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Lumi",
+						"Judgeguns"
+					]
+				}
+			},
+			"05.10.25": {
+				"Quarry": {
+					"date": "05.10.25",
+					"map": "Quarry",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "12:51",
+					"teamOne": [
+						"Muffin"
+					],
+					"teamTwo": [
+						"Zack"
+					]
+				},
+				"Terron": {
+					"date": "05.10.25",
+					"map": "Terron",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "12:15",
+					"teamOne": [
+						"Ultimate"
+					],
+					"teamTwo": [
+						"Zack",
+						"Muffin"
+					]
+				},
+				"Trench": {
+					"date": "05.10.25",
+					"map": "Trench",
+					"commanders": "F9bomber vs Muffin",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "21:26",
+					"teamOne": [
+						"Econchump"
+					],
+					"teamTwo": [
+						"Zack"
+					]
+				}
+			},
+			"05.12.25": {
+				"Red Slope": {
+					"date": "05.12.25",
+					"map": "Red Slope",
+					"commanders": "Darkvale vs Gravey",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "1:13:21",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Ultimate"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
+						"Herp McDerperson",
+						"VTrider"
+					]
 				}
 			}
 		}
