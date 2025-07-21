@@ -3015,7 +3015,7 @@
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winning faction": "I.S.D.F",
 					"winner": "Econchump",
-					"time": "",
+					"time": "31:08",
 					"teamOne": [
 						"VTrider",
 						"Shock",
@@ -3028,6 +3028,49 @@
 						"Judgeguns",
 						"Darkvale"
 					]
+				}
+			}
+		},
+		"July": {
+			"07.8.25": {
+				"Consciousness": {
+					"date": "07.8.25",
+					"map": "Consciousness",
+					"commanders": "Darkvale vs Bylarge",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Darkvale",
+					"time": "10:52",
+					"teamOne": [
+						"VTrider",
+						"Zack",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Herp McDerperson",
+						"Certified Bad Guy"
+					]
+				}
+			},
+			"07.20.25": {
+				"Transfer": {
+					"date": "07.20.25",
+					"map": "Transfer",
+					"commanders": "Herp McDerperson vs Gravey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "30:34",
+					"teamOne": [
+						"Xpi",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Zack"
+					],
+					"teamOneStraggler": ["Domakus"],
 				}
 			}
 		}
