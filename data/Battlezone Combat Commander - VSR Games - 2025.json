@@ -3070,7 +3070,86 @@
 						"F9bomber",
 						"Zack"
 					],
-					"teamOneStraggler": ["Domakus"]
+					"teamOneStraggler": [
+						"Domakus"
+					]
+				}
+			},
+			"07.21.25": {
+				"Remnant": {
+					"date": "07.21.25",
+					"map": "Remnant",
+					"commanders": "Xpi vs Zack",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Xpi",
+					"time": "45:06",
+					"teamOne": [
+						"Bylarge"
+					],
+					"teamTwo": [
+						"F9bomber"
+					],
+					"teamOneStraggler": [
+						"Maverick"
+					]
+				}
+			},
+			"07.22.25": {
+				"Haven": {
+					"date": "07.22.25",
+					"map": "Haven",
+					"commanders": "VTrider vs Gravey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "8:58",
+					"teamOne": [
+						"F9bomber",
+						"Zack"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Xpi",
+						"Bylarge"
+					]
+				},
+				"Insula": {
+					"date": "07.22.25",
+					"map": "Insula",
+					"commanders": "VTrider vs Gravey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Gravey",
+					"time": "23:51",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"Xpi"
+					]
+				},
+				"Mojave": {
+					"date": "07.22.25",
+					"map": "Mojave",
+					"commanders": "VTrider vs Gravey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Gravey",
+					"time": "22:08",
+					"teamOne": [
+						"F9bomber",
+						"Xpi",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"Certified Bad Guy"
+					]
 				}
 			}
 		}
