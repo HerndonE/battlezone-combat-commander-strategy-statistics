@@ -3151,6 +3151,45 @@
 						"Certified Bad Guy"
 					]
 				}
+			},
+			"07.24.25": {
+				"Strategy Arena": {
+					"date": "07.24.25",
+					"map": "Strategy Arena",
+					"commanders": "VTrider vs Jabbapop",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "14:00",
+					"teamOne": [
+						"F9bomber",
+						"Zack"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"StarFox"
+					]
+				},
+				"Red Slope": {
+					"date": "07.24.25",
+					"map": "Red Slope",
+					"commanders": "StarFox vs Judgeguns",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "StarFox",
+					"time": "13:15",
+					"teamOne": [
+						"VTrider",
+						"Zack",
+						"Herp McDerperson",
+						"Oldman"
+					],
+					"teamTwo": [
+						"Econchump",
+						"F9bomber",
+						"Certified Bad Guy"
+					]
+				}
 			}
 		}
 	}
