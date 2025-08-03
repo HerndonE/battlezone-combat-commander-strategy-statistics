@@ -1,0 +1,191 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  flex-wrap: wrap;
+
+  position: relative; /* Added for absolute children */
+}
+
+/* Brand section: logo and title */
+.brand {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Push nav-links to center/right */
+  gap: 10px;
+}
+
+.brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.brand h3 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+/* Nav links container */
+.nav-links {
+  flex-grow: 1;
+  position: relative; /* Added for absolute positioning */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap; /* keep in one line */
+}
+
+/* Left group: absolutely centered */
+.nav-left {
+  position: absolute;
+  left: 46%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Left group links */
+.nav-left a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-left a:hover:not(.active) {
+  background-color: #5d0092;
+  font-size: 15px;
+}
+
+/* Right group styling */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Ensures it stays right */
+}
+
+.nav-right img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-links li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+
+  .brand {
+    display: none;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .brand {
+    padding: 14px 16px;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: block;
+    padding: 14px 16px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 16px;
+    position: static; /* Reset absolute positioning on mobile */
+  }
+
+  .nav-links > div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-left {
+    position: static; /* Reset absolute on mobile */
+    transform: none;
+  }
+
+  .nav-left a {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .toggle-menu:checked + .hamburger + .brand + .nav-links {
+    display: flex;
+  }
+}

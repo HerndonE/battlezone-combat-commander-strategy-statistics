@@ -1,0 +1,45 @@
+footer {
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 3px;
+  background-color: #333;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 15%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  display: flex;
+  justify-content: center; /* Center cards horizontally */
+  gap: 20px; /* Optional: adds space between cards */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  padding: 0 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Style the counter cards */
+.card {
+  padding: 2px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
