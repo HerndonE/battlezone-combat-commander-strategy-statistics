@@ -1,9 +1,12 @@
 footer {
   text-align: center;
   width: 100%;
-  bottom: 0;
-  padding: 3px;
+  padding: 10px 0;
   background-color: #333;
+  color: white;
+  position: relative; /* Not fixed, so it won’t overlap */
+  z-index: 1000;
+  margin-top: auto; /* Helps push it down when using flex layout on the page */
 }
 
 /* Float four columns side by side */

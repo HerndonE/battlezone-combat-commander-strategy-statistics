@@ -1,0 +1,15 @@
+  canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Smoke is rendered here */
+  }
+
+  #overlay-text {
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    z-index: 1; /* Make sure it appears in front */
+    pointer-events: none; /* Optional: let mouse events pass through */
+  }

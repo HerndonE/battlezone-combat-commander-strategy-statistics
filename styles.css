@@ -1,6 +1,5 @@
     body {
         font-family: Arial, sans-serif;
-        margin: 20px;
     }
 
     .repo-info {
@@ -40,11 +39,6 @@
         margin-top: 20px;
     }
 
-    h2 {
-        text-align: center;
-    }
-
-
     /* Style for the container to enable horizontal scrolling */
     .chart-container {
         width: 100%;
@@ -66,4 +60,36 @@
     .custom-link:hover {
         text-decoration: underline; /* optional: add underline on hover */
         color: purple; /* optional: change color on hover */
+    }
+
+    .text-content ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .text-content ul li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 8px;
+    }
+
+    .text-content ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px;
+        color: #2f55ff;
+        line-height: 1;
+    }
+
+    .fade-hr-right {
+        height: 10px;
+        background-image: linear-gradient(to right, #2f55ff, transparent);
+        border-radius: 5px;
+        border: none;
+    }
+
+    main {
+        min-height: calc(100vh - 40px); /* Adjust 40px to your actual footer height */
     }
