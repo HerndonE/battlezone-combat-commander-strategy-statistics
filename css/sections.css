@@ -30,7 +30,7 @@
   .welcome-section p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #bbbbbb;
+    color: #ffffff;
   }
 
   strong {
@@ -68,17 +68,13 @@
     color: #bbbbbb;
   }
 
-  .container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-
   .text-content {
     text-align: left;
     flex: 1;
     padding-right: 10px;
     padding-top: 5%;
+    position: relative;  
+    z-index: 2;  
   }
 
   .text-content h1 {
@@ -87,27 +83,5 @@
 
   .text-content ul {
     margin-top: 0;
-    padding-left: 20px;
-  }
-
-  .image-content-right img {
-    padding-top: 100%;
-    max-width: 200px;
-    height: auto;
-  }
-
-
-
-
-
-
-
-
-
-
-
-  .image-content-left img {
-    padding-top: 100%;
-    max-width: 200px;
-    height: auto;
+    padding-left: 0px;
   }

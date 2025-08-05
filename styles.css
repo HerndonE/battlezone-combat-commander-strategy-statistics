@@ -93,3 +93,13 @@
     main {
         min-height: calc(100vh - 40px); /* Adjust 40px to your actual footer height */
     }
+
+    @font-face {
+        font-family: "customfont";
+        src: url("/fonts/Race Sport.ttf");
+    }
+
+    h1 {
+        font-family: customfont;
+    }
+

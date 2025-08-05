@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/sections.css">
     <link rel="stylesheet" href="./css/smoke.css">
+    <link rel="stylesheet" href="./css/content.css">
     <title>bz2stats.us</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
@@ -23,13 +24,13 @@
       </div>
       <div class="nav-links">
         <div class="nav-left">
-          <a href="#">Welcome</a>
-          <a href="#">About</a>
-          <a href="#">Statistics</a>
+          <a href="#welcome-section">Welcome</a>
+          <a href="#about-section">About</a>
+          <a href="#stats-page">Statistics</a>
         </div>
         <div class="nav-right">
           <a href="https://www.gog.com/en/game/battlezone_combat_commander" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/images/icons8-gog-96.png" style="font-size: 25px; height: 25px; filter: brightness(0) invert(1); padding-right: 15px;" aria-label="logo"/>
+            <img src="./assets/images/icons8-gog-96.png" style="font-size: 25px; height: 25px; filter: brightness(0) invert(1); padding-right: 15px;" aria-label="logo" />
           </a>
           <a href="https://store.steampowered.com/app/624970/Battlezone_Combat_Commander/" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-steam" style="font-size: 25px; color: white;" aria-label="logo"></i>
@@ -37,110 +38,152 @@
         </div>
       </div>
     </nav>
-
-    
-      <div id="overlay-text">
-        <section class="welcome-section">
-          <div class="welcome-content">
-            <h1>Welcome to <span class="highlight">Battlezone Combat Commander Game Statistics</span></h1>
-            <h2>Insight to evolve your game — and so much more.</h2>
-            <p>Strategy gaming, together in one place.</p>
-            <p>
-            Track your progress, analyze trends, and dive deep into the ulitmate FPS/RTS game.<br>
+    <div id="overlay-text">
+      <section id="welcome-section"  class="welcome-section">
+        <div class="welcome-content">
+          <h1>Welcome to <span class="highlight">Battlezone Combat Commander Game Statistics</span>
+          </h1>
+          <h2>Insight to evolve your game — and so much more.</h2>
+          <p>Strategy gaming, together in one place.</p>
+          <p> Track your progress, analyze trends, and dive deep into the ulitmate FPS/RTS game. <br>
             <strong>BZ2STATS.US</strong> brings you comprehensive stats and intuitive graphs — all in a single platform.
-            </p>
+          </p>
+        </div>
+      </section>
+      <section id="about-section" class="about-section">
+        <h1>
+          <br>
+          <span class="highlight">Stats and graphs</span>
+          <br> for Battlezone gaming
+        </h1>
+        <br> See how many people have played a game and how many are actively playing it. <br> Browse graphs of how Battlezone Combat Commander strategy games has fared over the years. <br>Discover in-depth stats on playtime and engagement. Compare games and see overlap. <br>
+        <br>
+        <div class="container">
+          <!-- Text content -->
+          <div class="half content-side">
+            <div class="text-content">
+              <h1>
+                <span class="highlight">
+                  <br>See </span> the full picture
+              </h1>
+              <hr class="fade-hr-right" />
+              <br>
+              <ul>
+                <li>Learn stats like active players and median playtime.</li>
+                <li>Browse graphs on activity and new users over time.</li>
+                <li>Break down playtime and faction distribution.</li>
+              </ul>
+              <a href="https://battlezonescrapfield.github.io" class="classic-button">Check it out</a>
+            </div>
           </div>
-        </section>
-        <section class="about-section">
-          <h1><br><span class="highlight">Stats and graphs</span><br> for Battlezone gaming</h1><br>
-          See how many people have played a game and how many are actively playing it.<br>
-          Browse graphs of how Battlezone Combat Commander strategy games has fared over the years.<br>Discover in-depth stats on playtime and engagement.
-          Compare games and see overlap.<br>
-          <div class="about-content">
-
-            <div class="container">
-              <div class="image-content">
-                <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Battlezone_II_-_Combat_Commander_Coverart.png" alt="Battlezone II Cover Art">
-              </div>
-              <div class="text-content">
-                <h1><span class="highlight"><br>See</span> the full picture</h1>
-                <hr class="fade-hr-right"/>
-                <br>
-                <ul>
-                  <li>Learn stats like active players and median playtime.</li>
-                  <li>Browse graphs on activity and new users over time.</li>
-                  <li>Break down playtime and faction distribution.</li>
-                </ul>
-              </div>
+          <!-- Image content -->
+          <div class="half image-side">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Battlezone_II_-_Combat_Commander_Coverart.png" alt="A screenshot">
+          </div>
+        </div>
+        <div class="container">
+          <!-- Image content FIRST -->
+          <div class="half image-side">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Battlezone_II_-_Combat_Commander_Coverart.png" alt="A screenshot">
+          </div>
+          <!-- Text content SECOND -->
+          <div class="half content-side">
+            <div class="text-content">
+              <h1>
+                <span class="highlight">
+                  <br>Beyond </span> the Stats
+              </h1>
+              <hr class="fade-hr-right" />
+              <br>
+              <ul>
+                <li>
+                  <strong>
+                    <span class="highlight">Faction balancing:</span>
+                  </strong> Use data to highlight imbalances or trends, then ask why they're happening — not just what is happening.
+                </li>
+                <li>
+                  <strong>
+                    <span class="highlight">Map design insights:</span>
+                  </strong> Stats can show which maps are played more and hint at what makes them enjoyable or avoidable, helping creators improve design.
+                </li>
+                <li>
+                  <strong>
+                    <span class="highlight">Probability and outcomes:</span>
+                  </strong> Data can uncover patterns or unexpected outcomes, but probability doesn’t guarantee results — it frames them.
+                </li>
+                <li>
+                  <strong>
+                    <span class="highlight">Informed design and strategy:</span>
+                  </strong> Stats don't dictate decisions but provide context to explore better ones.
+                </li>
+                <li>
+                  <strong>
+                    <span class="highlight">Deeper discussions:</span>
+                  </strong> Let stats spark questions, challenge assumptions, and fuel creative problem-solving.
+                </li>
+              </ul>
+              <a href="" class="classic-button">Check it out</a>
             </div>
-
-
-            <div class="container">
-              <div class="text-content">
-                <h1><span class="highlight"><br>Beyond</span> the Stats</h1>
-                <hr class="fade-hr-right"/>
-                <br>
-                <ul>
-                  <li><strong><span class="highlight">Faction balancing:</span></strong> Use data to highlight imbalances or trends, then ask why they're happening — not just what is happening.</li>
-                  <li><strong><span class="highlight">Map design insights:</span></strong> Stats can show which maps are played more and hint at what makes them enjoyable or avoidable, helping creators improve design.</li>
-                  <li><strong><span class="highlight">Probability and outcomes:</span></strong> Data can uncover patterns or unexpected outcomes, but probability doesn’t guarantee results — it frames them.</li>
-                  <li><strong><span class="highlight">Informed design and strategy:</span></strong> Stats don't dictate decisions but provide context to explore better ones.</li>
-                  <li><strong><span class="highlight">Deeper discussions:</span></strong> Let stats spark questions, challenge assumptions, and fuel creative problem-solving.</li>
-                </ul>
-              </div>
-              <div class="image-content-right">
-                <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Battlezone_II_-_Combat_Commander_Coverart.png" alt="Battlezone II Cover Art">
-              </div>
-            </div>
-          </div>  
-        </section>
-      </div>
-  
-
-  
-
-
-
-
+          </div>
+        </div>
+      </section>
+    </div>
     <script type="module" src="smoke.js"></script>
   </body>
-
-      <footer>
-          <div class="row">
-              <div class="column">
-                  <div class="card">
-                  <h3><i class="bi bi-discord" style="font-size: 20px; color: white;" aria-label="logo"> Discord Servers</i></h3>
-                  <p><a href="discord.gg/kw9Frv5" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">The Official Battlezone Server</a></p>
-                  <p><a href="discord.gg/4xJzDmQ27y" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Community Server</a></p>
-                  </div>
-              </div>
-
-              <div class="column">
-                  <div class="card">
-                  <h3><i class="bi bi-youtube" style="font-size: 20px; color: white;" aria-label="logo"> Youtube</i></h3>
-                  <p><a href="https://www.youtube.com/@F9bomber" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">F9bomber</a></p>
-                  <p><a href="https://www.youtube.com/@HerpMcDerperson" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Scott Smith</a></p>
-                  <p><a href="https://www.youtube.com/@VTriderBZ" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">VTrider</a></p>
-                  </div>
-              </div>
-              
-              <div class="column">
-                  <div class="card">
-                  <h3><i class="bi bi-link" style="font-size: 20px; color: white;" aria-label="logo"> Other Links</i></h3>
-                  <p><a href="https://battlezonescrapfield.github.io" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Scrap Field</a></p>
-                  <p><a href="https://battlezonescrapfield.github.io/BZCC-Website/" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">BZCC Game Watcher</a></p>
-                  <p><a href="https://battlezone.report/" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Field Report</a></p>
-                  </div>
-              </div>
-          </div>
-      
-        <p> 2025 © copyright <br> bz2stats.us all rights reserved 
-          
-        <!-- 
+  <footer>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>
+            <i class="bi bi-discord" style="font-size: 20px; color: white;" aria-label="logo"> Discord Servers</i>
+          </h3>
+          <p>
+            <a href="discord.gg/kw9Frv5" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">The Official Battlezone Server</a>
+          </p>
+          <p>
+            <a href="discord.gg/4xJzDmQ27y" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Community Server</a>
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3>
+            <i class="bi bi-youtube" style="font-size: 20px; color: white;" aria-label="logo"> YouTube</i>
+          </h3>
+          <p>
+            <a href="https://www.youtube.com/@F9bomber" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">F9bomber</a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/@HerpMcDerperson" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Scott Smith</a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/@VTriderBZ" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">VTrider</a>
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3>
+            <i class="bi bi-link" style="font-size: 20px; color: white;" aria-label="logo"> Other Links</i>
+          </h3>
+          <p>
+            <a href="https://battlezonescrapfield.github.io" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Scrap Field</a>
+          </p>
+          <p>
+            <a href="https://battlezonescrapfield.github.io/BZCC-Website/" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">BZCC Game Watcher</a>
+          </p>
+          <p>
+            <a href="https://battlezone.report/" style="font-size: 12px;" target="_blank" rel="noopener noreferrer" class="custom-link">Battlezone Field Report</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">
+      2025 © copyright <br>
+      bz2stats.us all rights reserved
+    </p>
+      <!-- 
         <br> The statistics provided are mostly based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome. See Discord links. </p>
-        Content Container --> 
-      </footer>
-
-
-
+        Content Container -->
+  </footer>
 </html>

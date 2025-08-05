@@ -12,7 +12,6 @@ body {
 .navbar {
   background-color: #333;
   color: white;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -22,15 +21,16 @@ body {
   align-items: center;
   padding: 0 16px;
   flex-wrap: wrap;
+  height: 60px;
 
-  position: relative; /* Added for absolute children */
+  position: relative;
 }
 
 /* Brand section: logo and title */
 .brand {
   display: flex;
   align-items: center;
-  margin-right: auto; /* Push nav-links to center/right */
+  margin-right: auto;
   gap: 10px;
 }
 
@@ -61,11 +61,11 @@ body {
 /* Nav links container */
 .nav-links {
   flex-grow: 1;
-  position: relative; /* Added for absolute positioning */
+  position: relative;
   display: flex;
   align-items: center;
   gap: 20px;
-  flex-wrap: nowrap; /* keep in one line */
+  flex-wrap: nowrap;
 }
 
 /* Left group: absolutely centered */
@@ -96,7 +96,7 @@ body {
 .nav-right {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Ensures it stays right */
+  margin-left: auto;
 }
 
 .nav-right img {
@@ -126,6 +126,12 @@ body {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    height: auto; /* let it grow */
+  }
 
   .brand {
     display: none;
@@ -133,17 +139,6 @@ body {
 
   .nav-right {
     display: none;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-  }
-
-  .brand {
-    padding: 14px 16px;
-    margin: 0;
   }
 
   .hamburger {
@@ -157,7 +152,14 @@ body {
     width: 100%;
     align-items: flex-start;
     padding-left: 16px;
-    position: static; /* Reset absolute positioning on mobile */
+    position: static;
+    background-color: #333;
+
+    /* Slide down effect */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 0; /* ensure it's flush */
   }
 
   .nav-links > div {
@@ -166,8 +168,9 @@ body {
   }
 
   .nav-left {
-    position: static; /* Reset absolute on mobile */
+    position: static;
     transform: none;
+    width: 100%;
   }
 
   .nav-left a {
@@ -180,7 +183,9 @@ body {
     width: 100%;
   }
 
+  /* Show nav-links when toggle is checked */
   .toggle-menu:checked + .hamburger + .brand + .nav-links {
     display: flex;
+    max-height: 500px; /* large enough for the dropdown */
   }
 }
