@@ -63,7 +63,7 @@
 
     .custom-link:hover {
         text-decoration: underline; /* optional: add underline on hover */
-        color: purple; /* optional: change color on hover */
+        color: #be299f;
     }
 
     .text-content ul {
@@ -83,13 +83,13 @@
         left: 0;
         top: 0;
         font-size: 24px;
-        color: #2f55ff;
+        color: #be299f;
         line-height: 1;
     }
 
     .fade-hr-right {
         height: 10px;
-        background-image: linear-gradient(to right, #2f55ff, transparent);
+        background-image: linear-gradient(to right, #be299f, transparent);
         border-radius: 5px;
         border: none;
     }

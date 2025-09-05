@@ -1,0 +1,36 @@
+
+svg {
+  background-color: #fff;
+  display: block;
+}
+.bar {
+  cursor: pointer;
+}
+.bar:hover {
+  fill: darkblue;
+}
+.axis path,
+.axis line {
+  stroke: #333;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 6px 12px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+#chart-wrapper {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  background-color: #fff;
+}
+#expand-btn {
+  margin-bottom: 10px;
+}

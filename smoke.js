@@ -35,7 +35,7 @@ const smokeTexture = new THREE.TextureLoader().load(
   "https://s3-us-west-2.amazonaws.com/s.cdpn.io/95637/Smoke-Element.png"
 );
 const smokeMaterial = new THREE.MeshLambertMaterial({
-  color: new THREE.Color("rgba(129, 94, 255, 1)"),
+  color: new THREE.Color("rgba(2, 135 ,239, 1)"),
   map: smokeTexture,
   transparent: true,
 });

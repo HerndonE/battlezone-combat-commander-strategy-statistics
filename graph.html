@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/graph.css">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Bar Chart with Toggle</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <h1>D3 Bar Chart – Map Counts</h1>
+  <div class="tooltip" id="tooltip"></div>
+
+  <h3 style="margin: 0;">Most Played Maps (2024–Present)</h3>
+  <br>
+  <div id="chart-wrapper">
+    <svg height="450"></svg>
+  </div>
+
+  <script>
+    d3.json("data/mydata.json").then(rawData => {
+      const fullData = Object.entries(rawData.processed_data.processed_map_counts)
+        .map(([name, value]) => ({ name, value }))
+        .sort((a, b) => b.value - a.value);
+
+      const svg = d3.select("svg");
+      const expandBtn = document.getElementById("expand-btn");
+
+      const defaultItemCount = 10;
+      const barWidth = 50;
+      const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+      const height = +svg.attr("height") - margin.top - margin.bottom;
+
+      let isExpanded = false;
+
+      function drawChart(dataSubset) {
+        svg.selectAll("*").remove(); // Clear chart
+
+        const tooltip = d3.select("#tooltip");
+
+        const maxSvgWidth = 1200; // cap width
+        const minSvgWidth = 500;
+        const computedWidth = Math.max(minSvgWidth, Math.min(dataSubset.length * 60, maxSvgWidth));
+        svg.attr("width", computedWidth);
+
+        const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+        const width = computedWidth - margin.left - margin.right;
+        const height = +svg.attr("height") - margin.top - margin.bottom;
+
+        const x = d3.scaleBand()
+          .domain(dataSubset.map(d => d.name))
+          .range([margin.left, width + margin.left])
+          .padding(0.2);
+
+        const y = d3.scaleLinear()
+          .domain([0, d3.max(dataSubset, d => d.value)]).nice()
+          .range([height + margin.top, margin.top]);
+
+        const xAxis = d3.axisBottom(x);
+        const yAxis = d3.axisLeft(y);
+
+        svg.append("g")
+          .attr("transform", `translate(0, ${height + margin.top})`)
+          .call(xAxis)
+          .selectAll("text")
+          .attr("transform", "rotate(90)")
+          .attr("x", 9)
+          .attr("y", 0)
+          .attr("dy", ".35em")
+          .style("text-anchor", "start");
+
+        svg.append("g")
+          .attr("transform", `translate(${margin.left}, 0)`)
+          .call(yAxis);
+
+        svg.selectAll(".bar")
+          .data(dataSubset)
+          .enter()
+          .append("rect")
+          .attr("class", "bar")
+          .attr("x", d => x(d.name))
+          .attr("y", d => y(d.value))
+          .attr("width", x.bandwidth())
+          .attr("height", d => height + margin.top - y(d.value))
+          .attr('fill', 'steelblue')
+          .on("mouseover", (event, d) => {
+            tooltip
+              .style("opacity", 1)
+              .html(`<strong>${d.name}</strong><br>Count: ${d.value}`);
+          })
+          .on("mousemove", event => {
+            tooltip
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY - 28) + "px");
+          })
+          .on("mouseout", () => {
+            tooltip.style("opacity", 0);
+          });
+
+        // Labels
+        svg.append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("x", - (height / 2) - margin.top)
+          .attr("y", margin.left - 35)
+          .attr("text-anchor", "middle")
+          .text("Count");
+      }
+
+      // Initial render
+      drawChart(fullData.slice(0, defaultItemCount));
+
+      if (fullData.length > defaultItemCount) {
+        expandBtn.style.display = "inline-block";
+
+        expandBtn.addEventListener("click", () => {
+          isExpanded = !isExpanded;
+          const dataToUse = isExpanded ? fullData : fullData.slice(0, defaultItemCount);
+          drawChart(dataToUse);
+          expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+        });
+      }
+    });
+  </script>
+  <br>
+  <button id="expand-btn">Expand Chart</button>
+
+  <h3 style="margin: 0;">Most Played Maps 2024</h3>
+
+  <div id="chart-wrapper-3">
+    <svg id="played-map-2024" height="450"></svg>
+  </div>
+  <br>
+  <script>
+
+    d3.json("data/mydata.json").then(rawData => {
+
+      const fullData = rawData['2024']['data_2024'].map_counts
+                .map(([name, value]) => ({ name, value }))
+        
+      const svg = d3.select("#played-map-2024");
+      const expandBtn = document.getElementById("expand-btn-3");
+
+      const defaultItemCount = 10;
+      const barWidth = 50;
+      const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+      const height = +svg.attr("height") - margin.top - margin.bottom;
+
+      let isExpanded = false;
+
+      function drawChart(dataSubset) {
+        svg.selectAll("*").remove(); // Clear chart
+
+        const tooltip = d3.select("#tooltip");
+
+        const maxSvgWidth = 1200; // cap width
+        const minSvgWidth = 500;
+        const computedWidth = Math.max(minSvgWidth, Math.min(dataSubset.length * 60, maxSvgWidth));
+        svg.attr("width", computedWidth);
+
+        const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+        const width = computedWidth - margin.left - margin.right;
+        const height = +svg.attr("height") - margin.top - margin.bottom;
+
+        const x = d3.scaleBand()
+          .domain(dataSubset.map(d => d.name))
+          .range([margin.left, width + margin.left])
+          .padding(0.2);
+
+        const y = d3.scaleLinear()
+          .domain([0, d3.max(dataSubset, d => d.value)]).nice()
+          .range([height + margin.top, margin.top]);
+
+        const xAxis = d3.axisBottom(x);
+        const yAxis = d3.axisLeft(y);
+
+        svg.append("g")
+          .attr("transform", `translate(0, ${height + margin.top})`)
+          .call(xAxis)
+          .selectAll("text")
+          .attr("transform", "rotate(90)")
+          .attr("x", 9)
+          .attr("y", 0)
+          .attr("dy", ".35em")
+          .style("text-anchor", "start");
+
+        svg.append("g")
+          .attr("transform", `translate(${margin.left}, 0)`)
+          .call(yAxis);
+
+        svg.selectAll(".bar")
+          .data(dataSubset)
+          .enter()
+          .append("rect")
+          .attr("class", "bar")
+          .attr("x", d => x(d.name))
+          .attr("y", d => y(d.value))
+          .attr("width", x.bandwidth())
+          .attr("height", d => height + margin.top - y(d.value))
+          .attr('fill', 'steelblue')
+          .on("mouseover", (event, d) => {
+            tooltip
+              .style("opacity", 1)
+              .html(`<strong>${d.name}</strong><br>Count: ${d.value}`);
+          })
+          .on("mousemove", event => {
+            tooltip
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY - 28) + "px");
+          })
+          .on("mouseout", () => {
+            tooltip.style("opacity", 0);
+          });
+
+        // Labels
+        svg.append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("x", - (height / 2) - margin.top)
+          .attr("y", margin.left - 35)
+          .attr("text-anchor", "middle")
+          .text("Count");
+      }
+
+      // Initial render
+      drawChart(fullData.slice(0, defaultItemCount));
+
+      if (fullData.length > defaultItemCount) {
+        expandBtn.style.display = "inline-block";
+
+        expandBtn.addEventListener("click", () => {
+          isExpanded = !isExpanded;
+          const dataToUse = isExpanded ? fullData : fullData.slice(0, defaultItemCount);
+          drawChart(dataToUse);
+          expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+        });
+      }
+
+    });
+  </script>
+  <button id="expand-btn-3">Expand Chart</button>
+  <br>
+
+
+  <h3 style="padding-top: 10;">Most Played Maps 2025</h3>
+
+  <div id="chart-wrapper-4">
+    <svg id="played-map-2025" height="450"></svg>
+  </div>
+  <br>
+  <script>
+
+    d3.json("data/mydata.json").then(rawData => {
+
+      const fullData = rawData['2025']['data_2025'].map_counts
+                .map(([name, value]) => ({ name, value }))
+        
+      const svg = d3.select("#played-map-2025");
+      const expandBtn = document.getElementById("expand-btn-4");
+
+      const defaultItemCount = 10;
+      const barWidth = 50;
+      const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+      const height = +svg.attr("height") - margin.top - margin.bottom;
+
+      let isExpanded = false;
+
+      function drawChart(dataSubset) {
+        svg.selectAll("*").remove(); // Clear chart
+
+        const tooltip = d3.select("#tooltip");
+
+        const maxSvgWidth = 1200; // cap width
+        const minSvgWidth = 500;
+        const computedWidth = Math.max(minSvgWidth, Math.min(dataSubset.length * 60, maxSvgWidth));
+        svg.attr("width", computedWidth);
+
+        const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+        const width = computedWidth - margin.left - margin.right;
+        const height = +svg.attr("height") - margin.top - margin.bottom;
+
+        const x = d3.scaleBand()
+          .domain(dataSubset.map(d => d.name))
+          .range([margin.left, width + margin.left])
+          .padding(0.2);
+
+        const y = d3.scaleLinear()
+          .domain([0, d3.max(dataSubset, d => d.value)]).nice()
+          .range([height + margin.top, margin.top]);
+
+        const xAxis = d3.axisBottom(x);
+        const yAxis = d3.axisLeft(y);
+
+        svg.append("g")
+          .attr("transform", `translate(0, ${height + margin.top})`)
+          .call(xAxis)
+          .selectAll("text")
+          .attr("transform", "rotate(90)")
+          .attr("x", 9)
+          .attr("y", 0)
+          .attr("dy", ".35em")
+          .style("text-anchor", "start");
+
+        svg.append("g")
+          .attr("transform", `translate(${margin.left}, 0)`)
+          .call(yAxis);
+
+        svg.selectAll(".bar")
+          .data(dataSubset)
+          .enter()
+          .append("rect")
+          .attr("class", "bar")
+          .attr("x", d => x(d.name))
+          .attr("y", d => y(d.value))
+          .attr("width", x.bandwidth())
+          .attr("height", d => height + margin.top - y(d.value))
+          .attr('fill', 'steelblue')
+          .on("mouseover", (event, d) => {
+            tooltip
+              .style("opacity", 1)
+              .html(`<strong>${d.name}</strong><br>Count: ${d.value}`);
+          })
+          .on("mousemove", event => {
+            tooltip
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY - 28) + "px");
+          })
+          .on("mouseout", () => {
+            tooltip.style("opacity", 0);
+          });
+
+        // Labels
+        svg.append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("x", - (height / 2) - margin.top)
+          .attr("y", margin.left - 35)
+          .attr("text-anchor", "middle")
+          .text("Count");
+      }
+
+      // Initial render
+      drawChart(fullData.slice(0, defaultItemCount));
+
+      if (fullData.length > defaultItemCount) {
+        expandBtn.style.display = "inline-block";
+
+        expandBtn.addEventListener("click", () => {
+          isExpanded = !isExpanded;
+          const dataToUse = isExpanded ? fullData : fullData.slice(0, defaultItemCount);
+          drawChart(dataToUse);
+          expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+        });
+      }
+
+    });
+  </script>
+  <button id="expand-btn-4">Expand Chart</button>
+  <br>
+
+  <h3 style="padding-top: 10;">Most Active Commanders (2024–Present)</h3>
+  <div id="chart-wrapper-2">
+    <svg id="commander-chart" height="450"></svg>
+  </div>
+
+  <script>
+    d3.json("data/mydata.json").then(rawData => {
+
+      const fullData = rawData.processed_data.processed_commander_list
+       .map(([name, value]) => ({ name, value }));
+
+      const svg = d3.select("#commander-chart");
+      const expandBtn = document.getElementById("expand-btn-2");
+
+      const defaultItemCount = 10;
+      const barWidth = 50;
+      const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+      const height = +svg.attr("height") - margin.top - margin.bottom;
+
+      let isExpanded = false;
+
+      function drawChart(dataSubset) {
+        svg.selectAll("*").remove(); // Clear chart
+
+        const tooltip = d3.select("#tooltip");
+
+        const maxSvgWidth = 1200; // cap width
+        const minSvgWidth = 500;
+        const computedWidth = Math.max(minSvgWidth, Math.min(dataSubset.length * 60, maxSvgWidth));
+        svg.attr("width", computedWidth);
+
+        const margin = { top: 20, right: 20, bottom: 110, left: 50 };
+        const width = computedWidth - margin.left - margin.right;
+        const height = +svg.attr("height") - margin.top - margin.bottom;
+
+        const x = d3.scaleBand()
+          .domain(dataSubset.map(d => d.name))
+          .range([margin.left, width + margin.left])
+          .padding(0.2);
+
+        const y = d3.scaleLinear()
+          .domain([0, d3.max(dataSubset, d => d.value)]).nice()
+          .range([height + margin.top, margin.top]);
+
+        const xAxis = d3.axisBottom(x);
+        const yAxis = d3.axisLeft(y);
+
+        svg.append("g")
+          .attr("transform", `translate(0, ${height + margin.top})`)
+          .call(xAxis)
+          .selectAll("text")
+          .attr("transform", "rotate(90)")
+          .attr("x", 9)
+          .attr("y", 0)
+          .attr("dy", ".35em")
+          .style("text-anchor", "start");
+
+        svg.append("g")
+          .attr("transform", `translate(${margin.left}, 0)`)
+          .call(yAxis);
+
+        svg.selectAll(".bar")
+          .data(dataSubset)
+          .enter()
+          .append("rect")
+          .attr("class", "bar")
+          .attr("x", d => x(d.name))
+          .attr("y", d => y(d.value))
+          .attr("width", x.bandwidth())
+          .attr("height", d => height + margin.top - y(d.value))
+          .attr('fill', 'steelblue')
+          .on("mouseover", (event, d) => {
+            tooltip
+              .style("opacity", 1)
+              .html(`<strong>${d.name}</strong><br>Count: ${d.value}`);
+          })
+          .on("mousemove", event => {
+            tooltip
+              .style("left", (event.pageX + 10) + "px")
+              .style("top", (event.pageY - 28) + "px");
+          })
+          .on("mouseout", () => {
+            tooltip.style("opacity", 0);
+          });
+
+        // Labels
+        svg.append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("x", - (height / 2) - margin.top)
+          .attr("y", margin.left - 35)
+          .attr("text-anchor", "middle")
+          .text("Count");
+      }
+
+      // Initial render
+      drawChart(fullData.slice(0, defaultItemCount));
+
+      if (fullData.length > defaultItemCount) {
+        expandBtn.style.display = "inline-block";
+
+        expandBtn.addEventListener("click", () => {
+          isExpanded = !isExpanded;
+          const dataToUse = isExpanded ? fullData : fullData.slice(0, defaultItemCount);
+          drawChart(dataToUse);
+          expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+        });
+      }
+    });
+  </script>
+  <button id="expand-btn-2">Expand Chart</button>
+
+
+
+
+
+
+
+
+
+<h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+  <button id="expand-btn-5" style="display: none;">Expand Chart</button>
+  <svg id="commander-race-chart" height="400"></svg>
+
+  <script>
+    const defaultItemCount = 10;
+    const barWidth = 50;
+    const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+    const expandBtn = document.getElementById("expand-btn-5");
+    let isExpanded = false;
+
+    d3.json("data/mydata.json").then(rawData => {
+      const fullData = Object.entries(rawData.processed_data.processed_commander_faction_counts)
+        .flatMap(([commander, factions]) =>
+          Object.entries(factions).map(([faction, value]) => ({
+            commander,
+            faction,
+            value
+          }))
+        );
+
+      const allCommanders = Array.from(new Set(fullData.map(d => d.commander)));
+
+      if (allCommanders.length > defaultItemCount) {
+        expandBtn.style.display = "inline-block";
+
+        expandBtn.addEventListener("click", () => {
+          isExpanded = !isExpanded;
+          const commandersToShow = isExpanded
+            ? allCommanders
+            : allCommanders.slice(0, defaultItemCount);
+
+          const dataToUse = fullData.filter(d => commandersToShow.includes(d.commander));
+          drawChart(dataToUse);
+
+          expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+        });
+      }
+
+      // Initial render
+      const initialCommanders = allCommanders.slice(0, defaultItemCount);
+      const initialData = fullData.filter(d => initialCommanders.includes(d.commander));
+      drawChart(initialData);
+
+      function drawChart(data) {
+        const svg = d3.select("#commander-race-chart");
+        const tooltip = d3.select("#tooltip")
+        svg.selectAll("*").remove(); // clear previous
+
+        const commanders = Array.from(new Set(data.map(d => d.commander)));
+        const factions = Array.from(new Set(data.map(d => d.faction)));
+
+        const svgWidth = commanders.length * barWidth + margin.left + margin.right;
+        const height = +svg.attr("height") - margin.top - margin.bottom;
+
+        svg.attr("width", svgWidth);
+
+        const x0 = d3.scaleBand()
+          .domain(commanders)
+          .range([margin.left, svgWidth - margin.right])
+          .paddingInner(0.2);
+
+        const x1 = d3.scaleBand()
+          .domain(factions)
+          .range([0, x0.bandwidth()])
+          .padding(0.05);
+
+        const y = d3.scaleLinear()
+          .domain([0, d3.max(data, d => d.value)]).nice()
+          .range([height, margin.top]);
+
+        const color = d3.scaleOrdinal()
+          .domain(factions)
+          .range(d3.schemeTableau10); // colorful and distinctive
+
+        // X Axis
+        svg.append("g")
+          .attr("transform", `translate(0,${height})`)
+          .call(d3.axisBottom(x0))
+          .selectAll("text")
+          .attr("transform", "rotate(-30)")
+          .style("text-anchor", "end");
+
+        // Y Axis
+        svg.append("g")
+          .attr("transform", `translate(${margin.left},0)`)
+          .call(d3.axisLeft(y));
+
+        // Bars
+        svg.append("g")
+          .selectAll("g")
+          .data(d3.group(data, d => d.commander))
+          .join("g")
+            .attr("transform", d => `translate(${x0(d[0])},0)`)
+          .selectAll("rect")
+          .data(d => d[1])
+          .join("rect")
+            .attr("x", d => x1(d.faction))
+            .attr("y", d => y(d.value))
+            .attr("width", x1.bandwidth())
+            .attr("height", d => height - y(d.value))
+            .attr("fill", d => color(d.faction))
+            .attr("class", "bar");
+
+
+        svg.append("g")
+          .selectAll("g")
+          .data(d3.group(data, d => d.commander))
+          .join("g")
+            .attr("transform", d => `translate(${x0(d[0])},0)`)
+          .selectAll("rect")
+          .data(d => d[1])
+          .join("rect")
+            .attr("x", d => x1(d.faction))
+            .attr("y", d => y(d.value))
+            .attr("width", x1.bandwidth())
+            .attr("height", d => height - y(d.value))
+            .attr("fill", d => color(d.faction))
+            .attr("class", "bar")
+            .on("mouseover", (event, d) => {
+              tooltip
+                .style("opacity", 1)
+                .html(`<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`);
+            })
+            .on("mousemove", event => {
+              tooltip
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 28) + "px");
+            })
+            .on("mouseout", () => {
+              tooltip.style("opacity", 0);
+            });
+
+
+
+        // Legend
+        const legend = svg.append("g")
+          .attr("transform", `translate(${svgWidth - margin.right - 100},${margin.top})`);
+
+        factions.forEach((faction, i) => {
+          const legendRow = legend.append("g")
+            .attr("transform", `translate(0, ${i * 20})`);
+
+          legendRow.append("rect")
+            .attr("width", 12)
+            .attr("height", 12)
+            .attr("fill", color(faction));
+
+          legendRow.append("text")
+            .attr("x", 18)
+            .attr("y", 10)
+            .text(faction)
+            .attr("class", "axis-label");
+        });
+      }
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+  <br>
+  <h3 style="padding-top: 10;">Faction Popularity</h3>
+  Values are based on the faction the commander choses to play as.
+
+  <div id="commander-chart-pie"></div>
+  <script>
+    d3.json("data/mydata.json").then(rawData => {
+
+      const fullData = rawData.processed_data.processed_most_played_factions
+       //.map(([name, value]) => ({ name, value }));
+
+      const width = 600,
+          height = 350,
+          margin = 2;
+
+      const radius = Math.min(width, height) / 2 - margin
+
+      const svg = d3.select("#commander-chart-pie")
+        .append("svg")
+          .attr("width", width)
+          .attr("height", height)
+        .append("g")
+          .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+      // Create dummy data
+      //const data = {a: 9, b: 20, c:30, d:8, e:12}
+
+      //const data = Object.fromEntries(fullData.map(obj => [obj.name, obj.value]));
+      const data = fullData
+
+      // set the color scale
+      const color = d3.scaleOrdinal()
+        .range(d3.schemeSet2);
+
+
+      const pie = d3.pie()
+        .value(function(d) {return d[1]})
+      const data_ready = pie(Object.entries(data))
+
+      const arcGenerator = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius)
+
+      svg
+        .selectAll('mySlices')
+        .data(data_ready)
+        .join('path')
+          .attr('d', arcGenerator)
+          .attr('fill', function(d){ return(color(d.data[0])) })
+          .attr("stroke", "black")
+          .style("stroke-width", "2px")
+          .style("opacity", 0.7)
+      svg
+        .selectAll('mySlices')
+        .data(data_ready)
+        .join('text')
+        .text(function(d){ return d.data[0] + ": " + d.data[1]})
+        .attr("transform", function(d) { return `translate(${arcGenerator.centroid(d)})`})
+        .style("text-anchor", "middle")
+        .style("font-size", 17)
+    });
+  </script>
+
+  <!-------------------------------------------------------------------------------------------->
+<br>
+
+<div id="inline-bar-chart"></div>
+<script>
+  d3.json("data/mydata.json").then(rawData => {
+    const data = Object.entries(rawData.processed_data.processed_most_played_factions);
+
+    console.log(data)
+
+    const width = 600;
+    const height = 60;
+    const barHeight = 20;
+    const barSpacing = 10;
+
+    const svg = d3.select("#inline-bar-chart")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+    const total = d3.sum(data, d => d[1]);
+
+    // Scales
+    const x = d3.scaleLinear()
+      .domain([0, total])
+      .range([0, width]);
+
+    const color = d3.scaleOrdinal()
+      .domain(data.map(d => d[0]))
+      .range(d3.schemeSet2);
+
+    let currentX = 0;
+
+    // Bars + Labels
+    svg.selectAll("g")
+      .data(data)
+      .enter()
+      .append("g")
+        .attr("transform", d => {
+          const xPos = currentX;
+          currentX += x(d[1]);
+          return `translate(${xPos}, 20)`;
+        })
+      .each(function(d) {
+        const g = d3.select(this);
+
+        // Bar
+        g.append("rect")
+          .attr("width", x(d[1]))
+          .attr("height", barHeight)
+          .attr("fill", color(d[0]));
+
+        // Label inside bar (if wide enough)
+        if (x(d[1]) > 40) {
+          g.append("text")
+            .attr("x", x(d[1]) / 2)
+            .attr("y", barHeight / 2 + 4)
+            .attr("text-anchor", "middle")
+            .attr("fill", "white")
+            .style("font-size", "12px")
+            .text(`${d[0]}: ${d[1]}`);
+        } else {
+          // Label outside if bar is too small
+          g.append("text")
+            .attr("x", x(d[1]) + 5)
+            .attr("y", barHeight / 2 + 4)
+            .attr("fill", "black")
+            .style("font-size", "12px")
+            .text(`${d[0]}: ${d[1]}`);
+        }
+      });
+  });
+</script>
+
+
+
+
+</body>
+</html>
