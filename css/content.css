@@ -67,6 +67,11 @@
       background-color: #ff0000;
     }
 
+    .brand-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
     @media (max-width: 768px) {
       .half {
         flex: 1 1 100%;
