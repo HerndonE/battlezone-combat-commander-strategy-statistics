@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/content.css">
     <link rel="stylesheet" href="../css/stats-tab.css">
     <link rel="stylesheet" href="../css/graph.css">
+
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="../js/overview.js"></script>
@@ -39,6 +40,38 @@
         <h3 style="padding-top: 10;">Faction Popularity</h3>
         Values are based on the faction the commander choses to play as.
         <div id="inline-bar-chart-1"></div>
+
+        <div class="graph-container">
+          <div class="graph-wrapper">
+            <h3 style="padding-top: 10;">Most Played Maps (2024–Present)</h3>
+            <div class="graph-box" id="chart-wrapper-played-maps-1"></div>
+            <button class="expand-btn" id="expand-btn-played-maps-1" style="display: none;">Expand Chart</button>
+          </div>
+          <div class="graph-wrapper">
+            <h3 style="padding-top: 10;">Most Active Commanders (2024–Present)</h3>
+            <div class="graph-box" id="chart-wrapper-active-commanders-1"></div>
+            <button class="expand-btn" id="expand-btn-active-commanders-1" style="display: none;">Expand Chart</button>
+          </div>
+          <div class="graph-wrapper">
+            <div class="graph-box" id="graph2"></div>
+          </div>
+        </div>
+        <div id="tooltip" class="tooltip"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
 
 

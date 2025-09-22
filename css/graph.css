@@ -13,6 +13,12 @@ svg {
 .axis line {
   stroke: #333;
 }
+
+.axis text {
+  fill: #333;
+  font-size: 12px;
+}
+
 .tooltip {
   position: absolute;
   text-align: center;
@@ -33,4 +39,24 @@ svg {
 }
 #expand-btn {
   margin-bottom: 10px;
+}
+
+.graph-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  height: 70vh;
+}
+
+.graph-wrapper {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.graph-box {
+  width: 100%;
+  height: 60%;
 }
