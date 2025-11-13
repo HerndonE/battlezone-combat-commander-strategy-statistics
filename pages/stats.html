@@ -17,6 +17,8 @@
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="../js/overview.js"></script>
+    <script src="../js/twentyFour.js"></script>
+    <script src="../js/twentyFive.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -32,69 +34,74 @@
     <div id="overlay-text">
       <div class="tab">
         <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
-        <button class="tablinks" onclick="getData(event, '2024')">2024</button>
+        <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
         <button class="tablinks" onclick="getData(event, '2025')">2025</button>
       </div>
       <div id="Overview" class="tabcontent">
         <div align="center">
-        <h3 style="padding-top: 10;">Faction Popularity</h3>
-        Values are based on the faction the commander choses to play as.
-        <div id="inline-bar-chart-1"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3>
+          Values are based on the faction the commander choses to play as.
+          <div id="inline-bar-chart-1"></div>
 
-        <div class="graph-container">
-          <div class="graph-wrapper">
-            <h3 style="padding-top: 10;">Most Played Maps (2024–Present)</h3>
-            <div class="graph-box" id="chart-wrapper-played-maps-1"></div>
-            <button class="expand-btn" id="expand-btn-played-maps-1" style="display: none;">Expand Chart</button>
+          <div class="graph-container">
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Played Maps (2024–Present)</h3>
+              <div class="graph-box" id="chart-wrapper-played-maps-1"></div>
+              <button class="expand-btn" id="expand-btn-played-maps-1" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Active Commanders (2024–Present)</h3>
+              <div class="graph-box" id="chart-wrapper-active-commanders-1"></div>
+              <button class="expand-btn" id="expand-btn-active-commanders-1" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+              <div class="graph-box" id="chart-wrapper-faction-choice-1"></div>
+              <button class="expand-btn" id="expand-btn-faction-choice-1" style="display: none;">Expand Chart</button>
+            </div>
           </div>
-          <div class="graph-wrapper">
-            <h3 style="padding-top: 10;">Most Active Commanders (2024–Present)</h3>
-            <div class="graph-box" id="chart-wrapper-active-commanders-1"></div>
-            <button class="expand-btn" id="expand-btn-active-commanders-1" style="display: none;">Expand Chart</button>
-          </div>
-          <div class="graph-wrapper">
-            <div class="graph-box" id="graph2"></div>
-          </div>
+          <div id="tooltip" class="tooltip"></div>
         </div>
-        <div id="tooltip" class="tooltip"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
-      <div id="2024" class="tabcontent">
-        <h3>2024</h3>
-        <p>Paris is the capital of France.</p>
+      <div id="twentyFour" class="tabcontent">
+        <div align="center">
+          <div class="graph-container">
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Played Maps</h3>
+              <div class="graph-box" id="chart-wrapper-played-maps-2024"></div>
+              <button class="expand-btn" id="expand-btn-played-maps-2024" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Active Commanders</h3>
+              <div class="graph-box" id="chart-wrapper-played-commanders-2024"></div>
+              <button class="expand-btn" id="expand-btn-played-commanders-2024" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+            </div>
+            <div id="tooltip1" class="tooltip"></div>
+          </div>
+        </div>
       </div>
       <div id="2025" class="tabcontent">
-        <h3>2025</h3>
-        <p>Tokyo is the capital of Japan.</p>
+        <div align="center">
+          <div class="graph-container">
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Played Maps</h3>
+              <div class="graph-box" id="chart-wrapper-played-maps-2025"></div>
+              <button class="expand-btn" id="expand-btn-played-maps-2025" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Active Commanders</h3>
+              <div class="graph-box" id="chart-wrapper-played-commanders-2025"></div>
+              <button class="expand-btn" id="expand-btn-played-commanders-2025" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+            </div>
+            <div id="tooltip2" class="tooltip"></div>
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="../smoke.js"></script>

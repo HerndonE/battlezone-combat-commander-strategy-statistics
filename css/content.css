@@ -25,8 +25,8 @@
       margin: 0 auto;
       display: block;
 
-        position: relative;
-  z-index: 1;
+      position: relative;
+      z-index: 1;
     }
 
     .content-side {
@@ -64,7 +64,7 @@
     }
 
     .classic-button:hover {
-      background-color: #ff0000;
+      background-color: #a02087;
     }
 
     .brand-link {
