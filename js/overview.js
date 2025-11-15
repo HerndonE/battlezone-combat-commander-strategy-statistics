@@ -463,6 +463,210 @@ function commanderFactionChoiceCountBarChart(
   }
 }
 
+function mapPopularity(containerSelector, chartData) {
+  d3.select(containerSelector).selectAll("*").remove();
+
+  const wrapper = d3.select(containerSelector);
+
+  wrapper
+    .append("svg")
+    .attr("class", "popularity-chart")
+    .attr("width", 800)
+    .attr("height", 300);
+
+  wrapper
+    .append("div")
+    .attr("class", "tooltip")
+    .attr("id", "tooltip-" + containerSelector.replace(/[^a-zA-Z0-9]/g, ""));
+
+  const svg = wrapper.select("svg");
+  const tooltip = wrapper.select(".tooltip");
+
+  const totalMaps = Object.values(chartData).reduce(
+    (sum, arr) => sum + arr.length,
+    0
+  );
+
+  const data = Object.entries(chartData).map(([category, maps]) => ({
+    category,
+    maps,
+    count: maps.length,
+    percentile: (maps.length / totalMaps) * 100,
+  }));
+
+  const width = +svg.attr("width");
+  const height = +svg.attr("height");
+  const margin = { top: 20, right: 80, bottom: 40, left: 160 };
+
+  const x = d3
+    .scaleLinear()
+    .domain([0, d3.max(data, (d) => d.percentile)])
+    .range([margin.left, width - margin.right]);
+
+  const y = d3
+    .scaleBand()
+    .domain(data.map((d) => d.category))
+    .range([margin.top, height - margin.bottom])
+    .padding(0.25);
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0, ${height - margin.bottom})`)
+    .call(d3.axisBottom(x).tickFormat((d) => d + "%"));
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(${margin.left}, 0)`)
+    .call(d3.axisLeft(y));
+
+  svg
+    .selectAll("rect.bar")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("class", "bar")
+    .attr("x", margin.left)
+    .attr("y", (d) => y(d.category))
+    .attr("width", (d) => x(d.percentile) - margin.left)
+    .attr("height", y.bandwidth())
+    .attr("fill", "steelblue")
+    .on("mousemove", function (event, d) {
+      tooltip
+        .style("opacity", 1)
+        .html(
+          `<strong>${d.category}</strong><br>` +
+            `Percentile: ${d.percentile.toFixed(1)}%<br><br>` +
+            `<strong>Maps:</strong><br>${d.maps.join(", ")}`
+        )
+        .style("left", event.pageX + 12 + "px")
+        .style("top", event.pageY - 28 + "px");
+    })
+    .on("mouseleave", () => {
+      tooltip.style("opacity", 0);
+    });
+
+  svg
+    .selectAll("text.percent-label")
+    .data(data)
+    .enter()
+    .append("text")
+    .attr("x", (d) => x(d.percentile) + 5)
+    .attr("y", (d) => y(d.category) + y.bandwidth() / 2 + 4)
+    .style("font-size", "12px")
+    .text((d) => d.percentile.toFixed(1) + "%");
+}
+
+function commanderWinPercentages(
+  containerSelector,
+  chartData,
+  expandButtonSelector
+) {
+  const container = d3.select(containerSelector);
+  container.html(""); // clear previous content
+
+  const width = 800;
+  const height = 400;
+  const margin = { top: 40, right: 20, bottom: 80, left: 60 };
+
+  const svg = container
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  const data = chartData
+    .filter(([_, __, total]) => total >= 5)
+    .map(([name, _, total, wins]) => {
+      const adjustedTotal = total - 5;
+      const adjustedWins = wins - 5;
+      return {
+        name,
+        total: adjustedTotal,
+        wins: adjustedWins,
+        percentage:
+          adjustedTotal > 0 ? (adjustedWins / adjustedTotal) * 100 : 0,
+      };
+    })
+    .sort((a, b) => b.percentage - a.percentage);
+
+  let tooltip = container.select(".tooltip");
+  if (tooltip.empty()) {
+    tooltip = container
+      .append("div")
+      .attr("class", "tooltip")
+      .style("position", "absolute")
+      .style("background", "rgba(0,0,0,0.8)")
+      .style("color", "white")
+      .style("padding", "8px 10px")
+      .style("border-radius", "4px")
+      .style("pointer-events", "none")
+      .style("font-size", "12px")
+      .style("opacity", 0);
+  }
+
+  const x = d3
+    .scaleBand()
+    .domain(data.map((d) => d.name))
+    .range([margin.left, width - margin.right])
+    .padding(0.2);
+
+  const y = d3
+    .scaleLinear()
+    .domain([0, d3.max(data, (d) => d.percentage)])
+    .nice()
+    .range([height - margin.bottom, margin.top]);
+
+  svg
+    .selectAll("rect")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("x", (d) => x(d.name))
+    .attr("y", (d) => y(d.percentage))
+    .attr("width", x.bandwidth())
+    .attr("height", (d) => y(0) - y(d.percentage))
+    .attr("fill", "#4A90E2")
+    .on("mousemove", (event, d) => {
+      tooltip
+        .style("opacity", 1)
+        .html(
+          `<strong>${d.name}</strong><br>` +
+            `Games (After 5 removed): ${d.total}<br>` +
+            `Wins (After 5 removed): ${d.wins}<br>` +
+            `Win %: ${d.percentage.toFixed(1)}%`
+        )
+        .style("left", event.pageX + 10 + "px")
+        .style("top", event.pageY - 28 + "px");
+    })
+    .on("mouseleave", () => tooltip.style("opacity", 0));
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x))
+    .selectAll("text")
+    .attr("transform", "rotate(-40)")
+    .style("text-anchor", "end");
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y));
+
+  if (expandButtonSelector) {
+    d3.select(expandButtonSelector).on("click", () => {
+      container.classed("expanded", !container.classed("expanded"));
+    });
+  }
+}
+
+function lastUpdated(dateValue) {
+  return "Last Updated: " + dateValue;
+}
+
 d3.json("../data/mydata.json").then((rawData) => {
   const data = rawData.processed_data;
 
@@ -482,4 +686,15 @@ d3.json("../data/mydata.json").then((rawData) => {
     data.processed_commander_faction_counts,
     "#expand-btn-faction-choice-1"
   );
+
+  mapPopularity("#chart-wrapper-popular-maps-1", data.processed_map_popularity);
+
+  commanderWinPercentages(
+    "#chart-wrapper-commander-wins-1",
+    data.processed_commander_win_percentages,
+    "#expand-btn-commander-wins-1"
+  );
+
+  const updatedText = lastUpdated(rawData.last_updated);
+  document.getElementById("last-updated").textContent = updatedText;
 });

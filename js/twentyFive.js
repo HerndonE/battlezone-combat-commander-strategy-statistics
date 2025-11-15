@@ -244,13 +244,345 @@ function commanderCountBarChart2024(
   }
 }
 
-d3.json("../data/mydata.json").then((rawData) => {
-  const mapCounts = rawData["2025"]["data_2025"].map_counts.map(
-    ([name, value]) => ({ name, value })
-  );
+function commanderFactionChoiceCountBarChart2025(
+  containerId,
+  chartData,
+  expandBtnSelector = "#expand-btn"
+) {
+  const defaultItemCount = 10;
+  const barWidth = 50;
+  const margin = { top: 20, right: 20, bottom: 100, left: 50 };
 
-  const commanderCounts = rawData["2025"]["data_2025"].commander_list.map(
-    ([name, value]) => ({ name, value })
+  const svgHeight = 400;
+  const svg = d3.select(containerId).append("svg").attr("height", svgHeight);
+  const tooltip = d3.select("#tooltip2");
+  const expandBtn = document.querySelector(expandBtnSelector);
+  let isExpanded = false;
+
+  const allCommanders = Array.from(new Set(chartData.map((d) => d.commander)));
+
+  function drawChart(data) {
+    svg.selectAll("*").remove();
+
+    const commanders = Array.from(new Set(data.map((d) => d.commander)));
+    const factions = Array.from(new Set(data.map((d) => d.faction)));
+
+    const svgWidth = commanders.length * barWidth + margin.left + margin.right;
+    const height = svgHeight - margin.top - margin.bottom;
+
+    svg.attr("width", svgWidth);
+
+    const x0 = d3
+      .scaleBand()
+      .domain(commanders)
+      .range([margin.left, svgWidth - margin.right])
+      .paddingInner(0.2);
+
+    const x1 = d3
+      .scaleBand()
+      .domain(factions)
+      .range([0, x0.bandwidth()])
+      .padding(0.05);
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, d3.max(data, (d) => d.value)])
+      .nice()
+      .range([height + margin.top, margin.top]);
+
+    const color = d3.scaleOrdinal().domain(factions).range(d3.schemeTableau10);
+
+    // X Axis
+    svg
+      .append("g")
+      .attr("class", "axis")
+      .attr("transform", `translate(0,${height + margin.top})`)
+      .call(d3.axisBottom(x0))
+      .selectAll("text")
+      .attr("transform", "rotate(-30)")
+      .style("text-anchor", "end");
+
+    // Y Axis
+    svg
+      .append("g")
+      .attr("class", "axis")
+      .attr("transform", `translate(${margin.left},0)`)
+      .call(d3.axisLeft(y));
+
+    // Grouped bars
+    const groups = svg
+      .append("g")
+      .selectAll("g")
+      .data(d3.group(data, (d) => d.commander))
+      .join("g")
+      .attr("transform", (d) => `translate(${x0(d[0])},0)`);
+
+    groups
+      .selectAll("rect")
+      .data((d) => d[1])
+      .join("rect")
+      .attr("x", (d) => x1(d.faction))
+      .attr("y", (d) => y(d.value))
+      .attr("width", x1.bandwidth())
+      .attr("height", (d) => height + margin.top - y(d.value))
+      .attr("fill", (d) => color(d.faction))
+      .attr("class", "bar")
+      .on("mouseover", (event, d) => {
+        tooltip
+          .style("opacity", 1)
+          .html(
+            `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`
+          );
+      })
+      .on("mousemove", (event) => {
+        tooltip
+          .style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseout", () => {
+        tooltip.style("opacity", 0);
+      });
+
+    // Legend
+    const legend = svg
+      .append("g")
+      .attr(
+        "transform",
+        `translate(${svgWidth - margin.right - 100},${margin.top})`
+      );
+
+    factions.forEach((faction, i) => {
+      const legendRow = legend
+        .append("g")
+        .attr("transform", `translate(0, ${i * 20})`);
+
+      legendRow
+        .append("rect")
+        .attr("width", 12)
+        .attr("height", 12)
+        .attr("fill", color(faction));
+
+      legendRow
+        .append("text")
+        .attr("x", 18)
+        .attr("y", 10)
+        .text(faction)
+        .attr("class", "axis-label");
+    });
+  }
+
+  // Initial chart render
+  const initialCommanders = allCommanders.slice(0, defaultItemCount);
+  const initialData = chartData.filter((d) =>
+    initialCommanders.includes(d.commander)
+  );
+  drawChart(initialData);
+
+  // Expand/Collapse logic
+  if (expandBtn && allCommanders.length > defaultItemCount) {
+    expandBtn.style.display = "inline-block";
+    expandBtn.textContent = "Expand Chart";
+
+    expandBtn.addEventListener("click", () => {
+      isExpanded = !isExpanded;
+
+      const commandersToShow = isExpanded
+        ? allCommanders
+        : allCommanders.slice(0, defaultItemCount);
+
+      const dataToUse = chartData.filter((d) =>
+        commandersToShow.includes(d.commander)
+      );
+      drawChart(dataToUse);
+
+      expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+    });
+  }
+}
+
+function factionPopularity2025(containerId, chartData) {
+  const data = Object.entries(chartData);
+
+  const width = 600;
+  const height = 60;
+  const barHeight = 20;
+
+  const svg = d3
+    .select(containerId)
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  const total = d3.sum(data, (d) => d[1]);
+
+  const x = d3.scaleLinear().domain([0, total]).range([0, width]);
+
+  const color = d3
+    .scaleOrdinal()
+    .domain(data.map((d) => d[0]))
+    .range(d3.schemeSet2);
+
+  let currentX = 0;
+
+  svg
+    .selectAll("g")
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("transform", (d) => {
+      const xPos = currentX;
+      currentX += x(d[1]);
+      return `translate(${xPos}, 20)`;
+    })
+    .each(function (d) {
+      const g = d3.select(this);
+
+      g.append("rect")
+        .attr("width", x(d[1]))
+        .attr("height", barHeight)
+        .attr("fill", color(d[0]));
+
+      if (x(d[1]) > 40) {
+        g.append("text")
+          .attr("x", x(d[1]) / 2)
+          .attr("y", barHeight / 2 + 4)
+          .attr("text-anchor", "middle")
+          .attr("fill", "white")
+          .style("font-size", "12px")
+          .text(`${d[0]}: ${d[1]}`);
+      } else {
+        g.append("text")
+          .attr("x", x(d[1]) + 5)
+          .attr("y", barHeight / 2 + 4)
+          .attr("fill", "black")
+          .style("font-size", "12px")
+          .text(`${d[0]}: ${d[1]}`);
+      }
+    });
+}
+
+function commanderWinPercentages2025(
+  containerSelector,
+  chartData,
+  expandButtonSelector
+) {
+  const container = d3.select(containerSelector);
+  container.html(""); // clear previous content
+
+  const width = 800;
+  const height = 400;
+  const margin = { top: 40, right: 20, bottom: 80, left: 60 };
+
+  const svg = container
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  const data = chartData
+    .filter(([_, __, total]) => total >= 5)
+    .map(([name, _, total, wins]) => {
+      const adjustedTotal = total - 5;
+      const adjustedWins = wins - 5;
+      return {
+        name,
+        total: adjustedTotal,
+        wins: adjustedWins,
+        percentage:
+          adjustedTotal > 0 ? (adjustedWins / adjustedTotal) * 100 : 0,
+      };
+    })
+    .sort((a, b) => b.percentage - a.percentage);
+
+  let tooltip = container.select(".tooltip2");
+  if (tooltip.empty()) {
+    tooltip = container
+      .append("div")
+      .attr("class", "tooltip2")
+      .style("position", "absolute")
+      .style("background", "rgba(0,0,0,0.8)")
+      .style("color", "white")
+      .style("padding", "8px 10px")
+      .style("border-radius", "4px")
+      .style("pointer-events", "none")
+      .style("font-size", "12px")
+      .style("opacity", 0);
+  }
+
+  const x = d3
+    .scaleBand()
+    .domain(data.map((d) => d.name))
+    .range([margin.left, width - margin.right])
+    .padding(0.2);
+
+  const y = d3
+    .scaleLinear()
+    .domain([0, d3.max(data, (d) => d.percentage)])
+    .nice()
+    .range([height - margin.bottom, margin.top]);
+
+  svg
+    .selectAll("rect")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("x", (d) => x(d.name))
+    .attr("y", (d) => y(d.percentage))
+    .attr("width", x.bandwidth())
+    .attr("height", (d) => y(0) - y(d.percentage))
+    .attr("fill", "#4A90E2")
+    .on("mousemove", (event, d) => {
+      tooltip
+        .style("opacity", 1)
+        .html(
+          `<strong>${d.name}</strong><br>` +
+            `Games (After 5 removed): ${d.total}<br>` +
+            `Wins (After 5 removed): ${d.wins}<br>` +
+            `Win %: ${d.percentage.toFixed(1)}%`
+        )
+        .style("left", event.pageX + 10 + "px")
+        .style("top", event.pageY - 28 + "px");
+    })
+    .on("mouseleave", () => tooltip.style("opacity", 0));
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x))
+    .selectAll("text")
+    .attr("transform", "rotate(-40)")
+    .style("text-anchor", "end");
+
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y));
+
+  if (expandButtonSelector) {
+    d3.select(expandButtonSelector).on("click", () => {
+      container.classed("expanded", !container.classed("expanded"));
+    });
+  }
+}
+
+d3.json("../data/mydata.json").then((rawData) => {
+  const data = rawData["2025"]["data_2025"];
+
+  const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
+
+  const commanderCounts = data.commander_list.map(([name, value]) => ({
+    name,
+    value,
+  }));
+
+  const factionCounts = Object.entries(data.commander_faction_counts).flatMap(
+    ([commander, factions]) =>
+      Object.entries(factions).map(([faction, value]) => ({
+        commander,
+        faction,
+        value,
+      }))
   );
 
   mapCountBarChart2024(
@@ -263,5 +595,19 @@ d3.json("../data/mydata.json").then((rawData) => {
     "#chart-wrapper-played-commanders-2025",
     commanderCounts,
     "#expand-btn-played-commanders-2025"
+  );
+
+  commanderFactionChoiceCountBarChart2025(
+    "#chart-wrapper-faction-choice-2025",
+    factionCounts,
+    "#expand-btn-faction-choice-2025"
+  );
+
+  factionPopularity2025("#inline-bar-chart-3", data.faction_counter);
+
+  commanderWinPercentages2025(
+    "#chart-wrapper-commander-wins-2025",
+    data.commander_win_percentages,
+    "#expand-btn-commander-wins-2025"
   );
 });

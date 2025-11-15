@@ -30,12 +30,15 @@
           <h3>bz2stats.us</h3>
         </div>
       </a>
+      <div class="nav-right">
+        <div id="last-updated"></div>
+      </div>
     </nav>
     <div id="overlay-text">
       <div class="tab">
         <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
         <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
-        <button class="tablinks" onclick="getData(event, '2025')">2025</button>
+        <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
       </div>
       <div id="Overview" class="tabcontent">
         <div align="center">
@@ -50,9 +53,18 @@
               <button class="expand-btn" id="expand-btn-played-maps-1" style="display: none;">Expand Chart</button>
             </div>
             <div class="graph-wrapper">
+              <h2>Map Popularity (Percentile)</h2>
+              <div id="chart-wrapper-popular-maps-1"></div>
+            </div>
+            <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Active Commanders (2024–Present)</h3>
               <div class="graph-box" id="chart-wrapper-active-commanders-1"></div>
               <button class="expand-btn" id="expand-btn-active-commanders-1" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Overall Commander Win Percentages (Adjusted After First 5 Games)</h3>
+              <div class="graph-box" id="chart-wrapper-commander-wins-1"></div>
+              <button class="expand-btn" id="expand-btn-commander-wins-1" style="display: none;">Expand Chart</button>
             </div>
             <div class="graph-wrapper">
               <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
@@ -65,6 +77,9 @@
       </div>
       <div id="twentyFour" class="tabcontent">
         <div align="center">
+          <h3 style="padding-top: 10;">Faction Popularity</h3>
+          Values are based on the faction the commander choses to play as.
+          <div id="inline-bar-chart-2"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -77,14 +92,24 @@
               <button class="expand-btn" id="expand-btn-played-commanders-2024" style="display: none;">Expand Chart</button>
             </div>
             <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
+              <div class="graph-box" id="chart-wrapper-commander-wins-2024"></div>
+              <button class="expand-btn" id="expand-btn-commander-wins-2024" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
               <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+              <div class="graph-box" id="chart-wrapper-faction-choice-2024"></div>
+              <button class="expand-btn" id="expand-btn-faction-choice-2024" style="display: none;">Expand Chart</button>
             </div>
             <div id="tooltip1" class="tooltip"></div>
           </div>
         </div>
       </div>
-      <div id="2025" class="tabcontent">
+      <div id="twentyFive" class="tabcontent">
         <div align="center">
+          <h3 style="padding-top: 10;">Faction Popularity</h3>
+          Values are based on the faction the commander choses to play as.
+          <div id="inline-bar-chart-3"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -97,7 +122,14 @@
               <button class="expand-btn" id="expand-btn-played-commanders-2025" style="display: none;">Expand Chart</button>
             </div>
             <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
+              <div class="graph-box" id="chart-wrapper-commander-wins-2025"></div>
+              <button class="expand-btn" id="expand-btn-commander-wins-2025" style="display: none;">Expand Chart</button>
+            </div>
+            <div class="graph-wrapper">
               <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+              <div class="graph-box" id="chart-wrapper-faction-choice-2025"></div>
+              <button class="expand-btn" id="expand-btn-faction-choice-2025" style="display: none;">Expand Chart</button>
             </div>
             <div id="tooltip2" class="tooltip"></div>
           </div>
