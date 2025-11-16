@@ -1,4 +1,6 @@
-function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
+import { CONFIG } from "./config.js";
+
+function mapCountBarChart2025(containerSelector, mapData, expandBtnSelector) {
   const container = d3.select(containerSelector);
 
   let svg = container.select("svg");
@@ -119,7 +121,7 @@ function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
   }
 }
 
-function commanderCountBarChart2024(
+function commanderCountBarChart2025(
   containerSelector,
   mapData,
   expandBtnSelector
@@ -566,7 +568,7 @@ function commanderWinPercentages2025(
   }
 }
 
-d3.json("../data/mydata.json").then((rawData) => {
+d3.json(CONFIG.jsonFile).then((rawData) => {
   const data = rawData["2025"]["data_2025"];
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
@@ -585,13 +587,13 @@ d3.json("../data/mydata.json").then((rawData) => {
       }))
   );
 
-  mapCountBarChart2024(
+  mapCountBarChart2025(
     "#chart-wrapper-played-maps-2025",
     mapCounts,
     "#expand-btn-played-maps-2025"
   );
 
-  commanderCountBarChart2024(
+  commanderCountBarChart2025(
     "#chart-wrapper-played-commanders-2025",
     commanderCounts,
     "#expand-btn-played-commanders-2025"

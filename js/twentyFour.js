@@ -1,3 +1,5 @@
+import { CONFIG } from "./config.js";
+
 function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
   const container = d3.select(containerSelector);
 
@@ -566,7 +568,7 @@ function commanderWinPercentages2024(
   }
 }
 
-d3.json("../data/mydata.json").then((rawData) => {
+d3.json(CONFIG.jsonFile).then((rawData) => {
   const data = rawData["2024"]["data_2024"];
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));

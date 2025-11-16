@@ -1,16 +1,13 @@
-#overlay-text {
-  flex: 1;
-}
 
-footer {
+footer,
+footer p {
   text-align: center;
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: #333;
   color: white;
-  position: relative; /* Not fixed, so it won’t overlap */
-  z-index: 1000;
-  
+  position: relative;
+  z-index: 10;
 }
 
 .footer-note {
@@ -28,7 +25,9 @@ footer {
 .row {
   display: flex;
   justify-content: center; /* Center cards horizontally */
-  padding: 0 20px;
+  gap: 10px; /* optional spacing between columns */
+  padding: 0; /* remove horizontal padding */
+  flex-wrap: wrap; /* allow wrapping on small screens */
 }
 
 /* Clear floats after the columns */
@@ -36,7 +35,6 @@ footer {
   content: "";
   display: table;
   clear: both;
-  
 }
 
 /* Style the counter cards */

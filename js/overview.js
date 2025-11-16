@@ -1,15 +1,25 @@
+import { CONFIG } from "./config.js";
+import {
+  COLOR_PALETTE,
+  BACKGROUND_COLOR,
+  TEXT_LIGHT,
+  TEXT_DARK,
+} from "./config.js";
+
 function factionPopularity(containerId, chartData) {
   const data = Object.entries(chartData);
 
   const width = 600;
   const height = 60;
   const barHeight = 20;
+  const borderRadius = 5; // adjust for roundness
 
   const svg = d3
     .select(containerId)
     .append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .style("background-color", BACKGROUND_COLOR);
 
   const total = d3.sum(data, (d) => d[1]);
 
@@ -18,7 +28,7 @@ function factionPopularity(containerId, chartData) {
   const color = d3
     .scaleOrdinal()
     .domain(data.map((d) => d[0]))
-    .range(d3.schemeSet2);
+    .range(COLOR_PALETTE);
 
   let currentX = 0;
 
@@ -38,24 +48,19 @@ function factionPopularity(containerId, chartData) {
       g.append("rect")
         .attr("width", x(d[1]))
         .attr("height", barHeight)
-        .attr("fill", color(d[0]));
+        .attr("fill", color(d[0]))
+        .attr("rx", borderRadius) // rounded corners
+        .attr("ry", borderRadius);
 
-      if (x(d[1]) > 40) {
-        g.append("text")
-          .attr("x", x(d[1]) / 2)
-          .attr("y", barHeight / 2 + 4)
-          .attr("text-anchor", "middle")
-          .attr("fill", "white")
-          .style("font-size", "12px")
-          .text(`${d[0]}: ${d[1]}`);
-      } else {
-        g.append("text")
-          .attr("x", x(d[1]) + 5)
-          .attr("y", barHeight / 2 + 4)
-          .attr("fill", "black")
-          .style("font-size", "12px")
-          .text(`${d[0]}: ${d[1]}`);
-      }
+      const textColor = x(d[1]) > 40 ? TEXT_LIGHT : TEXT_DARK;
+
+      g.append("text")
+        .attr("x", x(d[1]) > 40 ? x(d[1]) / 2 : x(d[1]) + 5)
+        .attr("y", barHeight / 2 + 4)
+        .attr("text-anchor", x(d[1]) > 40 ? "middle" : "start")
+        .attr("fill", textColor)
+        .style("font-size", "12px")
+        .text(`${d[0]}: ${d[1]}`);
     });
 }
 
@@ -71,8 +76,13 @@ function mapCountBarChart(
   const defaultItemCount = 10;
   const svgHeight = 450;
   const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+  const borderRadius = 5; // rounded corners
 
-  const svg = d3.select(containerId).append("svg").attr("height", svgHeight);
+  const svg = d3
+    .select(containerId)
+    .append("svg")
+    .attr("height", svgHeight)
+    .style("background-color", BACKGROUND_COLOR);
 
   const tooltip = d3.select("#tooltip");
   const expandBtn = document.querySelector(expandBtnSelector);
@@ -107,10 +117,9 @@ function mapCountBarChart(
     const xAxis = d3.axisBottom(x);
     const yAxis = d3.axisLeft(y);
 
-    // Add x-axis group with .axis class
     svg
       .append("g")
-      .attr("class", "axis") // <-- Added here
+      .attr("class", "axis")
       .attr("transform", `translate(0, ${height + margin.top})`)
       .call(xAxis)
       .selectAll("text")
@@ -118,15 +127,18 @@ function mapCountBarChart(
       .attr("x", 9)
       .attr("y", 0)
       .attr("dy", ".35em")
-      .style("text-anchor", "start");
+      .style("text-anchor", "start")
+      .attr("fill", TEXT_LIGHT);
 
-    // Add y-axis group with .axis class
     svg
       .append("g")
-      .attr("class", "axis") // <-- Already here, confirmed
+      .attr("class", "axis")
       .attr("transform", `translate(${margin.left}, 0)`)
-      .call(yAxis);
+      .call(yAxis)
+      .selectAll("text")
+      .attr("fill", TEXT_LIGHT);
 
+    // Use color palette based on index
     svg
       .selectAll(".bar")
       .data(dataSubset)
@@ -137,7 +149,9 @@ function mapCountBarChart(
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", "steelblue")
+      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+      .attr("rx", borderRadius)
+      .attr("ry", borderRadius)
       .on("mouseover", (event, d) => {
         tooltip
           .style("opacity", 1)
@@ -158,6 +172,7 @@ function mapCountBarChart(
       .attr("x", -(height / 2) - margin.top)
       .attr("y", margin.left - 35)
       .attr("text-anchor", "middle")
+      .attr("fill", TEXT_LIGHT)
       .text("Count");
   }
 
@@ -667,7 +682,7 @@ function lastUpdated(dateValue) {
   return "Last Updated: " + dateValue;
 }
 
-d3.json("../data/mydata.json").then((rawData) => {
+d3.json(CONFIG.jsonFile).then((rawData) => {
   const data = rawData.processed_data;
 
   factionPopularity("#inline-bar-chart-1", data.processed_most_played_factions);
