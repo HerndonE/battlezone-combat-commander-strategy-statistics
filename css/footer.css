@@ -47,24 +47,22 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  footer {
-    text-align: left; /* Ensure footer text is not centered */
+
+  footer,
+  footer p {
+    text-align: left;
+    padding-left: 15px;
   }
 
   .row {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align children (columns) to the left */
-    gap: 0px;
+    align-items: flex-start;
+    gap: 5px;
   }
 
   .column {
     width: 100%;
-    margin-bottom: 0px;
-  }
-
-  .column:last-child {
-    margin-bottom: 0;
+    padding: 0;
   }
 
   .card {

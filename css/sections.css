@@ -13,7 +13,7 @@
   }
 
   .highlight {
-    color: #be299f;
+    color: #b5179e;
   }
 
   .welcome-section h1 {
@@ -85,3 +85,48 @@
     margin-top: 0;
     padding-left: 0px;
   }
+
+@media screen and (max-width: 768px) {
+  .welcome-section,
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .welcome-section h1,
+  .about-section h1 {
+    font-size: 2.2em;
+  }
+
+  .welcome-section h2,
+  .about-section h2 {
+    font-size: 1.3em;
+  }
+
+  .welcome-section p,
+  .about-section p {
+    font-size: 1em;
+  }
+
+  .text-content {
+    padding-right: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .text-content ul {
+    padding-left: 20px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-section h1,
+  .about-section h1 {
+    font-size: 1.9em;
+  }
+
+  .welcome-section h2,
+  .about-section h2 {
+    font-size: 1.15em;
+  }
+}

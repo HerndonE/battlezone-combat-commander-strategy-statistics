@@ -52,7 +52,7 @@
     }
 
     .classic-button {
-      background-color: #be299f;
+      background-color: #b5179e;
       color: white;
       text-decoration: none;
       padding: 10px 20px;
@@ -73,8 +73,49 @@
     }
 
     @media (max-width: 768px) {
-      .half {
-        flex: 1 1 100%;
-        order: unset; /* Resets mobile ordering if needed */
-      }
+      
+    .content-side {
+      order: 1;
     }
+    .image-side {
+      order: 2;
+    }
+
+    .half {
+      flex: 1 1 100%;
+    }
+
+    .landing-title {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .landing-list {
+      padding-left: 25px; /* More room for bullets on small screens */
+    }
+
+    .content-side {
+      text-align: center;
+      align-items: center;
+    }
+
+    .classic-button {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+@media (max-width: 480px) {
+  .landing-title {
+    font-size: 20px;
+  }
+
+  .landing-list li {
+    margin-bottom: 8px;
+  }
+
+  .half {
+    padding: 10px;
+  }
+}
