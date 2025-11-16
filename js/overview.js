@@ -205,8 +205,13 @@ function commanderCountBarChart(
   const defaultItemCount = 10;
   const svgHeight = 450;
   const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+  const borderRadius = 5;
 
-  const svg = d3.select(containerId).append("svg").attr("height", svgHeight);
+  const svg = d3
+    .select(containerId)
+    .append("svg")
+    .attr("height", svgHeight)
+    .style("background-color", BACKGROUND_COLOR);
 
   const tooltip = d3.select("#tooltip");
   const expandBtn = document.querySelector(expandBtnSelector);
@@ -251,13 +256,16 @@ function commanderCountBarChart(
       .attr("x", 9)
       .attr("y", 0)
       .attr("dy", ".35em")
-      .style("text-anchor", "start");
+      .style("text-anchor", "start")
+      .attr("fill", TEXT_LIGHT);
 
     svg
       .append("g")
       .attr("class", "axis")
       .attr("transform", `translate(${margin.left}, 0)`)
-      .call(yAxis);
+      .call(yAxis)
+      .selectAll("text")
+      .attr("fill", TEXT_LIGHT);
 
     svg
       .selectAll(".bar")
@@ -269,7 +277,9 @@ function commanderCountBarChart(
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", "steelblue")
+      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+      .attr("rx", borderRadius)
+      .attr("ry", borderRadius)
       .on("mouseover", (event, d) => {
         tooltip
           .style("opacity", 1)
@@ -290,6 +300,7 @@ function commanderCountBarChart(
       .attr("x", -(height / 2) - margin.top)
       .attr("y", margin.left - 35)
       .attr("text-anchor", "middle")
+      .attr("fill", TEXT_LIGHT)
       .text("Count");
   }
 
@@ -318,9 +329,14 @@ function commanderFactionChoiceCountBarChart(
   const defaultItemCount = 10;
   const barWidth = 50;
   const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+  const borderRadius = 5;
 
   const svgHeight = 400;
-  const svg = d3.select(containerId).append("svg").attr("height", svgHeight);
+  const svg = d3
+    .select(containerId)
+    .append("svg")
+    .attr("height", svgHeight)
+    .style("background-color", BACKGROUND_COLOR);
   const tooltip = d3.select("#tooltip");
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
@@ -368,7 +384,7 @@ function commanderFactionChoiceCountBarChart(
       .nice()
       .range([height + margin.top, margin.top]);
 
-    const color = d3.scaleOrdinal().domain(factions).range(d3.schemeTableau10);
+    const color = d3.scaleOrdinal().domain(factions).range(COLOR_PALETTE);
 
     // X Axis
     svg
@@ -378,7 +394,8 @@ function commanderFactionChoiceCountBarChart(
       .call(d3.axisBottom(x0))
       .selectAll("text")
       .attr("transform", "rotate(-30)")
-      .style("text-anchor", "end");
+      .style("text-anchor", "end")
+      .attr("fill", TEXT_LIGHT);
 
     // Y Axis
     svg
@@ -403,7 +420,9 @@ function commanderFactionChoiceCountBarChart(
       .attr("y", (d) => y(d.value))
       .attr("width", x1.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", (d) => color(d.faction))
+      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+      .attr("rx", borderRadius)
+      .attr("ry", borderRadius)
       .attr("class", "bar")
       .on("mouseover", (event, d) => {
         tooltip
@@ -444,6 +463,7 @@ function commanderFactionChoiceCountBarChart(
         .append("text")
         .attr("x", 18)
         .attr("y", 10)
+        .attr("fill", TEXT_LIGHT)
         .text(faction)
         .attr("class", "axis-label");
     });
@@ -487,7 +507,8 @@ function mapPopularity(containerSelector, chartData) {
     .append("svg")
     .attr("class", "popularity-chart")
     .attr("width", 800)
-    .attr("height", 300);
+    .attr("height", 300)
+    .style("background-color", BACKGROUND_COLOR);
 
   wrapper
     .append("div")
@@ -512,6 +533,7 @@ function mapPopularity(containerSelector, chartData) {
   const width = +svg.attr("width");
   const height = +svg.attr("height");
   const margin = { top: 20, right: 80, bottom: 40, left: 160 };
+  const borderRadius = 5;
 
   const x = d3
     .scaleLinear()
@@ -528,7 +550,9 @@ function mapPopularity(containerSelector, chartData) {
     .append("g")
     .attr("class", "axis")
     .attr("transform", `translate(0, ${height - margin.bottom})`)
-    .call(d3.axisBottom(x).tickFormat((d) => d + "%"));
+    .call(d3.axisBottom(x).tickFormat((d) => d + "%"))
+    .selectAll("text")
+    .attr("fill", TEXT_LIGHT);
 
   svg
     .append("g")
@@ -546,7 +570,9 @@ function mapPopularity(containerSelector, chartData) {
     .attr("y", (d) => y(d.category))
     .attr("width", (d) => x(d.percentile) - margin.left)
     .attr("height", y.bandwidth())
-    .attr("fill", "steelblue")
+    .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+    .attr("rx", borderRadius)
+    .attr("ry", borderRadius)
     .on("mousemove", function (event, d) {
       tooltip
         .style("opacity", 1)
@@ -570,7 +596,8 @@ function mapPopularity(containerSelector, chartData) {
     .attr("x", (d) => x(d.percentile) + 5)
     .attr("y", (d) => y(d.category) + y.bandwidth() / 2 + 4)
     .style("font-size", "12px")
-    .text((d) => d.percentile.toFixed(1) + "%");
+    .text((d) => d.percentile.toFixed(1) + "%")
+    .attr("fill", TEXT_LIGHT);
 }
 
 function commanderWinPercentages(
@@ -584,11 +611,13 @@ function commanderWinPercentages(
   const width = 800;
   const height = 400;
   const margin = { top: 40, right: 20, bottom: 80, left: 60 };
+  const borderRadius = 5;
 
   const svg = container
     .append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .style("background-color", BACKGROUND_COLOR);
 
   const data = chartData
     .filter(([_, __, total]) => total >= 5)
@@ -641,7 +670,9 @@ function commanderWinPercentages(
     .attr("y", (d) => y(d.percentage))
     .attr("width", x.bandwidth())
     .attr("height", (d) => y(0) - y(d.percentage))
-    .attr("fill", "#4A90E2")
+    .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+    .attr("rx", borderRadius)
+    .attr("ry", borderRadius)
     .on("mousemove", (event, d) => {
       tooltip
         .style("opacity", 1)
@@ -663,7 +694,8 @@ function commanderWinPercentages(
     .call(d3.axisBottom(x))
     .selectAll("text")
     .attr("transform", "rotate(-40)")
-    .style("text-anchor", "end");
+    .style("text-anchor", "end")
+    .attr("fill", TEXT_LIGHT);
 
   svg
     .append("g")
