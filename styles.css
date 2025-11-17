@@ -104,7 +104,7 @@
 
     @font-face {
         font-family: "customfont";
-        src: url("/fonts/Race Sport.ttf");
+        src: url("./fonts/Race%20Sport.ttf");
     }
 
     h1 {
