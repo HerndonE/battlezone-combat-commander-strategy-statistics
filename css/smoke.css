@@ -1,0 +1,42 @@
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#overlay-text-stats {
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+#overlay-text {
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+#overlay-text-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #overlay-text-stats {
+    display: none !important;
+  }
+
+#overlay-text-mobile {
+  display: block;
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+}

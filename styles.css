@@ -1,0 +1,113 @@
+    html, body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;        
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .repo-info {
+        margin-bottom: 20px;
+    }
+
+    pre {
+        white-space: pre-wrap;
+        /* Ensures the JSON content wraps */
+        word-wrap: break-word;
+        /* Allows the content to wrap */
+        padding: 10px;
+        border-radius: 4px;
+        max-height: 500px;
+        overflow-y: auto;
+        /* Adds a scrollbar if the content overflows */
+    }
+
+    a {
+        color: #007bff;
+    }
+
+    .content-container {
+        max-width: 1000px;
+        /* You can adjust this width to match the size of the first section */
+        margin: 0 auto;
+    }
+
+    .repo-info {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    #jsonContent {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    /* Style for the container to enable horizontal scrolling */
+    .chart-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    /* Ensure the chart takes full width of the container */
+    #myChart {
+        width: 2000px;
+        /* You can adjust this width based on your data */
+    }
+
+    .custom-link {
+        text-decoration: none;
+        color: inherit; /* or choose a custom color */
+        font-size: 16px; /* optional styling */
+    }
+
+    .custom-link:hover {
+        text-decoration: underline; /* optional: add underline on hover */
+        color: #be299f;
+    }
+
+    .text-content ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .text-content ul li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 8px;
+    }
+
+    .text-content ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px;
+        color: #be299f;
+        line-height: 1;
+    }
+
+    .fade-hr-right {
+        height: 10px;
+        background-image: linear-gradient(to right, #be299f, transparent);
+        border-radius: 5px;
+        border: none;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @font-face {
+        font-family: "customfont";
+        src: url("/fonts/Race Sport.ttf");
+    }
+
+    h1 {
+        font-family: customfont;
+    }
+

@@ -1,0 +1,132 @@
+  .welcome-section {
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    z-index: 1; /* Ensure text/content stays above the canvas */
+  }
+
+  .welcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .highlight {
+    color: #b5179e;
+  }
+
+  .welcome-section h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+  .welcome-section h2 {
+    font-size: 1.6em;
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+
+  .welcome-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+
+  strong {
+    color: #ffffff;
+  }
+
+  .about-section {
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    z-index: 1; /* Ensure text/content stays above the canvas */
+  }
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-section h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+  .about-section h2 {
+    font-size: 1.6em;
+    color: #cccccc;
+    margin-bottom: 20px;
+  }
+
+  .about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #bbbbbb;
+  }
+
+  .text-content {
+    text-align: left;
+    flex: 1;
+    padding-right: 10px;
+    padding-top: 5%;
+    position: relative;  
+    z-index: 2;  
+  }
+
+  .text-content h1 {
+    margin-bottom: 10px;
+  }
+
+  .text-content ul {
+    margin-top: 0;
+    padding-left: 0px;
+  }
+
+@media screen and (max-width: 768px) {
+  .welcome-section,
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .welcome-section h1,
+  .about-section h1 {
+    font-size: 2.2em;
+  }
+
+  .welcome-section h2,
+  .about-section h2 {
+    font-size: 1.3em;
+  }
+
+  .welcome-section p,
+  .about-section p {
+    font-size: 1em;
+  }
+
+  .text-content {
+    padding-right: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .text-content ul {
+    padding-left: 20px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-section h1,
+  .about-section h1 {
+    font-size: 1.9em;
+  }
+
+  .welcome-section h2,
+  .about-section h2 {
+    font-size: 1.15em;
+  }
+}

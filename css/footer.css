@@ -1,0 +1,75 @@
+
+footer,
+footer p {
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-note {
+  text-align: center;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 10%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  display: flex;
+  justify-content: center; /* Center cards horizontally */
+  gap: 10px; /* optional spacing between columns */
+  padding: 0; /* remove horizontal padding */
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  text-align: center;
+}
+
+.card p {
+  margin: 2px 0; 
+}
+
+@media screen and (max-width: 768px) {
+
+  footer,
+  footer p {
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .card {
+    text-align: left;
+  }
+
+  .custom-link {
+    display: inline-block;
+  }
+}
