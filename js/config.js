@@ -1,5 +1,5 @@
 export const CONFIG = {
-  jsonFile: "../data/mydata.json",
+  jsonFile: "../data/data.json",
 };
 
 export const COLOR_PALETTE = [

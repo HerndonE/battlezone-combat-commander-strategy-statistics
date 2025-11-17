@@ -1,0 +1,134 @@
+.category {
+  margin: 1rem;
+}
+
+.sub-category {
+  margin-bottom: 1rem;
+}
+
+.dropdown-btn {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-btn:hover {
+  background: #3a3a5a;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start;
+}
+
+.stat-card {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  min-width: 120px;
+  flex: 1 1 calc(50% - 0.75rem);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.stat-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Dropdown content hidden by default */
+.dropdown-content {
+  display: none;
+}
+
+/* Show dropdown content */
+.dropdown-content.show {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faction-breakdown {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.faction-item {
+  background: #2e2e44;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.map-pill {
+  background: #2e2e44;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0.2rem;
+}
+
+.cards.dropdown-content {
+  display: none;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cards.dropdown-content.show {
+  display: flex;
+}
+
+.dropdown-btn-map-popularity {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .stat-card {
+    flex: 1 1 100%;
+    min-width: unset;
+  }
+}
