@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Trail",
-                "Sahara",
-                "Crater",
-                "Snow Central",
-                "Concrete Jungle",
-                "Oxide",
-                "Terrace",
-                "Ravine",
-                "Selena",
-                "Europa Night",
-                "Bowl",
-                "Ridges",
-                "Sinister",
-                "Hi-Mid-Lo",
-                "Ogg Vorbis",
-                "Trench",
-                "Haven",
-                "Remnant",
-                "Pitbull",
-                "Overlook",
-                "Iraq",
-                "Oldboy",
-                "Quarry",
-                "Terron",
-                "High Heat",
-                "Transfer",
-                "Plaza",
-                "Abundance",
-                "High & Low",
-                "Titan",
-                "Echelon",
-                "Phazon",
-                "Throbbing Gristle",
                 "Ebola",
-                "Casius",
-                "Lunar",
-                "Ragnarok",
-                "Mexican Mission",
-                "Mountain Top",
-                "Dune Night",
-                "Strategy Arena",
-                "Reflex",
-                "Alien Dunes",
-                "Stone Circle",
-                "Garden",
-                "Abuse",
-                "Egypt",
-                "Ancient Hills",
-                "Vortex",
-                "Excavation",
-                "Rectal",
-                "Assualt",
-                "Chill",
-                "Iceberg",
-                "Vegan",
-                "Royal Stadium",
-                "Dream",
-                "Ice Age",
-                "Insula",
-                "Satart",
-                "Rendon",
-                "Red Slope",
-                "Phoenix",
-                "Oasis",
-                "Giza",
-                "Europa",
-                "Scion Central",
-                "Bridges",
                 "No Mans Land",
-                "Hound",
-                "Twin Peaks",
-                "Tempest",
-                "Moonshroud",
-                "Scammed",
-                "Madern Warfare",
-                "Domain",
-                "Consciousness",
-                "Dusk",
-                "Mojave",
-                "Caiscus",
-                "Quagmire",
+                "Red Slope",
+                "Throbbing Gristle",
+                "Excavation",
+                "Alien Dunes",
+                "Bowl",
+                "Oasis",
                 "Lunix",
-                "Aztec",
-                "310",
-                "Plus",
+                "Trail",
+                "Vegan",
+                "Garden",
+                "Haven",
+                "Terrace",
+                "Egypt",
+                "Giza",
+                "Ragnarok",
+                "Madern Warfare",
                 "Forgotten",
-                "JO Crystal",
-                "Beyond",
-                "Island of V8",
-                "Mort's Wasteland",
-                "Mesa",
+                "Strategy Arena",
+                "Abuse",
+                "Scammed",
+                "Quagmire",
+                "Dream",
+                "Consciousness",
+                "Trench",
+                "Iraq",
                 "Prodigy Ver .2",
-                "Barren"
+                "Iceberg",
+                "Plaza",
+                "Scion Central",
+                "Hound",
+                "Ridges",
+                "Oldboy",
+                "Assualt",
+                "Mesa",
+                "Ogg Vorbis",
+                "Caiscus",
+                "Echelon",
+                "Mountain Top",
+                "Royal Stadium",
+                "Remnant",
+                "Sahara",
+                "Phoenix",
+                "Ice Age",
+                "Satart",
+                "Plus",
+                "Titan",
+                "High & Low",
+                "Moonshroud",
+                "Quarry",
+                "Domain",
+                "Terron",
+                "Abundance",
+                "Reflex",
+                "Europa",
+                "Vortex",
+                "Island of V8",
+                "Ancient Hills",
+                "Twin Peaks",
+                "Dune Night",
+                "Barren",
+                "JO Crystal",
+                "Ravine",
+                "Rendon",
+                "Dusk",
+                "310",
+                "Mexican Mission",
+                "Insula",
+                "Concrete Jungle",
+                "Chill",
+                "Beyond",
+                "Oxide",
+                "Transfer",
+                "Phazon",
+                "Casius",
+                "Aztec",
+                "Mort's Wasteland",
+                "Pitbull",
+                "Snow Central",
+                "Rectal",
+                "Hi-Mid-Lo",
+                "Tempest",
+                "Mojave",
+                "Europa Night",
+                "Lunar",
+                "Crater",
+                "Stone Circle",
+                "Selena",
+                "Bridges",
+                "Sinister",
+                "High Heat",
+                "Overlook"
             ],
             "commander_list": [
                 [
@@ -7442,6 +7442,215 @@
                         }
                     }
                 }
+            },
+            "August": {
+                "08.1.25": {
+                    "Plaza": {
+                        "date": "08.1.25",
+                        "map": "Plaza",
+                        "commanders": "Darkvale vs F9bomber",
+                        "factions": "[I.S.D.F, Scion]",
+                        "winning faction": "Scion",
+                        "winner": "F9bomber",
+                        "time": "8:48",
+                        "teamOne": [
+                            "Sev",
+                            "Zack"
+                        ],
+                        "teamTwo": [
+                            "VTrider",
+                            "Nozza34"
+                        ],
+                        "_comment": "Can't seem to find Darkvale vs Nozza34 game on this day."
+                    }
+                },
+                "08.2.25": {
+                    "Twin Peaks": {
+                        "date": "08.2.25",
+                        "map": "Twin Peaks",
+                        "commanders": "Blue Banana vs DD",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winning faction": "I.S.D.F",
+                        "winner": "Blue Banana",
+                        "time": "32:25",
+                        "teamOne": [
+                            "Muffin",
+                            "F9bomber",
+                            "X-Triage"
+                        ],
+                        "teamTwo": [
+                            "Domakus",
+                            "Cyber",
+                            "Zack"
+                        ]
+                    },
+                    "Lunar": {
+                        "date": "08.2.25",
+                        "map": "Lunar",
+                        "commanders": "VTrider vs Blue Banana",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winning faction": "I.S.D.F",
+                        "winner": "VTrider",
+                        "time": "32:58",
+                        "teamOne": [
+                            "Domakus",
+                            "F9bomber",
+                            "Zack",
+                            "Xpi"
+                        ],
+                        "teamTwo": [
+                            "Muffin",
+                            "Cyber",
+                            "X-Triage",
+                            "DD"
+                        ]
+                    },
+                    "Ice Age": {
+                        "date": "08.2.25",
+                        "map": "Ice Age",
+                        "commanders": "Blue Banana vs VTrider",
+                        "factions": "[Hadean, Hadean]",
+                        "winning faction": "Hadean",
+                        "winner": "Blue Banana",
+                        "time": "7:00",
+                        "teamOne": [
+                            "Cyber",
+                            "Domakus",
+                            "Muffin",
+                            "Xpi"
+                        ],
+                        "teamTwo": [
+                            "Zack",
+                            "Herp McDerperson",
+                            "F9bomber",
+                            "Econchump"
+                        ]
+                    },
+                    "Fort 12C": {
+                        "date": "08.2.25",
+                        "map": "Ice Age",
+                        "commanders": "Blue Banana vs VTrider",
+                        "factions": "[Hadean, Hadean]",
+                        "winning faction": "Hadean",
+                        "winner": "Blue Banana",
+                        "time": "14:43",
+                        "teamOne": [
+                            "Cyber",
+                            "Domakus",
+                            "Muffin",
+                            "Xpi"
+                        ],
+                        "teamTwo": [
+                            "Zack",
+                            "Herp McDerperson",
+                            "F9bomber",
+                            "Econchump"
+                        ]
+                    },
+                    "Quagmire": {
+                        "date": "08.2.25",
+                        "map": "Quagmire",
+                        "commanders": "F9bomber vs VTrider",
+                        "factions": "[I.S.D.F, Hadean]",
+                        "winning faction": "Hadean",
+                        "winner": "VTrider",
+                        "time": "25:47",
+                        "teamOne": [
+                            "Zack",
+                            "Domakus",
+                            "Econchump",
+                            "Xpi"
+                        ],
+                        "teamTwo": [
+                            "Judgeguns",
+                            "Muffin",
+                            "Blue Banana",
+                            "X-Triage"
+                        ]
+                    },
+                    "Jade Green": {
+                        "date": "08.2.25",
+                        "map": "Jade Green",
+                        "commanders": "Domakus vs Blue Banana",
+                        "factions": "[Scion, I.S.D.F]",
+                        "winning faction": "I.S.D.F",
+                        "winner": "Blue Banana",
+                        "time": "33:15",
+                        "teamOne": [
+                            "Nozza34",
+                            "Muffin",
+                            "X-Triage",
+                            "VTrider"
+                        ],
+                        "teamTwo": [
+                            "Xpi",
+                            "F9bomber",
+                            "Certified Bad Guy",
+                            "Econchump"
+                        ]
+                    },
+                    "Magma": {
+                        "date": "08.2.25",
+                        "map": "Magma",
+                        "commanders": "Blue Banana vs Zack",
+                        "factions": "[Scion, I.S.D.F]",
+                        "winning faction": "Scion",
+                        "winner": "Blue Banana",
+                        "time": "20:15",
+                        "teamOne": [
+                            "Certified Bad Guy",
+                            "Xpi",
+                            "VTrider"
+                        ],
+                        "teamTwo": [
+                            "Muffin",
+                            "F9bomber",
+                            "Econchump"
+                        ]
+                    },
+                    "Moonshroud": {
+                        "date": "08.2.25",
+                        "map": "Moonshroud",
+                        "commanders": "Certified Bad Guy vs Blue Banana",
+                        "factions": "[I.S.D.F, Scion]",
+                        "winning faction": "Scion",
+                        "winner": "Blue Banana",
+                        "time": "12:22",
+                        "teamOne": [
+                            "Zack",
+                            "Econchump",
+                            "Muffin",
+                            "F9bomber"
+                        ],
+                        "teamTwo": [
+                            "Herp McDerperson",
+                            "Xpi",
+                            "VTrider",
+                            "Darkvale"
+                        ]
+                    },
+                    "Egypt": {
+                        "date": "08.2.25",
+                        "map": "Egypt",
+                        "commanders": "Certified Bad Guy vs Blue Banana",
+                        "factions": "[I.S.D.F, I.S.D.F]",
+                        "winning faction": "I.S.D.F",
+                        "winner": "Blue Banana",
+                        "time": "15:54",
+                        "teamOne": [
+                            "Zack",
+                            "VTrider",
+                            "Muffin",
+                            "F9bomber"
+                        ],
+                        "teamTwo": [
+                            "Herp McDerperson",
+                            "Xpi",
+                            "Econchump",
+                            "Darkvale"
+                        ]
+                    }
+                }
             }
         },
         "data_2025": {
@@ -7464,7 +7673,7 @@
                 ],
                 [
                     "Quagmire",
-                    9
+                    10
                 ],
                 [
                     "Remnant",
@@ -7491,6 +7700,10 @@
                     5
                 ],
                 [
+                    "Lunar",
+                    5
+                ],
+                [
                     "Vegan",
                     5
                 ],
@@ -7503,11 +7716,11 @@
                     4
                 ],
                 [
-                    "Lunar",
+                    "Sahara",
                     4
                 ],
                 [
-                    "Sahara",
+                    "Ice Age",
                     4
                 ],
                 [
@@ -7529,6 +7742,18 @@
                 [
                     "Scammed",
                     3
+                ],
+                [
+                    "Plaza",
+                    3
+                ],
+                [
+                    "Twin Peaks",
+                    3
+                ],
+                [
+                    "Jade Green",
+                    2
                 ],
                 [
                     "Fort 12C",
@@ -7555,19 +7780,11 @@
                     2
                 ],
                 [
-                    "Ice Age",
-                    2
-                ],
-                [
                     "Throbbing Gristle",
                     2
                 ],
                 [
                     "Reflex",
-                    2
-                ],
-                [
-                    "Plaza",
                     2
                 ],
                 [
@@ -7583,16 +7800,12 @@
                     2
                 ],
                 [
-                    "Twin Peaks",
-                    2
-                ],
-                [
                     "Rendon",
                     2
                 ],
                 [
-                    "Jade Green",
-                    1
+                    "Moonshroud",
+                    2
                 ],
                 [
                     "Snow Central",
@@ -7635,10 +7848,6 @@
                     1
                 ],
                 [
-                    "Moonshroud",
-                    1
-                ],
-                [
                     "Ebola",
                     1
                 ],
@@ -7657,62 +7866,72 @@
                 [
                     "310",
                     1
+                ],
+                [
+                    "Magma",
+                    1
+                ],
+                [
+                    "Egypt",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Fort 12C",
-                "Oasis",
-                "Garden",
-                "Sahara",
-                "Giza",
-                "Europa",
-                "Snow Central",
-                "Transfer",
-                "Hound",
-                "Plaza",
-                "Ancient Hills",
-                "Vortex",
-                "Twin Peaks",
-                "Moonshroud",
-                "Scammed",
-                "Excavation",
-                "Domain",
-                "Europa Night",
-                "Titan",
-                "Echelon",
-                "Consciousness",
-                "Throbbing Gristle",
-                "Mojave",
-                "Revolution",
+                "Magma",
                 "Ebola",
-                "Bowl",
-                "Ridges",
-                "Casius",
-                "Lunar",
-                "Trench",
-                "Quagmire",
-                "Haven",
-                "Lunix",
-                "Remnant",
-                "Mayhem",
-                "Reflex",
-                "Jade Green",
-                "Overlook",
-                "Aztec",
-                "310",
-                "Iraq",
-                "Vegan",
-                "Oldboy",
-                "Ground Zero",
-                "Island of V8",
-                "Ice Age",
-                "Insula",
-                "Terron",
-                "Quarry",
-                "Rendon",
+                "Transfer",
+                "Titan",
+                "Plaza",
                 "Red Slope",
+                "Throbbing Gristle",
+                "Moonshroud",
+                "Quarry",
+                "Domain",
+                "Terron",
+                "Excavation",
+                "Hound",
+                "Bowl",
+                "Casius",
+                "Mayhem",
+                "Ridges",
+                "Oasis",
+                "Aztec",
+                "Lunix",
+                "Reflex",
+                "Europa",
+                "Vegan",
+                "Revolution",
+                "Snow Central",
+                "Garden",
+                "Vortex",
+                "Haven",
+                "Island of V8",
+                "Oldboy",
+                "Ancient Hills",
+                "Mojave",
+                "Egypt",
+                "Giza",
+                "Europa Night",
+                "Twin Peaks",
                 "Strategy Arena",
-                "Barren"
+                "Lunar",
+                "Echelon",
+                "Scammed",
+                "Barren",
+                "Fort 12C",
+                "Quagmire",
+                "Jade Green",
+                "Rendon",
+                "Ground Zero",
+                "Consciousness",
+                "Trench",
+                "310",
+                "Insula",
+                "Iraq",
+                "Remnant",
+                "Sahara",
+                "Ice Age",
+                "Overlook"
             ],
             "commander_list": [
                 [
@@ -8302,7 +8521,7 @@
             "Overlook": 24,
             "Red Slope": 23,
             "Remnant": 17,
-            "Quagmire": 14,
+            "Quagmire": 15,
             "Garden": 12,
             "Vegan": 12,
             "Oasis": 12,
@@ -8312,12 +8531,12 @@
             "Europa": 10,
             "Europa Night": 10,
             "Sahara": 10,
+            "Lunar": 10,
             "Strategy Arena": 10,
             "Lunix": 9,
+            "Twin Peaks": 9,
             "Haven": 9,
-            "Lunar": 9,
             "Quarry": 9,
-            "Twin Peaks": 8,
             "Throbbing Gristle": 8,
             "Reflex": 8,
             "Tempest": 7,
@@ -8328,16 +8547,16 @@
             "Oldboy": 7,
             "Casius": 6,
             "Bowl": 6,
+            "Ice Age": 6,
             "Forgotten": 5,
+            "Moonshroud": 5,
             "Titan": 5,
             "Barren": 5,
+            "Plaza": 5,
             "Consciousness": 5,
             "Sinister": 4,
-            "Moonshroud": 4,
             "Ebola": 4,
-            "Plaza": 4,
             "Trench": 4,
-            "Ice Age": 4,
             "Rendon": 4,
             "Abuse": 3,
             "Phoenix": 3,
@@ -8361,9 +8580,11 @@
             "Ridges": 2,
             "Hound": 2,
             "310": 2,
+            "Egypt": 2,
             "Echelon": 2,
             "Iraq": 2,
             "Transfer": 2,
+            "Jade Green": 2,
             "Fort 12C": 2,
             "Madern Warfare": 1,
             "Plus": 1,
@@ -8375,7 +8596,6 @@
             "Trail": 1,
             "Mexican Mission": 1,
             "Selena": 1,
-            "Egypt": 1,
             "Chill": 1,
             "Oxide": 1,
             "Crater": 1,
@@ -8391,10 +8611,10 @@
             "Ogg Vorbis": 1,
             "High & Low": 1,
             "Alien Dunes": 1,
-            "Jade Green": 1,
             "Ground Zero": 1,
             "Mayhem": 1,
-            "Revolution": 1
+            "Revolution": 1,
+            "Magma": 1
         },
         "processed_most_played_factions": {
             "I.S.D.F": 547,
@@ -9096,12 +9316,12 @@
                 "Europa",
                 "Europa Night",
                 "Sahara",
+                "Lunar",
                 "Strategy Arena",
                 "Lunix",
-                "Haven",
-                "Lunar",
-                "Quarry",
                 "Twin Peaks",
+                "Haven",
+                "Quarry",
                 "Throbbing Gristle",
                 "Reflex",
                 "Tempest"
@@ -9114,16 +9334,16 @@
                 "Oldboy",
                 "Casius",
                 "Bowl",
+                "Ice Age",
                 "Forgotten",
+                "Moonshroud",
                 "Titan",
                 "Barren",
+                "Plaza",
                 "Consciousness",
                 "Sinister",
-                "Moonshroud",
                 "Ebola",
-                "Plaza",
                 "Trench",
-                "Ice Age",
                 "Rendon",
                 "Abuse",
                 "Phoenix",
@@ -9149,23 +9369,24 @@
                 "Ridges",
                 "Hound",
                 "310",
+                "Egypt",
                 "Echelon",
                 "Iraq",
                 "Transfer",
+                "Jade Green",
                 "Fort 12C",
                 "Madern Warfare",
                 "Plus",
                 "Bridges",
-                "Concrete Jungle",
-                "Dusk"
+                "Concrete Jungle"
             ],
             "Least Popular": [
+                "Dusk",
                 "Rectal",
                 "Iceberg",
                 "Trail",
                 "Mexican Mission",
                 "Selena",
-                "Egypt",
                 "Chill",
                 "Oxide",
                 "Crater",
@@ -9181,10 +9402,10 @@
                 "Ogg Vorbis",
                 "High & Low",
                 "Alien Dunes",
-                "Jade Green",
                 "Ground Zero",
                 "Mayhem",
-                "Revolution"
+                "Revolution",
+                "Magma"
             ]
         }
     },
@@ -9482,5 +9703,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/11/19 03:42AM UTC"
+    "last_updated": "2025/11/19 06:21AM UTC"
 }
