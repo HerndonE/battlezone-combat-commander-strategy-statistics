@@ -3601,556 +3601,556 @@
 					]
 				}
 			}
-		}
-	},
-	"August": {
-		"08.1.25": {
-			"Plaza": {
-				"date": "08.1.25",
-				"map": "Plaza",
-				"commanders": "Darkvale vs F9bomber",
-				"factions": "[I.S.D.F, Scion]",
-				"winning faction": "Scion",
-				"winner": "F9bomber",
-				"time": "8:48",
-				"teamOne": [
-					"Sev",
-					"Zack"
-				],
-				"teamTwo": [
-					"VTrider",
-					"Nozza34"
-				],
-				"_comment": "Can't seem to find Darkvale vs Nozza34 game on this day."
-			}
 		},
-		"08.2.25": {
-			"Twin Peaks": {
-				"date": "08.2.25",
-				"map": "Twin Peaks",
-				"commanders": "Blue Banana vs DD",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Blue Banana",
-				"time": "32:25",
-				"teamOne": [
-					"Muffin",
-					"F9bomber",
-					"X-Triage"
-				],
-				"teamTwo": [
-					"Domakus",
-					"Cyber",
-					"Zack"
-				]
+		"August": {
+			"08.1.25": {
+				"Plaza": {
+					"date": "08.1.25",
+					"map": "Plaza",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "F9bomber",
+					"time": "8:48",
+					"teamOne": [
+						"Sev",
+						"Zack"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Nozza34"
+					],
+					"_comment": "Can't seem to find Darkvale vs Nozza34 game on this day."
+				}
 			},
-			"Lunar": {
-				"date": "08.2.25",
-				"map": "Lunar",
-				"commanders": "VTrider vs Blue Banana",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "32:58",
-				"teamOne": [
-					"Domakus",
-					"F9bomber",
-					"Zack",
-					"Xpi"
-				],
-				"teamTwo": [
-					"Muffin",
-					"Cyber",
-					"X-Triage",
-					"DD"
-				]
+			"08.2.25": {
+				"Twin Peaks": {
+					"date": "08.2.25",
+					"map": "Twin Peaks",
+					"commanders": "Blue Banana vs DD",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "32:25",
+					"teamOne": [
+						"Muffin",
+						"F9bomber",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Cyber",
+						"Zack"
+					]
+				},
+				"Lunar": {
+					"date": "08.2.25",
+					"map": "Lunar",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "32:58",
+					"teamOne": [
+						"Domakus",
+						"F9bomber",
+						"Zack",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Cyber",
+						"X-Triage",
+						"DD"
+					]
+				},
+				"Ice Age": {
+					"date": "08.2.25",
+					"map": "Ice Age",
+					"commanders": "Blue Banana vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "7:00",
+					"teamOne": [
+						"Cyber",
+						"Domakus",
+						"Muffin",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"F9bomber",
+						"Econchump"
+					]
+				},
+				"Fort 12C": {
+					"date": "08.2.25",
+					"map": "Ice Age",
+					"commanders": "Blue Banana vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "14:43",
+					"teamOne": [
+						"Cyber",
+						"Domakus",
+						"Muffin",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"F9bomber",
+						"Econchump"
+					]
+				},
+				"Quagmire": {
+					"date": "08.2.25",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "25:47",
+					"teamOne": [
+						"Zack",
+						"Domakus",
+						"Econchump",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Muffin",
+						"Blue Banana",
+						"X-Triage"
+					]
+				},
+				"Jade Green": {
+					"date": "08.2.25",
+					"map": "Jade Green",
+					"commanders": "Domakus vs Blue Banana",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "33:15",
+					"teamOne": [
+						"Nozza34",
+						"Muffin",
+						"X-Triage",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Xpi",
+						"F9bomber",
+						"Certified Bad Guy",
+						"Econchump"
+					]
+				},
+				"Magma": {
+					"date": "08.2.25",
+					"map": "Magma",
+					"commanders": "Blue Banana vs Zack",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "20:15",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Xpi",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber",
+						"Econchump"
+					]
+				},
+				"Moonshroud": {
+					"date": "08.2.25",
+					"map": "Moonshroud",
+					"commanders": "Certified Bad Guy vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "12:22",
+					"teamOne": [
+						"Zack",
+						"Econchump",
+						"Muffin",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Xpi",
+						"VTrider",
+						"Darkvale"
+					]
+				},
+				"Egypt": {
+					"date": "08.2.25",
+					"map": "Egypt",
+					"commanders": "Certified Bad Guy vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "15:54",
+					"teamOne": [
+						"Zack",
+						"VTrider",
+						"Muffin",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Xpi",
+						"Econchump",
+						"Darkvale"
+					]
+				}
 			},
-			"Ice Age": {
-				"date": "08.2.25",
-				"map": "Ice Age",
-				"commanders": "Blue Banana vs VTrider",
-				"factions": "[Hadean, Hadean]",
-				"winning faction": "Hadean",
-				"winner": "Blue Banana",
-				"time": "7:00",
-				"teamOne": [
-					"Cyber",
-					"Domakus",
-					"Muffin",
-					"Xpi"
-				],
-				"teamTwo": [
-					"Zack",
-					"Herp McDerperson",
-					"F9bomber",
-					"Econchump"
-				]
+			"08.4.25": {
+				"Iraq": {
+					"date": "08.4.25",
+					"map": "Iraq",
+					"commanders": "Zack vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "9:54",
+					"teamOne": [
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Judgeguns"
+					]
+				}
 			},
-			"Fort 12C": {
-				"date": "08.2.25",
-				"map": "Ice Age",
-				"commanders": "Blue Banana vs VTrider",
-				"factions": "[Hadean, Hadean]",
-				"winning faction": "Hadean",
-				"winner": "Blue Banana",
-				"time": "14:43",
-				"teamOne": [
-					"Cyber",
-					"Domakus",
-					"Muffin",
-					"Xpi"
-				],
-				"teamTwo": [
-					"Zack",
-					"Herp McDerperson",
-					"F9bomber",
-					"Econchump"
-				]
+			"08.7.25": {
+				"Giza": {
+					"date": "08.7.25",
+					"map": "Giza",
+					"commanders": "X-Triage vs Gravey",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "13:03",
+					"teamOne": [
+						"Judgeguns",
+						"Darkvale",
+						"Herp McDerperson",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Nomad",
+						"Sev",
+						"F9bomber"
+					]
+				}
 			},
-			"Quagmire": {
-				"date": "08.2.25",
-				"map": "Quagmire",
-				"commanders": "F9bomber vs VTrider",
-				"factions": "[I.S.D.F, Hadean]",
-				"winning faction": "Hadean",
-				"winner": "VTrider",
-				"time": "25:47",
-				"teamOne": [
-					"Zack",
-					"Domakus",
-					"Econchump",
-					"Xpi"
-				],
-				"teamTwo": [
-					"Judgeguns",
-					"Muffin",
-					"Blue Banana",
-					"X-Triage"
-				]
+			"08.8.25": {
+				"Lunar": {
+					"date": "08.8.25",
+					"map": "Lunar",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "15:57",
+					"teamOne": [
+						"Sev",
+						"Herp McDerperson",
+						"Judgeguns",
+						"Xpi"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Gravey",
+						"Darkvale",
+						"Lithium"
+					]
+				},
+				"Giza": {
+					"date": "08.8.25",
+					"map": "Giza",
+					"commanders": "VTrider vs Herp McDerperson",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "27:07",
+					"teamOne": [
+						"Blue Banana",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"X-Triage",
+						"Lithium"
+					]
+				}
 			},
-			"Jade Green": {
-				"date": "08.2.25",
-				"map": "Jade Green",
-				"commanders": "Domakus vs Blue Banana",
-				"factions": "[Scion, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Blue Banana",
-				"time": "33:15",
-				"teamOne": [
-					"Nozza34",
-					"Muffin",
-					"X-Triage",
-					"VTrider"
-				],
-				"teamTwo": [
-					"Xpi",
-					"F9bomber",
-					"Certified Bad Guy",
-					"Econchump"
-				]
+			"08.9.25": {
+				"Overlook": {
+					"date": "08.9.25",
+					"map": "Overlook",
+					"commanders": "VTrider vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "19:30",
+					"teamOne": [
+						"Vacuum34",
+						"F9bomber",
+						"Cloaket",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Muffin",
+						"Feared_1",
+						"Darkvale"
+					]
+				},
+				"Mort's Wasteland": {
+					"date": "08.9.25",
+					"map": "Mort's Wasteland",
+					"commanders": "Blue Banana vs Darkvale",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Darkvale",
+					"winner": "Blue Banana",
+					"time": "48:40",
+					"teamOne": [
+						"Cloaket"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Muffin",
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"Nomad"
+					]
+				}
 			},
-			"Magma": {
-				"date": "08.2.25",
-				"map": "Magma",
-				"commanders": "Blue Banana vs Zack",
-				"factions": "[Scion, I.S.D.F]",
-				"winning faction": "Scion",
-				"winner": "Blue Banana",
-				"time": "20:15",
-				"teamOne": [
-					"Certified Bad Guy",
-					"Xpi",
-					"VTrider"
-				],
-				"teamTwo": [
-					"Muffin",
-					"F9bomber",
-					"Econchump"
-				]
+			"08.11.25": {
+				"Europa Night": {
+					"date": "08.11.25",
+					"map": "Europa Night",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "33:16",
+					"teamOne": [
+						"Sev",
+						"Herp McDerperson",
+						"Nomad",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Zack",
+						"X-Triage"
+					]
+				},
+				"Lunar": {
+					"date": "08.11.25",
+					"map": "Lunar",
+					"commanders": "X-Triage vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "20:45",
+					"teamOne": [
+						"VTrider",
+						"Cloaket",
+						"Darkvale",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Zack",
+						"F9bomber",
+						"Sev"
+					]
+				},
+				"Remnant": {
+					"date": "08.11.25",
+					"map": "Remnant",
+					"commanders": "X-Triage vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "8:51",
+					"teamOne": [
+						"Nomad",
+						"Judgeguns",
+						"Lithium",
+						"Sev"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"F9bomber"
+					]
+				}
 			},
-			"Moonshroud": {
-				"date": "08.2.25",
-				"map": "Moonshroud",
-				"commanders": "Certified Bad Guy vs Blue Banana",
-				"factions": "[I.S.D.F, Scion]",
-				"winning faction": "Scion",
-				"winner": "Blue Banana",
-				"time": "12:22",
-				"teamOne": [
-					"Zack",
-					"Econchump",
-					"Muffin",
-					"F9bomber"
-				],
-				"teamTwo": [
-					"Herp McDerperson",
-					"Xpi",
-					"VTrider",
-					"Darkvale"
-				]
+			"08.14.25": {
+				"Trail": {
+					"date": "08.14.25",
+					"map": "Trail",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "20:35",
+					"teamOne": [
+						"Blue Banana",
+						"Nomad",
+						"Lithium",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"F9bomber",
+						"Sev",
+						"Vacuum34"
+					]
+				},
+				"Throbbing Gristle": {
+					"date": "08.14.25",
+					"map": "Throbbing Gristle",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "1:28:42",
+					"teamOne": [
+						"Blue Banana",
+						"Nomad",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Domakus",
+						"Sev",
+						"Lithium"
+					]
+				}
 			},
-			"Egypt": {
-				"date": "08.2.25",
-				"map": "Egypt",
-				"commanders": "Certified Bad Guy vs Blue Banana",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Blue Banana",
-				"time": "15:54",
-				"teamOne": [
-					"Zack",
-					"VTrider",
-					"Muffin",
-					"F9bomber"
-				],
-				"teamTwo": [
-					"Herp McDerperson",
-					"Xpi",
-					"Econchump",
-					"Darkvale"
-				]
-			}
-		},
-		"08.4.25": {
-			"Iraq": {
-				"date": "08.4.25",
-				"map": "Iraq",
-				"commanders": "Zack vs VTrider",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "9:54",
-				"teamOne": [
-					"F9bomber",
-					"Nomad"
-				],
-				"teamTwo": [
-					"Darkvale",
-					"Judgeguns"
-				]
-			}
-		},
-		"08.7.25": {
-			"Giza": {
-				"date": "08.7.25",
-				"map": "Giza",
-				"commanders": "X-Triage vs Gravey",
-				"factions": "[I.S.D.F, Scion]",
-				"winning faction": "Scion",
-				"winner": "Gravey",
-				"time": "13:03",
-				"teamOne": [
-					"Judgeguns",
-					"Darkvale",
-					"Herp McDerperson",
-					"VTrider"
-				],
-				"teamTwo": [
-					"Blue Banana",
-					"Nomad",
-					"Sev",
-					"F9bomber"
-				]
-			}
-		},
-		"08.8.25": {
-			"Lunar": {
-				"date": "08.8.25",
-				"map": "Lunar",
-				"commanders": "VTrider vs Blue Banana",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "15:57",
-				"teamOne": [
-					"Sev",
-					"Herp McDerperson",
-					"Judgeguns",
-					"Xpi"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"Gravey",
-					"Darkvale",
-					"Lithium"
-				]
+			"08.16.25": {
+				"Middle Wars": {
+					"date": "08.16.25",
+					"map": "Middle Wars",
+					"commanders": "Cloaket vs Gravey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "19:45",
+					"teamOne": [
+						"F9bomber",
+						"Muffin",
+						"Vacuum34"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Blue Banana",
+						"Nomad"
+					]
+				},
+				"Oasis": {
+					"date": "08.16.25",
+					"map": "Oasis",
+					"commanders": "Cloaket vs Gravey",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "15:39",
+					"teamOne": [
+						"Blue Banana",
+						"Vacuum34",
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Muffin",
+						"Darkvale"
+					]
+				},
+				"Titan": {
+					"date": "08.16.25",
+					"map": "Titan",
+					"commanders": "Cloaket vs VTrider",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "Cloaket",
+					"time": "26:35",
+					"teamOne": [
+						"Herp McDerperson",
+						"Zack",
+						"Vacuum34"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Nomad",
+						"Muffin"
+					]
+				}
 			},
-			"Giza": {
-				"date": "08.8.25",
-				"map": "Giza",
-				"commanders": "VTrider vs Herp McDerperson",
-				"factions": "[Hadean, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Herp McDerperson",
-				"time": "27:07",
-				"teamOne": [
-					"Blue Banana",
-					"Darkvale"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"X-Triage",
-					"Lithium"
-				]
-			}
-		},
-		"08.9.25": {
-			"Overlook": {
-				"date": "08.9.25",
-				"map": "Overlook",
-				"commanders": "VTrider vs Econchump",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "19:30",
-				"teamOne": [
-					"Vacuum34",
-					"F9bomber",
-					"Cloaket",
-					"Herp McDerperson"
-				],
-				"teamTwo": [
-					"Judgeguns",
-					"Muffin",
-					"Feared_1",
-					"Darkvale"
-				]
-			},
-			"Mort's Wasteland": {
-				"date": "08.9.25",
-				"map": "Mort's Wasteland",
-				"commanders": "Blue Banana vs Darkvale",
-				"factions": "[Hadean, I.S.D.F]",
-				"winning faction": "Darkvale",
-				"winner": "Blue Banana",
-				"time": "48:40",
-				"teamOne": [
-					"Cloaket"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"Muffin",
-					"Judgeguns"
-				],
-				"teamOneStraggler": [
-					"Nomad"
-				]
-			}
-		},
-		"08.11.25": {
-			"Europa Night": {
-				"date": "08.11.25",
-				"map": "Europa Night",
-				"commanders": "VTrider vs Cloaket",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "33:16",
-				"teamOne": [
-					"Sev",
-					"Herp McDerperson",
-					"Nomad",
-					"Judgeguns"
-				],
-				"teamTwo": [
-					"Lithium",
-					"F9bomber",
-					"Zack",
-					"X-Triage"
-				]
-			},
-			"Lunar": {
-				"date": "08.11.25",
-				"map": "Lunar",
-				"commanders": "X-Triage vs Lithium",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "X-Triage",
-				"time": "20:45",
-				"teamOne": [
-					"VTrider",
-					"Cloaket",
-					"Darkvale",
-					"Herp McDerperson"
-				],
-				"teamTwo": [
-					"Nomad",
-					"Zack",
-					"F9bomber",
-					"Sev"
-				]
-			},
-			"Remnant": {
-				"date": "08.11.25",
-				"map": "Remnant",
-				"commanders": "X-Triage vs Zack",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Zack",
-				"time": "8:51",
-				"teamOne": [
-					"Nomad",
-					"Judgeguns",
-					"Lithium",
-					"Sev"
-				],
-				"teamTwo": [
-					"VTrider",
-					"Darkvale",
-					"F9bomber"
-				]
-			}
-		},
-		"08.14.25": {
-			"Trail": {
-				"date": "08.14.25",
-				"map": "Trail",
-				"commanders": "VTrider vs Zack",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "VTrider",
-				"time": "20:35",
-				"teamOne": [
-					"Blue Banana",
-					"Nomad",
-					"Lithium",
-					"Judgeguns"
-				],
-				"teamTwo": [
-					"Certified Bad Guy",
-					"F9bomber",
-					"Sev",
-					"Vacuum34"
-				]
-			},
-			"Throbbing Gristle": {
-				"date": "08.14.25",
-				"map": "Throbbing Gristle",
-				"commanders": "VTrider vs F9bomber",
-				"factions": "[Hadean, I.S.D.F]",
-				"winning faction": "Hadean",
-				"winner": "VTrider",
-				"time": "1:28:42",
-				"teamOne": [
-					"Blue Banana",
-					"Nomad",
-					"Herp McDerperson",
-					"Judgeguns"
-				],
-				"teamTwo": [
-					"Certified Bad Guy",
-					"Domakus",
-					"Sev",
-					"Lithium"
-				]
-			}
-		},
-		"08.16.25": {
-			"Middle Wars": {
-				"date": "08.16.25",
-				"map": "Middle Wars",
-				"commanders": "Cloaket vs Gravey",
-				"factions": "[I.S.D.F, I.S.D.F]",
-				"winning faction": "I.S.D.F",
-				"winner": "Cloaket",
-				"time": "19:45",
-				"teamOne": [
-					"F9bomber",
-					"Muffin",
-					"Vacuum34"
-				],
-				"teamTwo": [
-					"Darkvale",
-					"Blue Banana",
-					"Nomad"
-				]
-			},
-			"Oasis": {
-				"date": "08.16.25",
-				"map": "Oasis",
-				"commanders": "Cloaket vs Gravey",
-				"factions": "[I.S.D.F, Scion]",
-				"winning faction": "I.S.D.F",
-				"winner": "Cloaket",
-				"time": "15:39",
-				"teamOne": [
-					"Blue Banana",
-					"Vacuum34",
-					"Nomad"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"Muffin",
-					"Darkvale"
-				]
-			},
-			"Titan": {
-				"date": "08.16.25",
-				"map": "Titan",
-				"commanders": "Cloaket vs VTrider",
-				"factions": "[Hadean, I.S.D.F]",
-				"winning faction": "Hadean",
-				"winner": "Cloaket",
-				"time": "26:35",
-				"teamOne": [
-					"Herp McDerperson",
-					"Zack",
-					"Vacuum34"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"Nomad",
-					"Muffin"
-				]
-			}
-		},
-		"08.22.25": {
-			"Sahara": {
-				"date": "08.22.25",
-				"map": "Sahara",
-				"commanders": "Gravey vs Certified Bad Guy",
-				"factions": "[Scion, I.S.D.F]",
-				"winning faction": "Scion",
-				"winner": "Gravey",
-				"time": "1:12:11",
-				"teamOne": [
-					"HyperVivify",
-					"Shock",
-					"X-Triage",
-					"Cloaket"
-				],
-				"teamTwo": [
-					"F9bomber",
-					"Herp McDerperson",
-					"F9mama",
-					"VTrider"
-				]
-			},
-			"Overlook": {
-				"date": "08.22.25",
-				"map": "Overlook",
-				"commanders": "Gravey vs Cloaket",
-				"factions": "[Hadean, Hadean]",
-				"winning faction": "Hadean",
-				"winner": "Gravey",
-				"time": "33:15",
-				"teamOne": [
-					"VTrider",
-					"F9bomber",
-					"Lithium"
-				],
-				"teamTwo": [
-					"X-Triage",
-					"Nomad",
-					"Certified Bad Guy"
-				],
-				"teamOneStraggler": [
-					"F9mama",
-					"Blue Banana"
-				],
-				"teamTwoStraggler": [
-					"Herp McDerperson"
-				]
+			"08.22.25": {
+				"Sahara": {
+					"date": "08.22.25",
+					"map": "Sahara",
+					"commanders": "Gravey vs Certified Bad Guy",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Gravey",
+					"time": "1:12:11",
+					"teamOne": [
+						"HyperVivify",
+						"Shock",
+						"X-Triage",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Herp McDerperson",
+						"F9mama",
+						"VTrider"
+					]
+				},
+				"Overlook": {
+					"date": "08.22.25",
+					"map": "Overlook",
+					"commanders": "Gravey vs Cloaket",
+					"factions": "[Hadean, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Gravey",
+					"time": "33:15",
+					"teamOne": [
+						"VTrider",
+						"F9bomber",
+						"Lithium"
+					],
+					"teamTwo": [
+						"X-Triage",
+						"Nomad",
+						"Certified Bad Guy"
+					],
+					"teamOneStraggler": [
+						"F9mama",
+						"Blue Banana"
+					],
+					"teamTwoStraggler": [
+						"Herp McDerperson"
+					]
+				}
 			}
 		}
 	}
