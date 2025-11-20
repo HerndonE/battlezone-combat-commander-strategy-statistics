@@ -3810,6 +3810,89 @@
 					"Darkvale"
 				]
 			}
+		},
+		"08.4.25": {
+			"Iraq": {
+				"date": "08.4.25",
+				"map": "Iraq",
+				"commanders": "Zack vs VTrider",
+				"factions": "[I.S.D.F, I.S.D.F]",
+				"winning faction": "I.S.D.F",
+				"winner": "VTrider",
+				"time": "9:54",
+				"teamOne": [
+					"F9bomber",
+					"Nomad"
+				],
+				"teamTwo": [
+					"Darkvale",
+					"Judgeguns"
+				]
+			}
+		},
+		"08.7.25": {
+			"Giza": {
+				"date": "08.7.25",
+				"map": "Giza",
+				"commanders": "X-Triage vs Gravey",
+				"factions": "[I.S.D.F, Scion]",
+				"winning faction": "Scion",
+				"winner": "Gravey",
+				"time": "13:03",
+				"teamOne": [
+					"Judgeguns",
+					"Darkvale",
+					"Herp McDerperson",
+					"VTrider"
+				],
+				"teamTwo": [
+					"Blue Banana",
+					"Nomad",
+					"Sev",
+					"F9bomber"
+				]
+			}
+		},
+		"08.8.25": {
+			"Lunar": {
+				"date": "08.8.25",
+				"map": "Lunar",
+				"commanders": "VTrider vs Blue Banana",
+				"factions": "[I.S.D.F, I.S.D.F]",
+				"winning faction": "I.S.D.F",
+				"winner": "VTrider",
+				"time": "15:57",
+				"teamOne": [
+					"Sev",
+					"Herp McDerperson",
+					"Judgeguns",
+					"Xpi"
+				],
+				"teamTwo": [
+					"F9bomber",
+					"Gravey",
+					"Darkvale",
+					"Lithium"
+				]
+			},
+			"Giza": {
+				"date": "08.8.25",
+				"map": "Giza",
+				"commanders": "VTrider vs Herp McDerperson",
+				"factions": "[Hadean, I.S.D.F]",
+				"winning faction": "I.S.D.F",
+				"winner": "Herp McDerperson",
+				"time": "27:07",
+				"teamOne": [
+					"Blue Banana",
+					"Darkvale"
+				],
+				"teamTwo": [
+					"F9bomber",
+					"X-Triage",
+					"Lithium"
+				]
+			}
 		}
 	}
 }
