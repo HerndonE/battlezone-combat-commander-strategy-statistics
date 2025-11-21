@@ -4151,6 +4151,116 @@
 						"Herp McDerperson"
 					]
 				}
+			},
+			"08.23.25": {
+				"Bowl": {
+					"date": "08.23.25",
+					"map": "Bowl",
+					"commanders": "VTrider vs X-Triage",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "30:57",
+					"teamOne": [
+						"F9bomber",
+						"Zack",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9mama",
+						"HyperVivify",
+						"Domakus"
+					],
+					"teamOneStraggler": [
+						"Karlopitek"
+					],
+					"teamTwoStraggler": [
+						"Econchump"
+					]
+				},
+				"Forgotten": {
+					"date": "08.23.25",
+					"map": "Forgotten",
+					"commanders": "Nomad vs F9mama",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9mama",
+					"time": "20:25",
+					"teamOne": [
+						"X-Triage",
+						"Zack",
+						"HyperVivify",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Econchump",
+						"VTrider",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Mort's Wasteland": {
+					"date": "08.23.25",
+					"map": "Mort's Wasteland",
+					"commanders": "Judgeguns vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Judgeguns",
+					"time": "24:07",
+					"teamOne": [
+						"Domakus",
+						"Muffin",
+						"HyperVivify",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Econchump",
+						"VTrider",
+						"F9bomber",
+						"Dynamic Solutions"
+					]
+				},
+				"Quarry": {
+					"date": "08.23.25",
+					"map": "Quarry",
+					"commanders": "Cloaket vs Domakus",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Domakus",
+					"time": "13:05",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"HyperVivify",
+						"Dynamic Solutions"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Darkvale",
+						"F9bomber",
+						"Muffin"
+					]
+				},
+				"Remnant": {
+					"date": "08.23.25",
+					"map": "Remnant",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Darkvale",
+					"time": "39:41",
+					"teamOne": [
+						"Nomad",
+						"HyperVivify",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Muffin",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
