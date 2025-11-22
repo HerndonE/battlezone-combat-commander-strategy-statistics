@@ -579,7 +579,7 @@
 					"teamOne": [
 						"Herp McDerperson",
 						"Bylarge",
-						"econchump",
+						"Econchump",
 						"HappyOtter"
 					],
 					"teamTwo": [
@@ -4259,6 +4259,293 @@
 						"Econchump",
 						"Muffin",
 						"F9bomber"
+					]
+				}
+			},
+			"08.24.25": {
+				"Red Slope": {
+					"date": "08.24.25",
+					"map": "Red Slope",
+					"commanders": "Judgeguns vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "F9bomber",
+					"time": "21:27",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"Vacuum34"
+					]
+				},
+				"Giza": {
+					"date": "08.24.25",
+					"map": "Giza",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Darkvale",
+					"time": "32:52",
+					"teamOne": [
+						"Vacuum34",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Dynamic Solutions",
+						"F9bomber"
+					],
+					"teamOneStraggler": [
+						"Cloaket"
+					],
+					"teamTwoStraggler": [
+						"Econchump"
+					]
+				},
+				"Terron": {
+					"date": "08.24.25",
+					"map": "Terron",
+					"commanders": "F9bomber vs Econchump",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Econchump",
+					"time": "19:57",
+					"teamOne": [
+						"KingFuryKiller",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Judgeguns"
+					]
+				}
+			},
+			"08.25.25": {
+				"Casius": {
+					"date": "08.25.25",
+					"map": "Casius",
+					"commanders": "Certified Bad Guy vs Domakus",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Domakus",
+					"time": "51:59",
+					"teamOne": [
+						"Sadh0w",
+						"Acolyte",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"F9mama",
+						"Vacuum34"
+					]
+				},
+				"Excavation": {
+					"date": "08.25.25",
+					"map": "Excavation",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "17:16",
+					"teamOne": [
+						"Domakus",
+						"Nomad",
+						"Vacuum34",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"HyperVivify",
+						"F9mama",
+						"Acolyte"
+					]
+				},
+				"Giza": {
+					"date": "08.25.25",
+					"map": "Giza",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Darkvale",
+					"time": "25:52",
+					"teamOne": [
+						"KingFuryKiller",
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Acolyte",
+						"F9mama",
+						"VTrider"
+					],
+					"_comment": "There was a hi-mid-low game I cannot find, VT won that one against Certified Bad Guy."
+				}
+			},
+			"08.26.25": {
+				"Haven": {
+					"date": "08.26.25",
+					"map": "Haven",
+					"commanders": "Lithium vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "17:50",
+					"teamOne": [
+						"F9bomber",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Nomad"
+					]
+				},
+				"Sahara": {
+					"date": "08.26.25",
+					"map": "Sahara",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "1:09:22",
+					"teamOne": [
+						"Domakus",
+						"Herp McDerperson",
+						"Vacuum34",
+						"Blue Banana"
+					],
+					"teamTwo": [
+						"Nomad",
+						"F9bomber",
+						"X-Triage",
+						"HyperVivify"
+					]
+				},
+				"High & Low": {
+					"date": "08.26.25",
+					"map": "High & Low",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "9:58",
+					"teamOne": [
+						"Lithium",
+						"Econchump",
+						"Vacuum34",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Darkvale",
+						"Judgeguns",
+						"HyperVivify"
+					]
+				},
+				"Ancient Hills": {
+					"date": "08.26.25",
+					"map": "Ancient Hills",
+					"commanders": "Blue Banana vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "18:48",
+					"teamOne": [
+						"Lithium",
+						"Econchump",
+						"Vacuum34",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Darkvale",
+						"Judgeguns",
+						"HyperVivify"
+					]
+				},
+				"Cracked": {
+					"date": "08.26.25",
+					"map": "Cracked",
+					"commanders": "F9bomber vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "24:07",
+					"teamOne": [
+						"Lithium",
+						"Econchump",
+						"HyperVivify",
+						"Nomad"
+					],
+					"teamTwo": [
+						"KingFuryKiller",
+						"Blue Banana",
+						"Judgeguns",
+						"F9mama"
+					]
+				},
+				"Reflex": {
+					"date": "08.26.25",
+					"map": "Reflex",
+					"commanders": "Econchump vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "",
+					"teamOne": [
+						"F9mama",
+						"F9bomber",
+						"Blue Banana"
+					],
+					"teamTwo": [
+						"Lithium",
+						"HyperVivify",
+						"Judgeguns",
+						"Nomad"
+					]
+				}
+			},
+			"08.30.25": {
+				"Egypt": {
+					"date": "08.30.25",
+					"map": "Egypt",
+					"commanders": "Cloaket vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "48:37",
+					"teamOne": [
+						"HyperVivify",
+						"Feared_1",
+						"Econchump",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Blue Banana",
+						"F9bomber",
+						"Judgeguns"
+					]
+				}
+			},
+			"08.31.25": {
+				"Oasis": {
+					"date": "08.31.25",
+					"map": "Oasis",
+					"commanders": "VTrider vs Bacon",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "21:35",
+					"teamOne": [
+						"Darkvale",
+						"Herp McDerperson",
+						"HyperVivify",
+						"Econchump"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Domakus",
+						"Feared_1"
 					]
 				}
 			}
