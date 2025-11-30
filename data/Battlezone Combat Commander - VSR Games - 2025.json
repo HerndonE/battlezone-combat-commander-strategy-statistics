@@ -5081,6 +5081,642 @@
 						"F9bomber"
 					]
 				}
+			},
+			"09.8.25": {
+				"Mojave": {
+					"date": "09.8.25",
+					"map": "Mojave",
+					"commanders": "Certified Bad Guy vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "15:21",
+					"teamOne": [
+						"Domakus",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Oasis": {
+					"date": "09.8.25",
+					"map": "Oasis",
+					"commanders": "Certified Bad Guy vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "12:54",
+					"teamOne": [
+						"Econchump",
+						"Domakus",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"VTrider",
+						"Lithium",
+						"F9bomber"
+					]
+				},
+				"Hound": {
+					"date": "09.8.25",
+					"map": "Hound",
+					"commanders": "Certified Bad Guy vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "14:29",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"Darkvale"
+					]
+				},
+				"Aussault": {
+					"date": "09.8.25",
+					"map": "Aussault",
+					"commanders": "Certified Bad Guy vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "14:47",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"Nomad"
+					]
+				}
+			},
+			"09.10.25": {
+				"Overlook": {
+					"date": "09.10.25",
+					"map": "Overlook",
+					"commanders": "Certified Bad Guy vs Shock",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "52:40",
+					"teamOne": [
+						"F9mama",
+						"F9bomber",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Muffin",
+						"Lithium"
+					]
+				},
+				"Strategy Arena": {
+					"date": "09.10.25",
+					"map": "Strategy Arena",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "18:35",
+					"teamOne": [
+						"F9mama",
+						"HyperVivify",
+						"Muffin",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Shock",
+						"F9bomber",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Casius": {
+					"date": "09.10.25",
+					"map": "Casius",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "53:14",
+					"teamOne": [
+						"F9mama",
+						"HyperVivify",
+						"Muffin",
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Shock",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Mojave": {
+					"date": "09.10.25",
+					"map": "Mojave",
+					"commanders": "Certified Bad Guy vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "6:15",
+					"teamOne": [
+						"Domakus",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Judgeguns"
+					],
+					"_comment": "This game was played on 09.8.25, but had to put another date due to a current bug in code."
+				},
+				"Aussault": {
+					"date": "09.10.25",
+					"map": "Aussault",
+					"commanders": "Lithium vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "11:33",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "This game was played on 09.8.25, but had to put another date due to a current bug in code."
+				}
+			},
+			"09.11.25": {
+				"Strategy Arena": {
+					"date": "09.11.25",
+					"map": "Strategy Arena",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "7:38",
+					"teamOne": [
+						"Nomad",
+						"Domakus"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Certified Bad Guy"
+					]
+				},
+				"Ground Zero": {
+					"date": "09.11.25",
+					"map": "Ground Zero",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "11:38",
+					"teamOne": [
+						"Nomad",
+						"VTrider",
+						"Vacuum34",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Bylarge",
+						"Darkvale",
+						"F9bomber"
+					]
+				},
+				"Abuse": {
+					"date": "09.11.25",
+					"map": "Abuse",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "6:56",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"Vacuum34"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Bylarge",
+						"Herp McDerperson"
+					]
+				},
+				"Aussault": {
+					"date": "09.11.25",
+					"map": "Aussault",
+					"commanders": "Lithium vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "18:24",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "This game was played on 09.8.25, but had to put another date due to a current bug in code."
+				}
+			},
+			"09.12.25": {
+				"Sahara": {
+					"date": "09.12.25",
+					"map": "Sahara",
+					"commanders": "Darkvale vs Certified Bad Guy",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "18:46",
+					"teamOne": [
+						"F9mama",
+						"Dr.Philadelphia",
+						"Muffin",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"F9bomber",
+						"Shock",
+						"Lithium"
+					]
+				},
+				"Trench": {
+					"date": "09.12.25",
+					"map": "Trench",
+					"commanders": "Darkvale vs Muffin",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Muffin",
+					"time": "4:45",
+					"teamOne": [
+						"F9mama",
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Econchump",
+						"Lithium"
+					]
+				}
+			},
+			"09.13.25": {
+				"Red Slope": {
+					"date": "09.13.25",
+					"map": "Red Slope",
+					"commanders": "VTrider vs Jabbapop",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "12:10",
+					"teamOne": [
+						"Econchump",
+						"Nomad",
+						"F9mama",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Vacuum34",
+						"Domakus",
+						"Lithium"
+					]
+				},
+				"Giza": {
+					"date": "09.13.25",
+					"map": "Giza",
+					"commanders": "Nomad vs Vacuum34",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Vacuum34",
+					"time": "10:40",
+					"teamOne": [
+						"Econchump",
+						"VTrider",
+						"F9mama",
+						"Jabbapop"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Domakus",
+						"Lithium",
+						"Judgeguns"
+					]
+				},
+				"Aztec": {
+					"date": "09.13.25",
+					"map": "Aztec",
+					"commanders": "Nomad vs Vacuum34",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Vacuum34",
+					"time": "27:32",
+					"teamOne": [
+						"Econchump",
+						"VTrider",
+						"F9mama",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Domakus",
+						"Lithium"
+					]
+				}
+			},
+			"09.15.25": {
+				"Overlook": {
+					"date": "09.15.25",
+					"map": "Overlook",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "15:03",
+					"teamOne": [
+						"Certified Bad Guy",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Lithium"
+					]
+				},
+				"Aussault": {
+					"date": "09.15.25",
+					"map": "Aussault",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "17:01",
+					"teamOne": [
+						"Certified Bad Guy",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Lithium",
+						"F9bomber"
+					]
+				},
+				"Ice Age": {
+					"date": "09.15.25",
+					"map": "Ice Age",
+					"commanders": "Certified Bad Guy vs Darkvale",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "21:54",
+					"teamOne": [
+						"Lithium",
+						"Nomad",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Econchump",
+						"F9bomber"
+					]
+				},
+				"Red Slope": {
+					"date": "09.15.25",
+					"map": "Red Slope",
+					"commanders": "Jabbapop vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "6:41",
+					"teamOne": [
+						"Econchump",
+						"Nomad",
+						"F9mama",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Vacuum34",
+						"Domakus",
+						"Lithium"
+					],
+					"_comment": "This game was played on 09.13.25, but had to put another date due to a current bug in code."
+				}
+			},
+			"09.16.25": {
+				"Jurrasic Dog Park": {
+					"date": "09.16.25",
+					"map": "Jurrasic Dog Park",
+					"commanders": "Nomad vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "12:06",
+					"teamOne": [
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Vacuum34",
+						"Judgeguns",
+						"HyperVivify"
+					],
+					"teamOneStraggler": [
+						"Maverick"
+					]
+				},
+				"Oasis": {
+					"date": "09.16.25",
+					"map": "Oasis",
+					"commanders": "Nomad vs Vacuum34",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Vacuum34",
+					"time": "32:34",
+					"teamOne": [
+						"Maverick",
+						"VTrider",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns",
+						"HyperVivify"
+					]
+				},
+				"Vegan": {
+					"date": "09.16.25",
+					"map": "Vegan",
+					"commanders": "Certified Bad Guy vs Vacuum34",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "53:34",
+					"teamOne": [
+						"Nomad",
+						"Lithium",
+						"VTrider"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns",
+						"HyperVivify"
+					]
+				}
+			},
+			"09.17.25": {
+				"Mesa": {
+					"date": "09.17.25",
+					"map": "Mesa",
+					"commanders": "Certified Bad Guy vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "8:10",
+					"teamOne": [
+						"X-Triage",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9mama",
+						"HyperVivify"
+					]
+				},
+				"Remnant": {
+					"date": "09.17.25",
+					"map": "Remnant",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "22:59",
+					"teamOne": [
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				},
+				"Quarry": {
+					"date": "09.17.25",
+					"map": "Quarry",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "F9bomber",
+					"time": "18:27",
+					"teamOne": [
+						"Nomad"
+					],
+					"teamTwo": [
+						"HyperVivify"
+					]
+				}
+			},
+			"09.18.25": {
+				"Mojave": {
+					"date": "09.18.25",
+					"map": "Mojave",
+					"commanders": "VTrider vs Econchump",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "Econchump",
+					"time": "15:30",
+					"teamOne": [
+						"F9mama",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"X-Triage",
+						"Lithium"
+					]
+				},
+				"Ebola": {
+					"date": "09.18.25",
+					"map": "Ebola",
+					"commanders": "Econchump vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "47:19",
+					"teamOne": [
+						"F9bomber",
+						"F9mama"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nomad"
+					]
+				}
+			},
+			"09.20.25": {
+				"Red Slope": {
+					"date": "09.20.25",
+					"map": "Red Slope",
+					"commanders": "Cloaket vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "18:54",
+					"teamOne": [
+						"Lithium",
+						"Zack",
+						"Muffin",
+						"F9mama"
+					],
+					"teamTwo": [
+						"Vacuum34",
+						"HyperVivify",
+						"Judgeguns",
+						"MAX"
+					]
+				},
+				"Vegan": {
+					"date": "09.20.25",
+					"map": "Vegan",
+					"commanders": "VTrider vs Vacuum34",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "27:51",
+					"teamOne": [
+						"Lithium",
+						"Zack",
+						"Muffin",
+						"F9mama"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"HyperVivify",
+						"Judgeguns",
+						"MAX"
+					]
+				}
+			},
+			"09.23.25": {
+				"Casius": {
+					"date": "09.23.25",
+					"map": "Casius",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "19:59",
+					"teamOne": [
+						"Judgeguns",
+						"HyperVivify",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
