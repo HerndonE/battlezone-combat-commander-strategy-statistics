@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Pitbull",
-                "Europa",
-                "Sahara",
-                "Ragnarok",
-                "Abundance",
-                "Lunar",
-                "Bowl",
-                "Casius",
+                "Aztec",
                 "Ice Age",
-                "Scion Central",
-                "Chill",
-                "Garden",
-                "Trench",
-                "Ogg Vorbis",
-                "Haven",
-                "Stone Circle",
-                "Excavation",
-                "Plaza",
-                "Forgotten",
-                "Ridges",
-                "Mojave",
-                "Ravine",
-                "Rendon",
-                "Oxide",
-                "Assualt",
-                "Island of V8",
-                "Dune Night",
-                "Snow Central",
-                "Rectal",
-                "Ancient Hills",
-                "Hi-Mid-Lo",
-                "Satart",
+                "Royal Stadium",
+                "Beyond",
                 "Oasis",
-                "High & Low",
-                "Madern Warfare",
-                "Iraq",
-                "Alien Dunes",
-                "Insula",
-                "Crater",
-                "Plus",
-                "Lunix",
-                "Vegan",
-                "Strategy Arena",
-                "310",
-                "Giza",
-                "Tempest",
-                "Dream",
+                "Selena",
+                "Lunar",
+                "Mesa",
+                "Twin Peaks",
+                "Ogg Vorbis",
+                "Quagmire",
+                "Domain",
+                "Oxide",
+                "Vortex",
+                "Mort's Wasteland",
+                "Abundance",
                 "Echelon",
-                "Transfer",
-                "Dusk",
+                "Mexican Mission",
+                "Rendon",
+                "Barren",
+                "Ridges",
+                "Plaza",
+                "Egypt",
+                "Haven",
+                "Ravine",
+                "Sinister",
+                "Strategy Arena",
+                "Lunix",
+                "Stone Circle",
+                "Insula",
+                "Pitbull",
+                "Bridges",
+                "Concrete Jungle",
+                "Caiscus",
+                "Forgotten",
+                "Madern Warfare",
+                "Ancient Hills",
+                "Terron",
+                "Vegan",
+                "Scion Central",
+                "Red Slope",
+                "Trench",
+                "Dune Night",
+                "High & Low",
+                "Mojave",
+                "Sahara",
+                "Overlook",
+                "High Heat",
+                "Ebola",
+                "Chill",
+                "Snow Central",
+                "Remnant",
+                "Crater",
+                "Ragnarok",
+                "Plus",
+                "Moonshroud",
+                "Bowl",
+                "Hi-Mid-Lo",
+                "Oldboy",
+                "Excavation",
+                "Phoenix",
+                "Garden",
+                "Quarry",
+                "Island of V8",
+                "Trail",
+                "Casius",
+                "Mountain Top",
+                "Hound",
+                "Throbbing Gristle",
+                "310",
+                "Rectal",
                 "Terrace",
-                "Scammed",
+                "Prodigy Ver .2",
+                "Dream",
+                "Satart",
+                "No Mans Land",
                 "Europa Night",
                 "Consciousness",
-                "Trail",
-                "Vortex",
-                "Bridges",
-                "Beyond",
-                "Reflex",
-                "Titan",
-                "Mesa",
-                "Selena",
-                "Remnant",
-                "Prodigy Ver .2",
-                "Overlook",
-                "No Mans Land",
-                "Twin Peaks",
-                "Mexican Mission",
-                "Sinister",
-                "Caiscus",
-                "Quagmire",
-                "Oldboy",
-                "Red Slope",
-                "Mountain Top",
-                "Terron",
-                "Aztec",
                 "Phazon",
+                "Scammed",
+                "Dusk",
+                "Titan",
                 "JO Crystal",
-                "Barren",
-                "Phoenix",
-                "Iceberg",
-                "High Heat",
-                "Domain",
-                "Concrete Jungle",
-                "Moonshroud",
-                "Ebola",
+                "Transfer",
+                "Iraq",
+                "Reflex",
                 "Abuse",
-                "Throbbing Gristle",
-                "Royal Stadium",
-                "Egypt",
-                "Quarry",
-                "Mort's Wasteland",
-                "Hound"
+                "Europa",
+                "Iceberg",
+                "Giza",
+                "Alien Dunes",
+                "Tempest",
+                "Assualt"
             ],
             "commander_list": [
                 [
@@ -8389,30 +8389,563 @@
                             ]
                         }
                     }
+                },
+                "September": {
+                    "09.1.25": {
+                        "Remnant": {
+                            "date": "09.1.25",
+                            "map": "Remnant",
+                            "commanders": "VTrider vs Blue Banana",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "56:57",
+                            "teamOne": [
+                                "DD",
+                                "Herp McDerperson"
+                            ],
+                            "teamTwo": [
+                                "Vacuum34",
+                                "Nomad",
+                                "F9bomber"
+                            ]
+                        },
+                        "Rendon": {
+                            "date": "09.1.25",
+                            "map": "Rendon",
+                            "commanders": "Cloaket vs Blue Banana",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Blue Banana",
+                            "time": "15:20",
+                            "teamOne": [
+                                "Zack",
+                                "X-Triage",
+                                "Herp McDerperson"
+                            ],
+                            "teamTwo": [
+                                "Vacuum34",
+                                "Nomad",
+                                "VTrider"
+                            ]
+                        },
+                        "Mojave": {
+                            "date": "09.1.25",
+                            "map": "Mojave",
+                            "commanders": "VTrider vs Econchump",
+                            "factions": "[Hadean, I.S.D.F]",
+                            "winning faction": "Hadean",
+                            "winner": "VTrider",
+                            "time": "17:50",
+                            "teamOne": [
+                                "Lithium",
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Certified Bad Guy"
+                            ]
+                        },
+                        "Overlook": {
+                            "date": "09.1.25",
+                            "map": "Overlook",
+                            "commanders": "Darkvale vs Judgeguns",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winning faction": "Scion",
+                            "winner": "Darkvale",
+                            "time": "1:16:36",
+                            "teamOne": [
+                                "F9bomber",
+                                "Bylarge"
+                            ],
+                            "teamTwo": [
+                                "Lithium",
+                                "Blue Banana"
+                            ]
+                        },
+                        "Terron": {
+                            "date": "09.1.25",
+                            "map": "Terron",
+                            "commanders": "KingFuryKiller vs Lithium",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "KingFuryKiller",
+                            "time": "55:59",
+                            "teamOne": [
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Bylarge"
+                            ]
+                        }
+                    },
+                    "09.2.25": {
+                        "Trench": {
+                            "date": "09.2.25",
+                            "map": "Trench",
+                            "commanders": "Nomad vs X-Triage",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Nomad",
+                            "time": "42:54",
+                            "teamOne": [
+                                "Cloaket",
+                                "Judgeguns",
+                                "Blue Banana",
+                                "Darkvale"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "Lithium",
+                                "Xpi"
+                            ]
+                        }
+                    },
+                    "09.3.25": {
+                        "Prodigy Ver .2": {
+                            "date": "09.3.25",
+                            "map": "Prodigy Ver .2",
+                            "commanders": "Certified Bad Guy vs VTrider",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "15:20",
+                            "teamOne": [
+                                "Herp McDerperson",
+                                "Nomad",
+                                "Xpi"
+                            ],
+                            "teamTwo": [
+                                "Lithium",
+                                "F9mama",
+                                "F9bomber"
+                            ]
+                        },
+                        "Europa Night": {
+                            "date": "09.3.25",
+                            "map": "Europa Night",
+                            "commanders": "Nomad vs Lithium",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Nomad",
+                            "time": "14:19",
+                            "teamOne": [
+                                "VTrider",
+                                "X-Triage"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "F9mama",
+                                "Shock"
+                            ]
+                        }
+                    },
+                    "09.4.25": {
+                        "Remnant": {
+                            "date": "09.4.25",
+                            "map": "Remnant",
+                            "commanders": "Nomad vs Xpi",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Xpi",
+                            "time": "16:11",
+                            "teamOne": [
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Lithium"
+                            ]
+                        },
+                        "Red Slope": {
+                            "date": "09.4.25",
+                            "map": "Red Slope",
+                            "commanders": "Nomad vs Xpi",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Xpi",
+                            "time": "10:06",
+                            "teamOne": [
+                                "Lithium"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns"
+                            ]
+                        },
+                        "Excavation": {
+                            "date": "09.4.25",
+                            "map": "Excavation",
+                            "commanders": "Judgeguns vs Xpi",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winning faction": "Scion",
+                            "winner": "Xpi",
+                            "time": "29:08",
+                            "teamOne": [
+                                "VTrider",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "Lithium"
+                            ]
+                        }
+                    },
+                    "09.5.25": {
+                        "Remnant": {
+                            "date": "09.5.25",
+                            "map": "Remnant",
+                            "commanders": "Nomad vs Xpi",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Xpi",
+                            "time": "11:20",
+                            "teamOne": [
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Lithium"
+                            ],
+                            "_comment": "This game was played on 09.4.25, but had to put another date due to a current bug in code."
+                        },
+                        "Plaza": {
+                            "date": "09.5.25",
+                            "map": "Plaza",
+                            "commanders": "Certified Bad Guy vs Maverick",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Certified Bad Guy",
+                            "time": "18:47",
+                            "teamOne": [
+                                "Vacuum34",
+                                "F9bomber",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "Dr.Philadelphia",
+                                "Shock",
+                                "Muffin"
+                            ]
+                        },
+                        "Twin Peaks": {
+                            "date": "09.5.25",
+                            "map": "Twin Peaks",
+                            "commanders": "Certified Bad Guy vs Nomad",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Certified Bad Guy",
+                            "time": "13:57",
+                            "teamOne": [
+                                "Muffin",
+                                "Shock",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Dr.Philadelphia",
+                                "Vacuum34",
+                                "VTrider"
+                            ],
+                            "teamOneStraggler": [
+                                "F9bomber"
+                            ],
+                            "teamTwoStraggler": [
+                                "Maverick"
+                            ]
+                        },
+                        "Plus": {
+                            "date": "09.5.25",
+                            "map": "Plus",
+                            "commanders": "Certified Bad Guy vs VTrider",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winning faction": "Scion",
+                            "winner": "VTrider",
+                            "time": "10:40",
+                            "teamOne": [
+                                "DesUxS",
+                                "F9bomber",
+                                "Shock",
+                                "Darkvale"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Muffin",
+                                "Nomad",
+                                "Herp McDerperson"
+                            ]
+                        },
+                        "Giza": {
+                            "date": "09.5.25",
+                            "map": "Giza",
+                            "commanders": "Darkvale vs Herp McDerperson",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Herp McDerperson",
+                            "time": "21:18",
+                            "teamOne": [
+                                "X-Triage",
+                                "VTrider",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Muffin",
+                                "HyperVivify"
+                            ]
+                        },
+                        "310": {
+                            "date": "09.5.25",
+                            "map": "310",
+                            "commanders": "Darkvale vs X-Triage",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "X-Triage",
+                            "time": "5:54",
+                            "teamOne": [
+                                "Nomad",
+                                "F9bomber",
+                                "Econchump",
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Herp McDerperson",
+                                "VTrider",
+                                "HyperVivify"
+                            ]
+                        },
+                        "Mort's Wasteland": {
+                            "date": "09.5.25",
+                            "map": "Mort's Wasteland",
+                            "commanders": "Darkvale vs X-Triage",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "X-Triage",
+                            "time": "17:05",
+                            "teamOne": [
+                                "Nomad",
+                                "F9bomber",
+                                "Econchump",
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Herp McDerperson",
+                                "VTrider",
+                                "HyperVivify"
+                            ]
+                        },
+                        "Red Slope": {
+                            "date": "09.5.25",
+                            "map": "Red Slope",
+                            "commanders": "Nomad vs DesUxS",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Nomad",
+                            "time": "40:39",
+                            "teamOne": [
+                                "Lithium",
+                                "F9bomber",
+                                "Econchump",
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "Herp McDerperson",
+                                "Cloaket",
+                                "HyperVivify"
+                            ]
+                        },
+                        "Terron": {
+                            "date": "09.5.25",
+                            "map": "Terron",
+                            "commanders": "Cloaket vs VTrider",
+                            "factions": "[Hadean, Hadean]",
+                            "winning faction": "Hadean",
+                            "winner": "Cloaket",
+                            "time": "26:14",
+                            "teamOne": [
+                                "Nomad",
+                                "HyperVivify",
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "Judgeguns",
+                                "F9bomber",
+                                "DesUxS"
+                            ]
+                        }
+                    },
+                    "09.6.25": {
+                        "Mexican Mission": {
+                            "date": "09.6.25",
+                            "map": "Mexican Mission",
+                            "commanders": "Zack vs Blue Banana",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "Blue Banana",
+                            "time": "16:21",
+                            "teamOne": [
+                                "Xpi",
+                                "VTrider",
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Cloaket",
+                                "HyperVivify",
+                                "Maverick"
+                            ]
+                        },
+                        "Oldboy": {
+                            "date": "09.6.25",
+                            "map": "Oldboy",
+                            "commanders": "VTrider vs Blue Banana",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "30:47",
+                            "teamOne": [
+                                "Econchump",
+                                "Lamper",
+                                "F9bomber",
+                                "Domakus"
+                            ],
+                            "teamTwo": [
+                                "Cloaket",
+                                "HyperVivify",
+                                "Maverick",
+                                "Zack"
+                            ]
+                        },
+                        "Bowl": {
+                            "date": "09.6.25",
+                            "map": "Bowl",
+                            "commanders": "VTrider vs Cloaket",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "10:30",
+                            "teamOne": [
+                                "HyperVivify",
+                                "Maverick",
+                                "F9bomber",
+                                "Domakus"
+                            ],
+                            "teamTwo": [
+                                "Blue Banana",
+                                "Lamper",
+                                "Nomad",
+                                "Econchump"
+                            ]
+                        },
+                        "Aussault": {
+                            "date": "09.6.25",
+                            "map": "Aussault",
+                            "commanders": "Lithium vs Gravey",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winning faction": "Scion",
+                            "winner": "Gravey",
+                            "time": "18:42",
+                            "teamOne": [
+                                "Darkvale",
+                                "VTrider",
+                                "F9bomber",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Econchump",
+                                "X-Triage",
+                                "HyperVivify",
+                                "Nomad"
+                            ]
+                        },
+                        "Ancient Hills": {
+                            "date": "09.6.25",
+                            "map": "Ancient Hills",
+                            "commanders": "VTrider vs Gravey",
+                            "factions": "[Scion, Scion]",
+                            "winning faction": "Scion",
+                            "winner": "VTrider",
+                            "time": "17:49",
+                            "teamOne": [
+                                "Lithium",
+                                "Econchump",
+                                "F9bomber",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Herp McDerperson",
+                                "X-Triage",
+                                "HyperVivify",
+                                "Nomad"
+                            ]
+                        },
+                        "Titan": {
+                            "date": "09.6.25",
+                            "map": "Titan",
+                            "commanders": "Gravey vs VTrider",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "VTrider",
+                            "time": "15:31",
+                            "teamOne": [
+                                "Lithium",
+                                "Econchump",
+                                "F9bomber",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "VTrider",
+                                "Herp McDerperson",
+                                "HyperVivify",
+                                "Nomad"
+                            ]
+                        }
+                    },
+                    "09.7.25": {
+                        "Forgotten": {
+                            "date": "09.7.25",
+                            "map": "Forgotten",
+                            "commanders": "DesUxS vs Nomad",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winning faction": "I.S.D.F",
+                            "winner": "DesUxS",
+                            "time": "34:51",
+                            "teamOne": [
+                                "Judgeguns",
+                                "Gravey",
+                                "Cloaket",
+                                "Herp McDerperson"
+                            ],
+                            "teamTwo": [
+                                "Darkvale",
+                                "Blue Banana",
+                                "Sev",
+                                "F9bomber"
+                            ]
+                        }
+                    }
                 }
             }
         },
         "data_2025": {
             "map_counts": [
                 [
-                    "Mojave",
-                    15
+                    "Red Slope",
+                    17
                 ],
                 [
-                    "Red Slope",
-                    15
+                    "Mojave",
+                    16
                 ],
                 [
                     "Terron",
-                    14
+                    16
                 ],
                 [
                     "Overlook",
-                    13
+                    14
                 ],
                 [
                     "Remnant",
-                    11
+                    14
                 ],
                 [
                     "Quagmire",
@@ -8424,11 +8957,15 @@
                 ],
                 [
                     "Giza",
-                    8
+                    9
                 ],
                 [
                     "Lunar",
                     7
+                ],
+                [
+                    "Oldboy",
+                    6
                 ],
                 [
                     "Sahara",
@@ -8451,7 +8988,7 @@
                     5
                 ],
                 [
-                    "Oldboy",
+                    "Europa Night",
                     5
                 ],
                 [
@@ -8463,7 +9000,11 @@
                     5
                 ],
                 [
-                    "Europa Night",
+                    "Bowl",
+                    4
+                ],
+                [
+                    "Titan",
                     4
                 ],
                 [
@@ -8471,15 +9012,19 @@
                     4
                 ],
                 [
-                    "Bowl",
-                    3
+                    "Plaza",
+                    4
                 ],
                 [
-                    "Titan",
-                    3
+                    "Twin Peaks",
+                    4
                 ],
                 [
                     "Consciousness",
+                    3
+                ],
+                [
+                    "Trench",
                     3
                 ],
                 [
@@ -8499,11 +9044,19 @@
                     3
                 ],
                 [
-                    "Plaza",
+                    "Rendon",
                     3
                 ],
                 [
-                    "Twin Peaks",
+                    "Ancient Hills",
+                    3
+                ],
+                [
+                    "Excavation",
+                    3
+                ],
+                [
+                    "Mort's Wasteland",
                     3
                 ],
                 [
@@ -8520,10 +9073,6 @@
                 ],
                 [
                     "Casius",
-                    2
-                ],
-                [
-                    "Trench",
                     2
                 ],
                 [
@@ -8547,19 +9096,11 @@
                     2
                 ],
                 [
-                    "Rendon",
-                    2
-                ],
-                [
                     "Moonshroud",
                     2
                 ],
                 [
-                    "Ancient Hills",
-                    2
-                ],
-                [
-                    "Excavation",
+                    "310",
                     2
                 ],
                 [
@@ -8567,7 +9108,7 @@
                     2
                 ],
                 [
-                    "Mort's Wasteland",
+                    "Forgotten",
                     2
                 ],
                 [
@@ -8611,10 +9152,6 @@
                     1
                 ],
                 [
-                    "310",
-                    1
-                ],
-                [
                     "Magma",
                     1
                 ],
@@ -8627,89 +9164,105 @@
                     1
                 ],
                 [
-                    "Forgotten",
-                    1
-                ],
-                [
                     "High & Low",
                     1
                 ],
                 [
                     "Cracked",
                     1
+                ],
+                [
+                    "Prodigy Ver .2",
+                    1
+                ],
+                [
+                    "Plus",
+                    1
+                ],
+                [
+                    "Mexican Mission",
+                    1
+                ],
+                [
+                    "Aussault",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Echelon",
-                "Snow Central",
-                "Europa",
-                "Ancient Hills",
-                "Sahara",
-                "Transfer",
-                "Oldboy",
-                "Scammed",
-                "Europa Night",
-                "Red Slope",
-                "Fort 12C",
-                "Lunar",
-                "Consciousness",
-                "Bowl",
-                "Terron",
-                "Casius",
                 "Aztec",
                 "Ice Age",
-                "Vortex",
-                "Barren",
-                "Trail",
-                "Titan",
-                "Reflex",
+                "Ebola",
                 "Oasis",
-                "Mayhem",
-                "Remnant",
-                "Magma",
                 "Cracked",
-                "Overlook",
-                "Domain",
-                "Island of V8",
-                "Garden",
-                "Trench",
+                "Prodigy Ver .2",
+                "Snow Central",
+                "Middle Wars",
+                "Remnant",
+                "Lunar",
+                "Strategy Arena",
+                "Plus",
+                "Europa Night",
+                "Consciousness",
                 "Twin Peaks",
                 "Moonshroud",
-                "Haven",
-                "Jade Green",
-                "High & Low",
-                "Ebola",
-                "Iraq",
-                "Insula",
-                "Excavation",
-                "Plaza",
-                "Ground Zero",
-                "Forgotten",
-                "Vegan",
-                "Lunix",
-                "Ridges",
-                "Mojave",
-                "Rendon",
-                "Strategy Arena",
-                "Throbbing Gristle",
-                "310",
-                "Middle Wars",
-                "Giza",
-                "Quarry",
-                "Egypt",
-                "Mort's Wasteland",
-                "Revolution",
                 "Quagmire",
-                "Hound"
+                "Titan",
+                "Bowl",
+                "Domain",
+                "Lunix",
+                "Scammed",
+                "Oldboy",
+                "Vortex",
+                "Excavation",
+                "Mort's Wasteland",
+                "Garden",
+                "Insula",
+                "Quarry",
+                "Transfer",
+                "Echelon",
+                "Island of V8",
+                "Magma",
+                "Iraq",
+                "Revolution",
+                "Rendon",
+                "Trail",
+                "Reflex",
+                "Forgotten",
+                "Mexican Mission",
+                "Casius",
+                "Jade Green",
+                "Barren",
+                "Europa",
+                "Ancient Hills",
+                "Terron",
+                "Ridges",
+                "Giza",
+                "Hound",
+                "Vegan",
+                "Plaza",
+                "Throbbing Gristle",
+                "Aussault",
+                "Red Slope",
+                "310",
+                "Trench",
+                "Mayhem",
+                "High & Low",
+                "Mojave",
+                "Overlook",
+                "Sahara",
+                "Ground Zero",
+                "Egypt",
+                "Fort 12C",
+                "Haven"
             ],
             "commander_list": [
                 [
                     "VTrider",
-                    65
+                    74
                 ],
                 [
                     "Zack",
-                    62
+                    63
                 ],
                 [
                     "F9bomber",
@@ -8721,18 +9274,22 @@
                 ],
                 [
                     "Blue Banana",
-                    27
+                    31
                 ],
                 [
                     "Gravey",
-                    24
+                    27
                 ],
                 [
                     "Xpi",
-                    18
+                    22
                 ],
                 [
                     "Darkvale",
+                    20
+                ],
+                [
+                    "X-Triage",
                     16
                 ],
                 [
@@ -8744,40 +9301,40 @@
                     13
                 ],
                 [
-                    "X-Triage",
+                    "Certified Bad Guy",
+                    13
+                ],
+                [
+                    "Lithium",
                     13
                 ],
                 [
                     "Econchump",
-                    11
+                    12
                 ],
                 [
                     "Rosario",
                     10
                 ],
                 [
-                    "Lithium",
+                    "Cloaket",
                     10
                 ],
                 [
-                    "Certified Bad Guy",
-                    9
+                    "Nomad",
+                    10
                 ],
                 [
                     "Maverick",
-                    7
-                ],
-                [
-                    "Cloaket",
-                    7
+                    8
                 ],
                 [
                     "Judgeguns",
-                    6
+                    8
                 ],
                 [
                     "Herp McDerperson",
-                    6
+                    7
                 ],
                 [
                     "DD",
@@ -8820,7 +9377,7 @@
                     2
                 ],
                 [
-                    "Nomad",
+                    "DesUxS",
                     2
                 ],
                 [
@@ -8849,6 +9406,10 @@
                 ],
                 [
                     "F9mama",
+                    1
+                ],
+                [
+                    "KingFuryKiller",
                     1
                 ]
             ],
@@ -8896,28 +9457,34 @@
                     1
                 ],
                 [
+                    "KingFuryKiller",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
                     "Domakus",
                     80.0,
                     5,
                     4
                 ],
                 [
+                    "Herp McDerperson",
+                    71.42857142857143,
+                    7,
+                    5
+                ],
+                [
                     "VTrider",
-                    67.6923076923077,
-                    65,
-                    44
+                    70.27027027027027,
+                    74,
+                    52
                 ],
                 [
                     "Blue Banana",
-                    66.66666666666666,
-                    27,
-                    18
-                ],
-                [
-                    "Herp McDerperson",
-                    66.66666666666666,
-                    6,
-                    4
+                    64.51612903225806,
+                    31,
+                    20
                 ],
                 [
                     "DD",
@@ -8938,12 +9505,6 @@
                     27
                 ],
                 [
-                    "Econchump",
-                    54.54545454545454,
-                    11,
-                    6
-                ],
-                [
                     "F9bomber",
                     51.92307692307693,
                     52,
@@ -8956,10 +9517,22 @@
                     1
                 ],
                 [
+                    "Xpi",
+                    50.0,
+                    22,
+                    11
+                ],
+                [
                     "Cyber",
                     50.0,
                     2,
                     1
+                ],
+                [
+                    "Econchump",
+                    50.0,
+                    12,
+                    6
                 ],
                 [
                     "Bacon",
@@ -8968,27 +9541,21 @@
                     1
                 ],
                 [
-                    "Darkvale",
+                    "DesUxS",
+                    50.0,
+                    2,
+                    1
+                ],
+                [
+                    "X-Triage",
                     43.75,
                     16,
                     7
                 ],
                 [
-                    "Maverick",
-                    42.857142857142854,
-                    7,
-                    3
-                ],
-                [
-                    "Cloaket",
-                    42.857142857142854,
-                    7,
-                    3
-                ],
-                [
                     "Zack",
-                    41.935483870967744,
-                    62,
+                    41.269841269841265,
+                    63,
                     26
                 ],
                 [
@@ -9010,22 +9577,28 @@
                     2
                 ],
                 [
-                    "Xpi",
-                    38.88888888888889,
-                    18,
-                    7
+                    "Darkvale",
+                    40.0,
+                    20,
+                    8
                 ],
                 [
-                    "X-Triage",
-                    38.46153846153847,
-                    13,
-                    5
+                    "Cloaket",
+                    40.0,
+                    10,
+                    4
+                ],
+                [
+                    "Maverick",
+                    37.5,
+                    8,
+                    3
                 ],
                 [
                     "Gravey",
-                    37.5,
-                    24,
-                    9
+                    37.03703703703704,
+                    27,
+                    10
                 ],
                 [
                     "M.S",
@@ -9035,20 +9608,26 @@
                 ],
                 [
                     "Certified Bad Guy",
-                    22.22222222222222,
-                    9,
-                    2
+                    30.76923076923077,
+                    13,
+                    4
+                ],
+                [
+                    "Nomad",
+                    30.0,
+                    10,
+                    3
                 ],
                 [
                     "Lithium",
-                    20.0,
-                    10,
+                    15.384615384615385,
+                    13,
                     2
                 ],
                 [
                     "Judgeguns",
-                    16.666666666666664,
-                    6,
+                    12.5,
+                    8,
                     1
                 ],
                 [
@@ -9068,18 +9647,12 @@
                     0.0,
                     3,
                     0
-                ],
-                [
-                    "Nomad",
-                    0.0,
-                    2,
-                    0
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 251,
-                "Hadean": 108,
-                "Scion": 101
+                "I.S.D.F": 291,
+                "Hadean": 114,
+                "Scion": 109
             },
             "commander_faction_counts": {
                 "Sev": {
@@ -9096,12 +9669,12 @@
                     "I.S.D.F": 13
                 },
                 "VTrider": {
-                    "I.S.D.F": 33,
-                    "Hadean": 25,
-                    "Scion": 7
+                    "I.S.D.F": 38,
+                    "Hadean": 27,
+                    "Scion": 9
                 },
                 "Blue Banana": {
-                    "I.S.D.F": 13,
+                    "I.S.D.F": 17,
                     "Hadean": 7,
                     "Scion": 7
                 },
@@ -9110,7 +9683,8 @@
                 },
                 "Xpi": {
                     "I.S.D.F": 9,
-                    "Scion": 9
+                    "Scion": 10,
+                    "Hadean": 3
                 },
                 "DD": {
                     "Scion": 1,
@@ -9123,7 +9697,7 @@
                     "Hadean": 10
                 },
                 "Zack": {
-                    "I.S.D.F": 33,
+                    "I.S.D.F": 34,
                     "Scion": 18,
                     "Hadean": 11
                 },
@@ -9143,11 +9717,11 @@
                     "I.S.D.F": 2
                 },
                 "Maverick": {
-                    "I.S.D.F": 5,
+                    "I.S.D.F": 6,
                     "Scion": 2
                 },
                 "Judgeguns": {
-                    "I.S.D.F": 6
+                    "I.S.D.F": 8
                 },
                 "RollyPolly": {
                     "Scion": 15
@@ -9163,17 +9737,17 @@
                     "I.S.D.F": 2
                 },
                 "Herp McDerperson": {
-                    "I.S.D.F": 6
+                    "I.S.D.F": 7
                 },
                 "X-Triage": {
-                    "I.S.D.F": 13
+                    "I.S.D.F": 16
                 },
                 "Ultimate": {
                     "I.S.D.F": 2
                 },
                 "Gravey": {
-                    "Scion": 10,
-                    "I.S.D.F": 13,
+                    "Scion": 12,
+                    "I.S.D.F": 14,
                     "Hadean": 1
                 },
                 "Domakus": {
@@ -9182,12 +9756,12 @@
                     "Scion": 1
                 },
                 "Econchump": {
-                    "I.S.D.F": 9,
+                    "I.S.D.F": 10,
                     "Scion": 2
                 },
                 "Darkvale": {
-                    "Scion": 7,
-                    "I.S.D.F": 9
+                    "Scion": 10,
+                    "I.S.D.F": 10
                 },
                 "Whatever": {
                     "I.S.D.F": 3
@@ -9199,20 +9773,26 @@
                     "I.S.D.F": 2
                 },
                 "Certified Bad Guy": {
-                    "I.S.D.F": 9
+                    "I.S.D.F": 13
                 },
                 "Lithium": {
-                    "I.S.D.F": 10
+                    "I.S.D.F": 13
                 },
                 "Cloaket": {
-                    "I.S.D.F": 5,
-                    "Hadean": 2
+                    "I.S.D.F": 7,
+                    "Hadean": 3
                 },
                 "Nomad": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 10
                 },
                 "F9mama": {
                     "I.S.D.F": 1
+                },
+                "KingFuryKiller": {
+                    "I.S.D.F": 1
+                },
+                "DesUxS": {
+                    "I.S.D.F": 2
                 }
             },
             "commander_faction_wins": {
@@ -9230,14 +9810,14 @@
                     "Hadean": 9
                 },
                 "VTrider": {
-                    "I.S.D.F": 23,
-                    "Hadean": 16,
-                    "Scion": 5
+                    "I.S.D.F": 28,
+                    "Hadean": 17,
+                    "Scion": 7
                 },
                 "Blue Banana": {
                     "Hadean": 5,
                     "Scion": 4,
-                    "I.S.D.F": 9
+                    "I.S.D.F": 11
                 },
                 "Sly": {
                     "I.S.D.F": 1
@@ -9254,7 +9834,8 @@
                 },
                 "Xpi": {
                     "I.S.D.F": 3,
-                    "Scion": 4
+                    "Scion": 5,
+                    "Hadean": 3
                 },
                 "Zack": {
                     "I.S.D.F": 16,
@@ -9291,15 +9872,15 @@
                     "I.S.D.F": 1
                 },
                 "X-Triage": {
-                    "I.S.D.F": 5
+                    "I.S.D.F": 7
                 },
                 "Gravey": {
                     "I.S.D.F": 3,
-                    "Scion": 5,
+                    "Scion": 6,
                     "Hadean": 1
                 },
                 "Herp McDerperson": {
-                    "I.S.D.F": 4
+                    "I.S.D.F": 5
                 },
                 "Jabbapop": {
                     "I.S.D.F": 2
@@ -9310,7 +9891,7 @@
                 },
                 "Darkvale": {
                     "I.S.D.F": 4,
-                    "Scion": 3
+                    "Scion": 4
                 },
                 "StarFox": {
                     "I.S.D.F": 1
@@ -9319,19 +9900,28 @@
                     "I.S.D.F": 1
                 },
                 "Certified Bad Guy": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 4
                 },
                 "Lithium": {
                     "I.S.D.F": 2
                 },
                 "Cloaket": {
                     "I.S.D.F": 2,
-                    "Hadean": 1
+                    "Hadean": 2
                 },
                 "F9mama": {
                     "I.S.D.F": 1
                 },
                 "Judgeguns": {
+                    "I.S.D.F": 1
+                },
+                "KingFuryKiller": {
+                    "I.S.D.F": 1
+                },
+                "Nomad": {
+                    "I.S.D.F": 3
+                },
+                "DesUxS": {
                     "I.S.D.F": 1
                 }
             }
@@ -9339,49 +9929,49 @@
     },
     "processed_data": {
         "processed_map_counts": {
-            "Mojave": 29,
-            "Overlook": 26,
-            "Terron": 26,
-            "Red Slope": 24,
-            "Remnant": 19,
-            "Giza": 15,
+            "Mojave": 30,
+            "Terron": 28,
+            "Overlook": 27,
+            "Red Slope": 26,
+            "Remnant": 22,
+            "Giza": 16,
             "Quagmire": 15,
             "Oasis": 14,
             "Garden": 12,
             "Vegan": 12,
+            "Europa Night": 12,
             "Sahara": 12,
             "Lunar": 12,
             "Scammed": 11,
-            "Europa Night": 11,
             "Insula": 11,
             "Europa": 10,
+            "Twin Peaks": 10,
             "Haven": 10,
             "Quarry": 10,
             "Strategy Arena": 10,
+            "Ancient Hills": 9,
             "Lunix": 9,
-            "Twin Peaks": 9,
             "Throbbing Gristle": 9,
             "Reflex": 9,
-            "Ancient Hills": 8,
-            "Excavation": 8,
+            "Excavation": 9,
+            "Bowl": 8,
+            "Oldboy": 8,
             "Tempest": 7,
+            "Forgotten": 7,
             "Island of V8": 7,
             "Domain": 7,
             "Casius": 7,
-            "Bowl": 7,
-            "Oldboy": 7,
-            "Forgotten": 6,
-            "Titan": 6,
+            "Titan": 7,
+            "Plaza": 6,
             "Ice Age": 6,
             "Moonshroud": 5,
             "Barren": 5,
-            "Plaza": 5,
             "Consciousness": 5,
+            "Trench": 5,
+            "Mort's Wasteland": 5,
+            "Rendon": 5,
             "Sinister": 4,
             "Ebola": 4,
-            "Trench": 4,
-            "Mort's Wasteland": 4,
-            "Rendon": 4,
             "Abuse": 3,
             "Phoenix": 3,
             "Dune Night": 3,
@@ -9389,6 +9979,7 @@
             "Hi-Mid-Lo": 3,
             "Snow Central": 3,
             "Vortex": 3,
+            "310": 3,
             "Egypt": 3,
             "Iraq": 3,
             "JO Crystal": 2,
@@ -9402,23 +9993,23 @@
             "Scion Central": 2,
             "Dream": 2,
             "Aztec": 2,
+            "Plus": 2,
             "Ridges": 2,
             "Hound": 2,
             "Trail": 2,
-            "310": 2,
+            "Mexican Mission": 2,
             "Echelon": 2,
+            "Prodigy Ver .2": 2,
             "Transfer": 2,
             "High & Low": 2,
             "Jade Green": 2,
             "Fort 12C": 2,
             "Madern Warfare": 1,
-            "Plus": 1,
             "Bridges": 1,
             "Concrete Jungle": 1,
             "Dusk": 1,
             "Rectal": 1,
             "Iceberg": 1,
-            "Mexican Mission": 1,
             "Selena": 1,
             "Chill": 1,
             "Oxide": 1,
@@ -9426,7 +10017,6 @@
             "Stone Circle": 1,
             "Pitbull": 1,
             "Caiscus": 1,
-            "Prodigy Ver .2": 1,
             "Terrace": 1,
             "Ravine": 1,
             "Phazon": 1,
@@ -9439,12 +10029,13 @@
             "Revolution": 1,
             "Magma": 1,
             "Middle Wars": 1,
-            "Cracked": 1
+            "Cracked": 1,
+            "Aussault": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 607,
-            "Scion": 197,
-            "Hadean": 270
+            "I.S.D.F": 647,
+            "Scion": 205,
+            "Hadean": 276
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -9461,18 +10052,18 @@
                 "Scion": 9
             },
             "VTrider": {
-                "Scion": 26,
-                "Hadean": 83,
-                "I.S.D.F": 48
+                "Scion": 28,
+                "Hadean": 85,
+                "I.S.D.F": 53
             },
             "Gravey": {
-                "Scion": 19,
-                "I.S.D.F": 17,
+                "Scion": 21,
+                "I.S.D.F": 18,
                 "Hadean": 2
             },
             "Blue Banana": {
                 "Scion": 11,
-                "I.S.D.F": 43,
+                "I.S.D.F": 47,
                 "Hadean": 16
             },
             "Sev": {
@@ -9481,7 +10072,7 @@
                 "Scion": 18
             },
             "Herp McDerperson": {
-                "I.S.D.F": 24,
+                "I.S.D.F": 25,
                 "Hadean": 1
             },
             "Sly": {
@@ -9490,8 +10081,8 @@
                 "Hadean": 1
             },
             "Darkvale": {
-                "I.S.D.F": 16,
-                "Scion": 11
+                "I.S.D.F": 17,
+                "Scion": 14
             },
             "Lamper": {
                 "I.S.D.F": 20,
@@ -9513,7 +10104,7 @@
                 "I.S.D.F": 7
             },
             "Zack": {
-                "I.S.D.F": 51,
+                "I.S.D.F": 52,
                 "Scion": 20,
                 "Hadean": 12
             },
@@ -9525,7 +10116,7 @@
                 "I.S.D.F": 15
             },
             "Econchump": {
-                "I.S.D.F": 18,
+                "I.S.D.F": 19,
                 "Scion": 3
             },
             "Domakus": {
@@ -9546,14 +10137,15 @@
                 "I.S.D.F": 2
             },
             "Judgeguns": {
-                "I.S.D.F": 11
+                "I.S.D.F": 13
             },
             "X-Triage": {
-                "I.S.D.F": 21
+                "I.S.D.F": 24
             },
             "Xpi": {
                 "I.S.D.F": 15,
-                "Scion": 12
+                "Scion": 13,
+                "Hadean": 3
             },
             "CamelBay": {
                 "I.S.D.F": 1,
@@ -9574,8 +10166,8 @@
                 "I.S.D.F": 1
             },
             "Cloaket": {
-                "I.S.D.F": 6,
-                "Hadean": 2
+                "I.S.D.F": 8,
+                "Hadean": 3
             },
             "Rosario": {
                 "I.S.D.F": 1,
@@ -9588,14 +10180,14 @@
                 "I.S.D.F": 1
             },
             "Maverick": {
-                "I.S.D.F": 7,
+                "I.S.D.F": 8,
                 "Scion": 2
             },
             "Athelas": {
                 "I.S.D.F": 1
             },
             "DesUxS": {
-                "I.S.D.F": 4
+                "I.S.D.F": 6
             },
             "Shock": {
                 "I.S.D.F": 4
@@ -9625,15 +10217,18 @@
                 "I.S.D.F": 2
             },
             "Certified Bad Guy": {
-                "I.S.D.F": 9
+                "I.S.D.F": 13
             },
             "Lithium": {
-                "I.S.D.F": 10
+                "I.S.D.F": 13
             },
             "Nomad": {
-                "I.S.D.F": 2
+                "I.S.D.F": 10
             },
             "F9mama": {
+                "I.S.D.F": 1
+            },
+            "KingFuryKiller": {
                 "I.S.D.F": 1
             }
         },
@@ -9681,6 +10276,12 @@
                 1
             ],
             [
+                "KingFuryKiller",
+                100.0,
+                1,
+                1
+            ],
+            [
                 "Domakus",
                 71.42857142857143,
                 21,
@@ -9700,9 +10301,9 @@
             ],
             [
                 "Blue Banana",
-                68.57142857142857,
-                70,
-                48
+                67.56756756756756,
+                74,
+                50
             ],
             [
                 "Muffin",
@@ -9718,21 +10319,15 @@
             ],
             [
                 "VTrider",
-                58.59872611464968,
-                157,
-                92
+                60.24096385542169,
+                166,
+                100
             ],
             [
                 "F9bomber",
                 58.27338129496403,
                 139,
                 81
-            ],
-            [
-                "Econchump",
-                52.38095238095239,
-                21,
-                11
             ],
             [
                 "Sev",
@@ -9747,10 +10342,10 @@
                 16
             ],
             [
-                "Cloaket",
+                "Econchump",
                 50.0,
-                8,
-                4
+                22,
+                11
             ],
             [
                 "Laguna",
@@ -9777,22 +10372,34 @@
                 21
             ],
             [
+                "Cloaket",
+                45.45454545454545,
+                11,
+                5
+            ],
+            [
                 "Rosario",
                 45.45454545454545,
                 11,
                 5
             ],
             [
-                "Zack",
-                40.963855421686745,
-                83,
-                34
+                "Xpi",
+                45.16129032258064,
+                31,
+                14
             ],
             [
                 "Herp McDerperson",
-                40.0,
-                25,
-                10
+                42.30769230769231,
+                26,
+                11
+            ],
+            [
+                "Zack",
+                40.476190476190474,
+                84,
+                34
             ],
             [
                 "RollyPolly",
@@ -9801,10 +10408,10 @@
                 6
             ],
             [
-                "Xpi",
-                37.03703703703704,
-                27,
-                10
+                "X-Triage",
+                37.5,
+                24,
+                9
             ],
             [
                 "HappyOtter",
@@ -9813,22 +10420,10 @@
                 2
             ],
             [
-                "X-Triage",
+                "DesUxS",
                 33.33333333333333,
-                21,
-                7
-            ],
-            [
-                "Darkvale",
-                33.33333333333333,
-                27,
-                9
-            ],
-            [
-                "Maverick",
-                33.33333333333333,
-                9,
-                3
+                6,
+                2
             ],
             [
                 "Xohm",
@@ -9837,10 +10432,34 @@
                 12
             ],
             [
+                "Darkvale",
+                32.25806451612903,
+                31,
+                10
+            ],
+            [
+                "Certified Bad Guy",
+                30.76923076923077,
+                13,
+                4
+            ],
+            [
+                "Maverick",
+                30.0,
+                10,
+                3
+            ],
+            [
+                "Nomad",
+                30.0,
+                10,
+                3
+            ],
+            [
                 "Gravey",
-                28.947368421052634,
-                38,
-                11
+                29.268292682926827,
+                41,
+                12
             ],
             [
                 "AI_Unit",
@@ -9855,33 +10474,21 @@
                 1
             ],
             [
-                "DesUxS",
-                25.0,
-                4,
-                1
-            ],
-            [
                 "Jabbapop",
                 23.076923076923077,
                 26,
                 6
             ],
             [
-                "Certified Bad Guy",
-                22.22222222222222,
-                9,
+                "Judgeguns",
+                15.384615384615385,
+                13,
                 2
             ],
             [
                 "Lithium",
-                20.0,
-                10,
-                2
-            ],
-            [
-                "Judgeguns",
-                18.181818181818183,
-                11,
+                15.384615384615385,
+                13,
                 2
             ],
             [
@@ -9937,18 +10544,12 @@
                 0.0,
                 3,
                 0
-            ],
-            [
-                "Nomad",
-                0.0,
-                2,
-                0
             ]
         ],
         "processed_commander_list": [
             [
                 "VTrider",
-                157
+                166
             ],
             [
                 "F9bomber",
@@ -9960,11 +10561,11 @@
             ],
             [
                 "Zack",
-                83
+                84
             ],
             [
                 "Blue Banana",
-                70
+                74
             ],
             [
                 "M.S",
@@ -9972,7 +10573,7 @@
             ],
             [
                 "Gravey",
-                38
+                41
             ],
             [
                 "Xohm",
@@ -9988,14 +10589,18 @@
             ],
             [
                 "Darkvale",
-                27
+                31
             ],
             [
                 "Xpi",
-                27
+                31
             ],
             [
                 "Jabbapop",
+                26
+            ],
+            [
+                "Herp McDerperson",
                 26
             ],
             [
@@ -10003,19 +10608,15 @@
                 25
             ],
             [
-                "Herp McDerperson",
-                25
-            ],
-            [
-                "Domakus",
-                21
+                "X-Triage",
+                24
             ],
             [
                 "Econchump",
-                21
+                22
             ],
             [
-                "X-Triage",
+                "Domakus",
                 21
             ],
             [
@@ -10032,6 +10633,18 @@
             ],
             [
                 "Judgeguns",
+                13
+            ],
+            [
+                "Certified Bad Guy",
+                13
+            ],
+            [
+                "Lithium",
+                13
+            ],
+            [
+                "Cloaket",
                 11
             ],
             [
@@ -10039,20 +10652,12 @@
                 11
             ],
             [
-                "Lithium",
+                "Maverick",
                 10
             ],
             [
-                "Maverick",
-                9
-            ],
-            [
-                "Certified Bad Guy",
-                9
-            ],
-            [
-                "Cloaket",
-                8
+                "Nomad",
+                10
             ],
             [
                 "AI_Unit",
@@ -10063,15 +10668,15 @@
                 6
             ],
             [
+                "DesUxS",
+                6
+            ],
+            [
                 "Nozza34",
                 4
             ],
             [
                 "Seige",
-                4
-            ],
-            [
-                "DesUxS",
                 4
             ],
             [
@@ -10111,10 +10716,6 @@
                 2
             ],
             [
-                "Nomad",
-                2
-            ],
-            [
                 "DustRider",
                 1
             ],
@@ -10149,13 +10750,17 @@
             [
                 "F9mama",
                 1
+            ],
+            [
+                "KingFuryKiller",
+                1
             ]
         ],
         "processed_map_popularity": {
             "Very Popular": [
                 "Mojave",
-                "Overlook",
                 "Terron",
+                "Overlook",
                 "Red Slope",
                 "Remnant",
                 "Giza",
@@ -10163,48 +10768,49 @@
                 "Oasis",
                 "Garden",
                 "Vegan",
+                "Europa Night",
                 "Sahara",
                 "Lunar",
                 "Scammed",
-                "Europa Night",
                 "Insula",
                 "Europa",
+                "Twin Peaks",
                 "Haven",
                 "Quarry",
                 "Strategy Arena",
+                "Ancient Hills",
                 "Lunix",
-                "Twin Peaks",
                 "Throbbing Gristle",
                 "Reflex",
-                "Ancient Hills",
                 "Excavation"
             ],
             "Mostly Popular": [
+                "Bowl",
+                "Oldboy",
                 "Tempest",
+                "Forgotten",
                 "Island of V8",
                 "Domain",
                 "Casius",
-                "Bowl",
-                "Oldboy",
-                "Forgotten",
                 "Titan",
+                "Plaza",
                 "Ice Age",
                 "Moonshroud",
                 "Barren",
-                "Plaza",
                 "Consciousness",
-                "Sinister",
-                "Ebola",
                 "Trench",
                 "Mort's Wasteland",
                 "Rendon",
+                "Sinister",
+                "Ebola",
                 "Abuse",
                 "Phoenix",
                 "Dune Night",
                 "Ragnarok",
                 "Hi-Mid-Lo",
                 "Snow Central",
-                "Vortex"
+                "Vortex",
+                "310"
             ],
             "Moderately Popular": [
                 "Egypt",
@@ -10220,25 +10826,25 @@
                 "Scion Central",
                 "Dream",
                 "Aztec",
+                "Plus",
                 "Ridges",
                 "Hound",
                 "Trail",
-                "310",
+                "Mexican Mission",
                 "Echelon",
+                "Prodigy Ver .2",
                 "Transfer",
                 "High & Low",
                 "Jade Green",
                 "Fort 12C",
-                "Madern Warfare",
-                "Plus",
-                "Bridges"
+                "Madern Warfare"
             ],
             "Least Popular": [
+                "Bridges",
                 "Concrete Jungle",
                 "Dusk",
                 "Rectal",
                 "Iceberg",
-                "Mexican Mission",
                 "Selena",
                 "Chill",
                 "Oxide",
@@ -10246,7 +10852,6 @@
                 "Stone Circle",
                 "Pitbull",
                 "Caiscus",
-                "Prodigy Ver .2",
                 "Terrace",
                 "Ravine",
                 "Phazon",
@@ -10259,7 +10864,8 @@
                 "Revolution",
                 "Magma",
                 "Middle Wars",
-                "Cracked"
+                "Cracked",
+                "Aussault"
             ]
         }
     },
@@ -10557,5 +11163,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/11/22 02:40AM UTC"
+    "last_updated": "2025/11/30 06:00AM UTC"
 }
