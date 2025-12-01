@@ -5898,6 +5898,152 @@
 						"Vacuum34"
 					]
 				}
+			},
+			"10.5.25": {
+				"Sahara": {
+					"date": "10.5.25",
+					"map": "Sahara",
+					"commanders": "Blue Banana vs Nomad",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "1:08:50",
+					"teamOne": [
+						"F9bomber",
+						"M.S",
+						"Zack",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Cloaket",
+						"Muffin",
+						"DD"
+					]
+				},
+				"Forgotten": {
+					"date": "10.5.25",
+					"map": "Forgotten",
+					"commanders": "Blue Banana vs Cloaket",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "9:40",
+					"teamOne": [
+						"X-Triage",
+						"Nomad",
+						"Muffin",
+						"MAX"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"F9bomber",
+						"M.S",
+						"VTrider"
+					]
+				},
+				"Mojave": {
+					"date": "10.5.25",
+					"map": "Mojave",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "31:00",
+					"teamOne": [
+						"X-Triage",
+						"Muffin",
+						"Nomad"
+					],
+					"teamTwo": [
+						"MAX",
+						"F9bomber",
+						"Darkvale"
+					]
+				},
+				"Quarry": {
+					"date": "10.5.25",
+					"map": "Quarry",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "20:19",
+					"teamOne": [
+						"Lithium",
+						"$tar",
+						"Nomad",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"F9mama",
+						"F9bomber",
+						"Vacuum34"
+					]
+				},
+				"Quagmire": {
+					"date": "10.5.25",
+					"map": "Quagmire",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "16:46",
+					"teamOne": [
+						"Judgeguns",
+						"Cloaket",
+						"Nomad",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9mama",
+						"F9bomber",
+						"Maverick"
+					]
+				},
+				"Tempest": {
+					"date": "10.5.25",
+					"map": "Tempest",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "VTrider",
+					"time": "12:01",
+					"teamOne": [
+						"Lithium",
+						"Maverick",
+						"Nomad",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"F9mama",
+						"Judgeguns",
+						"Cloaket"
+					],
+					"_comment": "VTrider won by having his Recycler hovered down by HyperVivify"
+				},
+				"Twin Peaks": {
+					"date": "10.5.25",
+					"map": "Twin Peaks",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "32:00",
+					"teamOne": [
+						"Cloaket",
+						"Nomad",
+						"Lithium"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"F9mama",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
