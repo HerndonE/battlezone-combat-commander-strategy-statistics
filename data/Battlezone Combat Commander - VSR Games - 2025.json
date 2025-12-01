@@ -5717,186 +5717,186 @@
 						"F9bomber"
 					]
 				}
-			},
-			"October": {
-				"10.2.25": {
-					"Garden": {
-						"date": "10.2.25",
-						"map": "Garden",
-						"commanders": "Nomad vs Lithium",
-						"factions": "[I.S.D.F, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "Lithium",
-						"time": "37:25",
-						"teamOne": [
-							"Certified Bad Guy"
-						],
-						"teamTwo": [
-							"F9bomber"
-						]
-					},
-					"Haven": {
-						"date": "10.2.25",
-						"map": "Haven",
-						"commanders": "Nomad vs Lithium",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Nomad",
-						"time": "18:36",
-						"teamOne": [
-							"HyperVivify",
-							"Certified Bad Guy"
-						],
-						"teamTwo": [
-							"F9bomber",
-							"Judgeguns"
-						]
-					},
-					"Remnant": {
-						"date": "10.2.25",
-						"map": "Remnant",
-						"commanders": "Nomad vs Lithium",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Nomad",
-						"time": "25:41",
-						"teamOne": [
-							"HyperVivify",
-							"Certified Bad Guy"
-						],
-						"teamTwo": [
-							"F9bomber",
-							"Econchump"
-						]
-					},
-					"Oldboy": {
-						"date": "10.2.25",
-						"map": "Oldboy",
-						"commanders": "Certified Bad Guy vs VTrider",
-						"factions": "[I.S.D.F, Scion]",
-						"winning faction": "Scion",
-						"winner": "VTrider",
-						"time": "19:59",
-						"teamOne": [
-							"Econchump",
-							"HyperVivify",
-							"Nomad"
-						],
-						"teamTwo": [
-							"X-Triage",
-							"F9bomber"
-						],
-						"teamTwoStraggler": [
-							"Lithium",
-							"Gravey"
-						]
-					}
+			}
+		},
+		"October": {
+			"10.2.25": {
+				"Garden": {
+					"date": "10.2.25",
+					"map": "Garden",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Lithium",
+					"time": "37:25",
+					"teamOne": [
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
 				},
-				"10.4.25": {
-					"Cracked": {
-						"date": "10.4.25",
-						"map": "Cracked",
-						"commanders": "VTrider vs Darkvale",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "VTrider",
-						"time": "15:10",
-						"teamOne": [
-							"Lithium",
-							"Nomad",
-							"Gravey",
-							"Zack"
-						],
-						"teamTwo": [
-							"Cloaket",
-							"Vacuum34",
-							"F9bomber",
-							"Domakus"
-						]
-					},
-					"Ancient Hills": {
-						"date": "10.4.25",
-						"map": "Ancient Hills",
-						"commanders": "VTrider vs Zack",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "VTrider",
-						"time": "20:30",
-						"teamOne": [
-							"Gravey",
-							"Lithium",
-							"F9bomber",
-							"Darkvale"
-						],
-						"teamTwo": [
-							"Cloaket",
-							"Vacuum34",
-							"Nomad",
-							"Domakus"
-						]
-					},
-					"Giza": {
-						"date": "10.4.25",
-						"map": "Giza",
-						"commanders": "VTrider vs Herp McDerperson",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "Scion",
-						"winner": "VTrider",
-						"time": "27:26",
-						"teamOne": [
-							"Nomad",
-							"Domakus",
-							"Gravey"
-						],
-						"teamTwo": [
-							"F9bomber",
-							"Lithium",
-							"Vacuum34",
-							"Cloaket"
-						]
-					},
-					"Oasis": {
-						"date": "10.4.25",
-						"map": "Oasis",
-						"commanders": "VTrider vs Cloaket",
-						"factions": "[Scion, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "Cloaket",
-						"time": "5:05",
-						"teamOne": [
-							"Nomad",
-							"F9bomber",
-							"Gravey",
-							"Judgeguns"
-						],
-						"teamTwo": [
-							"Herp McDerperson",
-							"Domakus",
-							"Lithium",
-							"Vacuum34"
-						]
-					},
-					"Jade Green": {
-						"date": "10.4.25",
-						"map": "Jade Green",
-						"commanders": "VTrider vs Cloaket",
-						"factions": "[Scion, Hadean]",
-						"winning faction": "Hadean",
-						"winner": "Cloaket",
-						"time": "20:14",
-						"teamOne": [
-							"Nomad",
-							"F9bomber",
-							"Gravey",
-							"Judgeguns"
-						],
-						"teamTwo": [
-							"Herp McDerperson",
-							"Domakus",
-							"Lithium",
-							"Vacuum34"
-						]
-					}
+				"Haven": {
+					"date": "10.2.25",
+					"map": "Haven",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "18:36",
+					"teamOne": [
+						"HyperVivify",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns"
+					]
+				},
+				"Remnant": {
+					"date": "10.2.25",
+					"map": "Remnant",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "25:41",
+					"teamOne": [
+						"HyperVivify",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Econchump"
+					]
+				},
+				"Oldboy": {
+					"date": "10.2.25",
+					"map": "Oldboy",
+					"commanders": "Certified Bad Guy vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "19:59",
+					"teamOne": [
+						"Econchump",
+						"HyperVivify",
+						"Nomad"
+					],
+					"teamTwo": [
+						"X-Triage",
+						"F9bomber"
+					],
+					"teamTwoStraggler": [
+						"Lithium",
+						"Gravey"
+					]
+				}
+			},
+			"10.4.25": {
+				"Cracked": {
+					"date": "10.4.25",
+					"map": "Cracked",
+					"commanders": "VTrider vs Darkvale",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "15:10",
+					"teamOne": [
+						"Lithium",
+						"Nomad",
+						"Gravey",
+						"Zack"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"Vacuum34",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Ancient Hills": {
+					"date": "10.4.25",
+					"map": "Ancient Hills",
+					"commanders": "VTrider vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "20:30",
+					"teamOne": [
+						"Gravey",
+						"Lithium",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"Vacuum34",
+						"Nomad",
+						"Domakus"
+					]
+				},
+				"Giza": {
+					"date": "10.4.25",
+					"map": "Giza",
+					"commanders": "VTrider vs Herp McDerperson",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "Scion",
+					"winner": "VTrider",
+					"time": "27:26",
+					"teamOne": [
+						"Nomad",
+						"Domakus",
+						"Gravey"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Lithium",
+						"Vacuum34",
+						"Cloaket"
+					]
+				},
+				"Oasis": {
+					"date": "10.4.25",
+					"map": "Oasis",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Cloaket",
+					"time": "5:05",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Gravey",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Domakus",
+						"Lithium",
+						"Vacuum34"
+					]
+				},
+				"Jade Green": {
+					"date": "10.4.25",
+					"map": "Jade Green",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Hadean",
+					"winner": "Cloaket",
+					"time": "20:14",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Gravey",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Domakus",
+						"Lithium",
+						"Vacuum34"
+					]
 				}
 			}
 		}
