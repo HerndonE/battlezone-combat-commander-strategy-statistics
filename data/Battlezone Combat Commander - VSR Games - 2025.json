@@ -6908,7 +6908,9 @@
 						"Xpi"
 					]
 				}
-			},
+			}
+		},
+		"November": {
 			"11.1.25": {
 				"Revolution": {
 					"date": "11.1.25",
@@ -7511,6 +7513,126 @@
 						"Domakus",
 						"Bylarge",
 						"M.S"
+					]
+				}
+			}
+		},
+		"December": {
+			"12.5.25": {
+				"Terron": {
+					"date": "12.5.25",
+					"map": "Terron",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "16:57",
+					"teamOne": [
+						"SwiggityMcgiggity"
+					],
+					"teamTwo": [
+						"F9mama"
+					]
+				},
+				"Twin Peaks": {
+					"date": "12.5.25",
+					"map": "Twin Peaks",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "F9bomber",
+					"time": "22:40",
+					"teamOne": [
+						"SwiggityMcgiggity"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
+			},
+			"12.6.25": {
+				"Overlook": {
+					"date": "12.6.25",
+					"map": "Overlook",
+					"commanders": "X-Triage vs Judgeguns",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "16:30",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin"
+					],
+					"teamOneStraggler": [
+						"SwiggityMcgiggity"
+					],
+					"teamTwoStraggler": [
+						"Systeme"
+					],
+					"_comment": "Didn't record the match but the timestamp is a rough estimate."
+				},
+				"Mojave": {
+					"date": "12.6.25",
+					"map": "Mojave",
+					"commanders": "Zack vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "28:57",
+					"teamOne": [
+						"F9bomber",
+						"Systeme",
+						"Croatian Knight"
+					],
+					"teamTwo": [
+						"Vacuum34",
+						"Muffin",
+						"SwiggityMcgiggity"
+					]
+				},
+				"Oasis": {
+					"date": "12.6.25",
+					"map": "Oasis",
+					"commanders": "Zack vs Blue Banana",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "14:11",
+					"teamOne": [
+						"F9bomber",
+						"SwiggityMcgiggity",
+						"Croatian Knight",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Systeme"
+					],
+					"teamTwoStraggler": [
+						"Vacuum34"
+					]
+				},
+				"Plaza": {
+					"date": "12.6.25",
+					"map": "Plaza",
+					"commanders": "Zack vs Sev",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "52:08",
+					"teamOne": [
+						"F9bomber",
+						"SwiggityMcgiggity",
+						"Domakus",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"Vacuum34",
+						"Muffin",
+						"Systeme",
+						"Blue Banana"
 					]
 				}
 			}
