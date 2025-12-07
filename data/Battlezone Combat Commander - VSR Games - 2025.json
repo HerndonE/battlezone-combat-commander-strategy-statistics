@@ -7625,13 +7625,17 @@
 					"teamOne": [
 						"F9bomber",
 						"SwiggityMcgiggity",
-						"Domakus",
 						"HappyOtter"
 					],
 					"teamTwo": [
 						"Vacuum34",
 						"Muffin",
-						"Systeme",
+						"Systeme"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
 						"Blue Banana"
 					]
 				}
