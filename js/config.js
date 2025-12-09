@@ -14,3 +14,7 @@ export const COLOR_PALETTE = [
 export const BACKGROUND_COLOR = "transparent";
 export const TEXT_LIGHT = "#ffffff";
 export const TEXT_DARK = "#000000";
+
+export const GRAPH_POPERTIES = {
+  svgHeight: 450,
+};

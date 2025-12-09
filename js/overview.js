@@ -1,4 +1,4 @@
-import { CONFIG } from "./config.js";
+import { CONFIG, GRAPH_POPERTIES } from "./config.js";
 import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
@@ -7,12 +7,12 @@ import {
 } from "./config.js";
 
 function factionPopularity(containerId, chartData) {
-  const data = Object.entries(chartData);
+  const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
 
   const width = 600;
   const height = 60;
   const barHeight = 20;
-  const borderRadius = 5; // adjust for roundness
+  const borderRadius = 5;
 
   const svg = d3
     .select(containerId)
@@ -22,7 +22,6 @@ function factionPopularity(containerId, chartData) {
     .style("background-color", BACKGROUND_COLOR);
 
   const total = d3.sum(data, (d) => d[1]);
-
   const x = d3.scaleLinear().domain([0, total]).range([0, width]);
 
   const color = d3
@@ -42,14 +41,14 @@ function factionPopularity(containerId, chartData) {
       currentX += x(d[1]);
       return `translate(${xPos}, 20)`;
     })
-    .each(function (d) {
+    .each(function (d, i) {
       const g = d3.select(this);
 
       g.append("rect")
         .attr("width", x(d[1]))
         .attr("height", barHeight)
         .attr("fill", color(d[0]))
-        .attr("rx", borderRadius) // rounded corners
+        .attr("rx", borderRadius)
         .attr("ry", borderRadius);
 
       const textColor = x(d[1]) > 40 ? TEXT_LIGHT : TEXT_DARK;
@@ -74,7 +73,7 @@ function mapCountBarChart(
     .sort((a, b) => b.value - a.value);
 
   const defaultItemCount = 10;
-  const svgHeight = 450;
+  const svgHeight = GRAPH_POPERTIES.svgHeight;
   const margin = { top: 20, right: 20, bottom: 100, left: 50 };
   const borderRadius = 5; // rounded corners
 
@@ -203,7 +202,7 @@ function commanderCountBarChart(
     .sort((a, b) => b.value - a.value);
 
   const defaultItemCount = 10;
-  const svgHeight = 450;
+  const svgHeight = GRAPH_POPERTIES.svgHeight;
   const margin = { top: 20, right: 20, bottom: 100, left: 50 };
   const borderRadius = 5;
 
