@@ -9,21 +9,19 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sections.css">
-    <link rel="stylesheet" href="../css/smoke.css">
+    <link id="smokeCSS" rel="stylesheet" href="../css/smoke.css">
     <link rel="stylesheet" href="../css/content.css">
     <link rel="stylesheet" href="../css/stats-tab.css">
     <link rel="stylesheet" href="../css/graph.css">
-
     <link rel="stylesheet" href="../css/mobile-stats.css">
-
+    <link rel="stylesheet" href="../css/match-history.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script type="module" src="../js/overview.js"></script>
     <script type="module" src="../js/twentyFour.js"></script>
     <script type="module" src="../js/twentyFive.js"></script>
-
     <script type="module" src="../js/mobileStats.js"></script>
-
+    <script type="module" src="../js/matchHistory.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -44,13 +42,12 @@
         <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
         <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
         <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
+        <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
+        <!--<button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>-->
       </div>
       <div id="Overview" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3>
-          Values are based on the faction the commander choses to play as.
-          <div id="inline-bar-chart-1"></div>
-
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-1"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps (2024–Present)</h3>
@@ -82,9 +79,7 @@
       </div>
       <div id="twentyFour" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3>
-          Values are based on the faction the commander choses to play as.
-          <div id="inline-bar-chart-2"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-2"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -112,9 +107,7 @@
       </div>
       <div id="twentyFive" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3>
-          Values are based on the faction the commander choses to play as.
-          <div id="inline-bar-chart-3"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -140,6 +133,30 @@
           </div>
         </div>
       </div>
+      <div id="matchHistory" class="tabcontent">
+        <div class="controls">
+          <select id="yearFilter" disabled></select>
+          <select id="monthFilter" disabled></select>
+          <input type="text" id="search" placeholder="Search: map, winner, commander...">
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Map</th>
+              <th>Commanders</th>
+              <th>Factions</th>
+              <th>Winner</th>
+              <th>Winning Faction</th>
+              <th>Time</th>
+              <th>Teams</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <!--<div id="commanders" class="tabcontent"></div>-->
     </div>
     <div id="overlay-text-mobile">
       <div class="category">
@@ -166,11 +183,9 @@
         </div>
         <div class="category">
           <h3>Map Popularity</h3>
-          <div class="sub-category" id="map-popularity-container">
-          </div>
+          <div class="sub-category" id="map-popularity-container"></div>
         </div>
       </div>
-
       <div class="category">
         <h3>2024</h3>
         <div class="sub-category">
@@ -184,17 +199,16 @@
         <div class="sub-category">
           <button class="dropdown-btn">Active Commander ▼</button>
           <div class="cards dropdown-content" id="active-commanders-2024"></div>
-        </div> 
+        </div>
         <div class="sub-category">
           <button class="dropdown-btn">Commander Faction Choices ▼</button>
           <div class="cards dropdown-content" id="commander-cards-2024"></div>
-        </div>   
+        </div>
         <div class="sub-category">
           <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
           <div class="cards dropdown-content" id="commander-win-cards-2024"></div>
-        </div>            
+        </div>
       </div>
-
       <div class="category">
         <h3>2025</h3>
         <div class="sub-category">
@@ -208,23 +222,23 @@
         <div class="sub-category">
           <button class="dropdown-btn">Active Commander ▼</button>
           <div class="cards dropdown-content" id="active-commanders-2025"></div>
-        </div>  
+        </div>
         <div class="sub-category">
           <button class="dropdown-btn">Commander Faction Choices ▼</button>
           <div class="cards dropdown-content" id="commander-cards-2025"></div>
-        </div> 
+        </div>
         <div class="sub-category">
           <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
           <div class="cards dropdown-content" id="commander-win-cards-2025"></div>
-        </div>       
+        </div>
       </div>
     </div>
-
-      <script type="module" src="../smoke.js"></script>
-      <script src="../stats-info.js"></script>
+    <script type="module" src="../smoke.js"></script>
+    <script src="../stats-info.js"></script>
     <footer>
-    <p class="footer-note"> 2025 © copyright <br> bz2stats.us all rights reserved </p> 
-    <p class="footer-note"> The statistics provided are mostly based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome. See Discord <a href="../index.html" target="_blank" rel="noopener noreferrer">links</a>. </p>
+      <p class="footer-note"> 2025 © copyright <br> bz2stats.us all rights reserved </p>
+      <p class="footer-note"> The statistics provided are mostly based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome. See Discord <a href="../index.html" target="_blank" rel="noopener noreferrer">links</a>. </p>
+      <p class="footer-note"><a href="https://www.buymeacoffee.com/F9bomber" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
     </footer>
   </body>
 </html>

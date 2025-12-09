@@ -1,0 +1,55 @@
+.controls {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+select,
+input,
+button {
+	padding: 6px;
+	font-size: 14px;
+}
+
+button {
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+th,
+td {
+	padding: 8px;
+	border: 1px solid #555;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background: #333;
+}
+
+tr:nth-child(odd) {
+	background: #2a2a2a;
+}
+
+.faction-ISDF {
+	color: #7bdcff;
+	font-weight: bold;
+}
+
+.faction-Scion {
+	color:  #ff6ad5;
+	font-weight: bold;
+}
+
+.faction-Hadean {
+	color: #ffa45c;
+	font-weight: bold;
+}

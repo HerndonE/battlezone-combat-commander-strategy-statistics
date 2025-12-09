@@ -1,4 +1,4 @@
-import { CONFIG } from "./config.js";
+import { CONFIG, GRAPH_POPERTIES } from "./config.js";
 import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
@@ -11,7 +11,7 @@ function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
 
   let svg = container.select("svg");
   if (svg.empty()) {
-    svg = container.append("svg").attr("height", 450);
+    svg = container.append("svg").attr("height", GRAPH_POPERTIES.svgHeight);
   }
 
   svg.style("background-color", BACKGROUND_COLOR);
@@ -145,7 +145,7 @@ function commanderCountBarChart2024(
 
   let svg = container.select("svg");
   if (svg.empty()) {
-    svg = container.append("svg").attr("height", 450);
+    svg = container.append("svg").attr("height", GRAPH_POPERTIES.svgHeight);
   }
 
   svg.style("background-color", BACKGROUND_COLOR);
@@ -436,7 +436,7 @@ function commanderFactionChoiceCountBarChart2024(
 }
 
 function factionPopularity2024(containerId, chartData) {
-  const data = Object.entries(chartData);
+  const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
 
   const width = 600;
   const height = 60;
@@ -451,7 +451,6 @@ function factionPopularity2024(containerId, chartData) {
     .style("background-color", BACKGROUND_COLOR);
 
   const total = d3.sum(data, (d) => d[1]);
-
   const x = d3.scaleLinear().domain([0, total]).range([0, width]);
 
   const color = d3
@@ -471,7 +470,7 @@ function factionPopularity2024(containerId, chartData) {
       currentX += x(d[1]);
       return `translate(${xPos}, 20)`;
     })
-    .each(function (d) {
+    .each(function (d, i) {
       const g = d3.select(this);
 
       g.append("rect")
