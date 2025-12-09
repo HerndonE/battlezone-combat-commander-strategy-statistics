@@ -13,6 +13,7 @@ canvas {
   color: white;
   font-family: Arial, sans-serif;
   z-index: 1;
+  flex: 1;
 }
 
 #overlay-text {
