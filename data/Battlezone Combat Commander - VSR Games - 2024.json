@@ -20,7 +20,7 @@
 					"map": "Forgotten",
 					"commanders": "F9bomber vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F,",
+					"winning faction": "I.S.D.F",
 					"winner": "F9bomber"
 				}
 			}
@@ -1142,7 +1142,7 @@
 					"map": "Excavation",
 					"commanders": "F9bomber vs M.S",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
+					"winning faction": "I.S.D.F",
 					"winner": "M.S"
 				},
 				"Overlook": {
@@ -1226,7 +1226,7 @@
 					"map": "Scammed",
 					"commanders": "HappyOtter vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "[Hadean, Scion]",
+					"winning faction": "Scion",
 					"winner": "Blue Banana"
 				}
 			},

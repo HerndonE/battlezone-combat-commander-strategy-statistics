@@ -448,7 +448,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Xpi",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
+					"winning faction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "16:13",
 					"teamOne": [
@@ -486,7 +486,7 @@
 					"map": "Mojave",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
+					"winning faction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "21:07",
 					"teamOne": [
@@ -956,7 +956,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Xpi",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
+					"winning faction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "8:27",
 					"teamOne": [
@@ -4490,7 +4490,7 @@
 					"factions": "[I.S.D.F, Hadean]",
 					"winning faction": "Hadean",
 					"winner": "VTrider",
-					"time": "",
+					"time": "NA",
 					"teamOne": [
 						"F9mama",
 						"F9bomber",
@@ -7546,7 +7546,7 @@
 						"SwiggityMcgiggity"
 					],
 					"teamTwo": [
-						"F9bomber"
+						"F9mama"
 					]
 				}
 			},
