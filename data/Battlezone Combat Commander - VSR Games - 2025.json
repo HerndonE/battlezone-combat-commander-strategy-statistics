@@ -3687,7 +3687,7 @@
 				},
 				"Fort 12C": {
 					"date": "08.2.25",
-					"map": "Ice Age",
+					"map": "Fort 12C",
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Hadean, Hadean]",
 					"winning faction": "Hadean",
@@ -7637,6 +7637,101 @@
 					],
 					"teamTwoStraggler": [
 						"Blue Banana"
+					]
+				}
+			},
+			"12.7.25": {
+				"Mesa": {
+					"date": "12.7.25",
+					"map": "Mesa",
+					"commanders": "Zack vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "46:45",
+					"teamOne": [
+						"Judgeguns",
+						"Systeme",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin"
+					]
+				},
+				"Oldboy": {
+					"date": "12.7.25",
+					"map": "Oldboy",
+					"commanders": "Zack vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "30:47",
+					"teamOne": [
+						"Systeme",
+						"Vacuum34",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin"
+					]
+				},
+				"Ragnarok": {
+					"date": "12.7.25",
+					"map": "Ragnarok",
+					"commanders": "Zack vs Blue Banana",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "35:54",
+					"teamOne": [
+						"Muffin",
+						"Systeme",
+						"Vacuum34"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				},
+				"Haven": {
+					"date": "12.7.25",
+					"map": "Haven",
+					"commanders": "Vacuum34 vs Systeme",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Vacuum34",
+					"time": "28:34",
+					"teamOne": [
+						"Zack"
+					],
+					"teamTwo": [
+						"Blue Banana"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
+						"F9bomber"
+					]
+				},
+				"Fort 12C": {
+					"date": "12.7.25",
+					"map": "Fort 12C",
+					"commanders": "F9bomber vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "1:31:15",
+					"teamOne": [
+						"Zack"
+					],
+					"teamTwo": [
+						"Systeme"
+					],
+					"teamOneStraggler": [
+						"Sadh0w"
+					],
+					"teamTwoStraggler": [
+						"Vacuum34"
 					]
 				}
 			}
