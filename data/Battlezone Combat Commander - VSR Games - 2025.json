@@ -7734,6 +7734,145 @@
 						"Vacuum34"
 					]
 				}
+			},
+			"12.14.25": {
+				"Power Struggle": {
+					"date": "12.14.25",
+					"map": "Power Struggle",
+					"commanders": "F9bomber vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "Scion",
+					"winner": "Blue Banana",
+					"time": "20:46",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Systeme",
+						"M.S"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Nomad",
+						"Zack"
+					]
+				},
+				"Mountain Top": {
+					"date": "12.14.25",
+					"map": "Mountain Top",
+					"commanders": "M.S vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "10:35",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Systeme",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Nomad",
+						"Zack"
+					]
+				},
+				"Giza": {
+					"date": "12.14.25",
+					"map": "Giza",
+					"commanders": "Nomad vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "17:55",
+					"teamOne": [
+						"M.S",
+						"Systeme",
+						"F9bomber",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Gravey",
+						"Certified Bad Guy",
+						"Zack"
+					]
+				},
+				"Ancient Hills": {
+					"date": "12.14.25",
+					"map": "Ancient Hills",
+					"commanders": "M.S vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "14:16",
+					"teamOne": [
+						"Nomad",
+						"Systeme",
+						"F9bomber",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Gravey",
+						"Certified Bad Guy",
+						"Zack"
+					]
+				},
+				"Terron": {
+					"date": "12.14.25",
+					"map": "Terron",
+					"commanders": "Darkvale vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "9:29",
+					"teamOne": [
+						"F9bomber",
+						"Shock",
+						"Sev",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Zack",
+						"Blue Banana",
+						"M.S",
+						"Systeme"
+					]
+				},
+				"Red Slope": {
+					"date": "12.14.25",
+					"map": "Red Slope",
+					"commanders": "Darkvale vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "8:56",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge",
+						"Sev"
+					],
+					"teamTwo": [
+						"Zack",
+						"Blue Banana",
+						"Systeme"
+					]
+				},
+				"Sahara": {
+					"date": "12.14.25",
+					"map": "Sahara",
+					"commanders": "Zack vs Certified Bad Guy",
+					"factions": "[Hadean, I.S.D.F]",
+					"winning faction": "Hadean",
+					"winner": "Zack",
+					"time": "19:00",
+					"teamOne": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Systeme"
+					]
+				}
 			}
 		}
 	}
