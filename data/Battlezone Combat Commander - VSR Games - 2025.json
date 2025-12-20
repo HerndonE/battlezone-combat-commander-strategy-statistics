@@ -7927,120 +7927,120 @@
 						"Bylarge"
 					],
 					"_comment": "Command bug present on Team One."
+				}
+			},
+			"12.19.25": {
+				"Giza": {
+					"date": "12.19.25",
+					"map": "Giza",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "15:56",
+					"teamOne": [
+						"Darkvale",
+						"MAX",
+						"Herp McDerperson",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Muffin",
+						"M.S",
+						"Cyber",
+						"VoodooChile"
+					]
 				},
-				"12.19.25": {
-					"Giza": {
-						"date": "12.19.25",
-						"map": "Giza",
-						"commanders": "Zack vs F9bomber",
-						"factions": "[Scion, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "F9bomber",
-						"time": "15:56",
-						"teamOne": [
-							"Darkvale",
-							"MAX",
-							"Herp McDerperson",
-							"Lithium"
-						],
-						"teamTwo": [
-							"Muffin",
-							"M.S",
-							"Cyber",
-							"VoodooChile"
-						]
-					},
-					"Aztec": {
-						"date": "12.19.25",
-						"map": "Aztec",
-						"commanders": "Lithium vs F9bomber",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "Lithium",
-						"time": "27:00",
-						"teamOne": [
-							"Cyber",
-							"Zack",
-							"VoodooChile"
-						],
-						"teamTwo": [
-							"Muffin",
-							"M.S",
-							"SilverBullet"
-						]
-					},
-					"Ancient Hills": {
-						"date": "12.19.25",
-						"map": "Ancient Hills",
-						"commanders": "Lithium vs F9bomber",
-						"factions": "[I.S.D.F, Scion]",
-						"winning faction": "I.S.D.F",
-						"winner": "Lithium",
-						"time": "18:40",
-						"teamOne": [
-							"Cyber",
-							"Zack",
-							"VoodooChile"
-						],
-						"teamTwo": [
-							"Muffin",
-							"M.S",
-							"SilverBullet"
-						]
-					},
-					"Mojave": {
-						"date": "12.19.25",
-						"map": "Mojave",
-						"commanders": "Vacuum34 vs F9bomber",
-						"factions": "[I.S.D.F, I.S.D.F]",
-						"winning faction": "I.S.D.F",
-						"winner": "F9bomber",
-						"time": "18:51",
-						"teamOne": [
-							"Cyber",
-							"Zack",
-							"SilverBullet"
-						],
-						"teamTwo": [
-							"Muffin",
-							"M.S",
-							"Lithium"
-						]
-					},
-					"Haven": {
-						"date": "12.19.25",
-						"map": "Haven",
-						"commanders": "Zack vs F9bomber",
-						"factions": "[Scion, Hadean]",
-						"winning faction": "Scion",
-						"winner": "Zack",
-						"time": "16:03",
-						"teamOne": [
-							"Lithium",
-							"Muffin"
-						],
-						"teamTwo": [
-							"Vacuum34",
-							"Certified Bad Guy"
-						]
-					},
-					"Reflex": {
-						"date": "12.19.25",
-						"map": "Reflex",
-						"commanders": "Zack vs F9bomber",
-						"factions": "[Scion, Scion]",
-						"winning faction": "Scion",
-						"winner": "F9bomber",
-						"time": "36:55",
-						"teamOne": [
-							"Certified Bad Guy",
-							"Lithium"
-						],
-						"teamTwo": [
-							"Muffin",
-							"Vacuum34"
-						]
-					}
+				"Aztec": {
+					"date": "12.19.25",
+					"map": "Aztec",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "27:00",
+					"teamOne": [
+						"Cyber",
+						"Zack",
+						"VoodooChile"
+					],
+					"teamTwo": [
+						"Muffin",
+						"M.S",
+						"SilverBullet"
+					]
+				},
+				"Ancient Hills": {
+					"date": "12.19.25",
+					"map": "Ancient Hills",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winning faction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "18:40",
+					"teamOne": [
+						"Cyber",
+						"Zack",
+						"VoodooChile"
+					],
+					"teamTwo": [
+						"Muffin",
+						"M.S",
+						"SilverBullet"
+					]
+				},
+				"Mojave": {
+					"date": "12.19.25",
+					"map": "Mojave",
+					"commanders": "Vacuum34 vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winning faction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "18:51",
+					"teamOne": [
+						"Cyber",
+						"Zack",
+						"SilverBullet"
+					],
+					"teamTwo": [
+						"Muffin",
+						"M.S",
+						"Lithium"
+					]
+				},
+				"Haven": {
+					"date": "12.19.25",
+					"map": "Haven",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winning faction": "Scion",
+					"winner": "Zack",
+					"time": "16:03",
+					"teamOne": [
+						"Lithium",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Vacuum34",
+						"Certified Bad Guy"
+					]
+				},
+				"Reflex": {
+					"date": "12.19.25",
+					"map": "Reflex",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, Scion]",
+					"winning faction": "Scion",
+					"winner": "F9bomber",
+					"time": "36:55",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Vacuum34"
+					]
 				}
 			}
 		}
