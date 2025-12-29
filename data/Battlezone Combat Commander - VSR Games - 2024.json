@@ -1,2705 +1,2705 @@
 {
-	"year": "2024",
-	"month": {
-		"March": {
-			"3.20.24": {
-				"Aztec": {
-					"date": "3.20.24",
-					"map": "Aztec",
-					"commanders": "Jabbapop vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				}
-			}
-		},
-		"April": {
-			"4.20.24": {
-				"Forgotten": {
-					"date": "4.20.24",
-					"map": "Forgotten",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			}
-		},
-		"May": {
-			"5.11.24": {
-				"Ancient Hills": {
-					"date": "5.11.24",
-					"map": "Ancient Hills",
-					"commanders": "Gravey vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Haven": {
-					"date": "5.11.24",
-					"map": "Haven",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Blue Banana"
-				},
-				"Quagmire": {
-					"date": "5.11.24",
-					"map": "Quagmire",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Sahara": {
-					"date": "5.11.24",
-					"map": "Sahara",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				}
-			},
-			"5.18.24": {
-				"Lunar": {
-					"date": "5.18.24",
-					"map": "Lunar",
-					"commanders": "Sev vs Herp McDerperson",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Overlook": {
-					"date": "5.18.24",
-					"map": "Overlook",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"5.21.24": {
-				"Madern Warfare": {
-					"date": "5.21.24",
-					"map": "Madern Warfare",
-					"commanders": "Sev vs Blue Banana",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Tempest": {
-					"date": "5.21.24",
-					"map": "Tempest",
-					"commanders": "Blue Banana vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"5.24.24": {
-				"Mojave": {
-					"date": "5.24.24",
-					"map": "Mojave",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"5.26.24": {
-				"Lunix": {
-					"date": "5.26.24",
-					"map": "Lunix",
-					"commanders": "Sly vs VTrider",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Moonshroud": {
-					"date": "5.26.24",
-					"map": "Moonshroud",
-					"commanders": "VTrider vs Herp McDerperson",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Quagmire": {
-					"date": "5.26.24",
-					"map": "Quagmire",
-					"commanders": "VTrider vs Herp McDerperson",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"5.27.24": {
-				"Garden": {
-					"date": "5.27.24",
-					"map": "Garden",
-					"commanders": "Darkvale vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Island of V8": {
-					"date": "5.27.24",
-					"map": "Island of V8",
-					"commanders": "Herp McDerperson vs F9bomber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"5.28.24": {
-				"Europa": {
-					"date": "5.28.24",
-					"map": "Europa",
-					"commanders": "F9bomber vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"JO Crystal": {
-					"date": "5.28.24",
-					"map": "JO Crystal",
-					"commanders": "Lamper vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Quarry": {
-					"date": "5.28.24",
-					"map": "Quarry",
-					"commanders": "F9bomber vs Nozza34",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"5.30.24": {
-				"Mojave": {
-					"date": "5.30.24",
-					"map": "Mojave",
-					"commanders": "M.S vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Plaza": {
-					"date": "5.30.24",
-					"map": "Plaza",
-					"commanders": "M.S vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			}
-		},
-		"June": {
-			"6.02.24": {
-				"Beyond": {
-					"date": "6.02.24",
-					"map": "Beyond",
-					"commanders": "F9bomber vs Herp McDerperson",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Lunix": {
-					"date": "6.02.24",
-					"map": "Lunix",
-					"commanders": "F9bomber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Mojave": {
-					"date": "6.02.24",
-					"map": "Mojave",
-					"commanders": "AI_Unit vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Red Slope": {
-					"date": "6.02.24",
-					"map": "Red Slope",
-					"commanders": "AI_Unit vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Twin Peaks": {
-					"date": "6.02.24",
-					"map": "Twin Peaks",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				}
-			},
-			"6.03.24": {
-				"Domain": {
-					"date": "6.03.24",
-					"map": "Domain",
-					"commanders": "Zack vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Giza": {
-					"date": "6.03.24",
-					"map": "Giza",
-					"commanders": "Herp McDerperson vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Overlook": {
-					"date": "6.03.24",
-					"map": "Overlook",
-					"commanders": "Sly vs VTrider",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Vortex": {
-					"date": "6.03.24",
-					"map": "Vortex",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"6.04.24": {
-				"Island of V8": {
-					"date": "6.04.24",
-					"map": "Island of V8",
-					"commanders": "Blue Banana vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Plus": {
-					"date": "6.04.24",
-					"map": "Plus",
-					"commanders": "VTrider vs Sly",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Remnant": {
-					"date": "6.04.24",
-					"map": "Remnant",
-					"commanders": "Muffin vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Ridges": {
-					"date": "6.04.24",
-					"map": "Ridges",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Royal Stadium": {
-					"date": "6.04.24",
-					"map": "Royal Stadium",
-					"commanders": "VTrider vs Sly",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				}
-			},
-			"6.06.24": {
-				"Bridges": {
-					"date": "6.06.24",
-					"map": "Bridges",
-					"commanders": "Zentuski vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				},
-				"JO Crystal": {
-					"date": "6.06.24",
-					"map": "JO Crystal",
-					"commanders": "Sev vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"No Mans Land": {
-					"date": "6.06.24",
-					"map": "No Mans Land",
-					"commanders": "Zentuski vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				}
-			},
-			"6.08.24": {
-				"Bowl": {
-					"date": "6.08.24",
-					"map": "Bowl",
-					"commanders": "Gravey vs Cyber",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Gravey"
-				},
-				"Remnant": {
-					"date": "6.08.24",
-					"map": "Remnant",
-					"commanders": "Gravey vs Cyber",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Throbbing Gristle": {
-					"date": "6.08.24",
-					"map": "Throbbing Gristle",
-					"commanders": "Lamper vs Muffin",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Muffin"
-				}
-			},
-			"6.09.24": {
-				"Lunar": {
-					"date": "6.09.24",
-					"map": "Lunar",
-					"commanders": "Herp McDerperson vs Lamper",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Mojave": {
-					"date": "6.09.24",
-					"map": "Mojave",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"6.10.24": {
-				"Concrete Jungle": {
-					"date": "6.10.24",
-					"map": "Concrete Jungle",
-					"commanders": "Sly vs Lamper",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Consciousness": {
-					"date": "6.10.24",
-					"map": "Consciousness",
-					"commanders": "Sev vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Dusk": {
-					"date": "6.10.24",
-					"map": "Dusk",
-					"commanders": "Sly vs Econchump",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Econchump"
-				}
-			},
-			"6.12.24": {
-				"Insula": {
-					"date": "6.12.24",
-					"map": "Insula",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				},
-				"Terron": {
-					"date": "6.12.24",
-					"map": "Terron",
-					"commanders": "Zack vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Zack"
-				},
-				"Throbbing Gristle": {
-					"date": "6.12.24",
-					"map": "Throbbing Gristle",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Blue Banana"
-				}
-			},
-			"6.18.24": {
-				"Rectal": {
-					"date": "6.18.24",
-					"map": "Rectal",
-					"commanders": "Sly vs Zack",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Reflex": {
-					"date": "6.18.24",
-					"map": "Reflex",
-					"commanders": "Sly vs Zack",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Trench": {
-					"date": "6.18.24",
-					"map": "Trench",
-					"commanders": "Sly vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				}
-			},
-			"6.19.24": {
-				"Sinister": {
-					"date": "6.19.24",
-					"map": "Sinister",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"6.20.24": {
-				"Hound": {
-					"date": "6.20.24",
-					"map": "Hound",
-					"commanders": "Darkvale vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Lunix": {
-					"date": "6.20.24",
-					"map": "Lunix",
-					"commanders": "Darkvale vs Lamper",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Lamper"
-				},
-				"Overlook": {
-					"date": "6.20.24",
-					"map": "Overlook",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				}
-			},
-			"6.21.24": {
-				"Abuse": {
-					"date": "6.21.24",
-					"map": "Abuse",
-					"commanders": "Cyber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Iceberg": {
-					"date": "6.21.24",
-					"map": "Iceberg",
-					"commanders": "Sly vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				}
-			},
-			"6.22.24": {
-				"Ancient Hills": {
-					"date": "6.22.24",
-					"map": "Ancient Hills",
-					"commanders": "Cyber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Phoenix": {
-					"date": "6.22.24",
-					"map": "Phoenix",
-					"commanders": "F9bomber vs AI_Unit",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Titan": {
-					"date": "6.22.24",
-					"map": "Titan",
-					"commanders": "Cyber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Trail": {
-					"date": "6.22.24",
-					"map": "Trail",
-					"commanders": "AI_Unit vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			},
-			"6.23.24": {
-				"310": {
-					"date": "6.23.24",
-					"map": "310",
-					"commanders": "VTrider vs Domakus",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				}
-			},
-			"6.25.24": {
-				"Terron": {
-					"date": "6.25.24",
-					"map": "Terron",
-					"commanders": "VTrider vs Xohm",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"6.26.24": {
-				"Overlook": {
-					"date": "6.26.24",
-					"map": "Overlook",
-					"commanders": "VTrider vs Econchump",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				},
-				"Vegan": {
-					"date": "6.26.24",
-					"map": "Vegan",
-					"commanders": "F9bomber vs Darkvale",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"6.27.24": {
-				"Giza": {
-					"date": "6.27.24",
-					"map": "Giza",
-					"commanders": "VTrider vs Herp McDerperson",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Haven": {
-					"date": "6.27.24",
-					"map": "Haven",
-					"commanders": "Sly vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Mesa": {
-					"date": "6.27.24",
-					"map": "Mesa",
-					"commanders": "Sly vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Mountain Top": {
-					"date": "6.27.24",
-					"map": "Mountain Top",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana "
-				},
-				"Oasis": {
-					"date": "6.27.24",
-					"map": "Oasis",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"6.29.24": {
-				"Red Slope": {
-					"date": "6.29.24",
-					"map": "Red Slope",
-					"commanders": "VTrider vs Darkvale",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Throbbing Gristle": {
-					"date": "6.29.24",
-					"map": "Throbbing Gristle",
-					"commanders": "F9bomber vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"6.30.24": {
-				"Bowl": {
-					"date": "6.30.24",
-					"map": "Bowl",
-					"commanders": "Acolyte vs Laguna",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Laguna"
-				},
-				"Excavation": {
-					"date": "6.30.24",
-					"map": "Excavation",
-					"commanders": "M.S vs Laguna",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Mexican Mission": {
-					"date": "6.30.24",
-					"map": "Mexican Mission",
-					"commanders": "M.S vs Acolyte",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			}
-		},
-		"July": {
-			"7.2.24": {
-				"Haven": {
-					"date": "7.2.24",
-					"map": "Haven",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Lamper"
-				}
-			},
-			"7.3.24": {
-				"Remnant": {
-					"date": "7.3.24",
-					"map": "Remnant",
-					"commanders": "Sly vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Quarry": {
-					"date": "7.3.24",
-					"map": "Quarry",
-					"commanders": "Sly vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Terron": {
-					"date": "7.3.24",
-					"map": "Terron",
-					"commanders": "Sly vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Reflex": {
-					"date": "7.3.24",
-					"map": "Reflex",
-					"commanders": "Muffin vs Darkvale",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Muffin"
-				}
-			},
-			"7.31.24": {
-				"Lunar": {
-					"date": "7.31.24",
-					"map": "Lunar",
-					"commanders": "Lamper vs Xohm",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				}
-			},
-			"7.4.24": {
-				"Giza": {
-					"date": "7.4.24",
-					"map": "Giza",
-					"commanders": "Muffin vs Judgeguns",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Muffin"
-				},
-				"Reflex": {
-					"date": "7.4.24",
-					"map": "Reflex",
-					"commanders": "Muffin vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Selena": {
-					"date": "7.4.24",
-					"map": "Selena",
-					"commanders": "Blue Banana vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"7.5.24": {
-				"Overlook": {
-					"date": "7.5.24",
-					"map": "Overlook",
-					"commanders": "Nozza34 vs Muffin",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Muffin"
-				}
-			},
-			"7.6.24": {
-				"Europa": {
-					"date": "7.6.24",
-					"map": "Europa",
-					"commanders": "F9bomber vs Blue Banana",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Garden": {
-					"date": "7.6.24",
-					"map": "Garden",
-					"commanders": "Zack vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				},
-				"Royal Stadium": {
-					"date": "7.6.24",
-					"map": "Royal Stadium",
-					"commanders": "Zack vs Nozza34",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				},
-				"Vegan": {
-					"date": "7.6.24",
-					"map": "Vegan",
-					"commanders": "Zack vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				}
-			},
-			"7.7.24": {
-				"Egypt": {
-					"date": "7.7.24",
-					"map": "Egypt",
-					"commanders": "Muffin vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Remnant": {
-					"date": "7.7.24",
-					"map": "Remnant",
-					"commanders": "DD vs F9bomber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				},
-				"Satart": {
-					"date": "7.7.24",
-					"map": "Satart",
-					"commanders": "DD vs F9bomber",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"7.8.24": {
-				"Abuse": {
-					"date": "7.8.24",
-					"map": "Abuse",
-					"commanders": "Zack vs X-Triage",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "X-Triage"
-				},
-				"Europa": {
-					"date": "7.8.24",
-					"map": "Europa",
-					"commanders": "Zack vs Cyber",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Mesa": {
-					"date": "7.8.24",
-					"map": "Mesa",
-					"commanders": "Blue Banana vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Quagmire": {
-					"date": "7.8.24",
-					"map": "Quagmire",
-					"commanders": "Lamper vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			}
-		},
-		"August": {
-			"8.10.24": {
-				"Chill": {
-					"date": "8.10.24",
-					"map": "Chill",
-					"commanders": "Xohm vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Island of V8": {
-					"date": "8.10.24",
-					"map": "Island of V8",
-					"commanders": "Xohm vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Oldboy": {
-					"date": "8.10.24",
-					"map": "Oldboy",
-					"commanders": "Econchump vs Cyber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Remnant": {
-					"date": "8.10.24",
-					"map": "Remnant",
-					"commanders": "Darkvale vs Xpi",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "Darkvale"
-				},
-				"Sahara": {
-					"date": "8.10.24",
-					"map": "Sahara",
-					"commanders": "Lamper vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Tempest": {
-					"date": "8.10.24",
-					"map": "Tempest",
-					"commanders": "Econchump vs Cyber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Throbbing Gristle": {
-					"date": "8.10.24",
-					"map": "Throbbing Gristle",
-					"commanders": "Lamper vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"8.11.24": {
-				"Phoenix": {
-					"date": "8.11.24",
-					"map": "Phoenix",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"8.14.24": {
-				"Ancient Hills": {
-					"date": "8.14.24",
-					"map": "Ancient Hills",
-					"commanders": "Sev vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Mojave": {
-					"date": "8.14.24",
-					"map": "Mojave",
-					"commanders": "F9bomber vs Xohm",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Overlook": {
-					"date": "8.14.24",
-					"map": "Overlook",
-					"commanders": "Herp McDerperson vs VTrider",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				}
-			},
-			"8.15.24": {
-				"Ice Age": {
-					"date": "8.15.24",
-					"map": "Ice Age",
-					"commanders": "VTrider vs Sly",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Oxide": {
-					"date": "8.15.24",
-					"map": "Oxide",
-					"commanders": "F9bomber vs Lamper",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Remnant": {
-					"date": "8.15.24",
-					"map": "Remnant",
-					"commanders": "F9bomber vs Domakus",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
-					"winner": "Domakus"
-				}
-			},
-			"8.16.24": {
-				"Bowl": {
-					"date": "8.16.24",
-					"map": "Bowl",
-					"commanders": "Xohm vs Acolyte",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Xohm"
-				},
-				"Mojave": {
-					"date": "8.16.24",
-					"map": "Mojave",
-					"commanders": "Xohm vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Red Slope": {
-					"date": "8.16.24",
-					"map": "Red Slope",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"8.17.24": {
-				"Europa Night": {
-					"date": "8.17.24",
-					"map": "Europa Night",
-					"commanders": "CamelBay vs F9bomber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Terron": {
-					"date": "8.17.24",
-					"map": "Terron",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"8.18.24": {
-				"Abundance": {
-					"date": "8.18.24",
-					"map": "Abundance",
-					"commanders": "F9bomber vs Lamper",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Crater": {
-					"date": "8.18.24",
-					"map": "Crater",
-					"commanders": "Sev vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Europa Night": {
-					"date": "8.18.24",
-					"map": "Europa Night",
-					"commanders": "F9bomber vs CamelBay",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Insula": {
-					"date": "8.18.24",
-					"map": "Insula",
-					"commanders": "Herp McDerperson vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Strategy Arena": {
-					"date": "8.18.24",
-					"map": "Strategy Arena",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"8.19.24": {
-				"Domain": {
-					"date": "8.19.24",
-					"map": "Domain",
-					"commanders": "Xohm vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"Echelon": {
-					"date": "8.19.24",
-					"map": "Echelon",
-					"commanders": "Xohm vs DustRider",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"Mort's Wasteland": {
-					"date": "8.19.24",
-					"map": "Mort's Wasteland",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"8.20.24": {
-				"Dune Night": {
-					"date": "8.20.24",
-					"map": "Dune Night",
-					"commanders": "Blue Banana vs Sly",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Haven": {
-					"date": "8.20.24",
-					"map": "Haven",
-					"commanders": "Blue Banana vs Xohm",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				},
-				"Scion Central": {
-					"date": "8.20.24",
-					"map": "Scion Central",
-					"commanders": "Blue Banana vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Stone Circle": {
-					"date": "8.20.24",
-					"map": "Stone Circle",
-					"commanders": "Blue Banana vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"8.23.24": {
-				"Europa Night": {
-					"date": "8.23.24",
-					"map": "Europa Night",
-					"commanders": "Darkvale vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Excavation": {
-					"date": "8.23.24",
-					"map": "Excavation",
-					"commanders": "F9bomber vs M.S",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Overlook": {
-					"date": "8.23.24",
-					"map": "Overlook",
-					"commanders": "Darkvale vs Lamper",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Pitbull": {
-					"date": "8.23.24",
-					"map": "Pitbull",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Strategy Arena": {
-					"date": "8.23.24",
-					"map": "Strategy Arena",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Twin Peaks": {
-					"date": "8.23.24",
-					"map": "Twin Peaks",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Sev"
-				}
-			},
-			"8.24.24": {
-				"Ragnarok": {
-					"date": "8.24.24",
-					"map": "Ragnarok",
-					"commanders": "Gravey vs Sly",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Satart": {
-					"date": "8.24.24",
-					"map": "Satart",
-					"commanders": "Gravey vs Sly",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				},
-				"Scammed": {
-					"date": "8.24.24",
-					"map": "Scammed",
-					"commanders": "Gravey vs Sly",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sly"
-				}
-			},
-			"8.26.24": {
-				"Lunix": {
-					"date": "8.26.24",
-					"map": "Lunix",
-					"commanders": "Blue Banana vs Lamper",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Oasis": {
-					"date": "8.26.24",
-					"map": "Oasis",
-					"commanders": "Blue Banana vs Lamper",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Scammed": {
-					"date": "8.26.24",
-					"map": "Scammed",
-					"commanders": "HappyOtter vs Blue Banana",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
-					"winner": "Blue Banana"
-				}
-			},
-			"8.25.24": {
-				"Consciousness": {
-					"date": "8.25.24",
-					"map": "Consciousness",
-					"commanders": "Xohm vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Excavation": {
-					"date": "8.25.24",
-					"map": "Excavation",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				}
-			},
-			"8.28.24": {
-				"Twin Peaks": {
-					"date": "8.28.24",
-					"map": "Twin Peaks",
-					"commanders": "Judgeguns vs X-Triage",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "X-Triage"
-				}
-			},
-			"8.3.24": {
-				"No Mans Land": {
-					"date": "8.3.24",
-					"map": "No Mans Land",
-					"commanders": "Sly vs Domakus",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Red Slope": {
-					"date": "8.3.24",
-					"map": "Red Slope",
-					"commanders": "Sly vs Domakus",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Domakus"
-				},
-				"Reflex": {
-					"date": "8.3.24",
-					"map": "Reflex",
-					"commanders": "Darkvale vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Darkvale"
-				},
-				"Sahara": {
-					"date": "8.3.24",
-					"map": "Sahara",
-					"commanders": "Lamper vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				},
-				"Trench": {
-					"date": "8.3.24",
-					"map": "Trench",
-					"commanders": "Sly vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				}
-			},
-			"8.30.24": {
-				"Casius": {
-					"date": "8.30.24",
-					"map": "Casius",
-					"commanders": "Sev vs Herp McDerperson",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Sev"
-				},
-				"Europa Night": {
-					"date": "8.30.24",
-					"map": "Europa Night",
-					"commanders": "Domakus vs VTrider",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Quagmire": {
-					"date": "8.30.24",
-					"map": "Quagmire",
-					"commanders": "VTrider vs X-Triage",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"8.31.24": {
-				"Abundance": {
-					"date": "8.31.24",
-					"map": "Abundance",
-					"commanders": "Jabbapop vs Seige",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Seige"
-				},
-				"Ancient Hills": {
-					"date": "8.31.24",
-					"map": "Ancient Hills",
-					"commanders": "Xohm vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Barren": {
-					"date": "8.31.24",
-					"map": "Barren",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Beyond": {
-					"date": "8.31.24",
-					"map": "Beyond",
-					"commanders": "Seige vs X-Triage",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Seige"
-				},
-				"Caiscus": {
-					"date": "8.31.24",
-					"map": "Caiscus",
-					"commanders": "Muffin vs Jabbapop",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Muffin"
-				}
-			},
-			"8.7.24": {
-				"Domain": {
-					"date": "8.7.24",
-					"map": "Domain",
-					"commanders": "Muffin vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Lunix": {
-					"date": "8.7.24",
-					"map": "Lunix",
-					"commanders": "F9bomber vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "NA",
-					"winner": "NA"
-				},
-				"Mojave": {
-					"date": "8.7.24",
-					"map": "Mojave",
-					"commanders": "Domakus vs Lamper",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				}
-			}
-		},
-		"September": {
-			"9.1.24": {
-				"Casius": {
-					"date": "9.1.24",
-					"map": "Casius",
-					"commanders": "Seige vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Prodigy Ver .2": {
-					"date": "9.1.24",
-					"map": "Prodigy Ver .2",
-					"commanders": "Muffin vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Terron": {
-					"date": "9.1.24",
-					"map": "Terron",
-					"commanders": "M.S vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"9.2.24": {
-				"Insula": {
-					"date": "9.2.24",
-					"map": "Insula",
-					"commanders": "Sly vs Xohm",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"Scammed": {
-					"date": "9.2.24",
-					"map": "Scammed",
-					"commanders": "Sly vs Xohm",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Tempest": {
-					"date": "9.2.24",
-					"map": "Tempest",
-					"commanders": "Jabbapop vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Terrace": {
-					"date": "9.2.24",
-					"map": "Terrace",
-					"commanders": "Jabbapop vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"9.3.24": {
-				"Mountain Top": {
-					"date": "9.3.24",
-					"map": "Mountain Top",
-					"commanders": "Jabbapop vs Sev",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Sev"
-				}
-			},
-			"9.5.24": {
-				"Domain": {
-					"date": "9.5.24",
-					"map": "Domain",
-					"commanders": "Muffin vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Ebola": {
-					"date": "9.5.24",
-					"map": "Ebola",
-					"commanders": "VTrider vs Sev",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Europa": {
-					"date": "9.5.24",
-					"map": "Europa",
-					"commanders": "M.S vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Iraq": {
-					"date": "9.5.24",
-					"map": "Iraq",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F]",
-					"winner": "Lamper"
-				},
-				"Ravine": {
-					"date": "9.5.24",
-					"map": "Ravine",
-					"commanders": "Jabbapop vs Sev",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Sev"
-				},
-				"Tempest": {
-					"date": "9.5.24",
-					"map": "Tempest",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.6.24": {
-				"Casius": {
-					"date": "9.6.24",
-					"map": "Casius",
-					"commanders": "Sev vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Oldboy": {
-					"date": "9.6.24",
-					"map": "Oldboy",
-					"commanders": "Sev vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Twin Peaks": {
-					"date": "9.6.24",
-					"map": "Twin Peaks",
-					"commanders": "F9bomber vs Xohm",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.7.24": {
-				"Domain": {
-					"date": "9.7.24",
-					"map": "Domain",
-					"commanders": "Jabbapop vs X-Triage",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Jabbapop"
-				},
-				"Excavation": {
-					"date": "9.7.24",
-					"map": "Excavation",
-					"commanders": "Jabbapop vs Domakus",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Domakus"
-				},
-				"Garden": {
-					"date": "9.7.24",
-					"map": "Garden",
-					"commanders": "Darkvale vs Nozza34",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Nozza34"
-				},
-				"Quarry": {
-					"date": "9.7.24",
-					"map": "Quarry",
-					"commanders": "F9bomber vs Seige",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Sinister": {
-					"date": "9.7.24",
-					"map": "Sinister",
-					"commanders": "F9bomber vs Judgeguns",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.8.24": {
-				"Hi-Mid-Lo": {
-					"date": "9.8.24",
-					"map": "Hi-Mid-Lo",
-					"commanders": "F9bomber vs Xohm",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Strategy Arena": {
-					"date": "9.8.24",
-					"map": "Strategy Arena",
-					"commanders": "F9bomber vs Xohm",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Terron": {
-					"date": "9.8.24",
-					"map": "Terron",
-					"commanders": "Xohm vs F9bomber",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.10.24": {
-				"Phazon": {
-					"date": "9.10.24",
-					"map": "Phazon",
-					"commanders": "Domakus vs Gravey",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "Gravey"
-				},
-				"Quagmire": {
-					"date": "9.10.24",
-					"map": "Quagmire",
-					"commanders": "F9bomber vs Domakus",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "Domakus"
-				},
-				"Sahara": {
-					"date": "9.10.24",
-					"map": "Sahara",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Vegan": {
-					"date": "9.10.24",
-					"map": "Vegan",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.11.24": {
-				"Ebola": {
-					"date": "9.11.24",
-					"map": "Ebola",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Snow Central": {
-					"date": "9.11.24",
-					"map": "Snow Central",
-					"commanders": "VTrider vs X-Triage",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Terron": {
-					"date": "9.11.24",
-					"map": "Terron",
-					"commanders": "AI_Unit vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"9.12.24": {
-				"Oasis": {
-					"date": "9.12.24",
-					"map": "Oasis",
-					"commanders": "VTrider vs Gravey",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Titan": {
-					"date": "9.12.24",
-					"map": "Titan",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"9.13.24": {
-				"Abuse": {
-					"date": "9.13.24",
-					"map": "Abuse",
-					"commanders": "VTrider vs Cyber",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Barren": {
-					"date": "9.13.24",
-					"map": "Barren",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				},
-				"Ebola": {
-					"date": "9.13.24",
-					"map": "Ebola",
-					"commanders": "Gravey vs Cyber",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Overlook": {
-					"date": "9.13.24",
-					"map": "Overlook",
-					"commanders": "VTrider vs Domakus",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Domakus"
-				},
-				"Twin Peaks": {
-					"date": "9.13.24",
-					"map": "Twin Peaks",
-					"commanders": "M.S vs Cyber",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Vegan": {
-					"date": "9.13.24",
-					"map": "Vegan",
-					"commanders": "DatGuy vs Cyber",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "DatGuy"
-				}
-			},
-			"9.15.24": {
-				"Hi-Mid-Lo": {
-					"date": "9.15.24",
-					"map": "Insula",
-					"commanders": "Jabbapop vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				},
-				"Insula": {
-					"date": "9.15.24",
-					"map": "Insula",
-					"commanders": "Jabbapop vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"Red Slope": {
-					"date": "9.15.24",
-					"map": "Red Slope",
-					"commanders": "M.S vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Vegan": {
-					"date": "9.15.24",
-					"map": "Vegan",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				}
-			},
-			"9.17.24": {
-				"Garden": {
-					"date": "9.17.24",
-					"map": "Garden",
-					"commanders": "Jabbapop vs Blue Banana",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				},
-				"Rendon": {
-					"date": "9.17.24",
-					"map": "Rendon",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Terron": {
-					"date": "9.17.24",
-					"map": "Terron",
-					"commanders": "Blue Banana vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				}
-			},
-			"9.18.24": {
-				"Red Slope": {
-					"date": "9.18.24",
-					"map": "Red Slope",
-					"commanders": "Lamper vs Xohm",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Lamper"
-				}
-			},
-			"9.19.24": {
-				"Excavation": {
-					"date": "9.19.24",
-					"map": "Excavation",
-					"commanders": "VTrider vs Econchump",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Lunar": {
-					"date": "9.19.24",
-					"map": "Lunar",
-					"commanders": "Gravey vs Xohm",
-					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
-					"winner": "Xohm"
-				},
-				"Mojave": {
-					"date": "9.19.24",
-					"map": "Mojave",
-					"commanders": "Domakus vs Xohm",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Domakus"
-				},
-				"Moonshroud": {
-					"date": "9.19.24",
-					"map": "Moonshroud",
-					"commanders": "Domakus vs Xohm",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "Domakus"
-				}
-			},
-			"9.22.24": {
-				"Haven": {
-					"date": "9.22.24",
-					"map": "Haven",
-					"commanders": "VTrider vs Gravey",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Scammed": {
-					"date": "9.22.24",
-					"map": "Scammed",
-					"commanders": "VTrider vs Econchump",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Econchump"
-				}
-			},
-			"9.25.24": {
-				"Insula": {
-					"date": "9.25.24",
-					"map": "Insula",
-					"commanders": "F9bomber vs Xohm",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Tempest": {
-					"date": "9.25.24",
-					"map": "Tempest",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Terron": {
-					"date": "9.25.24",
-					"map": "Terron",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			}
-		},
-		"October": {
-			"10.1.24": {
-				"Assualt": {
-					"date": "10.1.24",
-					"map": "Assualt",
-					"commanders": "Sev vs Jabbapop",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Sev"
-				},
-				"Mojave": {
-					"date": "10.1.24",
-					"map": "Mojave",
-					"commanders": "VTrider vs Xohm",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				}
-			},
-			"10.3.24": {
-				"Europa": {
-					"date": "10.3.24",
-					"map": "Europa",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				},
-				"Giza": {
-					"date": "10.3.24",
-					"map": "Giza",
-					"commanders": "F9bomber vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"10.5.24": {
-				"Overlook": {
-					"date": "10.5.24",
-					"map": "Overlook",
-					"commanders": "X-Triage vs Nozza34",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "X-Triage"
-				},
-				"Overlook": {
-					"date": "10.5.24",
-					"map": "Overlook",
-					"commanders": "X-Triage vs Muffin",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Muffin"
-				}
-			},
-			"10.6.24": {
-				"Mojave": {
-					"date": "10.6.24",
-					"map": "Mojave",
-					"commanders": "Cloaket vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cloaket"
-				},
-				"Red Slope": {
-					"date": "10.6.24",
-					"map": "Red Slope",
-					"commanders": "M.S vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				}
-			},
-			"10.13.24": {
-				"Dream": {
-					"date": "10.13.24",
-					"map": "Dream",
-					"commanders": "Econchump vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "VTrider"
-				},
-				"Mojave": {
-					"date": "10.13.24",
-					"map": "Mojave",
-					"commanders": "Econchump vs Jabbapop",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Econchump"
-				},
-				"Red Slope": {
-					"date": "10.13.24",
-					"map": "Red Slope",
-					"commanders": "M.S vs Jabbapop",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Jabbapop"
-				},
-				"Sahara": {
-					"date": "10.13.24",
-					"map": "Sahara",
-					"commanders": "Sly vs VTrider",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				},
-				"Scammed": {
-					"date": "10.13.24",
-					"map": "Scammed",
-					"commanders": "Domakus vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Domakus"
-				}
-			},
-			"10.15.24": {
-				"Ancient Hills": {
-					"date": "10.15.24",
-					"map": "Ancient Hills",
-					"commanders": "Lamper vs Sev",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Lamper"
-				},
-				"Garden": {
-					"date": "10.15.24",
-					"map": "Garden",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				}
-			},
-			"10.18.24": {
-				"Dream": {
-					"date": "10.18.24",
-					"map": "Dream",
-					"commanders": "Gravey vs VTrider",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "VTrider"
-				}
-			},
-			"10.19.24": {
-				"High Heat": {
-					"date": "10.19.24",
-					"map": "High Heat",
-					"commanders": "Jabbapop vs HappyOtter",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Jabbapop"
-				},
-				"Mojave": {
-					"date": "10.19.24",
-					"map": "Mojave",
-					"commanders": "Gravey vs Xohm",
-					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
-					"winner": "Xohm"
-				},
-				"Reflex": {
-					"date": "10.19.24",
-					"map": "Reflex",
-					"commanders": "Gravey vs Xohm",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"Scion Central": {
-					"date": "10.19.24",
-					"map": "Scion Central",
-					"commanders": "Jabbapop vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Jabbapop"
-				},
-				"Sinister": {
-					"date": "10.19.24",
-					"map": "Sinister",
-					"commanders": "Jabbapop vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"10.20.24": {
-				"Scammed": {
-					"date": "10.20.24",
-					"map": "Scammed",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Blue Banana"
-				},
-				"Transfer": {
-					"date": "10.20.24",
-					"map": "Transfer",
-					"commanders": "VTrider vs Herp McDerperson",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Twin Peaks": {
-					"date": "10.20.24",
-					"map": "Twin Peaks",
-					"commanders": "VTrider vs Rosario",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Rosario"
-				}
-			},
-			"10.21.24": {
-				"Europa": {
-					"date": "10.21.24",
-					"map": "Europa",
-					"commanders": "Sly vs Blue Banana",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				},
-				"Hi-Mid-Lo": {
-					"date": "10.21.24",
-					"map": "Hi-Mid-Lo",
-					"commanders": "VTrider vs Herp McDerperson",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Island of V8": {
-					"date": "10.21.24",
-					"map": "Island of V8",
-					"commanders": "VTrider vs Blue Banana",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				}
-			},
-			"10.29.24": {
-				"Overlook": {
-					"date": "10.29.24",
-					"map": "Overlook",
-					"commanders": "Blue Banana vs Lamper",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Lamper"
-				},
-				"Snow Central": {
-					"date": "10.29.24",
-					"map": "Snow Central",
-					"commanders": "VTrider vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Titan": {
-					"date": "10.29.24",
-					"map": "Titan",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Sev"
-				}
-			},
-			"10.30.24": {
-				"Casius": {
-					"date": "10.30.24",
-					"map": "Casius",
-					"commanders": "Sev vs VTrider",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "VTrider"
-				},
-				"Lunar": {
-					"date": "10.30.24",
-					"map": "Lunar",
-					"commanders": "VTrider vs Lamper",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Lamper"
-				}
-			}
-		},
-		"November": {
-			"11.4.24": {
-				"Giza": {
-					"date": "11.4.24",
-					"map": "Giza",
-					"commanders": "Herp McDerperson vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Moonshroud": {
-					"date": "11.4.24",
-					"map": "Moonshroud",
-					"commanders": "VTrider vs Econchump",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Econchump"
-				}
-			},
-			"11.8.24": {
-				"Red Slope": {
-					"date": "11.8.24",
-					"map": "Red Slope",
-					"commanders": "Xpi vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Scammed": {
-					"date": "11.8.24",
-					"map": "Scammed",
-					"commanders": "Xpi vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Terron": {
-					"date": "11.8.24",
-					"map": "Terron",
-					"commanders": "Xpi vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"11.13.24": {
-				"Ancient Hills": {
-					"date": "11.13.24",
-					"map": "Ancient Hills",
-					"commanders": "F9bomber vs Sly",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"11.14.24": {
-				"Hi-Mid-Lo": {
-					"date": "11.14.24",
-					"map": "Hi-Mid-Lo",
-					"commanders": "General BlackDragon vs Nielk1",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "General BlackDragon"
-				}
-			},
-			"11.17.24": {
-				"Forgotten": {
-					"date": "11.17.24",
-					"map": "Forgotten",
-					"commanders": "X-Triage vs Xpi",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xpi"
-				},
-				"Ogg Vorbis": {
-					"date": "11.17.24",
-					"map": "Ogg Vorbis",
-					"commanders": "Herp McDerperson vs Xpi",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xpi"
-				},
-				"Rendon": {
-					"date": "11.17.24",
-					"map": "Rendon",
-					"commanders": "VTrider vs Econchump",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Econchump"
-				}
-			}
-		},
-		"December": {
-			"12.2.24": {
-				"Mort's Wasteland": {
-					"date": "12.2.24",
-					"map": "Mort's Wasteland",
-					"commanders": "F9bomber vs HappyOtter",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Overlook": {
-					"date": "12.2.24",
-					"map": "Overlook",
-					"commanders": "Xpi vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"12.5.24": {
-				"Remnant": {
-					"date": "12.5.24",
-					"map": "Remnant",
-					"commanders": "Domakus vs Cyber",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Domakus"
-				},
-				"Strategy Arena": {
-					"date": "12.5.24",
-					"map": "Strategy Arena",
-					"commanders": "Xohm vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Tempest": {
-					"date": "12.5.24",
-					"map": "Tempest",
-					"commanders": "Maverick vs Judgeguns",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Judgeguns"
-				}
-			},
-			"12.6.24": {
-				"Europa": {
-					"date": "12.6.24",
-					"map": "Europa",
-					"commanders": "Xohm vs Athelas",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xohm"
-				},
-				"High & Low": {
-					"date": "12.6.24",
-					"map": "High & Low",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Island of V8": {
-					"date": "12.6.24",
-					"map": "Island of V8",
-					"commanders": "Domakus vs DesUxS",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "Domakus"
-				},
-				"Overlook": {
-					"date": "12.6.24",
-					"map": "Overlook",
-					"commanders": "Sev vs DesUxS",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				},
-				"Throbbing Gristle": {
-					"date": "12.6.24",
-					"map": "Throbbing Gristle",
-					"commanders": "F9bomber vs Sev",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "F9bomber"
-				}
-			},
-			"12.7.14": {
-				"Lunix": {
-					"date": "12.7.14",
-					"map": "Lunix",
-					"commanders": "Jabbapop vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				},
-				"Mojave": {
-					"date": "12.7.14",
-					"map": "Mojave",
-					"commanders": "Jabbapop vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				},
-				"Oasis": {
-					"date": "12.7.14",
-					"map": "Oasis",
-					"commanders": "Xpi vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Xpi"
-				},
-				"Reflex": {
-					"date": "12.7.14",
-					"map": "Reflex",
-					"commanders": "Xpi vs Xohm",
-					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
-					"winner": "Xohm"
-				},
-				"Terron": {
-					"date": "12.7.14",
-					"map": "Terron",
-					"commanders": "DD vs Xohm",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				}
-			},
-			"12.8.24": {
-				"Europa": {
-					"date": "12.8.24",
-					"map": "Europa",
-					"commanders": "F9bomber vs M.S",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
-					"winner": "F9bomber"
-				},
-				"Phoenix": {
-					"date": "12.8.24",
-					"map": "Phoenix",
-					"commanders": "F9bomber vs Zack",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"12.9.24": {
-				"Alien Dunes": {
-					"date": "12.9.24",
-					"map": "Alien Dunes",
-					"commanders": "M.S vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				},
-				"Ragnarok": {
-					"date": "12.9.24",
-					"map": "Ragnarok",
-					"commanders": "F9bomber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			},
-			"12.10.24": {
-				"Dune Night": {
-					"date": "12.10.24",
-					"map": "Dune Night",
-					"commanders": "M.S vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			},
-			"12.13.24": {
-				"Garden": {
-					"date": "12.13.24",
-					"map": "Garden",
-					"commanders": "Herp McDerperson vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Overlook": {
-					"date": "12.13.24",
-					"map": "Overlook",
-					"commanders": "HappyOtter vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Sahara": {
-					"date": "12.13.24",
-					"map": "Sahara",
-					"commanders": "DesUxS vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "DesUxS"
-				},
-				"Scammed": {
-					"date": "12.13.24",
-					"map": "Scammed",
-					"commanders": "DesUxS vs DD",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				}
-			},
-			"12.14.24": {
-				"Europa Night": {
-					"date": "12.14.24",
-					"map": "Europa Night",
-					"commanders": "F9bomber vs Judgeguns",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				}
-			},
-			"12.16.24": {
-				"Europa Night": {
-					"date": "12.16.24",
-					"map": "Europa Night",
-					"commanders": "Cyber vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Casius": {
-					"date": "12.16.24",
-					"map": "Casius",
-					"commanders": "M.S vs Sev",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Mojave": {
-					"date": "12.16.24",
-					"map": "Mojave",
-					"commanders": "M.S vs Sev",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				},
-				"Giza": {
-					"date": "12.16.24",
-					"map": "Giza",
-					"commanders": "M.S vs Sly",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sly"
-				}
-			},
-			"12.17.24": {
-				"Forgotten": {
-					"date": "12.17.24",
-					"map": "Forgotten",
-					"commanders": "Herp McDerperson vs HappyOtter",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
-					"winner": "HappyOtter"
-				}
-			},
-			"12.19.24": {
-				"Magma": {
-					"date": "12.19.24",
-					"map": "Forgotten",
-					"commanders": "AI_Unit vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "AI_Unit"
-				},
-				"Terrace": {
-					"date": "12.19.24",
-					"map": "Forgotten",
-					"commanders": "AI_Unit vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "AI_Unit"
-				},
-				"Vegan": {
-					"date": "12.19.24",
-					"map": "Vegan",
-					"commanders": "Cyber vs Zack",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Cyber"
-				}
-			},
-			"12.21.24": {
-				"Giza": {
-					"date": "12.21.24",
-					"map": "Giza",
-					"commanders": "Herp McDerperson vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Garden": {
-					"date": "12.21.24",
-					"map": "Garden",
-					"commanders": "Zack vs Herp McDerperson",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Herp McDerperson"
-				},
-				"Europa Night": {
-					"date": "12.21.24",
-					"map": "Europa Night",
-					"commanders": "M.S vs VTrider",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "M.S"
-				}
-			},
-			"12.23.24": {
-				"Quarry": {
-					"date": "12.23.24",
-					"map": "Quarry",
-					"commanders": "F9bomber vs Blue Banana",
-					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "Blue Banana"
-				}
-			},
-			"12.24.24": {
-				"Sinister": {
-					"date": "12.24.24",
-					"map": "Sinister",
-					"commanders": "F9bomber vs DD",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "DD"
-				},
-				"Tempest": {
-					"date": "12.24.24",
-					"map": "Tempest",
-					"commanders": "F9bomber vs Domakus",
-					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
-					"winner": "Domakus"
-				}
-			},
-			"12.26.24": {
-				"Plaza": {
-					"date": "12.23.24",
-					"map": "Plaza",
-					"commanders": "Maverick vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				}
-			},
-			"12.27.24": {
-				"Throbbing Gristle": {
-					"date": "12.27.24",
-					"map": "Throbbing Gristle",
-					"commanders": "Shock vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Shock"
-				},
-				"Terron": {
-					"date": "12.27.24",
-					"map": "Terron",
-					"commanders": "DD vs Shock",
-					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Shock"
-				}
-			},
-			"12.28.24": {
-				"Ice Age": {
-					"date": "12.28.24",
-					"map": "Ice Age",
-					"commanders": "Jabbapop vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
-					"winner": "F9bomber"
-				},
-				"Dune Night": {
-					"date": "12.28.24",
-					"map": "Dune Night",
-					"commanders": "Shock vs F9bomber",
-					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
-					"winner": "Shock"
-				},
-				"Excavation": {
-					"date": "12.28.24",
-					"map": "Excavation",
-					"commanders": "HappyOtter vs F9bomber",
-					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
-					"winner": "HappyOtter"
-				}
-			},
-			"12.29.24": {
-				"Vegan": {
-					"date": "12.29.24",
-					"map": "Vegan",
-					"commanders": "Cyber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Barren": {
-					"date": "12.29.24",
-					"map": "Barren",
-					"commanders": "Cyber vs M.S",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Cyber"
-				},
-				"Bowl": {
-					"date": "12.29.24",
-					"map": "Bowl",
-					"commanders": "Sev vs F9bomber",
-					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
-					"winner": "Sev"
-				},
-				"Ragnarok": {
-					"date": "12.29.24",
-					"map": "Ragnarok",
-					"commanders": "Sev vs Zack",
-					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Zack"
-				},
-				"Remnant": {
-					"date": "12.29.24",
-					"map": "Remnant",
-					"commanders": "Sev vs Zack",
-					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
-					"winner": "Sev"
-				}
-			}
-		}
-	}
+  "year": "2024",
+  "month": {
+    "March": {
+      "3.20.24": {
+        "Aztec": {
+          "date": "3.20.24",
+          "map": "Aztec",
+          "commanders": "Jabbapop vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        }
+      }
+    },
+    "April": {
+      "4.20.24": {
+        "Forgotten": {
+          "date": "4.20.24",
+          "map": "Forgotten",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      }
+    },
+    "May": {
+      "5.11.24": {
+        "Ancient Hills": {
+          "date": "5.11.24",
+          "map": "Ancient Hills",
+          "commanders": "Gravey vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Haven": {
+          "date": "5.11.24",
+          "map": "Haven",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Blue Banana"
+        },
+        "Quagmire": {
+          "date": "5.11.24",
+          "map": "Quagmire",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Sahara": {
+          "date": "5.11.24",
+          "map": "Sahara",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        }
+      },
+      "5.18.24": {
+        "Lunar": {
+          "date": "5.18.24",
+          "map": "Lunar",
+          "commanders": "Sev vs Herp McDerperson",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Overlook": {
+          "date": "5.18.24",
+          "map": "Overlook",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "5.21.24": {
+        "Madern Warfare": {
+          "date": "5.21.24",
+          "map": "Madern Warfare",
+          "commanders": "Sev vs Blue Banana",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Tempest": {
+          "date": "5.21.24",
+          "map": "Tempest",
+          "commanders": "Blue Banana vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "5.24.24": {
+        "Mojave": {
+          "date": "5.24.24",
+          "map": "Mojave",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "5.26.24": {
+        "Lunix": {
+          "date": "5.26.24",
+          "map": "Lunix",
+          "commanders": "Sly vs VTrider",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Moonshroud": {
+          "date": "5.26.24",
+          "map": "Moonshroud",
+          "commanders": "VTrider vs Herp McDerperson",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Quagmire": {
+          "date": "5.26.24",
+          "map": "Quagmire",
+          "commanders": "VTrider vs Herp McDerperson",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "5.27.24": {
+        "Garden": {
+          "date": "5.27.24",
+          "map": "Garden",
+          "commanders": "Darkvale vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Island of V8": {
+          "date": "5.27.24",
+          "map": "Island of V8",
+          "commanders": "Herp McDerperson vs F9bomber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "5.28.24": {
+        "Europa": {
+          "date": "5.28.24",
+          "map": "Europa",
+          "commanders": "F9bomber vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "JO Crystal": {
+          "date": "5.28.24",
+          "map": "JO Crystal",
+          "commanders": "Lamper vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Quarry": {
+          "date": "5.28.24",
+          "map": "Quarry",
+          "commanders": "F9bomber vs Nozza34",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "5.30.24": {
+        "Mojave": {
+          "date": "5.30.24",
+          "map": "Mojave",
+          "commanders": "M.S vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Plaza": {
+          "date": "5.30.24",
+          "map": "Plaza",
+          "commanders": "M.S vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      }
+    },
+    "June": {
+      "6.02.24": {
+        "Beyond": {
+          "date": "6.02.24",
+          "map": "Beyond",
+          "commanders": "F9bomber vs Herp McDerperson",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Lunix": {
+          "date": "6.02.24",
+          "map": "Lunix",
+          "commanders": "F9bomber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Mojave": {
+          "date": "6.02.24",
+          "map": "Mojave",
+          "commanders": "AI_Unit vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Red Slope": {
+          "date": "6.02.24",
+          "map": "Red Slope",
+          "commanders": "AI_Unit vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Twin Peaks": {
+          "date": "6.02.24",
+          "map": "Twin Peaks",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        }
+      },
+      "6.03.24": {
+        "Domain": {
+          "date": "6.03.24",
+          "map": "Domain",
+          "commanders": "Zack vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Giza": {
+          "date": "6.03.24",
+          "map": "Giza",
+          "commanders": "Herp McDerperson vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Overlook": {
+          "date": "6.03.24",
+          "map": "Overlook",
+          "commanders": "Sly vs VTrider",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Vortex": {
+          "date": "6.03.24",
+          "map": "Vortex",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "6.04.24": {
+        "Island of V8": {
+          "date": "6.04.24",
+          "map": "Island of V8",
+          "commanders": "Blue Banana vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Plus": {
+          "date": "6.04.24",
+          "map": "Plus",
+          "commanders": "VTrider vs Sly",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Remnant": {
+          "date": "6.04.24",
+          "map": "Remnant",
+          "commanders": "Muffin vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Ridges": {
+          "date": "6.04.24",
+          "map": "Ridges",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Royal Stadium": {
+          "date": "6.04.24",
+          "map": "Royal Stadium",
+          "commanders": "VTrider vs Sly",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        }
+      },
+      "6.06.24": {
+        "Bridges": {
+          "date": "6.06.24",
+          "map": "Bridges",
+          "commanders": "Zentuski vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        },
+        "JO Crystal": {
+          "date": "6.06.24",
+          "map": "JO Crystal",
+          "commanders": "Sev vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "No Mans Land": {
+          "date": "6.06.24",
+          "map": "No Mans Land",
+          "commanders": "Zentuski vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        }
+      },
+      "6.08.24": {
+        "Bowl": {
+          "date": "6.08.24",
+          "map": "Bowl",
+          "commanders": "Gravey vs Cyber",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Gravey"
+        },
+        "Remnant": {
+          "date": "6.08.24",
+          "map": "Remnant",
+          "commanders": "Gravey vs Cyber",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Throbbing Gristle": {
+          "date": "6.08.24",
+          "map": "Throbbing Gristle",
+          "commanders": "Lamper vs Muffin",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Muffin"
+        }
+      },
+      "6.09.24": {
+        "Lunar": {
+          "date": "6.09.24",
+          "map": "Lunar",
+          "commanders": "Herp McDerperson vs Lamper",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Mojave": {
+          "date": "6.09.24",
+          "map": "Mojave",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "6.10.24": {
+        "Concrete Jungle": {
+          "date": "6.10.24",
+          "map": "Concrete Jungle",
+          "commanders": "Sly vs Lamper",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Consciousness": {
+          "date": "6.10.24",
+          "map": "Consciousness",
+          "commanders": "Sev vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Dusk": {
+          "date": "6.10.24",
+          "map": "Dusk",
+          "commanders": "Sly vs Econchump",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Econchump"
+        }
+      },
+      "6.12.24": {
+        "Insula": {
+          "date": "6.12.24",
+          "map": "Insula",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        },
+        "Terron": {
+          "date": "6.12.24",
+          "map": "Terron",
+          "commanders": "Zack vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Zack"
+        },
+        "Throbbing Gristle": {
+          "date": "6.12.24",
+          "map": "Throbbing Gristle",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Blue Banana"
+        }
+      },
+      "6.18.24": {
+        "Rectal": {
+          "date": "6.18.24",
+          "map": "Rectal",
+          "commanders": "Sly vs Zack",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Reflex": {
+          "date": "6.18.24",
+          "map": "Reflex",
+          "commanders": "Sly vs Zack",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Trench": {
+          "date": "6.18.24",
+          "map": "Trench",
+          "commanders": "Sly vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        }
+      },
+      "6.19.24": {
+        "Sinister": {
+          "date": "6.19.24",
+          "map": "Sinister",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "6.20.24": {
+        "Hound": {
+          "date": "6.20.24",
+          "map": "Hound",
+          "commanders": "Darkvale vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Lunix": {
+          "date": "6.20.24",
+          "map": "Lunix",
+          "commanders": "Darkvale vs Lamper",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Lamper"
+        },
+        "Overlook": {
+          "date": "6.20.24",
+          "map": "Overlook",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        }
+      },
+      "6.21.24": {
+        "Abuse": {
+          "date": "6.21.24",
+          "map": "Abuse",
+          "commanders": "Cyber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Iceberg": {
+          "date": "6.21.24",
+          "map": "Iceberg",
+          "commanders": "Sly vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        }
+      },
+      "6.22.24": {
+        "Ancient Hills": {
+          "date": "6.22.24",
+          "map": "Ancient Hills",
+          "commanders": "Cyber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Phoenix": {
+          "date": "6.22.24",
+          "map": "Phoenix",
+          "commanders": "F9bomber vs AI_Unit",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Titan": {
+          "date": "6.22.24",
+          "map": "Titan",
+          "commanders": "Cyber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Trail": {
+          "date": "6.22.24",
+          "map": "Trail",
+          "commanders": "AI_Unit vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      },
+      "6.23.24": {
+        "310": {
+          "date": "6.23.24",
+          "map": "310",
+          "commanders": "VTrider vs Domakus",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        }
+      },
+      "6.25.24": {
+        "Terron": {
+          "date": "6.25.24",
+          "map": "Terron",
+          "commanders": "VTrider vs Xohm",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "6.26.24": {
+        "Overlook": {
+          "date": "6.26.24",
+          "map": "Overlook",
+          "commanders": "VTrider vs Econchump",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        },
+        "Vegan": {
+          "date": "6.26.24",
+          "map": "Vegan",
+          "commanders": "F9bomber vs Darkvale",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "6.27.24": {
+        "Giza": {
+          "date": "6.27.24",
+          "map": "Giza",
+          "commanders": "VTrider vs Herp McDerperson",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Haven": {
+          "date": "6.27.24",
+          "map": "Haven",
+          "commanders": "Sly vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Mesa": {
+          "date": "6.27.24",
+          "map": "Mesa",
+          "commanders": "Sly vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Mountain Top": {
+          "date": "6.27.24",
+          "map": "Mountain Top",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana "
+        },
+        "Oasis": {
+          "date": "6.27.24",
+          "map": "Oasis",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "6.29.24": {
+        "Red Slope": {
+          "date": "6.29.24",
+          "map": "Red Slope",
+          "commanders": "VTrider vs Darkvale",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Throbbing Gristle": {
+          "date": "6.29.24",
+          "map": "Throbbing Gristle",
+          "commanders": "F9bomber vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "6.30.24": {
+        "Bowl": {
+          "date": "6.30.24",
+          "map": "Bowl",
+          "commanders": "Acolyte vs Laguna",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Laguna"
+        },
+        "Excavation": {
+          "date": "6.30.24",
+          "map": "Excavation",
+          "commanders": "M.S vs Laguna",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Mexican Mission": {
+          "date": "6.30.24",
+          "map": "Mexican Mission",
+          "commanders": "M.S vs Acolyte",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      }
+    },
+    "July": {
+      "7.2.24": {
+        "Haven": {
+          "date": "7.2.24",
+          "map": "Haven",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Lamper"
+        }
+      },
+      "7.3.24": {
+        "Remnant": {
+          "date": "7.3.24",
+          "map": "Remnant",
+          "commanders": "Sly vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Quarry": {
+          "date": "7.3.24",
+          "map": "Quarry",
+          "commanders": "Sly vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Terron": {
+          "date": "7.3.24",
+          "map": "Terron",
+          "commanders": "Sly vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Reflex": {
+          "date": "7.3.24",
+          "map": "Reflex",
+          "commanders": "Muffin vs Darkvale",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Muffin"
+        }
+      },
+      "7.31.24": {
+        "Lunar": {
+          "date": "7.31.24",
+          "map": "Lunar",
+          "commanders": "Lamper vs Xohm",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        }
+      },
+      "7.4.24": {
+        "Giza": {
+          "date": "7.4.24",
+          "map": "Giza",
+          "commanders": "Muffin vs Judgeguns",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Muffin"
+        },
+        "Reflex": {
+          "date": "7.4.24",
+          "map": "Reflex",
+          "commanders": "Muffin vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Selena": {
+          "date": "7.4.24",
+          "map": "Selena",
+          "commanders": "Blue Banana vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "7.5.24": {
+        "Overlook": {
+          "date": "7.5.24",
+          "map": "Overlook",
+          "commanders": "Nozza34 vs Muffin",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Muffin"
+        }
+      },
+      "7.6.24": {
+        "Europa": {
+          "date": "7.6.24",
+          "map": "Europa",
+          "commanders": "F9bomber vs Blue Banana",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Garden": {
+          "date": "7.6.24",
+          "map": "Garden",
+          "commanders": "Zack vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        },
+        "Royal Stadium": {
+          "date": "7.6.24",
+          "map": "Royal Stadium",
+          "commanders": "Zack vs Nozza34",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        },
+        "Vegan": {
+          "date": "7.6.24",
+          "map": "Vegan",
+          "commanders": "Zack vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        }
+      },
+      "7.7.24": {
+        "Egypt": {
+          "date": "7.7.24",
+          "map": "Egypt",
+          "commanders": "Muffin vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Remnant": {
+          "date": "7.7.24",
+          "map": "Remnant",
+          "commanders": "DD vs F9bomber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        },
+        "Satart": {
+          "date": "7.7.24",
+          "map": "Satart",
+          "commanders": "DD vs F9bomber",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "7.8.24": {
+        "Abuse": {
+          "date": "7.8.24",
+          "map": "Abuse",
+          "commanders": "Zack vs X-Triage",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "X-Triage"
+        },
+        "Europa": {
+          "date": "7.8.24",
+          "map": "Europa",
+          "commanders": "Zack vs Cyber",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Mesa": {
+          "date": "7.8.24",
+          "map": "Mesa",
+          "commanders": "Blue Banana vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Quagmire": {
+          "date": "7.8.24",
+          "map": "Quagmire",
+          "commanders": "Lamper vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      }
+    },
+    "August": {
+      "8.10.24": {
+        "Chill": {
+          "date": "8.10.24",
+          "map": "Chill",
+          "commanders": "Xohm vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Island of V8": {
+          "date": "8.10.24",
+          "map": "Island of V8",
+          "commanders": "Xohm vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Oldboy": {
+          "date": "8.10.24",
+          "map": "Oldboy",
+          "commanders": "Econchump vs Cyber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Remnant": {
+          "date": "8.10.24",
+          "map": "Remnant",
+          "commanders": "Darkvale vs Xpi",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "Darkvale"
+        },
+        "Sahara": {
+          "date": "8.10.24",
+          "map": "Sahara",
+          "commanders": "Lamper vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Tempest": {
+          "date": "8.10.24",
+          "map": "Tempest",
+          "commanders": "Econchump vs Cyber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Throbbing Gristle": {
+          "date": "8.10.24",
+          "map": "Throbbing Gristle",
+          "commanders": "Lamper vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "8.11.24": {
+        "Phoenix": {
+          "date": "8.11.24",
+          "map": "Phoenix",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "8.14.24": {
+        "Ancient Hills": {
+          "date": "8.14.24",
+          "map": "Ancient Hills",
+          "commanders": "Sev vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Mojave": {
+          "date": "8.14.24",
+          "map": "Mojave",
+          "commanders": "F9bomber vs Xohm",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Overlook": {
+          "date": "8.14.24",
+          "map": "Overlook",
+          "commanders": "Herp McDerperson vs VTrider",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        }
+      },
+      "8.15.24": {
+        "Ice Age": {
+          "date": "8.15.24",
+          "map": "Ice Age",
+          "commanders": "VTrider vs Sly",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Oxide": {
+          "date": "8.15.24",
+          "map": "Oxide",
+          "commanders": "F9bomber vs Lamper",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Remnant": {
+          "date": "8.15.24",
+          "map": "Remnant",
+          "commanders": "F9bomber vs Domakus",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Scion",
+          "winner": "Domakus"
+        }
+      },
+      "8.16.24": {
+        "Bowl": {
+          "date": "8.16.24",
+          "map": "Bowl",
+          "commanders": "Xohm vs Acolyte",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Xohm"
+        },
+        "Mojave": {
+          "date": "8.16.24",
+          "map": "Mojave",
+          "commanders": "Xohm vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Red Slope": {
+          "date": "8.16.24",
+          "map": "Red Slope",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "8.17.24": {
+        "Europa Night": {
+          "date": "8.17.24",
+          "map": "Europa Night",
+          "commanders": "CamelBay vs F9bomber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Terron": {
+          "date": "8.17.24",
+          "map": "Terron",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "8.18.24": {
+        "Abundance": {
+          "date": "8.18.24",
+          "map": "Abundance",
+          "commanders": "F9bomber vs Lamper",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Crater": {
+          "date": "8.18.24",
+          "map": "Crater",
+          "commanders": "Sev vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Europa Night": {
+          "date": "8.18.24",
+          "map": "Europa Night",
+          "commanders": "F9bomber vs CamelBay",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Insula": {
+          "date": "8.18.24",
+          "map": "Insula",
+          "commanders": "Herp McDerperson vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Strategy Arena": {
+          "date": "8.18.24",
+          "map": "Strategy Arena",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "8.19.24": {
+        "Domain": {
+          "date": "8.19.24",
+          "map": "Domain",
+          "commanders": "Xohm vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "Echelon": {
+          "date": "8.19.24",
+          "map": "Echelon",
+          "commanders": "Xohm vs DustRider",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "Mort's Wasteland": {
+          "date": "8.19.24",
+          "map": "Mort's Wasteland",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "8.20.24": {
+        "Dune Night": {
+          "date": "8.20.24",
+          "map": "Dune Night",
+          "commanders": "Blue Banana vs Sly",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Haven": {
+          "date": "8.20.24",
+          "map": "Haven",
+          "commanders": "Blue Banana vs Xohm",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        },
+        "Scion Central": {
+          "date": "8.20.24",
+          "map": "Scion Central",
+          "commanders": "Blue Banana vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Stone Circle": {
+          "date": "8.20.24",
+          "map": "Stone Circle",
+          "commanders": "Blue Banana vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "8.23.24": {
+        "Europa Night": {
+          "date": "8.23.24",
+          "map": "Europa Night",
+          "commanders": "Darkvale vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Excavation": {
+          "date": "8.23.24",
+          "map": "Excavation",
+          "commanders": "F9bomber vs M.S",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Overlook": {
+          "date": "8.23.24",
+          "map": "Overlook",
+          "commanders": "Darkvale vs Lamper",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Pitbull": {
+          "date": "8.23.24",
+          "map": "Pitbull",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Strategy Arena": {
+          "date": "8.23.24",
+          "map": "Strategy Arena",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Twin Peaks": {
+          "date": "8.23.24",
+          "map": "Twin Peaks",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Sev"
+        }
+      },
+      "8.24.24": {
+        "Ragnarok": {
+          "date": "8.24.24",
+          "map": "Ragnarok",
+          "commanders": "Gravey vs Sly",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Satart": {
+          "date": "8.24.24",
+          "map": "Satart",
+          "commanders": "Gravey vs Sly",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        },
+        "Scammed": {
+          "date": "8.24.24",
+          "map": "Scammed",
+          "commanders": "Gravey vs Sly",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sly"
+        }
+      },
+      "8.26.24": {
+        "Lunix": {
+          "date": "8.26.24",
+          "map": "Lunix",
+          "commanders": "Blue Banana vs Lamper",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Oasis": {
+          "date": "8.26.24",
+          "map": "Oasis",
+          "commanders": "Blue Banana vs Lamper",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Scammed": {
+          "date": "8.26.24",
+          "map": "Scammed",
+          "commanders": "HappyOtter vs Blue Banana",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Scion",
+          "winner": "Blue Banana"
+        }
+      },
+      "8.25.24": {
+        "Consciousness": {
+          "date": "8.25.24",
+          "map": "Consciousness",
+          "commanders": "Xohm vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Excavation": {
+          "date": "8.25.24",
+          "map": "Excavation",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        }
+      },
+      "8.28.24": {
+        "Twin Peaks": {
+          "date": "8.28.24",
+          "map": "Twin Peaks",
+          "commanders": "Judgeguns vs X-Triage",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "X-Triage"
+        }
+      },
+      "8.3.24": {
+        "No Mans Land": {
+          "date": "8.3.24",
+          "map": "No Mans Land",
+          "commanders": "Sly vs Domakus",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Red Slope": {
+          "date": "8.3.24",
+          "map": "Red Slope",
+          "commanders": "Sly vs Domakus",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Domakus"
+        },
+        "Reflex": {
+          "date": "8.3.24",
+          "map": "Reflex",
+          "commanders": "Darkvale vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Darkvale"
+        },
+        "Sahara": {
+          "date": "8.3.24",
+          "map": "Sahara",
+          "commanders": "Lamper vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        },
+        "Trench": {
+          "date": "8.3.24",
+          "map": "Trench",
+          "commanders": "Sly vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        }
+      },
+      "8.30.24": {
+        "Casius": {
+          "date": "8.30.24",
+          "map": "Casius",
+          "commanders": "Sev vs Herp McDerperson",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Sev"
+        },
+        "Europa Night": {
+          "date": "8.30.24",
+          "map": "Europa Night",
+          "commanders": "Domakus vs VTrider",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Quagmire": {
+          "date": "8.30.24",
+          "map": "Quagmire",
+          "commanders": "VTrider vs X-Triage",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "8.31.24": {
+        "Abundance": {
+          "date": "8.31.24",
+          "map": "Abundance",
+          "commanders": "Jabbapop vs Seige",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Seige"
+        },
+        "Ancient Hills": {
+          "date": "8.31.24",
+          "map": "Ancient Hills",
+          "commanders": "Xohm vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Barren": {
+          "date": "8.31.24",
+          "map": "Barren",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Beyond": {
+          "date": "8.31.24",
+          "map": "Beyond",
+          "commanders": "Seige vs X-Triage",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Seige"
+        },
+        "Caiscus": {
+          "date": "8.31.24",
+          "map": "Caiscus",
+          "commanders": "Muffin vs Jabbapop",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Muffin"
+        }
+      },
+      "8.7.24": {
+        "Domain": {
+          "date": "8.7.24",
+          "map": "Domain",
+          "commanders": "Muffin vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Lunix": {
+          "date": "8.7.24",
+          "map": "Lunix",
+          "commanders": "F9bomber vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "NA",
+          "winner": "NA"
+        },
+        "Mojave": {
+          "date": "8.7.24",
+          "map": "Mojave",
+          "commanders": "Domakus vs Lamper",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        }
+      }
+    },
+    "September": {
+      "9.1.24": {
+        "Casius": {
+          "date": "9.1.24",
+          "map": "Casius",
+          "commanders": "Seige vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Prodigy Ver .2": {
+          "date": "9.1.24",
+          "map": "Prodigy Ver .2",
+          "commanders": "Muffin vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Terron": {
+          "date": "9.1.24",
+          "map": "Terron",
+          "commanders": "M.S vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "9.2.24": {
+        "Insula": {
+          "date": "9.2.24",
+          "map": "Insula",
+          "commanders": "Sly vs Xohm",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "Scammed": {
+          "date": "9.2.24",
+          "map": "Scammed",
+          "commanders": "Sly vs Xohm",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Tempest": {
+          "date": "9.2.24",
+          "map": "Tempest",
+          "commanders": "Jabbapop vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Terrace": {
+          "date": "9.2.24",
+          "map": "Terrace",
+          "commanders": "Jabbapop vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "9.3.24": {
+        "Mountain Top": {
+          "date": "9.3.24",
+          "map": "Mountain Top",
+          "commanders": "Jabbapop vs Sev",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Sev"
+        }
+      },
+      "9.5.24": {
+        "Domain": {
+          "date": "9.5.24",
+          "map": "Domain",
+          "commanders": "Muffin vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Ebola": {
+          "date": "9.5.24",
+          "map": "Ebola",
+          "commanders": "VTrider vs Sev",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Europa": {
+          "date": "9.5.24",
+          "map": "Europa",
+          "commanders": "M.S vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Iraq": {
+          "date": "9.5.24",
+          "map": "Iraq",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F]",
+          "winner": "Lamper"
+        },
+        "Ravine": {
+          "date": "9.5.24",
+          "map": "Ravine",
+          "commanders": "Jabbapop vs Sev",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Sev"
+        },
+        "Tempest": {
+          "date": "9.5.24",
+          "map": "Tempest",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.6.24": {
+        "Casius": {
+          "date": "9.6.24",
+          "map": "Casius",
+          "commanders": "Sev vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Oldboy": {
+          "date": "9.6.24",
+          "map": "Oldboy",
+          "commanders": "Sev vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Twin Peaks": {
+          "date": "9.6.24",
+          "map": "Twin Peaks",
+          "commanders": "F9bomber vs Xohm",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.7.24": {
+        "Domain": {
+          "date": "9.7.24",
+          "map": "Domain",
+          "commanders": "Jabbapop vs X-Triage",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Jabbapop"
+        },
+        "Excavation": {
+          "date": "9.7.24",
+          "map": "Excavation",
+          "commanders": "Jabbapop vs Domakus",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Domakus"
+        },
+        "Garden": {
+          "date": "9.7.24",
+          "map": "Garden",
+          "commanders": "Darkvale vs Nozza34",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Nozza34"
+        },
+        "Quarry": {
+          "date": "9.7.24",
+          "map": "Quarry",
+          "commanders": "F9bomber vs Seige",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Sinister": {
+          "date": "9.7.24",
+          "map": "Sinister",
+          "commanders": "F9bomber vs Judgeguns",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.8.24": {
+        "Hi-Mid-Lo": {
+          "date": "9.8.24",
+          "map": "Hi-Mid-Lo",
+          "commanders": "F9bomber vs Xohm",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Strategy Arena": {
+          "date": "9.8.24",
+          "map": "Strategy Arena",
+          "commanders": "F9bomber vs Xohm",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Terron": {
+          "date": "9.8.24",
+          "map": "Terron",
+          "commanders": "Xohm vs F9bomber",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.10.24": {
+        "Phazon": {
+          "date": "9.10.24",
+          "map": "Phazon",
+          "commanders": "Domakus vs Gravey",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "Gravey"
+        },
+        "Quagmire": {
+          "date": "9.10.24",
+          "map": "Quagmire",
+          "commanders": "F9bomber vs Domakus",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "Domakus"
+        },
+        "Sahara": {
+          "date": "9.10.24",
+          "map": "Sahara",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Vegan": {
+          "date": "9.10.24",
+          "map": "Vegan",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.11.24": {
+        "Ebola": {
+          "date": "9.11.24",
+          "map": "Ebola",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Snow Central": {
+          "date": "9.11.24",
+          "map": "Snow Central",
+          "commanders": "VTrider vs X-Triage",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Terron": {
+          "date": "9.11.24",
+          "map": "Terron",
+          "commanders": "AI_Unit vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "9.12.24": {
+        "Oasis": {
+          "date": "9.12.24",
+          "map": "Oasis",
+          "commanders": "VTrider vs Gravey",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Titan": {
+          "date": "9.12.24",
+          "map": "Titan",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "9.13.24": {
+        "Abuse": {
+          "date": "9.13.24",
+          "map": "Abuse",
+          "commanders": "VTrider vs Cyber",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Barren": {
+          "date": "9.13.24",
+          "map": "Barren",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        },
+        "Ebola": {
+          "date": "9.13.24",
+          "map": "Ebola",
+          "commanders": "Gravey vs Cyber",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Overlook": {
+          "date": "9.13.24",
+          "map": "Overlook",
+          "commanders": "VTrider vs Domakus",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Domakus"
+        },
+        "Twin Peaks": {
+          "date": "9.13.24",
+          "map": "Twin Peaks",
+          "commanders": "M.S vs Cyber",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Vegan": {
+          "date": "9.13.24",
+          "map": "Vegan",
+          "commanders": "DatGuy vs Cyber",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "DatGuy"
+        }
+      },
+      "9.15.24": {
+        "Hi-Mid-Lo": {
+          "date": "9.15.24",
+          "map": "Insula",
+          "commanders": "Jabbapop vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        },
+        "Insula": {
+          "date": "9.15.24",
+          "map": "Insula",
+          "commanders": "Jabbapop vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "Red Slope": {
+          "date": "9.15.24",
+          "map": "Red Slope",
+          "commanders": "M.S vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Vegan": {
+          "date": "9.15.24",
+          "map": "Vegan",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        }
+      },
+      "9.17.24": {
+        "Garden": {
+          "date": "9.17.24",
+          "map": "Garden",
+          "commanders": "Jabbapop vs Blue Banana",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        },
+        "Rendon": {
+          "date": "9.17.24",
+          "map": "Rendon",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Terron": {
+          "date": "9.17.24",
+          "map": "Terron",
+          "commanders": "Blue Banana vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        }
+      },
+      "9.18.24": {
+        "Red Slope": {
+          "date": "9.18.24",
+          "map": "Red Slope",
+          "commanders": "Lamper vs Xohm",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Lamper"
+        }
+      },
+      "9.19.24": {
+        "Excavation": {
+          "date": "9.19.24",
+          "map": "Excavation",
+          "commanders": "VTrider vs Econchump",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Lunar": {
+          "date": "9.19.24",
+          "map": "Lunar",
+          "commanders": "Gravey vs Xohm",
+          "factions": "[Scion, Scion]",
+          "winning faction": "Scion",
+          "winner": "Xohm"
+        },
+        "Mojave": {
+          "date": "9.19.24",
+          "map": "Mojave",
+          "commanders": "Domakus vs Xohm",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Domakus"
+        },
+        "Moonshroud": {
+          "date": "9.19.24",
+          "map": "Moonshroud",
+          "commanders": "Domakus vs Xohm",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "Domakus"
+        }
+      },
+      "9.22.24": {
+        "Haven": {
+          "date": "9.22.24",
+          "map": "Haven",
+          "commanders": "VTrider vs Gravey",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Scammed": {
+          "date": "9.22.24",
+          "map": "Scammed",
+          "commanders": "VTrider vs Econchump",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Econchump"
+        }
+      },
+      "9.25.24": {
+        "Insula": {
+          "date": "9.25.24",
+          "map": "Insula",
+          "commanders": "F9bomber vs Xohm",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Tempest": {
+          "date": "9.25.24",
+          "map": "Tempest",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Terron": {
+          "date": "9.25.24",
+          "map": "Terron",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      }
+    },
+    "October": {
+      "10.1.24": {
+        "Assualt": {
+          "date": "10.1.24",
+          "map": "Assualt",
+          "commanders": "Sev vs Jabbapop",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Sev"
+        },
+        "Mojave": {
+          "date": "10.1.24",
+          "map": "Mojave",
+          "commanders": "VTrider vs Xohm",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        }
+      },
+      "10.3.24": {
+        "Europa": {
+          "date": "10.3.24",
+          "map": "Europa",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        },
+        "Giza": {
+          "date": "10.3.24",
+          "map": "Giza",
+          "commanders": "F9bomber vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "10.5.24": {
+        "Overlook": {
+          "date": "10.5.24",
+          "map": "Overlook",
+          "commanders": "X-Triage vs Nozza34",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "X-Triage"
+        },
+        "Overlook": {
+          "date": "10.5.24",
+          "map": "Overlook",
+          "commanders": "X-Triage vs Muffin",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Muffin"
+        }
+      },
+      "10.6.24": {
+        "Mojave": {
+          "date": "10.6.24",
+          "map": "Mojave",
+          "commanders": "Cloaket vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cloaket"
+        },
+        "Red Slope": {
+          "date": "10.6.24",
+          "map": "Red Slope",
+          "commanders": "M.S vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        }
+      },
+      "10.13.24": {
+        "Dream": {
+          "date": "10.13.24",
+          "map": "Dream",
+          "commanders": "Econchump vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "VTrider"
+        },
+        "Mojave": {
+          "date": "10.13.24",
+          "map": "Mojave",
+          "commanders": "Econchump vs Jabbapop",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Econchump"
+        },
+        "Red Slope": {
+          "date": "10.13.24",
+          "map": "Red Slope",
+          "commanders": "M.S vs Jabbapop",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Jabbapop"
+        },
+        "Sahara": {
+          "date": "10.13.24",
+          "map": "Sahara",
+          "commanders": "Sly vs VTrider",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        },
+        "Scammed": {
+          "date": "10.13.24",
+          "map": "Scammed",
+          "commanders": "Domakus vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Domakus"
+        }
+      },
+      "10.15.24": {
+        "Ancient Hills": {
+          "date": "10.15.24",
+          "map": "Ancient Hills",
+          "commanders": "Lamper vs Sev",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Lamper"
+        },
+        "Garden": {
+          "date": "10.15.24",
+          "map": "Garden",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        }
+      },
+      "10.18.24": {
+        "Dream": {
+          "date": "10.18.24",
+          "map": "Dream",
+          "commanders": "Gravey vs VTrider",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "VTrider"
+        }
+      },
+      "10.19.24": {
+        "High Heat": {
+          "date": "10.19.24",
+          "map": "High Heat",
+          "commanders": "Jabbapop vs HappyOtter",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Jabbapop"
+        },
+        "Mojave": {
+          "date": "10.19.24",
+          "map": "Mojave",
+          "commanders": "Gravey vs Xohm",
+          "factions": "[Scion, Scion]",
+          "winning faction": "Scion",
+          "winner": "Xohm"
+        },
+        "Reflex": {
+          "date": "10.19.24",
+          "map": "Reflex",
+          "commanders": "Gravey vs Xohm",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "Scion Central": {
+          "date": "10.19.24",
+          "map": "Scion Central",
+          "commanders": "Jabbapop vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Jabbapop"
+        },
+        "Sinister": {
+          "date": "10.19.24",
+          "map": "Sinister",
+          "commanders": "Jabbapop vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "10.20.24": {
+        "Scammed": {
+          "date": "10.20.24",
+          "map": "Scammed",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Blue Banana"
+        },
+        "Transfer": {
+          "date": "10.20.24",
+          "map": "Transfer",
+          "commanders": "VTrider vs Herp McDerperson",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Twin Peaks": {
+          "date": "10.20.24",
+          "map": "Twin Peaks",
+          "commanders": "VTrider vs Rosario",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Rosario"
+        }
+      },
+      "10.21.24": {
+        "Europa": {
+          "date": "10.21.24",
+          "map": "Europa",
+          "commanders": "Sly vs Blue Banana",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        },
+        "Hi-Mid-Lo": {
+          "date": "10.21.24",
+          "map": "Hi-Mid-Lo",
+          "commanders": "VTrider vs Herp McDerperson",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Island of V8": {
+          "date": "10.21.24",
+          "map": "Island of V8",
+          "commanders": "VTrider vs Blue Banana",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        }
+      },
+      "10.29.24": {
+        "Overlook": {
+          "date": "10.29.24",
+          "map": "Overlook",
+          "commanders": "Blue Banana vs Lamper",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Lamper"
+        },
+        "Snow Central": {
+          "date": "10.29.24",
+          "map": "Snow Central",
+          "commanders": "VTrider vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Titan": {
+          "date": "10.29.24",
+          "map": "Titan",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Sev"
+        }
+      },
+      "10.30.24": {
+        "Casius": {
+          "date": "10.30.24",
+          "map": "Casius",
+          "commanders": "Sev vs VTrider",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "VTrider"
+        },
+        "Lunar": {
+          "date": "10.30.24",
+          "map": "Lunar",
+          "commanders": "VTrider vs Lamper",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Lamper"
+        }
+      }
+    },
+    "November": {
+      "11.4.24": {
+        "Giza": {
+          "date": "11.4.24",
+          "map": "Giza",
+          "commanders": "Herp McDerperson vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Moonshroud": {
+          "date": "11.4.24",
+          "map": "Moonshroud",
+          "commanders": "VTrider vs Econchump",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Econchump"
+        }
+      },
+      "11.8.24": {
+        "Red Slope": {
+          "date": "11.8.24",
+          "map": "Red Slope",
+          "commanders": "Xpi vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Scammed": {
+          "date": "11.8.24",
+          "map": "Scammed",
+          "commanders": "Xpi vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Terron": {
+          "date": "11.8.24",
+          "map": "Terron",
+          "commanders": "Xpi vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "11.13.24": {
+        "Ancient Hills": {
+          "date": "11.13.24",
+          "map": "Ancient Hills",
+          "commanders": "F9bomber vs Sly",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "11.14.24": {
+        "Hi-Mid-Lo": {
+          "date": "11.14.24",
+          "map": "Hi-Mid-Lo",
+          "commanders": "General BlackDragon vs Nielk1",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "General BlackDragon"
+        }
+      },
+      "11.17.24": {
+        "Forgotten": {
+          "date": "11.17.24",
+          "map": "Forgotten",
+          "commanders": "X-Triage vs Xpi",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xpi"
+        },
+        "Ogg Vorbis": {
+          "date": "11.17.24",
+          "map": "Ogg Vorbis",
+          "commanders": "Herp McDerperson vs Xpi",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xpi"
+        },
+        "Rendon": {
+          "date": "11.17.24",
+          "map": "Rendon",
+          "commanders": "VTrider vs Econchump",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Econchump"
+        }
+      }
+    },
+    "December": {
+      "12.2.24": {
+        "Mort's Wasteland": {
+          "date": "12.2.24",
+          "map": "Mort's Wasteland",
+          "commanders": "F9bomber vs HappyOtter",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Overlook": {
+          "date": "12.2.24",
+          "map": "Overlook",
+          "commanders": "Xpi vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "12.5.24": {
+        "Remnant": {
+          "date": "12.5.24",
+          "map": "Remnant",
+          "commanders": "Domakus vs Cyber",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Domakus"
+        },
+        "Strategy Arena": {
+          "date": "12.5.24",
+          "map": "Strategy Arena",
+          "commanders": "Xohm vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Tempest": {
+          "date": "12.5.24",
+          "map": "Tempest",
+          "commanders": "Maverick vs Judgeguns",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Judgeguns"
+        }
+      },
+      "12.6.24": {
+        "Europa": {
+          "date": "12.6.24",
+          "map": "Europa",
+          "commanders": "Xohm vs Athelas",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xohm"
+        },
+        "High & Low": {
+          "date": "12.6.24",
+          "map": "High & Low",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Island of V8": {
+          "date": "12.6.24",
+          "map": "Island of V8",
+          "commanders": "Domakus vs DesUxS",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "Domakus"
+        },
+        "Overlook": {
+          "date": "12.6.24",
+          "map": "Overlook",
+          "commanders": "Sev vs DesUxS",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        },
+        "Throbbing Gristle": {
+          "date": "12.6.24",
+          "map": "Throbbing Gristle",
+          "commanders": "F9bomber vs Sev",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "F9bomber"
+        }
+      },
+      "12.7.14": {
+        "Lunix": {
+          "date": "12.7.14",
+          "map": "Lunix",
+          "commanders": "Jabbapop vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        },
+        "Mojave": {
+          "date": "12.7.14",
+          "map": "Mojave",
+          "commanders": "Jabbapop vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        },
+        "Oasis": {
+          "date": "12.7.14",
+          "map": "Oasis",
+          "commanders": "Xpi vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Xpi"
+        },
+        "Reflex": {
+          "date": "12.7.14",
+          "map": "Reflex",
+          "commanders": "Xpi vs Xohm",
+          "factions": "[Scion, Scion]",
+          "winning faction": "Scion",
+          "winner": "Xohm"
+        },
+        "Terron": {
+          "date": "12.7.14",
+          "map": "Terron",
+          "commanders": "DD vs Xohm",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        }
+      },
+      "12.8.24": {
+        "Europa": {
+          "date": "12.8.24",
+          "map": "Europa",
+          "commanders": "F9bomber vs M.S",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "Scion",
+          "winner": "F9bomber"
+        },
+        "Phoenix": {
+          "date": "12.8.24",
+          "map": "Phoenix",
+          "commanders": "F9bomber vs Zack",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "12.9.24": {
+        "Alien Dunes": {
+          "date": "12.9.24",
+          "map": "Alien Dunes",
+          "commanders": "M.S vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        },
+        "Ragnarok": {
+          "date": "12.9.24",
+          "map": "Ragnarok",
+          "commanders": "F9bomber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      },
+      "12.10.24": {
+        "Dune Night": {
+          "date": "12.10.24",
+          "map": "Dune Night",
+          "commanders": "M.S vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      },
+      "12.13.24": {
+        "Garden": {
+          "date": "12.13.24",
+          "map": "Garden",
+          "commanders": "Herp McDerperson vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Overlook": {
+          "date": "12.13.24",
+          "map": "Overlook",
+          "commanders": "HappyOtter vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Sahara": {
+          "date": "12.13.24",
+          "map": "Sahara",
+          "commanders": "DesUxS vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "DesUxS"
+        },
+        "Scammed": {
+          "date": "12.13.24",
+          "map": "Scammed",
+          "commanders": "DesUxS vs DD",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        }
+      },
+      "12.14.24": {
+        "Europa Night": {
+          "date": "12.14.24",
+          "map": "Europa Night",
+          "commanders": "F9bomber vs Judgeguns",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        }
+      },
+      "12.16.24": {
+        "Europa Night": {
+          "date": "12.16.24",
+          "map": "Europa Night",
+          "commanders": "Cyber vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Casius": {
+          "date": "12.16.24",
+          "map": "Casius",
+          "commanders": "M.S vs Sev",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Mojave": {
+          "date": "12.16.24",
+          "map": "Mojave",
+          "commanders": "M.S vs Sev",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        },
+        "Giza": {
+          "date": "12.16.24",
+          "map": "Giza",
+          "commanders": "M.S vs Sly",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sly"
+        }
+      },
+      "12.17.24": {
+        "Forgotten": {
+          "date": "12.17.24",
+          "map": "Forgotten",
+          "commanders": "Herp McDerperson vs HappyOtter",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "Scion",
+          "winner": "HappyOtter"
+        }
+      },
+      "12.19.24": {
+        "Magma": {
+          "date": "12.19.24",
+          "map": "Forgotten",
+          "commanders": "AI_Unit vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "AI_Unit"
+        },
+        "Terrace": {
+          "date": "12.19.24",
+          "map": "Forgotten",
+          "commanders": "AI_Unit vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "AI_Unit"
+        },
+        "Vegan": {
+          "date": "12.19.24",
+          "map": "Vegan",
+          "commanders": "Cyber vs Zack",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Cyber"
+        }
+      },
+      "12.21.24": {
+        "Giza": {
+          "date": "12.21.24",
+          "map": "Giza",
+          "commanders": "Herp McDerperson vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Garden": {
+          "date": "12.21.24",
+          "map": "Garden",
+          "commanders": "Zack vs Herp McDerperson",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Herp McDerperson"
+        },
+        "Europa Night": {
+          "date": "12.21.24",
+          "map": "Europa Night",
+          "commanders": "M.S vs VTrider",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "M.S"
+        }
+      },
+      "12.23.24": {
+        "Quarry": {
+          "date": "12.23.24",
+          "map": "Quarry",
+          "commanders": "F9bomber vs Blue Banana",
+          "factions": "[Hadean, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "Blue Banana"
+        }
+      },
+      "12.24.24": {
+        "Sinister": {
+          "date": "12.24.24",
+          "map": "Sinister",
+          "commanders": "F9bomber vs DD",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "DD"
+        },
+        "Tempest": {
+          "date": "12.24.24",
+          "map": "Tempest",
+          "commanders": "F9bomber vs Domakus",
+          "factions": "[Hadean, Scion]",
+          "winning faction": "Scion",
+          "winner": "Domakus"
+        }
+      },
+      "12.26.24": {
+        "Plaza": {
+          "date": "12.23.24",
+          "map": "Plaza",
+          "commanders": "Maverick vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        }
+      },
+      "12.27.24": {
+        "Throbbing Gristle": {
+          "date": "12.27.24",
+          "map": "Throbbing Gristle",
+          "commanders": "Shock vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Shock"
+        },
+        "Terron": {
+          "date": "12.27.24",
+          "map": "Terron",
+          "commanders": "DD vs Shock",
+          "factions": "[Scion, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Shock"
+        }
+      },
+      "12.28.24": {
+        "Ice Age": {
+          "date": "12.28.24",
+          "map": "Ice Age",
+          "commanders": "Jabbapop vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "Hadean",
+          "winner": "F9bomber"
+        },
+        "Dune Night": {
+          "date": "12.28.24",
+          "map": "Dune Night",
+          "commanders": "Shock vs F9bomber",
+          "factions": "[I.S.D.F, Hadean]",
+          "winning faction": "I.S.D.F",
+          "winner": "Shock"
+        },
+        "Excavation": {
+          "date": "12.28.24",
+          "map": "Excavation",
+          "commanders": "HappyOtter vs F9bomber",
+          "factions": "[I.S.D.F, Scion]",
+          "winning faction": "I.S.D.F",
+          "winner": "HappyOtter"
+        }
+      },
+      "12.29.24": {
+        "Vegan": {
+          "date": "12.29.24",
+          "map": "Vegan",
+          "commanders": "Cyber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Barren": {
+          "date": "12.29.24",
+          "map": "Barren",
+          "commanders": "Cyber vs M.S",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Cyber"
+        },
+        "Bowl": {
+          "date": "12.29.24",
+          "map": "Bowl",
+          "commanders": "Sev vs F9bomber",
+          "factions": "[Scion, Hadean]",
+          "winning faction": "Scion",
+          "winner": "Sev"
+        },
+        "Ragnarok": {
+          "date": "12.29.24",
+          "map": "Ragnarok",
+          "commanders": "Sev vs Zack",
+          "factions": "[Hadean, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Zack"
+        },
+        "Remnant": {
+          "date": "12.29.24",
+          "map": "Remnant",
+          "commanders": "Sev vs Zack",
+          "factions": "[I.S.D.F, I.S.D.F]",
+          "winning faction": "I.S.D.F",
+          "winner": "Sev"
+        }
+      }
+    }
+  }
 }
