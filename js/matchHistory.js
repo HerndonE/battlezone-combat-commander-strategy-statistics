@@ -112,6 +112,7 @@ function renderTable() {
 
   const yearFilter = document.getElementById("yearFilter").value;
   const monthFilter = document.getElementById("monthFilter").value;
+
   const search = document.getElementById("search").value.toLowerCase();
 
   const filtered = rows.filter(

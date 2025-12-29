@@ -16,8 +16,7 @@ footer p {
 
 /* Float four columns side by side */
 .column {
-  float: left;
-  width: 10%;
+  flex: 0 0 10%; 
   padding: 0 5px;
 }
 
@@ -28,13 +27,6 @@ footer p {
   gap: 10px; /* optional spacing between columns */
   padding: 0; /* remove horizontal padding */
   flex-wrap: wrap; /* allow wrapping on small screens */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Style the counter cards */
