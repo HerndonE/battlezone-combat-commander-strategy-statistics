@@ -19,7 +19,7 @@ function mapCountBarChart2025(containerSelector, mapData, expandBtnSelector) {
   const expandBtn = document.querySelector(expandBtnSelector);
 
   const defaultItemCount = 10;
-  const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+  const margin = { top: 20, right: 20, bottom: 140, left: 50 };
   const height = +svg.attr("height") - margin.top - margin.bottom;
   const borderRadius = 5;
 
@@ -198,15 +198,14 @@ function commanderCountBarChart2025(
 
     svg
       .append("g")
-      .attr("class", "axis") // <-- Added here
+      .attr("class", "axis")
       .attr("transform", `translate(0, ${height + margin.top})`)
       .call(xAxis)
       .selectAll("text")
-      .attr("transform", "rotate(90)")
-      .attr("x", 9)
-      .attr("y", 0)
-      .attr("dy", ".35em")
-      .style("text-anchor", "start")
+      .attr("transform", "rotate(-40)")
+      .style("text-anchor", "end")
+      .attr("dx", "-0.8em")
+      .attr("dy", "0.15em")
       .attr("fill", TEXT_LIGHT);
 
     svg
@@ -358,7 +357,7 @@ function commanderFactionChoiceCountBarChart2025(
       .attr("y", (d) => y(d.value))
       .attr("width", x1.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+      .attr("fill", (d) => color(d.faction))
       .attr("rx", borderRadius)
       .attr("ry", borderRadius)
       .attr("class", "bar")

@@ -42,8 +42,9 @@ footer p {
 
   footer,
   footer p {
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .row {

@@ -74,7 +74,7 @@ function mapCountBarChart(
 
   const defaultItemCount = 10;
   const svgHeight = GRAPH_POPERTIES.svgHeight;
-  const margin = { top: 20, right: 20, bottom: 100, left: 50 };
+  const margin = { top: 20, right: 20, bottom: 140, left: 50 };
   const borderRadius = 5; // rounded corners
 
   const svg = d3
@@ -251,11 +251,10 @@ function commanderCountBarChart(
       .attr("transform", `translate(0, ${height + margin.top})`)
       .call(xAxis)
       .selectAll("text")
-      .attr("transform", "rotate(90)")
-      .attr("x", 9)
-      .attr("y", 0)
-      .attr("dy", ".35em")
-      .style("text-anchor", "start")
+      .attr("transform", "rotate(-40)")
+      .style("text-anchor", "end")
+      .attr("dx", "-0.8em")
+      .attr("dy", "0.15em")
       .attr("fill", TEXT_LIGHT);
 
     svg
