@@ -650,7 +650,7 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     "#expand-btn-faction-choice-2026"
   );
 
-  factionPopularity2026("#inline-bar-chart-3", data.faction_counter);
+  factionPopularity2026("#inline-bar-chart-4", data.faction_counter);
 
   commanderWinPercentages2026(
     "#chart-wrapper-commander-wins-2026",
