@@ -213,6 +213,22 @@ populateCommanderWinCards(
   allData["2025"]["data_2025"].commander_win_percentages
 );
 
+// 2026
+populateCards("factions-2026", allData["2026"]["data_2026"].faction_counter);
+populateCards("maps-2026", allData["2026"]["data_2026"].map_counts);
+populateCards(
+  "active-commanders-2026",
+  allData["2026"]["data_2026"].commander_list
+);
+populateCommanderCards(
+  "commander-cards-2026",
+  allData["2026"]["data_2026"].commander_faction_counts
+);
+populateCommanderWinCards(
+  "commander-win-cards-2026",
+  allData["2026"]["data_2026"].commander_win_percentages
+);
+
 // Dropdown toggle
 document.querySelectorAll(".dropdown-btn").forEach((btn) => {
   btn.addEventListener("click", () => {

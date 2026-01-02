@@ -53,3 +53,19 @@ tr:nth-child(odd) {
 	color: #ffa45c;
 	font-weight: bold;
 }
+
+details summary {
+  cursor: pointer;
+  color: #7bdcff;
+  font-weight: bold;
+}
+
+details details summary {
+  color: #ffa45c;
+  font-weight: normal;
+}
+
+details div {
+  font-size: 13px;
+  line-height: 1.4;
+}

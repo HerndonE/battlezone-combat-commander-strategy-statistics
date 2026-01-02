@@ -27,6 +27,7 @@ function extractRows(json) {
               teamOneStraggler: m.teamOneStraggler || [],
               teamTwoStraggler: m.teamTwoStraggler || [],
             },
+            stats: m["stats"],
           });
         }
       }
@@ -127,6 +128,7 @@ function renderTable() {
 
   filtered.forEach((r) => {
     const tr = document.createElement("tr");
+    const summary = r.stats?.game_summary;
     tr.innerHTML = `
             <td>${r.date}</td>
             <td>${r.map}</td>
@@ -158,6 +160,83 @@ function renderTable() {
                     : ""
                 }
             </td>
+            <td>
+              ${
+                r.stats
+                  ? `
+              <details>
+                <summary>View stats</summary>
+
+                <!-- GAME SUMMARY -->
+                <details style="margin-left:12px">
+                  <summary>Game summary</summary>
+
+                  <div style="margin-left:12px">
+                    <strong>Total time:</strong> ${
+                      r.stats.game_summary.total_time
+                    }<br><br>
+
+                    ${r.stats.game_summary.team_overviews
+                      .map(
+                        (t) => `
+                      <strong>${t.name}</strong><br>
+                      Score: ${t.score}<br>
+                      Kills: ${t.kills}<br>
+                      Deaths: ${t.deaths}<br><br>
+                    `
+                      )
+                      .join("")}
+                  </div>
+                </details>
+
+                <!-- TEAM DETAILS -->
+                <details style="margin-left:12px">
+                  <summary>Team details</summary>
+
+                  <div style="margin-left:12px">
+                    ${r.stats.teams_detailed
+                      .map(
+                        (team) => `
+                      <details>
+                        <summary>${team.header}</summary>
+
+                        <div style="margin-left:12px">
+                          <strong>Metrics</strong><br>
+                          ${Object.entries(team.metrics || {})
+                            .map(([k, v]) => `${k.replace(/_/g, " ")}: ${v}`)
+                            .join("<br>")}
+                          <br><br>
+
+                          <strong>Combat stats</strong><br>
+                          ${Object.entries(team.combat_stats || {})
+                            .map(
+                              ([section, values]) => `
+                              <em>${section.replace(/_/g, " ")}</em><br>
+                              ${
+                                Object.keys(values).length
+                                  ? Object.entries(values)
+                                      .map(([k, v]) => `• ${k}: ${v}`)
+                                      .join("<br>")
+                                  : "None"
+                              }
+                              <br><br>
+                            `
+                            )
+                            .join("")}
+                        </div>
+                      </details>
+                    `
+                      )
+                      .join("")}
+                  </div>
+                </details>
+
+              </details>
+              `
+                  : "NA"
+              }
+            </td>
+
         `;
     body.appendChild(tr);
   });

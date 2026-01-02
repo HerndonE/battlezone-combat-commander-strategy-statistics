@@ -2,9 +2,9 @@
 	"year": "2026",
 	"month": {
 		"January": {
-			"01.1.25": {
+			"01.1.26": {
 				"Giza": {
-					"date": "01.1.25",
+					"date": "01.1.26",
 					"map": "Giza",
 					"commanders": "Xpi vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -284,7 +284,7 @@
 					}
 				},
 				"Overlook": {
-					"date": "01.1.25",
+					"date": "01.1.26",
 					"map": "Overlook",
 					"commanders": "Certified Bad Guy vs Cloaket",
 					"factions": "[I.S.D.F, Hadean]",
@@ -630,7 +630,7 @@
 					}
 				},
 				"Quagmire": {
-					"date": "01.1.25",
+					"date": "01.1.26",
 					"map": "Quagmire",
 					"commanders": "Certified Bad Guy vs Cloaket",
 					"factions": "[I.S.D.F, Hadean]",
@@ -934,7 +934,7 @@
 					}
 				},
 				"Remnant": {
-					"date": "01.1.25",
+					"date": "01.1.26",
 					"map": "Remnant",
 					"commanders": "Xpi vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
