@@ -1930,10 +1930,10 @@
                         "Overlook": {
                             "date": "10.5.24",
                             "map": "Overlook",
-                            "commanders": "X-Triage vs Muffin",
+                            "commanders": "X-Triage vs Nozza34",
                             "factions": "[I.S.D.F, I.S.D.F]",
                             "winningFaction": "I.S.D.F",
-                            "winner": "Muffin"
+                            "winner": "X-Triage"
                         }
                     },
                     "10.6.24": {
@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Rectal",
-                "Domain",
-                "Concrete Jungle",
-                "Trench",
-                "Selena",
-                "Ebola",
-                "Ancient Hills",
-                "Oxide",
-                "High Heat",
-                "Satart",
-                "Bridges",
-                "Mexican Mission",
-                "Garden",
-                "Mesa",
-                "Sinister",
-                "Insula",
-                "Barren",
-                "Iraq",
-                "Dream",
-                "Oldboy",
-                "Island of V8",
-                "Pitbull",
-                "Red Slope",
-                "Plaza",
-                "Terrace",
-                "Europa",
-                "Consciousness",
-                "Phoenix",
-                "Casius",
-                "Sahara",
-                "Egypt",
-                "Echelon",
-                "Ice Age",
-                "Ridges",
-                "Phazon",
-                "Lunix",
-                "Twin Peaks",
-                "Scammed",
-                "Aztec",
-                "Chill",
-                "Dune Night",
-                "Terron",
-                "Caiscus",
-                "Abuse",
-                "Ragnarok",
-                "Ravine",
-                "Stone Circle",
-                "Oasis",
-                "Bowl",
-                "Transfer",
-                "Beyond",
-                "Europa Night",
-                "JO Crystal",
-                "Quagmire",
-                "Overlook",
-                "Assualt",
-                "Hound",
-                "Remnant",
-                "Crater",
-                "Mountain Top",
-                "Hi-Mid-Lo",
-                "Madern Warfare",
-                "Abundance",
-                "Alien Dunes",
-                "Forgotten",
-                "Dusk",
-                "Iceberg",
-                "Quarry",
-                "Titan",
-                "Lunar",
-                "Excavation",
-                "Tempest",
                 "310",
-                "Trail",
-                "Ogg Vorbis",
-                "Haven",
-                "Rendon",
-                "Throbbing Gristle",
-                "Vortex",
-                "Scion Central",
-                "Mojave",
-                "Moonshroud",
-                "High & Low",
-                "Prodigy Ver .2",
-                "Mort's Wasteland",
-                "Snow Central",
                 "Giza",
-                "Vegan",
-                "Strategy Arena",
-                "Reflex",
-                "Royal Stadium",
                 "No Mans Land",
-                "Plus"
+                "Alien Dunes",
+                "Abundance",
+                "JO Crystal",
+                "Ogg Vorbis",
+                "Ravine",
+                "Europa",
+                "Oxide",
+                "Sinister",
+                "Mojave",
+                "Chill",
+                "Lunar",
+                "Oasis",
+                "Phazon",
+                "Aztec",
+                "Garden",
+                "Selena",
+                "Reflex",
+                "Concrete Jungle",
+                "Rendon",
+                "Ridges",
+                "Snow Central",
+                "Oldboy",
+                "Dune Night",
+                "Hi-Mid-Lo",
+                "Vegan",
+                "Remnant",
+                "Excavation",
+                "Haven",
+                "Barren",
+                "Mesa",
+                "Vortex",
+                "Prodigy Ver .2",
+                "Egypt",
+                "Rectal",
+                "Trench",
+                "Stone Circle",
+                "Assualt",
+                "Crater",
+                "High & Low",
+                "Bowl",
+                "Plus",
+                "Twin Peaks",
+                "Phoenix",
+                "Plaza",
+                "Ragnarok",
+                "Quagmire",
+                "Iraq",
+                "Beyond",
+                "Domain",
+                "Scion Central",
+                "Dusk",
+                "Pitbull",
+                "Royal Stadium",
+                "Hound",
+                "Terrace",
+                "Dream",
+                "Mexican Mission",
+                "Forgotten",
+                "Ice Age",
+                "Transfer",
+                "Moonshroud",
+                "Terron",
+                "Strategy Arena",
+                "Mountain Top",
+                "Lunix",
+                "Island of V8",
+                "Trail",
+                "Scammed",
+                "High Heat",
+                "Overlook",
+                "Caiscus",
+                "Insula",
+                "Abuse",
+                "Echelon",
+                "Quarry",
+                "Ancient Hills",
+                "Consciousness",
+                "Satart",
+                "Titan",
+                "Casius",
+                "Tempest",
+                "Madern Warfare",
+                "Europa Night",
+                "Ebola",
+                "Throbbing Gristle",
+                "Mort's Wasteland",
+                "Bridges",
+                "Red Slope",
+                "Iceberg",
+                "Sahara"
             ],
             "commander_list": [
                 [
@@ -3209,11 +3209,11 @@
                     21
                 ],
                 [
-                    "Muffin",
-                    20
+                    "Herp McDerperson",
+                    19
                 ],
                 [
-                    "Herp McDerperson",
+                    "Muffin",
                     19
                 ],
                 [
@@ -3257,12 +3257,12 @@
                     6
                 ],
                 [
-                    "Judgeguns",
+                    "Nozza34",
                     5
                 ],
                 [
-                    "Nozza34",
-                    4
+                    "Judgeguns",
+                    5
                 ],
                 [
                     "Seige",
@@ -3381,16 +3381,16 @@
                     11
                 ],
                 [
-                    "Muffin",
-                    65.0,
-                    20,
-                    13
-                ],
-                [
                     "Cyber",
                     64.70588235294117,
                     17,
                     11
+                ],
+                [
+                    "Muffin",
+                    63.1578947368421,
+                    19,
+                    12
                 ],
                 [
                     "F9bomber",
@@ -3447,6 +3447,12 @@
                     8
                 ],
                 [
+                    "X-Triage",
+                    37.5,
+                    8,
+                    3
+                ],
+                [
                     "Xpi",
                     33.33333333333333,
                     9,
@@ -3477,21 +3483,15 @@
                     2
                 ],
                 [
-                    "Nozza34",
+                    "DesUxS",
                     25.0,
                     4,
                     1
                 ],
                 [
-                    "X-Triage",
-                    25.0,
-                    8,
-                    2
-                ],
-                [
-                    "DesUxS",
-                    25.0,
-                    4,
+                    "Nozza34",
+                    20.0,
+                    5,
                     1
                 ],
                 [
@@ -3619,14 +3619,14 @@
                     "Hadean": 4
                 },
                 "Nozza34": {
-                    "I.S.D.F": 4
+                    "I.S.D.F": 5
                 },
                 "M.S": {
                     "I.S.D.F": 31,
                     "Scion": 1
                 },
                 "Muffin": {
-                    "I.S.D.F": 15,
+                    "I.S.D.F": 14,
                     "Hadean": 5
                 },
                 "AI_Unit": {
@@ -3747,7 +3747,7 @@
                     "Scion": 8
                 },
                 "Muffin": {
-                    "I.S.D.F": 8,
+                    "I.S.D.F": 7,
                     "Hadean": 5
                 },
                 "M.S": {
@@ -3779,7 +3779,7 @@
                     "I.S.D.F": 1
                 },
                 "X-Triage": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 3
                 },
                 "Darkvale": {
                     "Scion": 1,
@@ -10139,9 +10139,15 @@
                             "winner": "Gravey",
                             "time": "1:25:00",
                             "teamOne": [
-                                "Sev"
+                                "Lithium"
                             ],
                             "teamTwo": [
+                                "Judgeguns"
+                            ],
+                            "teamOneStraggler": [
+                                "Sev"
+                            ],
+                            "teamTwoStraggler": [
                                 "F9bomber",
                                 "Nomad"
                             ]
@@ -12447,6 +12453,62 @@
                                 "Herp McDerperson"
                             ]
                         }
+                    },
+                    "12.30.25": {
+                        "Remnant": {
+                            "date": "12.30.25",
+                            "map": "Remnant",
+                            "commanders": "Domakus vs Zack",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winningFaction": "Scion",
+                            "winner": "Zack",
+                            "time": "36:00",
+                            "teamOne": [
+                                "Darkvale",
+                                "Xpi",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "Certified Bad Guy",
+                                "Lithium"
+                            ]
+                        },
+                        "Sahara": {
+                            "date": "12.30.25",
+                            "map": "Sahara",
+                            "commanders": "Sly vs F9bomber",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "F9bomber",
+                            "time": "23:14",
+                            "teamOne": [
+                                "Xpi"
+                            ],
+                            "teamTwo": [
+                                "Lithium",
+                                "Nomad"
+                            ]
+                        },
+                        "Quarry": {
+                            "date": "12.30.25",
+                            "map": "Quarry",
+                            "commanders": "Sly vs F9bomber",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Sly",
+                            "time": "30:03",
+                            "teamOne": [
+                                "Xpi"
+                            ],
+                            "teamTwo": [
+                                "Lithium",
+                                "Nomad"
+                            ],
+                            "teamOneStraggler": [
+                                "Judgeguns"
+                            ]
+                        }
                     }
                 }
             }
@@ -12467,7 +12529,7 @@
                 ],
                 [
                     "Remnant",
-                    23
+                    24
                 ],
                 [
                     "Overlook",
@@ -12487,14 +12549,14 @@
                 ],
                 [
                     "Sahara",
+                    13
+                ],
+                [
+                    "Quarry",
                     12
                 ],
                 [
                     "Strategy Arena",
-                    11
-                ],
-                [
-                    "Quarry",
                     11
                 ],
                 [
@@ -12787,89 +12849,89 @@
                 ]
             ],
             "unique_map_values": [
-                "Domain",
-                "Trench",
-                "Selena",
-                "Jade Green",
-                "Ebola",
-                "Ancient Hills",
-                "Power Struggle",
-                "Mexican Mission",
-                "XMAS-Haven",
-                "Garden",
-                "Mesa",
-                "Barren",
-                "Insula",
-                "Iraq",
-                "Dream",
-                "Oldboy",
-                "Island of V8",
-                "Pitbull",
-                "Red Slope",
-                "Plaza",
-                "Aussault",
-                "Magma",
-                "Europa",
-                "Consciousness",
-                "XMAS-Europa",
-                "Casius",
-                "Sahara",
-                "Echelon",
-                "Egypt",
-                "Ice Age",
-                "Ridges",
-                "Impact",
-                "Lunix",
-                "Fort 12C",
-                "Twin Peaks",
-                "Scammed",
-                "Aztec",
-                "Terron",
-                "Mayhem",
-                "Abuse",
-                "Revolution",
-                "Ragnarok",
-                "Oasis",
-                "Bowl",
-                "Middle Wars",
-                "Transfer",
-                "The War",
-                "Europa Night",
-                "Quagmire",
-                "Overlook",
-                "Jurrasic Dog Park",
-                "Hound",
-                "Remnant",
-                "Mountain Top",
-                "Ground Zero",
-                "Forgotten",
-                "Quarry",
-                "Titan",
-                "XMAS-Consciousness",
-                "Lunar",
-                "Excavation",
-                "Tempest",
                 "310",
-                "Trail",
-                "Haven",
-                "Rendon",
-                "Throbbing Gristle",
-                "Toxicity",
-                "Vortex",
-                "XMAS-Remnant",
-                "Mojave",
-                "Ancient Outposts",
-                "Moonshroud",
-                "High & Low",
-                "Prodigy Ver .2",
-                "Mort's Wasteland",
-                "Cracked",
-                "Snow Central",
                 "Giza",
-                "Vegan",
-                "Strategy Arena",
+                "Europa",
+                "Mojave",
+                "Lunar",
+                "Oasis",
+                "Aztec",
+                "Garden",
+                "Selena",
                 "Reflex",
-                "Plus"
+                "Mayhem",
+                "Magma",
+                "Cracked",
+                "Rendon",
+                "Ridges",
+                "Snow Central",
+                "Oldboy",
+                "Vegan",
+                "Ground Zero",
+                "Fort 12C",
+                "Remnant",
+                "Revolution",
+                "Excavation",
+                "Barren",
+                "Haven",
+                "XMAS-Consciousness",
+                "Mesa",
+                "Vortex",
+                "XMAS-Haven",
+                "Prodigy Ver .2",
+                "Egypt",
+                "Trench",
+                "Power Struggle",
+                "Aussault",
+                "High & Low",
+                "Bowl",
+                "Plus",
+                "Toxicity",
+                "Twin Peaks",
+                "Plaza",
+                "The War",
+                "Ancient Outposts",
+                "Ragnarok",
+                "Quagmire",
+                "Iraq",
+                "Domain",
+                "Pitbull",
+                "Hound",
+                "Dream",
+                "Mexican Mission",
+                "Forgotten",
+                "Ice Age",
+                "Transfer",
+                "Middle Wars",
+                "Moonshroud",
+                "Jade Green",
+                "Terron",
+                "Strategy Arena",
+                "Mountain Top",
+                "Lunix",
+                "Island of V8",
+                "Trail",
+                "Scammed",
+                "Overlook",
+                "XMAS-Remnant",
+                "Insula",
+                "Abuse",
+                "Echelon",
+                "Quarry",
+                "Ancient Hills",
+                "Consciousness",
+                "Impact",
+                "Titan",
+                "Casius",
+                "Tempest",
+                "XMAS-Europa",
+                "Europa Night",
+                "Ebola",
+                "Throbbing Gristle",
+                "Mort's Wasteland",
+                "Red Slope",
+                "Jurrasic Dog Park",
+                "Sahara"
             ],
             "commander_list": [
                 [
@@ -12878,7 +12940,7 @@
                 ],
                 [
                     "Zack",
-                    99
+                    100
                 ],
                 [
                     "Blue Banana",
@@ -12886,7 +12948,7 @@
                 ],
                 [
                     "F9bomber",
-                    81
+                    83
                 ],
                 [
                     "Sev",
@@ -12937,15 +12999,15 @@
                     14
                 ],
                 [
+                    "Domakus",
+                    11
+                ],
+                [
                     "Rosario",
                     10
                 ],
                 [
                     "Herp McDerperson",
-                    10
-                ],
-                [
-                    "Domakus",
                     10
                 ],
                 [
@@ -12977,6 +13039,10 @@
                     6
                 ],
                 [
+                    "Sly",
+                    4
+                ],
+                [
                     "Shock",
                     3
                 ],
@@ -12991,10 +13057,6 @@
                 [
                     "SwiggityMcgiggity",
                     3
-                ],
-                [
-                    "Sly",
-                    2
                 ],
                 [
                     "Lamper",
@@ -13100,8 +13162,8 @@
                 ],
                 [
                     "Domakus",
-                    90.0,
-                    10,
+                    81.81818181818183,
+                    11,
                     9
                 ],
                 [
@@ -13153,22 +13215,22 @@
                     18
                 ],
                 [
-                    "F9bomber",
-                    55.55555555555556,
-                    81,
-                    45
-                ],
-                [
                     "Vacuum34",
                     55.55555555555556,
                     9,
                     5
                 ],
                 [
+                    "F9bomber",
+                    55.42168674698795,
+                    83,
+                    46
+                ],
+                [
                     "Sly",
                     50.0,
-                    2,
-                    1
+                    4,
+                    2
                 ],
                 [
                     "Econchump",
@@ -13250,9 +13312,9 @@
                 ],
                 [
                     "Zack",
-                    36.36363636363637,
-                    99,
-                    36
+                    37.0,
+                    100,
+                    37
                 ],
                 [
                     "Shock",
@@ -13316,9 +13378,9 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 508,
+                "I.S.D.F": 512,
                 "Hadean": 151,
-                "Scion": 209
+                "Scion": 211
             },
             "commander_faction_counts": {
                 "Sev": {
@@ -13328,8 +13390,8 @@
                 },
                 "F9bomber": {
                     "Hadean": 43,
-                    "Scion": 13,
-                    "I.S.D.F": 25
+                    "Scion": 14,
+                    "I.S.D.F": 26
                 },
                 "M.S": {
                     "I.S.D.F": 17,
@@ -13346,7 +13408,7 @@
                     "Scion": 60
                 },
                 "Sly": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 4
                 },
                 "Xpi": {
                     "I.S.D.F": 18,
@@ -13365,7 +13427,7 @@
                 },
                 "Zack": {
                     "I.S.D.F": 51,
-                    "Scion": 30,
+                    "Scion": 31,
                     "Hadean": 18
                 },
                 "Shock": {
@@ -13421,7 +13483,7 @@
                 },
                 "Domakus": {
                     "Hadean": 6,
-                    "I.S.D.F": 3,
+                    "I.S.D.F": 4,
                     "Scion": 1
                 },
                 "Econchump": {
@@ -13489,7 +13551,7 @@
                 "F9bomber": {
                     "Hadean": 24,
                     "Scion": 8,
-                    "I.S.D.F": 13
+                    "I.S.D.F": 14
                 },
                 "M.S": {
                     "I.S.D.F": 6,
@@ -13511,7 +13573,7 @@
                     "I.S.D.F": 11
                 },
                 "Sly": {
-                    "I.S.D.F": 1
+                    "I.S.D.F": 2
                 },
                 "DD": {
                     "Scion": 1,
@@ -13530,7 +13592,7 @@
                 },
                 "Zack": {
                     "I.S.D.F": 19,
-                    "Scion": 14,
+                    "Scion": 15,
                     "Hadean": 3
                 },
                 "Rosario": {
@@ -13635,20 +13697,1348 @@
             }
         }
     },
+    "2026": {
+        "raw_2026": {
+            "year": "2026",
+            "month": {
+                "January": {
+                    "01.1.25": {
+                        "Giza": {
+                            "date": "01.1.25",
+                            "map": "Giza",
+                            "commanders": "Xpi vs F9bomber",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "F9bomber",
+                            "time": "18:58",
+                            "teamOne": [
+                                "Certified Bad Guy",
+                                "Judgeguns",
+                                "VTrider",
+                                "Zack"
+                            ],
+                            "teamTwo": [
+                                "Herp McDerperson",
+                                "Cloaket",
+                                "Bylarge",
+                                "Nomad"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:18:58",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 552,
+                                            "deaths": 4,
+                                            "kills": 27
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 42,
+                                            "deaths": 5,
+                                            "kills": 21
+                                        },
+                                        {
+                                            "name": "Just!ce",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Herp McDerperson (Team 2)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 27,
+                                            "craft_lost": 7,
+                                            "buildings_constructed": 20,
+                                            "buildings_lost": 10,
+                                            "scrap_collected": 380,
+                                            "scrap_spent": 1529,
+                                            "scrap_harvested_upgraded": 501
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 7 (Fast Racist)": 1,
+                                                "Team 8 (Just!ce)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 7 (Fast Racist)": 2,
+                                                "Team 9 (The_Bylarge)": 3,
+                                                "Team 10 (Reacher)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 2
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 7 (Fast Racist)": 4,
+                                                "Team 8 (Just!ce)": 1,
+                                                "Team 9 (The_Bylarge)": 3,
+                                                "Team 10 (Reacher)": 2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Certified Bad Guy)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 7 (Fast Racist)": 2,
+                                                "Team 8 (Just!ce)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 2
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {
+                                                "Team 8 (Just!ce)": 1,
+                                                "Team 10 (Reacher)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - Friendly Elf)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 4,
+                                                "Team 10 (Reacher)": 2
+                                            },
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Mega Knight)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 2,
+                                                "Team 8 (Just!ce)": 1,
+                                                "Team 9 (The_Bylarge)": 1,
+                                                "Team 10 (Reacher)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 8 (Just!ce)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 34,
+                                            "craft_lost": 7,
+                                            "buildings_constructed": 24,
+                                            "buildings_lost": 10,
+                                            "scrap_collected": 465,
+                                            "scrap_spent": 1741,
+                                            "scrap_harvested_upgraded": 430
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 2 (Certified Bad Guy)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 4 (Friendly Elf)": 4,
+                                                "Team 5 (Mega Knight)": 2
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {
+                                                "Team 1 (Monkey)": 2,
+                                                "Team 2 (Certified Bad Guy)": 1,
+                                                "Team 3 (judgeguns)": 1,
+                                                "Team 4 (Friendly Elf)": 2,
+                                                "Team 5 (Mega Knight)": 3,
+                                                "Team 8 (Just!ce)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Fast Racist)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 2,
+                                                "Team 2 (Certified Bad Guy)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Monkey)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - Just!ce)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 2
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (Certified Bad Guy)": 2,
+                                                "Team 3 (judgeguns)": 1,
+                                                "Team 5 (Mega Knight)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 5 (Mega Knight)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 6 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - The_Bylarge)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 5 (Mega Knight)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - Reacher)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 3 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (Friendly Elf)": 2,
+                                                "Team 5 (Mega Knight)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Overlook": {
+                            "date": "01.1.25",
+                            "map": "Overlook",
+                            "commanders": "Certified Bad Guy vs Cloaket",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Certified Bad Guy",
+                            "time": "30:16",
+                            "teamOne": [
+                                "VTrider",
+                                "Bylarge",
+                                "F9bomber",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "Domakus",
+                                "Xpi",
+                                "Judgeguns",
+                                "Herp McDerperson"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:30:16",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 89,
+                                            "deaths": 11,
+                                            "kills": 52
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": -381,
+                                            "deaths": 15,
+                                            "kills": 69
+                                        },
+                                        {
+                                            "name": "Blue-eyed elephant",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "VTrider (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Zack (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Fast Racist (Team 2)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Friendly Elf (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Certified Bad Guy)",
+                                        "metrics": {
+                                            "craft_built": 61,
+                                            "craft_lost": 15,
+                                            "buildings_constructed": 23,
+                                            "buildings_lost": 10,
+                                            "scrap_collected": 455,
+                                            "scrap_spent": 2715,
+                                            "scrap_harvested_upgraded": 938
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 4,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 3,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 5,
+                                                "Team 10 (Corrupt Lotion)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 2
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 9 (judgeguns)": 7,
+                                                "Team 10 (Corrupt Lotion)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Blue-eyed elephant)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 7
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 3,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (Monkey)": 4,
+                                                "Team 10 (Corrupt Lotion)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 1,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 10 (Corrupt Lotion)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - The_Bylarge)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 4,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 9 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (F9bomber)": 1,
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 8 (Monkey)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 7,
+                                            "scrap_collected": 145,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (Monkey)": 4,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (Corrupt Lotion)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 1,
+                                                "Team 8 (Monkey)": 2,
+                                                "Team 9 (judgeguns)": 2,
+                                                "Team 10 (Corrupt Lotion)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Reacher)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 6
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 5,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 9 (judgeguns)": 2,
+                                                "Team 10 (Corrupt Lotion)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 1,
+                                                "Team 7 (Domakus)": 3,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 10 (Corrupt Lotion)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Just!ce)",
+                                        "metrics": {
+                                            "craft_built": 57,
+                                            "craft_lost": 18,
+                                            "buildings_constructed": 22,
+                                            "buildings_lost": 16,
+                                            "scrap_collected": 800,
+                                            "scrap_spent": 2523,
+                                            "scrap_harvested_upgraded": 485
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 3,
+                                                "Team 2 (Blue-eyed elephant)": 1,
+                                                "Team 3 (The_Bylarge)": 2,
+                                                "Team 4 (F9bomber)": 1,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 4,
+                                                "Team 2 (Blue-eyed elephant)": 3,
+                                                "Team 3 (The_Bylarge)": 4,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 2,
+                                                "Team 2 (Blue-eyed elephant)": 4,
+                                                "Team 3 (The_Bylarge)": 3,
+                                                "Team 4 (F9bomber)": 4,
+                                                "Team 5 (Reacher)": 2,
+                                                "Team 6 (Just!ce)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Domakus)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 9
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (Blue-eyed elephant)": 2,
+                                                "Team 5 (Reacher)": 3,
+                                                "Team 7 (Domakus)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 2,
+                                                "Team 2 (Blue-eyed elephant)": 1,
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 2,
+                                                "Team 7 (Domakus)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 9
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (Blue-eyed elephant)": 1,
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (Blue-eyed elephant)": 4,
+                                                "Team 4 (F9bomber)": 4
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 5,
+                                                "Team 4 (F9bomber)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 4 (F9bomber)": 1,
+                                                "Team 5 (Reacher)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 7
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - Corrupt Lotion)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 7
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 5,
+                                                "Team 2 (Blue-eyed elephant)": 3,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (Blue-eyed elephant)": 3,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Quagmire": {
+                            "date": "01.1.25",
+                            "map": "Quagmire",
+                            "commanders": "Certified Bad Guy vs Cloaket",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "Cloaket",
+                            "time": "23:26",
+                            "teamOne": [
+                                "VTrider",
+                                "Bylarge",
+                                "F9bomber",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "Domakus",
+                                "Xpi",
+                                "Judgeguns",
+                                "Herp McDerperson"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:23:26",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 602,
+                                            "deaths": 4,
+                                            "kills": 53
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 53,
+                                            "deaths": 12,
+                                            "kills": 36
+                                        },
+                                        {
+                                            "name": "judgeguns",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Certified Bad Guy)",
+                                        "metrics": {
+                                            "craft_built": 44,
+                                            "craft_lost": 15,
+                                            "buildings_constructed": 24,
+                                            "buildings_lost": 19,
+                                            "scrap_collected": 450,
+                                            "scrap_spent": 1911,
+                                            "scrap_harvested_upgraded": 570
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 6,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (VTrider)": 1,
+                                                "Team 6 (Just!ce)": 6,
+                                                "Team 7 (Domakus)": 4,
+                                                "Team 8 (Monkey)": 2,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (Herp McDerperson)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (Just!ce)": 4,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (Monkey)": 4,
+                                                "Team 9 (judgeguns)": 5,
+                                                "Team 10 (Herp McDerperson)": 4
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - VTrider)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (Herp McDerperson)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - The_Bylarge)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 6
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (Herp McDerperson)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (Monkey)": 1,
+                                                "Team 9 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Just!ce)": 2,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 10 (Herp McDerperson)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Just!ce)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Reacher)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Just!ce)": 4,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 10 (Herp McDerperson)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (Domakus)": 3,
+                                                "Team 10 (Herp McDerperson)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Just!ce)",
+                                        "metrics": {
+                                            "craft_built": 50,
+                                            "craft_lost": 19,
+                                            "buildings_constructed": 19,
+                                            "buildings_lost": 3,
+                                            "scrap_collected": 715,
+                                            "scrap_spent": 2263,
+                                            "scrap_harvested_upgraded": 749
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 6,
+                                                "Team 3 (The_Bylarge)": 2,
+                                                "Team 4 (F9bomber)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 6,
+                                                "Team 2 (VTrider)": 2,
+                                                "Team 3 (The_Bylarge)": 5,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 4
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 4
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 4 (F9bomber)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Domakus)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 4,
+                                                "Team 2 (VTrider)": 1,
+                                                "Team 3 (The_Bylarge)": 1,
+                                                "Team 4 (F9bomber)": 1,
+                                                "Team 5 (Reacher)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (VTrider)": 2,
+                                                "Team 4 (F9bomber)": 1,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 2,
+                                                "Team 2 (VTrider)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (VTrider)": 1,
+                                                "Team 4 (F9bomber)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (VTrider)": 1,
+                                                "Team 3 (The_Bylarge)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 2 (VTrider)": 1,
+                                                "Team 4 (F9bomber)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 5
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - Herp McDerperson)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 1,
+                                                "Team 3 (The_Bylarge)": 2,
+                                                "Team 4 (F9bomber)": 2,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (VTrider)": 2,
+                                                "Team 5 (Reacher)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Certified Bad Guy)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Remnant": {
+                            "date": "01.1.25",
+                            "map": "Remnant",
+                            "commanders": "Xpi vs Nomad",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Nomad",
+                            "time": "17:09 ",
+                            "teamOne": [
+                                "Certified Bad Guy",
+                                "Cloaket",
+                                "Herp McDerperson"
+                            ],
+                            "teamTwo": [
+                                "Domakus",
+                                "F9bomber",
+                                "Judgeguns",
+                                "Bylarge"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:17:09",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 568,
+                                            "deaths": 3,
+                                            "kills": 35
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 23,
+                                            "deaths": 2,
+                                            "kills": 19
+                                        },
+                                        {
+                                            "name": "Herp McDerperson (Team 1)",
+                                            "score": 2,
+                                            "deaths": 0,
+                                            "kills": 5
+                                        },
+                                        {
+                                            "name": "judgeguns",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "VTrider (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 38,
+                                            "craft_lost": 11,
+                                            "buildings_constructed": 12,
+                                            "buildings_lost": 7,
+                                            "scrap_collected": 535,
+                                            "scrap_spent": 1522,
+                                            "scrap_harvested_upgraded": 370
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 8 (F9bomber)": 5,
+                                                "Team 10 (The_Bylarge)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Reacher)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (Reacher)": 1,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 9 (judgeguns)": 4
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Certified Bad Guy)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 6
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Reacher)": 2,
+                                                "Team 7 (Domakus)": 2,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 10 (The_Bylarge)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (Domakus)": 3,
+                                                "Team 8 (F9bomber)": 3
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - Team 1)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 6
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Reacher)": 1,
+                                                "Team 7 (Domakus)": 1,
+                                                "Team 9 (judgeguns)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Reacher)": 1,
+                                                "Team 7 (Domakus)": 3,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 10 (The_Bylarge)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Just!ce)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 6
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Reacher)": 1,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (The_Bylarge)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (Domakus)": 3,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 9 (judgeguns)": 1,
+                                                "Team 10 (The_Bylarge)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Reacher)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Reacher)",
+                                        "metrics": {
+                                            "craft_built": 26,
+                                            "craft_lost": 4,
+                                            "buildings_constructed": 16,
+                                            "buildings_lost": 2,
+                                            "scrap_collected": 195,
+                                            "scrap_spent": 1404,
+                                            "scrap_harvested_upgraded": 440
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 4 (Team 1)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (Certified Bad Guy)": 2,
+                                                "Team 4 (Team 1)": 1,
+                                                "Team 5 (Just!ce)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 5 (Just!ce)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Domakus)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3,
+                                            "scrap_collected": 30,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 1,
+                                                "Team 2 (Certified Bad Guy)": 3,
+                                                "Team 4 (Team 1)": 3,
+                                                "Team 5 (Just!ce)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (Certified Bad Guy)": 2,
+                                                "Team 4 (Team 1)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1,
+                                            "scrap_collected": 60,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 5,
+                                                "Team 2 (Certified Bad Guy)": 3,
+                                                "Team 4 (Team 1)": 1,
+                                                "Team 5 (Just!ce)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (Certified Bad Guy)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 5 (Just!ce)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (Team 1)": 3,
+                                                "Team 5 (Just!ce)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Monkey)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - The_Bylarge)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Monkey)": 5,
+                                                "Team 4 (Team 1)": 1,
+                                                "Team 5 (Just!ce)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (Certified Bad Guy)": 1,
+                                                "Team 5 (Just!ce)": 2
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "data_2026": {
+            "map_counts": [
+                [
+                    "Giza",
+                    1
+                ],
+                [
+                    "Overlook",
+                    1
+                ],
+                [
+                    "Quagmire",
+                    1
+                ],
+                [
+                    "Remnant",
+                    1
+                ]
+            ],
+            "unique_map_values": [
+                "Remnant",
+                "Giza",
+                "Overlook",
+                "Quagmire"
+            ],
+            "commander_list": [
+                [
+                    "Xpi",
+                    2
+                ],
+                [
+                    "Certified Bad Guy",
+                    2
+                ],
+                [
+                    "Cloaket",
+                    2
+                ],
+                [
+                    "F9bomber",
+                    1
+                ],
+                [
+                    "Nomad",
+                    1
+                ]
+            ],
+            "commander_win_percentages": [
+                [
+                    "F9bomber",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
+                    "Nomad",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
+                    "Certified Bad Guy",
+                    50.0,
+                    2,
+                    1
+                ],
+                [
+                    "Cloaket",
+                    50.0,
+                    2,
+                    1
+                ],
+                [
+                    "Xpi",
+                    0.0,
+                    2,
+                    0
+                ]
+            ],
+            "faction_counter": {
+                "I.S.D.F": 6,
+                "Hadean": 2
+            },
+            "commander_faction_counts": {
+                "Xpi": {
+                    "I.S.D.F": 2
+                },
+                "F9bomber": {
+                    "I.S.D.F": 1
+                },
+                "Certified Bad Guy": {
+                    "I.S.D.F": 2
+                },
+                "Cloaket": {
+                    "Hadean": 2
+                },
+                "Nomad": {
+                    "I.S.D.F": 1
+                }
+            },
+            "commander_faction_wins": {
+                "F9bomber": {
+                    "I.S.D.F": 1
+                },
+                "Certified Bad Guy": {
+                    "I.S.D.F": 1
+                },
+                "Cloaket": {
+                    "Hadean": 1
+                },
+                "Nomad": {
+                    "I.S.D.F": 1
+                }
+            }
+        }
+    },
     "processed_data": {
         "processed_map_counts": {
             "Mojave": 41,
             "Red Slope": 38,
             "Terron": 37,
-            "Overlook": 31,
-            "Remnant": 31,
-            "Giza": 24,
+            "Remnant": 33,
+            "Overlook": 32,
+            "Giza": 25,
             "Oasis": 20,
-            "Sahara": 18,
-            "Quagmire": 18,
+            "Sahara": 19,
+            "Quagmire": 19,
             "Vegan": 16,
+            "Quarry": 16,
             "Twin Peaks": 15,
-            "Quarry": 15,
             "Strategy Arena": 15,
             "Garden": 14,
             "Insula": 14,
@@ -13751,9 +15141,9 @@
             "XMAS-Europa": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 865,
-            "Scion": 305,
-            "Hadean": 312
+            "I.S.D.F": 875,
+            "Scion": 307,
+            "Hadean": 314
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -13765,9 +15155,9 @@
                 "Scion": 3
             },
             "F9bomber": {
-                "I.S.D.F": 53,
+                "I.S.D.F": 55,
                 "Hadean": 100,
-                "Scion": 15
+                "Scion": 16
             },
             "VTrider": {
                 "Scion": 37,
@@ -13794,7 +15184,7 @@
                 "Hadean": 1
             },
             "Sly": {
-                "I.S.D.F": 18,
+                "I.S.D.F": 20,
                 "Scion": 12,
                 "Hadean": 1
             },
@@ -13808,14 +15198,14 @@
                 "Hadean": 4
             },
             "Nozza34": {
-                "I.S.D.F": 4
+                "I.S.D.F": 5
             },
             "M.S": {
                 "I.S.D.F": 48,
                 "Scion": 2
             },
             "Muffin": {
-                "I.S.D.F": 19,
+                "I.S.D.F": 18,
                 "Hadean": 6,
                 "Scion": 1
             },
@@ -13824,7 +15214,7 @@
             },
             "Zack": {
                 "I.S.D.F": 69,
-                "Scion": 32,
+                "Scion": 33,
                 "Hadean": 19
             },
             "Zentuski": {
@@ -13841,7 +15231,7 @@
             "Domakus": {
                 "Hadean": 9,
                 "Scion": 8,
-                "I.S.D.F": 9
+                "I.S.D.F": 10
             },
             "Xohm": {
                 "I.S.D.F": 21,
@@ -13862,7 +15252,7 @@
                 "I.S.D.F": 25
             },
             "Xpi": {
-                "I.S.D.F": 24,
+                "I.S.D.F": 26,
                 "Scion": 13,
                 "Hadean": 3
             },
@@ -13886,7 +15276,7 @@
             },
             "Cloaket": {
                 "I.S.D.F": 18,
-                "Hadean": 8
+                "Hadean": 10
             },
             "Rosario": {
                 "I.S.D.F": 1,
@@ -13936,7 +15326,7 @@
                 "I.S.D.F": 2
             },
             "Certified Bad Guy": {
-                "I.S.D.F": 45,
+                "I.S.D.F": 47,
                 "Scion": 1
             },
             "Lithium": {
@@ -13945,7 +15335,7 @@
                 "Scion": 1
             },
             "Nomad": {
-                "I.S.D.F": 35,
+                "I.S.D.F": 36,
                 "Scion": 2,
                 "Hadean": 1
             },
@@ -14023,21 +15413,21 @@
             ],
             [
                 "Domakus",
-                76.92307692307693,
-                26,
+                74.07407407407408,
+                27,
                 20
-            ],
-            [
-                "Sly",
-                70.96774193548387,
-                31,
-                22
             ],
             [
                 "DD",
                 70.58823529411765,
                 17,
                 12
+            ],
+            [
+                "Sly",
+                69.6969696969697,
+                33,
+                23
             ],
             [
                 "Shock",
@@ -14053,9 +15443,9 @@
             ],
             [
                 "Muffin",
-                65.38461538461539,
-                26,
-                17
+                64.0,
+                25,
+                16
             ],
             [
                 "Blue Banana",
@@ -14071,9 +15461,9 @@
             ],
             [
                 "F9bomber",
-                58.92857142857143,
-                168,
-                99
+                59.06432748538012,
+                171,
+                101
             ],
             [
                 "Vacuum34",
@@ -14094,12 +15484,6 @@
                 17
             ],
             [
-                "Xpi",
-                52.5,
-                40,
-                21
-            ],
-            [
                 "Econchump",
                 50.0,
                 24,
@@ -14118,6 +15502,12 @@
                 2
             ],
             [
+                "Xpi",
+                50.0,
+                42,
+                21
+            ],
+            [
                 "Bacon",
                 50.0,
                 2,
@@ -14126,8 +15516,8 @@
             [
                 "Certified Bad Guy",
                 50.0,
-                46,
-                23
+                48,
+                24
             ],
             [
                 "SilverBullet",
@@ -14143,9 +15533,9 @@
             ],
             [
                 "Cloaket",
-                46.15384615384615,
-                26,
-                12
+                46.42857142857143,
+                28,
+                13
             ],
             [
                 "Rosario",
@@ -14161,9 +15551,9 @@
             ],
             [
                 "X-Triage",
-                40.0,
+                44.0,
                 25,
-                10
+                11
             ],
             [
                 "RollyPolly",
@@ -14173,9 +15563,9 @@
             ],
             [
                 "Zack",
-                36.666666666666664,
-                120,
-                44
+                37.1900826446281,
+                121,
+                45
             ],
             [
                 "HappyOtter",
@@ -14208,16 +15598,16 @@
                 17
             ],
             [
+                "Nomad",
+                30.76923076923077,
+                39,
+                12
+            ],
+            [
                 "Maverick",
                 30.0,
                 10,
                 3
-            ],
-            [
-                "Nomad",
-                28.947368421052634,
-                38,
-                11
             ],
             [
                 "AI_Unit",
@@ -14238,16 +15628,16 @@
                 12
             ],
             [
-                "Nozza34",
-                25.0,
-                4,
-                1
-            ],
-            [
                 "Jabbapop",
                 24.137931034482758,
                 29,
                 7
+            ],
+            [
+                "Nozza34",
+                20.0,
+                5,
+                1
             ],
             [
                 "Judgeguns",
@@ -14323,7 +15713,7 @@
             ],
             [
                 "F9bomber",
-                168
+                171
             ],
             [
                 "Blue Banana",
@@ -14331,7 +15721,7 @@
             ],
             [
                 "Zack",
-                120
+                121
             ],
             [
                 "Sev",
@@ -14350,32 +15740,32 @@
                 49
             ],
             [
+                "Certified Bad Guy",
+                48
+            ],
+            [
                 "Darkvale",
                 46
             ],
             [
-                "Certified Bad Guy",
-                46
-            ],
-            [
                 "Xpi",
-                40
+                42
             ],
             [
                 "Nomad",
-                38
+                39
             ],
             [
                 "Xohm",
                 37
             ],
             [
-                "Lamper",
-                32
+                "Sly",
+                33
             ],
             [
-                "Sly",
-                31
+                "Lamper",
+                32
             ],
             [
                 "Jabbapop",
@@ -14386,16 +15776,16 @@
                 29
             ],
             [
-                "Muffin",
-                26
+                "Cloaket",
+                28
             ],
             [
                 "Domakus",
-                26
+                27
             ],
             [
-                "Cloaket",
-                26
+                "Muffin",
+                25
             ],
             [
                 "X-Triage",
@@ -14451,7 +15841,7 @@
             ],
             [
                 "Nozza34",
-                4
+                5
             ],
             [
                 "Seige",
@@ -14551,15 +15941,15 @@
                 "Mojave",
                 "Red Slope",
                 "Terron",
-                "Overlook",
                 "Remnant",
+                "Overlook",
                 "Giza",
                 "Oasis",
                 "Sahara",
                 "Quagmire",
                 "Vegan",
-                "Twin Peaks",
                 "Quarry",
+                "Twin Peaks",
                 "Strategy Arena",
                 "Garden",
                 "Insula",
@@ -14963,5 +16353,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2025/12/29 05:03AM UTC"
+    "last_updated": "2026/01/02 05:16AM UTC"
 }
