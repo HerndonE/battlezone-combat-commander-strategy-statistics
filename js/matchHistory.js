@@ -17,7 +17,7 @@ function extractRows(json) {
             map: m.map,
             commanders: m.commanders,
             factions: m.factions,
-            winningFaction: m["winning faction"],
+            winningFaction: m["winningFaction"],
             winner: m.winner,
             time: m.time || "",
             comment: m._comment || "",

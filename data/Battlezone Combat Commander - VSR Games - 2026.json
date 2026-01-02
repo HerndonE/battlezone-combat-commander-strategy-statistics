@@ -1,0 +1,1211 @@
+{
+	"year": "2026",
+	"month": {
+		"January": {
+			"01.1.25": {
+				"Giza": {
+					"date": "01.1.25",
+					"map": "Giza",
+					"commanders": "Xpi vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "18:58",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Judgeguns",
+						"VTrider",
+						"Zack"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Cloaket",
+						"Bylarge",
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:18:58",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 552,
+									"deaths": 4,
+									"kills": 27
+								},
+								{
+									"name": "Team 1",
+									"score": 42,
+									"deaths": 5,
+									"kills": 21
+								},
+								{
+									"name": "Just!ce",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Herp McDerperson (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Monkey)",
+								"metrics": {
+									"craft_built": 27,
+									"craft_lost": 7,
+									"buildings_constructed": 20,
+									"buildings_lost": 10,
+									"scrap_collected": 380,
+									"scrap_spent": 1529,
+									"scrap_harvested_upgraded": 501
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 1,
+										"Team 7 (Fast Racist)": 1,
+										"Team 8 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 1,
+										"Team 7 (Fast Racist)": 2,
+										"Team 9 (The_Bylarge)": 3,
+										"Team 10 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 2
+									},
+									"buildings_lost_to": {
+										"Team 7 (Fast Racist)": 4,
+										"Team 8 (Just!ce)": 1,
+										"Team 9 (The_Bylarge)": 3,
+										"Team 10 (Reacher)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 1,
+										"Team 7 (Fast Racist)": 2,
+										"Team 8 (Just!ce)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 8 (Just!ce)": 1,
+										"Team 10 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Friendly Elf)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 4,
+										"Team 10 (Reacher)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Mega Knight)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 2,
+										"Team 8 (Just!ce)": 1,
+										"Team 9 (The_Bylarge)": 1,
+										"Team 10 (Reacher)": 2
+									},
+									"craft_lost_to": {
+										"Team 8 (Just!ce)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 34,
+									"craft_lost": 7,
+									"buildings_constructed": 24,
+									"buildings_lost": 10,
+									"scrap_collected": 465,
+									"scrap_spent": 1741,
+									"scrap_harvested_upgraded": 430
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 1,
+										"Team 2 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Monkey)": 1,
+										"Team 4 (Friendly Elf)": 4,
+										"Team 5 (Mega Knight)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Monkey)": 2,
+										"Team 2 (Certified Bad Guy)": 1,
+										"Team 3 (judgeguns)": 1,
+										"Team 4 (Friendly Elf)": 2,
+										"Team 5 (Mega Knight)": 3,
+										"Team 8 (Just!ce)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Fast Racist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 2,
+										"Team 2 (Certified Bad Guy)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Monkey)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Just!ce)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Certified Bad Guy)": 2,
+										"Team 3 (judgeguns)": 1,
+										"Team 5 (Mega Knight)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (Monkey)": 1,
+										"Team 5 (Mega Knight)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 1,
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 3
+									},
+									"craft_lost_to": {
+										"Team 5 (Mega Knight)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 1,
+										"Team 3 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (Friendly Elf)": 2,
+										"Team 5 (Mega Knight)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Overlook": {
+					"date": "01.1.25",
+					"map": "Overlook",
+					"commanders": "Certified Bad Guy vs Cloaket",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "30:16",
+					"teamOne": [
+						"VTrider",
+						"Bylarge",
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Xpi",
+						"Judgeguns",
+						"Herp McDerperson"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:30:16",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 89,
+									"deaths": 11,
+									"kills": 52
+								},
+								{
+									"name": "Team 1",
+									"score": -381,
+									"deaths": 15,
+									"kills": 69
+								},
+								{
+									"name": "Blue-eyed elephant",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Zack (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Fast Racist (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Friendly Elf (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 61,
+									"craft_lost": 15,
+									"buildings_constructed": 23,
+									"buildings_lost": 10,
+									"scrap_collected": 455,
+									"scrap_spent": 2715,
+									"scrap_harvested_upgraded": 938
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 4,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 3,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 5,
+										"Team 10 (Corrupt Lotion)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 2
+									},
+									"buildings_lost_to": {
+										"Team 7 (Domakus)": 2,
+										"Team 9 (judgeguns)": 7,
+										"Team 10 (Corrupt Lotion)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Blue-eyed elephant)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 3,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Monkey)": 4,
+										"Team 10 (Corrupt Lotion)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 1,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Monkey)": 1,
+										"Team 10 (Corrupt Lotion)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 4,
+										"Team 7 (Domakus)": 1,
+										"Team 9 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (F9bomber)": 1,
+										"Team 6 (Just!ce)": 2,
+										"Team 8 (Monkey)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 145,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (The_Bylarge)": 1,
+										"Team 6 (Just!ce)": 2,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Monkey)": 4,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Corrupt Lotion)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 1,
+										"Team 8 (Monkey)": 2,
+										"Team 9 (judgeguns)": 2,
+										"Team 10 (Corrupt Lotion)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 5,
+										"Team 7 (Domakus)": 2,
+										"Team 9 (judgeguns)": 2,
+										"Team 10 (Corrupt Lotion)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 1,
+										"Team 7 (Domakus)": 3,
+										"Team 8 (Monkey)": 1,
+										"Team 10 (Corrupt Lotion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Just!ce)",
+								"metrics": {
+									"craft_built": 57,
+									"craft_lost": 18,
+									"buildings_constructed": 22,
+									"buildings_lost": 16,
+									"scrap_collected": 800,
+									"scrap_spent": 2523,
+									"scrap_harvested_upgraded": 485
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 3,
+										"Team 2 (Blue-eyed elephant)": 1,
+										"Team 3 (The_Bylarge)": 2,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 4,
+										"Team 2 (Blue-eyed elephant)": 3,
+										"Team 3 (The_Bylarge)": 4,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 2 (Blue-eyed elephant)": 4,
+										"Team 3 (The_Bylarge)": 3,
+										"Team 4 (F9bomber)": 4,
+										"Team 5 (Reacher)": 2,
+										"Team 6 (Just!ce)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (Blue-eyed elephant)": 2,
+										"Team 5 (Reacher)": 3,
+										"Team 7 (Domakus)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 2 (Blue-eyed elephant)": 1,
+										"Team 3 (The_Bylarge)": 1,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 2,
+										"Team 7 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monkey)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (Blue-eyed elephant)": 1,
+										"Team 3 (The_Bylarge)": 1,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (Blue-eyed elephant)": 4,
+										"Team 4 (F9bomber)": 4
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 5,
+										"Team 4 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (The_Bylarge)": 1,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Reacher)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Corrupt Lotion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 5,
+										"Team 2 (Blue-eyed elephant)": 3,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Blue-eyed elephant)": 3,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Quagmire": {
+					"date": "01.1.25",
+					"map": "Quagmire",
+					"commanders": "Certified Bad Guy vs Cloaket",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "23:26",
+					"teamOne": [
+						"VTrider",
+						"Bylarge",
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Xpi",
+						"Judgeguns",
+						"Herp McDerperson"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:23:26",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 602,
+									"deaths": 4,
+									"kills": 53
+								},
+								{
+									"name": "Team 1",
+									"score": 53,
+									"deaths": 12,
+									"kills": 36
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 44,
+									"craft_lost": 15,
+									"buildings_constructed": 24,
+									"buildings_lost": 19,
+									"scrap_collected": 450,
+									"scrap_spent": 1911,
+									"scrap_harvested_upgraded": 570
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 6,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (VTrider)": 1,
+										"Team 6 (Just!ce)": 6,
+										"Team 7 (Domakus)": 4,
+										"Team 8 (Monkey)": 2,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Just!ce)": 4,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Monkey)": 4,
+										"Team 9 (judgeguns)": 5,
+										"Team 10 (Herp McDerperson)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 6 (Just!ce)": 2,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Herp McDerperson)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 5
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 2,
+										"Team 7 (Domakus)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Herp McDerperson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 2,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Monkey)": 1,
+										"Team 9 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Just!ce)": 2,
+										"Team 7 (Domakus)": 1,
+										"Team 10 (Herp McDerperson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Just!ce)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Just!ce)": 4,
+										"Team 7 (Domakus)": 1,
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Domakus)": 3,
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Just!ce)",
+								"metrics": {
+									"craft_built": 50,
+									"craft_lost": 19,
+									"buildings_constructed": 19,
+									"buildings_lost": 3,
+									"scrap_collected": 715,
+									"scrap_spent": 2263,
+									"scrap_harvested_upgraded": 749
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 6,
+										"Team 3 (The_Bylarge)": 2,
+										"Team 4 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 6,
+										"Team 2 (VTrider)": 2,
+										"Team 3 (The_Bylarge)": 5,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4
+									},
+									"buildings_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (The_Bylarge)": 1,
+										"Team 4 (F9bomber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4,
+										"Team 2 (VTrider)": 1,
+										"Team 3 (The_Bylarge)": 1,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Reacher)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (VTrider)": 2,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monkey)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 2 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (VTrider)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (VTrider)": 1,
+										"Team 3 (The_Bylarge)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (VTrider)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (The_Bylarge)": 2,
+										"Team 4 (F9bomber)": 2,
+										"Team 5 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (VTrider)": 2,
+										"Team 5 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Remnant": {
+					"date": "01.1.25",
+					"map": "Remnant",
+					"commanders": "Xpi vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "17:09 ",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Cloaket",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Domakus",
+						"F9bomber",
+						"Judgeguns",
+						"Bylarge"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:09",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 568,
+									"deaths": 3,
+									"kills": 35
+								},
+								{
+									"name": "Team 1",
+									"score": 23,
+									"deaths": 2,
+									"kills": 19
+								},
+								{
+									"name": "Herp McDerperson (Team 1)",
+									"score": 2,
+									"deaths": 0,
+									"kills": 5
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Monkey)",
+								"metrics": {
+									"craft_built": 38,
+									"craft_lost": 11,
+									"buildings_constructed": 12,
+									"buildings_lost": 7,
+									"scrap_collected": 535,
+									"scrap_spent": 1522,
+									"scrap_harvested_upgraded": 370
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 7 (Domakus)": 1,
+										"Team 8 (F9bomber)": 5,
+										"Team 10 (The_Bylarge)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Reacher)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Reacher)": 1,
+										"Team 7 (Domakus)": 2,
+										"Team 9 (judgeguns)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 2,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (F9bomber)": 1,
+										"Team 10 (The_Bylarge)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Domakus)": 3,
+										"Team 8 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 1,
+										"Team 7 (Domakus)": 1,
+										"Team 9 (judgeguns)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Reacher)": 1,
+										"Team 7 (Domakus)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 10 (The_Bylarge)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Just!ce)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (The_Bylarge)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Domakus)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (The_Bylarge)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Reacher)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Reacher)",
+								"metrics": {
+									"craft_built": 26,
+									"craft_lost": 4,
+									"buildings_constructed": 16,
+									"buildings_lost": 2,
+									"scrap_collected": 195,
+									"scrap_spent": 1404,
+									"scrap_harvested_upgraded": 440
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (Team 1)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Certified Bad Guy)": 2,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Monkey)": 1,
+										"Team 5 (Just!ce)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 1,
+										"Team 2 (Certified Bad Guy)": 3,
+										"Team 4 (Team 1)": 3,
+										"Team 5 (Just!ce)": 3
+									},
+									"craft_lost_to": {
+										"Team 2 (Certified Bad Guy)": 2,
+										"Team 4 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1,
+									"scrap_collected": 60,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 5,
+										"Team 2 (Certified Bad Guy)": 3,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Certified Bad Guy)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 5 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (Team 1)": 3,
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Monkey)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Monkey)": 5,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Certified Bad Guy)": 1,
+										"Team 5 (Just!ce)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

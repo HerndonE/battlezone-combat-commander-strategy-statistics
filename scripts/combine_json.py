@@ -3,10 +3,13 @@ import os
 from collections import defaultdict, Counter
 from datetime import datetime
 
+# Note:    Scrap Harvested (Recycler) and Scrap Harvested (Extractor) not collected
+
 # Define the paths to the JSON files and their corresponding years
 files = [
     ('data/Battlezone Combat Commander - VSR Games - 2024.json', 2024),
     ('data/Battlezone Combat Commander - VSR Games - 2025.json', 2025),
+    ('data/Battlezone Combat Commander - VSR Games - 2026.json', 2026),
 ]
 
 output_path = 'data/data.json'  # Output path for the combined JSON
@@ -122,7 +125,7 @@ def count_faction_plays_and_wins(data):
             for map_data in date.values():
                 commanders = map_data['commanders'].split(' vs ')  # Extract commanders
                 factions = map_data['factions'].strip('[]').split(', ')  # Extract factions
-                winning_faction = map_data['winning faction'].strip(',')  # Extract winning faction
+                winning_faction = map_data['winningFaction'].strip(',')  # Extract winning faction
                 winner = map_data['winner']  # The commander who won the match
 
                 # Ensure the number of commanders and factions match

@@ -8,7 +8,7 @@
 					"map": "Jade Green",
 					"commanders": "Sev vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "41:41",
 					"teamOne": [
@@ -25,7 +25,7 @@
 					"map": "Mojave",
 					"commanders": "M.S vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "17:24",
 					"teamOne": [
@@ -42,7 +42,7 @@
 					"map": "Quagmire",
 					"commanders": "Sev vs F9bomber",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "31:38",
 					"teamOne": [
@@ -58,7 +58,7 @@
 					"map": "Snow Central",
 					"commanders": "M.S vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "16:26",
 					"teamOne": [
@@ -75,7 +75,7 @@
 					"map": "Terron",
 					"commanders": "M.S vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "26:31",
 					"teamOne": [
@@ -93,7 +93,7 @@
 					"map": "Fort 12C",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "20:18",
 					"teamOne": [
@@ -114,7 +114,7 @@
 					"map": "Overlook",
 					"commanders": "F9bomber vs Blue Banana",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "35:36",
 					"teamOne": [
@@ -129,7 +129,7 @@
 					"map": "Ridges",
 					"commanders": "Sly vs Blue Banana",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sly",
 					"time": "12:06",
 					"teamOne": [
@@ -152,7 +152,7 @@
 					"map": "Bowl",
 					"commanders": "VTrider vs Xpi",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "7:49",
 					"teamOne": [
@@ -171,7 +171,7 @@
 					"map": "Titan",
 					"commanders": "DD vs M.S",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "DD",
 					"time": "45:32",
 					"teamOne": [
@@ -188,7 +188,7 @@
 					"map": "Quagmire",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "25:19",
 					"teamOne": [
@@ -204,7 +204,7 @@
 					"map": "Oasis",
 					"commanders": "Blue Banana vs DD",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "1:15:00",
 					"teamOne": [
@@ -223,7 +223,7 @@
 					"map": "Insula",
 					"commanders": "M.S vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "34:16",
 					"teamOne": [
@@ -238,7 +238,7 @@
 					"map": "Terron",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "1:02:07",
 					"teamOne": [
@@ -256,7 +256,7 @@
 					"map": "Domain",
 					"commanders": "Sev vs Blue Banana",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "29:31",
 					"teamOne": [
@@ -277,7 +277,7 @@
 					"map": "Echelon",
 					"commanders": "M.S vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "1:07:58",
 					"teamOne": [
@@ -299,7 +299,7 @@
 					"map": "Terron",
 					"commanders": "Lamper vs Rosario",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lamper",
 					"time": "33:23",
 					"teamOne": [
@@ -316,7 +316,7 @@
 					"map": "Giza",
 					"commanders": "Zack vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "16:50",
 					"teamOne": [
@@ -337,7 +337,7 @@
 					"map": "Consciousness",
 					"commanders": "Zack vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "44:04",
 					"teamOne": [
@@ -356,7 +356,7 @@
 					"map": "Remnant",
 					"commanders": "F9bomber vs M.S",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "27:50",
 					"teamOne": [
@@ -375,7 +375,7 @@
 					"map": "Terron",
 					"commanders": "Shock vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Shock",
 					"time": "21:04",
 					"teamOne": [
@@ -392,7 +392,7 @@
 					"map": "Red Slope",
 					"commanders": "Xpi vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "1:01:25",
 					"teamOne": [
@@ -416,7 +416,7 @@
 					"map": "Garden",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "21:09",
 					"teamOne": [
@@ -432,7 +432,7 @@
 					"map": "Overlook",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "14:14",
 					"teamOne": [
@@ -448,7 +448,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Xpi",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "16:13",
 					"teamOne": [
@@ -469,7 +469,7 @@
 					"map": "Europa Night",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "22:31",
 					"teamOne": [
@@ -486,7 +486,7 @@
 					"map": "Mojave",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "21:07",
 					"teamOne": [
@@ -503,7 +503,7 @@
 					"map": "Terron",
 					"commanders": "Rosario vs F9bomber",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Rosario",
 					"time": "1:13:19",
 					"teamOne": [
@@ -518,7 +518,7 @@
 					"map": "Mojave",
 					"commanders": "Rosario vs VTrider",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "1:35:41",
 					"teamOne": [
@@ -535,7 +535,7 @@
 					"map": "Garden",
 					"commanders": "Blue Banana vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "",
 					"teamOne": [
@@ -554,7 +554,7 @@
 					"map": "Garden",
 					"commanders": "Zack vs Rosario",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Rosario",
 					"time": "13:02",
 					"teamOne": [
@@ -573,7 +573,7 @@
 					"map": "Overlook",
 					"commanders": "Zack vs Rosario",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Rosario",
 					"time": "46:16",
 					"teamOne": [
@@ -594,7 +594,7 @@
 					"map": "Red Slope",
 					"commanders": "VTrider vs Rosario",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "1:16:18",
 					"teamOne": [
@@ -613,7 +613,7 @@
 					"map": "Hound",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "9:14",
 					"teamOne": [
@@ -632,7 +632,7 @@
 					"map": "Red Slope",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "22:44",
 					"teamOne": [
@@ -651,7 +651,7 @@
 					"map": "Insula",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "1:37:29",
 					"teamOne": [
@@ -672,7 +672,7 @@
 					"map": "Overlook",
 					"commanders": "Zack vs MAX",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "MAX",
 					"time": "21:28",
 					"teamOne": [
@@ -696,7 +696,7 @@
 					"map": "Overlook",
 					"commanders": "Spacewars vs DD",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "DD",
 					"time": "19:02",
 					"teamOne": [
@@ -716,7 +716,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Xohm",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xohm",
 					"time": "14:24",
 					"teamOne": [
@@ -739,7 +739,7 @@
 					"map": "Terron",
 					"commanders": "VTrider vs Sev",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "18:37",
 					"teamOne": [
@@ -758,7 +758,7 @@
 					"map": "Casius",
 					"commanders": "VTrider vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "1:15:25",
 					"teamOne": [
@@ -783,7 +783,7 @@
 					"map": "Red Slope",
 					"commanders": "Zack vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "28:06",
 					"teamOne": [
@@ -802,7 +802,7 @@
 					"map": "Oldboy",
 					"commanders": "Zack vs M.S",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "52:39",
 					"teamOne": [
@@ -827,7 +827,7 @@
 					"map": "Mojave",
 					"commanders": "DD vs M.S",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "DD",
 					"time": "19:23",
 					"teamOne": [
@@ -846,7 +846,7 @@
 					"map": "Lunar",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "13:53",
 					"teamOne": [
@@ -867,7 +867,7 @@
 					"map": "Oldboy",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "54:20",
 					"teamOne": [
@@ -886,7 +886,7 @@
 					"map": "Terron",
 					"commanders": "Rosario vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "22:30",
 					"teamOne": [
@@ -905,7 +905,7 @@
 					"map": "Trench",
 					"commanders": "Rosario vs Cyber",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cyber",
 					"time": "19:09",
 					"teamOne": [
@@ -924,7 +924,7 @@
 					"map": "Europa",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "14:14",
 					"teamOne": [
@@ -941,7 +941,7 @@
 					"map": "Europa",
 					"commanders": "Maverick vs Rosario",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Rosario",
 					"time": "42:27",
 					"teamOne": [
@@ -956,7 +956,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Xpi",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "8:27",
 					"teamOne": [
@@ -980,7 +980,7 @@
 					"map": "Terron",
 					"commanders": "Sev vs Zack",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "1:24:48",
 					"teamOne": [
@@ -999,7 +999,7 @@
 					"map": "Europa Night",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "8:25",
 					"teamOne": [
@@ -1016,7 +1016,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "15:19",
 					"teamOne": [
@@ -1033,7 +1033,7 @@
 					"map": "Sahara",
 					"commanders": "Judgeguns vs RollyPolly",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "19:52",
 					"teamOne": [
@@ -1050,7 +1050,7 @@
 					"map": "Ice Age",
 					"commanders": "M.S vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "19:40",
 					"teamOne": [
@@ -1068,7 +1068,7 @@
 					"map": "Insula",
 					"commanders": "M.S vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "8:38",
 					"teamOne": [
@@ -1086,7 +1086,7 @@
 					"map": "Oasis",
 					"commanders": "M.S vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "",
 					"teamOne": [
@@ -1106,7 +1106,7 @@
 					"map": "Mojave",
 					"commanders": "RollyPolly vs F9bomber",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "12:57",
 					"teamOne": [
@@ -1122,7 +1122,7 @@
 					"map": "Giza",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "16:48",
 					"teamOne": [
@@ -1141,7 +1141,7 @@
 					"map": "Ice Age",
 					"commanders": "F9bomber vs M.S",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "28:38",
 					"teamOne": [
@@ -1160,7 +1160,7 @@
 					"map": "Mojave",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "22:48",
 					"teamOne": [
@@ -1181,7 +1181,7 @@
 					"map": "Quagmire",
 					"commanders": "Maverick vs Rosario",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Maverick",
 					"time": "19:19",
 					"teamOne": [
@@ -1203,7 +1203,7 @@
 					"map": "Garden",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "17:14",
 					"teamOne": [
@@ -1221,7 +1221,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "33:05",
 					"teamOne": [
@@ -1242,7 +1242,7 @@
 					"map": "Domain",
 					"commanders": "Zack vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "17:37",
 					"teamOne": [
@@ -1262,7 +1262,7 @@
 					"map": "Lunix",
 					"commanders": "Sev vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "41:41",
 					"teamOne": [
@@ -1280,7 +1280,7 @@
 					"map": "Quagmire",
 					"commanders": "RollyPolly vs Sev",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "21:56",
 					"teamOne": [
@@ -1297,7 +1297,7 @@
 					"map": "Mojave",
 					"commanders": "RollyPolly vs Sev",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "54:49",
 					"teamOne": [
@@ -1317,7 +1317,7 @@
 					"map": "Mojave",
 					"commanders": "Zack vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "23:29",
 					"teamOne": [
@@ -1332,7 +1332,7 @@
 					"map": "Lunar",
 					"commanders": "Zack vs Muffin",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "16:00",
 					"teamOne": [
@@ -1348,7 +1348,7 @@
 					"map": "Quagmire",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "15:21",
 					"teamOne": [
@@ -1364,7 +1364,7 @@
 					"map": "Giza",
 					"commanders": "RollyPolly vs Muffin",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Muffin",
 					"time": "11:33",
 					"teamOne": [
@@ -1383,7 +1383,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "14:23",
 					"teamOne": [
@@ -1399,7 +1399,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "Jabbapop vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "19:27",
 					"teamOne": [
@@ -1416,7 +1416,7 @@
 					"map": "Mojave",
 					"commanders": "RollyPolly vs Sev",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "31:06",
 					"teamOne": [
@@ -1433,7 +1433,7 @@
 					"map": "Lunar",
 					"commanders": "Judgeguns vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "30:18",
 					"teamOne": [
@@ -1455,7 +1455,7 @@
 					"map": "Iraq",
 					"commanders": "VTrider vs RollyPolly",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "1:10:14",
 					"teamOne": [
@@ -1474,7 +1474,7 @@
 					"map": "Terron",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "40:04",
 					"teamOne": [
@@ -1489,7 +1489,7 @@
 					"map": "Scammed",
 					"commanders": "Bylarge vs Zack",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Zack",
 					"time": "15:56",
 					"teamOne": [
@@ -1501,7 +1501,7 @@
 					"map": "Red Slope",
 					"commanders": "Sev vs Zack",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "15:56",
 					"teamOne": [
@@ -1520,7 +1520,7 @@
 					"map": "Scammed",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "16:33",
 					"teamOne": [
@@ -1539,7 +1539,7 @@
 					"map": "Mojave",
 					"commanders": "RollyPolly vs Zack",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "14:54",
 					"teamOne": [
@@ -1556,7 +1556,7 @@
 					"map": "Quagmire",
 					"commanders": "Muffin vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Muffin",
 					"time": "21:49",
 					"teamOne": [
@@ -1575,7 +1575,7 @@
 					"map": "Aztec",
 					"commanders": "Maverick vs Zack",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "13:18",
 					"teamOne": [
@@ -1594,7 +1594,7 @@
 					"map": "Bowl",
 					"commanders": "Sev vs Zack",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "16:05",
 					"teamOne": [
@@ -1619,7 +1619,7 @@
 					"map": "Consciousness",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "9:34",
 					"teamOne": [
@@ -1640,7 +1640,7 @@
 					"map": "Red Slope",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "6:54",
 					"teamOne": [
@@ -1661,7 +1661,7 @@
 					"map": "Mojave",
 					"commanders": "RollyPolly vs Xpi",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "23:57",
 					"teamOne": [
@@ -1688,7 +1688,7 @@
 					"map": "Ground Zero",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "16:51",
 					"teamOne": [
@@ -1707,7 +1707,7 @@
 					"map": "Quagmire",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "24:23",
 					"teamOne": [
@@ -1726,7 +1726,7 @@
 					"map": "Reflex",
 					"commanders": "VTrider vs F9bomber",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "20:43",
 					"teamOne": [
@@ -1743,7 +1743,7 @@
 					"map": "Sahara",
 					"commanders": "Zack vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "13:52",
 					"teamOne": [
@@ -1762,7 +1762,7 @@
 					"map": "Plaza",
 					"commanders": "Xpi vs Maverick",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Maverick",
 					"time": "16:31",
 					"teamOne": [
@@ -1779,7 +1779,7 @@
 					"map": "Scammed",
 					"commanders": "Xpi vs Maverick",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Xpi",
 					"time": "27:54",
 					"teamOne": [
@@ -1796,7 +1796,7 @@
 					"map": "Terron",
 					"commanders": "Xpi vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "15:36",
 					"teamOne": [
@@ -1813,7 +1813,7 @@
 					"map": "Vortex",
 					"commanders": "Xpi vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "20:07",
 					"teamOne": [
@@ -1832,7 +1832,7 @@
 					"map": "Terron",
 					"commanders": "Zack vs RollyPolly",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "16:39",
 					"teamOne": [
@@ -1848,7 +1848,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Zack vs RollyPolly",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "10:43",
 					"teamOne": [
@@ -1869,7 +1869,7 @@
 					"map": "Mojave",
 					"commanders": "F9bomber vs RollyPolly",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "27:34",
 					"teamOne": [
@@ -1887,7 +1887,7 @@
 					"map": "Barren",
 					"commanders": "Zack vs RollyPolly",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "RollyPolly",
 					"time": "12:52",
 					"teamOne": [
@@ -1903,7 +1903,7 @@
 					"map": "Haven",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "1:12:02",
 					"teamOne": [
@@ -1925,7 +1925,7 @@
 					"map": "Insula",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "9:58",
 					"teamOne": [
@@ -1944,7 +1944,7 @@
 					"map": "Overlook",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "35:46",
 					"teamOne": [
@@ -1967,7 +1967,7 @@
 					"map": "Red Slope",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "14:57",
 					"teamOne": [
@@ -1988,7 +1988,7 @@
 					"map": "Island of V8",
 					"commanders": "Zack vs Sev",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "20:58",
 					"teamOne": [
@@ -2006,7 +2006,7 @@
 					"map": "Mayhem",
 					"commanders": "Zack vs Maverick",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "14:16",
 					"teamOne": [
@@ -2025,7 +2025,7 @@
 					"map": "Oasis",
 					"commanders": "Zack vs VTrider",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "14:48",
 					"teamOne": [
@@ -2045,7 +2045,7 @@
 					"map": "Remnant",
 					"commanders": "Zack vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "17:10",
 					"teamOne": [
@@ -2067,7 +2067,7 @@
 					"map": "Giza",
 					"commanders": "VTrider vs Herp McDerperson",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "22:04",
 					"teamOne": [
@@ -2088,7 +2088,7 @@
 					"map": "Revolution",
 					"commanders": "X-Triage vs Ultimate",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Ultimate",
 					"time": "16:31",
 					"teamOne": [
@@ -2111,7 +2111,7 @@
 					"map": "Red Slope",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Sev",
 					"time": "38:46",
 					"teamOne": [
@@ -2129,7 +2129,7 @@
 					"map": "Remnant",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "12:19",
 					"teamOne": [
@@ -2150,7 +2150,7 @@
 					"map": "Twin Peaks",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "18:26",
 					"teamOne": [
@@ -2171,7 +2171,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "16:41",
 					"teamOne": [
@@ -2192,7 +2192,7 @@
 					"map": "Oasis",
 					"commanders": "Gravey vs Domakus",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "10:10",
 					"teamOne": [
@@ -2213,7 +2213,7 @@
 					"map": "Overlook",
 					"commanders": "RollyPolly vs Sev",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "15:33",
 					"teamOne": [
@@ -2232,7 +2232,7 @@
 					"map": "Plaza",
 					"commanders": "RollyPolly vs X-Triage",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "16:31",
 					"teamOne": [
@@ -2253,7 +2253,7 @@
 					"map": "Rendon",
 					"commanders": "Gravey vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Gravey",
 					"time": "15:01",
 					"teamOne": [
@@ -2274,7 +2274,7 @@
 					"map": "Europa Night",
 					"commanders": "Gravey vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "25:26",
 					"teamOne": [
@@ -2295,7 +2295,7 @@
 					"map": "Lunix",
 					"commanders": "Gravey vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "12:13",
 					"teamOne": [
@@ -2316,7 +2316,7 @@
 					"map": "Moonshroud",
 					"commanders": "Gravey vs Herp McDerperson",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "13:09",
 					"teamOne": [
@@ -2337,7 +2337,7 @@
 					"map": "Overlook",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "14:31",
 					"teamOne": [
@@ -2358,7 +2358,7 @@
 					"map": "Strategy Arena",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "20:42",
 					"teamOne": [
@@ -2373,7 +2373,7 @@
 					"map": "Quagmire",
 					"commanders": "Cyber vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "31:30",
 					"teamOne": [
@@ -2392,7 +2392,7 @@
 					"map": "Oasis",
 					"commanders": "Sev vs F9bomber",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "12:06",
 					"teamOne": [
@@ -2413,7 +2413,7 @@
 					"map": "Oldboy",
 					"commanders": "Jabbapop vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Jabbapop",
 					"time": "22:31",
 					"teamOne": [
@@ -2432,7 +2432,7 @@
 					"map": "Quagmire",
 					"commanders": "Jabbapop vs Sev",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Jabbapop",
 					"time": "18:43",
 					"teamOne": [
@@ -2453,7 +2453,7 @@
 					"map": "Quarry",
 					"commanders": "Jabbapop vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "13:33",
 					"teamOne": [
@@ -2474,7 +2474,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "18:11",
 					"teamOne": [
@@ -2495,7 +2495,7 @@
 					"map": "Overlook",
 					"commanders": "F9bomber vs Econchump",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "19:37",
 					"teamOne": [
@@ -2514,7 +2514,7 @@
 					"map": "Quarry",
 					"commanders": "Darkvale vs Xpi",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Xpi",
 					"time": "8:03",
 					"teamOne": [
@@ -2535,7 +2535,7 @@
 					"map": "Red Slope",
 					"commanders": "X-Triage vs Xpi",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "24:04",
 					"teamOne": [
@@ -2556,7 +2556,7 @@
 					"map": "Strategy Arena",
 					"commanders": "F9bomber vs Xpi",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "15:27",
 					"teamOne": [
@@ -2575,7 +2575,7 @@
 					"map": "Ebola",
 					"commanders": "Gravey vs Econchump",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "10:04",
 					"teamOne": [
@@ -2596,7 +2596,7 @@
 					"map": "Barren",
 					"commanders": "Gravey vs Domakus",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Domakus",
 					"time": "11:37",
 					"teamOne": [
@@ -2617,7 +2617,7 @@
 					"map": "Sahara",
 					"commanders": "Gravey vs Sev",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Scion",
 					"time": "25:16",
 					"teamOne": [
@@ -2638,7 +2638,7 @@
 					"map": "Titan",
 					"commanders": "F9bomber vs Sev",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Sev",
 					"time": "13:26",
 					"teamOne": [
@@ -2657,7 +2657,7 @@
 					"map": "Red Slope",
 					"commanders": "Xpi vs Judgeguns",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Xpi",
 					"time": "33:23",
 					"teamOne": [
@@ -2676,7 +2676,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "Xpi vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "17:09",
 					"teamOne": [
@@ -2697,7 +2697,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Muffin vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Econchump",
 					"time": "16:54",
 					"teamOne": [
@@ -2718,7 +2718,7 @@
 					"map": "Reflex",
 					"commanders": "Gravey vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "NA",
 					"teamOne": [
@@ -2737,7 +2737,7 @@
 					"map": "Quarry",
 					"commanders": "Whatever vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "10:57",
 					"teamOne": [
@@ -2758,7 +2758,7 @@
 					"map": "Vortex",
 					"commanders": "Whatever vs Ultimate",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Ultimate",
 					"time": "15:00",
 					"teamOne": [
@@ -2779,7 +2779,7 @@
 					"map": "Ancient Hills",
 					"commanders": "VTrider vs Herp McDerperson",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "16:19",
 					"teamOne": [
@@ -2800,7 +2800,7 @@
 					"map": "Mojave",
 					"commanders": "Darkvale vs X-Triage",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "I.S.D.F",
 					"time": "",
 					"teamOne": [
@@ -2821,7 +2821,7 @@
 					"map": "Sahara",
 					"commanders": "Gravey vs Whatever",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "NA",
 					"teamOne": [
@@ -2836,7 +2836,7 @@
 					"map": "Fort 12C",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "47:34",
 					"teamOne": [
@@ -2858,7 +2858,7 @@
 					"map": "Quarry",
 					"commanders": "F9bomber vs Econchump",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Econchump",
 					"time": "12:51",
 					"teamOne": [
@@ -2873,7 +2873,7 @@
 					"map": "Terron",
 					"commanders": "F9bomber vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Econchump",
 					"time": "12:15",
 					"teamOne": [
@@ -2889,7 +2889,7 @@
 					"map": "Trench",
 					"commanders": "F9bomber vs Muffin",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Muffin",
 					"time": "21:26",
 					"teamOne": [
@@ -2906,7 +2906,7 @@
 					"map": "Red Slope",
 					"commanders": "Darkvale vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "1:13:21",
 					"teamOne": [
@@ -2932,7 +2932,7 @@
 					"map": "Rendon",
 					"commanders": "X-Triage vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "16:31",
 					"teamOne": [
@@ -2951,7 +2951,7 @@
 					"map": "Quarry",
 					"commanders": "X-Triage vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "16:28",
 					"teamOne": [
@@ -2968,7 +2968,7 @@
 					"map": "Oasis",
 					"commanders": "X-Triage vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "13:34",
 					"teamOne": [
@@ -2987,7 +2987,7 @@
 					"map": "Red Slope",
 					"commanders": "Sly vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "32:00",
 					"teamOne": [
@@ -3013,7 +3013,7 @@
 					"map": "Overlook",
 					"commanders": "F9bomber vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Econchump",
 					"time": "31:08",
 					"teamOne": [
@@ -3038,7 +3038,7 @@
 					"map": "Consciousness",
 					"commanders": "Darkvale vs Bylarge",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "10:52",
 					"teamOne": [
@@ -3059,7 +3059,7 @@
 					"map": "Transfer",
 					"commanders": "Herp McDerperson vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "30:34",
 					"teamOne": [
@@ -3081,7 +3081,7 @@
 					"map": "Remnant",
 					"commanders": "Xpi vs Zack",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Xpi",
 					"time": "45:06",
 					"teamOne": [
@@ -3101,7 +3101,7 @@
 					"map": "Haven",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "8:58",
 					"teamOne": [
@@ -3119,7 +3119,7 @@
 					"map": "Insula",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Gravey",
 					"time": "23:51",
 					"teamOne": [
@@ -3137,7 +3137,7 @@
 					"map": "Mojave",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Gravey",
 					"time": "22:08",
 					"teamOne": [
@@ -3158,7 +3158,7 @@
 					"map": "Strategy Arena",
 					"commanders": "VTrider vs Jabbapop",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "14:00",
 					"teamOne": [
@@ -3175,7 +3175,7 @@
 					"map": "Red Slope",
 					"commanders": "StarFox vs Judgeguns",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "StarFox",
 					"time": "13:15",
 					"teamOne": [
@@ -3197,7 +3197,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "16:25",
 					"teamOne": [
@@ -3221,7 +3221,7 @@
 					"map": "Remnant",
 					"commanders": "VTrider vs Econchump",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Econchump",
 					"time": "13:50",
 					"teamOne": [
@@ -3242,7 +3242,7 @@
 					"map": "Red Slope",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "8:30",
 					"teamOne": [
@@ -3263,7 +3263,7 @@
 					"map": "Oasis",
 					"commanders": "Bacon vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Bacon",
 					"time": "15:42",
 					"teamOne": [
@@ -3286,7 +3286,7 @@
 					"map": "Haven",
 					"commanders": "F9bomber vs Zack",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "56:04",
 					"teamOne": [
@@ -3305,7 +3305,7 @@
 					"map": "Haven",
 					"commanders": "Herp McDerperson vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "10:08",
 					"teamOne": [
@@ -3327,7 +3327,7 @@
 					"map": "Garden",
 					"commanders": "Zack vs Certified Bad Guy",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "25:13",
 					"teamOne": [
@@ -3346,7 +3346,7 @@
 					"map": "Island of V8",
 					"commanders": "Darkvale vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "18:07",
 					"teamOne": [
@@ -3366,7 +3366,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Zack vs Certified Bad Guy",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Zack",
 					"time": "12:04",
 					"teamOne": [
@@ -3385,7 +3385,7 @@
 					"map": "Mojave",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "12:53",
 					"teamOne": [
@@ -3403,7 +3403,7 @@
 					"map": "Lunar",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "12:29",
 					"teamOne": [
@@ -3427,7 +3427,7 @@
 					"map": "Overlook",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "22:38",
 					"teamOne": [
@@ -3448,7 +3448,7 @@
 					"map": "Remnant",
 					"commanders": "Lithium vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "15:06",
 					"teamOne": [
@@ -3469,7 +3469,7 @@
 					"map": "Excavation",
 					"commanders": "Lithium vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "9:41",
 					"teamOne": [
@@ -3487,7 +3487,7 @@
 					"map": "Oldboy",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "9:10",
 					"teamOne": [
@@ -3504,7 +3504,7 @@
 					"map": "Terron",
 					"commanders": "Zack vs Xpi",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "18:19",
 					"teamOne": [
@@ -3521,7 +3521,7 @@
 					"map": "Lunix",
 					"commanders": "X-Triage vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "11:11",
 					"teamOne": [
@@ -3542,7 +3542,7 @@
 					"map": "310",
 					"commanders": "X-Triage vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "14:26",
 					"teamOne": [
@@ -3563,7 +3563,7 @@
 					"map": "Oasis",
 					"commanders": "Maverick vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Maverick",
 					"time": "31:33",
 					"teamOne": [
@@ -3584,7 +3584,7 @@
 					"map": "Oldboy",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "9:43",
 					"teamOne": [
@@ -3609,7 +3609,7 @@
 					"map": "Plaza",
 					"commanders": "Darkvale vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "8:48",
 					"teamOne": [
@@ -3629,7 +3629,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Blue Banana vs DD",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "32:25",
 					"teamOne": [
@@ -3648,7 +3648,7 @@
 					"map": "Lunar",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "32:58",
 					"teamOne": [
@@ -3669,7 +3669,7 @@
 					"map": "Ice Age",
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "7:00",
 					"teamOne": [
@@ -3690,7 +3690,7 @@
 					"map": "Fort 12C",
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "14:43",
 					"teamOne": [
@@ -3711,7 +3711,7 @@
 					"map": "Quagmire",
 					"commanders": "F9bomber vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "25:47",
 					"teamOne": [
@@ -3732,7 +3732,7 @@
 					"map": "Jade Green",
 					"commanders": "Domakus vs Blue Banana",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "33:15",
 					"teamOne": [
@@ -3753,7 +3753,7 @@
 					"map": "Magma",
 					"commanders": "Blue Banana vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "20:15",
 					"teamOne": [
@@ -3772,7 +3772,7 @@
 					"map": "Moonshroud",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "12:22",
 					"teamOne": [
@@ -3793,7 +3793,7 @@
 					"map": "Egypt",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "15:54",
 					"teamOne": [
@@ -3816,7 +3816,7 @@
 					"map": "Iraq",
 					"commanders": "Zack vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "9:54",
 					"teamOne": [
@@ -3835,7 +3835,7 @@
 					"map": "Giza",
 					"commanders": "X-Triage vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "13:03",
 					"teamOne": [
@@ -3858,7 +3858,7 @@
 					"map": "Lunar",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "15:57",
 					"teamOne": [
@@ -3879,7 +3879,7 @@
 					"map": "Giza",
 					"commanders": "VTrider vs Herp McDerperson",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "27:07",
 					"teamOne": [
@@ -3899,7 +3899,7 @@
 					"map": "Overlook",
 					"commanders": "VTrider vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "19:30",
 					"teamOne": [
@@ -3920,7 +3920,7 @@
 					"map": "Mort's Wasteland",
 					"commanders": "Blue Banana vs Darkvale",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "48:40",
 					"teamOne": [
@@ -3942,7 +3942,7 @@
 					"map": "Europa Night",
 					"commanders": "VTrider vs Cloaket",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "33:16",
 					"teamOne": [
@@ -3963,7 +3963,7 @@
 					"map": "Lunar",
 					"commanders": "X-Triage vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "20:45",
 					"teamOne": [
@@ -3984,7 +3984,7 @@
 					"map": "Remnant",
 					"commanders": "X-Triage vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "8:51",
 					"teamOne": [
@@ -4006,7 +4006,7 @@
 					"map": "Trail",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "20:35",
 					"teamOne": [
@@ -4027,7 +4027,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "VTrider vs F9bomber",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "1:28:42",
 					"teamOne": [
@@ -4050,7 +4050,7 @@
 					"map": "Middle Wars",
 					"commanders": "Cloaket vs Gravey",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "19:45",
 					"teamOne": [
@@ -4069,7 +4069,7 @@
 					"map": "Oasis",
 					"commanders": "Cloaket vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "15:39",
 					"teamOne": [
@@ -4088,7 +4088,7 @@
 					"map": "Titan",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Cloaket",
 					"time": "26:35",
 					"teamOne": [
@@ -4109,7 +4109,7 @@
 					"map": "Sahara",
 					"commanders": "Gravey vs Certified Bad Guy",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "1:12:11",
 					"teamOne": [
@@ -4130,7 +4130,7 @@
 					"map": "Overlook",
 					"commanders": "Gravey vs Cloaket",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Gravey",
 					"time": "33:15",
 					"teamOne": [
@@ -4158,7 +4158,7 @@
 					"map": "Bowl",
 					"commanders": "VTrider vs X-Triage",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "30:57",
 					"teamOne": [
@@ -4184,7 +4184,7 @@
 					"map": "Forgotten",
 					"commanders": "Nomad vs F9mama",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9mama",
 					"time": "20:25",
 					"teamOne": [
@@ -4205,7 +4205,7 @@
 					"map": "Mort's Wasteland",
 					"commanders": "Judgeguns vs Darkvale",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Judgeguns",
 					"time": "24:07",
 					"teamOne": [
@@ -4226,7 +4226,7 @@
 					"map": "Quarry",
 					"commanders": "Cloaket vs Domakus",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "13:05",
 					"teamOne": [
@@ -4247,7 +4247,7 @@
 					"map": "Remnant",
 					"commanders": "Darkvale vs Lithium",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Darkvale",
 					"time": "39:41",
 					"teamOne": [
@@ -4268,7 +4268,7 @@
 					"map": "Red Slope",
 					"commanders": "Judgeguns vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "21:27",
 					"teamOne": [
@@ -4283,7 +4283,7 @@
 					"map": "Giza",
 					"commanders": "Lithium vs Darkvale",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Darkvale",
 					"time": "32:52",
 					"teamOne": [
@@ -4306,7 +4306,7 @@
 					"map": "Terron",
 					"commanders": "F9bomber vs Econchump",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Econchump",
 					"time": "19:57",
 					"teamOne": [
@@ -4325,7 +4325,7 @@
 					"map": "Casius",
 					"commanders": "Certified Bad Guy vs Domakus",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "51:59",
 					"teamOne": [
@@ -4344,7 +4344,7 @@
 					"map": "Excavation",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "17:16",
 					"teamOne": [
@@ -4365,7 +4365,7 @@
 					"map": "Giza",
 					"commanders": "Nomad vs Darkvale",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Darkvale",
 					"time": "25:52",
 					"teamOne": [
@@ -4387,7 +4387,7 @@
 					"map": "Haven",
 					"commanders": "Lithium vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "17:50",
 					"teamOne": [
@@ -4404,7 +4404,7 @@
 					"map": "Sahara",
 					"commanders": "Lithium vs Darkvale",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "1:09:22",
 					"teamOne": [
@@ -4425,7 +4425,7 @@
 					"map": "High & Low",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "9:58",
 					"teamOne": [
@@ -4446,7 +4446,7 @@
 					"map": "Ancient Hills",
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "18:48",
 					"teamOne": [
@@ -4467,7 +4467,7 @@
 					"map": "Cracked",
 					"commanders": "F9bomber vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "24:07",
 					"teamOne": [
@@ -4488,7 +4488,7 @@
 					"map": "Reflex",
 					"commanders": "Econchump vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "NA",
 					"teamOne": [
@@ -4510,7 +4510,7 @@
 					"map": "Egypt",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "48:37",
 					"teamOne": [
@@ -4533,7 +4533,7 @@
 					"map": "Oasis",
 					"commanders": "VTrider vs Bacon",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "21:35",
 					"teamOne": [
@@ -4557,7 +4557,7 @@
 					"map": "Remnant",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "56:57",
 					"teamOne": [
@@ -4575,7 +4575,7 @@
 					"map": "Rendon",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "15:20",
 					"teamOne": [
@@ -4594,7 +4594,7 @@
 					"map": "Mojave",
 					"commanders": "VTrider vs Econchump",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "17:50",
 					"teamOne": [
@@ -4611,7 +4611,7 @@
 					"map": "Overlook",
 					"commanders": "Darkvale vs Judgeguns",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Darkvale",
 					"time": "1:16:36",
 					"teamOne": [
@@ -4628,7 +4628,7 @@
 					"map": "Terron",
 					"commanders": "KingFuryKiller vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "KingFuryKiller",
 					"time": "55:59",
 					"teamOne": [
@@ -4645,7 +4645,7 @@
 					"map": "Trench",
 					"commanders": "Nomad vs X-Triage",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "42:54",
 					"teamOne": [
@@ -4667,7 +4667,7 @@
 					"map": "Prodigy Ver .2",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "15:20",
 					"teamOne": [
@@ -4686,7 +4686,7 @@
 					"map": "Europa Night",
 					"commanders": "Nomad vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "14:19",
 					"teamOne": [
@@ -4706,7 +4706,7 @@
 					"map": "Remnant",
 					"commanders": "Nomad vs Xpi",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Xpi",
 					"time": "16:11",
 					"teamOne": [
@@ -4721,7 +4721,7 @@
 					"map": "Red Slope",
 					"commanders": "Nomad vs Xpi",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Xpi",
 					"time": "10:06",
 					"teamOne": [
@@ -4736,7 +4736,7 @@
 					"map": "Excavation",
 					"commanders": "Judgeguns vs Xpi",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Xpi",
 					"time": "29:08",
 					"teamOne": [
@@ -4755,7 +4755,7 @@
 					"map": "Remnant",
 					"commanders": "Nomad vs Xpi",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Xpi",
 					"time": "11:20",
 					"teamOne": [
@@ -4771,7 +4771,7 @@
 					"map": "Plaza",
 					"commanders": "Certified Bad Guy vs Maverick",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "18:47",
 					"teamOne": [
@@ -4790,7 +4790,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Certified Bad Guy vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "13:57",
 					"teamOne": [
@@ -4815,7 +4815,7 @@
 					"map": "Plus",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "10:40",
 					"teamOne": [
@@ -4836,7 +4836,7 @@
 					"map": "Giza",
 					"commanders": "Darkvale vs Herp McDerperson",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "21:18",
 					"teamOne": [
@@ -4855,7 +4855,7 @@
 					"map": "310",
 					"commanders": "Darkvale vs X-Triage",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "5:54",
 					"teamOne": [
@@ -4876,7 +4876,7 @@
 					"map": "Mort's Wasteland",
 					"commanders": "Darkvale vs X-Triage",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "17:05",
 					"teamOne": [
@@ -4897,7 +4897,7 @@
 					"map": "Red Slope",
 					"commanders": "Nomad vs DesUxS",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "40:39",
 					"teamOne": [
@@ -4918,7 +4918,7 @@
 					"map": "Terron",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[Hadean, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Cloaket",
 					"time": "26:14",
 					"teamOne": [
@@ -4939,7 +4939,7 @@
 					"map": "Mexican Mission",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Blue Banana",
 					"time": "16:21",
 					"teamOne": [
@@ -4958,7 +4958,7 @@
 					"map": "Oldboy",
 					"commanders": "VTrider vs Blue Banana",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "30:47",
 					"teamOne": [
@@ -4979,7 +4979,7 @@
 					"map": "Bowl",
 					"commanders": "VTrider vs Cloaket",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "10:30",
 					"teamOne": [
@@ -5000,7 +5000,7 @@
 					"map": "Aussault",
 					"commanders": "Lithium vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "18:42",
 					"teamOne": [
@@ -5021,7 +5021,7 @@
 					"map": "Ancient Hills",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "17:49",
 					"teamOne": [
@@ -5042,7 +5042,7 @@
 					"map": "Titan",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "15:31",
 					"teamOne": [
@@ -5065,7 +5065,7 @@
 					"map": "Forgotten",
 					"commanders": "DesUxS vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "DesUxS",
 					"time": "34:51",
 					"teamOne": [
@@ -5088,7 +5088,7 @@
 					"map": "Mojave",
 					"commanders": "Certified Bad Guy vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "15:21",
 					"teamOne": [
@@ -5105,7 +5105,7 @@
 					"map": "Oasis",
 					"commanders": "Certified Bad Guy vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "12:54",
 					"teamOne": [
@@ -5125,7 +5125,7 @@
 					"map": "Hound",
 					"commanders": "Certified Bad Guy vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "14:29",
 					"teamOne": [
@@ -5140,7 +5140,7 @@
 					"map": "Aussault",
 					"commanders": "Certified Bad Guy vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "14:47",
 					"teamOne": [
@@ -5157,7 +5157,7 @@
 					"map": "Overlook",
 					"commanders": "Certified Bad Guy vs Shock",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "52:40",
 					"teamOne": [
@@ -5176,7 +5176,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Darkvale vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "18:35",
 					"teamOne": [
@@ -5197,7 +5197,7 @@
 					"map": "Casius",
 					"commanders": "Darkvale vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "53:14",
 					"teamOne": [
@@ -5218,7 +5218,7 @@
 					"map": "Mojave",
 					"commanders": "Certified Bad Guy vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "6:15",
 					"teamOne": [
@@ -5236,7 +5236,7 @@
 					"map": "Aussault",
 					"commanders": "Lithium vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "11:33",
 					"teamOne": [
@@ -5254,7 +5254,7 @@
 					"map": "Strategy Arena",
 					"commanders": "F9bomber vs Lithium",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "7:38",
 					"teamOne": [
@@ -5271,7 +5271,7 @@
 					"map": "Ground Zero",
 					"commanders": "Certified Bad Guy vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "11:38",
 					"teamOne": [
@@ -5292,7 +5292,7 @@
 					"map": "Abuse",
 					"commanders": "Certified Bad Guy vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "6:56",
 					"teamOne": [
@@ -5311,7 +5311,7 @@
 					"map": "Aussault",
 					"commanders": "Lithium vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "18:24",
 					"teamOne": [
@@ -5329,7 +5329,7 @@
 					"map": "Sahara",
 					"commanders": "Darkvale vs Certified Bad Guy",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "18:46",
 					"teamOne": [
@@ -5350,7 +5350,7 @@
 					"map": "Trench",
 					"commanders": "Darkvale vs Muffin",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Muffin",
 					"time": "4:45",
 					"teamOne": [
@@ -5371,7 +5371,7 @@
 					"map": "Red Slope",
 					"commanders": "VTrider vs Jabbapop",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "12:10",
 					"teamOne": [
@@ -5392,7 +5392,7 @@
 					"map": "Giza",
 					"commanders": "Nomad vs Vacuum34",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Vacuum34",
 					"time": "10:40",
 					"teamOne": [
@@ -5413,7 +5413,7 @@
 					"map": "Aztec",
 					"commanders": "Nomad vs Vacuum34",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Vacuum34",
 					"time": "27:32",
 					"teamOne": [
@@ -5435,7 +5435,7 @@
 					"map": "Overlook",
 					"commanders": "Nomad vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "15:03",
 					"teamOne": [
@@ -5452,7 +5452,7 @@
 					"map": "Aussault",
 					"commanders": "Nomad vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "17:01",
 					"teamOne": [
@@ -5470,7 +5470,7 @@
 					"map": "Ice Age",
 					"commanders": "Certified Bad Guy vs Darkvale",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Certified Bad Guy",
 					"time": "21:54",
 					"teamOne": [
@@ -5489,7 +5489,7 @@
 					"map": "Red Slope",
 					"commanders": "Jabbapop vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "6:41",
 					"teamOne": [
@@ -5513,7 +5513,7 @@
 					"map": "Jurrasic Dog Park",
 					"commanders": "Nomad vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "12:06",
 					"teamOne": [
@@ -5534,7 +5534,7 @@
 					"map": "Oasis",
 					"commanders": "Nomad vs Vacuum34",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Vacuum34",
 					"time": "32:34",
 					"teamOne": [
@@ -5553,7 +5553,7 @@
 					"map": "Vegan",
 					"commanders": "Certified Bad Guy vs Vacuum34",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "53:34",
 					"teamOne": [
@@ -5574,7 +5574,7 @@
 					"map": "Mesa",
 					"commanders": "Certified Bad Guy vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "8:10",
 					"teamOne": [
@@ -5591,7 +5591,7 @@
 					"map": "Remnant",
 					"commanders": "Nomad vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "22:59",
 					"teamOne": [
@@ -5606,7 +5606,7 @@
 					"map": "Quarry",
 					"commanders": "F9bomber vs Lithium",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "18:27",
 					"teamOne": [
@@ -5623,7 +5623,7 @@
 					"map": "Mojave",
 					"commanders": "VTrider vs Econchump",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Econchump",
 					"time": "15:30",
 					"teamOne": [
@@ -5641,7 +5641,7 @@
 					"map": "Ebola",
 					"commanders": "Econchump vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "47:19",
 					"teamOne": [
@@ -5660,7 +5660,7 @@
 					"map": "Red Slope",
 					"commanders": "Cloaket vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "18:54",
 					"teamOne": [
@@ -5681,7 +5681,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Vacuum34",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "27:51",
 					"teamOne": [
@@ -5704,7 +5704,7 @@
 					"map": "Casius",
 					"commanders": "Certified Bad Guy vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "19:59",
 					"teamOne": [
@@ -5726,7 +5726,7 @@
 					"map": "Garden",
 					"commanders": "Nomad vs Lithium",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Lithium",
 					"time": "37:25",
 					"teamOne": [
@@ -5741,7 +5741,7 @@
 					"map": "Haven",
 					"commanders": "Nomad vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "18:36",
 					"teamOne": [
@@ -5758,7 +5758,7 @@
 					"map": "Remnant",
 					"commanders": "Nomad vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "25:41",
 					"teamOne": [
@@ -5775,7 +5775,7 @@
 					"map": "Oldboy",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "19:59",
 					"teamOne": [
@@ -5799,7 +5799,7 @@
 					"map": "Cracked",
 					"commanders": "VTrider vs Darkvale",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "15:10",
 					"teamOne": [
@@ -5820,7 +5820,7 @@
 					"map": "Ancient Hills",
 					"commanders": "VTrider vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "20:30",
 					"teamOne": [
@@ -5841,7 +5841,7 @@
 					"map": "Giza",
 					"commanders": "VTrider vs Herp McDerperson",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "27:26",
 					"teamOne": [
@@ -5861,7 +5861,7 @@
 					"map": "Oasis",
 					"commanders": "VTrider vs Cloaket",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Cloaket",
 					"time": "5:05",
 					"teamOne": [
@@ -5882,7 +5882,7 @@
 					"map": "Jade Green",
 					"commanders": "VTrider vs Cloaket",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Cloaket",
 					"time": "20:14",
 					"teamOne": [
@@ -5905,7 +5905,7 @@
 					"map": "Sahara",
 					"commanders": "Blue Banana vs Nomad",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "1:08:50",
 					"teamOne": [
@@ -5926,7 +5926,7 @@
 					"map": "Forgotten",
 					"commanders": "Blue Banana vs Cloaket",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "9:40",
 					"teamOne": [
@@ -5947,7 +5947,7 @@
 					"map": "Mojave",
 					"commanders": "VTrider vs Cloaket",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "31:00",
 					"teamOne": [
@@ -5966,7 +5966,7 @@
 					"map": "Quarry",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "20:19",
 					"teamOne": [
@@ -5987,7 +5987,7 @@
 					"map": "Quagmire",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "16:46",
 					"teamOne": [
@@ -6008,7 +6008,7 @@
 					"map": "Tempest",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "12:01",
 					"teamOne": [
@@ -6030,7 +6030,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Certified Bad Guy vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "VTrider",
 					"time": "32:00",
 					"teamOne": [
@@ -6051,7 +6051,7 @@
 					"map": "Mojave",
 					"commanders": "M.S vs MAX",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "MAX",
 					"time": "34:01",
 					"teamOne": [
@@ -6066,7 +6066,7 @@
 					"map": "Red Slope",
 					"commanders": "F9bomber vs DD",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "DD",
 					"time": "14:09",
 					"teamOne": [
@@ -6081,7 +6081,7 @@
 					"map": "Remnant",
 					"commanders": "Sev vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "6:56",
 					"teamOne": [
@@ -6102,7 +6102,7 @@
 					"map": "Sahara",
 					"commanders": "Sev vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "19:22",
 					"teamOne": [
@@ -6123,7 +6123,7 @@
 					"map": "Lunar",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "12:15",
 					"teamOne": [
@@ -6146,7 +6146,7 @@
 					"map": "Oasis",
 					"commanders": "Nomad vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "19:53",
 					"teamOne": [
@@ -6167,7 +6167,7 @@
 					"map": "Vegan",
 					"commanders": "VTrider vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "1:15:21",
 					"teamOne": [
@@ -6192,7 +6192,7 @@
 					"map": "Remnant",
 					"commanders": "VTrider vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "21:19",
 					"teamOne": [
@@ -6211,7 +6211,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "F9bomber vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "8:16",
 					"teamOne": [
@@ -6230,7 +6230,7 @@
 					"map": "Terron",
 					"commanders": "Certified Bad Guy vs Gravey",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "26:03",
 					"teamOne": [
@@ -6256,7 +6256,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "Certified Bad Guy vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "9:38",
 					"teamOne": [
@@ -6276,7 +6276,7 @@
 					"map": "Reflex",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "12:14",
 					"teamOne": [
@@ -6295,7 +6295,7 @@
 					"map": "Vegan",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "1:25:00",
 					"teamOne": [
@@ -6304,10 +6304,10 @@
 					"teamTwo": [
 						"Judgeguns"
 					],
-					"teamOne": [
+					"teamOneStraggler": [
 						"Sev"
 					],
-					"teamTwo": [
+					"teamTwoStraggler": [
 						"F9bomber",
 						"Nomad"
 					]
@@ -6319,7 +6319,7 @@
 					"map": "Giza",
 					"commanders": "F9bomber vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "23:51",
 					"teamOne": [
@@ -6340,7 +6340,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Darkvale vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "10:29",
 					"teamOne": [
@@ -6361,7 +6361,7 @@
 					"map": "Plaza",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "1:06:07",
 					"teamOne": [
@@ -6382,7 +6382,7 @@
 					"map": "Mojave",
 					"commanders": "F9bomber vs Nomad",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "23:02",
 					"teamOne": [
@@ -6399,7 +6399,7 @@
 					"map": "Terron",
 					"commanders": "Bylarge vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "25:39",
 					"teamOne": [
@@ -6415,7 +6415,7 @@
 					"map": "Quagmire",
 					"commanders": "Gravey vs Cyber",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cyber",
 					"time": "8:49",
 					"teamOne": [
@@ -6436,7 +6436,7 @@
 					"map": "Trench",
 					"commanders": "Vacuum34 vs Nomad",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Vacuum34",
 					"time": "14:41",
 					"teamOne": [
@@ -6457,7 +6457,7 @@
 					"map": "Toxicity",
 					"commanders": "Blue Banana vs Vacuum34",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "1:20:58",
 					"teamOne": [
@@ -6480,7 +6480,7 @@
 					"map": "Egypt",
 					"commanders": "Zack vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "5:45",
 					"teamOne": [
@@ -6499,7 +6499,7 @@
 					"map": "Ebola",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "22:24",
 					"teamOne": [
@@ -6518,7 +6518,7 @@
 					"map": "Red Slope",
 					"commanders": "Cloaket vs Cyber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cyber",
 					"time": "19:58",
 					"teamOne": [
@@ -6539,7 +6539,7 @@
 					"map": "Reflex",
 					"commanders": "Cloaket vs Domakus",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "14:15",
 					"teamOne": [
@@ -6556,7 +6556,7 @@
 					"map": "Red Slope",
 					"commanders": "F9bomber vs Shock",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "F9bomber",
 					"time": "50:58",
 					"teamOne": [
@@ -6575,7 +6575,7 @@
 					"map": "Giza",
 					"commanders": "VTrider vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "13:14",
 					"teamOne": [
@@ -6597,7 +6597,7 @@
 					"map": "Remnant",
 					"commanders": "Certified Bad Guy vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "27:05",
 					"teamOne": [
@@ -6614,7 +6614,7 @@
 					"map": "Quarry",
 					"commanders": "Lithium vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "24:26",
 					"teamOne": [
@@ -6632,7 +6632,7 @@
 					"map": "Mayhem",
 					"commanders": "Blue Banana vs Nomad",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "17:46",
 					"teamOne": [
@@ -6653,7 +6653,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "Jabbapop vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Jabbapop",
 					"time": "12:33",
 					"teamOne": [
@@ -6670,7 +6670,7 @@
 					"map": "Mayhem",
 					"commanders": "Blue Banana vs Nomad",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "14:49",
 					"teamOne": [
@@ -6689,7 +6689,7 @@
 					"map": "Lunix",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "17:36",
 					"teamOne": [
@@ -6709,7 +6709,7 @@
 					"map": "Lunix",
 					"commanders": "Gravey vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "16:58",
 					"teamOne": [
@@ -6729,7 +6729,7 @@
 					"map": "Ancient Outposts",
 					"commanders": "Gravey vs Blue Banana",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Gravey",
 					"time": "30:21",
 					"teamOne": [
@@ -6756,7 +6756,7 @@
 					"map": "Titan",
 					"commanders": "Zack vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "19:00",
 					"teamOne": [
@@ -6773,7 +6773,7 @@
 					"map": "Terron",
 					"commanders": "Zack vs Lithium",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "28:18",
 					"teamOne": [
@@ -6789,7 +6789,7 @@
 					"map": "Twin Peaks",
 					"commanders": "F9bomber vs Nomad",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "15:32",
 					"teamOne": [
@@ -6806,7 +6806,7 @@
 					"map": "Vortex",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "17:51",
 					"teamOne": [
@@ -6827,7 +6827,7 @@
 					"map": "Aztec",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "1:02:43",
 					"teamOne": [
@@ -6852,7 +6852,7 @@
 					"map": "Scammed",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "21:25",
 					"teamOne": [
@@ -6873,7 +6873,7 @@
 					"map": "Lunix",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "15:28",
 					"teamOne": [
@@ -6892,7 +6892,7 @@
 					"map": "Garden",
 					"commanders": "Zack vs Nomad",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "9:43",
 					"teamOne": [
@@ -6917,7 +6917,7 @@
 					"map": "Revolution",
 					"commanders": "Blue Banana vs HyperVivify",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "HyperVivify",
 					"time": "15:48",
 					"teamOne": [
@@ -6937,7 +6937,7 @@
 					"map": "Ice Age",
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "15:11",
 					"teamOne": [
@@ -6958,7 +6958,7 @@
 					"map": "Europa",
 					"commanders": "M.S vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "48:55",
 					"teamOne": [
@@ -6984,7 +6984,7 @@
 					"map": "Insula",
 					"commanders": "Domakus vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Domakus",
 					"time": "20:44",
 					"teamOne": [
@@ -7005,7 +7005,7 @@
 					"map": "Sahara",
 					"commanders": "Xpi vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "19:07",
 					"teamOne": [
@@ -7028,7 +7028,7 @@
 					"map": "Oasis",
 					"commanders": "Xpi vs Sev",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "15:33",
 					"teamOne": [
@@ -7046,7 +7046,7 @@
 					"map": "Insula",
 					"commanders": "Darkvale vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "14:45",
 					"teamOne": [
@@ -7064,7 +7064,7 @@
 					"map": "Impact",
 					"commanders": "Sev vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "54:29",
 					"teamOne": [
@@ -7085,7 +7085,7 @@
 					"map": "Quarry",
 					"commanders": "Blue Banana vs Zack",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "21:56",
 					"teamOne": [
@@ -7105,7 +7105,7 @@
 					"map": "Excavation",
 					"commanders": "Blue Banana vs Zack",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "29:31",
 					"teamOne": [
@@ -7126,7 +7126,7 @@
 					"map": "Excavation",
 					"commanders": "Gravey vs Domakus",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "18:43",
 					"teamOne": [
@@ -7147,7 +7147,7 @@
 					"map": "Sahara",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "VTrider",
 					"time": "14:24",
 					"teamOne": [
@@ -7168,7 +7168,7 @@
 					"map": "Quagmire",
 					"commanders": "Gravey vs VTrider",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Gravey",
 					"time": "12:44",
 					"teamOne": [
@@ -7189,7 +7189,7 @@
 					"map": "Remnant",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "13:35",
 					"teamOne": [
@@ -7212,7 +7212,7 @@
 					"map": "Red Slope",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "22:27",
 					"teamOne": [
@@ -7231,7 +7231,7 @@
 					"map": "Terron",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "11:40",
 					"teamOne": [
@@ -7252,7 +7252,7 @@
 					"map": "Selena",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "14:26",
 					"teamOne": [
@@ -7272,7 +7272,7 @@
 					"map": "Remnant",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "3:35",
 					"teamOne": [
@@ -7292,7 +7292,7 @@
 					"map": "The War",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "5:37",
 					"teamOne": [
@@ -7312,7 +7312,7 @@
 					"map": "Mojave",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Xpi",
 					"time": "6:36",
 					"teamOne": [
@@ -7332,7 +7332,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "11:17",
 					"teamOne": [
@@ -7351,7 +7351,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Xpi vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "24:19",
 					"teamOne": [
@@ -7370,7 +7370,7 @@
 					"map": "Reflex",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "18:31",
 					"teamOne": [
@@ -7391,7 +7391,7 @@
 					"map": "Mojave",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "9:48",
 					"teamOne": [
@@ -7412,7 +7412,7 @@
 					"map": "Mort's Wasteland",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "5:48",
 					"teamOne": [
@@ -7433,7 +7433,7 @@
 					"map": "Plaza",
 					"commanders": "Blue Banana vs Zack",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "36:34",
 					"teamOne": [
@@ -7458,7 +7458,7 @@
 					"map": "Jade Green",
 					"commanders": "Domakus vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Domakus",
 					"time": "17:01",
 					"teamOne": [
@@ -7479,7 +7479,7 @@
 					"map": "Remnant",
 					"commanders": "Blue Banana vs Cyber",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cyber",
 					"time": "9:57",
 					"teamOne": [
@@ -7500,7 +7500,7 @@
 					"map": "Trench",
 					"commanders": "Blue Banana vs Cyber",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cyber",
 					"time": "8:36",
 					"teamOne": [
@@ -7524,7 +7524,7 @@
 					"map": "Terron",
 					"commanders": "Lithium vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "16:57",
 					"teamOne": [
@@ -7539,7 +7539,7 @@
 					"map": "Twin Peaks",
 					"commanders": "Lithium vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "22:40",
 					"teamOne": [
@@ -7556,7 +7556,7 @@
 					"map": "Overlook",
 					"commanders": "X-Triage vs Judgeguns",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
 					"time": "16:30",
 					"teamOne": [
@@ -7578,7 +7578,7 @@
 					"map": "Mojave",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "28:57",
 					"teamOne": [
@@ -7597,7 +7597,7 @@
 					"map": "Oasis",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "14:11",
 					"teamOne": [
@@ -7619,7 +7619,7 @@
 					"map": "Plaza",
 					"commanders": "Zack vs Sev",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Sev",
 					"time": "52:08",
 					"teamOne": [
@@ -7646,7 +7646,7 @@
 					"map": "Mesa",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "46:45",
 					"teamOne": [
@@ -7663,7 +7663,7 @@
 					"map": "Oldboy",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "30:47",
 					"teamOne": [
@@ -7680,7 +7680,7 @@
 					"map": "Ragnarok",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "35:54",
 					"teamOne": [
@@ -7697,7 +7697,7 @@
 					"map": "Haven",
 					"commanders": "Vacuum34 vs Systeme",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Vacuum34",
 					"time": "28:34",
 					"teamOne": [
@@ -7718,7 +7718,7 @@
 					"map": "Fort 12C",
 					"commanders": "F9bomber vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "1:31:15",
 					"teamOne": [
@@ -7741,7 +7741,7 @@
 					"map": "Power Struggle",
 					"commanders": "F9bomber vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "20:46",
 					"teamOne": [
@@ -7760,7 +7760,7 @@
 					"map": "Mountain Top",
 					"commanders": "M.S vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "10:35",
 					"teamOne": [
@@ -7779,7 +7779,7 @@
 					"map": "Giza",
 					"commanders": "Nomad vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Nomad",
 					"time": "17:55",
 					"teamOne": [
@@ -7800,7 +7800,7 @@
 					"map": "Ancient Hills",
 					"commanders": "M.S vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "14:16",
 					"teamOne": [
@@ -7821,7 +7821,7 @@
 					"map": "Terron",
 					"commanders": "Darkvale vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "9:29",
 					"teamOne": [
@@ -7842,7 +7842,7 @@
 					"map": "Red Slope",
 					"commanders": "Darkvale vs Certified Bad Guy",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "8:56",
 					"teamOne": [
@@ -7861,7 +7861,7 @@
 					"map": "Sahara",
 					"commanders": "Zack vs Certified Bad Guy",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Zack",
 					"time": "19:00",
 					"teamOne": [
@@ -7880,7 +7880,7 @@
 					"map": "Twin Peaks",
 					"commanders": "F9bomber vs Lithium",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Lithium",
 					"time": "17:53",
 					"teamOne": [
@@ -7899,7 +7899,7 @@
 					"map": "Terron",
 					"commanders": "F9bomber vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "1:17:12",
 					"teamOne": [
@@ -7915,7 +7915,7 @@
 					"map": "Rendon",
 					"commanders": "Lithium vs Darkvale",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Darkvale",
 					"time": "30:45",
 					"teamOne": [
@@ -7935,7 +7935,7 @@
 					"map": "Giza",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[Scion, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "15:56",
 					"teamOne": [
@@ -7956,7 +7956,7 @@
 					"map": "Aztec",
 					"commanders": "Lithium vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "27:00",
 					"teamOne": [
@@ -7975,7 +7975,7 @@
 					"map": "Ancient Hills",
 					"commanders": "Lithium vs F9bomber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lithium",
 					"time": "18:40",
 					"teamOne": [
@@ -7994,7 +7994,7 @@
 					"map": "Mojave",
 					"commanders": "Vacuum34 vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "18:51",
 					"teamOne": [
@@ -8013,7 +8013,7 @@
 					"map": "Haven",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "16:03",
 					"teamOne": [
@@ -8030,7 +8030,7 @@
 					"map": "Reflex",
 					"commanders": "Zack vs F9bomber",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "F9bomber",
 					"time": "36:55",
 					"teamOne": [
@@ -8049,7 +8049,7 @@
 					"map": "XMAS-Haven",
 					"commanders": "Nomad vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "17:15",
 					"teamOne": [
@@ -8070,7 +8070,7 @@
 					"map": "XMAS-Remnant",
 					"commanders": "Domakus vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Domakus",
 					"time": "17:19",
 					"teamOne": [
@@ -8093,7 +8093,7 @@
 					"map": "XMAS-Consciousness",
 					"commanders": "M.S vs SilverBullet",
 					"factions": "[Scion, Hadean]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "M.S",
 					"time": "8:05",
 					"teamOne": [
@@ -8108,7 +8108,7 @@
 					"map": "Giza",
 					"commanders": "Zack vs Cyber",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "27:29",
 					"teamOne": [
@@ -8125,7 +8125,7 @@
 					"map": "Terron",
 					"commanders": "VTrider vs Lithium",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "9:06",
 					"teamOne": [
@@ -8146,7 +8146,7 @@
 					"map": "Oldboy",
 					"commanders": "SilverBullet vs SwiggityMcgiggity",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "SilverBullet",
 					"time": "NA",
 					"teamOne": [
@@ -8165,7 +8165,7 @@
 					"map": "Giza",
 					"commanders": "SwiggityMcgiggity vs Nomad",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Nomad",
 					"time": "NA",
 					"teamOne": [
@@ -8183,7 +8183,7 @@
 					"map": "Terron",
 					"commanders": "VTrider vs Lithium",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "VTrider",
 					"time": "22:36",
 					"teamOne": [
@@ -8205,7 +8205,7 @@
 					"map": "Rendon",
 					"commanders": "Lithium vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "F9bomber",
 					"time": "17:31",
 					"teamOne": [
@@ -8222,7 +8222,7 @@
 					"map": "Strategy Arena",
 					"commanders": "Lithium vs Herp McDerperson",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "13:26",
 					"teamOne": [
@@ -8239,7 +8239,7 @@
 					"map": "XMAS-Europa",
 					"commanders": "Lithium vs Herp McDerperson",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Herp McDerperson",
 					"time": "47:47",
 					"teamOne": [
@@ -8258,7 +8258,7 @@
 					"map": "Red Slope",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "13:45",
 					"teamOne": [
@@ -8277,7 +8277,7 @@
 					"map": "Mojave",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Cloaket",
 					"time": "13:45",
 					"teamOne": [
@@ -8298,7 +8298,7 @@
 					"map": "Insula",
 					"commanders": "Cloaket vs Blue Banana",
 					"factions": "[Hadean, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "NA",
 					"teamOne": [
@@ -8321,7 +8321,7 @@
 					"map": "Red Slope",
 					"commanders": "Certified Bad Guy vs Zack",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "28:57",
 					"teamOne": [
@@ -8343,7 +8343,7 @@
 					"map": "Iraq",
 					"commanders": "Certified Bad Guy vs Zack",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "11:20",
 					"teamOne": [
@@ -8361,7 +8361,7 @@
 					"map": "Quarry",
 					"commanders": "Lithium vs Zack",
 					"factions": "[Hadean, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
 					"time": "23:47",
 					"teamOne": [
@@ -8376,7 +8376,7 @@
 					"map": "Remnant",
 					"commanders": "SwiggityMcgiggity vs Lithium",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "SwiggityMcgiggity",
 					"time": "38:55",
 					"teamOne": [
@@ -8393,7 +8393,7 @@
 					"map": "Red Slope",
 					"commanders": "Certified Bad Guy vs Zack",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "28:03",
 					"teamOne": [
@@ -8413,7 +8413,7 @@
 					"map": "Pitbull",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[Scion, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Zack",
 					"time": "17:06",
 					"teamOne": [
@@ -8434,7 +8434,7 @@
 					"map": "Overlook",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "6:45",
 					"teamOne": [
@@ -8455,7 +8455,7 @@
 					"map": "Throbbing Gristle",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "10:30",
 					"teamOne": [
@@ -8476,7 +8476,7 @@
 					"map": "Rendon",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Certified Bad Guy",
 					"time": "18:47",
 					"teamOne": [
@@ -8497,7 +8497,7 @@
 					"map": "Jade Green",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "21:17",
 					"teamOne": [
@@ -8518,7 +8518,7 @@
 					"map": "Dream",
 					"commanders": "Lamper vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winning faction": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
 					"winner": "Lamper",
 					"time": "18:53",
 					"teamOne": [
@@ -8541,7 +8541,7 @@
 					"map": "Reflex",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "21:11",
 					"teamOne": [
@@ -8560,7 +8560,7 @@
 					"map": "Red Slope",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "22:13",
 					"teamOne": [
@@ -8581,7 +8581,7 @@
 					"map": "Europa",
 					"commanders": "Zack vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
-					"winning faction": "Scion",
+					"winningFaction": "Scion",
 					"winner": "Blue Banana",
 					"time": "30:43",
 					"teamOne": [
@@ -8602,7 +8602,7 @@
 					"map": "Ebola",
 					"commanders": "Certified Bad Guy vs Blue Banana",
 					"factions": "[I.S.D.F, Hadean]",
-					"winning faction": "Hadean",
+					"winningFaction": "Hadean",
 					"winner": "Blue Banana",
 					"time": "41:42",
 					"teamOne": [
@@ -8611,6 +8611,62 @@
 					],
 					"teamTwo": [
 						"Herp McDerperson"
+					]
+				}
+			},
+			"12.30.25": {
+				"Remnant": {
+					"date": "12.30.25",
+					"map": "Remnant",
+					"commanders": "Domakus vs Zack",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Zack",
+					"time": "36:00",
+					"teamOne": [
+						"Darkvale",
+						"Xpi",
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Certified Bad Guy",
+						"Lithium"
+					]
+				},
+				"Sahara": {
+					"date": "12.30.25",
+					"map": "Sahara",
+					"commanders": "Sly vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "23:14",
+					"teamOne": [
+						"Xpi"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nomad"
+					]
+				},
+				"Quarry": {
+					"date": "12.30.25",
+					"map": "Quarry",
+					"commanders": "Sly vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sly",
+					"time": "30:03",
+					"teamOne": [
+						"Xpi"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nomad"
+					],
+					"teamOneStraggler": [
+						"Judgeguns"
 					]
 				}
 			}

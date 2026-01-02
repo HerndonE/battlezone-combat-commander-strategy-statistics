@@ -20,6 +20,7 @@
     <script type="module" src="../js/overview.js"></script>
     <script type="module" src="../js/twentyFour.js"></script>
     <script type="module" src="../js/twentyFive.js"></script>
+    <script type="module" src="../js/twentySix.js"></script>
     <script type="module" src="../js/mobileStats.js"></script>
     <script type="module" src="../js/matchHistory.js"></script>
   </head>
@@ -42,6 +43,7 @@
         <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
         <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
         <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
+        <button class="tablinks" onclick="getData(event, 'twentySix')">2026</button>
         <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
         <!--<button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>-->
       </div>
@@ -128,6 +130,34 @@
               <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
               <button class="expand-btn" id="expand-btn-faction-choice-2025" style="display: none;">Expand Chart</button>
               <div class="graph-box" id="chart-wrapper-faction-choice-2025"></div>
+            </div>
+            <div id="tooltip2" class="tooltip"></div>
+          </div>
+        </div>
+      </div>
+      <div id="twentySix" class="tabcontent">
+        <div align="center">
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
+          <div class="graph-container">
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Played Maps</h3>
+              <button class="expand-btn" id="expand-btn-played-maps-2026" style="display: none;">Expand Chart</button>
+              <div class="graph-box" id="chart-wrapper-played-maps-2026"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Most Active Commanders</h3>
+              <button class="expand-btn" id="expand-btn-played-commanders-2026" style="display: none;">Expand Chart</button>
+              <div class="graph-box" id="chart-wrapper-played-commanders-2026"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
+              <button class="expand-btn" id="expand-btn-commander-wins-2026" style="display: none;">Expand Chart</button>
+              <div class="graph-box" id="chart-wrapper-commander-wins-2026"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
+              <button class="expand-btn" id="expand-btn-faction-choice-2026" style="display: none;">Expand Chart</button>
+              <div class="graph-box" id="chart-wrapper-faction-choice-2026"></div>
             </div>
             <div id="tooltip2" class="tooltip"></div>
           </div>
@@ -230,6 +260,29 @@
         <div class="sub-category">
           <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
           <div class="cards dropdown-content" id="commander-win-cards-2025"></div>
+        </div>
+      </div>
+      <div class="category">
+        <h3>2026</h3>
+        <div class="sub-category">
+          <button class="dropdown-btn">Faction Popularity ▼</button>
+          <div class="cards dropdown-content" id="factions-2026"></div>
+        </div>
+        <div class="sub-category">
+          <button class="dropdown-btn">Map Counts ▼</button>
+          <div class="cards dropdown-content" id="maps-2026"></div>
+        </div>
+        <div class="sub-category">
+          <button class="dropdown-btn">Active Commander ▼</button>
+          <div class="cards dropdown-content" id="active-commanders-2026"></div>
+        </div>
+        <div class="sub-category">
+          <button class="dropdown-btn">Commander Faction Choices ▼</button>
+          <div class="cards dropdown-content" id="commander-cards-2026"></div>
+        </div>
+        <div class="sub-category">
+          <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
+          <div class="cards dropdown-content" id="commander-win-cards-2026"></div>
         </div>
       </div>
     </div>

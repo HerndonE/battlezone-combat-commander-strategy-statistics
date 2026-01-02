@@ -6,7 +6,7 @@ import {
   TEXT_DARK,
 } from "./config.js";
 
-function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
+function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
   const container = d3.select(containerSelector);
 
   let svg = container.select("svg");
@@ -28,7 +28,7 @@ function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip1");
+    let tooltip = d3.select("#tooltip2");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -136,7 +136,7 @@ function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
   }
 }
 
-function commanderCountBarChart2024(
+function commanderCountBarChart2026(
   containerSelector,
   mapData,
   expandBtnSelector
@@ -162,7 +162,7 @@ function commanderCountBarChart2024(
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip1");
+    let tooltip = d3.select("#tooltip2");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -226,6 +226,7 @@ function commanderCountBarChart2024(
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
+      .attr("fill", "steelblue")
       .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
       .attr("rx", borderRadius)
       .attr("ry", borderRadius)
@@ -269,7 +270,7 @@ function commanderCountBarChart2024(
   }
 }
 
-function commanderFactionChoiceCountBarChart2024(
+function commanderFactionChoiceCountBarChart2026(
   containerId,
   chartData,
   expandBtnSelector = "#expand-btn"
@@ -285,7 +286,7 @@ function commanderFactionChoiceCountBarChart2024(
     .append("svg")
     .attr("height", svgHeight)
     .style("background-color", BACKGROUND_COLOR);
-  const tooltip = d3.select("#tooltip1");
+  const tooltip = d3.select("#tooltip2");
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
 
@@ -356,7 +357,7 @@ function commanderFactionChoiceCountBarChart2024(
       .attr("y", (d) => y(d.value))
       .attr("width", x1.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
+      .attr("fill", (d) => color(d.faction))
       .attr("rx", borderRadius)
       .attr("ry", borderRadius)
       .attr("class", "bar")
@@ -399,8 +400,8 @@ function commanderFactionChoiceCountBarChart2024(
         .append("text")
         .attr("x", 18)
         .attr("y", 10)
-        .attr("fill", TEXT_LIGHT)
         .text(faction)
+        .attr("fill", TEXT_LIGHT)
         .attr("class", "axis-label");
     });
   }
@@ -434,7 +435,7 @@ function commanderFactionChoiceCountBarChart2024(
   }
 }
 
-function factionPopularity2024(containerId, chartData) {
+function factionPopularity2026(containerId, chartData) {
   const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
 
   const width = 600;
@@ -491,7 +492,7 @@ function factionPopularity2024(containerId, chartData) {
     });
 }
 
-function commanderWinPercentages2024(
+function commanderWinPercentages2026(
   containerSelector,
   chartData,
   expandButtonSelector
@@ -525,11 +526,11 @@ function commanderWinPercentages2024(
     })
     .sort((a, b) => b.percentage - a.percentage);
 
-  let tooltip = container.select(".tooltip1");
+  let tooltip = container.select(".tooltip2");
   if (tooltip.empty()) {
     tooltip = container
       .append("div")
-      .attr("class", "tooltip1")
+      .attr("class", "tooltip2")
       .style("position", "absolute")
       .style("background", "rgba(0,0,0,0.8)")
       .style("color", "white")
@@ -596,6 +597,15 @@ function commanderWinPercentages2024(
     .selectAll("text")
     .attr("fill", TEXT_LIGHT);
 
+  svg
+    .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -(height / 2) - margin.top)
+    .attr("y", margin.left - 35)
+    .attr("text-anchor", "middle")
+    .attr("fill", TEXT_LIGHT)
+    .text("Count");
+
   if (expandButtonSelector) {
     d3.select(expandButtonSelector).on("click", () => {
       container.classed("expanded", !container.classed("expanded"));
@@ -604,7 +614,7 @@ function commanderWinPercentages2024(
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData["2024"]["data_2024"];
+  const data = rawData["2026"]["data_2026"];
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
 
@@ -613,39 +623,38 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     value,
   }));
 
-  const commanderFactionCounts = Object.entries(
-    data.commander_faction_counts
-  ).flatMap(([commander, factions]) =>
-    Object.entries(factions).map(([faction, value]) => ({
-      commander,
-      faction,
-      value,
-    }))
+  const factionCounts = Object.entries(data.commander_faction_counts).flatMap(
+    ([commander, factions]) =>
+      Object.entries(factions).map(([faction, value]) => ({
+        commander,
+        faction,
+        value,
+      }))
   );
 
-  mapCountBarChart2024(
-    "#chart-wrapper-played-maps-2024",
+  mapCountBarChart2026(
+    "#chart-wrapper-played-maps-2026",
     mapCounts,
-    "#expand-btn-played-maps-2024"
+    "#expand-btn-played-maps-2026"
   );
 
-  commanderCountBarChart2024(
-    "#chart-wrapper-played-commanders-2024",
+  commanderCountBarChart2026(
+    "#chart-wrapper-played-commanders-2026",
     commanderCounts,
-    "#expand-btn-played-commanders-2024"
+    "#expand-btn-played-commanders-2026"
   );
 
-  commanderFactionChoiceCountBarChart2024(
-    "#chart-wrapper-faction-choice-2024",
-    commanderFactionCounts,
-    "#expand-btn-faction-choice-2024"
+  commanderFactionChoiceCountBarChart2026(
+    "#chart-wrapper-faction-choice-2026",
+    factionCounts,
+    "#expand-btn-faction-choice-2026"
   );
 
-  factionPopularity2024("#inline-bar-chart-2", data.faction_counter);
+  factionPopularity2026("#inline-bar-chart-3", data.faction_counter);
 
-  commanderWinPercentages2024(
-    "#chart-wrapper-commander-wins-2024",
+  commanderWinPercentages2026(
+    "#chart-wrapper-commander-wins-2026",
     data.commander_win_percentages,
-    "#expand-btn-commander-wins-2024"
+    "#expand-btn-commander-wins-2026"
   );
 });
