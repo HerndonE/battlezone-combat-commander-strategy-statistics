@@ -11331,6 +11331,191 @@
 						]
 					}
 				}
+			},
+			"01.12.26": {
+				"Abundance": {
+					"date": "01.12.26",
+					"map": "Abundance",
+					"commanders": "MurphysLawUS vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "54:31",
+					"teamOne": [
+						"Nomad",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:54:31",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 358,
+									"deaths": 2,
+									"kills": 49
+								},
+								{
+									"name": "Team 1",
+									"score": 89,
+									"deaths": 8,
+									"kills": 34
+								},
+								{
+									"name": "alex jewns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 99,
+									"craft_lost": 61,
+									"buildings_constructed": 31,
+									"buildings_lost": 18,
+									"scrap_collected": 1020,
+									"scrap_spent": 4486,
+									"scrap_harvested_upgraded": 1256
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (alex jewns)": 1,
+										"Team 6 (Lithium)": 10,
+										"Team 8 (F9bomber)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 30,
+										"Team 8 (F9bomber)": 31
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Lithium)": 7,
+										"Team 8 (F9bomber)": 11
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 12,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 4,
+										"Team 8 (F9bomber)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 5,
+										"Team 8 (F9bomber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - alex jewns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 4,
+										"Team 8 (F9bomber)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (MurphysLawUS)": 1,
+										"Team 6 (Lithium)": 3,
+										"Team 8 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 94,
+									"craft_lost": 22,
+									"buildings_constructed": 30,
+									"buildings_lost": 9,
+									"scrap_collected": 935,
+									"scrap_spent": 5415,
+									"scrap_harvested_upgraded": 2668
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (MurphysLawUS)": 30,
+										"Team 2 (Reacher)": 5,
+										"Team 3 (alex jewns)": 3,
+										"Team 6 (Lithium)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (MurphysLawUS)": 10,
+										"Team 2 (Reacher)": 4,
+										"Team 3 (alex jewns)": 4,
+										"Team 6 (Lithium)": 3,
+										"Team 8 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (MurphysLawUS)": 7
+									},
+									"buildings_lost_to": {
+										"Team 1 (MurphysLawUS)": 1,
+										"Team 2 (Reacher)": 3,
+										"Team 3 (alex jewns)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 22,
+									"scrap_collected": 85,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (MurphysLawUS)": 31,
+										"Team 2 (Reacher)": 7,
+										"Team 3 (alex jewns)": 3,
+										"Team 6 (Lithium)": 1,
+										"Team 8 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (MurphysLawUS)": 7,
+										"Team 2 (Reacher)": 6,
+										"Team 3 (alex jewns)": 5,
+										"Team 8 (F9bomber)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (MurphysLawUS)": 11
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
