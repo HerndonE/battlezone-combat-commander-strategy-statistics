@@ -6767,6 +6767,4570 @@
 						]
 					}
 				}
+			},
+			"01.5.26": {
+				"Power Struggle": {
+					"date": "01.5.26",
+					"map": "Power Struggle",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "18:08",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"Shock"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Xpi",
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"F9bomber"
+					],
+					"teamTwoStraggler": [
+						"M.S"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:18:08",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 60,
+									"deaths": 5,
+									"kills": 30
+								},
+								{
+									"name": "Team 2",
+									"score": 38,
+									"deaths": 1,
+									"kills": 27
+								},
+								{
+									"name": "M.S",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 35,
+									"craft_lost": 9,
+									"buildings_constructed": 19,
+									"buildings_lost": 5,
+									"scrap_collected": 365,
+									"scrap_spent": 1641,
+									"scrap_harvested_upgraded": 677
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 8 (Monke)": 3,
+										"Team 9 (M.S)": 2,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Herp McDerperson)": 2,
+										"Team 8 (Monke)": 1,
+										"Team 9 (M.S)": 1,
+										"Team 10 (judgeguns)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 8 (Monke)": 1,
+										"Team 9 (M.S)": 1,
+										"Team 10 (judgeguns)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - shekelclipper)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Herp McDerperson)": 3,
+										"Team 9 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Herp McDerperson)": 2,
+										"Team 9 (M.S)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 10 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (M.S)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (Monke)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 9 (M.S)": 1,
+										"Team 10 (judgeguns)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Shock)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 9 (M.S)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 32,
+									"craft_lost": 5,
+									"buildings_constructed": 18,
+									"buildings_lost": 10,
+									"scrap_collected": 285,
+									"scrap_spent": 1264,
+									"scrap_harvested_upgraded": 248
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (shekelclipper)": 1,
+										"Team 3 (F9bomber)": 2,
+										"Team 5 (Shock)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (shekelclipper)": 2,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 4,
+										"Team 5 (Shock)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 115,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 2 (shekelclipper)": 2,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (shekelclipper)": 3,
+										"Team 5 (Shock)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monke)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 90,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 3,
+										"Team 4 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 2,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (shekelclipper)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 2 (shekelclipper)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4,
+										"Team 2 (shekelclipper)": 1,
+										"Team 4 (Reacher)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Dusk": {
+					"date": "01.5.26",
+					"map": "Dusk",
+					"commanders": "Certified Bad Guy vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "18:09",
+					"teamOne": [
+						"F9bomber",
+						"Darkvale",
+						"Nomad",
+						"Shock"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Herp McDerperson",
+						"Xpi",
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:18:09",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 559,
+									"deaths": 0,
+									"kills": 33
+								},
+								{
+									"name": "Team 1",
+									"score": 64,
+									"deaths": 2,
+									"kills": 29
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 30,
+									"craft_lost": 13,
+									"buildings_constructed": 16,
+									"buildings_lost": 9,
+									"scrap_collected": 225,
+									"scrap_spent": 1343,
+									"scrap_harvested_upgraded": 404
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 9 (judgeguns)": 3,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 4,
+										"Team 7 (bubzi)": 1,
+										"Team 8 (Monke)": 4,
+										"Team 9 (judgeguns)": 3,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (M.S)": 2,
+										"Team 7 (bubzi)": 2,
+										"Team 8 (Monke)": 2,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Lithium)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - jewdgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 2,
+										"Team 8 (Monke)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 8 (Monke)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 3,
+										"Team 7 (bubzi)": 1,
+										"Team 8 (Monke)": 2,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Monke)": 1,
+										"Team 9 (judgeguns)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (bubzi)": 1,
+										"Team 8 (Monke)": 2,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (bubzi)": 2,
+										"Team 8 (Monke)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Shock)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (Monke)": 1,
+										"Team 9 (judgeguns)": 2,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (bubzi)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 39,
+									"craft_lost": 5,
+									"buildings_constructed": 17,
+									"buildings_lost": 5,
+									"scrap_collected": 410,
+									"scrap_spent": 1759,
+									"scrap_harvested_upgraded": 515
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4,
+										"Team 2 (jewdgeguns)": 1,
+										"Team 4 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (jewdgeguns)": 2,
+										"Team 3 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {
+										"Team 3 (F9bomber)": 3,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - bubzi)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 95,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 4 (Reacher)": 2,
+										"Team 5 (Shock)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monke)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 120,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 4,
+										"Team 2 (jewdgeguns)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (jewdgeguns)": 1,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Reacher)": 2,
+										"Team 5 (Shock)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 3,
+										"Team 3 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 3,
+										"Team 2 (jewdgeguns)": 1,
+										"Team 5 (Shock)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (jewdgeguns)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Reacher)": 1,
+										"Team 5 (Shock)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Lunar": {
+					"date": "01.5.26",
+					"map": "Lunar",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "14:09",
+					"teamOne": [
+						"Darkvale",
+						"F9bomber",
+						"Nomad",
+						"Sev"
+					],
+					"teamTwo": [
+						"M.S",
+						"Herp McDerperson",
+						"Xpi",
+						"Lone"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:14:09",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 551,
+									"deaths": 2,
+									"kills": 20
+								},
+								{
+									"name": "Team 2",
+									"score": 15,
+									"deaths": 0,
+									"kills": 12
+								},
+								{
+									"name": "Danya",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Shock (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Clovis Bray)",
+								"metrics": {
+									"craft_built": 26,
+									"craft_lost": 6,
+									"buildings_constructed": 22,
+									"buildings_lost": 2,
+									"scrap_collected": 265,
+									"scrap_spent": 1197,
+									"scrap_harvested_upgraded": 368
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Monke)": 3,
+										"Team 9 (Lone)": 1,
+										"Team 10 (M.S)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {
+										"Team 8 (Monke)": 1,
+										"Team 10 (M.S)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 9 (Lone)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 3,
+										"Team 10 (M.S)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (Monke)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Monke)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Sokolov)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 9 (Lone)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Herp McDerperson)": 1,
+										"Team 8 (Monke)": 1,
+										"Team 9 (Lone)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 3,
+									"buildings_constructed": 22,
+									"buildings_lost": 8,
+									"scrap_collected": 183,
+									"scrap_spent": 875,
+									"scrap_harvested_upgraded": 124
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (wawaewo)": 3,
+										"Team 5 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 4 (Sokolov)": 1,
+										"Team 5 (Danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 3 (F9bomber)": 3,
+										"Team 4 (Sokolov)": 3,
+										"Team 5 (Danya)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 2 (wawaewo)": 1,
+										"Team 5 (Danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monke)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 32,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 3,
+										"Team 3 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (F9bomber)": 1,
+										"Team 5 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Lone)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 4 (Sokolov)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (wawaewo)": 1,
+										"Team 5 (Danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 55,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 2,
+										"Team 2 (wawaewo)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 2 (wawaewo)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 5 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Hilo Blues": {
+					"date": "01.5.26",
+					"map": "Hilo Blues",
+					"commanders": "Certified Bad Guy vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "14:03",
+					"teamOne": [
+						"F9bomber",
+						"Nomad",
+						"Lithium",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Sev",
+						"Lone",
+						"Herp McDerperson",
+						"Xpi"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:14:03",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 567,
+									"deaths": 2,
+									"kills": 37
+								},
+								{
+									"name": "Team 1",
+									"score": 12,
+									"deaths": 5,
+									"kills": 12
+								},
+								{
+									"name": "Danya",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Clovis Bray)",
+								"metrics": {
+									"craft_built": 32,
+									"craft_lost": 12,
+									"buildings_constructed": 12,
+									"buildings_lost": 8,
+									"scrap_collected": 295,
+									"scrap_spent": 1181,
+									"scrap_harvested_upgraded": 492
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 10 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (Daddyland & Daddyland Security)": 6,
+										"Team 8 (Monke)": 2,
+										"Team 9 (Lone)": 2,
+										"Team 10 (Danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 3 (F9bomber)": 1,
+										"Team 8 (Monke)": 3,
+										"Team 9 (Lone)": 1,
+										"Team 10 (Danya)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (Daddyland & Daddyland Security)": 1,
+										"Team 10 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Daddyland & Daddyland Security)": 1,
+										"Team 10 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (Daddyland & Daddyland Security)": 1,
+										"Team 9 (Lone)": 2,
+										"Team 10 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Sokolov)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Daddyland & Daddyland Security)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (Daddyland & Daddyland Security)": 1,
+										"Team 8 (Monke)": 1,
+										"Team 9 (Lone)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 2,
+										"Team 9 (Lone)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Daddyland & Daddyland Security)": 2,
+										"Team 10 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 22,
+									"craft_lost": 3,
+									"buildings_constructed": 17,
+									"buildings_lost": 3,
+									"scrap_collected": 505,
+									"scrap_spent": 1286,
+									"scrap_harvested_upgraded": 321
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 2 (wawaewo)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Sokolov)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (wawaewo)": 1,
+										"Team 5 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 2 (wawaewo)": 2,
+										"Team 5 (Lithium)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Daddyland & Daddyland Security)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 6,
+										"Team 2 (wawaewo)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Sokolov)": 1,
+										"Team 5 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Sokolov)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Monke)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 2,
+										"Team 4 (Sokolov)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Lone)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 2,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Sokolov)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 2 (wawaewo)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 5 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Clovis Bray)": 1,
+										"Team 3 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Clovis Bray)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"310": {
+					"date": "01.5.26",
+					"map": "310",
+					"commanders": "Certified Bad Guy vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "14:03",
+					"teamOne": [
+						"Lone",
+						"F9bomber",
+						"Nomad",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Sev",
+						"Darkvale",
+						"Xpi"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:00:00",
+							"team_overviews": [
+								{
+									"name": "Dr. Who Fans",
+									"score": 80,
+									"deaths": 0,
+									"kills": 34
+								},
+								{
+									"name": "Aim Botters",
+									"score": 0,
+									"deaths": 4,
+									"kills": 8
+								},
+								{
+									"name": "Monkey",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Monke (Aim Botters)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Aim Botters)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Dr. Who Fans - Team 1)",
+								"metrics": {
+									"craft_built": 18,
+									"craft_lost": 3,
+									"buildings_constructed": 14,
+									"buildings_lost": 1,
+									"scrap_collected": 315,
+									"scrap_spent": 1232,
+									"scrap_harvested_upgraded": 366
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 1,
+										"Team 7 (Team 2)": 1,
+										"Team 8 (Team 2)": 1,
+										"Team 10 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Team 2)": 1,
+										"Team 8 (Team 2)": 1,
+										"Team 10 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Team 2)": 2
+									},
+									"buildings_lost_to": {
+										"Team 9 (Team 2)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Dr. Who Fans - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 3,
+										"Team 7 (Team 2)": 2,
+										"Team 8 (Team 2)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Team 2)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Dr. Who Fans - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 1,
+										"Team 9 (Team 2)": 3,
+										"Team 10 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 10 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Dr. Who Fans - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 1,
+										"Team 8 (Team 2)": 1,
+										"Team 9 (Team 2)": 1,
+										"Team 10 (Team 2)": 3
+									},
+									"craft_lost_to": {
+										"Team 10 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Team 2)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Dr. Who Fans - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 2,
+										"Team 7 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 10 (Team 2)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Team 2)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Aim Botters - Team 2)",
+								"metrics": {
+									"craft_built": 30,
+									"craft_lost": 8,
+									"buildings_constructed": 12,
+									"buildings_lost": 7,
+									"scrap_collected": 350,
+									"scrap_spent": 968,
+									"scrap_harvested_upgraded": 92
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 1,
+										"Team 2 (Team 1)": 3,
+										"Team 3 (Team 1)": 1,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Team 1)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Team 1)": 2,
+										"Team 2 (Team 1)": 3,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Team 1)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Aim Botters - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 1,
+										"Team 2 (Team 1)": 2,
+										"Team 5 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Aim Botters - Team 2)",
+								"metrics": {
+									"craft_built": 2,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 1,
+										"Team 2 (Team 1)": 2,
+										"Team 4 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Aim Botters - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 3 (Team 1)": 3,
+										"Team 4 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Aim Botters - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 1,
+										"Team 3 (Team 1)": 1,
+										"Team 4 (Team 1)": 1,
+										"Team 5 (Team 1)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 1,
+										"Team 3 (Team 1)": 1,
+										"Team 4 (Team 1)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Cracked": {
+					"date": "01.5.26",
+					"map": "Cracked",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "29:58",
+					"teamOne": [
+						"Nomad"
+					],
+					"teamTwo": [
+						"MurphysLawUS"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:29:58",
+							"team_overviews": [
+								{
+									"name": "Tweakers",
+									"score": 274,
+									"deaths": 2,
+									"kills": 28
+								},
+								{
+									"name": "Crackheads",
+									"score": 100,
+									"deaths": 6,
+									"kills": 32
+								},
+								{
+									"name": "F9bomber",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Crackheads - Lithium)",
+								"metrics": {
+									"craft_built": 53,
+									"craft_lost": 34,
+									"buildings_constructed": 21,
+									"buildings_lost": 11,
+									"scrap_collected": 437,
+									"scrap_spent": 2220,
+									"scrap_harvested_upgraded": 500
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 15,
+										"Team 8 (MurphysLawUS)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 24,
+										"Team 8 (MurphysLawUS)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 4
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bomber)": 6,
+										"Team 8 (MurphysLawUS)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Crackheads - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 55,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 13,
+										"Team 8 (MurphysLawUS)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 1,
+										"Team 8 (MurphysLawUS)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Tweakers - F9bomber)",
+								"metrics": {
+									"craft_built": 60,
+									"craft_lost": 29,
+									"buildings_constructed": 24,
+									"buildings_lost": 9,
+									"scrap_collected": 930,
+									"scrap_spent": 3018,
+									"scrap_harvested_upgraded": 1047
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 24,
+										"Team 3 (Nomad)": 1,
+										"Team 6 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 15,
+										"Team 3 (Nomad)": 13,
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 6
+									},
+									"buildings_lost_to": {
+										"Team 1 (Lithium)": 4,
+										"Team 3 (Nomad)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 8 (Tweakers - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 10,
+										"Team 3 (Nomad)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 3 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Oldboy": {
+					"date": "01.5.26",
+					"map": "Oldboy",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "1:17:50",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"MurphysLawUS"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:17:50",
+							"team_overviews": [
+								{
+									"name": "Nikola Tesla",
+									"score": 262,
+									"deaths": 9,
+									"kills": 90
+								},
+								{
+									"name": "Money Hungry",
+									"score": -106,
+									"deaths": 3,
+									"kills": 66
+								},
+								{
+									"name": "Reacher",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Nikola Tesla - Reacher)",
+								"metrics": {
+									"craft_built": 131,
+									"craft_lost": 43,
+									"buildings_constructed": 34,
+									"buildings_lost": 18,
+									"scrap_collected": 1492,
+									"scrap_spent": 6793,
+									"scrap_harvested_upgraded": 2763
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 1,
+										"Team 2 (Lithium)": 1,
+										"Team 6 (F9bomber)": 52,
+										"Team 7 (MurphysLawUS)": 8
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 1,
+										"Team 6 (F9bomber)": 30,
+										"Team 7 (MurphysLawUS)": 11
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 7
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bomber)": 9,
+										"Team 7 (MurphysLawUS)": 9
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Nikola Tesla - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 63,
+									"scrap_collected": 240,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 47,
+										"Team 7 (MurphysLawUS)": 19
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 1,
+										"Team 6 (F9bomber)": 30,
+										"Team 7 (MurphysLawUS)": 32
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 16
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Money Hungry - F9bomber)",
+								"metrics": {
+									"craft_built": 175,
+									"craft_lost": 100,
+									"buildings_constructed": 45,
+									"buildings_lost": 23,
+									"scrap_collected": 2075,
+									"scrap_spent": 7745,
+									"scrap_harvested_upgraded": 2895
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 30,
+										"Team 2 (Lithium)": 30,
+										"Team 6 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 52,
+										"Team 2 (Lithium)": 47,
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 9
+									},
+									"buildings_lost_to": {
+										"Team 1 (Reacher)": 7,
+										"Team 2 (Lithium)": 16
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Money Hungry - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 27,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 11,
+										"Team 2 (Lithium)": 32
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 8,
+										"Team 2 (Lithium)": 19
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 9
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"01.9.26": {
+				"Curiosity": {
+					"date": "01.9.26",
+					"map": "Curiosity",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "17:28",
+					"teamOne": [
+						"Darkvale",
+						"Bylarge",
+						"Gravey"
+					],
+					"teamTwo": [
+						"M.S",
+						"Judgeguns",
+						"Cyber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:28",
+							"team_overviews": [
+								{
+									"name": "moar n00bs",
+									"score": 496,
+									"deaths": 2,
+									"kills": 47
+								},
+								{
+									"name": "n00bs",
+									"score": 19,
+									"deaths": 4,
+									"kills": 22
+								},
+								{
+									"name": "dd",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (n00bs)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (n00bs - Zack)",
+								"metrics": {
+									"craft_built": 45,
+									"craft_lost": 14,
+									"buildings_constructed": 17,
+									"buildings_lost": 12,
+									"scrap_collected": 600,
+									"scrap_spent": 1712,
+									"scrap_harvested_upgraded": 721
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 6,
+										"Team 7 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 4,
+										"Team 7 (M.S)": 6,
+										"Team 8 (judgeguns)": 2,
+										"Team 9 (Cyber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bomber)": 2,
+										"Team 7 (M.S)": 3,
+										"Team 8 (judgeguns)": 6,
+										"Team 9 (Cyber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (n00bs - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 4,
+										"Team 7 (M.S)": 1,
+										"Team 9 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (n00bs - dd)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 9 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (n00bs - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 2,
+										"Team 7 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 2,
+										"Team 7 (M.S)": 2,
+										"Team 9 (Cyber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (n00bs - Gravidons)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 1,
+										"Team 7 (M.S)": 1,
+										"Team 8 (judgeguns)": 2,
+										"Team 9 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 2,
+										"Team 7 (M.S)": 1,
+										"Team 9 (Cyber)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (moar n00bs - F9bomber)",
+								"metrics": {
+									"craft_built": 30,
+									"craft_lost": 9,
+									"buildings_constructed": 17,
+									"buildings_lost": 5,
+									"scrap_collected": 405,
+									"scrap_spent": 1403,
+									"scrap_harvested_upgraded": 458
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 4,
+										"Team 2 (wawaewo)": 4,
+										"Team 4 (The_Bylarge)": 2,
+										"Team 5 (Gravidons)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 6,
+										"Team 4 (The_Bylarge)": 2,
+										"Team 5 (Gravidons)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 2 (wawaewo)": 2,
+										"Team 4 (The_Bylarge)": 1,
+										"Team 5 (Gravidons)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (moar n00bs - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 6,
+										"Team 2 (wawaewo)": 1,
+										"Team 4 (The_Bylarge)": 2,
+										"Team 5 (Gravidons)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 4 (The_Bylarge)": 1,
+										"Team 5 (Gravidons)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (moar n00bs - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"craft_lost_to": {
+										"Team 5 (Gravidons)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (moar n00bs - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2,
+										"Team 2 (wawaewo)": 1,
+										"Team 3 (dd)": 1,
+										"Team 4 (The_Bylarge)": 2,
+										"Team 5 (Gravidons)": 6
+									},
+									"craft_lost_to": {
+										"Team 5 (Gravidons)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Know Thyself": {
+					"date": "01.9.26",
+					"map": "Know Thyself",
+					"commanders": "Zack vs Gravey",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Zack",
+					"time": "13:46",
+					"teamOne": [
+						"Bylarge",
+						"Cyber",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"M.S",
+						"Darkvale",
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:13:46",
+							"team_overviews": [
+								{
+									"name": "New Agers",
+									"score": 492,
+									"deaths": 1,
+									"kills": 50
+								},
+								{
+									"name": "Logicians",
+									"score": 14,
+									"deaths": 14,
+									"kills": 14
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "dd (New Agers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (New Agers - Zack)",
+								"metrics": {
+									"craft_built": 28,
+									"craft_lost": 10,
+									"buildings_constructed": 20,
+									"buildings_lost": 1,
+									"scrap_collected": 515,
+									"scrap_spent": 1222,
+									"scrap_harvested_upgraded": 235
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 5,
+										"Team 7 (M.S)": 3,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Gravidons)": 4,
+										"Team 7 (M.S)": 3,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (judgeguns)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {
+										"Team 9 (wawaewo)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (New Agers - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 4,
+										"Team 9 (wawaewo)": 2,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (M.S)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (New Agers - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 9,
+										"Team 7 (M.S)": 1,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (M.S)": 1,
+										"Team 9 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (New Agers - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 2,
+										"Team 7 (M.S)": 1,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Gravidons)": 2,
+										"Team 10 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Logicians - Gravidons)",
+								"metrics": {
+									"craft_built": 40,
+									"craft_lost": 20,
+									"buildings_constructed": 12,
+									"buildings_lost": 8,
+									"scrap_collected": 400,
+									"scrap_spent": 1138,
+									"scrap_harvested_upgraded": 237
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 4,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 5,
+										"Team 2 (The_Bylarge)": 4,
+										"Team 3 (Cyber)": 9,
+										"Team 5 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 2 (The_Bylarge)": 4,
+										"Team 3 (Cyber)": 1,
+										"Team 5 (F9bomber)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Logicians - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 3,
+										"Team 2 (The_Bylarge)": 2,
+										"Team 3 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 3,
+										"Team 3 (Cyber)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Logicians - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 1,
+										"Team 3 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 2 (The_Bylarge)": 2,
+										"Team 3 (Cyber)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Logicians - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2,
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 2 (The_Bylarge)": 1,
+										"Team 3 (Cyber)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Nigeria": {
+					"date": "01.9.26",
+					"map": "Nigeria",
+					"commanders": "Zack vs Gravey",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Gravey",
+					"time": "19:59",
+					"teamOne": [
+						"Judgeguns",
+						"Herp McDerperson",
+						"Cyber",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"M.S",
+						"Bylarge",
+						"Darkvale",
+						"VTrider"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:19:59",
+							"team_overviews": [
+								{
+									"name": "Mugu",
+									"score": 569,
+									"deaths": 14,
+									"kills": 45
+								},
+								{
+									"name": "419 Scammers",
+									"score": -1927,
+									"deaths": 11,
+									"kills": 50
+								},
+								{
+									"name": "Herp McDerperson",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Mugu)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (419 Scammers - Zack)",
+								"metrics": {
+									"craft_built": 40,
+									"craft_lost": 12,
+									"buildings_constructed": 16,
+									"buildings_lost": 9,
+									"scrap_collected": 532,
+									"scrap_spent": 1811,
+									"scrap_harvested_upgraded": 761
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 5,
+										"Team 7 (M.S)": 2,
+										"Team 10 (VTrider)": 2
+									},
+									"craft_lost_to": {
+										"Team 5 (F9bomber)": 1,
+										"Team 6 (Gravidons)": 2,
+										"Team 7 (M.S)": 4,
+										"Team 8 (The_Bylarge)": 1,
+										"Team 9 (wawaewo)": 2,
+										"Team 10 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (Gravidons)": 2,
+										"Team 8 (The_Bylarge)": 5,
+										"Team 9 (wawaewo)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (419 Scammers - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 3,
+										"Team 7 (M.S)": 1,
+										"Team 8 (The_Bylarge)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (M.S)": 2,
+										"Team 8 (The_Bylarge)": 2,
+										"Team 10 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (419 Scammers - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 3,
+										"Team 7 (M.S)": 2,
+										"Team 9 (wawaewo)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Gravidons)": 2,
+										"Team 7 (M.S)": 1,
+										"Team 9 (wawaewo)": 2,
+										"Team 10 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (419 Scammers - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Gravidons)": 1,
+										"Team 7 (M.S)": 1,
+										"Team 8 (The_Bylarge)": 1,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Gravidons)": 1,
+										"Team 8 (The_Bylarge)": 2,
+										"Team 10 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (419 Scammers - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 1,
+										"Team 6 (Gravidons)": 2,
+										"Team 8 (The_Bylarge)": 1,
+										"Team 9 (wawaewo)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (Gravidons)": 1,
+										"Team 9 (wawaewo)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Gravidons)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Mugu - Gravidons)",
+								"metrics": {
+									"craft_built": 45,
+									"craft_lost": 14,
+									"buildings_constructed": 30,
+									"buildings_lost": 6,
+									"scrap_collected": 500,
+									"scrap_spent": 1808,
+									"scrap_harvested_upgraded": 470
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2,
+										"Team 3 (Herp McDerperson)": 2,
+										"Team 4 (Cyber)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 5,
+										"Team 2 (judgeguns)": 3,
+										"Team 3 (Herp McDerperson)": 3,
+										"Team 4 (Cyber)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 2,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Herp McDerperson)": 1,
+										"Team 4 (Cyber)": 1,
+										"Team 5 (F9bomber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Mugu - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 4,
+										"Team 2 (judgeguns)": 2,
+										"Team 3 (Herp McDerperson)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 2,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Herp McDerperson)": 2,
+										"Team 4 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Mugu - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 1,
+										"Team 2 (judgeguns)": 2,
+										"Team 4 (Cyber)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (judgeguns)": 2,
+										"Team 4 (Cyber)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Mugu - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2,
+										"Team 3 (Herp McDerperson)": 2,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Herp McDerperson)": 1,
+										"Team 4 (Cyber)": 1,
+										"Team 5 (F9bomber)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Mugu - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 2,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Herp McDerperson)": 2,
+										"Team 4 (Cyber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 2,
+										"Team 4 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Prodigy Ver .2": {
+					"date": "01.9.26",
+					"map": "Prodigy Ver .2",
+					"commanders": "Cyber vs M.S",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Cyber",
+					"time": "16:06",
+					"teamOne": [
+						"X-Triage",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Darkvale",
+						"SilverBullet"
+					],
+					"teamTwoStraggler": [
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:16:06",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 473,
+									"deaths": 1,
+									"kills": 40
+								},
+								{
+									"name": "Team 2",
+									"score": 3,
+									"deaths": 2,
+									"kills": 13
+								},
+								{
+									"name": "Reacher",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "BRB FBI K THX (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Zack (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Gravidons (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Cyber)",
+								"metrics": {
+									"craft_built": 30,
+									"craft_lost": 6,
+									"buildings_constructed": 19,
+									"buildings_lost": 3,
+									"scrap_collected": 560,
+									"scrap_spent": 1534,
+									"scrap_harvested_upgraded": 255
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 8,
+										"Team 7 (F9bomber)": 3,
+										"Team 9 (wawaewo)": 4,
+										"Team 10 (SilverBullet)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (Reacher)": 1,
+										"Team 6 (M.S)": 2,
+										"Team 7 (F9bomber)": 2,
+										"Team 9 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 2
+									},
+									"buildings_lost_to": {
+										"Team 7 (F9bomber)": 2,
+										"Team 10 (SilverBullet)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Cyber)": 1,
+										"Team 6 (M.S)": 3,
+										"Team 7 (F9bomber)": 3,
+										"Team 9 (wawaewo)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 1,
+										"Team 10 (SilverBullet)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 5,
+										"Team 7 (F9bomber)": 1,
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (SilverBullet)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 1,
+										"Team 7 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 9 (wawaewo)": 1,
+										"Team 10 (SilverBullet)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 46,
+									"craft_lost": 17,
+									"buildings_constructed": 14,
+									"buildings_lost": 7,
+									"scrap_collected": 290,
+									"scrap_spent": 1215,
+									"scrap_harvested_upgraded": 306
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Cyber)": 2,
+										"Team 2 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Cyber)": 8,
+										"Team 2 (Reacher)": 3,
+										"Team 3 (Toto)": 5,
+										"Team 4 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Cyber)": 2,
+										"Team 2 (Reacher)": 2,
+										"Team 3 (Toto)": 1,
+										"Team 4 (judgeguns)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 50,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Cyber)": 2,
+										"Team 9 (wawaewo)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Cyber)": 3,
+										"Team 2 (Reacher)": 3,
+										"Team 3 (Toto)": 1,
+										"Team 4 (judgeguns)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Cyber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Cyber)": 1,
+										"Team 3 (Toto)": 1,
+										"Team 4 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Cyber)": 4,
+										"Team 2 (Reacher)": 1,
+										"Team 3 (Toto)": 1,
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - SilverBullet)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Reacher)": 1,
+										"Team 4 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Cyber)": 2,
+										"Team 3 (Toto)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Cyber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Terron": {
+					"date": "01.9.26",
+					"map": "Terron",
+					"commanders": "F9bomber vs Certified Bad Guy",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "19:02",
+					"teamOne": [
+						"Sev"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nomad"
+					],
+					"teamOneStraggler": [
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:19:02",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 69,
+									"deaths": 2,
+									"kills": 30
+								},
+								{
+									"name": "Team 1",
+									"score": 14,
+									"deaths": 5,
+									"kills": 9
+								},
+								{
+									"name": "Herp McDerperson",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 38,
+									"craft_lost": 14,
+									"buildings_constructed": 26,
+									"buildings_lost": 10,
+									"scrap_collected": 475,
+									"scrap_spent": 1439,
+									"scrap_harvested_upgraded": 426
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (Reacher)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 4,
+										"Team 8 (Lithium)": 4,
+										"Team 9 (Reacher)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 3
+									},
+									"buildings_lost_to": {
+										"Team 6 (Certified Bad Guy)": 2,
+										"Team 8 (Lithium)": 3,
+										"Team 9 (Reacher)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 7,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 8 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 8 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 9 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 2,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (Reacher)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 28,
+									"craft_lost": 3,
+									"buildings_constructed": 19,
+									"buildings_lost": 4,
+									"scrap_collected": 370,
+									"scrap_spent": 1596,
+									"scrap_harvested_upgraded": 425
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4,
+										"Team 2 (wawaewo)": 1,
+										"Team 4 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (wawaewo)": 1,
+										"Team 4 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (wawaewo)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4,
+										"Team 2 (wawaewo)": 2,
+										"Team 4 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 6,
+										"Team 4 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 4 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Quagmire": {
+					"date": "01.9.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Certified Bad Guy",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "25:20",
+					"teamOne": [
+						"Herp McDerperson",
+						"Sev"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Nomad",
+						"Lithium"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:25:20",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 18,
+									"deaths": 7,
+									"kills": 16
+								},
+								{
+									"name": "Team 1",
+									"score": -110,
+									"deaths": 5,
+									"kills": 41
+								},
+								{
+									"name": "Herpes Simplex A",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 37,
+									"craft_lost": 7,
+									"buildings_constructed": 33,
+									"buildings_lost": 4,
+									"scrap_collected": 440,
+									"scrap_spent": 2157,
+									"scrap_harvested_upgraded": 806
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 7 (wawaewo)": 1,
+										"Team 8 (Lithium)": 2,
+										"Team 9 (Nomad)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 2,
+										"Team 7 (wawaewo)": 3,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {
+										"Team 7 (wawaewo)": 3,
+										"Team 8 (Lithium)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Herpes Simplex A)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 6,
+										"Team 7 (wawaewo)": 1,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 9 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 6,
+										"Team 7 (wawaewo)": 3,
+										"Team 8 (Lithium)": 4,
+										"Team 9 (Nomad)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 43,
+									"craft_lost": 13,
+									"buildings_constructed": 18,
+									"buildings_lost": 10,
+									"scrap_collected": 345,
+									"scrap_spent": 1769,
+									"scrap_harvested_upgraded": 439
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Herpes Simplex A)": 1,
+										"Team 4 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Herpes Simplex A)": 6,
+										"Team 4 (Danya)": 6
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Herpes Simplex A)": 4,
+										"Team 4 (Danya)": 4,
+										"Team 8 (Lithium)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Herpes Simplex A)": 1,
+										"Team 4 (Danya)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 95,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Herpes Simplex A)": 1,
+										"Team 4 (Danya)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 6 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Herpes Simplex A)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 7,
+										"Team 3 (Herpes Simplex A)": 1,
+										"Team 4 (Danya)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Oasis": {
+					"date": "01.9.26",
+					"map": "Oasis",
+					"commanders": "F9bomber vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "17:18",
+					"teamOne": [
+						"Herp McDerperson",
+						"Sev"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Nomad",
+						"Lithium"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:18",
+							"team_overviews": [
+								{
+									"name": "Dirt Bikers",
+									"score": 364,
+									"deaths": 3,
+									"kills": 27
+								},
+								{
+									"name": "Degenerates",
+									"score": 14,
+									"deaths": 3,
+									"kills": 13
+								},
+								{
+									"name": "Lithium",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Dirt Bikers - F9bomber)",
+								"metrics": {
+									"craft_built": 29,
+									"craft_lost": 5,
+									"buildings_constructed": 15,
+									"buildings_lost": 3,
+									"scrap_collected": 390,
+									"scrap_spent": 1519,
+									"scrap_harvested_upgraded": 498
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 4,
+										"Team 9 (wawaewo)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 7 (Reacher)": 3,
+										"Team 9 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 5
+									},
+									"buildings_lost_to": {
+										"Team 8 (Lithium)": 1,
+										"Team 9 (wawaewo)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Dirt Bikers - Jon Bon Joever)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 1,
+										"Team 7 (Reacher)": 2,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (wawaewo)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 3,
+										"Team 7 (Reacher)": 1,
+										"Team 8 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Dirt Bikers - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 3,
+										"Team 7 (Reacher)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Certified Bad Guy)": 4,
+										"Team 7 (Reacher)": 1,
+										"Team 9 (wawaewo)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Certified Bad Guy)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Degenerates - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 27,
+									"craft_lost": 8,
+									"buildings_constructed": 19,
+									"buildings_lost": 13,
+									"scrap_collected": 345,
+									"scrap_spent": 1349,
+									"scrap_harvested_upgraded": 256
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Jon Bon Joever)": 3,
+										"Team 4 (Danya)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 4,
+										"Team 3 (Jon Bon Joever)": 1,
+										"Team 4 (Danya)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 5,
+										"Team 3 (Jon Bon Joever)": 3,
+										"Team 4 (Danya)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Degenerates - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3,
+										"Team 3 (Jon Bon Joever)": 1,
+										"Team 4 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Jon Bon Joever)": 2,
+										"Team 4 (Danya)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Degenerates - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Jon Bon Joever)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Jon Bon Joever)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Degenerates - wawaewo)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 4 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Jon Bon Joever)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Giza": {
+					"date": "01.9.26",
+					"map": "Giza",
+					"commanders": "Herp McDerperson vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "23:08",
+					"teamOne": [
+						"Nomad",
+						"Lithium"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Sev"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:23:08",
+							"team_overviews": [
+								{
+									"name": "Nice",
+									"score": 370,
+									"deaths": 2,
+									"kills": 30
+								},
+								{
+									"name": "Naughty",
+									"score": 13,
+									"deaths": 8,
+									"kills": 15
+								},
+								{
+									"name": "Herp McDerperson (Naughty)",
+									"score": 8,
+									"deaths": 0,
+									"kills": 4
+								},
+								{
+									"name": "Lithium",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Certified Gay Guy (Naughty)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Naughty - Reacher)",
+								"metrics": {
+									"craft_built": 38,
+									"craft_lost": 13,
+									"buildings_constructed": 17,
+									"buildings_lost": 10,
+									"scrap_collected": 440,
+									"scrap_spent": 2000,
+									"scrap_harvested_upgraded": 749
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (wawaewo)": 3,
+										"Team 10 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (wawaewo)": 2,
+										"Team 9 (F9bomber)": 4,
+										"Team 10 (Danya)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (wawaewo)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (wawaewo)": 7,
+										"Team 10 (Danya)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Naughty - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (wawaewo)": 3,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (wawaewo)": 6,
+										"Team 9 (F9bomber)": 2,
+										"Team 10 (Danya)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (wawaewo)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Naughty - Naughty)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (wawaewo)": 4,
+										"Team 10 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (Danya)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Nice - wawaewo)",
+								"metrics": {
+									"craft_built": 32,
+									"craft_lost": 10,
+									"buildings_constructed": 25,
+									"buildings_lost": 3,
+									"scrap_collected": 475,
+									"scrap_spent": 1673,
+									"scrap_harvested_upgraded": 187
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 2,
+										"Team 2 (Lithium)": 6
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 3,
+										"Team 2 (Lithium)": 3,
+										"Team 3 (Naughty)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 7
+									},
+									"buildings_lost_to": {
+										"Team 1 (Reacher)": 1,
+										"Team 2 (Lithium)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 9 (Nice - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 4,
+										"Team 2 (Lithium)": 2,
+										"Team 3 (Naughty)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Nice - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 7,
+										"Team 2 (Lithium)": 3,
+										"Team 3 (Naughty)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 2,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (Naughty)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"01.10.26": {
+				"Mojave": {
+					"date": "01.10.26",
+					"map": "Mojave",
+					"commanders": "M.S vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "11:46",
+					"teamOne": [
+						"Sahd0w",
+						"Nomad",
+						"Cyber"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"MurphysLawUS",
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:11:46",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 436,
+									"deaths": 1,
+									"kills": 18
+								},
+								{
+									"name": "Team 2",
+									"score": 17,
+									"deaths": 1,
+									"kills": 12
+								},
+								{
+									"name": "Sahd0w",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "MurphysLawUS (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Reacher (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - M.S)",
+								"metrics": {
+									"craft_built": 19,
+									"craft_lost": 2,
+									"buildings_constructed": 16,
+									"buildings_lost": 3,
+									"scrap_collected": 230,
+									"scrap_spent": 927,
+									"scrap_harvested_upgraded": 286
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (MurphysLawUS)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (MurphysLawUS)": 1,
+										"Team 9 (scion nationalist)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Sahd0w)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 9 (scion nationalist)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (MurphysLawUS)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Femboy gaming)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Femboy gaming)": 3
+									},
+									"craft_lost_to": {
+										"Team 9 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Femboy gaming)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 50,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Femboy gaming)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 2,
+										"Team 8 (MurphysLawUS)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Femboy gaming)",
+								"metrics": {
+									"craft_built": 19,
+									"craft_lost": 6,
+									"buildings_constructed": 12,
+									"buildings_lost": 5,
+									"scrap_collected": 180,
+									"scrap_spent": 839,
+									"scrap_harvested_upgraded": 368
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (M.S)": 1,
+										"Team 5 (Cyber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 1,
+										"Team 2 (Sahd0w)": 1,
+										"Team 4 (Reacher)": 3,
+										"Team 5 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 2 (Sahd0w)": 2,
+										"Team 4 (Reacher)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (M.S)": 1,
+										"Team 2 (Sahd0w)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Sahd0w)": 1,
+										"Team 5 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Sahd0w)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Stack": {
+					"date": "01.10.26",
+					"map": "Stack",
+					"commanders": "M.S vs Zack",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "13:23",
+					"teamOne": [
+						"Nomad",
+						"MurphysLawUS",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Cyber",
+						"Darkvale",
+						"Sahd0w"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:13:23",
+							"team_overviews": [
+								{
+									"name": "Stackers",
+									"score": 564,
+									"deaths": 3,
+									"kills": 34
+								},
+								{
+									"name": "Constructors",
+									"score": 9,
+									"deaths": 8,
+									"kills": 12
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Reacher (Constructors)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "MurphysLawUS (Stackers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Constructors - M.S)",
+								"metrics": {
+									"craft_built": 23,
+									"craft_lost": 7,
+									"buildings_constructed": 18,
+									"buildings_lost": 11,
+									"scrap_collected": 280,
+									"scrap_spent": 1159,
+									"scrap_harvested_upgraded": 370
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (judgeguns)": 1,
+										"Team 8 (Cyber)": 1,
+										"Team 9 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 3,
+										"Team 8 (Cyber)": 1,
+										"Team 10 (Sahd0w)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Femboy gaming)": 2,
+										"Team 7 (judgeguns)": 3,
+										"Team 8 (Cyber)": 2,
+										"Team 9 (scion nationalist)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Constructors - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 7 (judgeguns)": 2,
+										"Team 9 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 8 (Cyber)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Constructors - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 1,
+										"Team 9 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Constructors - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 10 (Sahd0w)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Femboy gaming)": 2,
+										"Team 7 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Femboy gaming)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Stackers - Femboy gaming)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 1,
+									"buildings_constructed": 14,
+									"buildings_lost": 2,
+									"scrap_collected": 325,
+									"scrap_spent": 1168,
+									"scrap_harvested_upgraded": 396
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (M.S)": 3,
+										"Team 3 (Reacher)": 1,
+										"Team 4 (MurphysLawUS)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 2
+									},
+									"buildings_lost_to": {
+										"Team 5 (F9bomber)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Stackers - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 1,
+										"Team 3 (Reacher)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Stackers - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (M.S)": 1,
+										"Team 3 (Reacher)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 1,
+										"Team 4 (MurphysLawUS)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Stackers - scion nationalist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (MurphysLawUS)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (M.S)": 1,
+										"Team 3 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (M.S)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Stackers - Sahd0w)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (M.S)": 3
+									},
+									"craft_lost_to": {
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"01.11.26": {
+				"Excavation": {
+					"date": "01.11.26",
+					"map": "Excavation",
+					"commanders": "Zack vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "23:50",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Systeme"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:23:50",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 370,
+									"deaths": 0,
+									"kills": 32
+								},
+								{
+									"name": "Team 2",
+									"score": 40,
+									"deaths": 3,
+									"kills": 20
+								},
+								{
+									"name": "MAX",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Zack)",
+								"metrics": {
+									"craft_built": 38,
+									"craft_lost": 13,
+									"buildings_constructed": 21,
+									"buildings_lost": 7,
+									"scrap_collected": 415,
+									"scrap_spent": 1949,
+									"scrap_harvested_upgraded": 570
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 19,
+										"Team 7 (système)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 12,
+										"Team 7 (système)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 8
+									},
+									"buildings_lost_to": {
+										"Team 6 (M.S)": 3,
+										"Team 7 (système)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (M.S)": 7,
+										"Team 7 (système)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (M.S)": 3,
+										"Team 7 (système)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (M.S)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 46,
+									"craft_lost": 26,
+									"buildings_constructed": 20,
+									"buildings_lost": 12,
+									"scrap_collected": 590,
+									"scrap_spent": 1843,
+									"scrap_harvested_upgraded": 281
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 12,
+										"Team 3 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 19,
+										"Team 3 (F9bomber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 3
+									},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 8,
+										"Team 3 (F9bomber)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - système)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 1,
+										"Team 3 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 3,
+										"Team 3 (F9bomber)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Terron": {
+					"date": "01.11.26",
+					"map": "Terron",
+					"commanders": "Zack vs MAX",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "MAX",
+					"time": "15:45",
+					"teamOne": [
+						"F9bomber",
+						"Systeme"
+					],
+					"teamTwo": [
+						"M.S"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:15:45",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 39,
+									"deaths": 9,
+									"kills": 19
+								},
+								{
+									"name": "Team 2",
+									"score": -1137,
+									"deaths": 3,
+									"kills": 39
+								},
+								{
+									"name": "sit",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Tom (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "M.S (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Zack)",
+								"metrics": {
+									"craft_built": 34,
+									"craft_lost": 17,
+									"buildings_constructed": 22,
+									"buildings_lost": 9,
+									"scrap_collected": 410,
+									"scrap_spent": 1221,
+									"scrap_harvested_upgraded": 293
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MAX)": 7,
+										"Team 8 (M.S)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (MAX)": 10,
+										"Team 8 (M.S)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (MAX)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (MAX)": 6,
+										"Team 8 (M.S)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - système)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MAX)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (MAX)": 3,
+										"Team 8 (M.S)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MAX)": 7,
+										"Team 8 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (MAX)": 2,
+										"Team 8 (M.S)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (MAX)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - MAX)",
+								"metrics": {
+									"craft_built": 37,
+									"craft_lost": 17,
+									"buildings_constructed": 14,
+									"buildings_lost": 2,
+									"scrap_collected": 655,
+									"scrap_spent": 1654,
+									"scrap_harvested_upgraded": 388
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 10,
+										"Team 2 (système)": 3,
+										"Team 3 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 7,
+										"Team 2 (système)": 3,
+										"Team 3 (F9bomber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 6
+									},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 1,
+										"Team 3 (F9bomber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - sit)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 7,
+										"Team 2 (système)": 2,
+										"Team 3 (F9bomber)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 2,
+										"Team 3 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
