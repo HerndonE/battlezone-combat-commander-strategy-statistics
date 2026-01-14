@@ -28,7 +28,7 @@ function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip3");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -162,7 +162,7 @@ function commanderCountBarChart2026(
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip3");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -286,7 +286,7 @@ function commanderFactionChoiceCountBarChart2026(
     .append("svg")
     .attr("height", svgHeight)
     .style("background-color", BACKGROUND_COLOR);
-  const tooltip = d3.select("#tooltip2");
+  const tooltip = d3.select("#tooltip3");
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
 
@@ -526,11 +526,11 @@ function commanderWinPercentages2026(
     })
     .sort((a, b) => b.percentage - a.percentage);
 
-  let tooltip = container.select(".tooltip2");
+  let tooltip = container.select(".tooltip3");
   if (tooltip.empty()) {
     tooltip = container
       .append("div")
-      .attr("class", "tooltip2")
+      .attr("class", "tooltip3")
       .style("position", "absolute")
       .style("background", "rgba(0,0,0,0.8)")
       .style("color", "white")

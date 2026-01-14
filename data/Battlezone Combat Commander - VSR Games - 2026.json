@@ -11516,6 +11516,413 @@
 						]
 					}
 				}
+			},
+			"01.13.26": {
+				"Throbbing Gristle": {
+					"date": "01.13.26",
+					"map": "Throbbing Gristle",
+					"commanders": "X-Triage vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "17:11",
+					"teamOne": [
+						"Zack",
+						"Lithium"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:11",
+							"team_overviews": [
+								{
+									"name": "Living Vomit",
+									"score": 347,
+									"deaths": 1,
+									"kills": 24
+								},
+								{
+									"name": "Boiling Feces",
+									"score": 12,
+									"deaths": 4,
+									"kills": 8
+								},
+								{
+									"name": "Toto",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Living Vomit - Toto)",
+								"metrics": {
+									"craft_built": 21,
+									"craft_lost": 3,
+									"buildings_constructed": 18,
+									"buildings_lost": 2,
+									"scrap_collected": 220,
+									"scrap_spent": 1256,
+									"scrap_harvested_upgraded": 308
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 2,
+										"Team 7 (The_Bylarge)": 1,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (The_Bylarge)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Reacher)": 3
+									},
+									"buildings_lost_to": {
+										"Team 7 (The_Bylarge)": 1,
+										"Team 9 (F9bomber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Living Vomit - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 2,
+										"Team 9 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Reacher)": 1,
+										"Team 7 (The_Bylarge)": 1,
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Reacher)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Living Vomit - Zack)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Reacher)": 3,
+										"Team 7 (The_Bylarge)": 3,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Reacher)": 1,
+										"Team 9 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Reacher)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Boiling Feces - Reacher)",
+								"metrics": {
+									"craft_built": 26,
+									"craft_lost": 7,
+									"buildings_constructed": 17,
+									"buildings_lost": 9,
+									"scrap_collected": 235,
+									"scrap_spent": 1239,
+									"scrap_harvested_upgraded": 255
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Lithium)": 1,
+										"Team 3 (Zack)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 2,
+										"Team 2 (Lithium)": 2,
+										"Team 3 (Zack)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Toto)": 3,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (Zack)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Boiling Feces - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 2,
+										"Team 2 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 1,
+										"Team 3 (Zack)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Boiling Feces - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 105,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 1,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (Zack)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 1,
+										"Team 2 (Lithium)": 2,
+										"Team 3 (Zack)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Lunar": {
+					"date": "01.13.26",
+					"map": "Lunar",
+					"commanders": "Lithium vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "34:44",
+					"teamOne": [
+						"Zack",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Bylarge"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:34:44",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 374,
+									"deaths": 4,
+									"kills": 31
+								},
+								{
+									"name": "Team 1",
+									"score": -416,
+									"deaths": 5,
+									"kills": 41
+								},
+								{
+									"name": "Toto",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 41,
+									"craft_lost": 18,
+									"buildings_constructed": 24,
+									"buildings_lost": 14,
+									"scrap_collected": 446,
+									"scrap_spent": 2216,
+									"scrap_harvested_upgraded": 439
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Strokes)": 5,
+										"Team 7 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Zack)": 1,
+										"Team 6 (Strokes)": 3,
+										"Team 7 (F9bomber)": 10,
+										"Team 8 (F9bylarge)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Strokes)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (Strokes)": 6,
+										"Team 7 (F9bomber)": 5,
+										"Team 8 (F9bylarge)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Zack)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 1,
+										"Team 6 (Strokes)": 6,
+										"Team 7 (F9bomber)": 2,
+										"Team 8 (F9bylarge)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Strokes)": 2,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (F9bylarge)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Strokes)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Strokes)": 5,
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (F9bylarge)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Strokes)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Strokes)": 9
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Strokes)",
+								"metrics": {
+									"craft_built": 61,
+									"craft_lost": 18,
+									"buildings_constructed": 28,
+									"buildings_lost": 15,
+									"scrap_collected": 710,
+									"scrap_spent": 2718,
+									"scrap_harvested_upgraded": 741
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 3,
+										"Team 3 (Zack)": 2,
+										"Team 4 (Toto)": 4,
+										"Team 6 (Strokes)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 5,
+										"Team 3 (Zack)": 6,
+										"Team 4 (Toto)": 5,
+										"Team 6 (Strokes)": 1,
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 6,
+										"Team 6 (Strokes)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Lithium)": 2,
+										"Team 3 (Zack)": 3,
+										"Team 4 (Toto)": 9,
+										"Team 6 (Strokes)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 10,
+										"Team 3 (Zack)": 3,
+										"Team 6 (Strokes)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 3 (Zack)": 2,
+										"Team 4 (Toto)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 4,
+										"Team 3 (Zack)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Zack)": 2,
+										"Team 4 (Toto)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
