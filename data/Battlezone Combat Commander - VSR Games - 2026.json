@@ -11923,6 +11923,127 @@
 						]
 					}
 				}
+			},
+			"01.14.26": {
+				"Terron": {
+					"date": "01.14.26",
+					"map": "Terron",
+					"commanders": "Nomad vs Bylarge",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Bylarge",
+					"time": "20:31",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						"F9bomber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:20:31",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 254,
+									"deaths": 1,
+									"kills": 21
+								},
+								{
+									"name": "Team 1",
+									"score": 34,
+									"deaths": 0,
+									"kills": 9
+								},
+								{
+									"name": "F9bomber",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Reacher)",
+								"metrics": {
+									"craft_built": 33,
+									"craft_lost": 19,
+									"buildings_constructed": 19,
+									"buildings_lost": 10,
+									"scrap_collected": 430,
+									"scrap_spent": 1521,
+									"scrap_harvested_upgraded": 212
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bylarge)": 5,
+										"Team 7 (F9bomber)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bylarge)": 9,
+										"Team 7 (F9bomber)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bylarge)": 4
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bylarge)": 2,
+										"Team 7 (F9bomber)": 8
+									}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - F9bylarge)",
+								"metrics": {
+									"craft_built": 27,
+									"craft_lost": 5,
+									"buildings_constructed": 19,
+									"buildings_lost": 4,
+									"scrap_collected": 105,
+									"scrap_spent": 1510,
+									"scrap_harvested_upgraded": 645
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 9
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (Reacher)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 155,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Reacher)": 10
+									},
+									"craft_lost_to": {
+										"Team 1 (Reacher)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Reacher)": 8
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
