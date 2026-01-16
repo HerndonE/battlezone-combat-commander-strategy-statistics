@@ -1,0 +1,98 @@
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Base card style */
+.card {
+    background: linear-gradient(135deg, #1a1a1a, #292929);
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #444;
+    box-shadow: 0 0 10px #000;
+    transition: 0.25s, opacity 0.25s, filter 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    border-color: #b5179e;
+    box-shadow: 0 0 20px #b5179e90;
+}
+
+/* Name */
+.name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4cc9f0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Stats */
+.stat {
+    margin: 6px 0;
+    font-size: 0.95rem;
+}
+
+.label {
+    font-weight: bold;
+    
+}
+
+/* Section titles */
+.section-title {
+    margin-top: 12px;
+    font-size: 1rem;
+    color: #4895ef;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+}
+
+/* Card activity states */
+.card.active {
+    box-shadow: 0 0 15px #28a74566; /* green glow */
+}
+
+.card.semi-active {
+    background: linear-gradient(135deg, #2a1a15, #392919); /* subtle warm tint */
+    opacity: 0.95;
+    filter: grayscale(5%);
+    box-shadow: 0 0 15px #f0ad4e55; /* orange glow */
+}
+
+.card.inactive {
+    opacity: 0.6;
+    filter: grayscale(20%);
+}
+
+/* Status badge */
+.status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.status.active {
+    background-color: #28a745;
+    box-shadow: 0 0 8px #28a74588;
+}
+
+.status.semi-active {
+    background-color: #da9c46;
+    box-shadow: 0 0 8px #f0ad4e88;
+}
+
+.status.inactive {
+    background-color: #6c757d;
+    box-shadow: 0 0 8px #6c757d88;
+}

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css/stats-tab.css">
     <link rel="stylesheet" href="../css/graph.css">
     <link rel="stylesheet" href="../css/mobile-stats.css">
+    <link rel="stylesheet" href="../css/commanders.css">
     <link rel="stylesheet" href="../css/match-history.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -22,6 +23,7 @@
     <script type="module" src="../js/twentyFive.js"></script>
     <script type="module" src="../js/twentySix.js"></script>
     <script type="module" src="../js/mobileStats.js"></script>
+    <script type="module" src="../js/commanders.js"></script>
     <script type="module" src="../js/matchHistory.js"></script>
   </head>
   <body>
@@ -44,8 +46,8 @@
         <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
         <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
         <button class="tablinks" onclick="getData(event, 'twentySix')">2026</button>
+        <button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>
         <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
-        <!--<button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>-->
       </div>
       <div id="Overview" class="tabcontent">
         <div align="center">
@@ -163,6 +165,11 @@
           </div>
         </div>
       </div>
+      <div id="commanders" class="tabcontent">
+        <div class="controls">
+          <div id="card-container"></div>
+        </div>
+      </div>
       <div id="matchHistory" class="tabcontent">
         <div class="controls">
           <select id="yearFilter" disabled></select>
@@ -187,7 +194,6 @@
         </table>
       </div>
     </div>
-    <!--<div id="commanders" class="tabcontent"></div>-->
     </div>
     <div id="overlay-text-mobile">
       <div class="category">

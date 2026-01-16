@@ -17,14 +17,16 @@ function getData(evt, tabName) {
     evt.currentTarget.className += " active";
   }
 
+  const hiddenTabs = ["matchHistory", "commanders"];
+
   const overlayMobile = document.getElementById("overlay-text-mobile");
   if (overlayMobile) {
-    overlayMobile.style.display = tabName === "matchHistory" ? "none" : "";
+    overlayMobile.style.display = hiddenTabs.includes(tabName) ? "none" : "";
   }
 
   const smokeCanvas = document.querySelector("canvas");
   if (smokeCanvas) {
-    smokeCanvas.style.display = tabName === "matchHistory" ? "none" : "block";
+    smokeCanvas.style.display = hiddenTabs.includes(tabName) ? "none" : "block";
   }
 }
 
