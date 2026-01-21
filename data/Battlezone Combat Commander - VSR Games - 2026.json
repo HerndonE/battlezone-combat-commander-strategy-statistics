@@ -15175,6 +15175,718 @@
 						]
 					}
 				}
+			},
+			"01.20.26": {
+				"Giza": {
+					"date": "01.20.26",
+					"map": "Giza",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "15:46",
+					"teamOne": [
+						"Lithium",
+						"Gravey",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber",
+						"Certified Bad Guy",
+						"Judgeguns"
+					],
+					"teamOneStraggler": [
+						"Ultimate"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:15:46",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 574,
+									"deaths": 2,
+									"kills": 33
+								},
+								{
+									"name": "Team 2",
+									"score": -484,
+									"deaths": 5,
+									"kills": 10
+								},
+								{
+									"name": "cummybear",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Tom (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - racylithpics)",
+								"metrics": {
+									"craft_built": 28,
+									"craft_lost": 8,
+									"buildings_constructed": 17,
+									"buildings_lost": 6,
+									"scrap_collected": 400,
+									"scrap_spent": 1287,
+									"scrap_harvested_upgraded": 286
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Certified Illiterate Guy)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Certified Illiterate Guy)": 3,
+										"Team 10 (judgeguns)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (dark)": 1,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Certified Illiterate Guy)": 2,
+										"Team 10 (judgeguns)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Litheracy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 2,
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - cummybear)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 10 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Gravidons)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 2,
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 1,
+										"Team 7 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Scout)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 3,
+										"Team 7 (Major Manson)": 2,
+										"Team 9 (Certified Illiterate Guy)": 2,
+										"Team 10 (judgeguns)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - dark)",
+								"metrics": {
+									"craft_built": 33,
+									"craft_lost": 13,
+									"buildings_constructed": 15,
+									"buildings_lost": 9,
+									"scrap_collected": 235,
+									"scrap_spent": 985,
+									"scrap_harvested_upgraded": 139
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (Gravidons)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (racylithpics)": 3,
+										"Team 2 (Litheracy)": 2,
+										"Team 3 (cummybear)": 3,
+										"Team 4 (Gravidons)": 2,
+										"Team 5 (Scout)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (racylithpics)": 1,
+										"Team 6 (dark)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (racylithpics)": 2,
+										"Team 2 (Litheracy)": 1,
+										"Team 3 (cummybear)": 2,
+										"Team 4 (Gravidons)": 1,
+										"Team 5 (Scout)": 2,
+										"Team 6 (dark)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (racylithpics)": 1,
+										"Team 2 (Litheracy)": 1,
+										"Team 4 (Gravidons)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Litheracy)": 1,
+										"Team 5 (Scout)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (racylithpics)": 1,
+										"Team 3 (cummybear)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (racylithpics)": 1,
+										"Team 2 (Litheracy)": 1,
+										"Team 3 (cummybear)": 1,
+										"Team 4 (Gravidons)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (racylithpics)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Certified Illiterate Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (racylithpics)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (racylithpics)": 1,
+										"Team 5 (Scout)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (racylithpics)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (racylithpics)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (racylithpics)": 1,
+										"Team 3 (cummybear)": 1,
+										"Team 5 (Scout)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (racylithpics)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Ice Age": {
+					"date": "01.20.26",
+					"map": "Ice Age",
+					"commanders": "Muffin vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "1:47:32",
+					"teamOne": [
+						"Judgeguns",
+						"Gravey",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"F9bomber",
+						"Lithium"
+					],
+					"teamOneStraggler": [
+						"Nomad",
+						"Cloaket"
+					],
+					"teamTwoStraggler": [
+						"Ultimate"
+					],
+					"_comment": "Nomad originally commanded, dropped out. Muffin took over and won the game.",
+					"stats": {
+						"game_summary": {
+							"total_time": "1:47:32",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 900,
+									"deaths": 19,
+									"kills": 157
+								},
+								{
+									"name": "Team 2",
+									"score": 365,
+									"deaths": 34,
+									"kills": 181
+								},
+								{
+									"name": "unconSCIONable (Team 2)",
+									"score": 135,
+									"deaths": 16,
+									"kills": 56
+								},
+								{
+									"name": "Reacher (Team 1)",
+									"score": 8,
+									"deaths": 2,
+									"kills": 6
+								},
+								{
+									"name": "ce",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "tabbed ping for next game (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "racylithpics (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Lithium (Team 2)",
+									"score": -16,
+									"deaths": 4,
+									"kills": 3
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Major Manson)",
+								"metrics": {
+									"craft_built": 215,
+									"craft_lost": 66,
+									"buildings_constructed": 58,
+									"buildings_lost": 42,
+									"scrap_collected": 2727,
+									"scrap_spent": 9752,
+									"scrap_harvested_upgraded": 2992
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 1,
+										"Team 2 (judgeguns)": 1,
+										"Team 6 (dark)": 25,
+										"Team 7 (Team 2)": 6,
+										"Team 8 (F9bomber)": 4,
+										"Team 9 (Vivify)": 2,
+										"Team 10 (Lithium)": 8
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 1,
+										"Team 6 (dark)": 13,
+										"Team 7 (Team 2)": 17,
+										"Team 8 (F9bomber)": 20,
+										"Team 9 (Vivify)": 13,
+										"Team 10 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 1,
+										"Team 6 (dark)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (Major Manson)": 1,
+										"Team 6 (dark)": 2,
+										"Team 7 (Team 2)": 17,
+										"Team 8 (F9bomber)": 6,
+										"Team 9 (Vivify)": 12,
+										"Team 10 (Lithium)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 29,
+									"scrap_collected": 55,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (judgeguns)": 1,
+										"Team 6 (dark)": 14,
+										"Team 7 (Team 2)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Vivify)": 3,
+										"Team 10 (Lithium)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 1,
+										"Team 2 (judgeguns)": 1,
+										"Team 4 (Gravidons)": 1,
+										"Team 6 (dark)": 3,
+										"Team 7 (Team 2)": 4,
+										"Team 8 (F9bomber)": 7,
+										"Team 9 (Vivify)": 8,
+										"Team 10 (Lithium)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Just!ce)",
+								"metrics": {
+									"craft_built": 2,
+									"craft_lost": 6,
+									"scrap_collected": 115,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 8,
+										"Team 7 (Team 2)": 2,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Vivify)": 1,
+										"Team 10 (Lithium)": 5
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 1,
+										"Team 7 (Team 2)": 2,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Gravidons)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 45,
+									"scrap_collected": 245,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (judgeguns)": 1,
+										"Team 6 (dark)": 27,
+										"Team 7 (Team 2)": 3,
+										"Team 8 (F9bomber)": 3,
+										"Team 9 (Vivify)": 7,
+										"Team 10 (Lithium)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 15,
+										"Team 7 (Team 2)": 8,
+										"Team 8 (F9bomber)": 7,
+										"Team 9 (Vivify)": 11,
+										"Team 10 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Certified Illiterate Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 18,
+									"scrap_collected": 50,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 13,
+										"Team 7 (Team 2)": 5,
+										"Team 8 (F9bomber)": 5,
+										"Team 9 (Vivify)": 1,
+										"Team 10 (Lithium)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 2,
+										"Team 7 (Team 2)": 7,
+										"Team 8 (F9bomber)": 3,
+										"Team 9 (Vivify)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - dark)",
+								"metrics": {
+									"craft_built": 204,
+									"craft_lost": 89,
+									"buildings_constructed": 52,
+									"buildings_lost": 19,
+									"scrap_collected": 1298,
+									"scrap_spent": 10291,
+									"scrap_harvested_upgraded": 5386
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 13,
+										"Team 2 (judgeguns)": 3,
+										"Team 3 (Just!ce)": 1,
+										"Team 4 (Gravidons)": 15,
+										"Team 5 (Certified Illiterate Guy)": 2,
+										"Team 9 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 25,
+										"Team 2 (judgeguns)": 14,
+										"Team 3 (Just!ce)": 8,
+										"Team 4 (Gravidons)": 27,
+										"Team 5 (Certified Illiterate Guy)": 13,
+										"Team 8 (F9bomber)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (Major Manson)": 2,
+										"Team 2 (judgeguns)": 6,
+										"Team 3 (Just!ce)": 4,
+										"Team 4 (Gravidons)": 5,
+										"Team 5 (Certified Illiterate Guy)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 19
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 17,
+										"Team 2 (judgeguns)": 4,
+										"Team 3 (Just!ce)": 2,
+										"Team 4 (Gravidons)": 8,
+										"Team 5 (Certified Illiterate Guy)": 7,
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 6,
+										"Team 2 (judgeguns)": 3,
+										"Team 3 (Just!ce)": 2,
+										"Team 4 (Gravidons)": 3,
+										"Team 5 (Certified Illiterate Guy)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 17
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15,
+									"scrap_collected": 115,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 20,
+										"Team 2 (judgeguns)": 7,
+										"Team 3 (Just!ce)": 1,
+										"Team 4 (Gravidons)": 7,
+										"Team 5 (Certified Illiterate Guy)": 3,
+										"Team 6 (dark)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 4,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Just!ce)": 1,
+										"Team 4 (Gravidons)": 3,
+										"Team 5 (Certified Illiterate Guy)": 5,
+										"Team 7 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 13,
+										"Team 2 (judgeguns)": 8,
+										"Team 3 (Just!ce)": 2,
+										"Team 4 (Gravidons)": 11,
+										"Team 5 (Certified Illiterate Guy)": 6
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 2,
+										"Team 2 (judgeguns)": 3,
+										"Team 3 (Just!ce)": 1,
+										"Team 4 (Gravidons)": 7,
+										"Team 5 (Certified Illiterate Guy)": 1,
+										"Team 6 (dark)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 12
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 33,
+									"scrap_collected": 145,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Major Manson)": 2,
+										"Team 2 (judgeguns)": 3,
+										"Team 4 (Gravidons)": 2,
+										"Team 6 (dark)": 1,
+										"Team 10 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Major Manson)": 8,
+										"Team 2 (judgeguns)": 5,
+										"Team 3 (Just!ce)": 5,
+										"Team 4 (Gravidons)": 6,
+										"Team 5 (Certified Illiterate Guy)": 7,
+										"Team 10 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Major Manson)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
