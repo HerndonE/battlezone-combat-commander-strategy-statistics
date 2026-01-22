@@ -146,7 +146,7 @@ function getActivityStatus(commander) {
 
 const factionIcons = {
   "i.s.d.f": "/assets/images/ISDF-Logo.png",
-  scion: "/assets/images/SCION-Logo.png",
+  scion: "/assets/images/Scion-Logo.png",
   hadean: "/assets/images/Hadean-Logo.png",
 };
 
