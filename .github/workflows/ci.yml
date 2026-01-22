@@ -81,38 +81,46 @@ jobs:
             echo "No changes to commit."
           fi
 
-      # Notify Discord that the process is complete
-      - name: Send Success Discord Notification
-        if: success()
+      - name: Send Discord Notification
+        if: always()
         run: |
+          STATUS="${{ job.status }}"
+          COLOR=3066993
+          TITLE="GitHub Actions Workflow Succeeded"
+
+          if [ "$STATUS" != "success" ]; then
+            COLOR=15158332
+            TITLE="GitHub Actions Workflow Failed"
+          fi
+
           curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
           -H "Content-Type: application/json" \
-          -d '{
-                "embeds": [{
-                  "title": "GitHub Actions Workflow Complete",
-                  "description": "The **combine_json.py** script has finished successfully!",
-                  "color": 3066993,
-                  "fields": [
+          -d "{
+                \"embeds\": [{
+                  \"title\": \"$TITLE\",
+                  \"description\": \"The **combine_json.py** job has completed.\",
+                  \"color\": $COLOR,
+                  \"fields\": [
                     {
-                      "name": "Repository",
-                      "value": "'${{ github.repository }}'",
-                      "inline": true
+                      \"name\": \"Repository\",
+                      \"value\": \"${{ github.repository }}\",
+                      \"inline\": true
                     },
                     {
-                      "name": "Branch",
-                      "value": "main",
-                      "inline": true
+                      \"name\": \"Branch\",
+                      \"value\": \"${{ github.ref_name }}\",
+                      \"inline\": true
                     },
                     {
-                      "name": "Status",
-                      "value": "Success",
-                      "inline": false
+                      \"name\": \"Status\",
+                      \"value\": \"$STATUS\",
+                      \"inline\": false
                     }
                   ],
-                  "footer": {
-                    "text": "GitHub Actions",
-                    "icon_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  \"footer\": {
+                    \"text\": \"GitHub Actions\",
+                    \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
                   },
-                  "timestamp": "'$(date --utc +%FT%TZ)'"
+                  \"timestamp\": \"$(date --utc +%FT%TZ)\"
                 }]
-              }'
+              }"
