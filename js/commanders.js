@@ -144,6 +144,27 @@ function getActivityStatus(commander) {
   }
 }
 
+const factionIcons = {
+  "I.S.D.F": "/assets/images/ISDF-Logo.png",
+  Scion: "/assets/images/SCION-Logo2.png",
+  Hadean: "/assets/images/Hadean-Logo.png",
+};
+
+function renderFactionWithIcon(faction) {
+  const baseFaction = faction.replace(/\s*\(.*?\)\s*/, "").trim();
+
+  const icon = factionIcons[baseFaction];
+
+  if (!icon) return faction;
+
+  return `
+    <span class="faction">
+      <img src="${icon}" alt="${faction}" class="faction-icon">
+      ${faction}
+    </span>
+  `;
+}
+
 // Create card with status badge
 function createCard(c) {
   const div = document.createElement("div");
@@ -167,7 +188,7 @@ function createCard(c) {
   }</div>
 
   <div class="section-title">Most Played Faction</div>
-  <div class="stat">${topKey(c.factions)}</div>
+  <div class="stat">${renderFactionWithIcon(topKey(c.factions))}</div>
 
   <div class="section-title">Most Played Map</div>
   <div class="stat">${topKey(c.maps)}</div>
@@ -176,7 +197,6 @@ function createCard(c) {
   <div class="stat">${topKey(c.opponents)}</div>
 
 `;
-
   return div;
 }
 
