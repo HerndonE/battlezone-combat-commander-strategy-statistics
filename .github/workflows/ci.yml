@@ -3,7 +3,7 @@ name: CI/CD - Combine JSON Files
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch
+      - main # Trigger on push to main branch
 
 jobs:
   build:
@@ -12,6 +12,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      # Notify Discord that the process has started
+      - name: Send Deployment Discord Notification
+        run: |
+          curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d '{
+                "embeds": [{
+                  "title": "GitHub Actions Workflow Started",
+                  "description": "A new deployment has started.",
+                  "color": 3066993,
+                  "fields": [
+                    {
+                      "name": "Repository",
+                      "value": "'${{ github.repository }}'",
+                      "inline": true
+                    }
+                  ],
+                  "footer": {
+                    "text": "GitHub Actions",
+                    "icon_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  },
+                  "timestamp": "'$(date --utc +%FT%TZ)'"
+                }]
+              }'
 
       # Pull latest changes from the remote main branch to avoid conflicts
       - name: Pull latest changes from remote
@@ -25,7 +50,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Run combine_json.py
         run: python scripts/combine_json.py
@@ -41,23 +66,24 @@ jobs:
 
       - name: Commit combined data.json
         run: |
-            git config --global user.name 'github-actions'
-            git config --global user.email 'github-actions@github.com'
-            
-            # Stage the changes
-            git add data/data.json
-            
-            # Check if there are any changes before committing
-            if ! git diff --cached --quiet; then
-              git commit -m "Update combined data.json"
-              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-              git push
-            else
-              echo "No changes to commit."
-            fi
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+          # Stage the changes
+          git add data/data.json
+
+          # Check if there are any changes before committing
+          if ! git diff --cached --quiet; then
+            git commit -m "Update combined data.json"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
       # Notify Discord that the process is complete
-      - name: Send Discord Notification
+      - name: Send Success Discord Notification
+        if: success()
         run: |
           curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
           -H "Content-Type: application/json" \
