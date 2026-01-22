@@ -202,7 +202,6 @@ function createCard(c) {
   <div class="stat">${topKey(c.opponents)}</div>
 
 `;
-  console.log(topKey(c.factions));
   return div;
 }
 
