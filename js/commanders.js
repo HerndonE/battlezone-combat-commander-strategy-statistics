@@ -145,16 +145,21 @@ function getActivityStatus(commander) {
 }
 
 const factionIcons = {
-  "I.S.D.F": "/assets/images/ISDF-Logo.png",
-  Scion: "/assets/images/SCION-Logo2.png",
-  Hadean: "/assets/images/Hadean-Logo.png",
+  "i.s.d.f": "/assets/images/ISDF-Logo.png",
+  scion: "/assets/images/SCION-Logo2.png",
+  hadean: "/assets/images/Hadean-Logo.png",
 };
 
+function getBaseFaction(faction) {
+  return faction
+    .replace(/\s*\(.*?\)\s*/, "") // remove the (number)
+    .trim()
+    .toLowerCase();
+}
+
 function renderFactionWithIcon(faction) {
-  const baseFaction = faction.replace(/\s*\(.*?\)\s*/, "").trim();
-
-  const icon = factionIcons[baseFaction];
-
+  const key = getBaseFaction(faction);
+  const icon = factionIcons[key];
   if (!icon) return faction;
 
   return `
@@ -197,6 +202,7 @@ function createCard(c) {
   <div class="stat">${topKey(c.opponents)}</div>
 
 `;
+  console.log(topKey(c.factions));
   return div;
 }
 
