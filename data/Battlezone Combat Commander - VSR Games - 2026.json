@@ -15887,6 +15887,44 @@
 						]
 					}
 				}
+			},
+			"01.24.26": {
+				"Quagmire": {
+					"date": "01.24.26",
+					"map": "Quagmire",
+					"commanders": "Judgeguns vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Judgeguns",
+					"time": "20:33",
+					"teamOne": [
+						"doctorasher",
+						"MurphysLawUS",
+						"HyperVivify",
+						"Shock"
+					],
+					"teamTwo": [
+						"Nomad",
+						"F9mama"
+					]
+				},
+				"Sahara": {
+					"date": "01.24.26",
+					"map": "Sahara",
+					"commanders": "MurphysLawUS vs F9mama",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9mama",
+					"time": "13:30",
+					"teamOne": [
+						"doctorasher",
+						"Shock"
+					],
+					"teamTwo": [
+						"Nomad",
+						"HyperVivify"
+					]
+				}
 			}
 		}
 	}
