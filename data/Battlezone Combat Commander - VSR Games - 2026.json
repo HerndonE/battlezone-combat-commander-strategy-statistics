@@ -17203,6 +17203,952 @@
 						]
 					}
 				}
+			},
+			"01.27.26": {
+				"Barren": {
+					"date": "01.27.26",
+					"map": "Barren",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "1:13:09",
+					"teamOne": [
+						"F9bomber",
+						"Muffin",
+						"MurphysLawUS",
+						"doctorasher"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Bylarge",
+						"Sev",
+						"Herp McDerperson"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:13:09",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 664,
+									"deaths": 19,
+									"kills": 102
+								},
+								{
+									"name": "Team 1",
+									"score": 296,
+									"deaths": 18,
+									"kills": 102
+								},
+								{
+									"name": "doctorasher",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 126,
+									"craft_lost": 66,
+									"buildings_constructed": 49,
+									"buildings_lost": 34,
+									"scrap_collected": 1567,
+									"scrap_spent": 4776,
+									"scrap_harvested_upgraded": 807
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (clanker feetpics)": 10,
+										"Team 7 (A)": 1,
+										"Team 8 (F9bylarge)": 1,
+										"Team 9 (Daniel Naroditzky)": 3,
+										"Team 10 (white as snow)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (murph)": 1,
+										"Team 5 (doctorasher)": 1,
+										"Team 6 (clanker feetpics)": 15,
+										"Team 7 (A)": 11,
+										"Team 8 (F9bylarge)": 21,
+										"Team 9 (Daniel Naroditzky)": 9,
+										"Team 10 (white as snow)": 8
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (clanker feetpics)": 1
+									},
+									"buildings_lost_to": {
+										"Team 5 (doctorasher)": 1,
+										"Team 6 (clanker feetpics)": 4,
+										"Team 7 (A)": 7,
+										"Team 8 (F9bylarge)": 10,
+										"Team 9 (Daniel Naroditzky)": 7,
+										"Team 10 (white as snow)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11,
+									"scrap_collected": 70,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (clanker feetpics)": 11,
+										"Team 7 (A)": 1,
+										"Team 8 (F9bylarge)": 3,
+										"Team 9 (Daniel Naroditzky)": 2,
+										"Team 10 (white as snow)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (clanker feetpics)": 2,
+										"Team 7 (A)": 2,
+										"Team 8 (F9bylarge)": 1,
+										"Team 9 (Daniel Naroditzky)": 2,
+										"Team 10 (white as snow)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (clanker feetpics)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (clanker feetpics)": 23,
+										"Team 7 (A)": 1,
+										"Team 8 (F9bylarge)": 4,
+										"Team 9 (Daniel Naroditzky)": 3,
+										"Team 10 (white as snow)": 3
+									},
+									"craft_lost_to": {
+										"Team 9 (Daniel Naroditzky)": 2,
+										"Team 10 (white as snow)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (clanker feetpics)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - murph)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 1,
+										"Team 6 (clanker feetpics)": 5,
+										"Team 9 (Daniel Naroditzky)": 5,
+										"Team 10 (white as snow)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (A)": 2,
+										"Team 9 (Daniel Naroditzky)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (clanker feetpics)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - doctorasher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 1,
+										"Team 6 (clanker feetpics)": 10,
+										"Team 8 (F9bylarge)": 1
+									},
+									"craft_lost_to": {
+										"Team 9 (Daniel Naroditzky)": 2,
+										"Team 10 (white as snow)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 1,
+										"Team 6 (clanker feetpics)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - clanker feetpics)",
+								"metrics": {
+									"craft_built": 142,
+									"craft_lost": 59,
+									"buildings_constructed": 48,
+									"buildings_lost": 17,
+									"scrap_collected": 1269,
+									"scrap_spent": 6511,
+									"scrap_harvested_upgraded": 2089
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 15,
+										"Team 2 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 10,
+										"Team 2 (F9bomber)": 11,
+										"Team 3 (Major Manson)": 23,
+										"Team 4 (murph)": 5,
+										"Team 5 (doctorasher)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 4
+									},
+									"buildings_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 2 (F9bomber)": 4,
+										"Team 3 (Major Manson)": 3,
+										"Team 4 (murph)": 6,
+										"Team 5 (doctorasher)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - A)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 11,
+										"Team 2 (F9bomber)": 2,
+										"Team 4 (murph)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 21,
+										"Team 2 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 2 (F9bomber)": 3,
+										"Team 3 (Major Manson)": 4,
+										"Team 5 (doctorasher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 10
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Daniel Naroditzky)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14,
+									"scrap_collected": 160,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 9,
+										"Team 2 (F9bomber)": 2,
+										"Team 3 (Major Manson)": 2,
+										"Team 4 (murph)": 2,
+										"Team 5 (doctorasher)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 3,
+										"Team 2 (F9bomber)": 2,
+										"Team 3 (Major Manson)": 3,
+										"Team 4 (murph)": 5,
+										"Team 10 (white as snow)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - white as snow)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lithium)": 8,
+										"Team 2 (F9bomber)": 4,
+										"Team 3 (Major Manson)": 1,
+										"Team 5 (doctorasher)": 2,
+										"Team 9 (Daniel Naroditzky)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lithium)": 1,
+										"Team 2 (F9bomber)": 4,
+										"Team 3 (Major Manson)": 3,
+										"Team 4 (murph)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lithium)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Fort 12C": {
+					"date": "01.27.26",
+					"map": "Fort 12C",
+					"commanders": "Lamper vs Muffin",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "15:35",
+					"teamOne": [
+						"F9bomber",
+						"Lithium",
+						"Judgeguns",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Nomad",
+						"Econchump",
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:15:35",
+							"team_overviews": [
+								{
+									"name": "Atheists",
+									"score": 569,
+									"deaths": 0,
+									"kills": 27
+								},
+								{
+									"name": "Believers",
+									"score": 7,
+									"deaths": 1,
+									"kills": 11
+								},
+								{
+									"name": "econchump",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Lamper (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "MurphysLawUS (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "doctorasher (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "white as snow (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "F9bylarge (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "murph (Believers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Daniel Naroditzky (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Believers - F9bomber)",
+								"metrics": {
+									"craft_built": 28,
+									"craft_lost": 2,
+									"buildings_constructed": 16,
+									"buildings_lost": 6,
+									"scrap_collected": 170,
+									"scrap_spent": 1345,
+									"scrap_harvested_upgraded": 515
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (Major Manson)": 1,
+										"Team 8 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Major Manson)": 2,
+										"Team 7 (Vivify)": 1,
+										"Team 9 (econchump)": 2,
+										"Team 10 (clanker feetpics)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Believers - Believers)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (Major Manson)": 1,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Reacher)": 2,
+										"Team 9 (econchump)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Believers - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Major Manson)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Reacher)": 1,
+										"Team 9 (econchump)": 3,
+										"Team 10 (clanker feetpics)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Believers - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Major Manson)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Reacher)": 1,
+										"Team 10 (clanker feetpics)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Major Manson)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Believers - Just!ce)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 75,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Major Manson)": 2,
+										"Team 7 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Major Manson)": 3,
+										"Team 7 (Vivify)": 2,
+										"Team 9 (econchump)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Atheists - Major Manson)",
+								"metrics": {
+									"craft_built": 24,
+									"craft_lost": 6,
+									"buildings_constructed": 18,
+									"buildings_lost": 5,
+									"scrap_collected": 330,
+									"scrap_spent": 1373,
+									"scrap_harvested_upgraded": 525
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (Believers)": 1,
+										"Team 5 (Just!ce)": 3
+									},
+									"craft_lost_to": {
+										"Team 3 (Lithium)": 1,
+										"Team 4 (judgeguns)": 3,
+										"Team 5 (Just!ce)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {
+										"Team 4 (judgeguns)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Atheists - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Believers)": 1,
+										"Team 4 (judgeguns)": 1,
+										"Team 5 (Just!ce)": 2
+									},
+									"craft_lost_to": {
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Atheists - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (Believers)": 2,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (judgeguns)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Atheists - econchump)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Believers)": 1,
+										"Team 3 (Lithium)": 3,
+										"Team 5 (Just!ce)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Atheists - clanker feetpics)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Lithium)": 2,
+										"Team 4 (judgeguns)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Mojave": {
+					"date": "01.27.26",
+					"map": "Mojave",
+					"commanders": "Econchump vs Lamper",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "12:16",
+					"teamOne": [
+						"Judgeguns",
+						"Lithium",
+						"HyperVivify",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Nomad",
+						"F9bomber",
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:12:16",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 533,
+									"deaths": 3,
+									"kills": 20
+								},
+								{
+									"name": "Team 2",
+									"score": 24,
+									"deaths": 3,
+									"kills": 18
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "econchump (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - econchump)",
+								"metrics": {
+									"craft_built": 24,
+									"craft_lost": 6,
+									"buildings_constructed": 15,
+									"buildings_lost": 2,
+									"scrap_collected": 270,
+									"scrap_spent": 1127,
+									"scrap_harvested_upgraded": 381
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (Just!ce)": 1,
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (Reacher)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Lamper)": 1,
+										"Team 7 (Major Manson)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 8 (Reacher)": 1,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (clanker feetpics)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lamper)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lamper)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lamper)": 1,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (clanker feetpics)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lamper)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lamper)": 1,
+										"Team 7 (Major Manson)": 1,
+										"Team 10 (clanker feetpics)": 1
+									},
+									"craft_lost_to": {
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lamper)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Just!ce)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (econchump)": 1,
+										"Team 6 (Lamper)": 1,
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (Reacher)": 1,
+										"Team 9 (F9bomber)": 3,
+										"Team 10 (clanker feetpics)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (Reacher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lamper)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lamper)",
+								"metrics": {
+									"craft_built": 21,
+									"craft_lost": 3,
+									"buildings_constructed": 13,
+									"buildings_lost": 5,
+									"scrap_collected": 275,
+									"scrap_spent": 872,
+									"scrap_harvested_upgraded": 185
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Lithium)": 1,
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (econchump)": 1
+									},
+									"buildings_lost_to": {
+										"Team 2 (judgeguns)": 2,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Just!ce)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (econchump)": 2,
+										"Team 5 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Just!ce)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (econchump)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (econchump)": 2,
+										"Team 2 (judgeguns)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (econchump)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (econchump)": 1,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (Just!ce)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - clanker feetpics)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Just!ce)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
