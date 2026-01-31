@@ -2342,9 +2342,9 @@
                             "winner": "F9bomber"
                         }
                     },
-                    "12.7.14": {
+                    "12.7.24": {
                         "Lunix": {
-                            "date": "12.7.14",
+                            "date": "12.7.24",
                             "map": "Lunix",
                             "commanders": "Jabbapop vs DD",
                             "factions": "[I.S.D.F, I.S.D.F]",
@@ -2352,7 +2352,7 @@
                             "winner": "DD"
                         },
                         "Mojave": {
-                            "date": "12.7.14",
+                            "date": "12.7.24",
                             "map": "Mojave",
                             "commanders": "Jabbapop vs DD",
                             "factions": "[I.S.D.F, I.S.D.F]",
@@ -2360,7 +2360,7 @@
                             "winner": "DD"
                         },
                         "Oasis": {
-                            "date": "12.7.14",
+                            "date": "12.7.24",
                             "map": "Oasis",
                             "commanders": "Xpi vs Xohm",
                             "factions": "[I.S.D.F, I.S.D.F]",
@@ -2368,7 +2368,7 @@
                             "winner": "Xpi"
                         },
                         "Reflex": {
-                            "date": "12.7.14",
+                            "date": "12.7.24",
                             "map": "Reflex",
                             "commanders": "Xpi vs Xohm",
                             "factions": "[Scion, Scion]",
@@ -2376,7 +2376,7 @@
                             "winner": "Xohm"
                         },
                         "Terron": {
-                            "date": "12.7.14",
+                            "date": "12.7.24",
                             "map": "Terron",
                             "commanders": "DD vs Xohm",
                             "factions": "[I.S.D.F, I.S.D.F]",
@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Snow Central",
-                "Scammed",
-                "Trench",
-                "Ragnarok",
-                "Barren",
-                "Moonshroud",
-                "Quarry",
-                "Chill",
-                "No Mans Land",
-                "Forgotten",
-                "310",
-                "Giza",
-                "Sinister",
-                "Bridges",
-                "Egypt",
-                "Crater",
-                "Ancient Hills",
-                "Vegan",
-                "Iraq",
-                "Bowl",
-                "Assualt",
-                "Vortex",
-                "Remnant",
-                "Oxide",
-                "Caiscus",
-                "Quagmire",
-                "Beyond",
-                "Red Slope",
-                "Oldboy",
-                "Hound",
-                "Throbbing Gristle",
-                "Tempest",
-                "Mojave",
-                "Haven",
-                "Selena",
-                "Dream",
-                "Oasis",
-                "Lunar",
-                "High & Low",
-                "Rectal",
-                "Stone Circle",
-                "Mort's Wasteland",
-                "Ravine",
-                "Satart",
-                "Consciousness",
-                "Rendon",
-                "Plus",
-                "Europa Night",
-                "Echelon",
-                "High Heat",
-                "Madern Warfare",
-                "Reflex",
-                "Titan",
-                "Sahara",
-                "Domain",
-                "Excavation",
-                "Ice Age",
-                "Abundance",
-                "Scion Central",
-                "Casius",
-                "Island of V8",
-                "Iceberg",
-                "Ogg Vorbis",
-                "Pitbull",
-                "Ebola",
-                "Plaza",
-                "Abuse",
-                "Twin Peaks",
-                "Concrete Jungle",
-                "Overlook",
-                "Phazon",
-                "Strategy Arena",
-                "Hi-Mid-Lo",
-                "Dune Night",
-                "Transfer",
-                "Terron",
-                "Ridges",
                 "Trail",
-                "Terrace",
-                "Mesa",
-                "Phoenix",
-                "Insula",
-                "Alien Dunes",
-                "Europa",
-                "JO Crystal",
-                "Dusk",
-                "Royal Stadium",
+                "Plaza",
+                "Rectal",
+                "Giza",
                 "Aztec",
-                "Garden",
-                "Lunix",
+                "Island of V8",
+                "Ancient Hills",
+                "Quagmire",
+                "Pitbull",
+                "Snow Central",
+                "Bowl",
+                "Sahara",
+                "Royal Stadium",
+                "Ogg Vorbis",
+                "No Mans Land",
+                "Ebola",
+                "Throbbing Gristle",
+                "Vegan",
+                "Titan",
+                "Mesa",
+                "Ice Age",
+                "Quarry",
+                "Bridges",
+                "Vortex",
+                "Consciousness",
+                "Terron",
+                "Plus",
+                "Scammed",
+                "Lunar",
                 "Prodigy Ver .2",
+                "Garden",
+                "Assualt",
+                "Red Slope",
+                "Transfer",
+                "Hound",
+                "Egypt",
+                "Abuse",
+                "Ragnarok",
+                "Overlook",
+                "Iceberg",
+                "Twin Peaks",
+                "Dream",
+                "Dusk",
+                "Moonshroud",
+                "Strategy Arena",
+                "Scion Central",
+                "Mort's Wasteland",
+                "Domain",
+                "Stone Circle",
+                "Rendon",
+                "Tempest",
+                "Forgotten",
+                "Excavation",
+                "Dune Night",
+                "Chill",
+                "Phazon",
+                "Alien Dunes",
+                "Abundance",
+                "Europa Night",
+                "Ravine",
+                "Terrace",
+                "High & Low",
+                "Insula",
                 "Mexican Mission",
-                "Mountain Top"
+                "Barren",
+                "Caiscus",
+                "Oasis",
+                "Casius",
+                "High Heat",
+                "Satart",
+                "310",
+                "Echelon",
+                "Reflex",
+                "Mountain Top",
+                "Selena",
+                "Oxide",
+                "Remnant",
+                "Mojave",
+                "Concrete Jungle",
+                "Crater",
+                "Ridges",
+                "Hi-Mid-Lo",
+                "Trench",
+                "Europa",
+                "Sinister",
+                "Madern Warfare",
+                "JO Crystal",
+                "Iraq",
+                "Phoenix",
+                "Lunix",
+                "Oldboy",
+                "Beyond",
+                "Haven"
             ],
             "commander_list": [
                 [
@@ -13643,89 +13643,89 @@
                 ]
             ],
             "unique_map_values": [
-                "Snow Central",
-                "Scammed",
-                "Trench",
-                "Barren",
-                "Ragnarok",
-                "Moonshroud",
-                "Quarry",
-                "Ancient Outposts",
-                "Forgotten",
-                "310",
+                "Power Struggle",
+                "Trail",
+                "Plaza",
                 "Giza",
-                "Egypt",
-                "Vegan",
-                "Ancient Hills",
-                "Iraq",
-                "Bowl",
-                "Ground Zero",
-                "Vortex",
-                "Remnant",
-                "Impact",
-                "Quagmire",
-                "XMAS-Europa",
-                "Red Slope",
-                "Oldboy",
-                "The War",
-                "Hound",
-                "Throbbing Gristle",
-                "XMAS-Remnant",
-                "Tempest",
-                "Mojave",
-                "Haven",
-                "Selena",
-                "Dream",
-                "Oasis",
-                "Jurrasic Dog Park",
-                "Lunar",
-                "High & Low",
-                "Fort 12C",
-                "Mort's Wasteland",
-                "Revolution",
-                "Toxicity",
-                "Consciousness",
-                "Rendon",
+                "Aztec",
+                "Island of V8",
                 "XMAS-Consciousness",
+                "Ancient Hills",
+                "Jurrasic Dog Park",
+                "Quagmire",
+                "Pitbull",
+                "Snow Central",
+                "Bowl",
+                "Sahara",
+                "Ancient Outposts",
+                "Jade Green",
+                "Ebola",
+                "Throbbing Gristle",
+                "Vegan",
+                "Titan",
+                "Mesa",
+                "Ice Age",
+                "Quarry",
+                "Vortex",
+                "Consciousness",
+                "Terron",
                 "Plus",
-                "Aussault",
+                "Scammed",
+                "Fort 12C",
+                "Lunar",
+                "Toxicity",
+                "Prodigy Ver .2",
+                "XMAS-Remnant",
+                "XMAS-Haven",
+                "Garden",
+                "The War",
+                "Red Slope",
+                "Transfer",
+                "Hound",
+                "Egypt",
+                "Cracked",
+                "Abuse",
+                "Ragnarok",
+                "Overlook",
+                "Twin Peaks",
+                "Magma",
+                "Dream",
+                "Moonshroud",
+                "Strategy Arena",
+                "Mayhem",
+                "Mort's Wasteland",
+                "Domain",
+                "Rendon",
+                "Revolution",
+                "Tempest",
+                "Forgotten",
+                "Excavation",
                 "Europa Night",
+                "High & Low",
+                "Insula",
+                "Barren",
+                "Mexican Mission",
+                "Oasis",
+                "Middle Wars",
+                "Casius",
+                "Aussault",
+                "XMAS-Europa",
+                "Impact",
+                "310",
                 "Echelon",
                 "Reflex",
-                "Titan",
-                "Domain",
-                "Sahara",
-                "Excavation",
-                "Ice Age",
-                "Casius",
-                "Island of V8",
-                "Magma",
-                "Pitbull",
-                "Middle Wars",
-                "Ebola",
-                "Plaza",
-                "Abuse",
-                "Twin Peaks",
-                "Overlook",
-                "Strategy Arena",
-                "Transfer",
-                "Jade Green",
-                "Terron",
+                "Selena",
+                "Mountain Top",
+                "Remnant",
+                "Mojave",
                 "Ridges",
-                "Trail",
-                "Mesa",
-                "Power Struggle",
-                "Insula",
-                "Cracked",
-                "XMAS-Haven",
-                "Mayhem",
+                "Trench",
                 "Europa",
-                "Aztec",
-                "Garden",
+                "Iraq",
                 "Lunix",
-                "Prodigy Ver .2",
-                "Mexican Mission",
-                "Mountain Top"
+                "Oldboy",
+                "Haven",
+                "Ground Zero"
             ],
             "commander_list": [
                 [
@@ -30380,6 +30380,118 @@
                                     }
                                 ]
                             }
+                        },
+                        "Haven": {
+                            "date": "01.20.26",
+                            "map": "Haven",
+                            "commanders": "Muffin vs HyperVivify",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Muffin",
+                            "time": "NA",
+                            "teamOne": [
+                                "M.S"
+                            ],
+                            "teamTwo": [
+                                "MAX"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Mojave": {
+                            "date": "01.20.26",
+                            "map": "Mojave",
+                            "commanders": "HyperVivify vs M.S",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "M.S",
+                            "time": "NA",
+                            "teamOne": [
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "MAX"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Middle Wars": {
+                            "date": "01.20.26",
+                            "map": "Middle Wars",
+                            "commanders": "HyperVivify vs Muffin",
+                            "factions": "[Hadean, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Oasis": {
+                            "date": "01.20.26",
+                            "map": "Oldboy",
+                            "commanders": "Muffin vs HyperVivify",
+                            "factions": "[Hadean, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "Muffin",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Reflex": {
+                            "date": "01.20.26",
+                            "map": "Reflex",
+                            "commanders": "Cloaket vs HyperVivify",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Cloaket",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Ridges": {
+                            "date": "01.20.26",
+                            "map": "Ridges",
+                            "commanders": "Cloaket vs HyperVivify",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Rapemas": {
+                            "date": "01.20.26",
+                            "map": "Rapemas",
+                            "commanders": "HyperVivify vs Nomad",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
                         }
                     },
                     "01.24.26": {
@@ -31696,6 +31808,22 @@
                                     }
                                 ]
                             }
+                        },
+                        "Ice Age": {
+                            "date": "01.26.26",
+                            "map": "Ice Age",
+                            "commanders": "Nomad vs HyperVivify",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                "Domakus"
+                            ],
+                            "teamTwo": [
+                                "Lithium"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
                         }
                     },
                     "01.27.26": {
@@ -32643,6 +32771,1393 @@
                                 ]
                             }
                         }
+                    },
+                    "01.28.26": {
+                        "Terron": {
+                            "date": "01.28.26",
+                            "map": "Terron",
+                            "commanders": "Maverick vs Lithium",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Lithium",
+                            "time": "14:48",
+                            "teamOne": [
+                                "Darkvale"
+                            ],
+                            "teamTwo": [
+                                "F9bomber"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:14:48",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 239,
+                                            "deaths": 1,
+                                            "kills": 21
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 19,
+                                            "deaths": 5,
+                                            "kills": 10
+                                        },
+                                        {
+                                            "name": "wawaewo",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Maverick)",
+                                        "metrics": {
+                                            "craft_built": 24,
+                                            "craft_lost": 6,
+                                            "buildings_constructed": 15,
+                                            "buildings_lost": 7,
+                                            "scrap_collected": 220,
+                                            "scrap_spent": 927,
+                                            "scrap_harvested_upgraded": 176
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 2,
+                                                "Team 7 (F9bomber)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Lithium)": 2,
+                                                "Team 7 (F9bomber)": 4
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (Lithium)": 4,
+                                                "Team 7 (F9bomber)": 3
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - wawaewo)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5,
+                                            "scrap_collected": 50,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 4
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Lithium)": 4,
+                                                "Team 7 (F9bomber)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Lithium)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 21,
+                                            "craft_lost": 6,
+                                            "buildings_constructed": 15,
+                                            "buildings_lost": 5,
+                                            "scrap_collected": 395,
+                                            "scrap_spent": 1092,
+                                            "scrap_harvested_upgraded": 168
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Maverick)": 2,
+                                                "Team 3 (wawaewo)": 4
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Maverick)": 2,
+                                                "Team 3 (wawaewo)": 4
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Maverick)": 4
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Maverick)": 1,
+                                                "Team 3 (wawaewo)": 4
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Maverick)": 4,
+                                                "Team 3 (wawaewo)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Maverick)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Maverick)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Remnant": {
+                            "date": "01.28.26",
+                            "map": "Remnant",
+                            "commanders": "Maverick vs Lithium",
+                            "factions": "[Scion, I.S.D.F]",
+                            "winningFaction": "Scion",
+                            "winner": "Maverick",
+                            "time": "14:30",
+                            "teamOne": [
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "Darkvale"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:14:30",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 1",
+                                            "score": 331,
+                                            "deaths": 0,
+                                            "kills": 13
+                                        },
+                                        {
+                                            "name": "Team 2",
+                                            "score": 8,
+                                            "deaths": 2,
+                                            "kills": 6
+                                        },
+                                        {
+                                            "name": "Domakus",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Maverick)",
+                                        "metrics": {
+                                            "craft_built": 27,
+                                            "craft_lost": 2,
+                                            "buildings_constructed": 24,
+                                            "buildings_lost": 2,
+                                            "scrap_collected": 85,
+                                            "scrap_spent": 1126,
+                                            "scrap_harvested_upgraded": 274
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 4,
+                                                "Team 7 (wawaewo)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Lithium)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (Lithium)": 1,
+                                                "Team 7 (wawaewo)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Domakus)",
+                                        "metrics": {
+                                            "craft_built": 2,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4,
+                                            "scrap_collected": 150,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 5,
+                                                "Team 7 (wawaewo)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (wawaewo)": 4
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 24,
+                                            "craft_lost": 9,
+                                            "buildings_constructed": 8,
+                                            "buildings_lost": 2,
+                                            "scrap_collected": 240,
+                                            "scrap_spent": 871,
+                                            "scrap_harvested_upgraded": 142
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Maverick)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Maverick)": 4,
+                                                "Team 3 (F9bomber)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Maverick)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Maverick)": 1,
+                                                "Team 3 (F9bomber)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - wawaewo)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 3 (F9bomber)": 4
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Maverick)": 3,
+                                                "Team 3 (F9bomber)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Maverick)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Egypt": {
+                            "date": "01.28.28",
+                            "map": "Egypt",
+                            "commanders": "F9bomber vs Darkvale",
+                            "factions": "[Scion, Scion]",
+                            "winningFaction": "Scion",
+                            "winner": "Darkvale",
+                            "time": "58:42",
+                            "teamOne": [
+                                "F9mama",
+                                "Maverick"
+                            ],
+                            "teamTwo": [
+                                "Lithium",
+                                "HyperVivify"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:58:42",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 1",
+                                            "score": 91,
+                                            "deaths": 18,
+                                            "kills": 41
+                                        },
+                                        {
+                                            "name": "Team 2",
+                                            "score": -1502,
+                                            "deaths": 2,
+                                            "kills": 74
+                                        },
+                                        {
+                                            "name": "Le Warrior",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 106,
+                                            "craft_lost": 59,
+                                            "buildings_constructed": 43,
+                                            "buildings_lost": 28,
+                                            "scrap_collected": 995,
+                                            "scrap_spent": 4536,
+                                            "scrap_harvested_upgraded": 1384
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 10,
+                                                "Team 8 (Lithium)": 5,
+                                                "Team 9 (Le Warrior)": 4
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (scion nationalist)": 22,
+                                                "Team 8 (Lithium)": 15,
+                                                "Team 9 (Le Warrior)": 22
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 5
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (scion nationalist)": 6,
+                                                "Team 8 (Lithium)": 10,
+                                                "Team 9 (Le Warrior)": 12
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Maverick)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 10
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 7,
+                                                "Team 8 (Lithium)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (scion nationalist)": 2,
+                                                "Team 8 (Lithium)": 2,
+                                                "Team 9 (Le Warrior)": 6
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 7
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - F9mama)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 11
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (scion nationalist)": 1,
+                                                "Team 8 (Lithium)": 5,
+                                                "Team 9 (Le Warrior)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (scion nationalist)": 5
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - scion nationalist)",
+                                        "metrics": {
+                                            "craft_built": 94,
+                                            "craft_lost": 20,
+                                            "buildings_constructed": 52,
+                                            "buildings_lost": 18,
+                                            "scrap_collected": 785,
+                                            "scrap_spent": 5409,
+                                            "scrap_harvested_upgraded": 2440
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (F9bomber)": 22,
+                                                "Team 2 (Maverick)": 2,
+                                                "Team 4 (F9mama)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (F9bomber)": 10,
+                                                "Team 2 (Maverick)": 7,
+                                                "Team 4 (F9mama)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (F9bomber)": 6
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (F9bomber)": 5,
+                                                "Team 2 (Maverick)": 7,
+                                                "Team 4 (F9mama)": 5,
+                                                "Team 8 (Lithium)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 8,
+                                            "scrap_collected": 110,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (F9bomber)": 15,
+                                                "Team 2 (Maverick)": 2,
+                                                "Team 4 (F9mama)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (F9bomber)": 5,
+                                                "Team 2 (Maverick)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (F9bomber)": 10,
+                                                "Team 6 (scion nationalist)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - Le Warrior)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4,
+                                            "scrap_collected": 110,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (F9bomber)": 22,
+                                                "Team 2 (Maverick)": 6,
+                                                "Team 4 (F9mama)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (F9bomber)": 4
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (F9bomber)": 12
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Overlook": {
+                            "date": "01.28.26",
+                            "map": "Overlook",
+                            "commanders": "Lithium vs F9bomber",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "F9bomber",
+                            "time": "20:39",
+                            "teamOne": [
+                                "Nomad",
+                                "Dr. Philadelphia",
+                                "Blue Banana",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "HyperVivify",
+                                "F9mama",
+                                "Maverick",
+                                "Shock"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:20:39",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 565,
+                                            "deaths": 3,
+                                            "kills": 36
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 41,
+                                            "deaths": 6,
+                                            "kills": 24
+                                        },
+                                        {
+                                            "name": "Phil",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 40,
+                                            "craft_lost": 6,
+                                            "buildings_constructed": 20,
+                                            "buildings_lost": 9,
+                                            "scrap_collected": 245,
+                                            "scrap_spent": 1639,
+                                            "scrap_harvested_upgraded": 488
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 2,
+                                                "Team 10 (Shock)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (Vivify)": 1,
+                                                "Team 8 (F9mama)": 3,
+                                                "Team 9 (Maverick)": 1,
+                                                "Team 10 (Shock)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {
+                                                "Team 7 (Vivify)": 2,
+                                                "Team 8 (F9mama)": 3,
+                                                "Team 9 (Maverick)": 2,
+                                                "Team 10 (Shock)": 2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - \"The Executor\")",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 9 (Maverick)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 7 (Vivify)": 1,
+                                                "Team 9 (Maverick)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - Phil)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 9 (Maverick)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (F9bomber)": 2,
+                                                "Team 7 (Vivify)": 2,
+                                                "Team 9 (Maverick)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - blue)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 9,
+                                            "scrap_collected": 185,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 4 (blue)": 1,
+                                                "Team 6 (F9bomber)": 2,
+                                                "Team 7 (Vivify)": 1,
+                                                "Team 8 (F9mama)": 2,
+                                                "Team 9 (Maverick)": 1,
+                                                "Team 10 (Shock)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (blue)": 1,
+                                                "Team 6 (F9bomber)": 3,
+                                                "Team 7 (Vivify)": 4,
+                                                "Team 8 (F9mama)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4,
+                                            "scrap_collected": 65,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 8 (F9mama)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (F9bomber)": 1,
+                                                "Team 7 (Vivify)": 1,
+                                                "Team 9 (Maverick)": 1,
+                                                "Team 10 (Shock)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (F9bomber)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 35,
+                                            "craft_lost": 6,
+                                            "buildings_constructed": 19,
+                                            "buildings_lost": 7,
+                                            "scrap_collected": 385,
+                                            "scrap_spent": 1826,
+                                            "scrap_harvested_upgraded": 675
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (\"The Executor\")": 1,
+                                                "Team 3 (Phil)": 2,
+                                                "Team 4 (blue)": 3,
+                                                "Team 5 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Lithium)": 2,
+                                                "Team 2 (\"The Executor\")": 1,
+                                                "Team 3 (Phil)": 1,
+                                                "Team 4 (blue)": 2
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {
+                                                "Team 2 (\"The Executor\")": 1,
+                                                "Team 3 (Phil)": 1,
+                                                "Team 4 (blue)": 2,
+                                                "Team 5 (judgeguns)": 3
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Vivify)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1,
+                                            "scrap_collected": 10,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Lithium)": 1,
+                                                "Team 2 (\"The Executor\")": 1,
+                                                "Team 3 (Phil)": 2,
+                                                "Team 4 (blue)": 4,
+                                                "Team 5 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (blue)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Lithium)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - F9mama)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Lithium)": 3,
+                                                "Team 4 (blue)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (blue)": 2,
+                                                "Team 5 (judgeguns)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Lithium)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - Maverick)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Lithium)": 1,
+                                                "Team 2 (\"The Executor\")": 1,
+                                                "Team 3 (Phil)": 1,
+                                                "Team 5 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (\"The Executor\")": 2,
+                                                "Team 3 (Phil)": 2,
+                                                "Team 4 (blue)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Lithium)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - Shock)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Lithium)": 1,
+                                                "Team 5 (judgeguns)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Lithium)": 1,
+                                                "Team 4 (blue)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Lithium)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Titan": {
+                            "date": "01.28.28",
+                            "map": "Titan",
+                            "commanders": "HyperVivify vs Blue Banana",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                "Zack"
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Insula": {
+                            "date": "01.28.26",
+                            "map": "Insula",
+                            "commanders": "HyperVivify vs Blue Banana",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winningFaction": "Scion",
+                            "winner": "Blue Banana",
+                            "time": "NA",
+                            "teamOne": [
+                                "Muffin"
+                            ],
+                            "teamTwo": [
+                                "Zack"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Giza": {
+                            "date": "01.28.26",
+                            "map": "Giza",
+                            "commanders": "Systeme vs Darkvale",
+                            "factions": "[Scion, Scion]",
+                            "winningFaction": "Scion",
+                            "winner": "Systeme",
+                            "time": "NA",
+                            "teamOne": [
+                                "Muffin",
+                                "HyperVivify"
+                            ],
+                            "teamTwo": [
+                                "F9mama",
+                                "Blue Banana"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Cracked": {
+                            "date": "01.28.26",
+                            "map": "Cracked",
+                            "commanders": "Lithium vs Maverick",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Lithium",
+                            "time": "NA",
+                            "teamOne": [
+                                "Nomad",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "HyperVivify"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        }
+                    },
+                    "01.30.26": {
+                        "Reflex": {
+                            "date": "01.30.26",
+                            "map": "Reflex",
+                            "commanders": "Zack vs M.S",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "M.S",
+                            "time": "19:10",
+                            "teamOne": [
+                                "Xpi",
+                                "F9bomber"
+                            ],
+                            "teamTwo": [
+                                "DD",
+                                "Nomad"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:19:10",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 2",
+                                            "score": 53,
+                                            "deaths": 4,
+                                            "kills": 25
+                                        },
+                                        {
+                                            "name": "Team 1",
+                                            "score": 46,
+                                            "deaths": 3,
+                                            "kills": 25
+                                        },
+                                        {
+                                            "name": "Sahd0w (Team 2)",
+                                            "score": 2,
+                                            "deaths": 0,
+                                            "kills": 1
+                                        },
+                                        {
+                                            "name": "sit",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Zorn (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Zack)",
+                                        "metrics": {
+                                            "craft_built": 32,
+                                            "craft_lost": 12,
+                                            "buildings_constructed": 15,
+                                            "buildings_lost": 5,
+                                            "scrap_collected": 432,
+                                            "scrap_spent": 1536,
+                                            "scrap_harvested_upgraded": 417
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (M.S)": 5,
+                                                "Team 7 (dd)": 4,
+                                                "Team 8 (L'esecutore)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (M.S)": 6,
+                                                "Team 7 (dd)": 4,
+                                                "Team 8 (L'esecutore)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (M.S)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (M.S)": 1,
+                                                "Team 7 (dd)": 2,
+                                                "Team 8 (L'esecutore)": 1,
+                                                "Team 9 (sit)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (M.S)": 3,
+                                                "Team 7 (dd)": 1,
+                                                "Team 8 (L'esecutore)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 7 (dd)": 3,
+                                                "Team 8 (L'esecutore)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (M.S)": 3
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 7
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (M.S)": 1,
+                                                "Team 8 (L'esecutore)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (M.S)": 2,
+                                                "Team 7 (dd)": 2,
+                                                "Team 8 (L'esecutore)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (M.S)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - M.S)",
+                                        "metrics": {
+                                            "craft_built": 36,
+                                            "craft_lost": 9,
+                                            "buildings_constructed": 21,
+                                            "buildings_lost": 6,
+                                            "scrap_collected": 355,
+                                            "scrap_spent": 1655,
+                                            "scrap_harvested_upgraded": 467
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Zack)": 6,
+                                                "Team 3 (F9bomber)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Zack)": 5,
+                                                "Team 2 (Monkey)": 3,
+                                                "Team 3 (F9bomber)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Zack)": 1,
+                                                "Team 2 (Monkey)": 3,
+                                                "Team 3 (F9bomber)": 2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - dd)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 5,
+                                            "scrap_collected": 65,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Zack)": 4,
+                                                "Team 2 (Monkey)": 3,
+                                                "Team 3 (F9bomber)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Zack)": 4,
+                                                "Team 2 (Monkey)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - L'esecutore)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4,
+                                            "scrap_collected": 35,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Zack)": 2,
+                                                "Team 2 (Monkey)": 1,
+                                                "Team 3 (F9bomber)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Zack)": 2,
+                                                "Team 2 (Monkey)": 1,
+                                                "Team 3 (F9bomber)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - sit)",
+                                        "metrics": {
+                                            "craft_built": 2,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Garden": {
+                            "date": "01.30.26",
+                            "map": "Garden",
+                            "commanders": "Zack vs Xpi",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Xpi",
+                            "time": "13:15",
+                            "teamOne": [
+                                "Sahd0w",
+                                "F9bomber",
+                                "HyperVivify",
+                                "Zorn"
+                            ],
+                            "teamTwo": [
+                                "Nomad",
+                                "Muffin",
+                                "M.S"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:13:15",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 1",
+                                            "score": 37,
+                                            "deaths": 2,
+                                            "kills": 21
+                                        },
+                                        {
+                                            "name": "Team 2",
+                                            "score": 31,
+                                            "deaths": 3,
+                                            "kills": 19
+                                        },
+                                        {
+                                            "name": "sit",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "dd (Team 2)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Zack)",
+                                        "metrics": {
+                                            "craft_built": 22,
+                                            "craft_lost": 8,
+                                            "buildings_constructed": 14,
+                                            "buildings_lost": 3,
+                                            "scrap_collected": 280,
+                                            "scrap_spent": 1136,
+                                            "scrap_harvested_upgraded": 357
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Monkey)": 4,
+                                                "Team 10 (M.S)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 9 (Blueberry Fool)": 5,
+                                                "Team 10 (M.S)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Monkey)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 6 (Monkey)": 1,
+                                                "Team 9 (Blueberry Fool)": 1,
+                                                "Team 10 (M.S)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - Sahd0w)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 10 (M.S)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 8 (L'esecutore)": 1,
+                                                "Team 9 (Blueberry Fool)": 1,
+                                                "Team 10 (M.S)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Monkey)": 3,
+                                                "Team 8 (L'esecutore)": 1
+                                            },
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - Vivify)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 2
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Monkey)": 1,
+                                                "Team 8 (L'esecutore)": 1,
+                                                "Team 10 (M.S)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 8 (L'esecutore)": 1,
+                                                "Team 9 (Blueberry Fool)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Monkey)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Zorn)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Monkey)": 1,
+                                                "Team 8 (L'esecutore)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Monkey)": 1,
+                                                "Team 10 (M.S)": 2
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 26,
+                                            "craft_lost": 9,
+                                            "buildings_constructed": 14,
+                                            "buildings_lost": 2,
+                                            "scrap_collected": 350,
+                                            "scrap_spent": 1268,
+                                            "scrap_harvested_upgraded": 383
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 5 (Zorn)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Zack)": 4,
+                                                "Team 3 (F9bomber)": 3,
+                                                "Team 4 (Vivify)": 1,
+                                                "Team 5 (Zorn)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Zack)": 1,
+                                                "Team 4 (Vivify)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - sit)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - L'esecutore)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 3
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (Sahd0w)": 1,
+                                                "Team 4 (Vivify)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 3 (F9bomber)": 1,
+                                                "Team 4 (Vivify)": 1,
+                                                "Team 5 (Zorn)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - Blueberry Fool)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Zack)": 5,
+                                                "Team 2 (Sahd0w)": 1,
+                                                "Team 4 (Vivify)": 1
+                                            },
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - M.S)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 4
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Zack)": 3,
+                                                "Team 2 (Sahd0w)": 1,
+                                                "Team 5 (Zorn)": 2
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Zack)": 2,
+                                                "Team 2 (Sahd0w)": 1,
+                                                "Team 4 (Vivify)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Zack)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "Ogg Vorbis": {
+                            "date": "01.30.26",
+                            "map": "Ogg Vorbis",
+                            "commanders": "Darkvale vs Xpi",
+                            "factions": "[Scion, Hadean]",
+                            "winningFaction": "Scion",
+                            "winner": "Darkvale",
+                            "time": "NA",
+                            "teamOne": [
+                                "HyperVivify",
+                                "Muffin",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "Econchump",
+                                "Nomad",
+                                "Zorn"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        }
                     }
                 }
             }
@@ -32651,26 +34166,30 @@
             "map_counts": [
                 [
                     "Terron",
-                    6
+                    7
                 ],
                 [
                     "Giza",
-                    4
+                    5
                 ],
                 [
                     "Overlook",
-                    4
-                ],
-                [
-                    "Quagmire",
-                    4
+                    5
                 ],
                 [
                     "Remnant",
-                    4
+                    5
                 ],
                 [
                     "Mojave",
+                    5
+                ],
+                [
+                    "Oldboy",
+                    5
+                ],
+                [
+                    "Quagmire",
                     4
                 ],
                 [
@@ -32678,15 +34197,19 @@
                     4
                 ],
                 [
-                    "Oldboy",
-                    4
+                    "Insula",
+                    3
                 ],
                 [
-                    "Insula",
-                    2
+                    "Cracked",
+                    3
                 ],
                 [
                     "Oasis",
+                    2
+                ],
+                [
+                    "Haven",
                     2
                 ],
                 [
@@ -32698,11 +34221,15 @@
                     2
                 ],
                 [
-                    "Cracked",
+                    "Abundance",
                     2
                 ],
                 [
-                    "Abundance",
+                    "Ice Age",
+                    2
+                ],
+                [
+                    "Reflex",
                     2
                 ],
                 [
@@ -32739,10 +34266,6 @@
                 ],
                 [
                     "Rendon",
-                    1
-                ],
-                [
-                    "Haven",
                     1
                 ],
                 [
@@ -32802,7 +34325,15 @@
                     1
                 ],
                 [
-                    "Ice Age",
+                    "Middle Wars",
+                    1
+                ],
+                [
+                    "Ridges",
+                    1
+                ],
+                [
+                    "Rapemas",
                     1
                 ],
                 [
@@ -32824,105 +34355,137 @@
                 [
                     "Fort 12C",
                     1
+                ],
+                [
+                    "Egypt",
+                    1
+                ],
+                [
+                    "Titan",
+                    1
+                ],
+                [
+                    "Garden",
+                    1
+                ],
+                [
+                    "Ogg Vorbis",
+                    1
                 ]
             ],
             "unique_map_values": [
-                "Fever Valley",
-                "Red Slope",
-                "Scammed",
-                "Oldboy",
-                "Insula",
+                "Twin Peaks",
+                "Equinox",
                 "Power Struggle",
-                "Island of V8",
-                "Stack",
-                "Snow Central",
                 "Barren",
-                "Cracked",
-                "Throbbing Gristle",
-                "Nigeria",
-                "Mojave",
-                "Haven",
-                "No Mans Land",
-                "Oasis",
-                "310",
-                "Giza",
+                "Dusk",
+                "Terron",
                 "Flooded",
+                "Oasis",
+                "Middle Wars",
+                "Aussault",
+                "Scammed",
+                "Plaza",
                 "Lunar",
                 "Fort 12C",
-                "Plaza",
-                "Dusk",
-                "Vegan",
-                "Ancient Hills",
-                "Abuse",
-                "Hilo Blues",
-                "Know Thyself",
-                "Equinox",
-                "Remnant",
-                "Rendon",
-                "Twin Peaks",
-                "Overlook",
-                "Aussault",
-                "Curiosity",
+                "Giza",
+                "Island of V8",
                 "Prodigy Ver .2",
-                "Dune Night",
-                "Terron",
+                "310",
+                "Rendon",
+                "Ancient Hills",
+                "Fever Valley",
+                "Garden",
+                "Reflex",
+                "Haven",
                 "Excavation",
-                "Sahara",
-                "Ice Age",
+                "Red Slope",
                 "Quagmire",
-                "Abundance"
+                "Dune Night",
+                "Snow Central",
+                "Rapemas",
+                "Remnant",
+                "Sahara",
+                "Mojave",
+                "Know Thyself",
+                "Hilo Blues",
+                "Stack",
+                "Ridges",
+                "Curiosity",
+                "Egypt",
+                "Cracked",
+                "Ogg Vorbis",
+                "No Mans Land",
+                "Abundance",
+                "Abuse",
+                "Nigeria",
+                "Throbbing Gristle",
+                "Overlook",
+                "Vegan",
+                "Titan",
+                "Oldboy",
+                "Ice Age",
+                "Insula"
             ],
             "commander_list": [
                 [
                     "F9bomber",
-                    25
+                    27
+                ],
+                [
+                    "Lithium",
+                    23
                 ],
                 [
                     "Certified Bad Guy",
                     21
                 ],
                 [
-                    "Lithium",
-                    19
+                    "HyperVivify",
+                    14
+                ],
+                [
+                    "Nomad",
+                    13
                 ],
                 [
                     "MurphysLawUS",
                     12
                 ],
                 [
-                    "Nomad",
+                    "M.S",
                     11
                 ],
                 [
-                    "M.S",
+                    "Zack",
+                    10
+                ],
+                [
+                    "Darkvale",
                     9
                 ],
                 [
-                    "Zack",
-                    8
+                    "Blue Banana",
+                    7
                 ],
                 [
                     "Gravey",
                     7
                 ],
                 [
-                    "Darkvale",
+                    "Xpi",
                     6
                 ],
                 [
-                    "Blue Banana",
+                    "Cloaket",
                     5
                 ],
                 [
-                    "Xpi",
-                    4
+                    "Muffin",
+                    5
                 ],
                 [
-                    "HyperVivify",
-                    4
-                ],
-                [
-                    "Cloaket",
+                    "Maverick",
                     3
                 ],
                 [
@@ -32931,10 +34494,6 @@
                 ],
                 [
                     "Judgeguns",
-                    2
-                ],
-                [
-                    "Muffin",
                     2
                 ],
                 [
@@ -32979,6 +34538,10 @@
                 ],
                 [
                     "Econchump",
+                    1
+                ],
+                [
+                    "Systeme",
                     1
                 ]
             ],
@@ -33020,12 +34583,6 @@
                     1
                 ],
                 [
-                    "Muffin",
-                    100.0,
-                    2,
-                    2
-                ],
-                [
                     "F9mama",
                     100.0,
                     1,
@@ -33038,28 +34595,46 @@
                     1
                 ],
                 [
-                    "Blue Banana",
+                    "Systeme",
+                    100.0,
+                    1,
+                    1
+                ],
+                [
+                    "Muffin",
                     80.0,
                     5,
                     4
                 ],
                 [
                     "F9bomber",
-                    76.0,
-                    25,
-                    19
+                    74.07407407407408,
+                    27,
+                    20
                 ],
                 [
-                    "HyperVivify",
-                    75.0,
-                    4,
-                    3
+                    "Blue Banana",
+                    71.42857142857143,
+                    7,
+                    5
                 ],
                 [
                     "Cloaket",
-                    66.66666666666666,
-                    3,
-                    2
+                    60.0,
+                    5,
+                    3
+                ],
+                [
+                    "HyperVivify",
+                    57.14285714285714,
+                    14,
+                    8
+                ],
+                [
+                    "M.S",
+                    54.54545454545454,
+                    11,
+                    6
                 ],
                 [
                     "Sev",
@@ -33074,19 +34649,13 @@
                     1
                 ],
                 [
-                    "Zack",
-                    50.0,
-                    8,
-                    4
-                ],
-                [
                     "Certified Bad Guy",
                     47.61904761904761,
                     21,
                     10
                 ],
                 [
-                    "M.S",
+                    "Darkvale",
                     44.44444444444444,
                     9,
                     4
@@ -33098,34 +34667,40 @@
                     3
                 ],
                 [
-                    "Nomad",
-                    36.36363636363637,
-                    11,
+                    "Zack",
+                    40.0,
+                    10,
                     4
                 ],
                 [
-                    "Darkvale",
+                    "Xpi",
                     33.33333333333333,
                     6,
                     2
                 ],
                 [
-                    "Xpi",
-                    25.0,
-                    4,
+                    "Maverick",
+                    33.33333333333333,
+                    3,
                     1
+                ],
+                [
+                    "Nomad",
+                    30.76923076923077,
+                    13,
+                    4
+                ],
+                [
+                    "Lithium",
+                    26.08695652173913,
+                    23,
+                    6
                 ],
                 [
                     "MurphysLawUS",
                     25.0,
                     12,
                     3
-                ],
-                [
-                    "Lithium",
-                    21.052631578947366,
-                    19,
-                    4
                 ],
                 [
                     "Domakus",
@@ -33147,18 +34722,18 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 99,
-                "Hadean": 17,
-                "Scion": 36
+                "I.S.D.F": 123,
+                "Hadean": 24,
+                "Scion": 43
             },
             "commander_faction_counts": {
                 "Xpi": {
-                    "I.S.D.F": 3,
-                    "Hadean": 1
+                    "I.S.D.F": 4,
+                    "Hadean": 2
                 },
                 "F9bomber": {
-                    "I.S.D.F": 13,
-                    "Scion": 10,
+                    "I.S.D.F": 14,
+                    "Scion": 11,
                     "Hadean": 2
                 },
                 "Certified Bad Guy": {
@@ -33167,17 +34742,17 @@
                 },
                 "Cloaket": {
                     "Hadean": 2,
-                    "I.S.D.F": 1
+                    "I.S.D.F": 3
                 },
                 "Nomad": {
-                    "I.S.D.F": 11
+                    "I.S.D.F": 13
                 },
                 "Sev": {
                     "I.S.D.F": 1,
                     "Hadean": 1
                 },
                 "M.S": {
-                    "I.S.D.F": 8,
+                    "I.S.D.F": 10,
                     "Scion": 1
                 },
                 "KingFuryKiller": {
@@ -33190,17 +34765,17 @@
                     "I.S.D.F": 1
                 },
                 "Lithium": {
-                    "I.S.D.F": 12,
+                    "I.S.D.F": 16,
                     "Hadean": 5,
                     "Scion": 2
                 },
                 "Zack": {
                     "Scion": 3,
-                    "I.S.D.F": 5
+                    "I.S.D.F": 7
                 },
                 "Blue Banana": {
-                    "Scion": 2,
-                    "Hadean": 3
+                    "Scion": 3,
+                    "Hadean": 4
                 },
                 "Gravey": {
                     "Scion": 7
@@ -33212,7 +34787,7 @@
                     "I.S.D.F": 1
                 },
                 "Darkvale": {
-                    "Scion": 6
+                    "Scion": 9
                 },
                 "MAX": {
                     "I.S.D.F": 1
@@ -33231,26 +34806,34 @@
                     "Scion": 1
                 },
                 "Muffin": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 3,
+                    "Hadean": 2
+                },
+                "HyperVivify": {
+                    "I.S.D.F": 8,
+                    "Hadean": 5,
+                    "Scion": 1
                 },
                 "F9mama": {
                     "I.S.D.F": 1
-                },
-                "HyperVivify": {
-                    "Hadean": 2,
-                    "I.S.D.F": 1,
-                    "Scion": 1
                 },
                 "Lamper": {
                     "I.S.D.F": 2
                 },
                 "Econchump": {
                     "I.S.D.F": 1
+                },
+                "Maverick": {
+                    "I.S.D.F": 2,
+                    "Scion": 1
+                },
+                "Systeme": {
+                    "Scion": 1
                 }
             },
             "commander_faction_wins": {
                 "F9bomber": {
-                    "I.S.D.F": 11,
+                    "I.S.D.F": 12,
                     "Scion": 6,
                     "Hadean": 2
                 },
@@ -33260,7 +34843,7 @@
                 },
                 "Cloaket": {
                     "Hadean": 1,
-                    "I.S.D.F": 1
+                    "I.S.D.F": 2
                 },
                 "Nomad": {
                     "I.S.D.F": 4
@@ -33269,27 +34852,27 @@
                     "I.S.D.F": 1
                 },
                 "M.S": {
-                    "I.S.D.F": 4
+                    "I.S.D.F": 6
                 },
                 "KingFuryKiller": {
                     "I.S.D.F": 1
                 },
                 "Xpi": {
-                    "I.S.D.F": 1
+                    "I.S.D.F": 2
                 },
                 "Zack": {
                     "Scion": 2,
                     "I.S.D.F": 2
                 },
                 "Blue Banana": {
-                    "Scion": 1,
+                    "Scion": 2,
                     "Hadean": 3
                 },
                 "Gravey": {
                     "Scion": 3
                 },
                 "Lithium": {
-                    "I.S.D.F": 2,
+                    "I.S.D.F": 4,
                     "Hadean": 1,
                     "Scion": 1
                 },
@@ -33297,7 +34880,7 @@
                     "Hadean": 1
                 },
                 "Darkvale": {
-                    "Scion": 2
+                    "Scion": 4
                 },
                 "MAX": {
                     "I.S.D.F": 1
@@ -33315,7 +34898,13 @@
                     "Scion": 1
                 },
                 "Muffin": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 3,
+                    "Hadean": 1
+                },
+                "HyperVivify": {
+                    "Hadean": 3,
+                    "I.S.D.F": 4,
+                    "Scion": 1
                 },
                 "Judgeguns": {
                     "I.S.D.F": 1
@@ -33323,39 +34912,40 @@
                 "F9mama": {
                     "I.S.D.F": 1
                 },
-                "HyperVivify": {
-                    "Hadean": 1,
-                    "I.S.D.F": 1,
-                    "Scion": 1
-                },
                 "Econchump": {
                     "I.S.D.F": 1
+                },
+                "Maverick": {
+                    "Scion": 1
+                },
+                "Systeme": {
+                    "Scion": 1
                 }
             }
         }
     },
     "processed_data": {
         "processed_map_counts": {
-            "Mojave": 45,
-            "Terron": 43,
+            "Mojave": 46,
+            "Terron": 44,
             "Red Slope": 42,
-            "Remnant": 36,
-            "Overlook": 35,
-            "Giza": 28,
+            "Remnant": 37,
+            "Overlook": 36,
+            "Giza": 29,
             "Quagmire": 22,
             "Oasis": 22,
             "Sahara": 20,
             "Vegan": 17,
+            "Insula": 17,
             "Twin Peaks": 16,
-            "Insula": 16,
+            "Reflex": 16,
             "Quarry": 16,
+            "Oldboy": 16,
+            "Garden": 15,
+            "Haven": 15,
             "Lunar": 15,
             "Strategy Arena": 15,
-            "Oldboy": 15,
-            "Garden": 14,
             "Throbbing Gristle": 14,
-            "Reflex": 14,
-            "Haven": 14,
             "Scammed": 13,
             "Ancient Hills": 13,
             "Europa": 12,
@@ -33364,14 +34954,14 @@
             "Excavation": 12,
             "Plaza": 10,
             "Casius": 9,
+            "Titan": 9,
+            "Ice Age": 9,
             "Rendon": 9,
             "Tempest": 8,
             "Forgotten": 8,
             "Island of V8": 8,
             "Bowl": 8,
-            "Titan": 8,
             "Trench": 8,
-            "Ice Age": 8,
             "Domain": 7,
             "Ebola": 7,
             "Barren": 6,
@@ -33381,8 +34971,10 @@
             "Abuse": 5,
             "Consciousness": 5,
             "Aztec": 5,
+            "Egypt": 5,
             "Jade Green": 5,
             "Fort 12C": 5,
+            "Cracked": 5,
             "Sinister": 4,
             "Dune Night": 4,
             "Ragnarok": 4,
@@ -33391,14 +34983,13 @@
             "Snow Central": 4,
             "Vortex": 4,
             "310": 4,
-            "Egypt": 4,
             "Iraq": 4,
-            "Cracked": 4,
             "Phoenix": 3,
             "Hi-Mid-Lo": 3,
             "No Mans Land": 3,
             "Mountain Top": 3,
             "Dream": 3,
+            "Ridges": 3,
             "Hound": 3,
             "Prodigy Ver .2": 3,
             "Mayhem": 3,
@@ -33409,7 +35000,6 @@
             "Satart": 2,
             "Scion Central": 2,
             "Plus": 2,
-            "Ridges": 2,
             "Dusk": 2,
             "Trail": 2,
             "Mexican Mission": 2,
@@ -33417,9 +35007,11 @@
             "Echelon": 2,
             "Pitbull": 2,
             "Transfer": 2,
+            "Ogg Vorbis": 2,
             "High & Low": 2,
             "Ground Zero": 2,
             "Revolution": 2,
+            "Middle Wars": 2,
             "Madern Warfare": 1,
             "Bridges": 1,
             "Concrete Jungle": 1,
@@ -33435,10 +35027,8 @@
             "Phazon": 1,
             "Assualt": 1,
             "High Heat": 1,
-            "Ogg Vorbis": 1,
             "Alien Dunes": 1,
             "Magma": 1,
-            "Middle Wars": 1,
             "Jurrasic Dog Park": 1,
             "Toxicity": 1,
             "Ancient Outposts": 1,
@@ -33455,12 +35045,13 @@
             "Curiosity": 1,
             "Know Thyself": 1,
             "Nigeria": 1,
-            "Stack": 1
+            "Stack": 1,
+            "Rapemas": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 968,
-            "Scion": 343,
-            "Hadean": 329
+            "I.S.D.F": 992,
+            "Scion": 350,
+            "Hadean": 336
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -33472,9 +35063,9 @@
                 "Scion": 3
             },
             "F9bomber": {
-                "I.S.D.F": 67,
+                "I.S.D.F": 68,
                 "Hadean": 102,
-                "Scion": 26
+                "Scion": 27
             },
             "VTrider": {
                 "Scion": 37,
@@ -33487,9 +35078,9 @@
                 "Hadean": 3
             },
             "Blue Banana": {
-                "Scion": 66,
+                "Scion": 67,
                 "I.S.D.F": 47,
-                "Hadean": 21
+                "Hadean": 22
             },
             "Sev": {
                 "I.S.D.F": 46,
@@ -33507,7 +35098,7 @@
             },
             "Darkvale": {
                 "I.S.D.F": 29,
-                "Scion": 23
+                "Scion": 26
             },
             "Lamper": {
                 "I.S.D.F": 23,
@@ -33518,19 +35109,19 @@
                 "I.S.D.F": 5
             },
             "M.S": {
-                "I.S.D.F": 56,
+                "I.S.D.F": 58,
                 "Scion": 3
             },
             "Muffin": {
-                "I.S.D.F": 20,
-                "Hadean": 6,
+                "I.S.D.F": 21,
+                "Hadean": 8,
                 "Scion": 1
             },
             "AI_Unit": {
                 "I.S.D.F": 7
             },
             "Zack": {
-                "I.S.D.F": 74,
+                "I.S.D.F": 76,
                 "Scion": 36,
                 "Hadean": 19
             },
@@ -33570,9 +35161,9 @@
                 "I.S.D.F": 26
             },
             "Xpi": {
-                "I.S.D.F": 27,
+                "I.S.D.F": 28,
                 "Scion": 13,
-                "Hadean": 4
+                "Hadean": 5
             },
             "CamelBay": {
                 "I.S.D.F": 1,
@@ -33593,7 +35184,7 @@
                 "I.S.D.F": 1
             },
             "Cloaket": {
-                "I.S.D.F": 19,
+                "I.S.D.F": 21,
                 "Hadean": 10
             },
             "Rosario": {
@@ -33607,8 +35198,8 @@
                 "I.S.D.F": 1
             },
             "Maverick": {
-                "I.S.D.F": 8,
-                "Scion": 2
+                "I.S.D.F": 10,
+                "Scion": 3
             },
             "Athelas": {
                 "I.S.D.F": 1
@@ -33649,12 +35240,12 @@
                 "Scion": 3
             },
             "Lithium": {
-                "I.S.D.F": 58,
+                "I.S.D.F": 62,
                 "Hadean": 7,
                 "Scion": 3
             },
             "Nomad": {
-                "I.S.D.F": 46,
+                "I.S.D.F": 48,
                 "Scion": 2,
                 "Hadean": 1
             },
@@ -33668,12 +35259,13 @@
                 "I.S.D.F": 9
             },
             "HyperVivify": {
-                "I.S.D.F": 2,
-                "Hadean": 2,
+                "I.S.D.F": 9,
+                "Hadean": 5,
                 "Scion": 1
             },
             "Systeme": {
-                "I.S.D.F": 1
+                "I.S.D.F": 1,
+                "Scion": 1
             },
             "SilverBullet": {
                 "Hadean": 1,
@@ -33731,12 +35323,6 @@
                 2
             ],
             [
-                "HyperVivify",
-                80.0,
-                5,
-                4
-            ],
-            [
                 "Domakus",
                 71.42857142857143,
                 28,
@@ -33769,14 +35355,14 @@
             [
                 "Muffin",
                 66.66666666666666,
-                27,
-                18
+                30,
+                20
             ],
             [
                 "Blue Banana",
-                64.17910447761194,
-                134,
-                86
+                63.970588235294116,
+                136,
+                87
             ],
             [
                 "VTrider",
@@ -33786,9 +35372,15 @@
             ],
             [
                 "F9bomber",
-                61.02564102564103,
-                195,
-                119
+                60.913705583756354,
+                197,
+                120
+            ],
+            [
+                "HyperVivify",
+                60.0,
+                15,
+                9
             ],
             [
                 "Vacuum34",
@@ -33829,8 +35421,8 @@
             [
                 "Xpi",
                 50.0,
-                44,
-                22
+                46,
+                23
             ],
             [
                 "Bacon",
@@ -33845,22 +35437,28 @@
                 1
             ],
             [
+                "Systeme",
+                50.0,
+                2,
+                1
+            ],
+            [
                 "Certified Bad Guy",
                 49.25373134328358,
                 67,
                 33
             ],
             [
-                "Cloaket",
-                48.275862068965516,
-                29,
-                14
+                "M.S",
+                49.18032786885246,
+                61,
+                30
             ],
             [
-                "M.S",
-                47.45762711864407,
-                59,
-                28
+                "Cloaket",
+                48.38709677419355,
+                31,
+                15
             ],
             [
                 "X-Triage",
@@ -33888,8 +35486,8 @@
             ],
             [
                 "Zack",
-                37.98449612403101,
-                129,
+                37.404580152671755,
+                131,
                 49
             ],
             [
@@ -33923,16 +35521,22 @@
                 12
             ],
             [
+                "Maverick",
+                30.76923076923077,
+                13,
+                4
+            ],
+            [
                 "Nomad",
-                30.612244897959183,
-                49,
+                29.411764705882355,
+                51,
                 15
             ],
             [
-                "Maverick",
-                30.0,
-                10,
-                3
+                "Darkvale",
+                29.09090909090909,
+                55,
+                16
             ],
             [
                 "AI_Unit",
@@ -33941,16 +35545,10 @@
                 2
             ],
             [
-                "Darkvale",
-                26.923076923076923,
-                52,
-                14
-            ],
-            [
                 "Lithium",
-                26.47058823529412,
-                68,
-                18
+                27.77777777777778,
+                72,
+                20
             ],
             [
                 "Bylarge",
@@ -34029,12 +35627,6 @@
                 0.0,
                 3,
                 0
-            ],
-            [
-                "Systeme",
-                0.0,
-                1,
-                0
             ]
         ],
         "processed_commander_list": [
@@ -34044,15 +35636,15 @@
             ],
             [
                 "F9bomber",
-                195
+                197
             ],
             [
                 "Blue Banana",
-                134
+                136
             ],
             [
                 "Zack",
-                129
+                131
             ],
             [
                 "Sev",
@@ -34060,31 +35652,31 @@
             ],
             [
                 "Lithium",
-                68
+                72
             ],
             [
                 "Certified Bad Guy",
                 67
             ],
             [
+                "M.S",
+                61
+            ],
+            [
                 "Gravey",
                 60
             ],
             [
-                "M.S",
-                59
-            ],
-            [
                 "Darkvale",
-                52
+                55
             ],
             [
                 "Nomad",
-                49
+                51
             ],
             [
                 "Xpi",
-                44
+                46
             ],
             [
                 "Xohm",
@@ -34099,7 +35691,15 @@
                 33
             ],
             [
+                "Cloaket",
+                31
+            ],
+            [
                 "Herp McDerperson",
+                30
+            ],
+            [
+                "Muffin",
                 30
             ],
             [
@@ -34107,16 +35707,8 @@
                 29
             ],
             [
-                "Cloaket",
-                29
-            ],
-            [
                 "Domakus",
                 28
-            ],
-            [
-                "Muffin",
-                27
             ],
             [
                 "X-Triage",
@@ -34143,16 +35735,20 @@
                 15
             ],
             [
+                "HyperVivify",
+                15
+            ],
+            [
+                "Maverick",
+                13
+            ],
+            [
                 "MurphysLawUS",
                 12
             ],
             [
                 "Rosario",
                 11
-            ],
-            [
-                "Maverick",
-                10
             ],
             [
                 "Vacuum34",
@@ -34176,10 +35772,6 @@
             ],
             [
                 "Nozza34",
-                5
-            ],
-            [
-                "HyperVivify",
                 5
             ],
             [
@@ -34239,6 +35831,10 @@
                 2
             ],
             [
+                "Systeme",
+                2
+            ],
+            [
                 "DustRider",
                 1
             ],
@@ -34265,10 +35861,6 @@
             [
                 "StarFox",
                 1
-            ],
-            [
-                "Systeme",
-                1
             ]
         ],
         "processed_map_popularity": {
@@ -34283,16 +35875,16 @@
                 "Oasis",
                 "Sahara",
                 "Vegan",
-                "Twin Peaks",
                 "Insula",
+                "Twin Peaks",
+                "Reflex",
                 "Quarry",
-                "Lunar",
-                "Strategy Arena",
                 "Oldboy",
                 "Garden",
-                "Throbbing Gristle",
-                "Reflex",
                 "Haven",
+                "Lunar",
+                "Strategy Arena",
+                "Throbbing Gristle",
                 "Scammed",
                 "Ancient Hills",
                 "Europa",
@@ -34301,16 +35893,16 @@
                 "Excavation",
                 "Plaza",
                 "Casius",
-                "Rendon",
-                "Tempest"
+                "Titan",
+                "Ice Age"
             ],
             "Mostly Popular": [
+                "Rendon",
+                "Tempest",
                 "Forgotten",
                 "Island of V8",
                 "Bowl",
-                "Titan",
                 "Trench",
-                "Ice Age",
                 "Domain",
                 "Ebola",
                 "Barren",
@@ -34320,8 +35912,10 @@
                 "Abuse",
                 "Consciousness",
                 "Aztec",
+                "Egypt",
                 "Jade Green",
                 "Fort 12C",
+                "Cracked",
                 "Sinister",
                 "Dune Night",
                 "Ragnarok",
@@ -34330,9 +35924,7 @@
                 "Snow Central",
                 "Vortex",
                 "310",
-                "Egypt",
                 "Iraq",
-                "Cracked",
                 "Phoenix",
                 "Hi-Mid-Lo"
             ],
@@ -34340,6 +35932,7 @@
                 "No Mans Land",
                 "Mountain Top",
                 "Dream",
+                "Ridges",
                 "Hound",
                 "Prodigy Ver .2",
                 "Mayhem",
@@ -34350,7 +35943,6 @@
                 "Satart",
                 "Scion Central",
                 "Plus",
-                "Ridges",
                 "Dusk",
                 "Trail",
                 "Mexican Mission",
@@ -34358,17 +35950,19 @@
                 "Echelon",
                 "Pitbull",
                 "Transfer",
+                "Ogg Vorbis",
                 "High & Low",
                 "Ground Zero",
                 "Revolution",
+                "Middle Wars",
                 "Madern Warfare",
                 "Bridges",
                 "Concrete Jungle",
-                "Rectal",
-                "Iceberg",
-                "Chill"
+                "Rectal"
             ],
             "Least Popular": [
+                "Iceberg",
+                "Chill",
                 "Oxide",
                 "Crater",
                 "Stone Circle",
@@ -34378,10 +35972,8 @@
                 "Phazon",
                 "Assualt",
                 "High Heat",
-                "Ogg Vorbis",
                 "Alien Dunes",
                 "Magma",
-                "Middle Wars",
                 "Jurrasic Dog Park",
                 "Toxicity",
                 "Ancient Outposts",
@@ -34398,7 +35990,8 @@
                 "Curiosity",
                 "Know Thyself",
                 "Nigeria",
-                "Stack"
+                "Stack",
+                "Rapemas"
             ]
         }
     },
@@ -34696,5 +36289,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2026/01/28 05:34AM UTC"
+    "last_updated": "2026/01/31 17:32PM UTC"
 }
