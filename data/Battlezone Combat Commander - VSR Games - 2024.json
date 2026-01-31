@@ -2340,9 +2340,9 @@
 					"winner": "F9bomber"
 				}
 			},
-			"12.7.14": {
+			"12.7.24": {
 				"Lunix": {
-					"date": "12.7.14",
+					"date": "12.7.24",
 					"map": "Lunix",
 					"commanders": "Jabbapop vs DD",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -2350,7 +2350,7 @@
 					"winner": "DD"
 				},
 				"Mojave": {
-					"date": "12.7.14",
+					"date": "12.7.24",
 					"map": "Mojave",
 					"commanders": "Jabbapop vs DD",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -2358,7 +2358,7 @@
 					"winner": "DD"
 				},
 				"Oasis": {
-					"date": "12.7.14",
+					"date": "12.7.24",
 					"map": "Oasis",
 					"commanders": "Xpi vs Xohm",
 					"factions": "[I.S.D.F, I.S.D.F]",
@@ -2366,7 +2366,7 @@
 					"winner": "Xpi"
 				},
 				"Reflex": {
-					"date": "12.7.14",
+					"date": "12.7.24",
 					"map": "Reflex",
 					"commanders": "Xpi vs Xohm",
 					"factions": "[Scion, Scion]",
@@ -2374,7 +2374,7 @@
 					"winner": "Xohm"
 				},
 				"Terron": {
-					"date": "12.7.14",
+					"date": "12.7.24",
 					"map": "Terron",
 					"commanders": "DD vs Xohm",
 					"factions": "[I.S.D.F, I.S.D.F]",
