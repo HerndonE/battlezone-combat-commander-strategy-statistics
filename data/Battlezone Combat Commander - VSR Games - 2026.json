@@ -19664,6 +19664,2751 @@
 					],
 					"_comment": "Submitted game by HyperVivify"
 				}
+			},
+			"01.31.26": {
+				"Remnant": {
+					"date": "01.31.26",
+					"map": "Remnant",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Zack",
+					"time": "20:35",
+					"teamOne": [
+						"doctorasher",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"MurphysLawUS"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:25:48",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 359,
+									"deaths": 8,
+									"kills": 34
+								},
+								{
+									"name": "Team 2",
+									"score": 40,
+									"deaths": 4,
+									"kills": 20
+								},
+								{
+									"name": "herp in the shell",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "M.S (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Zack)",
+								"metrics": {
+									"craft_built": 42,
+									"craft_lost": 18,
+									"buildings_constructed": 21,
+									"buildings_lost": 6,
+									"scrap_collected": 375,
+									"scrap_spent": 2253,
+									"scrap_harvested_upgraded": 1118
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 7,
+										"Team 7 (scion nationalist)": 4,
+										"Team 8 (MurphysLaw)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 13,
+										"Team 7 (scion nationalist)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 7
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bomber)": 1,
+										"Team 7 (scion nationalist)": 2,
+										"Team 8 (MurphysLaw)": 2,
+										"Team 9 (Sit)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - doctorasher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 3,
+										"Team 8 (MurphysLaw)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 2,
+										"Team 7 (scion nationalist)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - ADHD)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 6,
+										"Team 7 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 3,
+										"Team 8 (MurphysLaw)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 48,
+									"craft_lost": 17,
+									"buildings_constructed": 38,
+									"buildings_lost": 10,
+									"scrap_collected": 690,
+									"scrap_spent": 2195,
+									"scrap_harvested_upgraded": 553
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 13,
+										"Team 3 (doctorasher)": 2,
+										"Team 4 (ADHD)": 3,
+										"Team 6 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 7,
+										"Team 3 (doctorasher)": 3,
+										"Team 4 (ADHD)": 6,
+										"Team 6 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Zack)": 7,
+										"Team 3 (doctorasher)": 2,
+										"Team 4 (ADHD)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Zack)": 5,
+										"Team 3 (doctorasher)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 4,
+										"Team 4 (ADHD)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - MurphysLaw)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (ADHD)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Zack)": 4,
+										"Team 3 (doctorasher)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Sit)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (Zack)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Overlook": {
+					"date": "01.31.26",
+					"map": "Overlook",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "27:53",
+					"teamOne": [
+						"Nomad",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"MurphysLawUS",
+						"doctorasher",
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:27:53",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 362,
+									"deaths": 2,
+									"kills": 36
+								},
+								{
+									"name": "Team 2",
+									"score": 83,
+									"deaths": 5,
+									"kills": 35
+								},
+								{
+									"name": "ping",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 57,
+									"craft_lost": 20,
+									"buildings_constructed": 27,
+									"buildings_lost": 10,
+									"scrap_collected": 750,
+									"scrap_spent": 2898,
+									"scrap_harvested_upgraded": 990
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 3,
+										"Team 7 (MurphysLawUS)": 2,
+										"Team 9 (doctorasher)": 2,
+										"Team 10 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Herp McDerperson)": 1,
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (MurphysLawUS)": 8,
+										"Team 9 (doctorasher)": 4,
+										"Team 10 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 7
+									},
+									"buildings_lost_to": {
+										"Team 6 (scion nationalist)": 6,
+										"Team 9 (doctorasher)": 2,
+										"Team 10 (Vivify)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - L'esecutore)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 5
+									},
+									"craft_lost_to": {
+										"Team 7 (MurphysLawUS)": 2,
+										"Team 10 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 6 (scion nationalist)": 5,
+										"Team 7 (MurphysLawUS)": 3,
+										"Team 9 (doctorasher)": 4,
+										"Team 10 (Vivify)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 7 (MurphysLawUS)": 4,
+										"Team 10 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 42,
+									"craft_lost": 13,
+									"buildings_constructed": 28,
+									"buildings_lost": 12,
+									"scrap_collected": 382,
+									"scrap_spent": 2024,
+									"scrap_harvested_upgraded": 459
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4,
+										"Team 3 (Herp McDerperson)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (L'esecutore)": 5,
+										"Team 3 (Herp McDerperson)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 6
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 7,
+										"Team 2 (L'esecutore)": 3,
+										"Team 3 (Herp McDerperson)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 8,
+										"Team 2 (L'esecutore)": 2,
+										"Team 3 (Herp McDerperson)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Herp McDerperson)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - doctorasher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Herp McDerperson)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 60,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (L'esecutore)": 3,
+										"Team 3 (Herp McDerperson)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Herp McDerperson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Prodigy Ver .2": {
+					"date": "01.31.26",
+					"map": "Prodigy Ver .2",
+					"commanders": "Bylarge vs MurphysLawUS",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "MurphysLawUS",
+					"time": "13:10",
+					"teamOne": [
+						"doctorasher",
+						"Nomad",
+						"Sev",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Darkvale",
+						"Domakus",
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:13:10",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 65,
+									"deaths": 2,
+									"kills": 31
+								},
+								{
+									"name": "Team 1",
+									"score": 1,
+									"deaths": 5,
+									"kills": 10
+								},
+								{
+									"name": "Major Manson",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Herp McDerperson (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bylarge)",
+								"metrics": {
+									"craft_built": 23,
+									"craft_lost": 4,
+									"buildings_constructed": 12,
+									"buildings_lost": 10,
+									"scrap_collected": 145,
+									"scrap_spent": 764,
+									"scrap_harvested_upgraded": 167
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 2,
+										"Team 9 (Domakus)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (MurphysLawUS)": 1,
+										"Team 10 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Major Manson)": 4,
+										"Team 8 (scion nationalist)": 1,
+										"Team 9 (Domakus)": 1,
+										"Team 10 (Vivify)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - doctorasher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 9 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - L'esecutore)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 2,
+										"Team 9 (Domakus)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 9 (Domakus)": 3,
+										"Team 10 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (MurphysLawUS)": 1,
+										"Team 8 (scion nationalist)": 1,
+										"Team 9 (Domakus)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 75,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 2,
+										"Team 8 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (MurphysLawUS)": 1,
+										"Team 7 (Major Manson)": 2,
+										"Team 9 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 22,
+									"craft_lost": 6,
+									"buildings_constructed": 14,
+									"buildings_lost": 0,
+									"scrap_collected": 310,
+									"scrap_spent": 1240,
+									"scrap_harvested_upgraded": 457
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bylarge)": 1,
+										"Team 4 (danya)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bylarge)": 2,
+										"Team 3 (L'esecutore)": 2,
+										"Team 5 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (doctorasher)": 1,
+										"Team 3 (L'esecutore)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bylarge)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bylarge)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (doctorasher)": 1,
+										"Team 3 (L'esecutore)": 3,
+										"Team 4 (danya)": 2,
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bylarge)": 1,
+										"Team 3 (L'esecutore)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bylarge)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bylarge)": 3,
+										"Team 3 (L'esecutore)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bylarge)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Throbbing Gristle": {
+					"date": "01.31.26",
+					"map": "Throbbing Gristle",
+					"commanders": "Bylarge vs MurphysLawUS",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Bylarge",
+					"time": "23:00",
+					"teamOne": [
+						"doctorasher",
+						"Nomad",
+						"Domakus",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Sev",
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:23:00",
+							"team_overviews": [
+								{
+									"name": "Living Vomit",
+									"score": 81,
+									"deaths": 10,
+									"kills": 44
+								},
+								{
+									"name": "Boiling Feces",
+									"score": 54,
+									"deaths": 10,
+									"kills": 29
+								},
+								{
+									"name": "VTlobby",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTpod (Boiling Feces)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "scion nationalist (Boiling Feces)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "F9bylarge (Living Vomit)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "danya (Living Vomit)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Living Vomit - The_Bylarge)",
+								"metrics": {
+									"craft_built": 30,
+									"craft_lost": 2,
+									"buildings_constructed": 19,
+									"buildings_lost": 5,
+									"scrap_collected": 0,
+									"scrap_spent": 1678,
+									"scrap_harvested_upgraded": 397
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (Danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (Danya)": 1,
+										"Team 10 (Vivify)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Living Vomit - doctorasher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 10 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Living Vomit - L'esecutore)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 75,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 3,
+										"Team 10 (Vivify)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 5,
+										"Team 10 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Living Vomit - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 4,
+										"Team 7 (Major Manson)": 3,
+										"Team 10 (Vivify)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (MurphysLawUS)": 1,
+										"Team 7 (Major Manson)": 1,
+										"Team 10 (Vivify)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Living Vomit - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 220,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 1,
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (Danya)": 5,
+										"Team 10 (Vivify)": 5
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (Danya)": 1,
+										"Team 10 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (MurphysLawUS)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Boiling Feces - MurphysLawUS)",
+								"metrics": {
+									"craft_built": 39,
+									"craft_lost": 10,
+									"buildings_constructed": 20,
+									"buildings_lost": 9,
+									"scrap_collected": 530,
+									"scrap_spent": 1929,
+									"scrap_harvested_upgraded": 287
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (Domakus)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (The_Bylarge)": 2,
+										"Team 3 (L'esecutore)": 3,
+										"Team 4 (Domakus)": 4,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 3 (L'esecutore)": 2,
+										"Team 4 (Domakus)": 1,
+										"Team 5 (F9bomber)": 6
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Boiling Feces - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (The_Bylarge)": 1,
+										"Team 3 (L'esecutore)": 5,
+										"Team 4 (Domakus)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 4 (Domakus)": 3,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (The_Bylarge)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Boiling Feces - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (The_Bylarge)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (F9bomber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (The_Bylarge)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Boiling Feces - VTlobby)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Boiling Feces - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 95,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (doctorasher)": 1,
+										"Team 3 (L'esecutore)": 1,
+										"Team 4 (Domakus)": 4,
+										"Team 5 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 3 (L'esecutore)": 3,
+										"Team 4 (Domakus)": 2,
+										"Team 5 (F9bomber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (The_Bylarge)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Titan": {
+					"date": "01.31.26",
+					"map": "Titan",
+					"commanders": "VTrider vs Econchump",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Econchump",
+					"time": "25:32",
+					"teamOne": [
+						"Domakus",
+						"Bylarge",
+						"Sev",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Muffin",
+						"F9bomber",
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:25:32",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 627,
+									"deaths": 9,
+									"kills": 48
+								},
+								{
+									"name": "Team 2",
+									"score": 40,
+									"deaths": 10,
+									"kills": 37
+								},
+								{
+									"name": "F9bomber",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - VTrider)",
+								"metrics": {
+									"craft_built": 54,
+									"craft_lost": 21,
+									"buildings_constructed": 20,
+									"buildings_lost": 7,
+									"scrap_collected": 745,
+									"scrap_spent": 2415,
+									"scrap_harvested_upgraded": 744
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (econchump)": 2,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Reacher)": 4,
+										"Team 10 (Major Manson)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (econchump)": 1,
+										"Team 7 (Vivify)": 5,
+										"Team 8 (F9bomber)": 6,
+										"Team 9 (Reacher)": 1,
+										"Team 10 (Major Manson)": 8
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Vivify)": 1,
+										"Team 8 (F9bomber)": 3,
+										"Team 9 (Reacher)": 1,
+										"Team 10 (Major Manson)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (econchump)": 5,
+										"Team 7 (Vivify)": 3,
+										"Team 9 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 10 (Major Manson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (econchump)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - F9extralarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (econchump)": 7,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Reacher)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Daniel Naroditzky)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (econchump)": 2,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (econchump)": 2,
+										"Team 7 (Vivify)": 3,
+										"Team 9 (Reacher)": 1,
+										"Team 10 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (econchump)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (econchump)": 2,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Reacher)": 2
+									},
+									"craft_lost_to": {
+										"Team 10 (Major Manson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (econchump)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - econchump)",
+								"metrics": {
+									"craft_built": 48,
+									"craft_lost": 19,
+									"buildings_constructed": 27,
+									"buildings_lost": 10,
+									"scrap_collected": 440,
+									"scrap_spent": 2090,
+									"scrap_harvested_upgraded": 616
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 4 (Daniel Naroditzky)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Domakus)": 5,
+										"Team 3 (F9extralarge)": 7,
+										"Team 4 (Daniel Naroditzky)": 2,
+										"Team 5 (Herp McDerperson)": 2,
+										"Team 8 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (econchump)": 1
+									},
+									"buildings_lost_to": {
+										"Team 2 (Domakus)": 1,
+										"Team 4 (Daniel Naroditzky)": 2,
+										"Team 5 (Herp McDerperson)": 6,
+										"Team 6 (econchump)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 5,
+										"Team 4 (Daniel Naroditzky)": 3
+									},
+									"craft_lost_to": {
+										"Team 2 (Domakus)": 3,
+										"Team 4 (Daniel Naroditzky)": 1,
+										"Team 5 (Herp McDerperson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 6,
+										"Team 3 (F9extralarge)": 2,
+										"Team 6 (econchump)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 3 (F9extralarge)": 1,
+										"Team 4 (Daniel Naroditzky)": 1,
+										"Team 5 (Herp McDerperson)": 2,
+										"Team 10 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Reacher)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 4 (Daniel Naroditzky)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 4,
+										"Team 2 (Domakus)": 1,
+										"Team 3 (F9extralarge)": 1,
+										"Team 5 (Herp McDerperson)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 8,
+										"Team 2 (Domakus)": 2,
+										"Team 4 (Daniel Naroditzky)": 1,
+										"Team 5 (Herp McDerperson)": 2,
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Insula": {
+					"date": "01.31.26",
+					"map": "Insula",
+					"commanders": "Sev vs VTrider",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "VTrider",
+					"time": "9:18",
+					"teamOne": [
+						"F9bomber",
+						"Econchump",
+						"Bylarge",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Domakus",
+						"Psychic",
+						"Herp McDerperson"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:09:18",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 37,
+									"deaths": 6,
+									"kills": 24
+								},
+								{
+									"name": "Team 1",
+									"score": 15,
+									"deaths": 8,
+									"kills": 13
+								},
+								{
+									"name": "(KING)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Lithium (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Reacher (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "F9extralarge (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Daniel Naroditzky (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "econchump (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 9,
+									"buildings_constructed": 10,
+									"buildings_lost": 4,
+									"scrap_collected": 330,
+									"scrap_spent": 724,
+									"scrap_harvested_upgraded": 100
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 1,
+										"Team 7 (Major Manson)": 4,
+										"Team 8 (Domakus)": 2,
+										"Team 9 (|SK|~>Psychic*(KING))": 1,
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (VTrider)": 2,
+										"Team 7 (Major Manson)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 2,
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - econchump)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 9 (|SK|~>Psychic*(KING))": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 1,
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Bylargio)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 8 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 1,
+										"Team 8 (Domakus)": 2
+									},
+									"craft_lost_to": {
+										"Team 10 (Herp McDerperson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - VTrider)",
+								"metrics": {
+									"craft_built": 18,
+									"craft_lost": 4,
+									"buildings_constructed": 9,
+									"buildings_lost": 1,
+									"scrap_collected": 255,
+									"scrap_spent": 787,
+									"scrap_harvested_upgraded": 213
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 1,
+										"Team 3 (econchump)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 1,
+										"Team 2 (F9bomber)": 2,
+										"Team 5 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Danya)": 2
+									},
+									"buildings_lost_to": {
+										"Team 5 (Vivify)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 4,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (econchump)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (Danya)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 2,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (econchump)": 1,
+										"Team 4 (Bylargio)": 1
+									},
+									"craft_lost_to": {
+										"Team 5 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - |SK|~>Psychic*(KING)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (econchump)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Herp McDerperson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 1,
+										"Team 5 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Red Slope": {
+					"date": "01.31.26",
+					"map": "Red Slope",
+					"commanders": "VTrider vs Sev",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "9:33",
+					"teamOne": [
+						"Bylarge",
+						"Nomad",
+						"Muffin",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"HyperVivify",
+						"Lithium",
+						"Psychic"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:09:33",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 519,
+									"deaths": 0,
+									"kills": 15
+								},
+								{
+									"name": "Team 2",
+									"score": 33,
+									"deaths": 3,
+									"kills": 14
+								},
+								{
+									"name": "Bylarge",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - VTrider)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 8,
+									"buildings_constructed": 19,
+									"buildings_lost": 3,
+									"scrap_collected": 290,
+									"scrap_spent": 857,
+									"scrap_harvested_upgraded": 246
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Danya)": 2,
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (Vivify)": 5
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Danya)": 1,
+										"Team 9 (Lithium)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Gher_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Danya)": 2,
+										"Team 7 (F9bomber)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Danya)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Danya)": 1,
+										"Team 9 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Danya)": 2,
+										"Team 9 (Lithium)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - conmelter9000)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Danya)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Danya)",
+								"metrics": {
+									"craft_built": 17,
+									"craft_lost": 9,
+									"buildings_constructed": 9,
+									"buildings_lost": 2,
+									"scrap_collected": 290,
+									"scrap_spent": 686,
+									"scrap_harvested_upgraded": 133
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 2,
+										"Team 3 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 2 (Gher_Bylarge)": 2,
+										"Team 4 (Major Manson)": 2,
+										"Team 5 (conmelter9000)": 2,
+										"Team 8 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 1
+									},
+									"buildings_lost_to": {
+										"Team 2 (Gher_Bylarge)": 1,
+										"Team 5 (conmelter9000)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 4 (Major Manson)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Gher_Bylarge)": 1,
+										"Team 3 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 5,
+										"Team 6 (Danya)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Nomad)": 1,
+										"Team 5 (conmelter9000)": 2
+									},
+									"craft_lost_to": {
+										"Team 4 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - |SK|~>Psychic*(KING)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 4 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Strategy Arena": {
+					"date": "01.31.26",
+					"map": "Strategy Arena",
+					"commanders": "Sev vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "12:39",
+					"teamOne": [
+						"HyperVivify",
+						"Lithium",
+						"Bylarge",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin",
+						"VTrider",
+						"Psychic",
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:12:39",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 547,
+									"deaths": 1,
+									"kills": 30
+								},
+								{
+									"name": "Team 2",
+									"score": 14,
+									"deaths": 10,
+									"kills": 9
+								},
+								{
+									"name": "Bylarge",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - danya)",
+								"metrics": {
+									"craft_built": 18,
+									"craft_lost": 4,
+									"buildings_constructed": 17,
+									"buildings_lost": 2,
+									"scrap_collected": 195,
+									"scrap_spent": 889,
+									"scrap_harvested_upgraded": 263
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (VTrider)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Major Manson)": 1,
+										"Team 9 (Nomad)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 8 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (Major Manson)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 8 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Major Manson)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 11,
+									"buildings_constructed": 14,
+									"buildings_lost": 7,
+									"scrap_collected": 265,
+									"scrap_spent": 782,
+									"scrap_harvested_upgraded": 42
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (danya)": 1,
+										"Team 2 (Vivify)": 3,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (F9bomber)": 4,
+										"Team 5 (The_Bylarge)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 2 (Vivify)": 3,
+										"Team 3 (Lithium)": 1,
+										"Team 5 (The_Bylarge)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (danya)": 2,
+										"Team 2 (Vivify)": 1,
+										"Team 5 (The_Bylarge)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (danya)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (danya)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Lithium)": 1,
+										"Team 5 (The_Bylarge)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (danya)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (danya)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - |SK|~>Psychic*(KING)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 1 (danya)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Vegan": {
+					"date": "01.31.26",
+					"map": "Vegan",
+					"commanders": "Sev vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "19:47",
+					"teamOne": [
+						"HyperVivify",
+						"Lithium",
+						"Bylarge",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin",
+						"VTrider",
+						"Psychic",
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:19:47",
+							"team_overviews": [
+								{
+									"name": "Vegans",
+									"score": 584,
+									"deaths": 3,
+									"kills": 46
+								},
+								{
+									"name": "Meat Eaters",
+									"score": 8,
+									"deaths": 10,
+									"kills": 14
+								},
+								{
+									"name": "Certified Bad Guy",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Meat Eaters)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Meat Eaters)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "danya (Vegans)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Vegans - Danya)",
+								"metrics": {
+									"craft_built": 34,
+									"craft_lost": 5,
+									"buildings_constructed": 23,
+									"buildings_lost": 6,
+									"scrap_collected": 340,
+									"scrap_spent": 1898,
+									"scrap_harvested_upgraded": 611
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (VTrider)": 2,
+										"Team 9 (Nomad)": 2,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 8 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (VTrider)": 1,
+										"Team 9 (Nomad)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Vegans - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (Major Manson)": 2,
+										"Team 8 (VTrider)": 1,
+										"Team 9 (Nomad)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 2
+									},
+									"craft_lost_to": {
+										"Team 8 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Vegans - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 5,
+										"Team 9 (Nomad)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Vegans - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 120,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (VTrider)": 1,
+										"Team 9 (Nomad)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (Major Manson)": 1,
+										"Team 8 (VTrider)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Vegans - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (Major Manson)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 7 (Major Manson)": 1,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Meat Eaters - scion nationalist)",
+								"metrics": {
+									"craft_built": 41,
+									"craft_lost": 15,
+									"buildings_constructed": 20,
+									"buildings_lost": 10,
+									"scrap_collected": 472,
+									"scrap_spent": 1355,
+									"scrap_harvested_upgraded": 358
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 4,
+										"Team 4 (F9bomber)": 4,
+										"Team 5 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 2,
+										"Team 2 (Vivify)": 4,
+										"Team 3 (Lithium)": 5,
+										"Team 5 (Certified Bad Guy)": 4
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Danya)": 2,
+										"Team 2 (Vivify)": 2,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (F9bomber)": 3,
+										"Team 5 (Certified Bad Guy)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Meat Eaters - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 1,
+										"Team 2 (Vivify)": 2,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Certified Bad Guy)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Danya)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Meat Eaters - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Danya)": 1,
+										"Team 2 (Vivify)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 2,
+										"Team 2 (Vivify)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Danya)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Meat Eaters - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Certified Bad Guy)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 2,
+										"Team 2 (Vivify)": 1,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (Certified Bad Guy)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Danya)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Meat Eaters - |SK|~>Psychic*(KING)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 1 (Danya)": 1,
+										"Team 2 (Vivify)": 2,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Rendon": {
+					"date": "01.31.26",
+					"map": "Rendon",
+					"commanders": "Cloaket vs Sly",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "23:25",
+					"teamOne": [
+						"HyperVivify",
+						"Lithium",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Muffin",
+						"Nomad",
+						"Psychic"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:23:25",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": -411,
+									"deaths": 11,
+									"kills": 46
+								},
+								{
+									"name": "Team 2",
+									"score": -933,
+									"deaths": 12,
+									"kills": 43
+								},
+								{
+									"name": "ce (Team 1)",
+									"score": 135,
+									"deaths": 2,
+									"kills": 16
+								},
+								{
+									"name": "(KING)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Major Manson (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "scion nationalist (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 55,
+									"craft_lost": 14,
+									"buildings_constructed": 20,
+									"buildings_lost": 5,
+									"scrap_collected": 740,
+									"scrap_spent": 2472,
+									"scrap_harvested_upgraded": 781
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (the BEST there is)": 2,
+										"Team 7 (Certified Bad Guy)": 3,
+										"Team 8 (Major Manson)": 2,
+										"Team 9 (Nomad)": 2,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (the BEST there is)": 4,
+										"Team 7 (Certified Bad Guy)": 3,
+										"Team 8 (Major Manson)": 1,
+										"Team 9 (Nomad)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (the BEST there is)": 6
+									},
+									"buildings_lost_to": {
+										"Team 6 (the BEST there is)": 1,
+										"Team 7 (Certified Bad Guy)": 3,
+										"Team 9 (Nomad)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (the BEST there is)": 2,
+										"Team 7 (Certified Bad Guy)": 3,
+										"Team 9 (Nomad)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (the BEST there is)": 1,
+										"Team 8 (Major Manson)": 3,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (the BEST there is)": 1,
+										"Team 8 (Major Manson)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (the BEST there is)": 3,
+										"Team 9 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (the BEST there is)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (the BEST there is)": 4,
+										"Team 7 (Certified Bad Guy)": 1,
+										"Team 9 (Nomad)": 1,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (the BEST there is)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (the BEST there is)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - scion nationalist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (the BEST there is)": 3,
+										"Team 9 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (the BEST there is)": 3,
+										"Team 10 (|SK|~>Psychic*(KING))": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (the BEST there is)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - the BEST there is)",
+								"metrics": {
+									"craft_built": 38,
+									"craft_lost": 12,
+									"buildings_constructed": 21,
+									"buildings_lost": 13,
+									"scrap_collected": 476,
+									"scrap_spent": 1845,
+									"scrap_harvested_upgraded": 600
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 4,
+										"Team 2 (Vivify)": 1,
+										"Team 3 (Lithium)": 3,
+										"Team 4 (F9bomber)": 4,
+										"Team 5 (scion nationalist)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 2,
+										"Team 2 (Vivify)": 2,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (F9bomber)": 4,
+										"Team 5 (scion nationalist)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Team 1)": 6,
+										"Team 3 (Lithium)": 4,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (scion nationalist)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 3,
+										"Team 2 (Vivify)": 3,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Major Manson)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 1,
+										"Team 2 (Vivify)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 2,
+										"Team 3 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 6,
+										"Team 2 (Vivify)": 1,
+										"Team 3 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 2,
+										"Team 2 (Vivify)": 3,
+										"Team 4 (F9bomber)": 1,
+										"Team 5 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - |SK|~>Psychic*(KING)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 5 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 1,
+										"Team 3 (Lithium)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
