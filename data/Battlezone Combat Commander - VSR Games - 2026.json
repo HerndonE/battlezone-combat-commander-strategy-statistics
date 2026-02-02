@@ -22410,6 +22410,158 @@
 					}
 				}
 			}
+		},
+		"February": {
+			"02.1.26": {
+				"Equinox": {
+					"date": "02.1.26",
+					"map": "Equinox",
+					"commanders": "Maverick vs Darkvale",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Maverick",
+					"time": "38:07",
+					"teamOne": [
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:38:07",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 252,
+									"deaths": 2,
+									"kills": 22
+								},
+								{
+									"name": "Team 2",
+									"score": 71,
+									"deaths": 2,
+									"kills": 28
+								},
+								{
+									"name": "Maverick",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Maverick)",
+								"metrics": {
+									"craft_built": 67,
+									"craft_lost": 15,
+									"buildings_constructed": 60,
+									"buildings_lost": 16,
+									"scrap_collected": 165,
+									"scrap_spent": 3639,
+									"scrap_harvested_upgraded": 1330
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 9,
+										"Team 7 (F9bomber)": 12
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (F9bomber)": 11
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 5
+									},
+									"buildings_lost_to": {
+										"Team 6 (scion nationalist)": 11,
+										"Team 7 (F9bomber)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 13,
+									"scrap_collected": 670,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 6,
+										"Team 7 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 6,
+										"Team 7 (F9bomber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 47,
+									"craft_lost": 15,
+									"buildings_constructed": 30,
+									"buildings_lost": 12,
+									"scrap_collected": 285,
+									"scrap_spent": 2298,
+									"scrap_harvested_upgraded": 683
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Maverick)": 4,
+										"Team 3 (Nomad)": 6
+									},
+									"craft_lost_to": {
+										"Team 1 (Maverick)": 9,
+										"Team 3 (Nomad)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Maverick)": 11
+									},
+									"buildings_lost_to": {
+										"Team 1 (Maverick)": 5,
+										"Team 3 (Nomad)": 7
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 16,
+									"scrap_collected": 236,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Maverick)": 11,
+										"Team 3 (Nomad)": 7
+									},
+									"craft_lost_to": {
+										"Team 1 (Maverick)": 12,
+										"Team 3 (Nomad)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Maverick)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			}
 		}
 	}
 }
