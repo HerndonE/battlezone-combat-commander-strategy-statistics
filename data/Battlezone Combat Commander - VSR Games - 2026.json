@@ -22561,6 +22561,844 @@
 						]
 					}
 				}
+			},
+			"02.2.26": {
+				"Egypt": {
+					"date": "02.2.26",
+					"map": "Egypt",
+					"commanders": "HyperVivify vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "HyperVivify",
+					"time": "15:56",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns",
+						"FastChip",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Maverick",
+						"X-Triage"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:15:56",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 66,
+									"deaths": 1,
+									"kills": 32
+								},
+								{
+									"name": "Team 2",
+									"score": 3,
+									"deaths": 5,
+									"kills": 11
+								},
+								{
+									"name": "FastChip",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "tab (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Monkey (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 24,
+									"craft_lost": 4,
+									"buildings_constructed": 16,
+									"buildings_lost": 3,
+									"scrap_collected": 305,
+									"scrap_spent": 1378,
+									"scrap_harvested_upgraded": 311
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 4,
+										"Team 7 (Toto)": 1,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Venom)": 4
+									},
+									"craft_lost_to": {
+										"Team 7 (Toto)": 1,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Venom)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Venom)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Venom)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0,
+									"scrap_collected": 115,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (Toto)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Venom)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Venom)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Toto)": 1,
+										"Team 8 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - FastChip)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (Venom)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 33,
+									"craft_lost": 9,
+									"buildings_constructed": 21,
+									"buildings_lost": 6,
+									"scrap_collected": 200,
+									"scrap_spent": 1199,
+									"scrap_harvested_upgraded": 391
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 8 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 4,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Certified Bad Guy)": 2,
+										"Team 5 (FastChip)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Vivify)": 2,
+										"Team 2 (judgeguns)": 1,
+										"Team 4 (Lithium)": 2,
+										"Team 5 (FastChip)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 1,
+										"Team 4 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 1,
+										"Team 3 (Certified Bad Guy)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 2,
+										"Team 4 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 1,
+										"Team 2 (judgeguns)": 1,
+										"Team 3 (Certified Bad Guy)": 1,
+										"Team 4 (Lithium)": 1,
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Venom)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 70,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 1,
+										"Team 5 (FastChip)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 4,
+										"Team 2 (judgeguns)": 2,
+										"Team 3 (Certified Bad Guy)": 1,
+										"Team 4 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Bowl": {
+					"date": "02.2.26",
+					"map": "Bowl",
+					"commanders": "HyperVivify vs Darkvale",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "56:06",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns",
+						"FastChip"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Maverick",
+						"X-Triage"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:56:06",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 653,
+									"deaths": 5,
+									"kills": 105
+								},
+								{
+									"name": "Team 1",
+									"score": 84,
+									"deaths": 12,
+									"kills": 60
+								},
+								{
+									"name": "Nomad",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 119,
+									"craft_lost": 47,
+									"buildings_constructed": 68,
+									"buildings_lost": 39,
+									"scrap_collected": 1135,
+									"scrap_spent": 4906,
+									"scrap_harvested_upgraded": 1757
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 1,
+										"Team 6 (scion nationalist)": 12,
+										"Team 7 (Toto)": 5,
+										"Team 8 (F9bomber)": 7,
+										"Team 9 (Venom)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 1,
+										"Team 6 (scion nationalist)": 10,
+										"Team 7 (Toto)": 7,
+										"Team 8 (F9bomber)": 24,
+										"Team 9 (Venom)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 5
+									},
+									"buildings_lost_to": {
+										"Team 6 (scion nationalist)": 5,
+										"Team 7 (Toto)": 11,
+										"Team 8 (F9bomber)": 13,
+										"Team 9 (Venom)": 10
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 12
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 3,
+										"Team 8 (F9bomber)": 4,
+										"Team 9 (Venom)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 3,
+										"Team 8 (F9bomber)": 6,
+										"Team 9 (Venom)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Certified Pod Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 5,
+										"Team 7 (Toto)": 1,
+										"Team 8 (F9bomber)": 4,
+										"Team 9 (Venom)": 5
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (Toto)": 4,
+										"Team 8 (F9bomber)": 7,
+										"Team 9 (Venom)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - FastChip)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (Toto)": 5,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Venom)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 97,
+									"craft_lost": 22,
+									"buildings_constructed": 53,
+									"buildings_lost": 15,
+									"scrap_collected": 870,
+									"scrap_spent": 4969,
+									"scrap_harvested_upgraded": 2165
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 10,
+										"Team 2 (judgeguns)": 3,
+										"Team 4 (Lithium)": 2,
+										"Team 5 (FastChip)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 12,
+										"Team 2 (judgeguns)": 3,
+										"Team 4 (Lithium)": 5,
+										"Team 5 (FastChip)": 1,
+										"Team 7 (Toto)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 5
+									},
+									"buildings_lost_to": {
+										"Team 1 (Vivify)": 5,
+										"Team 2 (judgeguns)": 2,
+										"Team 4 (Lithium)": 5,
+										"Team 5 (FastChip)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 55,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 7,
+										"Team 4 (Lithium)": 4,
+										"Team 5 (FastChip)": 5,
+										"Team 6 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 5,
+										"Team 4 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 11
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15,
+									"scrap_collected": 385,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 24,
+										"Team 2 (judgeguns)": 6,
+										"Team 4 (Lithium)": 7,
+										"Team 5 (FastChip)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 7,
+										"Team 2 (judgeguns)": 4,
+										"Team 4 (Lithium)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 13
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Venom)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11,
+									"scrap_collected": 100,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 5,
+										"Team 2 (judgeguns)": 3,
+										"Team 4 (Lithium)": 1,
+										"Team 5 (FastChip)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 5,
+										"Team 2 (judgeguns)": 1,
+										"Team 4 (Lithium)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 10
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Oasis": {
+					"date": "02.2.26",
+					"map": "Oasis",
+					"commanders": "HyperVivify vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "HyperVivify",
+					"time": "27:30",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Lithium",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"F9bomber",
+						"Maverick"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:27:30",
+							"team_overviews": [
+								{
+									"name": "Dirt Bikers",
+									"score": 490,
+									"deaths": 8,
+									"kills": 55
+								},
+								{
+									"name": "Degenerates",
+									"score": 57,
+									"deaths": 16,
+									"kills": 28
+								},
+								{
+									"name": "MaverICK",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Dirt Bikers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "FastChip (Dirt Bikers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Toto (Degenerates)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Dirt Bikers - Vivify)",
+								"metrics": {
+									"craft_built": 42,
+									"craft_lost": 11,
+									"buildings_constructed": 20,
+									"buildings_lost": 5,
+									"scrap_collected": 450,
+									"scrap_spent": 2179,
+									"scrap_harvested_upgraded": 473
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 5,
+										"Team 7 (MaverICK)": 1,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Blue Waffle)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (MaverICK)": 4,
+										"Team 8 (F9bomber)": 5,
+										"Team 9 (Blue Waffle)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 4
+									},
+									"buildings_lost_to": {
+										"Team 7 (MaverICK)": 3,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Blue Waffle)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Dirt Bikers - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 7 (MaverICK)": 1,
+										"Team 8 (F9bomber)": 4,
+										"Team 9 (Blue Waffle)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 7 (MaverICK)": 2,
+										"Team 8 (F9bomber)": 1,
+										"Team 9 (Blue Waffle)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Dirt Bikers - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (MaverICK)": 2,
+										"Team 8 (F9bomber)": 4,
+										"Team 9 (Blue Waffle)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (MaverICK)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Dirt Bikers - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 1,
+										"Team 8 (F9bomber)": 2,
+										"Team 9 (Blue Waffle)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 3,
+										"Team 7 (MaverICK)": 1,
+										"Team 8 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Degenerates - scion nationalist)",
+								"metrics": {
+									"craft_built": 54,
+									"craft_lost": 10,
+									"buildings_constructed": 39,
+									"buildings_lost": 17,
+									"scrap_collected": 370,
+									"scrap_spent": 2260,
+									"scrap_harvested_upgraded": 553
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Nomad)": 1,
+										"Team 4 (Lithium)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 5,
+										"Team 2 (Nomad)": 1,
+										"Team 3 (Certified Bad Guy)": 2,
+										"Team 4 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (Vivify)": 4,
+										"Team 2 (Nomad)": 5,
+										"Team 3 (Certified Bad Guy)": 3,
+										"Team 4 (Lithium)": 4,
+										"Team 6 (scion nationalist)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Degenerates - MaverICK)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 4,
+										"Team 2 (Nomad)": 2,
+										"Team 3 (Certified Bad Guy)": 4,
+										"Team 4 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 1,
+										"Team 2 (Nomad)": 1,
+										"Team 3 (Certified Bad Guy)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Degenerates - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 12,
+									"scrap_collected": 240,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 5,
+										"Team 2 (Nomad)": 1,
+										"Team 4 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 2,
+										"Team 2 (Nomad)": 4,
+										"Team 3 (Certified Bad Guy)": 4,
+										"Team 4 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Degenerates - Blue Waffle)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 152,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Vivify)": 2,
+										"Team 2 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Vivify)": 3,
+										"Team 2 (Nomad)": 3,
+										"Team 3 (Certified Bad Guy)": 2,
+										"Team 4 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Vivify)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
