@@ -3073,99 +3073,99 @@
                 ]
             ],
             "unique_map_values": [
-                "Terrace",
-                "Phoenix",
-                "Phazon",
-                "Dream",
-                "Sinister",
-                "Terron",
-                "Lunar",
-                "Dune Night",
-                "Ice Age",
-                "Excavation",
-                "Scion Central",
-                "Abuse",
-                "Egypt",
-                "Selena",
-                "Ancient Hills",
-                "Bridges",
-                "Plus",
-                "Hi-Mid-Lo",
-                "Casius",
-                "Iceberg",
-                "Europa",
-                "Domain",
-                "Crater",
-                "Twin Peaks",
-                "Dusk",
-                "Lunix",
-                "Mort's Wasteland",
-                "Ogg Vorbis",
-                "High Heat",
-                "Stone Circle",
-                "Sahara",
-                "Transfer",
-                "Madern Warfare",
-                "Vortex",
-                "Vegan",
-                "Royal Stadium",
-                "Beyond",
-                "Giza",
-                "Red Slope",
-                "Quarry",
-                "Assualt",
-                "Consciousness",
-                "Remnant",
-                "Garden",
-                "Ridges",
-                "Snow Central",
-                "Rectal",
-                "Overlook",
-                "Quagmire",
-                "JO Crystal",
-                "Plaza",
-                "Iraq",
-                "Satart",
-                "Oasis",
-                "Mojave",
-                "Reflex",
-                "Concrete Jungle",
-                "Echelon",
-                "Barren",
-                "Pitbull",
-                "Insula",
-                "Prodigy Ver .2",
-                "Ragnarok",
-                "Throbbing Gristle",
-                "High & Low",
-                "Ebola",
-                "Strategy Arena",
-                "Forgotten",
-                "Aztec",
                 "Caiscus",
+                "Abundance",
+                "Ravine",
+                "Scammed",
+                "Garden",
+                "Giza",
+                "Vegan",
+                "Tempest",
+                "Moonshroud",
+                "Barren",
+                "Satart",
+                "Bowl",
+                "Mexican Mission",
+                "Lunar",
+                "Overlook",
+                "Casius",
+                "Alien Dunes",
+                "Quarry",
+                "Dune Night",
+                "High Heat",
+                "Beyond",
+                "Red Slope",
+                "Terron",
+                "Mesa",
+                "Ebola",
+                "No Mans Land",
+                "Abuse",
+                "Crater",
+                "Forgotten",
+                "Haven",
+                "Dusk",
+                "Oxide",
+                "Dream",
+                "Plaza",
+                "Phazon",
+                "Scion Central",
+                "Iraq",
+                "Europa Night",
+                "Ancient Hills",
+                "Trail",
+                "Chill",
+                "Selena",
+                "Plus",
+                "Twin Peaks",
+                "Hi-Mid-Lo",
+                "Concrete Jungle",
+                "Quagmire",
+                "Assualt",
+                "Throbbing Gristle",
+                "Ridges",
+                "Mojave",
+                "Consciousness",
+                "Trench",
+                "Insula",
+                "Strategy Arena",
+                "Pitbull",
+                "Lunix",
+                "Oldboy",
+                "High & Low",
+                "Echelon",
+                "Madern Warfare",
+                "Oasis",
                 "Titan",
+                "Europa",
                 "Mountain Top",
                 "Hound",
-                "Chill",
-                "Oxide",
-                "Trench",
-                "Scammed",
-                "310",
-                "Ravine",
-                "Trail",
-                "Haven",
-                "Moonshroud",
-                "No Mans Land",
-                "Mexican Mission",
-                "Abundance",
-                "Bowl",
-                "Alien Dunes",
-                "Rendon",
+                "Transfer",
+                "Ice Age",
+                "Stone Circle",
+                "Sinister",
+                "Prodigy Ver .2",
+                "Egypt",
+                "Domain",
                 "Island of V8",
-                "Oldboy",
-                "Mesa",
-                "Tempest",
-                "Europa Night"
+                "Rendon",
+                "JO Crystal",
+                "Terrace",
+                "Royal Stadium",
+                "Rectal",
+                "Mort's Wasteland",
+                "Sahara",
+                "Iceberg",
+                "310",
+                "Aztec",
+                "Ragnarok",
+                "Snow Central",
+                "Excavation",
+                "Remnant",
+                "Phoenix",
+                "Ogg Vorbis",
+                "Vortex",
+                "Reflex",
+                "Bridges"
             ],
             "commander_list": [
                 [
@@ -3834,7 +3834,236 @@
                 "Shock": {
                     "I.S.D.F": 3
                 }
-            }
+            },
+            "game_times": null,
+            "game_totals": [
+                [
+                    "March",
+                    {
+                        "3.20.24": 1
+                    },
+                    {
+                        "Day(s) Played": 1
+                    },
+                    {
+                        "Game(s) Played": 1
+                    }
+                ],
+                [
+                    "April",
+                    {
+                        "4.20.24": 1
+                    },
+                    {
+                        "Day(s) Played": 1
+                    },
+                    {
+                        "Game(s) Played": 1
+                    }
+                ],
+                [
+                    "May",
+                    {
+                        "5.11.24": 4,
+                        "5.18.24": 2,
+                        "5.21.24": 2,
+                        "5.24.24": 1,
+                        "5.26.24": 3,
+                        "5.27.24": 2,
+                        "5.28.24": 3,
+                        "5.30.24": 2
+                    },
+                    {
+                        "Day(s) Played": 8
+                    },
+                    {
+                        "Game(s) Played": 19
+                    }
+                ],
+                [
+                    "June",
+                    {
+                        "6.02.24": 5,
+                        "6.03.24": 4,
+                        "6.04.24": 5,
+                        "6.06.24": 3,
+                        "6.08.24": 3,
+                        "6.09.24": 2,
+                        "6.10.24": 3,
+                        "6.12.24": 3,
+                        "6.18.24": 3,
+                        "6.19.24": 1,
+                        "6.20.24": 3,
+                        "6.21.24": 2,
+                        "6.22.24": 4,
+                        "6.23.24": 1,
+                        "6.25.24": 1,
+                        "6.26.24": 2,
+                        "6.27.24": 5,
+                        "6.29.24": 2,
+                        "6.30.24": 3
+                    },
+                    {
+                        "Day(s) Played": 19
+                    },
+                    {
+                        "Game(s) Played": 55
+                    }
+                ],
+                [
+                    "July",
+                    {
+                        "7.2.24": 1,
+                        "7.3.24": 4,
+                        "7.31.24": 1,
+                        "7.4.24": 3,
+                        "7.5.24": 1,
+                        "7.6.24": 4,
+                        "7.7.24": 3,
+                        "7.8.24": 4
+                    },
+                    {
+                        "Day(s) Played": 8
+                    },
+                    {
+                        "Game(s) Played": 21
+                    }
+                ],
+                [
+                    "August",
+                    {
+                        "8.10.24": 7,
+                        "8.11.24": 1,
+                        "8.14.24": 3,
+                        "8.15.24": 3,
+                        "8.16.24": 3,
+                        "8.17.24": 2,
+                        "8.18.24": 5,
+                        "8.19.24": 3,
+                        "8.20.24": 4,
+                        "8.23.24": 6,
+                        "8.24.24": 3,
+                        "8.26.24": 3,
+                        "8.25.24": 2,
+                        "8.28.24": 1,
+                        "8.3.24": 5,
+                        "8.30.24": 3,
+                        "8.31.24": 5,
+                        "8.7.24": 3
+                    },
+                    {
+                        "Day(s) Played": 18
+                    },
+                    {
+                        "Game(s) Played": 62
+                    }
+                ],
+                [
+                    "September",
+                    {
+                        "9.1.24": 3,
+                        "9.2.24": 4,
+                        "9.3.24": 1,
+                        "9.5.24": 6,
+                        "9.6.24": 3,
+                        "9.7.24": 5,
+                        "9.8.24": 3,
+                        "9.10.24": 4,
+                        "9.11.24": 3,
+                        "9.12.24": 2,
+                        "9.13.24": 6,
+                        "9.15.24": 4,
+                        "9.17.24": 3,
+                        "9.18.24": 1,
+                        "9.19.24": 4,
+                        "9.22.24": 2,
+                        "9.25.24": 3
+                    },
+                    {
+                        "Day(s) Played": 17
+                    },
+                    {
+                        "Game(s) Played": 57
+                    }
+                ],
+                [
+                    "October",
+                    {
+                        "10.1.24": 2,
+                        "10.3.24": 2,
+                        "10.5.24": 1,
+                        "10.6.24": 2,
+                        "10.13.24": 5,
+                        "10.15.24": 2,
+                        "10.18.24": 1,
+                        "10.19.24": 5,
+                        "10.20.24": 3,
+                        "10.21.24": 3,
+                        "10.29.24": 3,
+                        "10.30.24": 2
+                    },
+                    {
+                        "Day(s) Played": 12
+                    },
+                    {
+                        "Game(s) Played": 31
+                    }
+                ],
+                [
+                    "November",
+                    {
+                        "11.4.24": 2,
+                        "11.8.24": 3,
+                        "11.13.24": 1,
+                        "11.14.24": 1,
+                        "11.17.24": 3
+                    },
+                    {
+                        "Day(s) Played": 5
+                    },
+                    {
+                        "Game(s) Played": 10
+                    }
+                ],
+                [
+                    "December",
+                    {
+                        "12.2.24": 2,
+                        "12.5.24": 3,
+                        "12.6.24": 5,
+                        "12.7.24": 5,
+                        "12.8.24": 2,
+                        "12.9.24": 2,
+                        "12.10.24": 1,
+                        "12.13.24": 4,
+                        "12.14.24": 1,
+                        "12.16.24": 4,
+                        "12.17.24": 1,
+                        "12.19.24": 3,
+                        "12.21.24": 3,
+                        "12.23.24": 1,
+                        "12.24.24": 2,
+                        "12.26.24": 1,
+                        "12.27.24": 2,
+                        "12.28.24": 3,
+                        "12.29.24": 5
+                    },
+                    {
+                        "Day(s) Played": 19
+                    },
+                    {
+                        "Game(s) Played": 50
+                    }
+                ],
+                [
+                    {
+                        "Total Days Played": 108
+                    },
+                    {
+                        "Total Games Played": 307
+                    }
+                ]
+            ]
         }
     },
     "2025": {
@@ -10055,7 +10284,7 @@
                             "winner": "F9bomber",
                             "time": "8:16",
                             "teamOne": [
-                                "Certified Bad",
+                                "Certified Bad Guy",
                                 "Herp McDerperson",
                                 "VTrider"
                             ],
@@ -13643,89 +13872,89 @@
                 ]
             ],
             "unique_map_values": [
-                "Dream",
-                "Terron",
-                "Ground Zero",
-                "Lunar",
-                "Toxicity",
-                "The War",
-                "Ice Age",
-                "Excavation",
-                "Abuse",
-                "Aussault",
-                "Egypt",
-                "Selena",
-                "Ancient Hills",
-                "Magma",
-                "Ancient Outposts",
-                "Jade Green",
-                "Plus",
-                "Casius",
-                "Middle Wars",
-                "Europa",
-                "Domain",
-                "Twin Peaks",
-                "Lunix",
-                "Mort's Wasteland",
-                "Sahara",
-                "Cracked",
-                "Jurrasic Dog Park",
-                "Transfer",
-                "Vortex",
-                "Vegan",
-                "Giza",
-                "Red Slope",
-                "Quarry",
-                "XMAS-Remnant",
-                "Consciousness",
-                "Ridges",
-                "Remnant",
+                "Fort 12C",
+                "Scammed",
                 "Garden",
-                "Snow Central",
-                "XMAS-Consciousness",
+                "Ancient Outposts",
+                "Giza",
+                "Vegan",
+                "Tempest",
+                "Barren",
+                "Moonshroud",
+                "Bowl",
+                "Aussault",
+                "Mexican Mission",
+                "Lunar",
+                "XMAS-Europa",
                 "Overlook",
-                "Quagmire",
+                "Casius",
+                "Quarry",
+                "Red Slope",
+                "Revolution",
+                "Terron",
+                "Mesa",
+                "Ebola",
+                "Abuse",
+                "Forgotten",
+                "Haven",
+                "Dream",
+                "XMAS-Consciousness",
                 "Plaza",
                 "Iraq",
-                "Oasis",
-                "Mojave",
-                "Fort 12C",
-                "Reflex",
-                "Impact",
-                "Echelon",
-                "Barren",
-                "XMAS-Europa",
-                "Pitbull",
-                "Insula",
-                "Prodigy Ver .2",
-                "Ragnarok",
+                "Europa Night",
+                "Ancient Hills",
+                "Trail",
                 "Power Struggle",
+                "Selena",
+                "Plus",
+                "Middle Wars",
+                "Twin Peaks",
+                "Quagmire",
                 "Throbbing Gristle",
-                "High & Low",
-                "Ebola",
+                "Ridges",
+                "Mojave",
+                "Consciousness",
+                "Trench",
+                "Insula",
                 "Strategy Arena",
-                "Forgotten",
-                "Aztec",
+                "Pitbull",
+                "Lunix",
+                "Jurrasic Dog Park",
+                "Magma",
+                "Oldboy",
+                "XMAS-Remnant",
+                "High & Low",
+                "Echelon",
+                "The War",
+                "Oasis",
+                "XMAS-Haven",
                 "Titan",
+                "Europa",
                 "Mountain Top",
                 "Hound",
-                "Trench",
-                "Scammed",
-                "310",
-                "Trail",
-                "Revolution",
-                "Haven",
-                "XMAS-Haven",
-                "Moonshroud",
-                "Mayhem",
-                "Mexican Mission",
-                "Bowl",
-                "Rendon",
+                "Transfer",
+                "Ice Age",
+                "Prodigy Ver .2",
+                "Toxicity",
+                "Egypt",
+                "Domain",
                 "Island of V8",
-                "Oldboy",
-                "Mesa",
-                "Tempest",
-                "Europa Night"
+                "Impact",
+                "Rendon",
+                "Ground Zero",
+                "Mayhem",
+                "Mort's Wasteland",
+                "Jade Green",
+                "Sahara",
+                "310",
+                "Aztec",
+                "Ragnarok",
+                "Cracked",
+                "Snow Central",
+                "Excavation",
+                "Remnant",
+                "Vortex",
+                "Reflex"
             ],
             "commander_list": [
                 [
@@ -14488,7 +14717,370 @@
                 "SwiggityMcgiggity": {
                     "I.S.D.F": 1
                 }
-            }
+            },
+            "game_times": [
+                [
+                    [
+                        "Total Time",
+                        "171:15:32"
+                    ],
+                    [
+                        "Mean",
+                        "24:00"
+                    ],
+                    [
+                        "Median",
+                        "18:41"
+                    ],
+                    [
+                        "Range",
+                        "1:33:54"
+                    ]
+                ],
+                [
+                    "Mode",
+                    "16:31"
+                ],
+                [
+                    [
+                        "Shortest Match",
+                        "3:35"
+                    ],
+                    [
+                        {
+                            "date": "11.29.25",
+                            "map": "Remnant",
+                            "commanders": "Xpi vs Blue Banana",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Xpi",
+                            "time": "3:35",
+                            "teamOne": [
+                                "MAX",
+                                "Nomad",
+                                "Muffin",
+                                "M.S"
+                            ],
+                            "teamTwo": [
+                                "SwiggityMcgiggity",
+                                "F9bomber",
+                                "Sev"
+                            ]
+                        }
+                    ],
+                    [
+                        "Longest Match",
+                        "1:37:29"
+                    ],
+                    [
+                        {
+                            "date": "01.31.25",
+                            "map": "Insula",
+                            "commanders": "VTrider vs Blue Banana",
+                            "factions": "[Hadean, Scion]",
+                            "winningFaction": "Hadean",
+                            "winner": "VTrider",
+                            "time": "1:37:29",
+                            "teamOne": [
+                                "Sev",
+                                "HappyOtter"
+                            ],
+                            "teamTwo": [
+                                "F9bomber",
+                                "Econchump"
+                            ]
+                        }
+                    ]
+                ]
+            ],
+            "game_totals": [
+                [
+                    "January",
+                    {
+                        "01.2.25": 5,
+                        "01.5.25": 3,
+                        "01.6.25": 1,
+                        "01.7.25": 1,
+                        "01.9.25": 2,
+                        "01.14.25": 2,
+                        "01.16.25": 1,
+                        "01.18.25": 2,
+                        "01.19.25": 1,
+                        "01.20.25": 2,
+                        "01.21.25": 1,
+                        "01.22.25": 1,
+                        "01.23.25": 3,
+                        "01.25.25": 2,
+                        "01.26.25": 3,
+                        "01.28.25": 3,
+                        "01.31.25": 3
+                    },
+                    {
+                        "Day(s) Played": 17
+                    },
+                    {
+                        "Game(s) Played": 36
+                    }
+                ],
+                [
+                    "February",
+                    {
+                        "02.3.25": 1,
+                        "02.9.25": 1,
+                        "02.14.25": 3,
+                        "02.16.25": 2,
+                        "02.19.25": 3,
+                        "02.21.25": 2,
+                        "02.26.25": 1,
+                        "02.27.25": 2
+                    },
+                    {
+                        "Day(s) Played": 8
+                    },
+                    {
+                        "Game(s) Played": 15
+                    }
+                ],
+                [
+                    "March",
+                    {
+                        "03.9.25": 1,
+                        "03.10.25": 3,
+                        "03.11.25": 3,
+                        "03.14.25": 2,
+                        "03.15.25": 1,
+                        "03.16.25": 2,
+                        "03.17.25": 2,
+                        "03.20.25": 2,
+                        "03.22.25": 2,
+                        "03.28.25": 4,
+                        "03.29.25": 2,
+                        "03.30.25": 2
+                    },
+                    {
+                        "Day(s) Played": 12
+                    },
+                    {
+                        "Game(s) Played": 26
+                    }
+                ],
+                [
+                    "April",
+                    {
+                        "04.2.25": 1,
+                        "04.3.25": 3,
+                        "04.4.25": 1,
+                        "04.5.25": 2,
+                        "04.7.25": 5,
+                        "04.8.25": 4,
+                        "04.9.25": 4,
+                        "04.12.25": 6,
+                        "04.15.25": 2,
+                        "04.17.25": 4,
+                        "04.21.25": 2,
+                        "04.22.25": 7,
+                        "04.24.25": 5,
+                        "04.25.25": 3,
+                        "04.26.25": 4
+                    },
+                    {
+                        "Day(s) Played": 15
+                    },
+                    {
+                        "Game(s) Played": 53
+                    }
+                ],
+                [
+                    "May",
+                    {
+                        "05.2.25": 4,
+                        "05.3.25": 4,
+                        "05.5.25": 3,
+                        "05.9.25": 7,
+                        "05.10.25": 3,
+                        "05.12.25": 1
+                    },
+                    {
+                        "Day(s) Played": 6
+                    },
+                    {
+                        "Game(s) Played": 22
+                    }
+                ],
+                [
+                    "June",
+                    {
+                        "06.1.25": 3,
+                        "06.7.25": 1,
+                        "06.8.25": 1
+                    },
+                    {
+                        "Day(s) Played": 3
+                    },
+                    {
+                        "Game(s) Played": 5
+                    }
+                ],
+                [
+                    "July",
+                    {
+                        "07.8.25": 1,
+                        "07.20.25": 1,
+                        "07.21.25": 1,
+                        "07.22.25": 3,
+                        "07.24.25": 2,
+                        "07.25.25": 4,
+                        "07.26.25": 2,
+                        "07.27.25": 3,
+                        "07.29.25": 7,
+                        "07.30.25": 3,
+                        "07.31.25": 1
+                    },
+                    {
+                        "Day(s) Played": 11
+                    },
+                    {
+                        "Game(s) Played": 28
+                    }
+                ],
+                [
+                    "August",
+                    {
+                        "08.1.25": 1,
+                        "08.2.25": 9,
+                        "08.4.25": 1,
+                        "08.7.25": 1,
+                        "08.8.25": 2,
+                        "08.9.25": 2,
+                        "08.11.25": 3,
+                        "08.14.25": 2,
+                        "08.16.25": 3,
+                        "08.22.25": 2,
+                        "08.23.25": 5,
+                        "08.24.25": 3,
+                        "08.25.25": 3,
+                        "08.26.25": 6,
+                        "08.30.25": 1,
+                        "08.31.25": 1
+                    },
+                    {
+                        "Day(s) Played": 16
+                    },
+                    {
+                        "Game(s) Played": 45
+                    }
+                ],
+                [
+                    "September",
+                    {
+                        "09.1.25": 5,
+                        "09.2.25": 1,
+                        "09.3.25": 2,
+                        "09.4.25": 3,
+                        "09.5.25": 9,
+                        "09.6.25": 6,
+                        "09.7.25": 1,
+                        "09.8.25": 4,
+                        "09.10.25": 5,
+                        "09.11.25": 4,
+                        "09.12.25": 2,
+                        "09.13.25": 3,
+                        "09.15.25": 4,
+                        "09.16.25": 3,
+                        "09.17.25": 3,
+                        "09.18.25": 2,
+                        "09.20.25": 2,
+                        "09.23.25": 1
+                    },
+                    {
+                        "Day(s) Played": 18
+                    },
+                    {
+                        "Game(s) Played": 60
+                    }
+                ],
+                [
+                    "October",
+                    {
+                        "10.2.25": 4,
+                        "10.4.25": 5,
+                        "10.5.25": 7,
+                        "10.6.25": 5,
+                        "10.7.25": 2,
+                        "10.8.25": 3,
+                        "10.9.25": 3,
+                        "10.10.25": 3,
+                        "10.11.25": 5,
+                        "10.12.25": 4,
+                        "10.13.25": 2,
+                        "10.14.25": 3,
+                        "10.16.25": 3,
+                        "10.19.25": 2,
+                        "10.21.25": 3,
+                        "10.25.25": 2,
+                        "10.26.25": 1,
+                        "10.31.25": 2
+                    },
+                    {
+                        "Day(s) Played": 18
+                    },
+                    {
+                        "Game(s) Played": 59
+                    }
+                ],
+                [
+                    "November",
+                    {
+                        "11.1.25": 4,
+                        "11.9.25": 1,
+                        "11.14.25": 3,
+                        "11.23.25": 2,
+                        "11.24.25": 4,
+                        "11.29.25": 8,
+                        "11.30.25": 7
+                    },
+                    {
+                        "Day(s) Played": 7
+                    },
+                    {
+                        "Game(s) Played": 29
+                    }
+                ],
+                [
+                    "December",
+                    {
+                        "12.5.25": 2,
+                        "12.6.25": 4,
+                        "12.7.25": 5,
+                        "12.14.25": 7,
+                        "12.17.25": 3,
+                        "12.19.25": 6,
+                        "12.21.25": 2,
+                        "12.22.25": 4,
+                        "12.23.25": 5,
+                        "12.24.25": 3,
+                        "12.25.25": 4,
+                        "12.26.25": 1,
+                        "12.27.25": 6,
+                        "12.28.25": 4,
+                        "12.30.25": 3
+                    },
+                    {
+                        "Day(s) Played": 15
+                    },
+                    {
+                        "Game(s) Played": 59
+                    }
+                ],
+                [
+                    {
+                        "Total Days Played": 146
+                    },
+                    {
+                        "Total Games Played": 437
+                    }
+                ]
+            ]
         }
     },
     "2026": {
@@ -16003,7 +16595,7 @@
                             "teamOne": [
                                 "Nomad",
                                 "Systeme",
-                                "Danya",
+                                "Sev",
                                 "Judgeguns"
                             ],
                             "teamTwo": [
@@ -24988,7 +25580,7 @@
                             "winner": "M.S",
                             "time": "11:46",
                             "teamOne": [
-                                "Sahd0w",
+                                "sahd0w",
                                 "Nomad",
                                 "Cyber"
                             ],
@@ -25235,7 +25827,7 @@
                                 "Judgeguns",
                                 "Cyber",
                                 "Darkvale",
-                                "Sahd0w"
+                                "sahd0w"
                             ],
                             "stats": {
                                 "game_summary": {
@@ -27784,7 +28376,7 @@
                             "teamOne": [
                                 "Lithium",
                                 "F9bomber",
-                                "Reacher"
+                                "Nomad"
                             ],
                             "teamTwo": [
                                 "Ultimate",
@@ -33282,7 +33874,7 @@
                             "time": "20:39",
                             "teamOne": [
                                 "Nomad",
-                                "Dr. Philadelphia",
+                                "Dr.Philadelphia",
                                 "Blue Banana",
                                 "Judgeguns"
                             ],
@@ -33883,7 +34475,7 @@
                             "winner": "Xpi",
                             "time": "13:15",
                             "teamOne": [
-                                "Sahd0w",
+                                "sahd0w",
                                 "F9bomber",
                                 "HyperVivify",
                                 "Zorn"
@@ -38117,60 +38709,60 @@
                 ]
             ],
             "unique_map_values": [
-                "Curiosity",
-                "Remnant",
-                "Ridges",
-                "Garden",
-                "Stack",
-                "Snow Central",
-                "Scammed",
-                "Overlook",
-                "Quagmire",
-                "Plaza",
-                "310",
-                "Know Thyself",
-                "Twin Peaks",
-                "Oasis",
-                "Dusk",
-                "Haven",
-                "Terron",
-                "Mojave",
-                "Ogg Vorbis",
-                "Lunar",
-                "Sahara",
-                "Fort 12C",
-                "Cracked",
-                "Reflex",
-                "Dune Night",
-                "Barren",
-                "Insula",
-                "Ice Age",
-                "Excavation",
-                "Flooded",
-                "Abuse",
-                "Aussault",
-                "Fever Valley",
-                "No Mans Land",
-                "Prodigy Ver .2",
-                "Egypt",
-                "Abundance",
-                "Ancient Hills",
-                "Bowl",
-                "Power Struggle",
-                "Rendon",
-                "Throbbing Gristle",
-                "Vegan",
-                "Island of V8",
-                "Oldboy",
-                "Strategy Arena",
-                "Giza",
                 "Red Slope",
-                "Nigeria",
-                "Titan",
-                "Hilo Blues",
+                "Middle Wars",
+                "Twin Peaks",
+                "Abundance",
+                "Terron",
+                "Prodigy Ver .2",
+                "Fort 12C",
+                "Scammed",
+                "Quagmire",
+                "Garden",
+                "Flooded",
+                "No Mans Land",
+                "Abuse",
+                "Throbbing Gristle",
                 "Rapemas",
+                "Ridges",
+                "Egypt",
+                "Haven",
+                "Mojave",
+                "Hilo Blues",
+                "Island of V8",
+                "Rendon",
+                "Insula",
+                "Giza",
+                "Vegan",
+                "Fever Valley",
+                "Strategy Arena",
+                "Barren",
+                "Know Thyself",
+                "Plaza",
+                "Oldboy",
+                "Nigeria",
+                "Bowl",
+                "Aussault",
+                "Sahara",
+                "310",
+                "Curiosity",
+                "Oasis",
                 "Equinox",
-                "Middle Wars"
+                "Lunar",
+                "Cracked",
+                "Overlook",
+                "Stack",
+                "Excavation",
+                "Remnant",
+                "Snow Central",
+                "Reflex",
+                "Ancient Hills",
+                "Titan",
+                "Ogg Vorbis",
+                "Dune Night",
+                "Power Struggle",
+                "Dusk",
+                "Ice Age"
             ],
             "commander_list": [
                 [
@@ -38700,7 +39292,714 @@
                     "Hadean": 1,
                     "Scion": 1
                 }
-            }
+            },
+            "game_times": [
+                [
+                    [
+                        "Total Time",
+                        "41:09:19"
+                    ],
+                    [
+                        "Mean",
+                        "25:43"
+                    ],
+                    [
+                        "Median",
+                        "19:06"
+                    ],
+                    [
+                        "Range",
+                        "1:38:59"
+                    ]
+                ],
+                [
+                    "Mode",
+                    "25:32"
+                ],
+                [
+                    [
+                        "Shortest Match",
+                        "8:33"
+                    ],
+                    [
+                        {
+                            "date": "01.4.26",
+                            "map": "No Mans Land",
+                            "commanders": "F9bomber vs Lithium",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "F9bomber",
+                            "time": "8:33",
+                            "teamOne": [
+                                "Judgeguns",
+                                "Econchump",
+                                "Certified Bad Guy"
+                            ],
+                            "teamTwo": [
+                                "Darkvale",
+                                "Nomad",
+                                "Xpi"
+                            ],
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "0:08:33",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 1",
+                                            "score": 418,
+                                            "deaths": 1,
+                                            "kills": 9
+                                        },
+                                        {
+                                            "name": "Team 2",
+                                            "score": 14,
+                                            "deaths": 2,
+                                            "kills": 7
+                                        },
+                                        {
+                                            "name": "judgeguns",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 15,
+                                            "craft_lost": 3,
+                                            "buildings_constructed": 9,
+                                            "buildings_lost": 1,
+                                            "scrap_collected": 100,
+                                            "scrap_spent": 641,
+                                            "scrap_harvested_upgraded": 241
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {},
+                                            "craft_lost_to": {
+                                                "Team 7 (wawaewo)": 1,
+                                                "Team 9 (Monkey)": 2
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {
+                                                "Team 7 (wawaewo)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 3
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - econchump)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (Lithium)": 1,
+                                                "Team 8 (Chenko)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (Lithium)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - Clovis Bray)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 7 (wawaewo)": 1,
+                                                "Team 8 (Chenko)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 8 (Chenko)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 15,
+                                            "craft_lost": 4,
+                                            "buildings_constructed": 7,
+                                            "buildings_lost": 1,
+                                            "scrap_collected": 185,
+                                            "scrap_spent": 485,
+                                            "scrap_harvested_upgraded": 68
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 3 (econchump)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 2 (judgeguns)": 3,
+                                                "Team 3 (econchump)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {
+                                                "Team 3 (econchump)": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - wawaewo)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 1
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (F9bomber)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 4 (Clovis Bray)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (F9bomber)": 1
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - Chenko)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 2
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 4 (Clovis Bray)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 3 (econchump)": 1,
+                                                "Team 4 (Clovis Bray)": 1
+                                            },
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - Monkey)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (F9bomber)": 2
+                                            },
+                                            "craft_lost_to": {},
+                                            "buildings_destroyed_of": {},
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    [
+                        "Longest Match",
+                        "1:47:32"
+                    ],
+                    [
+                        {
+                            "date": "01.20.26",
+                            "map": "Ice Age",
+                            "commanders": "Muffin vs Darkvale",
+                            "factions": "[I.S.D.F, Scion]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Muffin",
+                            "time": "1:47:32",
+                            "teamOne": [
+                                "Judgeguns",
+                                "Gravey",
+                                "Certified Bad Guy"
+                            ],
+                            "teamTwo": [
+                                "HyperVivify",
+                                "F9bomber",
+                                "Lithium"
+                            ],
+                            "teamOneStraggler": [
+                                "Nomad",
+                                "Cloaket"
+                            ],
+                            "teamTwoStraggler": [
+                                "Ultimate"
+                            ],
+                            "_comment": "Nomad originally commanded, dropped out. Muffin took over and won the game.",
+                            "stats": {
+                                "game_summary": {
+                                    "total_time": "1:47:32",
+                                    "team_overviews": [
+                                        {
+                                            "name": "Team 1",
+                                            "score": 900,
+                                            "deaths": 19,
+                                            "kills": 157
+                                        },
+                                        {
+                                            "name": "Team 2",
+                                            "score": 365,
+                                            "deaths": 34,
+                                            "kills": 181
+                                        },
+                                        {
+                                            "name": "unconSCIONable (Team 2)",
+                                            "score": 135,
+                                            "deaths": 16,
+                                            "kills": 56
+                                        },
+                                        {
+                                            "name": "Reacher (Team 1)",
+                                            "score": 8,
+                                            "deaths": 2,
+                                            "kills": 6
+                                        },
+                                        {
+                                            "name": "ce",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "tabbed ping for next game (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "racylithpics (Team 1)",
+                                            "score": 0,
+                                            "deaths": 0,
+                                            "kills": 0
+                                        },
+                                        {
+                                            "name": "Lithium (Team 2)",
+                                            "score": -16,
+                                            "deaths": 4,
+                                            "kills": 3
+                                        }
+                                    ]
+                                },
+                                "teams_detailed": [
+                                    {
+                                        "header": "Team 1 (Team 1 - Major Manson)",
+                                        "metrics": {
+                                            "craft_built": 215,
+                                            "craft_lost": 66,
+                                            "buildings_constructed": 58,
+                                            "buildings_lost": 42,
+                                            "scrap_collected": 2727,
+                                            "scrap_spent": 9752,
+                                            "scrap_harvested_upgraded": 2992
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 1,
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 6 (dark)": 25,
+                                                "Team 7 (Team 2)": 6,
+                                                "Team 8 (F9bomber)": 4,
+                                                "Team 9 (Vivify)": 2,
+                                                "Team 10 (Lithium)": 8
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 1,
+                                                "Team 6 (dark)": 13,
+                                                "Team 7 (Team 2)": 17,
+                                                "Team 8 (F9bomber)": 20,
+                                                "Team 9 (Vivify)": 13,
+                                                "Team 10 (Lithium)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 1,
+                                                "Team 6 (dark)": 2
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Major Manson)": 1,
+                                                "Team 6 (dark)": 2,
+                                                "Team 7 (Team 2)": 17,
+                                                "Team 8 (F9bomber)": 6,
+                                                "Team 9 (Vivify)": 12,
+                                                "Team 10 (Lithium)": 4
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 2 (Team 1 - judgeguns)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 29,
+                                            "scrap_collected": 55,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 6 (dark)": 14,
+                                                "Team 7 (Team 2)": 3,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 9 (Vivify)": 3,
+                                                "Team 10 (Lithium)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 1,
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 4 (Gravidons)": 1,
+                                                "Team 6 (dark)": 3,
+                                                "Team 7 (Team 2)": 4,
+                                                "Team 8 (F9bomber)": 7,
+                                                "Team 9 (Vivify)": 8,
+                                                "Team 10 (Lithium)": 3
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (dark)": 6
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 3 (Team 1 - Just!ce)",
+                                        "metrics": {
+                                            "craft_built": 2,
+                                            "craft_lost": 6,
+                                            "scrap_collected": 115,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (dark)": 8,
+                                                "Team 7 (Team 2)": 2,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 9 (Vivify)": 1,
+                                                "Team 10 (Lithium)": 5
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (dark)": 1,
+                                                "Team 7 (Team 2)": 2,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 9 (Vivify)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (dark)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 4 (Team 1 - Gravidons)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 45,
+                                            "scrap_collected": 245,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 6 (dark)": 27,
+                                                "Team 7 (Team 2)": 3,
+                                                "Team 8 (F9bomber)": 3,
+                                                "Team 9 (Vivify)": 7,
+                                                "Team 10 (Lithium)": 6
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (dark)": 15,
+                                                "Team 7 (Team 2)": 8,
+                                                "Team 8 (F9bomber)": 7,
+                                                "Team 9 (Vivify)": 11,
+                                                "Team 10 (Lithium)": 2
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (dark)": 5
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 5 (Team 1 - Certified Illiterate Guy)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 18,
+                                            "scrap_collected": 50,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 6 (dark)": 13,
+                                                "Team 7 (Team 2)": 5,
+                                                "Team 8 (F9bomber)": 5,
+                                                "Team 9 (Vivify)": 1,
+                                                "Team 10 (Lithium)": 7
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 6 (dark)": 2,
+                                                "Team 7 (Team 2)": 7,
+                                                "Team 8 (F9bomber)": 3,
+                                                "Team 9 (Vivify)": 6
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 6 (dark)": 2
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 6 (Team 2 - dark)",
+                                        "metrics": {
+                                            "craft_built": 204,
+                                            "craft_lost": 89,
+                                            "buildings_constructed": 52,
+                                            "buildings_lost": 19,
+                                            "scrap_collected": 1298,
+                                            "scrap_spent": 10291,
+                                            "scrap_harvested_upgraded": 5386
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 13,
+                                                "Team 2 (judgeguns)": 3,
+                                                "Team 3 (Just!ce)": 1,
+                                                "Team 4 (Gravidons)": 15,
+                                                "Team 5 (Certified Illiterate Guy)": 2,
+                                                "Team 9 (Vivify)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 25,
+                                                "Team 2 (judgeguns)": 14,
+                                                "Team 3 (Just!ce)": 8,
+                                                "Team 4 (Gravidons)": 27,
+                                                "Team 5 (Certified Illiterate Guy)": 13,
+                                                "Team 8 (F9bomber)": 1,
+                                                "Team 10 (Lithium)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 2
+                                            },
+                                            "buildings_lost_to": {
+                                                "Team 1 (Major Manson)": 2,
+                                                "Team 2 (judgeguns)": 6,
+                                                "Team 3 (Just!ce)": 4,
+                                                "Team 4 (Gravidons)": 5,
+                                                "Team 5 (Certified Illiterate Guy)": 2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 7 (Team 2 - Team 2)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 19
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 17,
+                                                "Team 2 (judgeguns)": 4,
+                                                "Team 3 (Just!ce)": 2,
+                                                "Team 4 (Gravidons)": 8,
+                                                "Team 5 (Certified Illiterate Guy)": 7,
+                                                "Team 8 (F9bomber)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 6,
+                                                "Team 2 (judgeguns)": 3,
+                                                "Team 3 (Just!ce)": 2,
+                                                "Team 4 (Gravidons)": 3,
+                                                "Team 5 (Certified Illiterate Guy)": 5
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 17
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 8 (Team 2 - F9bomber)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 15,
+                                            "scrap_collected": 115,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 20,
+                                                "Team 2 (judgeguns)": 7,
+                                                "Team 3 (Just!ce)": 1,
+                                                "Team 4 (Gravidons)": 7,
+                                                "Team 5 (Certified Illiterate Guy)": 3,
+                                                "Team 6 (dark)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 4,
+                                                "Team 2 (judgeguns)": 1,
+                                                "Team 3 (Just!ce)": 1,
+                                                "Team 4 (Gravidons)": 3,
+                                                "Team 5 (Certified Illiterate Guy)": 5,
+                                                "Team 7 (Team 2)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 6
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 9 (Team 2 - Vivify)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 15,
+                                            "scrap_collected": 10,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 13,
+                                                "Team 2 (judgeguns)": 8,
+                                                "Team 3 (Just!ce)": 2,
+                                                "Team 4 (Gravidons)": 11,
+                                                "Team 5 (Certified Illiterate Guy)": 6
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 2,
+                                                "Team 2 (judgeguns)": 3,
+                                                "Team 3 (Just!ce)": 1,
+                                                "Team 4 (Gravidons)": 7,
+                                                "Team 5 (Certified Illiterate Guy)": 1,
+                                                "Team 6 (dark)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 12
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    },
+                                    {
+                                        "header": "Team 10 (Team 2 - Lithium)",
+                                        "metrics": {
+                                            "craft_built": 1,
+                                            "craft_lost": 33,
+                                            "scrap_collected": 145,
+                                            "scrap_spent": 0,
+                                            "scrap_harvested_upgraded": 0
+                                        },
+                                        "combat_stats": {
+                                            "craft_destroyed_of": {
+                                                "Team 1 (Major Manson)": 2,
+                                                "Team 2 (judgeguns)": 3,
+                                                "Team 4 (Gravidons)": 2,
+                                                "Team 6 (dark)": 1,
+                                                "Team 10 (Lithium)": 1
+                                            },
+                                            "craft_lost_to": {
+                                                "Team 1 (Major Manson)": 8,
+                                                "Team 2 (judgeguns)": 5,
+                                                "Team 3 (Just!ce)": 5,
+                                                "Team 4 (Gravidons)": 6,
+                                                "Team 5 (Certified Illiterate Guy)": 7,
+                                                "Team 10 (Lithium)": 1
+                                            },
+                                            "buildings_destroyed_of": {
+                                                "Team 1 (Major Manson)": 4
+                                            },
+                                            "buildings_lost_to": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                ]
+            ],
+            "game_totals": [
+                [
+                    "January",
+                    {
+                        "01.1.26": 4,
+                        "01.2.26": 8,
+                        "01.3.26": 9,
+                        "01.4.26": 6,
+                        "01.5.26": 7,
+                        "01.9.26": 8,
+                        "01.10.26": 2,
+                        "01.11.26": 2,
+                        "01.12.26": 1,
+                        "01.13.26": 2,
+                        "01.14.26": 1,
+                        "01.16.26": 9,
+                        "01.17.26": 4,
+                        "01.20.26": 9,
+                        "01.24.26": 2,
+                        "01.26.26": 7,
+                        "01.27.26": 3,
+                        "01.28.26": 8,
+                        "01.30.26": 3,
+                        "01.31.26": 10
+                    },
+                    {
+                        "Day(s) Played": 20
+                    },
+                    {
+                        "Game(s) Played": 105
+                    }
+                ],
+                [
+                    "February",
+                    {
+                        "02.1.26": 1,
+                        "02.2.26": 3
+                    },
+                    {
+                        "Day(s) Played": 2
+                    },
+                    {
+                        "Game(s) Played": 4
+                    }
+                ],
+                [
+                    {
+                        "Total Days Played": 22
+                    },
+                    {
+                        "Total Games Played": 109
+                    }
+                ]
+            ]
         }
     },
     "processed_data": {
@@ -39772,7 +41071,1219 @@
                 "Stack",
                 "Rapemas"
             ]
-        }
+        },
+        "processed_player_times": [
+            [
+                {
+                    "Player": "F9bomber",
+                    "Total Time": "152:33:53",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 244], [Scion : 92], [Hadean : 52]"
+                }
+            ],
+            [
+                {
+                    "Player": "Judgeguns",
+                    "Total Time": "78:11:28",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 117], [Scion : 47], [Hadean : 40]"
+                }
+            ],
+            [
+                {
+                    "Player": "Nomad",
+                    "Total Time": "74:59:37",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 132], [Scion : 57], [Hadean : 23]"
+                }
+            ],
+            [
+                {
+                    "Player": "Muffin",
+                    "Total Time": "55:33:02",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 77], [Scion : 51], [Hadean : 19]"
+                }
+            ],
+            [
+                {
+                    "Player": "Lithium",
+                    "Total Time": "49:51:18",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 77], [Scion : 28], [Hadean : 16]"
+                }
+            ],
+            [
+                {
+                    "Player": "Darkvale",
+                    "Total Time": "48:45:20",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 86], [Scion : 32], [Hadean : 13]"
+                }
+            ],
+            [
+                {
+                    "Player": "Herp McDerperson",
+                    "Total Time": "46:12:26",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 83], [Hadean : 29], [Scion : 16]"
+                }
+            ],
+            [
+                {
+                    "Player": "Zack",
+                    "Total Time": "41:18:05",
+                    "Status": "Active",
+                    "Last Played": "2026-01-13",
+                    "Factions Played": "[I.S.D.F : 68], [Scion : 21], [Hadean : 19]"
+                }
+            ],
+            [
+                {
+                    "Player": "Sev",
+                    "Total Time": "38:30:04",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 59], [Scion : 30], [Hadean : 24]"
+                }
+            ],
+            [
+                {
+                    "Player": "VTrider",
+                    "Total Time": "35:19:57",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 69], [Scion : 24], [Hadean : 13]"
+                }
+            ],
+            [
+                {
+                    "Player": "HyperVivify",
+                    "Total Time": "35:14:28",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 58], [Scion : 14], [Hadean : 8]"
+                }
+            ],
+            [
+                {
+                    "Player": "Domakus",
+                    "Total Time": "34:09:06",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 53], [Scion : 21], [Hadean : 18]"
+                }
+            ],
+            [
+                {
+                    "Player": "Bylarge",
+                    "Total Time": "28:23:18",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 43], [Scion : 15], [Hadean : 12]"
+                }
+            ],
+            [
+                {
+                    "Player": "X-Triage",
+                    "Total Time": "27:28:51",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 43], [Scion : 21], [Hadean : 10]"
+                }
+            ],
+            [
+                {
+                    "Player": "Certified Bad Guy",
+                    "Total Time": "26:51:16",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 49], [Scion : 19], [Hadean : 5]"
+                }
+            ],
+            [
+                {
+                    "Player": "Econchump",
+                    "Total Time": "26:50:10",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 43], [Scion : 25], [Hadean : 8]"
+                }
+            ],
+            [
+                {
+                    "Player": "M.S",
+                    "Total Time": "25:36:37",
+                    "Status": "Active",
+                    "Last Played": "2026-01-30",
+                    "Factions Played": "[I.S.D.F : 43], [Scion : 19], [Hadean : 5]"
+                }
+            ],
+            [
+                {
+                    "Player": "Xpi",
+                    "Total Time": "24:41:41",
+                    "Status": "Active",
+                    "Last Played": "2026-01-30",
+                    "Factions Played": "[I.S.D.F : 42], [Scion : 18], [Hadean : 8]"
+                }
+            ],
+            [
+                {
+                    "Player": "F9mama",
+                    "Total Time": "21:56:09",
+                    "Status": "Active",
+                    "Last Played": "2026-01-28",
+                    "Factions Played": "[I.S.D.F : 29], [Hadean : 12], [Scion : 12]"
+                }
+            ],
+            [
+                {
+                    "Player": "Blue Banana",
+                    "Total Time": "18:38:48",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 29], [Scion : 6], [Hadean : 5]"
+                }
+            ],
+            [
+                {
+                    "Player": "Maverick",
+                    "Total Time": "16:42:17",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 22], [Scion : 10], [Hadean : 5]"
+                }
+            ],
+            [
+                {
+                    "Player": "Cyber",
+                    "Total Time": "15:21:34",
+                    "Status": "Active",
+                    "Last Played": "2026-01-26",
+                    "Factions Played": "[I.S.D.F : 22], [Scion : 10], [Hadean : 7]"
+                }
+            ],
+            [
+                {
+                    "Player": "Vacuum34",
+                    "Total Time": "14:59:28",
+                    "Status": "Active",
+                    "Last Played": "2026-01-02",
+                    "Factions Played": "[I.S.D.F : 26], [Scion : 8], [Hadean : 6]"
+                }
+            ],
+            [
+                {
+                    "Player": "Systeme",
+                    "Total Time": "13:36:04",
+                    "Status": "Active",
+                    "Last Played": "2026-01-26",
+                    "Factions Played": "[I.S.D.F : 17], [Scion : 11], [Hadean : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Cloaket",
+                    "Total Time": "10:58:26",
+                    "Status": "Active",
+                    "Last Played": "2026-01-27",
+                    "Factions Played": "[I.S.D.F : 18], [Scion : 3], [Hadean : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "RollyPolly",
+                    "Total Time": "10:46:18",
+                    "Status": "Inactive",
+                    "Last Played": "2025-04-25",
+                    "Factions Played": "[Hadean : 12], [Scion : 10], [I.S.D.F : 9]"
+                }
+            ],
+            [
+                {
+                    "Player": "Ultimate",
+                    "Total Time": "8:24:20",
+                    "Status": "Active",
+                    "Last Played": "2026-01-16",
+                    "Factions Played": "[I.S.D.F : 17], [Hadean : 5], [Scion : 5]"
+                }
+            ],
+            [
+                {
+                    "Player": "SwiggityMcgiggity",
+                    "Total Time": "8:09:10",
+                    "Status": "Active",
+                    "Last Played": "2025-12-26",
+                    "Factions Played": "[I.S.D.F : 14], [Scion : 12]"
+                }
+            ],
+            [
+                {
+                    "Player": "Shock",
+                    "Total Time": "8:08:36",
+                    "Status": "Active",
+                    "Last Played": "2026-01-28",
+                    "Factions Played": "[I.S.D.F : 16], [Hadean : 5], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "MAX",
+                    "Total Time": "7:52:01",
+                    "Status": "Active",
+                    "Last Played": "2025-12-28",
+                    "Factions Played": "[I.S.D.F : 16], [Scion : 10], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "HappyOtter",
+                    "Total Time": "7:30:50",
+                    "Status": "Active",
+                    "Last Played": "2025-12-06",
+                    "Factions Played": "[I.S.D.F : 6], [Scion : 4], [Hadean : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Gravey",
+                    "Total Time": "7:15:51",
+                    "Status": "Active",
+                    "Last Played": "2026-01-20",
+                    "Factions Played": "[I.S.D.F : 12], [Scion : 7]"
+                }
+            ],
+            [
+                {
+                    "Player": "MurphysLawUS",
+                    "Total Time": "6:59:22",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 6], [Scion : 4], [Hadean : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Lamper",
+                    "Total Time": "6:38:39",
+                    "Status": "Active",
+                    "Last Played": "2026-01-03",
+                    "Factions Played": "[I.S.D.F : 8], [Scion : 4], [Hadean : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "DD",
+                    "Total Time": "6:16:35",
+                    "Status": "Active",
+                    "Last Played": "2026-01-30",
+                    "Factions Played": "[I.S.D.F : 11], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "SilverBullet",
+                    "Total Time": "5:46:25",
+                    "Status": "Active",
+                    "Last Played": "2026-01-17",
+                    "Factions Played": "[I.S.D.F : 5], [Scion : 5], [Hadean : 4]"
+                }
+            ],
+            [
+                {
+                    "Player": "doctorasher",
+                    "Total Time": "4:21:09",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[I.S.D.F : 8], [Hadean : 1], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Dr.Philadelphia",
+                    "Total Time": "3:20:19",
+                    "Status": "Active",
+                    "Last Played": "2026-01-28",
+                    "Factions Played": "[I.S.D.F : 5], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Feared_1",
+                    "Total Time": "2:50:29",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-10-06",
+                    "Factions Played": "[I.S.D.F : 5], [Scion : 3], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Moboy",
+                    "Total Time": "2:45:12",
+                    "Status": "Active",
+                    "Last Played": "2026-01-02",
+                    "Factions Played": "[I.S.D.F : 5], [Scion : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "sahd0w",
+                    "Total Time": "2:33:19",
+                    "Status": "Active",
+                    "Last Played": "2026-01-30",
+                    "Factions Played": "[I.S.D.F : 5], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "KingFuryKiller",
+                    "Total Time": "2:26:50",
+                    "Status": "Active",
+                    "Last Played": "2026-01-02",
+                    "Factions Played": "[I.S.D.F : 5], [Hadean : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "Sadh0w",
+                    "Total Time": "2:26:19",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-10-11",
+                    "Factions Played": "[Hadean : 3], [I.S.D.F : 2], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "StarFox",
+                    "Total Time": "2:14:39",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-07-26",
+                    "Factions Played": "[I.S.D.F : 5], [Scion : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Whatever",
+                    "Total Time": "2:11:19",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-05-09",
+                    "Factions Played": "[I.S.D.F : 3], [Scion : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Sly",
+                    "Total Time": "2:08:12",
+                    "Status": "Active",
+                    "Last Played": "2026-01-02",
+                    "Factions Played": "[I.S.D.F : 3], [Scion : 2], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Nozza34",
+                    "Total Time": "2:03:23",
+                    "Status": "Active",
+                    "Last Played": "2026-01-17",
+                    "Factions Played": "[Scion : 2], [Hadean : 2], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Gryphon",
+                    "Total Time": "1:55:27",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-07-25",
+                    "Factions Played": "[Scion : 3], [I.S.D.F : 3], [Hadean : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "Lone",
+                    "Total Time": "1:49:51",
+                    "Status": "Active",
+                    "Last Played": "2026-01-16",
+                    "Factions Played": "[Scion : 3], [I.S.D.F : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Acolyte",
+                    "Total Time": "1:35:07",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-08-25",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Psychic",
+                    "Total Time": "1:14:42",
+                    "Status": "Active",
+                    "Last Played": "2026-01-31",
+                    "Factions Played": "[Hadean : 2], [Scion : 2], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Pernicious_lunch",
+                    "Total Time": "1:13:19",
+                    "Status": "Inactive",
+                    "Last Played": "2025-01-02",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "FastChip",
+                    "Total Time": "1:12:02",
+                    "Status": "Active",
+                    "Last Played": "2026-02-02",
+                    "Factions Played": "[I.S.D.F : 1], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Dynamic Solutions",
+                    "Total Time": "1:10:04",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-08-24",
+                    "Factions Played": "[Scion : 2], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "TheBlackDog",
+                    "Total Time": "1:08:42",
+                    "Status": "Active",
+                    "Last Played": "2026-01-16",
+                    "Factions Played": "[Scion : 2], [Hadean : 1], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "VoodooChile",
+                    "Total Time": "1:01:36",
+                    "Status": "Active",
+                    "Last Played": "2025-12-19",
+                    "Factions Played": "[I.S.D.F : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Athelas",
+                    "Total Time": "1:01:25",
+                    "Status": "Inactive",
+                    "Last Played": "2025-01-22",
+                    "Factions Played": "[Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Captain Quirk",
+                    "Total Time": "50:11",
+                    "Status": "Inactive",
+                    "Last Played": "2025-04-17",
+                    "Factions Played": "[I.S.D.F : 2], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Lumi",
+                    "Total Time": "47:34",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-05-09",
+                    "Factions Played": "[Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Xohm",
+                    "Total Time": "46:43",
+                    "Status": "Inactive",
+                    "Last Played": "2025-02-16",
+                    "Factions Played": "[Hadean : 1], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Croatian Knight",
+                    "Total Time": "43:08",
+                    "Status": "Active",
+                    "Last Played": "2025-12-06",
+                    "Factions Played": "[I.S.D.F : 1], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Andrey",
+                    "Total Time": "41:53",
+                    "Status": "Inactive",
+                    "Last Played": "2025-02-21",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Jabbapop",
+                    "Total Time": "41:28",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-09-13",
+                    "Factions Played": "[I.S.D.F : 2], [Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "GrizzlyOne95",
+                    "Total Time": "40:27",
+                    "Status": "Inactive",
+                    "Last Played": "2025-04-24",
+                    "Factions Played": "[I.S.D.F : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "HonourWolf",
+                    "Total Time": "38:42",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-05-03",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Rosario",
+                    "Total Time": "37:02",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-16",
+                    "Factions Played": "[Scion : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "DesUxS",
+                    "Total Time": "36:54",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-09-05",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "mueller43",
+                    "Total Time": "36:43",
+                    "Status": "Inactive",
+                    "Last Played": "2025-04-05",
+                    "Factions Played": "[Scion : 1], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Marduke",
+                    "Total Time": "35:31",
+                    "Status": "Active",
+                    "Last Played": "2026-01-03",
+                    "Factions Played": "[I.S.D.F : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "lux",
+                    "Total Time": "33:16",
+                    "Status": "Inactive",
+                    "Last Played": "2025-02-19",
+                    "Factions Played": "[I.S.D.F : 1], [Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Oldman",
+                    "Total Time": "31:53",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-07-26",
+                    "Factions Played": "[I.S.D.F : 3]"
+                }
+            ],
+            [
+                {
+                    "Player": "Igugf",
+                    "Total Time": "28:38",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-15",
+                    "Factions Played": "[I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Business Lawyer",
+                    "Total Time": "24:40",
+                    "Status": "Inactive",
+                    "Last Played": "2025-01-23",
+                    "Factions Played": "[I.S.D.F : 2]"
+                }
+            ],
+            [
+                {
+                    "Player": "Pantouf",
+                    "Total Time": "22:48",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-16",
+                    "Factions Played": "[Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Sara",
+                    "Total Time": "22:30",
+                    "Status": "Inactive",
+                    "Last Played": "2025-02-21",
+                    "Factions Played": "[Hadean : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Bacon",
+                    "Total Time": "22:20",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-07-25",
+                    "Factions Played": "[Scion : 1], [I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Spymaster",
+                    "Total Time": "21:56",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-22",
+                    "Factions Played": "[Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "arielle",
+                    "Total Time": "21:56",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-22",
+                    "Factions Played": "[Scion : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "$tar",
+                    "Total Time": "20:19",
+                    "Status": "Semi-Active",
+                    "Last Played": "2025-10-05",
+                    "Factions Played": "[I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Juggs",
+                    "Total Time": "20:18",
+                    "Status": "Inactive",
+                    "Last Played": "2025-01-05",
+                    "Factions Played": "[I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "And",
+                    "Total Time": "16:48",
+                    "Status": "Inactive",
+                    "Last Played": "2025-03-14",
+                    "Factions Played": "[I.S.D.F : 1]"
+                }
+            ],
+            [
+                {
+                    "Player": "Zorn",
+                    "Total Time": "13:15",
+                    "Status": "Active",
+                    "Last Played": "2026-01-30",
+                    "Factions Played": "[I.S.D.F : 1]"
+                }
+            ],
+            [
+                "Total Players: 82"
+            ]
+        ],
+        "processed_commander_times": [
+            [
+                {
+                    "Commander": "F9bomber",
+                    "Total Time": "49:40:27",
+                    "Average Time": "26:51",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "VTrider",
+                    "Total Time": "43:41:01",
+                    "Average Time": "24:29",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Zack",
+                    "Total Time": "40:35:27",
+                    "Average Time": "21:56",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Blue Banana",
+                    "Total Time": "37:19:03",
+                    "Average Time": "25:09",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Lithium",
+                    "Total Time": "30:36:09",
+                    "Average Time": "25:51",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Sev",
+                    "Total Time": "25:23:39",
+                    "Average Time": "26:16",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Certified Bad Guy",
+                    "Total Time": "24:22:24",
+                    "Average Time": "21:49",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Darkvale",
+                    "Total Time": "22:02:11",
+                    "Average Time": "27:32",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Nomad",
+                    "Total Time": "18:17:17",
+                    "Average Time": "22:51",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Gravey",
+                    "Total Time": "17:19:21",
+                    "Average Time": "23:37",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Cloaket",
+                    "Total Time": "11:17:48",
+                    "Average Time": "24:12",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Xpi",
+                    "Total Time": "10:59:21",
+                    "Average Time": "18:18",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "M.S",
+                    "Total Time": "10:45:31",
+                    "Average Time": "23:54",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Rosario",
+                    "Total Time": "7:21:24",
+                    "Average Time": "44:08",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "RollyPolly",
+                    "Total Time": "6:01:10",
+                    "Average Time": "24:04",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "MurphysLawUS",
+                    "Total Time": "5:20:30",
+                    "Average Time": "22:53",
+                    "First Year on Record": 2026
+                }
+            ],
+            [
+                {
+                    "Commander": "Judgeguns",
+                    "Total Time": "5:02:26",
+                    "Average Time": "27:29",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "X-Triage",
+                    "Total Time": "5:02:26",
+                    "Average Time": "17:47",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Vacuum34",
+                    "Total Time": "4:55:15",
+                    "Average Time": "32:48",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Econchump",
+                    "Total Time": "4:50:58",
+                    "Average Time": "19:23",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Domakus",
+                    "Total Time": "4:29:40",
+                    "Average Time": "22:28",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Herp McDerperson",
+                    "Total Time": "4:12:26",
+                    "Average Time": "22:56",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Maverick",
+                    "Total Time": "4:11:30",
+                    "Average Time": "22:51",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "HyperVivify",
+                    "Total Time": "4:07:44",
+                    "Average Time": "30:58",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Muffin",
+                    "Total Time": "3:35:34",
+                    "Average Time": "26:56",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "DD",
+                    "Total Time": "3:25:31",
+                    "Average Time": "34:15",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Cyber",
+                    "Total Time": "2:21:34",
+                    "Average Time": "17:41",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Shock",
+                    "Total Time": "2:04:42",
+                    "Average Time": "41:34",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Sly",
+                    "Total Time": "2:00:48",
+                    "Average Time": "24:09",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Jabbapop",
+                    "Total Time": "1:59:38",
+                    "Average Time": "14:57",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Bylarge",
+                    "Total Time": "1:49:08",
+                    "Average Time": "18:11",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Lamper",
+                    "Total Time": "1:20:07",
+                    "Average Time": "20:01",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "DesUxS",
+                    "Total Time": "1:15:30",
+                    "Average Time": "37:45",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "KingFuryKiller",
+                    "Total Time": "1:13:16",
+                    "Average Time": "36:38",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "MAX",
+                    "Total Time": "1:11:14",
+                    "Average Time": "23:44",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Ultimate",
+                    "Total Time": "58:08",
+                    "Average Time": "19:22",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "SwiggityMcgiggity",
+                    "Total Time": "38:55",
+                    "Average Time": "38:55",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Bacon",
+                    "Total Time": "37:17",
+                    "Average Time": "18:38",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "F9mama",
+                    "Total Time": "33:55",
+                    "Average Time": "16:57",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Systeme",
+                    "Total Time": "28:34",
+                    "Average Time": "28:34",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Whatever",
+                    "Total Time": "25:57",
+                    "Average Time": "12:58",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Spacewars",
+                    "Total Time": "19:02",
+                    "Average Time": "19:02",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Xohm",
+                    "Total Time": "14:24",
+                    "Average Time": "14:24",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "StarFox",
+                    "Total Time": "13:15",
+                    "Average Time": "13:15",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "SilverBullet",
+                    "Total Time": "8:05",
+                    "Average Time": "8:05",
+                    "First Year on Record": 2025
+                }
+            ],
+            [
+                {
+                    "Commander": "Nozza34",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "AI_Unit",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Zentuski",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Acolyte",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Laguna",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "CamelBay",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "DustRider",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "HappyOtter",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Seige",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "DatGuy",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "General BlackDragon",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Nielk1",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                {
+                    "Commander": "Athelas",
+                    "Total Time": "0:00",
+                    "Average Time": "0:00",
+                    "First Year on Record": 2024
+                }
+            ],
+            [
+                "Total Commanders: 58"
+            ]
+        ]
     },
     "BZCC-2025-Tournament": {
         "raw": {
@@ -40068,5 +42579,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2026/02/03 04:58AM UTC"
+    "last_updated": "2026/02/06 05:36AM UTC"
 }
