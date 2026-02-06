@@ -21,6 +21,32 @@ def read_file(file_path):
         return json.load(f)
 
 
+def time_to_seconds(t):
+    if not t or t == "NA":
+        return 0
+
+    parts = list(map(int, t.split(":")))
+
+    if len(parts) == 2:  # MM:SS
+        minutes, seconds = parts
+        return minutes * 60 + seconds
+    elif len(parts) == 3:  # H:MM:SS
+        hours, minutes, seconds = parts
+        return hours * 3600 + minutes * 60 + seconds
+    else:
+        raise ValueError(f"Invalid time format: {t}")
+
+
+def format_time(seconds):
+    hours = seconds // 3600
+    minutes = (seconds % 3600) // 60
+    seconds = seconds % 60
+
+    if hours:
+        return f"{hours}:{minutes:02d}:{seconds:02d}"
+    return f"{minutes}:{seconds:02d}"
+
+
 # Function to extract map values and counts
 def extract_map_counts(d):
     map_values = []
@@ -145,6 +171,301 @@ def count_faction_plays_and_wins(data):
     return commander_faction_counts, commander_faction_wins
 
 
+def count_game_times(json_data):
+    get_months = json_data["month"]
+
+    total_seconds = 0
+    times = []
+    time_list = []
+
+    shortest_match = None
+    longest_match = None
+    shortest_time = float("inf")
+    longest_time = 0
+
+    for month in get_months.values():
+        for day in month.values():
+            for match in day.values():
+                t = match.get("time")
+
+                if not t or t == "NA":
+                    continue
+
+                seconds = time_to_seconds(t)
+
+                times.append(seconds)
+                total_seconds += seconds
+
+                if seconds < shortest_time:
+                    shortest_time = seconds
+                    shortest_match = match
+
+                if seconds > longest_time:
+                    longest_time = seconds
+                    longest_match = match
+
+    if not times:
+        print("No valid game times found.")
+        return
+
+    count = len(times)
+
+    mean_seconds = total_seconds / count
+
+    sorted_times = sorted(times)
+    mid = count // 2
+    if count % 2 == 1:
+        median_seconds = sorted_times[mid]
+    else:
+        median_seconds = (sorted_times[mid - 1] + sorted_times[mid]) / 2
+
+    counts = Counter(times)
+    most_common_time, freq = counts.most_common(1)[0]
+    mode_seconds = most_common_time if freq > 1 else None
+
+    range_seconds = max(times) - min(times)
+
+    time_list.append([["Total Time", format_time(total_seconds)], ["Mean", format_time(int(mean_seconds))],
+                      ["Median", format_time(int(median_seconds))], ["Range", format_time(range_seconds)]])
+
+    if mode_seconds is not None:
+        time_list.append(["Mode", format_time(mode_seconds)])
+    else:
+        time_list.append(["Mode: No mode (all values unique)", ""])
+
+    time_list.append([["Shortest Match", format_time(shortest_time)], [shortest_match], ["Longest Match",
+                                                                                         format_time(longest_time)],
+                      [longest_match]])
+
+    return time_list
+
+
+def count_game_totals(json_data):
+
+    months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ]
+
+    get_months = json_data["month"]
+
+    count_total_days_in_year, count_total_games_in_year = 0, 0
+    months_list = []
+
+    for i in range(len(months)):
+        if get_months.get(months[i]) is not None:
+            count_total_days_in_year += len(get_months[months[i]])  # days
+            count_games = {day: len(matches) for day, matches in get_months[months[i]].items()}
+            count_total_games_in_year += sum(count_games.values())
+            months_list.append([months[i], count_games, {"Day(s) Played": len(get_months[months[i]])},
+                                {"Game(s) Played": sum(count_games.values())}])
+
+    months_list.append(
+        [{f"Total Days Played": count_total_days_in_year}, {f"Total Games Played": count_total_games_in_year}])
+    return months_list
+
+
+def print_player_times(json_data):
+    player_times = defaultdict(int)
+    last_played = {}
+    player_factions = defaultdict(lambda: defaultdict(int))  # Tracks faction counts
+
+    def parse_date(date_obj):
+        m, d, y = date_obj.split(".")
+        y = int(y) + 2000
+        return datetime(y, int(m), int(d))
+
+    def time_to_seconds_in_func(time_str):
+        if not time_str or not time_str.replace(":", "").isdigit():
+            return 0  # Handle None, "NA", or other non-numeric times
+        parts = list(map(int, time_str.split(":")))
+        if len(parts) == 2:
+            return parts[0] * 60 + parts[1]
+        elif len(parts) == 3:
+            return parts[0] * 3600 + parts[1] * 60 + parts[2]
+        return 0
+
+    for year in sorted(json_data.keys()):
+        raw_key = f"raw_{year}"
+
+        if raw_key not in json_data[year]:
+            continue
+
+        months = json_data[year][raw_key]["month"]
+
+        for month in months.values():
+            for day in month.values():
+                for match in day.values():
+                    raw_time = match.get("time")
+                    seconds = time_to_seconds_in_func(raw_time)
+                    if seconds == 0:
+                        continue
+
+                    date_str = match.get("date")
+                    match_date = parse_date(date_str) if date_str else None
+
+                    team1 = match.get("teamOne", [])
+                    team2 = match.get("teamTwo", [])
+
+                    # Parse factions (expected format: "[I.S.D.F, Scion]")
+                    factions = match.get("factions", "")
+                    factions = factions.strip("[]").split(",")
+                    factions = [f.strip() for f in factions]
+                    if len(factions) < 2:  # Skip if malformed
+                        team1_faction = team2_faction = "Unknown"
+                    else:
+                        team1_faction, team2_faction = factions[0], factions[1]
+
+                    for player in team1:
+                        if not player:
+                            continue
+                        player = player.strip()
+                        if not player:
+                            continue
+                        player_times[player] += seconds
+                        player_factions[player][team1_faction] += 1
+                        if match_date and (player not in last_played or match_date > last_played[player]):
+                            last_played[player] = match_date
+
+                    for player in team2:
+                        if not player:
+                            continue
+                        player = player.strip()
+                        if not player:
+                            continue
+                        player_times[player] += seconds
+                        player_factions[player][team2_faction] += 1
+                        if match_date and (player not in last_played or match_date > last_played[player]):
+                            last_played[player] = match_date
+
+    now = datetime.now()
+
+    get_player_count = []
+    get_player_info = []
+
+    for player, total_seconds in sorted(player_times.items(), key=lambda x: x[1], reverse=True):
+        get_player_count.append(player)
+
+        last_date = last_played.get(player)
+        if last_date:
+            months_inactive = (now.year - last_date.year) * 12 + (now.month - last_date.month)
+            if months_inactive <= 3:
+                status = "Active"
+            elif months_inactive <= 9:
+                status = "Semi-Active"
+            else:
+                status = "Inactive"
+            last_str = last_date.date()
+        else:
+            status = "Unknown"
+            last_str = "N/A"
+
+        # Show all factions played with counts, sorted by count
+        factions_count = player_factions[player]
+        if factions_count:
+            sorted_factions = sorted(factions_count.items(), key=lambda x: x[1], reverse=True)
+            faction_str = ", ".join(f"[{faction} : {count}]" for faction, count in sorted_factions)
+        else:
+            faction_str = "N/A"
+
+        get_player_info.append([{"Player": player, "Total Time": format_time(total_seconds), "Status": status,
+                                 "Last Played": last_str.strftime('%Y-%m-%d'), "Factions Played": faction_str}])
+
+    get_player_info.append([f"Total Players: {len(get_player_count)}"])
+
+    return get_player_info
+
+
+def print_commander_times(json_data):
+    total_time = defaultdict(int)  # commander -> total seconds (timed only)
+    timed_matches = defaultdict(int)  # commander -> matches with real time
+    all_matches = defaultdict(int)  # commander -> all matches (incl NA)
+    first_year = {}  # commander -> the earliest year seen
+
+    for year in sorted(json_data.keys()):
+        raw_key = f"raw_{year}"
+
+        if raw_key not in json_data[year]:
+            continue
+
+        data = json_data[year][raw_key]["month"]
+
+        for month in data.values():
+            for day in month.values():
+                for match in day.values():
+                    t = match.get("time")
+                    c = match.get("commanders")
+
+                    if not c:
+                        continue
+
+                    commanders = [name.strip() for name in c.split("vs")]
+
+                    for commander in commanders:
+                        # record earliest year commanding
+                        if commander not in first_year:
+                            first_year[commander] = year
+
+                        # always count the match, even if time is NA
+                        all_matches[commander] += 1
+
+                    # skip time accumulation if NA
+                    if not t or t == "NA":
+                        continue
+
+                    seconds = time_to_seconds(t)
+
+                    for commander in commanders:
+                        total_time[commander] += seconds
+                        timed_matches[commander] += 1
+
+    # sort by most total time to least (NA-only commanders end up at bottom)
+    sorted_commanders = sorted(
+        first_year.keys(),
+        key=lambda c: total_time[c],
+        reverse=True
+    )
+
+    # print("\nCommander stats (all years)")
+    # print("-" * 70)
+    # print(f"{'Commander':<22} {'Total':>8} {'Avg':>8} {'First Year On Record':>12}")
+    # print("-" * 70)
+
+    get_commander_info = []
+
+    for commander in sorted_commanders:
+        total_seconds = total_time[commander]
+        timed_count = timed_matches[commander]
+
+        avg_seconds = total_seconds // timed_count if timed_count > 0 else 0
+
+        get_commander_info.append([{"Commander": commander, "Total Time": format_time(total_seconds),
+                                    "Average Time": format_time(avg_seconds),
+                                    "First Year on Record": first_year[commander]}])
+
+        '''
+        print(
+            f"{commander:<22} "
+            f"{format_time(total_seconds):>8} "
+            f"{format_time(avg_seconds):>8} "
+            f"{first_year[commander]:>12}"
+        )
+        '''
+
+    get_commander_info.append([f"Total Commanders: {len(sorted_commanders)}"])
+    return get_commander_info
+
+
 # Function to process the data and collect results
 def process_file(data, year):
     print(f"Processing {year} data:")
@@ -164,6 +485,12 @@ def process_file(data, year):
     commander_faction_counts, commander_faction_wins = count_faction_plays_and_wins(data)
     print("Faction plays and wins counted.")
 
+    game_times = count_game_times(data)
+    print("Game times counted.")
+
+    game_totals = count_game_totals(data)
+    print("Game totals counted.")
+
     return {
         'map_counts': map_counts_list,
         'unique_map_values': unique_map_values,
@@ -171,7 +498,9 @@ def process_file(data, year):
         'commander_win_percentages': commander_win_percentages,
         'faction_counter': faction_counter,
         'commander_faction_counts': commander_faction_counts,
-        'commander_faction_wins': commander_faction_wins
+        'commander_faction_wins': commander_faction_wins,
+        'game_times': game_times,
+        'game_totals': game_totals
     }
 
 
@@ -340,7 +669,9 @@ output_data["processed_data"] = {
     "processed_commander_faction_counts": process_commander_faction_counts(output_data),
     "processed_commander_win_percentages": process_commander_win_percentages(output_data),
     "processed_commander_list": process_commander_list(output_data),
-    "processed_map_popularity": categorize_maps(process_map_counts(output_data))
+    "processed_map_popularity": categorize_maps(process_map_counts(output_data)),
+    "processed_player_times": print_player_times(output_data),
+    "processed_commander_times": print_commander_times(output_data)
 }
 
 
@@ -372,3 +703,4 @@ with open(output_path, 'w') as output_file:
     json.dump(output_data, output_file, indent=4)
 
 print(f"Combined and updated JSON data saved to {output_path}")
+
