@@ -26314,9 +26314,9 @@
 					"date": "02.11.26",
 					"map": "Sahara",
 					"commanders": "Nomad vs Maverick",
-					"factions": "[I.S.D.F, Hadean]",
+					"factions": "[Hadean, I.S.D.F]",
 					"winningFaction": "Hadean",
-					"winner": "Maverick",
+					"winner": "Nomad",
 					"time": "NA",
 					"teamOne": [
 						"Darkvale"
