@@ -6999,6 +6999,24 @@
 					]
 				}
 			},
+			"11.3.25": {
+				"Red Slope": {
+					"date": "11.3.25",
+					"map": "Red Slope",
+					"commanders": "Nomad vs Judgeguns",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "NA",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "Submitted game by Nomad"
+				}
+			},
 			"11.9.25": {
 				"Sahara": {
 					"date": "11.9.25",

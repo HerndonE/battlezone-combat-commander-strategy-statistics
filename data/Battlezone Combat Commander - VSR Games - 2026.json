@@ -25922,6 +25922,22 @@
 				}
 			},
 			"02.9.26": {
+				"Barren": {
+					"date": "02.13.26",
+					"map": "Barren",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "NA",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "Submitted game by Nomad."
+				},
 				"Giza": {
 					"date": "02.9.26",
 					"map": "Giza",
@@ -26293,7 +26309,74 @@
 					}
 				}
 			},
+			"02.11.26": {
+				"Sahara": {
+					"date": "02.11.26",
+					"map": "Sahara",
+					"commanders": "Nomad vs Maverick",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Maverick",
+					"time": "NA",
+					"teamOne": [
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Lithium"
+					],
+					"_comment": " Submitted game by Nomad"
+				}
+			},
 			"02.13.26": {
+				"Barren": {
+					"date": "02.13.26",
+					"map": "Barren",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "NA",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"_comment": "Submitted game by Nomad. This game was played on 02.9.26, but had to put another date due to a current bug in code."
+				},
+				"Insula": {
+					"date": "02.13.26",
+					"map": "Insula",
+					"commanders": "HyperVivify vs Judgeguns",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "HyperVivify",
+					"time": "NA",
+					"teamOne": [
+						"Maverick"
+					],
+					"teamTwo": [
+						"M.S",
+						"Darkvale"
+					],
+					"_comment": "Submitted game by HyperVivify"
+				},
+				"Jade Green": {
+					"date": "02.13.26",
+					"map": "Jade Green",
+					"commanders": "HyperVivify vs M.S",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "NA",
+					"teamOne": [
+						"Maverick"
+					],
+					"teamTwo": [
+						"Darkvale"
+					],
+					"_comment": "Submitted game by HyperVivify"
+				},
 				"Phoenix": {
 					"date": "02.13.26",
 					"map": "Phoenix",
