@@ -1359,9 +1359,9 @@
 					"winningFaction": "I.S.D.F",
 					"winner": "Seige"
 				},
-				"Caiscus": {
+				"Casius": {
 					"date": "8.31.24",
-					"map": "Caiscus",
+					"map": "Casius",
 					"commanders": "Muffin vs Jabbapop",
 					"factions": "[Hadean, I.S.D.F]",
 					"winningFaction": "Hadean",
@@ -1889,9 +1889,9 @@
 		},
 		"October": {
 			"10.1.24": {
-				"Assualt": {
+				"Aussault": {
 					"date": "10.1.24",
-					"map": "Assualt",
+					"map": "Aussault",
 					"commanders": "Sev vs Jabbapop",
 					"factions": "[Hadean, I.S.D.F]",
 					"winningFaction": "Hadean",
