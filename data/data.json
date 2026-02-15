@@ -3069,98 +3069,98 @@
                 ]
             ],
             "unique_map_values": [
-                "Reflex",
-                "Dream",
-                "Hi-Mid-Lo",
-                "High Heat",
-                "Chill",
-                "Giza",
-                "Oxide",
-                "310",
-                "Dusk",
-                "Crater",
-                "Iceberg",
-                "Pitbull",
-                "Casius",
-                "Tempest",
-                "Excavation",
-                "Plus",
-                "Consciousness",
-                "Lunix",
-                "Moonshroud",
-                "Mountain Top",
-                "Oldboy",
-                "Phoenix",
-                "Strategy Arena",
-                "Insula",
-                "Alien Dunes",
-                "High & Low",
-                "Scion Central",
-                "Iraq",
-                "Mort's Wasteland",
-                "Stone Circle",
-                "No Mans Land",
-                "Ice Age",
-                "Prodigy Ver .2",
-                "Haven",
-                "Lunar",
-                "Aussault",
-                "Mojave",
-                "JO Crystal",
-                "Madern Warfare",
-                "Selena",
-                "Island of V8",
-                "Ragnarok",
-                "Trench",
-                "Beyond",
-                "Europa",
-                "Ravine",
-                "Plaza",
-                "Scammed",
-                "Rendon",
-                "Ridges",
-                "Titan",
-                "Garden",
-                "Forgotten",
-                "Barren",
-                "Transfer",
-                "Aztec",
-                "Domain",
-                "Bridges",
-                "Rectal",
-                "Quarry",
-                "Vegan",
-                "Ogg Vorbis",
-                "Mesa",
-                "Echelon",
-                "Bowl",
-                "Abundance",
-                "Phazon",
-                "Snow Central",
-                "Throbbing Gristle",
-                "Ebola",
-                "Ancient Hills",
-                "Twin Peaks",
                 "Europa Night",
-                "Oasis",
-                "Quagmire",
-                "Satart",
-                "Mexican Mission",
-                "Dune Night",
-                "Vortex",
-                "Sahara",
-                "Terron",
-                "Royal Stadium",
+                "Strategy Arena",
+                "Consciousness",
+                "Twin Peaks",
+                "Alien Dunes",
+                "Rendon",
                 "Sinister",
-                "Hound",
-                "Terrace",
                 "Overlook",
-                "Remnant",
-                "Egypt",
+                "Beyond",
+                "Mountain Top",
+                "Throbbing Gristle",
+                "Oxide",
+                "Prodigy Ver .2",
+                "Garden",
+                "Excavation",
+                "Concrete Jungle",
                 "Trail",
-                "Abuse",
+                "Dusk",
+                "Iceberg",
+                "Echelon",
+                "Vortex",
+                "Pitbull",
+                "Mojave",
+                "Terron",
+                "Satart",
+                "Mesa",
+                "Ogg Vorbis",
+                "Domain",
+                "Barren",
+                "Tempest",
+                "Vegan",
+                "Plaza",
+                "Chill",
+                "Bowl",
+                "Stone Circle",
+                "Abundance",
+                "Reflex",
+                "Ancient Hills",
+                "Casius",
+                "Ragnarok",
+                "Moonshroud",
+                "Scammed",
+                "Lunix",
+                "Oldboy",
+                "Crater",
+                "Transfer",
                 "Red Slope",
-                "Concrete Jungle"
+                "Forgotten",
+                "Mort's Wasteland",
+                "Aztec",
+                "Terrace",
+                "Hi-Mid-Lo",
+                "Island of V8",
+                "Remnant",
+                "Ridges",
+                "Ravine",
+                "Selena",
+                "Plus",
+                "Giza",
+                "Aussault",
+                "Egypt",
+                "Quagmire",
+                "Ebola",
+                "Dream",
+                "Mexican Mission",
+                "Madern Warfare",
+                "Quarry",
+                "Insula",
+                "Trench",
+                "Snow Central",
+                "JO Crystal",
+                "Phazon",
+                "Titan",
+                "Iraq",
+                "Phoenix",
+                "No Mans Land",
+                "Lunar",
+                "Scion Central",
+                "Dune Night",
+                "High & Low",
+                "Abuse",
+                "Ice Age",
+                "Oasis",
+                "Sahara",
+                "Europa",
+                "High Heat",
+                "310",
+                "Haven",
+                "Rectal",
+                "Bridges",
+                "Hound",
+                "Royal Stadium"
             ],
             "commander_list": [
                 [
@@ -11063,6 +11063,24 @@
                             ]
                         }
                     },
+                    "11.3.25": {
+                        "Red Slope": {
+                            "date": "11.3.25",
+                            "map": "Red Slope",
+                            "commanders": "Nomad vs Judgeguns",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Nomad",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by Nomad"
+                        }
+                    },
                     "11.9.25": {
                         "Sahara": {
                             "date": "11.9.25",
@@ -13535,7 +13553,7 @@
             "map_counts": [
                 [
                     "Red Slope",
-                    29
+                    30
                 ],
                 [
                     "Mojave",
@@ -13867,89 +13885,89 @@
                 ]
             ],
             "unique_map_values": [
-                "Reflex",
-                "Dream",
-                "Giza",
-                "Middle Wars",
-                "310",
-                "Toxicity",
-                "Pitbull",
-                "Casius",
-                "Tempest",
-                "Excavation",
-                "XMAS-Europa",
-                "Plus",
-                "Mayhem",
-                "Consciousness",
-                "Lunix",
-                "Moonshroud",
-                "Mountain Top",
-                "Oldboy",
-                "Strategy Arena",
-                "Insula",
-                "Cracked",
-                "High & Low",
-                "Ground Zero",
-                "Ancient Outposts",
-                "Fort 12C",
-                "XMAS-Remnant",
-                "Iraq",
-                "Mort's Wasteland",
-                "Ice Age",
-                "Prodigy Ver .2",
-                "Jurrasic Dog Park",
-                "Haven",
-                "Lunar",
-                "Aussault",
-                "Magma",
-                "Mojave",
                 "Impact",
-                "Jade Green",
-                "XMAS-Haven",
-                "XMAS-Consciousness",
-                "Selena",
-                "Island of V8",
-                "Ragnarok",
-                "Trench",
-                "Europa",
-                "Plaza",
-                "Scammed",
-                "Rendon",
-                "Ridges",
-                "Titan",
-                "Garden",
-                "Barren",
-                "Forgotten",
-                "Transfer",
-                "Aztec",
-                "Domain",
-                "The War",
-                "Revolution",
-                "Quarry",
-                "Vegan",
-                "Mesa",
-                "Echelon",
-                "Bowl",
-                "Snow Central",
-                "Throbbing Gristle",
-                "Ebola",
-                "Ancient Hills",
-                "Twin Peaks",
                 "Europa Night",
-                "Oasis",
-                "Quagmire",
-                "Mexican Mission",
-                "Vortex",
-                "Terron",
-                "Sahara",
-                "Hound",
+                "Strategy Arena",
+                "Consciousness",
+                "Twin Peaks",
+                "Rendon",
                 "Overlook",
-                "Power Struggle",
-                "Remnant",
-                "Egypt",
+                "Mountain Top",
+                "Throbbing Gristle",
+                "Prodigy Ver .2",
+                "Garden",
+                "Excavation",
                 "Trail",
+                "Echelon",
+                "Vortex",
+                "Pitbull",
+                "Mojave",
+                "Terron",
+                "Mesa",
+                "Domain",
+                "Barren",
+                "Tempest",
+                "Vegan",
+                "Plaza",
+                "Magma",
+                "Bowl",
+                "XMAS-Haven",
+                "Power Struggle",
+                "Reflex",
+                "Ancient Hills",
+                "Fort 12C",
+                "Casius",
+                "Ragnarok",
+                "Moonshroud",
+                "Scammed",
+                "Lunix",
+                "Ground Zero",
+                "Oldboy",
+                "Toxicity",
+                "Transfer",
+                "The War",
+                "Red Slope",
+                "Forgotten",
+                "Revolution",
+                "Mort's Wasteland",
+                "Aztec",
+                "Island of V8",
+                "Remnant",
+                "Ridges",
+                "Selena",
+                "Plus",
+                "Cracked",
+                "Giza",
+                "Aussault",
+                "Egypt",
+                "Middle Wars",
+                "Quagmire",
+                "Ancient Outposts",
+                "Jurrasic Dog Park",
+                "Ebola",
+                "Dream",
+                "Mexican Mission",
+                "Insula",
+                "Snow Central",
+                "Trench",
+                "Quarry",
+                "Mayhem",
+                "Titan",
+                "Iraq",
+                "XMAS-Remnant",
+                "Lunar",
+                "High & Low",
                 "Abuse",
-                "Red Slope"
+                "Ice Age",
+                "Oasis",
+                "Sahara",
+                "Europa",
+                "310",
+                "Haven",
+                "XMAS-Europa",
+                "XMAS-Consciousness",
+                "Jade Green",
+                "Hound"
             ],
             "commander_list": [
                 [
@@ -13986,7 +14004,7 @@
                 ],
                 [
                     "Nomad",
-                    38
+                    39
                 ],
                 [
                     "Darkvale",
@@ -14025,12 +14043,12 @@
                     10
                 ],
                 [
-                    "Herp McDerperson",
+                    "Judgeguns",
                     10
                 ],
                 [
-                    "Judgeguns",
-                    9
+                    "Herp McDerperson",
+                    10
                 ],
                 [
                     "Vacuum34",
@@ -14348,9 +14366,9 @@
                 ],
                 [
                     "Nomad",
-                    28.947368421052634,
-                    38,
-                    11
+                    30.76923076923077,
+                    39,
+                    12
                 ],
                 [
                     "Darkvale",
@@ -14366,8 +14384,8 @@
                 ],
                 [
                     "Judgeguns",
-                    11.11111111111111,
-                    9,
+                    10.0,
+                    10,
                     1
                 ],
                 [
@@ -14396,7 +14414,7 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 512,
+                "I.S.D.F": 514,
                 "Hadean": 151,
                 "Scion": 211
             },
@@ -14469,7 +14487,7 @@
                     "Scion": 2
                 },
                 "Judgeguns": {
-                    "I.S.D.F": 9
+                    "I.S.D.F": 10
                 },
                 "RollyPolly": {
                     "Scion": 15
@@ -14535,7 +14553,7 @@
                     "Hadean": 8
                 },
                 "Nomad": {
-                    "I.S.D.F": 35,
+                    "I.S.D.F": 36,
                     "Scion": 2,
                     "Hadean": 1
                 },
@@ -14694,7 +14712,7 @@
                     "I.S.D.F": 1
                 },
                 "Nomad": {
-                    "I.S.D.F": 10,
+                    "I.S.D.F": 11,
                     "Hadean": 1
                 },
                 "DesUxS": {
@@ -15027,6 +15045,7 @@
                     "November",
                     {
                         "11.1.25": 4,
+                        "11.3.25": 1,
                         "11.9.25": 1,
                         "11.14.25": 3,
                         "11.23.25": 2,
@@ -15035,10 +15054,10 @@
                         "11.30.25": 7
                     },
                     {
-                        "Day(s) Played": 7
+                        "Day(s) Played": 8
                     },
                     {
-                        "Game(s) Played": 29
+                        "Game(s) Played": 30
                     }
                 ],
                 [
@@ -15069,10 +15088,10 @@
                 ],
                 [
                     {
-                        "Total Days Played": 146
+                        "Total Days Played": 147
                     },
                     {
-                        "Total Games Played": 437
+                        "Total Games Played": 438
                     }
                 ]
             ]
@@ -41003,6 +41022,22 @@
                         }
                     },
                     "02.9.26": {
+                        "Barren": {
+                            "date": "02.13.26",
+                            "map": "Barren",
+                            "commanders": "Nomad vs Darkvale",
+                            "factions": "[Hadean, Scion]",
+                            "winningFaction": "Hadean",
+                            "winner": "Nomad",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by Nomad."
+                        },
                         "Giza": {
                             "date": "02.9.26",
                             "map": "Giza",
@@ -41374,7 +41409,74 @@
                             }
                         }
                     },
+                    "02.11.26": {
+                        "Sahara": {
+                            "date": "02.11.26",
+                            "map": "Sahara",
+                            "commanders": "Nomad vs Maverick",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "Maverick",
+                            "time": "NA",
+                            "teamOne": [
+                                "Darkvale"
+                            ],
+                            "teamTwo": [
+                                "Lithium"
+                            ],
+                            "_comment": " Submitted game by Nomad"
+                        }
+                    },
                     "02.13.26": {
+                        "Barren": {
+                            "date": "02.13.26",
+                            "map": "Barren",
+                            "commanders": "Nomad vs Darkvale",
+                            "factions": "[Hadean, Scion]",
+                            "winningFaction": "Hadean",
+                            "winner": "Nomad",
+                            "time": "NA",
+                            "teamOne": [
+                                ""
+                            ],
+                            "teamTwo": [
+                                ""
+                            ],
+                            "_comment": "Submitted game by Nomad. This game was played on 02.9.26, but had to put another date due to a current bug in code."
+                        },
+                        "Insula": {
+                            "date": "02.13.26",
+                            "map": "Insula",
+                            "commanders": "HyperVivify vs Judgeguns",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "HyperVivify",
+                            "time": "NA",
+                            "teamOne": [
+                                "Maverick"
+                            ],
+                            "teamTwo": [
+                                "M.S",
+                                "Darkvale"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
+                        "Jade Green": {
+                            "date": "02.13.26",
+                            "map": "Jade Green",
+                            "commanders": "HyperVivify vs M.S",
+                            "factions": "[Hadean, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "M.S",
+                            "time": "NA",
+                            "teamOne": [
+                                "Maverick"
+                            ],
+                            "teamTwo": [
+                                "Darkvale"
+                            ],
+                            "_comment": "Submitted game by HyperVivify"
+                        },
                         "Phoenix": {
                             "date": "02.13.26",
                             "map": "Phoenix",
@@ -42377,16 +42479,16 @@
                     5
                 ],
                 [
+                    "Insula",
+                    5
+                ],
+                [
                     "Red Slope",
                     5
                 ],
                 [
                     "Oldboy",
                     5
-                ],
-                [
-                    "Insula",
-                    4
                 ],
                 [
                     "Oasis",
@@ -42398,6 +42500,10 @@
                 ],
                 [
                     "Ice Age",
+                    3
+                ],
+                [
+                    "Barren",
                     3
                 ],
                 [
@@ -42454,6 +42560,10 @@
                 ],
                 [
                     "Ridges",
+                    2
+                ],
+                [
+                    "Sahara",
                     2
                 ],
                 [
@@ -42533,19 +42643,11 @@
                     1
                 ],
                 [
-                    "Sahara",
-                    1
-                ],
-                [
                     "Dune Night",
                     1
                 ],
                 [
                     "Ancient Hills",
-                    1
-                ],
-                [
-                    "Barren",
                     1
                 ],
                 [
@@ -42581,69 +42683,74 @@
                     1
                 ],
                 [
+                    "Jade Green",
+                    1
+                ],
+                [
                     "Phoenix",
                     1
                 ]
             ],
             "unique_map_values": [
-                "Reflex",
-                "Plaza",
-                "Curiosity",
-                "Scammed",
-                "Flooded",
-                "Rendon",
-                "Ridges",
-                "Fort 12C",
-                "Dune Night",
-                "Titan",
-                "Garden",
                 "Barren",
-                "Equinox",
-                "Giza",
-                "Hilo Blues",
-                "No Mans Land",
-                "Fever Valley",
-                "Terron",
-                "Ice Age",
-                "Middle Wars",
-                "Sahara",
-                "310",
-                "Dusk",
-                "Prodigy Ver .2",
-                "Haven",
-                "Lunar",
-                "Aussault",
-                "Stack",
-                "Vegan",
-                "Mojave",
-                "Ogg Vorbis",
-                "Excavation",
-                "Overlook",
-                "Power Struggle",
                 "Impact",
-                "Remnant",
-                "Egypt",
-                "Echelon",
-                "Mayhem",
-                "Abuse",
+                "Strategy Arena",
+                "Hilo Blues",
+                "Vegan",
                 "Red Slope",
-                "Bowl",
-                "Abundance",
-                "Snow Central",
+                "Twin Peaks",
+                "Plaza",
+                "Titan",
+                "Phoenix",
+                "Flooded",
+                "Curiosity",
+                "Know Thyself",
+                "No Mans Land",
+                "Rendon",
+                "Rapemas",
+                "Overlook",
                 "Throbbing Gristle",
                 "Island of V8",
-                "Oldboy",
-                "Ancient Hills",
+                "Remnant",
+                "Bowl",
+                "Ridges",
                 "Nigeria",
-                "Phoenix",
-                "Rapemas",
-                "Insula",
-                "Strategy Arena",
-                "Twin Peaks",
+                "Prodigy Ver .2",
+                "Lunar",
+                "Power Struggle",
+                "Dune Night",
+                "Garden",
+                "Excavation",
+                "Abuse",
+                "Abundance",
+                "Ice Age",
                 "Cracked",
+                "Giza",
                 "Oasis",
+                "Aussault",
+                "Stack",
+                "Egypt",
+                "Middle Wars",
+                "Reflex",
                 "Quagmire",
-                "Know Thyself"
+                "Ancient Hills",
+                "Ogg Vorbis",
+                "Fever Valley",
+                "Fort 12C",
+                "Dusk",
+                "Sahara",
+                "Echelon",
+                "310",
+                "Scammed",
+                "Haven",
+                "Mojave",
+                "Insula",
+                "Terron",
+                "Snow Central",
+                "Jade Green",
+                "Oldboy",
+                "Mayhem",
+                "Equinox"
             ],
             "commander_list": [
                 [
@@ -42660,14 +42767,18 @@
                 ],
                 [
                     "Darkvale",
-                    23
+                    25
                 ],
                 [
                     "HyperVivify",
-                    22
+                    24
                 ],
                 [
                     "Nomad",
+                    17
+                ],
+                [
+                    "M.S",
                     14
                 ],
                 [
@@ -42675,12 +42786,12 @@
                     14
                 ],
                 [
-                    "M.S",
+                    "Zack",
                     13
                 ],
                 [
-                    "Zack",
-                    13
+                    "Maverick",
+                    8
                 ],
                 [
                     "Sev",
@@ -42692,10 +42803,6 @@
                 ],
                 [
                     "Gravey",
-                    7
-                ],
-                [
-                    "Maverick",
                     7
                 ],
                 [
@@ -42715,16 +42822,16 @@
                     4
                 ],
                 [
+                    "Judgeguns",
+                    3
+                ],
+                [
                     "Bylarge",
                     3
                 ],
                 [
                     "VTrider",
                     3
-                ],
-                [
-                    "Judgeguns",
-                    2
                 ],
                 [
                     "Lamper",
@@ -42857,19 +42964,19 @@
                     2
                 ],
                 [
+                    "Maverick",
+                    62.5,
+                    8,
+                    5
+                ],
+                [
                     "HyperVivify",
-                    59.09090909090909,
-                    22,
-                    13
+                    58.333333333333336,
+                    24,
+                    14
                 ],
                 [
                     "Sev",
-                    57.14285714285714,
-                    7,
-                    4
-                ],
-                [
-                    "Maverick",
                     57.14285714285714,
                     7,
                     4
@@ -42881,16 +42988,10 @@
                     14
                 ],
                 [
-                    "Judgeguns",
-                    50.0,
-                    2,
-                    1
-                ],
-                [
                     "M.S",
-                    46.15384615384615,
-                    13,
-                    6
+                    50.0,
+                    14,
+                    7
                 ],
                 [
                     "Zack",
@@ -42905,22 +43006,28 @@
                     3
                 ],
                 [
+                    "Nomad",
+                    35.294117647058826,
+                    17,
+                    6
+                ],
+                [
                     "Xpi",
                     33.33333333333333,
                     6,
                     2
                 ],
                 [
+                    "Judgeguns",
+                    33.33333333333333,
+                    3,
+                    1
+                ],
+                [
                     "Lithium",
                     29.629629629629626,
                     27,
                     8
-                ],
-                [
-                    "Nomad",
-                    28.57142857142857,
-                    14,
-                    4
                 ],
                 [
                     "MurphysLawUS",
@@ -42930,8 +43037,8 @@
                 ],
                 [
                     "Darkvale",
-                    26.08695652173913,
-                    23,
+                    24.0,
+                    25,
                     6
                 ],
                 [
@@ -42960,9 +43067,9 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 153,
-                "Hadean": 33,
-                "Scion": 66
+                "I.S.D.F": 157,
+                "Hadean": 37,
+                "Scion": 68
             },
             "commander_faction_counts": {
                 "Xpi": {
@@ -42984,22 +43091,22 @@
                     "I.S.D.F": 4
                 },
                 "Nomad": {
-                    "I.S.D.F": 13,
-                    "Hadean": 1
+                    "I.S.D.F": 14,
+                    "Hadean": 3
                 },
                 "Sev": {
                     "I.S.D.F": 3,
                     "Hadean": 4
                 },
                 "M.S": {
-                    "I.S.D.F": 12,
+                    "I.S.D.F": 13,
                     "Scion": 1
                 },
                 "KingFuryKiller": {
                     "I.S.D.F": 1
                 },
                 "Judgeguns": {
-                    "I.S.D.F": 2
+                    "I.S.D.F": 3
                 },
                 "Domakus": {
                     "I.S.D.F": 1
@@ -43027,7 +43134,7 @@
                     "I.S.D.F": 1
                 },
                 "Darkvale": {
-                    "Scion": 23
+                    "Scion": 25
                 },
                 "MAX": {
                     "I.S.D.F": 1
@@ -43050,8 +43157,8 @@
                     "Hadean": 2
                 },
                 "HyperVivify": {
-                    "I.S.D.F": 15,
-                    "Hadean": 5,
+                    "I.S.D.F": 16,
+                    "Hadean": 6,
                     "Scion": 2
                 },
                 "F9mama": {
@@ -43066,7 +43173,8 @@
                 },
                 "Maverick": {
                     "I.S.D.F": 5,
-                    "Scion": 2
+                    "Scion": 2,
+                    "Hadean": 1
                 },
                 "Systeme": {
                     "Scion": 1
@@ -43095,14 +43203,15 @@
                     "I.S.D.F": 3
                 },
                 "Nomad": {
-                    "I.S.D.F": 4
+                    "I.S.D.F": 4,
+                    "Hadean": 2
                 },
                 "Sev": {
                     "I.S.D.F": 3,
                     "Hadean": 1
                 },
                 "M.S": {
-                    "I.S.D.F": 6
+                    "I.S.D.F": 7
                 },
                 "KingFuryKiller": {
                     "I.S.D.F": 1
@@ -43153,7 +43262,7 @@
                 },
                 "HyperVivify": {
                     "Hadean": 3,
-                    "I.S.D.F": 9,
+                    "I.S.D.F": 10,
                     "Scion": 1
                 },
                 "Judgeguns": {
@@ -43168,7 +43277,8 @@
                 },
                 "Maverick": {
                     "Scion": 2,
-                    "I.S.D.F": 2
+                    "I.S.D.F": 2,
+                    "Hadean": 1
                 },
                 "Systeme": {
                     "Scion": 1
@@ -43882,22 +43992,23 @@
                         "02.5.26": 1,
                         "02.6.26": 5,
                         "02.8.26": 1,
-                        "02.9.26": 2,
-                        "02.13.26": 4
+                        "02.9.26": 3,
+                        "02.11.26": 1,
+                        "02.13.26": 7
                     },
                     {
-                        "Day(s) Played": 8
+                        "Day(s) Played": 9
                     },
                     {
-                        "Game(s) Played": 21
+                        "Game(s) Played": 26
                     }
                 ],
                 [
                     {
-                        "Total Days Played": 28
+                        "Total Days Played": 29
                     },
                     {
-                        "Total Games Played": 126
+                        "Total Games Played": 131
                     }
                 ]
             ]
@@ -43907,15 +44018,15 @@
         "processed_map_counts": {
             "Mojave": 48,
             "Terron": 45,
-            "Red Slope": 43,
+            "Red Slope": 44,
             "Remnant": 39,
             "Overlook": 38,
             "Giza": 31,
             "Quagmire": 23,
             "Oasis": 23,
-            "Sahara": 20,
+            "Sahara": 21,
+            "Insula": 19,
             "Vegan": 18,
-            "Insula": 18,
             "Twin Peaks": 17,
             "Reflex": 16,
             "Quarry": 16,
@@ -43940,18 +44051,18 @@
             "Tempest": 8,
             "Forgotten": 8,
             "Island of V8": 8,
+            "Barren": 8,
             "Trench": 8,
             "Domain": 7,
             "Ebola": 7,
             "Aussault": 7,
-            "Barren": 6,
             "Mort's Wasteland": 6,
             "Egypt": 6,
+            "Jade Green": 6,
             "Moonshroud": 5,
             "Abuse": 5,
             "Consciousness": 5,
             "Aztec": 5,
-            "Jade Green": 5,
             "Fort 12C": 5,
             "Cracked": 5,
             "Sinister": 4,
@@ -44026,9 +44137,9 @@
             "Rapemas": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 1022,
-            "Scion": 373,
-            "Hadean": 345
+            "I.S.D.F": 1028,
+            "Scion": 375,
+            "Hadean": 349
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -44075,7 +44186,7 @@
             },
             "Darkvale": {
                 "I.S.D.F": 29,
-                "Scion": 40
+                "Scion": 42
             },
             "Lamper": {
                 "I.S.D.F": 23,
@@ -44086,7 +44197,7 @@
                 "I.S.D.F": 5
             },
             "M.S": {
-                "I.S.D.F": 60,
+                "I.S.D.F": 61,
                 "Scion": 3
             },
             "Muffin": {
@@ -44132,7 +44243,7 @@
                 "I.S.D.F": 2
             },
             "Judgeguns": {
-                "I.S.D.F": 16
+                "I.S.D.F": 18
             },
             "X-Triage": {
                 "I.S.D.F": 26
@@ -44176,7 +44287,8 @@
             },
             "Maverick": {
                 "I.S.D.F": 13,
-                "Scion": 4
+                "Scion": 4,
+                "Hadean": 1
             },
             "Athelas": {
                 "I.S.D.F": 1
@@ -44223,9 +44335,9 @@
                 "Scion": 3
             },
             "Nomad": {
-                "I.S.D.F": 48,
+                "I.S.D.F": 50,
                 "Scion": 2,
-                "Hadean": 2
+                "Hadean": 4
             },
             "F9mama": {
                 "I.S.D.F": 2
@@ -44237,8 +44349,8 @@
                 "I.S.D.F": 9
             },
             "HyperVivify": {
-                "I.S.D.F": 16,
-                "Hadean": 5,
+                "I.S.D.F": 17,
+                "Hadean": 6,
                 "Scion": 2
             },
             "Systeme": {
@@ -44356,9 +44468,9 @@
             ],
             [
                 "HyperVivify",
-                60.86956521739131,
-                23,
-                14
+                60.0,
+                25,
+                15
             ],
             [
                 "Vacuum34",
@@ -44434,9 +44546,9 @@
             ],
             [
                 "M.S",
-                47.61904761904761,
-                63,
-                30
+                48.4375,
+                64,
+                31
             ],
             [
                 "X-Triage",
@@ -44451,16 +44563,16 @@
                 5
             ],
             [
+                "Maverick",
+                44.44444444444444,
+                18,
+                8
+            ],
+            [
                 "Herp McDerperson",
                 43.333333333333336,
                 30,
                 13
-            ],
-            [
-                "Maverick",
-                41.17647058823529,
-                17,
-                7
             ],
             [
                 "RollyPolly",
@@ -44511,16 +44623,16 @@
                 12
             ],
             [
+                "Nomad",
+                32.142857142857146,
+                56,
+                18
+            ],
+            [
                 "Lithium",
                 28.947368421052634,
                 76,
                 22
-            ],
-            [
-                "Nomad",
-                28.846153846153843,
-                52,
-                15
             ],
             [
                 "AI_Unit",
@@ -44536,8 +44648,8 @@
             ],
             [
                 "Darkvale",
-                26.08695652173913,
-                69,
+                25.352112676056336,
+                71,
                 18
             ],
             [
@@ -44554,8 +44666,8 @@
             ],
             [
                 "Judgeguns",
-                18.75,
-                16,
+                16.666666666666664,
+                18,
                 3
             ],
             [
@@ -44638,11 +44750,11 @@
             ],
             [
                 "Darkvale",
-                69
+                71
             ],
             [
                 "M.S",
-                63
+                64
             ],
             [
                 "Gravey",
@@ -44650,7 +44762,7 @@
             ],
             [
                 "Nomad",
-                52
+                56
             ],
             [
                 "Xpi",
@@ -44702,19 +44814,19 @@
             ],
             [
                 "HyperVivify",
-                23
+                25
+            ],
+            [
+                "Judgeguns",
+                18
+            ],
+            [
+                "Maverick",
+                18
             ],
             [
                 "DD",
                 17
-            ],
-            [
-                "Maverick",
-                17
-            ],
-            [
-                "Judgeguns",
-                16
             ],
             [
                 "RollyPolly",
@@ -44852,8 +44964,8 @@
                 "Quagmire",
                 "Oasis",
                 "Sahara",
-                "Vegan",
                 "Insula",
+                "Vegan",
                 "Twin Peaks",
                 "Reflex",
                 "Quarry",
@@ -44880,18 +44992,18 @@
                 "Tempest",
                 "Forgotten",
                 "Island of V8",
+                "Barren",
                 "Trench",
                 "Domain",
                 "Ebola",
                 "Aussault",
-                "Barren",
                 "Mort's Wasteland",
                 "Egypt",
+                "Jade Green",
                 "Moonshroud",
                 "Abuse",
                 "Consciousness",
                 "Aztec",
-                "Jade Green",
                 "Fort 12C",
                 "Cracked",
                 "Sinister",
@@ -46477,5 +46589,5 @@
             "Scion": 7
         }
     },
-    "last_updated": "2026/02/15 01:06AM UTC"
+    "last_updated": "2026/02/15 01:29AM UTC"
 }
