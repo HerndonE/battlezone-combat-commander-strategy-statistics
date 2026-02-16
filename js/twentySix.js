@@ -41,7 +41,7 @@ function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
     const minSvgWidth = 500;
     const computedWidth = Math.max(
       minSvgWidth,
-      Math.min(dataSubset.length * 60, maxSvgWidth)
+      Math.min(dataSubset.length * 60, maxSvgWidth),
     );
     svg.attr("width", computedWidth);
 
@@ -139,7 +139,7 @@ function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
 function commanderCountBarChart2026(
   containerSelector,
   mapData,
-  expandBtnSelector
+  expandBtnSelector,
 ) {
   const container = d3.select(containerSelector);
 
@@ -175,7 +175,7 @@ function commanderCountBarChart2026(
     const minSvgWidth = 500;
     const computedWidth = Math.max(
       minSvgWidth,
-      Math.min(dataSubset.length * 60, maxSvgWidth)
+      Math.min(dataSubset.length * 60, maxSvgWidth),
     );
     svg.attr("width", computedWidth);
 
@@ -273,7 +273,7 @@ function commanderCountBarChart2026(
 function commanderFactionChoiceCountBarChart2026(
   containerId,
   chartData,
-  expandBtnSelector = "#expand-btn"
+  expandBtnSelector = "#expand-btn",
 ) {
   const defaultItemCount = 10;
   const barWidth = 50;
@@ -365,7 +365,7 @@ function commanderFactionChoiceCountBarChart2026(
         tooltip
           .style("opacity", 1)
           .html(
-            `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`
+            `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`,
           );
       })
       .on("mousemove", (event) => {
@@ -382,7 +382,7 @@ function commanderFactionChoiceCountBarChart2026(
       .append("g")
       .attr(
         "transform",
-        `translate(${svgWidth - margin.right - 100},${margin.top})`
+        `translate(${svgWidth - margin.right - 100},${margin.top})`,
       );
 
     factions.forEach((faction, i) => {
@@ -409,7 +409,7 @@ function commanderFactionChoiceCountBarChart2026(
   // Initial chart render
   const initialCommanders = allCommanders.slice(0, defaultItemCount);
   const initialData = chartData.filter((d) =>
-    initialCommanders.includes(d.commander)
+    initialCommanders.includes(d.commander),
   );
   drawChart(initialData);
 
@@ -426,7 +426,7 @@ function commanderFactionChoiceCountBarChart2026(
         : allCommanders.slice(0, defaultItemCount);
 
       const dataToUse = chartData.filter((d) =>
-        commandersToShow.includes(d.commander)
+        commandersToShow.includes(d.commander),
       );
       drawChart(dataToUse);
 
@@ -495,7 +495,7 @@ function factionPopularity2026(containerId, chartData) {
 function commanderWinPercentages2026(
   containerSelector,
   chartData,
-  expandButtonSelector
+  expandButtonSelector,
 ) {
   const container = d3.select(containerSelector);
   container.html(""); // clear previous content
@@ -572,7 +572,7 @@ function commanderWinPercentages2026(
           `<strong>${d.name}</strong><br>` +
             `Games (After 5 removed): ${d.total}<br>` +
             `Wins (After 5 removed): ${d.wins}<br>` +
-            `Win %: ${d.percentage.toFixed(1)}%`
+            `Win %: ${d.percentage.toFixed(1)}%`,
         )
         .style("left", event.pageX + 10 + "px")
         .style("top", event.pageY - 28 + "px");
@@ -613,6 +613,313 @@ function commanderWinPercentages2026(
   }
 }
 
+function showTotals(container, data, gameTimeData) {
+  const displayData = document.querySelector(container);
+  if (!displayData) return;
+
+  const totals = data[data.length - 1];
+  const totalDays = totals[0]["Total Days Played"];
+  const totalGames = totals[1]["Total Games Played"];
+
+  const gameTimeTotals = gameTimeData || [];
+  const totalTime = gameTimeTotals[0] || [];
+  const totalMode = gameTimeTotals[1] || [];
+  const matchTimes = gameTimeTotals[2] || [];
+
+  // Shortest and Longest match details (extract first object from array)
+  const shortestMatchTime = matchTimes[0]?.[1] || null;
+  const shortestMatchDetails = matchTimes[1]?.[0] || {};
+  const longestMatchTime = matchTimes[2]?.[1] || null;
+  const longestMatchDetails = matchTimes[3]?.[0] || {};
+
+  // Main totals
+  const mainTotals = [
+    totalDays ? `Total Days Played: ${totalDays}` : null,
+    totalGames ? `Total Games Played: ${totalGames}` : null,
+    totalTime[0]?.[1] ? `${totalTime[0][0]}: ${totalTime[0][1]}` : null,
+    totalTime[1]?.[1] ? `${totalTime[1][0]}: ${totalTime[1][1]}` : null,
+    totalTime[2]?.[1] ? `${totalTime[2][0]}: ${totalTime[2][1]}` : null,
+    totalTime[3]?.[1] ? `${totalTime[3][0]}: ${totalTime[3][1]}` : null,
+    totalMode[1] ? `${totalMode[0]}: ${totalMode[1]}` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  // Shortest and Longest matches on separate lines
+  const matchTotals = [
+    shortestMatchTime
+      ? `<strong>Shortest Match:</strong> ${shortestMatchTime} · ${shortestMatchDetails.commanders || "N/A"} · ${shortestMatchDetails.map || "Unknown"} · ${shortestMatchDetails.date || ""}`
+      : null,
+    longestMatchTime
+      ? `<strong>Longest Match:</strong> ${longestMatchTime} · ${longestMatchDetails.commanders || "N/A"} · ${longestMatchDetails.map || "Unknown"} · ${longestMatchDetails.date || ""}`
+      : null,
+  ]
+    .filter(Boolean)
+    .join("<br>");
+
+  displayData.innerHTML =
+    mainTotals + (matchTotals ? "<br>" + matchTotals : "");
+}
+
+function getValidMonths(data) {
+  return data.filter((m) => Array.isArray(m) && typeof m[0] === "string");
+}
+
+function getMonthlyGames(data) {
+  const months = getValidMonths(data);
+  return months.map((m) => ({
+    label: m[0],
+    value: m[3]["Game(s) Played"],
+  }));
+}
+
+function parseCustomDate(str) {
+  const [m, d, y] = str.split(".").map(Number);
+  return new Date(2000 + y, m - 1, d);
+}
+
+function getDailyGames(data) {
+  const days = [];
+  getValidMonths(data).forEach((month) => {
+    Object.entries(month[1]).forEach(([date, games]) => {
+      days.push({
+        date: parseCustomDate(date),
+        label: date,
+        value: games,
+      });
+    });
+  });
+  return days.sort((a, b) => a.date - b.date);
+}
+
+function gamesPlayedPerDayBarChart(
+  containerSelector,
+  data,
+  expandButtonSelector,
+) {
+  const container = d3.select(containerSelector);
+
+  const baseWidth = 800;
+  const expandedWidth = 1400;
+  const height = 400;
+
+  function render() {
+    container.select("svg").remove();
+
+    const isExpanded = container.classed("expanded");
+    const width = isExpanded ? expandedWidth : baseWidth;
+
+    const svg = container
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .style("background-color", BACKGROUND_COLOR);
+
+    const margin = {
+      top: 40,
+      right: isExpanded ? 100 : 20,
+      bottom: 80,
+      left: 60,
+    };
+
+    const x = d3
+      .scaleTime()
+      .domain(d3.extent(data, (d) => d.date))
+      .range([margin.left, width - margin.right]);
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, d3.max(data, (d) => d.value)])
+      .nice()
+      .range([height - margin.bottom, margin.top]);
+
+    const line = d3
+      .line()
+      .x((d) => x(d.date))
+      .y((d) => y(d.value))
+      .curve(d3.curveMonotoneX);
+
+    let tooltip = d3.select("#tooltip3");
+    if (tooltip.empty()) {
+      tooltip = d3
+        .select("body")
+        .append("div")
+        .style("position", "fixed")
+        .attr("id", "tooltip3")
+        .attr("class", "tooltip3");
+    }
+
+    // Line
+    svg
+      .append("path")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", COLOR_PALETTE[5])
+      .attr("stroke-width", 2)
+      .attr("d", line);
+
+    // Points
+    svg
+      .append("g")
+      .selectAll("circle")
+      .data(data)
+      .enter()
+      .append("circle")
+      .attr("cx", (d) => x(d.date))
+      .attr("cy", (d) => y(d.value))
+      .attr("r", 4)
+      .attr("fill", COLOR_PALETTE[5])
+      .on("mousemove", (event, d) => {
+        tooltip
+          .style("opacity", 1)
+          .html(`<strong>${d.label}</strong><br/>Games: ${d.value}`)
+          .style("left", event.pageX + 12 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseleave", () => tooltip.style("opacity", 0));
+
+    // X Axis
+    svg
+      .append("g")
+      .attr("transform", `translate(0,${height - margin.bottom})`)
+      .attr("class", "axis")
+      .call(d3.axisBottom(x));
+
+    // Y Axis
+    svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},0)`)
+      .attr("class", "axis")
+      .call(d3.axisLeft(y));
+
+    // Y Axis Label
+    svg
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -(height / 2))
+      .attr("y", margin.left - 35)
+      .attr("text-anchor", "middle")
+      .attr("fill", TEXT_LIGHT)
+      .text("Count");
+  }
+
+  render();
+
+  if (expandButtonSelector) {
+    d3.select(expandButtonSelector).on("click", function () {
+      const isExpanded = container.classed("expanded");
+
+      container.classed("expanded", !isExpanded);
+
+      d3.select(this).text(isExpanded ? "Expand Chart" : "Collapse Chart");
+
+      render();
+    });
+  }
+}
+
+function gamesPlayedPerMonthBarChart(container, data) {
+  const defaultItemCount = 12;
+  const margin = { top: 40, right: 20, bottom: 80, left: 60 };
+  const borderRadius = 5;
+
+  function drawChart(dataSubset) {
+    d3.select(container).select("svg").remove();
+
+    const maxSvgWidth = 1200;
+    const minSvgWidth = 800;
+    const computedWidth = Math.max(
+      minSvgWidth,
+      Math.min(dataSubset.length * 60, maxSvgWidth),
+    );
+
+    const width = computedWidth - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+
+    const svg = d3
+      .select(container)
+      .append("svg")
+      .attr("width", computedWidth)
+      .attr("height", height + margin.top + margin.bottom)
+      .style("background-color", BACKGROUND_COLOR);
+
+    let tooltip = d3.select("#tooltip3");
+    if (tooltip.empty()) {
+      tooltip = d3
+        .select("body")
+        .append("div")
+        .attr("id", "tooltip3")
+        .attr("class", "tooltip3");
+    }
+
+    const x = d3
+      .scaleBand()
+      .domain(dataSubset.map((d) => d.label))
+      .range([margin.left, width + margin.left])
+      .padding(0.3);
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, d3.max(dataSubset, (d) => d.value)])
+      .nice()
+      .range([height + margin.top, margin.top]);
+
+    // Bars
+    svg
+      .append("g")
+      .selectAll("rect")
+      .data(dataSubset)
+      .enter()
+      .append("rect")
+      .attr("x", (d) => x(d.label))
+      .attr("y", (d) => y(d.value))
+      .attr("height", (d) => y(0) - y(d.value))
+      .attr("width", x.bandwidth())
+      .attr("rx", borderRadius)
+      .attr("fill", COLOR_PALETTE[0])
+      .on("mousemove", (event, d) => {
+        tooltip
+          .style("opacity", 1)
+          .html(`<strong>${d.label}</strong><br/>Games: ${d.value}`)
+          .style("left", event.pageX + 12 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseleave", () => {
+        tooltip.style("opacity", 0);
+      });
+
+    // X Axis
+    svg
+      .append("g")
+      .attr("transform", `translate(0,${height + margin.top})`)
+      .attr("class", "axis")
+      .call(d3.axisBottom(x))
+      .selectAll("text")
+      .attr("transform", "rotate(-40)")
+      .style("text-anchor", "end");
+
+    // Y Axis
+    svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},0)`)
+      .attr("class", "axis")
+      .call(d3.axisLeft(y));
+
+    // Y Axis Label
+    svg
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -(height / 2) - margin.top)
+      .attr("y", margin.left - 35)
+      .attr("text-anchor", "middle")
+      .attr("fill", TEXT_LIGHT)
+      .text("Count");
+  }
+
+  // Initial render
+  drawChart(data.slice(0, defaultItemCount));
+}
+
 d3.json(CONFIG.jsonFile).then((rawData) => {
   const data = rawData["2026"]["data_2026"];
 
@@ -629,25 +936,27 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
         commander,
         faction,
         value,
-      }))
+      })),
   );
+
+  showTotals("#info-2026", data.game_totals, data.game_times);
 
   mapCountBarChart2026(
     "#chart-wrapper-played-maps-2026",
     mapCounts,
-    "#expand-btn-played-maps-2026"
+    "#expand-btn-played-maps-2026",
   );
 
   commanderCountBarChart2026(
     "#chart-wrapper-played-commanders-2026",
     commanderCounts,
-    "#expand-btn-played-commanders-2026"
+    "#expand-btn-played-commanders-2026",
   );
 
   commanderFactionChoiceCountBarChart2026(
     "#chart-wrapper-faction-choice-2026",
     factionCounts,
-    "#expand-btn-faction-choice-2026"
+    "#expand-btn-faction-choice-2026",
   );
 
   factionPopularity2026("#inline-bar-chart-4", data.faction_counter);
@@ -655,6 +964,17 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
   commanderWinPercentages2026(
     "#chart-wrapper-commander-wins-2026",
     data.commander_win_percentages,
-    "#expand-btn-commander-wins-2026"
+    "#expand-btn-commander-wins-2026",
+  );
+
+  gamesPlayedPerMonthBarChart(
+    "#monthly-2026",
+    getMonthlyGames(data.game_totals),
+  );
+
+  gamesPlayedPerDayBarChart(
+    "#daily-2026",
+    getDailyGames(data.game_totals),
+    "#expand-btn-played-days-2026",
   );
 });

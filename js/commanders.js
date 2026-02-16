@@ -74,6 +74,8 @@ function processMatch(match) {
   addStats(loserCmd, loserFaction, match.map, winnerCmd, false);
 }
 
+let totalCommandersText = null;
+
 // Load and Parse Data
 async function loadData() {
   try {
@@ -81,6 +83,14 @@ async function loadData() {
     if (!response.ok) throw new Error("Failed to load JSON file");
 
     const data = await response.json();
+
+    const totalCommanders = data["processed_data"]["processed_commander_times"];
+    mergeCommanderTimes(totalCommanders);
+
+    const lastEntry = totalCommanders[totalCommanders.length - 1];
+    if (Array.isArray(lastEntry) && typeof lastEntry[0] === "string") {
+      totalCommandersText = lastEntry[0];
+    }
 
     Object.values(data).forEach((yearBlock) => {
       Object.values(yearBlock).forEach((rawYear) => {
@@ -103,6 +113,24 @@ async function loadData() {
 }
 
 loadData();
+
+function mergeCommanderTimes(commanderTimes) {
+  commanderTimes.forEach((entryArray) => {
+    const entry = entryArray[0];
+    if (typeof entry !== "object") return; // skip non-object items
+
+    const name = entry.Commander;
+    if (!name) return; // skip if Commander key is missing
+
+    if (!commanders[name]) {
+      ensureCommander(name);
+    }
+
+    commanders[name].totalTime = entry["Total Time"];
+    commanders[name].averageTime = entry["Average Time"];
+    commanders[name].firstYear = entry["First Year on Record"];
+  });
+}
 
 // Cards
 function topKey(obj) {
@@ -188,6 +216,11 @@ function createCard(c) {
   <div class="stat"><span class="label">Games:</span> ${c.games}</div>
   <div class="stat"><span class="label">Wins:</span> ${c.wins}</div>
   <div class="stat"><span class="label">Win Rate:</span> ${winRate}%</div>
+
+  <div class="stat"><span class="label">Recorded Time:</span> ${c.totalTime || "N/A"}</div>
+  <div class="stat"><span class="label">Average Time:</span> ${c.averageTime || "N/A"}</div>
+  <div class="stat"><span class="label">First Year on Record:</span> ${c.firstYear || "N/A"}</div>
+
   <div class="stat"><span class="label">Last Commanded:</span> ${
     c.lastActive ? c.lastActive.toLocaleDateString() : "Never"
   }</div>
@@ -206,8 +239,15 @@ function createCard(c) {
 }
 
 function renderCards() {
-  const container = document.getElementById("card-container");
+  const container = document.getElementById("commander-card-container");
   container.innerHTML = "";
+
+  if (totalCommandersText) {
+    const heading = document.createElement("h3");
+    heading.textContent = totalCommandersText;
+    heading.classList.add("total-commanders-heading");
+    container.parentNode.insertBefore(heading, container);
+  }
 
   // Optional: sort by last active (most recent first)
   Object.values(commanders)

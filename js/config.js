@@ -18,3 +18,9 @@ export const TEXT_DARK = "#000000";
 export const GRAPH_POPERTIES = {
   svgHeight: 450,
 };
+
+export const FACTIONICONS = {
+  "i.s.d.f": "/assets/images/ISDF-Logo.png",
+  scion: "/assets/images/Scion-Logo.png",
+  hadean: "/assets/images/Hadean-Logo.png",
+};

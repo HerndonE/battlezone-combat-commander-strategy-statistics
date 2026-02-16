@@ -17,7 +17,7 @@ function getData(evt, tabName) {
     evt.currentTarget.className += " active";
   }
 
-  const hiddenTabs = ["matchHistory", "commanders"];
+  const hiddenTabs = ["matchHistory", "commanders", "players"];
 
   const overlayMobile = document.getElementById("overlay-text-mobile");
   if (overlayMobile) {

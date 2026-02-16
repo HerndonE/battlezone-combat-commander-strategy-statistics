@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/graph.css">
     <link rel="stylesheet" href="../css/mobile-stats.css">
     <link rel="stylesheet" href="../css/commanders.css">
+    <link rel="stylesheet" href="../css/players.css">
     <link rel="stylesheet" href="../css/match-history.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -24,6 +25,7 @@
     <script type="module" src="../js/twentySix.js"></script>
     <script type="module" src="../js/mobileStats.js"></script>
     <script type="module" src="../js/commanders.js"></script>
+    <script type="module" src="../js/players.js"></script>
     <script type="module" src="../js/matchHistory.js"></script>
   </head>
   <body>
@@ -47,6 +49,7 @@
         <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
         <button class="tablinks" onclick="getData(event, 'twentySix')">2026</button>
         <button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>
+        <button class="tablinks" onclick="getData(event, 'players')">Players</button>
         <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
       </div>
       <div id="Overview" class="tabcontent">
@@ -84,6 +87,7 @@
       <div id="twentyFour" class="tabcontent">
         <div align="center">
           <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-2"></div>
+          <div id="info-2024"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -105,6 +109,15 @@
               <button class="expand-btn" id="expand-btn-faction-choice-2024" style="display: none;">Expand Chart</button>
               <div class="graph-box" id="chart-wrapper-faction-choice-2024"></div>
             </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Month</h3>
+              <div id="monthly-2024"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Day</h3>
+              <button class="expand-btn" id="expand-btn-played-days-2024">Expand Chart</button>
+              <div id="daily-2024"></div>
+            </div>
             <div id="tooltip1" class="tooltip"></div>
           </div>
         </div>
@@ -112,6 +125,7 @@
       <div id="twentyFive" class="tabcontent">
         <div align="center">
           <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
+          <div id="info-2025"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -133,6 +147,15 @@
               <button class="expand-btn" id="expand-btn-faction-choice-2025" style="display: none;">Expand Chart</button>
               <div class="graph-box" id="chart-wrapper-faction-choice-2025"></div>
             </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Month</h3>
+              <div id="monthly-2025"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Day</h3>
+              <button class="expand-btn" id="expand-btn-played-days-2025">Expand Chart</button>
+              <div id="daily-2025"></div>
+            </div>
             <div id="tooltip2" class="tooltip"></div>
           </div>
         </div>
@@ -140,6 +163,7 @@
       <div id="twentySix" class="tabcontent">
         <div align="center">
           <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-4"></div>
+          <div id="info-2026"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -161,13 +185,27 @@
               <button class="expand-btn" id="expand-btn-faction-choice-2026" style="display: none;">Expand Chart</button>
               <div class="graph-box" id="chart-wrapper-faction-choice-2026"></div>
             </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Month</h3>
+              <div id="monthly-2026"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Games Played per Day</h3>
+              <button class="expand-btn" id="expand-btn-played-days-2026">Expand Chart</button>
+              <div id="daily-2026"></div>
+            </div>
             <div id="tooltip3" class="tooltip"></div>
           </div>
         </div>
       </div>
       <div id="commanders" class="tabcontent">
         <div class="controls">
-          <div id="card-container"></div>
+          <div id="commander-card-container"></div>
+        </div>
+      </div>
+      <div id="players" class="tabcontent">
+        <div class="controls">
+          <div id="player-card-container"></div>
         </div>
       </div>
       <div id="matchHistory" class="tabcontent">

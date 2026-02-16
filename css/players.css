@@ -1,4 +1,4 @@
-#commander-card-container {
+#player-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
     gap: 25px;
@@ -109,7 +109,7 @@
   object-fit: contain;
 }
 
-.total-commanders-heading {
+.total-players-heading {
   text-align: center;
   width: 100%;
   margin-bottom: 1rem;
