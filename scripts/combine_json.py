@@ -466,6 +466,37 @@ def print_commander_times(json_data):
     return get_commander_info
 
 
+def process_commander_game_dates(json_data):
+    date_counts = defaultdict(Counter)
+
+    for year in sorted(json_data.keys()):
+        raw_key = f"raw_{year}"
+
+        if raw_key not in json_data[year]:
+            continue
+
+        data = json_data[year][raw_key]["month"]
+
+        for month in data.values():
+            for day in month.values():
+                for match in day.values():
+                    commander_names = match.get("commanders").split(' vs ')
+                    game_date = match.get("date")
+
+                    month_part, day_part, year_part = game_date.split(".")
+                    month_part = month_part.zfill(2)
+                    formatted_date = f"{month_part}.{day_part}.{year_part}"
+
+                    date_counts[formatted_date].update(commander_names)
+
+    dict_to_json = {
+        date: dict(counter)
+        for date, counter in date_counts.items()
+    }
+
+    return dict_to_json
+
+
 # Function to process the data and collect results
 def process_file(data, year):
     print(f"Processing {year} data:")
@@ -671,7 +702,8 @@ output_data["processed_data"] = {
     "processed_commander_list": process_commander_list(output_data),
     "processed_map_popularity": categorize_maps(process_map_counts(output_data)),
     "processed_player_times": print_player_times(output_data),
-    "processed_commander_times": print_commander_times(output_data)
+    "processed_commander_times": print_commander_times(output_data),
+    "processed_commander_game_dates": process_commander_game_dates(output_data)
 }
 
 
