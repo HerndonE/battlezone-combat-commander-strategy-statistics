@@ -47211,7 +47211,7 @@
 					"map": "Giza",
 					"commanders": "DD vs Devastator",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winningFaction": "I.S.D.F,",
+					"winningFaction": "I.S.D.F",
 					"winner": "DD",
 					"time": "12:37",
 					"teamOne": [
@@ -47455,7 +47455,7 @@
 					"map": "Remnant",
 					"commanders": "Devastator vs M.S",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winningFaction": "I.S.D.F,",
+					"winningFaction": "I.S.D.F",
 					"winner": "M.S",
 					"time": "17:31",
 					"teamOne": [
