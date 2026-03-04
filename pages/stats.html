@@ -339,4 +339,31 @@
       <p class="footer-note"><a href="https://www.buymeacoffee.com/F9bomber" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
     </footer>
   </body>
+  <body>
+  <div id="activityModal" class="global-modal">
+    <div class="global-modal-content">
+      <button class="global-close">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <div class="modal-controls">
+        <label>Compare Commanders:</label>
+        <select id="modalCompareA">
+          <option value="">Commander A</option>
+        </select>
+        <select id="modalCompareB">
+          <option value="">Commander B</option>
+        </select>
+      </div>
+
+      <div id="modalCharts" style="display:flex; gap:20px; flex-wrap: wrap;">
+        <div id="modalChartLeftContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
+          <div id="modalChartLeft" style="flex:1;"></div>
+        </div>
+        <div id="modalChartRightContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
+          <div id="modalChartRight" style="flex:1;"></div>
+          <div id="modalLegendRight" style="margin-top:10px; display:flex; gap:20px; flex-wrap: wrap;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

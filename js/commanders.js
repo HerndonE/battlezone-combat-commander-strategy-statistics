@@ -1,4 +1,5 @@
 import { CONFIG } from "./config.js";
+import { COLOR_PALETTE, BACKGROUND_COLOR, TEXT_LIGHT } from "./config.js";
 
 // Aggregation
 const commanders = {};
@@ -203,11 +204,11 @@ function createCard(c) {
   const div = document.createElement("div");
   div.className = "card";
 
-  const winRate = ((c.wins / c.games) * 100).toFixed(1);
+  const winRate = c.games ? ((c.wins / c.games) * 100).toFixed(1) : 0;
 
   // Determine activity status
   const { label: status, class: statusClass } = getActivityStatus(c);
-  div.classList.add(statusClass); // for full card styling
+  div.classList.add(statusClass);
 
   div.innerHTML = `
   <div class="status ${statusClass}">${status}</div>
@@ -234,7 +235,20 @@ function createCard(c) {
   <div class="section-title">Top Opponent</div>
   <div class="stat">${topKey(c.opponents)}</div>
 
-`;
+  <div class="section-title">Commander Activity</div>
+  <div class="stat">
+    <a href="#" class="activity-link" data-name="${c.name}">
+      View Activity
+    </a>
+  </div>
+  `;
+
+  // Add click listener for popup
+  div.querySelector(".activity-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    openActivityModal(c.name);
+  });
+
   return div;
 }
 
@@ -255,4 +269,253 @@ function renderCards() {
     .forEach((c) => {
       container.appendChild(createCard(c));
     });
+}
+
+let cachedActivityData = null;
+
+async function openActivityModal(commanderName) {
+  const modal = document.getElementById("activityModal");
+  const title = document.getElementById("modalTitle");
+  const compareSelectA = document.getElementById("modalCompareA");
+  const compareSelectB = document.getElementById("modalCompareB");
+
+  // Show modal
+  modal.style.display = "flex";
+
+  // Set title
+  title.textContent = `Commander Activity: ${commanderName}`;
+
+  // Populate dropdowns
+  compareSelectA.innerHTML = `<option value="">Commander A</option>`;
+  compareSelectB.innerHTML = `<option value="">Commander B</option>`;
+  Object.keys(commanders).forEach((name) => {
+    compareSelectA.innerHTML += `<option value="${name}">${name}</option>`;
+    compareSelectB.innerHTML += `<option value="${name}">${name}</option>`;
+  });
+
+  // Render left chart (single commander)
+  await renderCommanderChart(commanderName, null, "modalChartLeft");
+
+  // Render right chart initially empty
+  d3.select("#modalChartRight").html("");
+
+  // Update right chart on dropdown change
+  compareSelectA.onchange = updateComparisonChart;
+  compareSelectB.onchange = updateComparisonChart;
+
+  function updateComparisonChart() {
+    const a = compareSelectA.value || null;
+    const b = compareSelectB.value || null;
+    if (a && b) {
+      renderCommanderChart(a, b, "modalChartRight");
+    } else {
+      d3.select("#modalChartRight").html(""); // clear if incomplete
+    }
+  }
+}
+
+const modal = document.getElementById("activityModal");
+const closeBtn = document.querySelector(".global-close");
+
+closeBtn.addEventListener("click", () => (modal.style.display = "none"));
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) modal.style.display = "none";
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") modal.style.display = "none";
+});
+
+async function renderCommanderChart(
+  commanderA,
+  commanderB = null,
+  containerId = "modalChartLeft",
+) {
+  // Clear previous chart
+  d3.select(`#${containerId}`).html("");
+
+  // Load JSON from CONFIG only once
+  if (!cachedActivityData) {
+    const response = await fetch(CONFIG.jsonFile);
+    if (!response.ok) throw new Error("Failed to load JSON file");
+    cachedActivityData = await response.json();
+  }
+
+  const data = cachedActivityData;
+  const structured = {};
+  const labels = [];
+
+  function getQuarter(month) {
+    return "Q" + Math.ceil(month / 3);
+  }
+
+  const totalCommandersGameDates =
+    data["processed_data"]["processed_commander_game_dates"];
+
+  Object.entries(totalCommandersGameDates).forEach(([date, day]) => {
+    let [month, , year] = date.split(".");
+    month = +month;
+    year = 2000 + +year;
+    const quarter = getQuarter(month);
+
+    if (!structured[year]) structured[year] = {};
+    if (!structured[year][quarter]) structured[year][quarter] = {};
+
+    Object.entries(day).forEach(([name, count]) => {
+      if (!structured[year][quarter][name]) structured[year][quarter][name] = 0;
+      structured[year][quarter][name] += count;
+    });
+  });
+
+  // Build labels in order
+  Object.keys(structured)
+    .sort()
+    .forEach((year) => {
+      ["Q1", "Q2", "Q3", "Q4"].forEach((q) => {
+        labels.push(`${year} ${q}`);
+      });
+    });
+
+  function getData(name) {
+    const arr = [];
+    Object.keys(structured)
+      .sort()
+      .forEach((year) => {
+        ["Q1", "Q2", "Q3", "Q4"].forEach((q) => {
+          arr.push(structured[year][q]?.[name] || 0);
+        });
+      });
+    return arr;
+  }
+
+  const selected = commanderB ? [commanderA, commanderB] : [commanderA];
+
+  const width = 450;
+  const height = 400;
+  const margin = { top: 40, right: 20, bottom: 60, left: 60 };
+
+  const borderRadius = 5;
+
+  const svg = d3
+    .select(`#${containerId}`)
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .style("background", BACKGROUND_COLOR)
+    .style("border-radius", "8px");
+
+  const x = d3
+    .scaleBand()
+    .domain(labels)
+    .range([margin.left, width - margin.right])
+    .padding(0.2);
+
+  const y = d3
+    .scaleLinear()
+    .domain([0, d3.max(selected, (name) => d3.max(getData(name)))])
+    .nice()
+    .range([height - margin.bottom, margin.top]);
+
+  const color = d3
+    .scaleOrdinal()
+    .domain(selected)
+    .range([COLOR_PALETTE[0], COLOR_PALETTE[5]]);
+
+  selected.forEach((name, i) => {
+    const dataset = getData(name);
+    svg
+      .selectAll(`.bar-${i}`)
+      .data(dataset)
+      .enter()
+      .append("rect")
+      .attr(
+        "x",
+        (d, idx) => x(labels[idx]) + i * (x.bandwidth() / selected.length),
+      )
+      .attr("y", (d) => y(d))
+      .attr("width", x.bandwidth() / selected.length)
+      .attr("height", (d) => y(0) - y(d))
+      .attr("rx", borderRadius)
+      .attr("ry", borderRadius)
+      .attr("fill", color(name));
+  });
+
+  // X Axis
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x))
+    .selectAll("text")
+    .attr("transform", "rotate(-45)")
+    .style("text-anchor", "end")
+    .attr("fill", TEXT_LIGHT);
+
+  // Y Axis
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y))
+    .selectAll("text")
+    .attr("fill", TEXT_LIGHT);
+
+  svg
+    .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -(height / 2) - margin.top)
+    .attr("y", margin.left - 35)
+    .attr("text-anchor", "middle")
+    .attr("fill", TEXT_LIGHT)
+    .text("Count");
+
+  // Legend if comparing
+  if (commanderB) {
+    const legendContainer = d3.select(
+      `#${containerId === "modalChartLeft" ? "modalLegendLeft" : "modalLegendRight"}`,
+    );
+    legendContainer.html(""); // clear previous legend
+
+    selected.forEach((name, i) => {
+      const row = legendContainer
+        .append("div")
+        .style("display", "flex")
+        .style("align-items", "center")
+        .style("gap", "5px");
+      row
+        .append("div")
+        .style("width", "15px")
+        .style("height", "15px")
+        .style("background-color", color(name));
+      row
+        .append("span")
+        .text(name)
+        .style("color", "white")
+        .style("font-size", "14px");
+    });
+  }
+
+  const legendContainer = d3.select("#modalLegendRight");
+  legendContainer.html(""); // clear previous legend
+
+  if (commanderA && commanderB) {
+    [commanderA, commanderB].forEach((name, i) => {
+      const row = legendContainer
+        .append("div")
+        .style("display", "flex")
+        .style("align-items", "center")
+        .style("gap", "5px");
+
+      row
+        .append("div")
+        .style("width", "15px")
+        .style("height", "15px")
+        .style("background-color", color(name));
+
+      row
+        .append("span")
+        .text(name)
+        .style("color", "white")
+        .style("font-size", "14px");
+    });
+  }
 }
