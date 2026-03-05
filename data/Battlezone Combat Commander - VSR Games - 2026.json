@@ -47959,6 +47959,1032 @@
 						"M.S"
 					]
 				}
+			},
+			"03.2.26": {
+				"Oldboy": {
+					"date": "03.2.26",
+					"map": "Oldboy",
+					"commanders": "Certified Bad Guy vs X-Triage",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "10:08",
+					"teamOne": [
+						"Maverick",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Nomad",
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:10:08",
+							"team_overviews": [
+								{
+									"name": "Nikola Tesla",
+									"score": 427,
+									"deaths": 2,
+									"kills": 12
+								},
+								{
+									"name": "Money Hungry",
+									"score": 9,
+									"deaths": 0,
+									"kills": 9
+								},
+								{
+									"name": "VTrider",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Nikola Tesla - Certified Bad Guy)",
+								"metrics": {
+									"craft_built": 16,
+									"craft_lost": 2,
+									"buildings_constructed": 13,
+									"buildings_lost": 1,
+									"scrap_collected": 190,
+									"scrap_spent": 871,
+									"scrap_harvested_upgraded": 296
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Toto)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Papa Lazarou)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Toto)": 1
+									},
+									"buildings_lost_to": {
+										"Team 10 (Vivify)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Nikola Tesla - Maverick)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (Toto)": 1,
+										"Team 9 (Nomad)": 1,
+										"Team 10 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Toto)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Nikola Tesla - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Toto)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Nikola Tesla - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Toto)": 2,
+										"Team 8 (Papa Lazarou)": 1,
+										"Team 9 (Nomad)": 3,
+										"Team 10 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Papa Lazarou)": 2,
+										"Team 10 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Money Hungry - Toto)",
+								"metrics": {
+									"craft_built": 17,
+									"craft_lost": 4,
+									"buildings_constructed": 12,
+									"buildings_lost": 4,
+									"scrap_collected": 245,
+									"scrap_spent": 761,
+									"scrap_harvested_upgraded": 186
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Maverick)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Certified Bad Guy)": 1,
+										"Team 2 (Maverick)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Money Hungry - campodding)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Money Hungry - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 2,
+										"Team 4 (VTrider)": 2
+									},
+									"craft_lost_to": {
+										"Team 4 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Money Hungry - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Maverick)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (VTrider)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Money Hungry - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (Maverick)": 1,
+										"Team 4 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (VTrider)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Certified Bad Guy)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Bowl": {
+					"date": "03.2.26",
+					"map": "Bowl",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Blue Banana",
+					"time": "22:47",
+					"teamOne": [
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:22:47",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 357,
+									"deaths": 4,
+									"kills": 38
+								},
+								{
+									"name": "Team 1",
+									"score": 29,
+									"deaths": 8,
+									"kills": 18
+								},
+								{
+									"name": "Danya",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - VTrider)",
+								"metrics": {
+									"craft_built": 48,
+									"craft_lost": 19,
+									"buildings_constructed": 15,
+									"buildings_lost": 6,
+									"scrap_collected": 465,
+									"scrap_spent": 1837,
+									"scrap_harvested_upgraded": 757
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 2,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 2 (Danya)": 1,
+										"Team 6 (blue)": 11,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (blue)": 5,
+										"Team 9 (F9bomber)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 85,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 6 (blue)": 3,
+										"Team 7 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 4,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 9 (F9bomber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 1,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 4,
+										"Team 7 (Papa Lazarou)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - blue)",
+								"metrics": {
+									"craft_built": 36,
+									"craft_lost": 6,
+									"buildings_constructed": 31,
+									"buildings_lost": 6,
+									"scrap_collected": 460,
+									"scrap_spent": 2060,
+									"scrap_harvested_upgraded": 673
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 11,
+										"Team 2 (Danya)": 4,
+										"Team 4 (Nomad)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 5
+									},
+									"buildings_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Danya)": 1,
+										"Team 4 (Nomad)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Danya)": 1,
+										"Team 4 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 5,
+										"Team 2 (Danya)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 3,
+										"Team 4 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Vegan": {
+					"date": "03.2.26",
+					"map": "Vegan",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Blue Banana",
+					"time": "37:33",
+					"teamOne": [
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:37:33",
+							"team_overviews": [
+								{
+									"name": "Meat Eaters",
+									"score": 400,
+									"deaths": 5,
+									"kills": 67
+								},
+								{
+									"name": "Vegans",
+									"score": 41,
+									"deaths": 12,
+									"kills": 29
+								},
+								{
+									"name": "Danya",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (Vegans)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Vegans - VTrider)",
+								"metrics": {
+									"craft_built": 84,
+									"craft_lost": 38,
+									"buildings_constructed": 16,
+									"buildings_lost": 6,
+									"scrap_collected": 875,
+									"scrap_spent": 3240,
+									"scrap_harvested_upgraded": 1545
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 7,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 15,
+										"Team 7 (Papa Lazarou)": 14,
+										"Team 9 (F9bomber)": 9
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 1
+									},
+									"buildings_lost_to": {
+										"Team 7 (Papa Lazarou)": 4,
+										"Team 9 (F9bomber)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Vegans - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 18,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 3,
+										"Team 7 (Papa Lazarou)": 7,
+										"Team 9 (F9bomber)": 8
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Vegans - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 6,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 6,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Meat Eaters - blue)",
+								"metrics": {
+									"craft_built": 67,
+									"craft_lost": 16,
+									"buildings_constructed": 45,
+									"buildings_lost": 8,
+									"scrap_collected": 620,
+									"scrap_spent": 3805,
+									"scrap_harvested_upgraded": 1857
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 15,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 6
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 7,
+										"Team 2 (Danya)": 1,
+										"Team 4 (Nomad)": 6,
+										"Team 7 (Papa Lazarou)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 3,
+										"Team 6 (blue)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Meat Eaters - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 14,
+										"Team 2 (Danya)": 7,
+										"Team 4 (Nomad)": 2,
+										"Team 6 (blue)": 2,
+										"Team 7 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 4 (Nomad)": 2,
+										"Team 7 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Meat Eaters - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 70,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 9,
+										"Team 2 (Danya)": 8,
+										"Team 4 (Nomad)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 4 (Nomad)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"03.3.26": {
+				"Vegan": {
+					"date": "03.3.26",
+					"map": "Vegan",
+					"commanders": "VTrider vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Blue Banana",
+					"time": "24:18",
+					"teamOne": [
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber"
+					],
+					"_comment": "This game was played on 03.3.26, but had to put another date due to a current bug in code.",
+					"stats": {
+						"game_summary": {
+							"total_time": "0:24:18",
+							"team_overviews": [
+								{
+									"name": "Vegans",
+									"score": 23,
+									"deaths": 6,
+									"kills": 21
+								},
+								{
+									"name": "Meat Eaters",
+									"score": -99,
+									"deaths": 3,
+									"kills": 44
+								},
+								{
+									"name": "VTrider",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Vegans)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Vegans - VTrider)",
+								"metrics": {
+									"craft_built": 51,
+									"craft_lost": 30,
+									"buildings_constructed": 16,
+									"buildings_lost": 11,
+									"scrap_collected": 530,
+									"scrap_spent": 2188,
+									"scrap_harvested_upgraded": 819
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 5,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 9 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 2 (Danya)": 1,
+										"Team 6 (blue)": 20,
+										"Team 7 (Papa Lazarou)": 4,
+										"Team 9 (F9bomber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (blue)": 4,
+										"Team 7 (Papa Lazarou)": 4,
+										"Team 9 (F9bomber)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Vegans - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 6 (blue)": 4,
+										"Team 7 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 3,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 9 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Vegans - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 50,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 3,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 4,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Meat Eaters - blue)",
+								"metrics": {
+									"craft_built": 40,
+									"craft_lost": 12,
+									"buildings_constructed": 31,
+									"buildings_lost": 5,
+									"scrap_collected": 375,
+									"scrap_spent": 2074,
+									"scrap_harvested_upgraded": 799
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 20,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 5,
+										"Team 2 (Danya)": 4,
+										"Team 4 (Nomad)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 4
+									},
+									"buildings_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 4 (Nomad)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Meat Eaters - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 4,
+										"Team 2 (Danya)": 1,
+										"Team 4 (Nomad)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 2 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Meat Eaters - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 5,
+										"Team 2 (Danya)": 3,
+										"Team 4 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 3,
+										"Team 4 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Excavation": {
+					"date": "03.3.26",
+					"map": "Excavation",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Lithium",
+					"time": "14:57",
+					"teamOne": [
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:14:57",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": -1,
+									"deaths": 2,
+									"kills": 2
+								},
+								{
+									"name": "Team 2",
+									"score": -148,
+									"deaths": 0,
+									"kills": 25
+								},
+								{
+									"name": "Evergreen",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 46,
+									"craft_lost": 19,
+									"buildings_constructed": 16,
+									"buildings_lost": 10,
+									"scrap_collected": 565,
+									"scrap_spent": 1449,
+									"scrap_harvested_upgraded": 502
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 5,
+										"Team 7 (Evergreen)": 4,
+										"Team 8 (F9bomber)": 10
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Lithium)": 4,
+										"Team 7 (Evergreen)": 1,
+										"Team 8 (F9bomber)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - HaDex)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Evergreen)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 18,
+									"craft_lost": 3,
+									"buildings_constructed": 24,
+									"buildings_lost": 1,
+									"scrap_collected": 215,
+									"scrap_spent": 1147,
+									"scrap_harvested_upgraded": 283
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Nomad)": 5,
+										"Team 2 (HaDex)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Nomad)": 2,
+										"Team 2 (HaDex)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Nomad)": 4
+									},
+									"buildings_lost_to": {
+										"Team 2 (HaDex)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Nomad)": 4,
+										"Team 2 (HaDex)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (Nomad)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0,
+									"scrap_collected": 50,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Nomad)": 10
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (Nomad)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Cracked": {
+					"date": "03.3.26",
+					"map": "Cracked",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "NA",
+					"teamOne": [
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Scorpion"
+					],
+					"_comment": "Submitted game by Lithium."
+				}
 			}
 		}
 	}
