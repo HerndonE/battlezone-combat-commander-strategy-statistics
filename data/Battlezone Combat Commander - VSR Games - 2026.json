@@ -52102,7 +52102,7 @@
 					"time": "29:26",
 					"teamOne": [
 						"F9bomber",
-						"Evergreen",
+						"Scorpion",
 						"X-Triage"
 					],
 					"teamTwo": [
@@ -52334,6 +52334,365 @@
 									},
 									"buildings_destroyed_of": {
 										"Team 1 (Clovis Bray)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"03.7.26": {
+				"Cracked": {
+					"date": "03.7.26",
+					"map": "Cracked",
+					"commanders": "X-Triage vs Bylarge",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Bylarge",
+					"time": "21:10",
+					"teamOne": [
+						"Muffin",
+						"DD",
+						"Cyber",
+						"M.S"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"MAX",
+						"HyperVivify",
+						"Nomad"
+					]
+				},
+				"Mojave": {
+					"date": "03.7.26",
+					"map": "Mojave",
+					"commanders": "M.S vs Bylarge",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "12:31",
+					"teamOne": [
+						"Muffin",
+						"MAX",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Cyber",
+						"Nomad"
+					],
+					"teamTwoStraggler": [
+						"X-Triage"
+					]
+				},
+				"Snow Central": {
+					"date": "03.7.26",
+					"map": "Snow Central",
+					"commanders": "Judgeguns vs X-Triage",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "X-Triage",
+					"time": "14:30",
+					"teamOne": [
+						"Bylarge",
+						"F9bomber",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Xpi",
+						"Muffin",
+						"M.S"
+					]
+				},
+				"Twin Peaks": {
+					"date": "03.7.26",
+					"map": "Twin Peaks",
+					"commanders": "VTrider vs Domakus",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Domakus",
+					"time": "44:27",
+					"teamOne": [
+						"Nomad",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Cyber",
+						"HyperVivify"
+					],
+					"teamOneStraggler": [
+						"DD"
+					],
+					"teamTwoStraggler": [
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:44:27",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 89,
+									"deaths": 13,
+									"kills": 49
+								},
+								{
+									"name": "Team 2",
+									"score": -29,
+									"deaths": 8,
+									"kills": 75
+								},
+								{
+									"name": "VTrider",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Sahd0w (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - VTrider)",
+								"metrics": {
+									"craft_built": 105,
+									"craft_lost": 53,
+									"buildings_constructed": 23,
+									"buildings_lost": 13,
+									"scrap_collected": 1101,
+									"scrap_spent": 4250,
+									"scrap_harvested_upgraded": 1814
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (sit)": 1,
+										"Team 6 (Domakus)": 7,
+										"Team 8 (Cyber)": 3,
+										"Team 9 (Vivify)": 2,
+										"Team 10 (Team 2)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Domakus)": 15,
+										"Team 8 (Cyber)": 18,
+										"Team 9 (Vivify)": 13,
+										"Team 10 (Team 2)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 1,
+										"Team 6 (Domakus)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 6 (Domakus)": 4,
+										"Team 8 (Cyber)": 5,
+										"Team 10 (Team 2)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Domakus)": 9,
+										"Team 8 (Cyber)": 2,
+										"Team 9 (Vivify)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Domakus)": 3,
+										"Team 8 (Cyber)": 4,
+										"Team 9 (Vivify)": 2,
+										"Team 10 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Domakus)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - sit)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Domakus)": 3,
+										"Team 8 (Cyber)": 1,
+										"Team 9 (Vivify)": 1,
+										"Team 10 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 1,
+										"Team 6 (Domakus)": 4,
+										"Team 8 (Cyber)": 2,
+										"Team 9 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Domakus)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Domakus)": 6,
+										"Team 8 (Cyber)": 1,
+										"Team 9 (Vivify)": 1,
+										"Team 10 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Domakus)": 5,
+										"Team 8 (Cyber)": 1,
+										"Team 9 (Vivify)": 2,
+										"Team 10 (Team 2)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Domakus)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 92,
+									"craft_lost": 26,
+									"buildings_constructed": 47,
+									"buildings_lost": 11,
+									"scrap_collected": 870,
+									"scrap_spent": 4356,
+									"scrap_harvested_upgraded": 1883
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 15,
+										"Team 2 (Nomad)": 3,
+										"Team 3 (sit)": 4,
+										"Team 4 (F9bomber)": 5,
+										"Team 6 (Domakus)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 7,
+										"Team 2 (Nomad)": 9,
+										"Team 3 (sit)": 3,
+										"Team 4 (F9bomber)": 6,
+										"Team 6 (Domakus)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 4
+									},
+									"buildings_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Nomad)": 3,
+										"Team 3 (sit)": 3,
+										"Team 4 (F9bomber)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 129,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 18,
+										"Team 2 (Nomad)": 4,
+										"Team 3 (sit)": 2,
+										"Team 4 (F9bomber)": 1,
+										"Team 9 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 3,
+										"Team 2 (Nomad)": 2,
+										"Team 3 (sit)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 13,
+										"Team 2 (Nomad)": 2,
+										"Team 3 (sit)": 2,
+										"Team 4 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 2 (Nomad)": 2,
+										"Team 3 (sit)": 1,
+										"Team 4 (F9bomber)": 1,
+										"Team 8 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (VTrider)": 7,
+										"Team 2 (Nomad)": 1,
+										"Team 4 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (VTrider)": 2,
+										"Team 3 (sit)": 1,
+										"Team 4 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (VTrider)": 3
 									},
 									"buildings_lost_to": {}
 								}
