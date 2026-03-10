@@ -52700,6 +52700,1344 @@
 						]
 					}
 				}
+			},
+			"03.8.26": {
+				"Mesa": {
+					"date": "03.8.26",
+					"map": "Mesa",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "12:39",
+					"teamOne": [
+						"Cyber",
+						"MAX",
+						"Sev",
+						"Muffin"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"M.S",
+						"Scorpion",
+						"VTrider"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:12:39",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 39,
+									"deaths": 7,
+									"kills": 25
+								},
+								{
+									"name": "Team 2",
+									"score": 4,
+									"deaths": 6,
+									"kills": 12
+								},
+								{
+									"name": "VTrider",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 23,
+									"craft_lost": 5,
+									"buildings_constructed": 15,
+									"buildings_lost": 0,
+									"scrap_collected": 415,
+									"scrap_spent": 1120,
+									"scrap_harvested_upgraded": 209
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 3,
+										"Team 7 (Vivify)": 2,
+										"Team 8 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 1,
+										"Team 8 (M.S)": 1,
+										"Team 9 (Evergreen)": 1,
+										"Team 10 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 2,
+										"Team 8 (M.S)": 1,
+										"Team 9 (Evergreen)": 1,
+										"Team 10 (VTrider)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 2,
+										"Team 8 (M.S)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 2,
+										"Team 8 (M.S)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - afk_5mins)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Vivify)": 2,
+										"Team 9 (Evergreen)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 1,
+										"Team 9 (Evergreen)": 1,
+										"Team 10 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - national scionist)",
+								"metrics": {
+									"craft_built": 31,
+									"craft_lost": 8,
+									"buildings_constructed": 8,
+									"buildings_lost": 3,
+									"scrap_collected": 225,
+									"scrap_spent": 875,
+									"scrap_harvested_upgraded": 290
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (Cyber)": 1,
+										"Team 3 (MAX)": 2,
+										"Team 4 (afk_5mins)": 2,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (Cyber)": 2,
+										"Team 3 (MAX)": 2,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 2 (Cyber)": 1,
+										"Team 3 (MAX)": 1,
+										"Team 5 (Papa Lazarou)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 4 (afk_5mins)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (MAX)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (Cyber)": 1,
+										"Team 3 (MAX)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Cyber)": 1,
+										"Team 4 (afk_5mins)": 1,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (Cyber)": 2,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Ancient Hills": {
+					"date": "03.8.26",
+					"map": "Ancient Hills",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "15:40",
+					"teamOne": [
+						"Cyber",
+						"MAX",
+						"Sev",
+						"Muffin"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"M.S",
+						"Scorpion",
+						"VTrider"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:15:40",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 568,
+									"deaths": 6,
+									"kills": 37
+								},
+								{
+									"name": "Team 2",
+									"score": -483,
+									"deaths": 15,
+									"kills": 11
+								},
+								{
+									"name": "Danya",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "5mins (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "M.S (Team 2)",
+									"score": -501,
+									"deaths": 0,
+									"kills": 2
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 29,
+									"craft_lost": 6,
+									"buildings_constructed": 18,
+									"buildings_lost": 2,
+									"scrap_collected": 475,
+									"scrap_spent": 1588,
+									"scrap_harvested_upgraded": 376
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 2,
+										"Team 9 (Evergreen)": 1,
+										"Team 10 (VTrider)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (national scionist)": 1,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Team 2)": 2,
+										"Team 9 (Evergreen)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (national scionist)": 6
+									},
+									"buildings_lost_to": {
+										"Team 7 (Vivify)": 1,
+										"Team 9 (Evergreen)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - CyberSTACKED)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 100,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 3,
+										"Team 8 (Team 2)": 1,
+										"Team 10 (VTrider)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (national scionist)": 2,
+										"Team 9 (Evergreen)": 2,
+										"Team 10 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 4 (Danya)": 1,
+										"Team 10 (VTrider)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (national scionist)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (MAX)": 1,
+										"Team 7 (Vivify)": 3,
+										"Team 8 (Team 2)": 1,
+										"Team 9 (Evergreen)": 1,
+										"Team 10 (VTrider)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Team 2)": 3,
+										"Team 10 (VTrider)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (Evergreen)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - national scionist)",
+								"metrics": {
+									"craft_built": 33,
+									"craft_lost": 7,
+									"buildings_constructed": 16,
+									"buildings_lost": 7,
+									"scrap_collected": 295,
+									"scrap_spent": 1203,
+									"scrap_harvested_upgraded": 353
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 2 (CyberSTACKED)": 3,
+										"Team 3 (MAX)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 6,
+										"Team 3 (MAX)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (CyberSTACKED)": 1,
+										"Team 4 (Danya)": 2
+									},
+									"craft_lost_to": {
+										"Team 4 (Danya)": 3,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 2 (CyberSTACKED)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (CyberSTACKED)": 1,
+										"Team 4 (Danya)": 1,
+										"Team 5 (Papa Lazarou)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (MAX)": 2,
+										"Team 4 (Danya)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - VTrider)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9,
+									"scrap_collected": 145,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (MAX)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (CyberSTACKED)": 2,
+										"Team 3 (MAX)": 1,
+										"Team 4 (Danya)": 1,
+										"Team 5 (Papa Lazarou)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Lunix": {
+					"date": "03.8.26",
+					"map": "Lunix",
+					"commanders": "VTrider vs Cyber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "17:05",
+					"teamOne": [
+						"Sev",
+						"MAX",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Muffin",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:05",
+							"team_overviews": [
+								{
+									"name": "Black Hats",
+									"score": 79,
+									"deaths": 4,
+									"kills": 39
+								},
+								{
+									"name": "White Hats",
+									"score": 38,
+									"deaths": 6,
+									"kills": 28
+								},
+								{
+									"name": "XannyMakeItWorse",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "national scionist (White Hats)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Black Hats)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "VTrider (White Hats)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Black Hats - XannyMakeItGoAway)",
+								"metrics": {
+									"craft_built": 40,
+									"craft_lost": 9,
+									"buildings_constructed": 14,
+									"buildings_lost": 3,
+									"scrap_collected": 395,
+									"scrap_spent": 1517,
+									"scrap_harvested_upgraded": 537
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 3,
+										"Team 7 (Vivify)": 4,
+										"Team 8 (Papa Lazarou)": 2,
+										"Team 9 (Evergreen)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (CyberSTACKED)": 3,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Papa Lazarou)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 4
+									},
+									"buildings_lost_to": {
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Papa Lazarou)": 1,
+										"Team 9 (Evergreen)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Black Hats - XannyMakeItWorse)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 4,
+										"Team 7 (Vivify)": 2,
+										"Team 8 (Papa Lazarou)": 1,
+										"Team 9 (Evergreen)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (CyberSTACKED)": 1,
+										"Team 7 (Vivify)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Black Hats - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 2,
+										"Team 7 (Vivify)": 3,
+										"Team 8 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (CyberSTACKED)": 2,
+										"Team 9 (Evergreen)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Black Hats - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 95,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 9 (Evergreen)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (CyberSTACKED)": 1,
+										"Team 8 (Papa Lazarou)": 1,
+										"Team 9 (Evergreen)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (CyberSTACKED)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (White Hats - CyberSTACKED)",
+								"metrics": {
+									"craft_built": 37,
+									"craft_lost": 9,
+									"buildings_constructed": 18,
+									"buildings_lost": 11,
+									"scrap_collected": 410,
+									"scrap_spent": 1491,
+									"scrap_harvested_upgraded": 311
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 3,
+										"Team 2 (XannyMakeItWorse)": 1,
+										"Team 3 (MAX)": 2,
+										"Team 4 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (XannyMakeItGoAway)": 3,
+										"Team 2 (XannyMakeItWorse)": 4,
+										"Team 3 (MAX)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (XannyMakeItGoAway)": 4,
+										"Team 2 (XannyMakeItWorse)": 1,
+										"Team 4 (F9bomber)": 6
+									}
+								}
+							},
+							{
+								"header": "Team 7 (White Hats - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 1,
+										"Team 2 (XannyMakeItWorse)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (XannyMakeItGoAway)": 4,
+										"Team 2 (XannyMakeItWorse)": 2,
+										"Team 3 (MAX)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (White Hats - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 85,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 5,
+										"Team 4 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (XannyMakeItGoAway)": 2,
+										"Team 2 (XannyMakeItWorse)": 1,
+										"Team 3 (MAX)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (White Hats - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (MAX)": 3,
+										"Team 4 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (XannyMakeItGoAway)": 2,
+										"Team 2 (XannyMakeItWorse)": 1,
+										"Team 4 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (XannyMakeItGoAway)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (White Hats - Dev.pod)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Lunar": {
+					"date": "03.8.26",
+					"map": "Lunar",
+					"commanders": "Devastator vs Cyber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Cyber",
+					"time": "19:21",
+					"teamOne": [
+						"DD",
+						"Scorpion",
+						"Nomad",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Muffin",
+						"MAX",
+						"F9bomber",
+						"M.S"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:19:21",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 585,
+									"deaths": 6,
+									"kills": 46
+								},
+								{
+									"name": "Team 1",
+									"score": 36,
+									"deaths": 9,
+									"kills": 34
+								},
+								{
+									"name": "F9bomber",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Devastator)",
+								"metrics": {
+									"craft_built": 48,
+									"craft_lost": 17,
+									"buildings_constructed": 11,
+									"buildings_lost": 7,
+									"scrap_collected": 705,
+									"scrap_spent": 1489,
+									"scrap_harvested_upgraded": 81
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 ({CS}CyberSTACK)": 1,
+										"Team 7 (Papa Lazarou)": 3,
+										"Team 8 (MAX)": 5,
+										"Team 9 (F9bomber)": 3,
+										"Team 10 (M.S)": 5
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 8 (MAX)": 4,
+										"Team 10 (M.S)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - dd)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 1,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 8 (MAX)": 1,
+										"Team 9 (F9bomber)": 2,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 ({CS}CyberSTACK)": 3,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 8 (MAX)": 1,
+										"Team 9 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 1,
+										"Team 8 (MAX)": 2,
+										"Team 10 (M.S)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 ({CS}CyberSTACK)": 4,
+										"Team 7 (Papa Lazarou)": 2,
+										"Team 8 (MAX)": 1,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 1,
+										"Team 8 (MAX)": 1,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 ({CS}CyberSTACK)": 3,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 8 (MAX)": 2,
+										"Team 9 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 6,
+										"Team 7 (Papa Lazarou)": 3,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 ({CS}CyberSTACK)": 2,
+										"Team 7 (Papa Lazarou)": 1,
+										"Team 9 (F9bomber)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 ({CS}CyberSTACK)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - {CS}CyberSTACK)",
+								"metrics": {
+									"craft_built": 50,
+									"craft_lost": 11,
+									"buildings_constructed": 29,
+									"buildings_lost": 5,
+									"scrap_collected": 430,
+									"scrap_spent": 1860,
+									"scrap_harvested_upgraded": 505
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Devastator)": 1,
+										"Team 2 (dd)": 3,
+										"Team 3 (Evergreen)": 4,
+										"Team 4 (Nomad)": 3,
+										"Team 5 (Vivify)": 2,
+										"Team 9 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Devastator)": 2,
+										"Team 2 (dd)": 1,
+										"Team 3 (Evergreen)": 1,
+										"Team 4 (Nomad)": 1,
+										"Team 5 (Vivify)": 6
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 2 (dd)": 4,
+										"Team 5 (Vivify)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 125,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Devastator)": 3,
+										"Team 2 (dd)": 2,
+										"Team 3 (Evergreen)": 2,
+										"Team 4 (Nomad)": 1,
+										"Team 5 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (dd)": 1,
+										"Team 5 (Vivify)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Devastator)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Devastator)": 5,
+										"Team 2 (dd)": 1,
+										"Team 3 (Evergreen)": 1,
+										"Team 4 (Nomad)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (dd)": 1,
+										"Team 3 (Evergreen)": 2,
+										"Team 4 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Devastator)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Devastator)": 3,
+										"Team 2 (dd)": 1,
+										"Team 3 (Evergreen)": 1,
+										"Team 4 (Nomad)": 2,
+										"Team 5 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Devastator)": 1,
+										"Team 2 (dd)": 2,
+										"Team 4 (Nomad)": 1,
+										"Team 6 ({CS}CyberSTACK)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Devastator)": 5,
+										"Team 3 (Evergreen)": 1,
+										"Team 5 (Vivify)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (dd)": 1,
+										"Team 3 (Evergreen)": 2,
+										"Team 4 (Nomad)": 1,
+										"Team 5 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Devastator)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Insula": {
+					"date": "03.8.26",
+					"map": "Insula",
+					"commanders": "Nomad vs DD",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "18:14",
+					"teamOne": [
+						"Lithium",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:00:00",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 7,
+									"deaths": 4,
+									"kills": 10
+								},
+								{
+									"name": "Team 2",
+									"score": -145,
+									"deaths": 0,
+									"kills": 26
+								},
+								{
+									"name": "dd",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 34,
+									"craft_lost": 10,
+									"buildings_constructed": 12,
+									"buildings_lost": 6,
+									"scrap_collected": 370,
+									"scrap_spent": 1374,
+									"scrap_harvested_upgraded": 463
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Team 2)": 3,
+										"Team 7 (Team 2)": 3,
+										"Team 8 (Team 2)": 4
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 7 (Team 2)": 2,
+										"Team 8 (Team 2)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Team 2)": 1,
+										"Team 7 (Team 2)": 1,
+										"Team 8 (Team 2)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Team 2)": 2,
+										"Team 7 (Team 2)": 1,
+										"Team 8 (Team 2)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (Team 2)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Team 2)": 3,
+										"Team 8 (Team 2)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Team 2)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 31,
+									"craft_lost": 4,
+									"buildings_constructed": 17,
+									"buildings_lost": 1,
+									"scrap_collected": 325,
+									"scrap_spent": 1562,
+									"scrap_harvested_upgraded": 325
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 3,
+										"Team 2 (Team 1)": 2,
+										"Team 4 (Team 1)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (Team 1)": 3,
+										"Team 2 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 4 (Team 1)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 65,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 3,
+										"Team 2 (Team 1)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (Team 1)": 1,
+										"Team 4 (Team 1)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Team 2)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1,
+									"scrap_collected": 70,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Team 1)": 4,
+										"Team 2 (Team 1)": 1,
+										"Team 4 (Team 1)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (Team 1)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Team 1)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
