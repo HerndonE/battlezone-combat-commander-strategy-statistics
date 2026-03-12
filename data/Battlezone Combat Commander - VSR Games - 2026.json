@@ -54052,7 +54052,7 @@
 						"X-Triage",
 						"Muffin",
 						"Domakus",
-						"Evergreen"
+						"Scorpion"
 					],
 					"teamTwo": [
 						"MAX",
@@ -56330,6 +56330,697 @@
 									},
 									"buildings_destroyed_of": {
 										"Team 1 (Evergreen)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
+			},
+			"03.10.26": {
+				"Ancient Hills": {
+					"date": "03.10.26",
+					"map": "Ancient Hills",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "27:53",
+					"teamOne": [
+						"Nomad",
+						"Feared_1",
+						"HyperVivify",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Scorpion",
+						"X-Triage",
+						"Blue Banana"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:27:53",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 106,
+									"deaths": 7,
+									"kills": 47
+								},
+								{
+									"name": "Team 1",
+									"score": 78,
+									"deaths": 11,
+									"kills": 42
+								},
+								{
+									"name": "Evergreen",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 55,
+									"craft_lost": 20,
+									"buildings_constructed": 26,
+									"buildings_lost": 8,
+									"scrap_collected": 565,
+									"scrap_spent": 2789,
+									"scrap_harvested_upgraded": 1027
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 7 (Domakus)": 2,
+										"Team 9 (Toto)": 1,
+										"Team 10 (blue)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 6 (Lithium)": 5,
+										"Team 7 (Domakus)": 3,
+										"Team 8 (Evergreen)": 7,
+										"Team 9 (Toto)": 2,
+										"Team 10 (blue)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Domakus)": 4,
+										"Team 8 (Evergreen)": 1,
+										"Team 9 (Toto)": 1,
+										"Team 10 (blue)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - vt is dreaming)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 3,
+										"Team 7 (Domakus)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Evergreen)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Feared_1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 7,
+										"Team 7 (Domakus)": 2,
+										"Team 8 (Evergreen)": 2,
+										"Team 9 (Toto)": 1
+									},
+									"craft_lost_to": {
+										"Team 8 (Evergreen)": 3,
+										"Team 9 (Toto)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Evergreen)": 1,
+										"Team 9 (Toto)": 2
+									},
+									"craft_lost_to": {
+										"Team 8 (Evergreen)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Dream)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 7 (Domakus)": 1,
+										"Team 10 (blue)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Domakus)": 1,
+										"Team 8 (Evergreen)": 2,
+										"Team 10 (blue)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 41,
+									"craft_lost": 13,
+									"buildings_constructed": 19,
+									"buildings_lost": 11,
+									"scrap_collected": 630,
+									"scrap_spent": 2032,
+									"scrap_harvested_upgraded": 573
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 5,
+										"Team 2 (vt is dreaming)": 1,
+										"Team 5 (Dream)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (vt is dreaming)": 3,
+										"Team 3 (Feared_1)": 7,
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Dream)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (vt is dreaming)": 2,
+										"Team 4 (Vivify)": 6,
+										"Team 5 (Dream)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 65,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (vt is dreaming)": 1,
+										"Team 5 (Dream)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 2 (vt is dreaming)": 2,
+										"Team 3 (Feared_1)": 2,
+										"Team 4 (Vivify)": 1,
+										"Team 5 (Dream)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 7,
+										"Team 2 (vt is dreaming)": 3,
+										"Team 3 (Feared_1)": 3,
+										"Team 4 (Vivify)": 2,
+										"Team 5 (Dream)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Feared_1)": 2,
+										"Team 4 (Vivify)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 3 (Feared_1)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 3 (Feared_1)": 1,
+										"Team 4 (Vivify)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Team 2 - blue)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 5 (Dream)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 5 (Dream)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Vegan": {
+					"date": "03.10.26",
+					"map": "Vegan",
+					"commanders": "X-Triage vs VTrider",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "VTrider",
+					"time": "1:32:33",
+					"teamOne": [
+						"Lithium",
+						"F9bomber",
+						"Blue Banana"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Nomad",
+						"Darkvale"
+					],
+					"teamOneStraggler": [
+						"Domakus"
+					],
+					"teamTwoStraggler": [
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:32:33",
+							"team_overviews": [
+								{
+									"name": "Meat Eaters",
+									"score": 880,
+									"deaths": 11,
+									"kills": 134
+								},
+								{
+									"name": "Vegans",
+									"score": 195,
+									"deaths": 21,
+									"kills": 95
+								},
+								{
+									"name": "Vivify",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "1 (Vegans)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Toto (Meat Eaters)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Dream (Vegans)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Vegans - Toto)",
+								"metrics": {
+									"craft_built": 221,
+									"craft_lost": 111,
+									"buildings_constructed": 63,
+									"buildings_lost": 28,
+									"scrap_collected": 2015,
+									"scrap_spent": 10003,
+									"scrap_harvested_upgraded": 5569
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 10,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Evergreen)": 3,
+										"Team 9 (Manslayer)": 10
+									},
+									"craft_lost_to": {
+										"Team 2 (Lithium)": 1,
+										"Team 6 (VTrider)": 53,
+										"Team 7 (Vivify)": 6,
+										"Team 8 (Evergreen)": 27,
+										"Team 9 (Manslayer)": 12,
+										"Team 10 (national scionist)": 12
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 2
+									},
+									"buildings_lost_to": {
+										"Team 6 (VTrider)": 13,
+										"Team 7 (Vivify)": 2,
+										"Team 8 (Evergreen)": 3,
+										"Team 9 (Manslayer)": 3,
+										"Team 10 (national scionist)": 7
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Vegans - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 16,
+									"scrap_collected": 55,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 5 (blue)": 1,
+										"Team 6 (VTrider)": 8,
+										"Team 8 (Evergreen)": 2,
+										"Team 9 (Manslayer)": 1,
+										"Team 10 (national scionist)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 9,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Evergreen)": 3,
+										"Team 9 (Manslayer)": 1,
+										"Team 10 (national scionist)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Vegans - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 19,
+									"scrap_collected": 200,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 15,
+										"Team 7 (Vivify)": 2,
+										"Team 8 (Evergreen)": 2,
+										"Team 9 (Manslayer)": 1,
+										"Team 10 (national scionist)": 8
+									},
+									"craft_lost_to": {
+										"Team 2 (Lithium)": 1,
+										"Team 6 (VTrider)": 9,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Evergreen)": 4,
+										"Team 9 (Manslayer)": 2,
+										"Team 10 (national scionist)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Vegans - Domakus)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 31,
+									"scrap_collected": 200,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 17,
+										"Team 7 (Vivify)": 4,
+										"Team 8 (Evergreen)": 2,
+										"Team 9 (Manslayer)": 5
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 17,
+										"Team 7 (Vivify)": 6,
+										"Team 8 (Evergreen)": 4,
+										"Team 10 (national scionist)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Vegans - blue)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 17,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 16,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Evergreen)": 4,
+										"Team 9 (Manslayer)": 6,
+										"Team 10 (national scionist)": 4
+									},
+									"craft_lost_to": {
+										"Team 2 (Lithium)": 1,
+										"Team 6 (VTrider)": 8,
+										"Team 7 (Vivify)": 1,
+										"Team 8 (Evergreen)": 5,
+										"Team 9 (Manslayer)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Meat Eaters - VTrider)",
+								"metrics": {
+									"craft_built": 205,
+									"craft_lost": 66,
+									"buildings_constructed": 43,
+									"buildings_lost": 22,
+									"scrap_collected": 1845,
+									"scrap_spent": 9898,
+									"scrap_harvested_upgraded": 5424
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 53,
+										"Team 2 (Lithium)": 9,
+										"Team 3 (F9bomber)": 9,
+										"Team 4 (Domakus)": 17,
+										"Team 5 (blue)": 8
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 10,
+										"Team 2 (Lithium)": 8,
+										"Team 3 (F9bomber)": 15,
+										"Team 4 (Domakus)": 17,
+										"Team 5 (blue)": 16
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 13
+									},
+									"buildings_lost_to": {
+										"Team 1 (Toto)": 2,
+										"Team 2 (Lithium)": 4,
+										"Team 3 (F9bomber)": 7,
+										"Team 4 (Domakus)": 4,
+										"Team 5 (blue)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Meat Eaters - Vivify)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 294,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 6,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Domakus)": 6,
+										"Team 5 (blue)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 1,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Domakus)": 4,
+										"Team 5 (blue)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Meat Eaters - Evergreen)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 13,
+									"scrap_collected": 325,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 27,
+										"Team 2 (Lithium)": 3,
+										"Team 3 (F9bomber)": 4,
+										"Team 4 (Domakus)": 4,
+										"Team 5 (blue)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 3,
+										"Team 2 (Lithium)": 2,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Domakus)": 2,
+										"Team 5 (blue)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Meat Eaters - Manslayer)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 23,
+									"scrap_collected": 135,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 12,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (F9bomber)": 2,
+										"Team 5 (blue)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Toto)": 10,
+										"Team 2 (Lithium)": 1,
+										"Team 3 (F9bomber)": 1,
+										"Team 4 (Domakus)": 5,
+										"Team 5 (blue)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Meat Eaters - national scionist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Toto)": 12,
+										"Team 2 (Lithium)": 2,
+										"Team 3 (F9bomber)": 2,
+										"Team 4 (Domakus)": 4
+									},
+									"craft_lost_to": {
+										"Team 2 (Lithium)": 3,
+										"Team 3 (F9bomber)": 8,
+										"Team 5 (blue)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Toto)": 7
 									},
 									"buildings_lost_to": {}
 								}
