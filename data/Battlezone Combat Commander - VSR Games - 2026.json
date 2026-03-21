@@ -57711,6 +57711,1221 @@
 						]
 					}
 				}
+			},
+			"03.20.26": {
+				"Casius": {
+					"date": "03.20.26",
+					"map": "Casius",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:12:39",
+					"teamOne": [
+						"Muffin",
+						"Judgeguns",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Econchump",
+						"Lithium"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:12:39",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 635,
+									"deaths": 16,
+									"kills": 95
+								},
+								{
+									"name": "Team 2",
+									"score": 292,
+									"deaths": 24,
+									"kills": 107
+								},
+								{
+									"name": "Lithium",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Vivify (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 157,
+									"craft_lost": 42,
+									"buildings_constructed": 45,
+									"buildings_lost": 24,
+									"scrap_collected": 2045,
+									"scrap_spent": 7576,
+									"scrap_harvested_upgraded": 2976
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 15,
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (econchump)": 8,
+										"Team 9 (Lithium)": 9
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 9,
+										"Team 7 (Scorpion)": 17,
+										"Team 8 (econchump)": 5,
+										"Team 9 (Lithium)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 9
+									},
+									"buildings_lost_to": {
+										"Team 6 (scion nationalist)": 6,
+										"Team 7 (Scorpion)": 5,
+										"Team 8 (econchump)": 9,
+										"Team 9 (Lithium)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 20,
+									"scrap_collected": 110,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 16,
+										"Team 7 (Scorpion)": 5,
+										"Team 8 (econchump)": 5,
+										"Team 9 (Lithium)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 6,
+										"Team 7 (Scorpion)": 8,
+										"Team 8 (econchump)": 3,
+										"Team 9 (Lithium)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 9
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 8,
+										"Team 7 (Scorpion)": 4,
+										"Team 8 (econchump)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 2,
+										"Team 7 (Scorpion)": 7,
+										"Team 8 (econchump)": 4,
+										"Team 9 (Lithium)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (scion nationalist)": 7,
+										"Team 7 (Scorpion)": 2,
+										"Team 8 (econchump)": 2,
+										"Team 9 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (scion nationalist)": 5,
+										"Team 7 (Scorpion)": 8,
+										"Team 8 (econchump)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (scion nationalist)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - scion nationalist)",
+								"metrics": {
+									"craft_built": 123,
+									"craft_lost": 47,
+									"buildings_constructed": 45,
+									"buildings_lost": 29,
+									"scrap_collected": 861,
+									"scrap_spent": 6074,
+									"scrap_harvested_upgraded": 2544
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 9,
+										"Team 2 (Papa Lazarou)": 6,
+										"Team 3 (judgeguns)": 2,
+										"Team 5 (Nomad)": 5,
+										"Team 6 (scion nationalist)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 15,
+										"Team 2 (Papa Lazarou)": 16,
+										"Team 3 (judgeguns)": 8,
+										"Team 5 (Nomad)": 7,
+										"Team 6 (scion nationalist)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 6
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 9,
+										"Team 2 (Papa Lazarou)": 9,
+										"Team 3 (judgeguns)": 7,
+										"Team 5 (Nomad)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 13,
+									"scrap_collected": 65,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 17,
+										"Team 2 (Papa Lazarou)": 8,
+										"Team 3 (judgeguns)": 7,
+										"Team 5 (Nomad)": 8,
+										"Team 7 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (Papa Lazarou)": 5,
+										"Team 3 (judgeguns)": 4,
+										"Team 5 (Nomad)": 2,
+										"Team 7 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - econchump)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 17,
+									"scrap_collected": 285,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 5,
+										"Team 2 (Papa Lazarou)": 3,
+										"Team 3 (judgeguns)": 4,
+										"Team 5 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 8,
+										"Team 2 (Papa Lazarou)": 5,
+										"Team 3 (judgeguns)": 1,
+										"Team 5 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 9
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 2,
+									"craft_lost": 17,
+									"scrap_collected": 145,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 10,
+										"Team 2 (Papa Lazarou)": 3,
+										"Team 3 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 9,
+										"Team 2 (Papa Lazarou)": 6,
+										"Team 5 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Giza": {
+					"date": "03.20.26",
+					"map": "Giza",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "9:02",
+					"teamOne": [
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Muffin"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:09:02",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 337,
+									"deaths": 1,
+									"kills": 16
+								},
+								{
+									"name": "Team 2",
+									"score": -8,
+									"deaths": 1,
+									"kills": 4
+								},
+								{
+									"name": "The DRANK There Is",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "judgeguns (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "scion nationalist (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "econchump (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Nomad (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 14,
+									"craft_lost": 2,
+									"buildings_constructed": 10,
+									"buildings_lost": 0,
+									"scrap_collected": 265,
+									"scrap_spent": 713,
+									"scrap_harvested_upgraded": 159
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 7 (Scorpion)": 1,
+										"Team 9 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - The DRANK There Is)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 4,
+										"Team 9 (Papa Lazarou)": 2
+									},
+									"craft_lost_to": {
+										"Team 9 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Ain't the Drank there is)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Scorpion)": 2,
+										"Team 9 (Papa Lazarou)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 7,
+									"buildings_constructed": 9,
+									"buildings_lost": 4,
+									"scrap_collected": 190,
+									"scrap_spent": 626,
+									"scrap_harvested_upgraded": 96
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 2 (The DRANK There Is)": 4,
+										"Team 5 (Ain't the Drank there is)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 5 (Ain't the Drank there is)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 5 (Ain't the Drank there is)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (The DRANK There Is)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (The DRANK There Is)": 2,
+										"Team 5 (Ain't the Drank there is)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Scammed": {
+					"date": "03.20.26",
+					"map": "Scammed",
+					"commanders": "Muffin vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "11:58",
+					"teamOne": [
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Sev",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:11:58",
+							"team_overviews": [
+								{
+									"name": "Real Hackers",
+									"score": 44,
+									"deaths": 2,
+									"kills": 19
+								},
+								{
+									"name": "Risk Takers",
+									"score": 4,
+									"deaths": 2,
+									"kills": 7
+								},
+								{
+									"name": "Watchbot Enthusiast",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Real Hackers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "The DRANK There Is (Real Hackers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "t the Drank there is (Real Hackers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Real Hackers - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 20,
+									"craft_lost": 1,
+									"buildings_constructed": 14,
+									"buildings_lost": 2,
+									"scrap_collected": 240,
+									"scrap_spent": 950,
+									"scrap_harvested_upgraded": 237
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 6,
+										"Team 7 (Scorpion)": 3,
+										"Team 8 (Watchbot Enthusiast)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {
+										"Team 8 (Watchbot Enthusiast)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Real Hackers - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (Watchbot Enthusiast)": 3
+									},
+									"craft_lost_to": {
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (Watchbot Enthusiast)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Real Hackers - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Risk Takers - Lithium)",
+								"metrics": {
+									"craft_built": 25,
+									"craft_lost": 10,
+									"buildings_constructed": 7,
+									"buildings_lost": 3,
+									"scrap_collected": 300,
+									"scrap_spent": 709,
+									"scrap_harvested_upgraded": 108
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Papa Lazarou)": 6,
+										"Team 2 (F9bomber)": 2,
+										"Team 3 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Papa Lazarou)": 2,
+										"Team 3 (Nomad)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Risk Takers - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Papa Lazarou)": 1,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Papa Lazarou)": 3,
+										"Team 2 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Risk Takers - Watchbot Enthusiast)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Papa Lazarou)": 2,
+										"Team 2 (F9bomber)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Papa Lazarou)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Trench": {
+					"date": "03.20.26",
+					"map": "Trench",
+					"commanders": "Lamper vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Lamper",
+					"time": "14:13",
+					"teamOne": [
+						"Scorpion",
+						"Lone",
+						"Muffin"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Nomad",
+						"Sev"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:14:13",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 9,
+									"deaths": 5,
+									"kills": 10
+								},
+								{
+									"name": "Team 1",
+									"score": -48,
+									"deaths": 1,
+									"kills": 24
+								},
+								{
+									"name": "Lone",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Nomad (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Watchbot Enthusiast (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - Lamper)",
+								"metrics": {
+									"craft_built": 21,
+									"craft_lost": 7,
+									"buildings_constructed": 15,
+									"buildings_lost": 0,
+									"scrap_collected": 140,
+									"scrap_spent": 1140,
+									"scrap_harvested_upgraded": 261
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 2,
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (Only one not Drank)": 2,
+										"Team 9 (Danya)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (F9bomber)": 2,
+										"Team 8 (Only one not Drank)": 2,
+										"Team 9 (Danya)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Lone)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1,
+									"scrap_collected": 75,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 7 (F9bomber)": 1,
+										"Team 8 (Only one not Drank)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 3,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (Only one not Drank)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 29,
+									"craft_lost": 5,
+									"buildings_constructed": 14,
+									"buildings_lost": 9,
+									"scrap_collected": 370,
+									"scrap_spent": 1129,
+									"scrap_harvested_upgraded": 344
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lamper)": 2,
+										"Team 3 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lamper)": 1,
+										"Team 3 (Scorpion)": 1,
+										"Team 5 (Papa Lazarou)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (Lamper)": 3,
+										"Team 3 (Scorpion)": 1,
+										"Team 4 (Lone)": 1,
+										"Team 5 (Papa Lazarou)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lamper)": 1,
+										"Team 3 (Scorpion)": 1,
+										"Team 4 (Lone)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Scorpion)": 2,
+										"Team 4 (Lone)": 1,
+										"Team 5 (Papa Lazarou)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Only one not Drank)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lamper)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Scorpion)": 2,
+										"Team 4 (Lone)": 1,
+										"Team 5 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lamper)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Scorpion)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Fort 12C": {
+					"date": "03.20.26",
+					"map": "Fort 12C",
+					"commanders": "Lone vs Lamper",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Lamper",
+					"time": "34:25",
+					"teamOne": [
+						"Sev",
+						"Nomad",
+						"Muffin"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Lithium",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:34:25",
+							"team_overviews": [
+								{
+									"name": "Believers",
+									"score": 42,
+									"deaths": 21,
+									"kills": 30
+								},
+								{
+									"name": "Atheists",
+									"score": 21,
+									"deaths": 2,
+									"kills": 63
+								},
+								{
+									"name": "Steel Coil",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Lamper (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Only one not Drank (Atheists)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Believers - Lone)",
+								"metrics": {
+									"craft_built": 60,
+									"craft_lost": 21,
+									"buildings_constructed": 25,
+									"buildings_lost": 19,
+									"scrap_collected": 520,
+									"scrap_spent": 2574,
+									"scrap_harvested_upgraded": 842
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Steel Coil)": 1,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (Lithium)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Steel Coil)": 8,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (Lithium)": 4,
+										"Team 9 (Scorpion)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Steel Coil)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Steel Coil)": 8,
+										"Team 7 (F9bomber)": 3,
+										"Team 8 (Lithium)": 6,
+										"Team 9 (Scorpion)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Believers - Danya)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 12,
+									"scrap_collected": 175,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Steel Coil)": 2,
+										"Team 8 (Lithium)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Steel Coil)": 3,
+										"Team 7 (F9bomber)": 2,
+										"Team 8 (Lithium)": 2,
+										"Team 9 (Scorpion)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Steel Coil)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Believers - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Steel Coil)": 4,
+										"Team 7 (F9bomber)": 5,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Steel Coil)": 3,
+										"Team 7 (F9bomber)": 2,
+										"Team 8 (Lithium)": 1,
+										"Team 9 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Steel Coil)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Believers - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Steel Coil)": 3,
+										"Team 7 (F9bomber)": 1,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Steel Coil)": 4,
+										"Team 8 (Lithium)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Steel Coil)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Atheists - Steel Coil)",
+								"metrics": {
+									"craft_built": 55,
+									"craft_lost": 11,
+									"buildings_constructed": 37,
+									"buildings_lost": 7,
+									"scrap_collected": 360,
+									"scrap_spent": 2898,
+									"scrap_harvested_upgraded": 1223
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lone)": 8,
+										"Team 2 (Danya)": 3,
+										"Team 3 (Nomad)": 3,
+										"Team 4 (Papa Lazarou)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (Lone)": 1,
+										"Team 2 (Danya)": 2,
+										"Team 3 (Nomad)": 4,
+										"Team 4 (Papa Lazarou)": 3,
+										"Team 9 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lone)": 8
+									},
+									"buildings_lost_to": {
+										"Team 1 (Lone)": 1,
+										"Team 2 (Danya)": 1,
+										"Team 3 (Nomad)": 3,
+										"Team 4 (Papa Lazarou)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Atheists - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9,
+									"scrap_collected": 105,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lone)": 3,
+										"Team 2 (Danya)": 2,
+										"Team 3 (Nomad)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (Lone)": 3,
+										"Team 3 (Nomad)": 5,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lone)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Atheists - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lone)": 4,
+										"Team 2 (Danya)": 2,
+										"Team 3 (Nomad)": 1,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (Lone)": 1,
+										"Team 2 (Danya)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lone)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Atheists - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Lone)": 6,
+										"Team 2 (Danya)": 5,
+										"Team 3 (Nomad)": 1,
+										"Team 6 (Steel Coil)": 1
+									},
+									"craft_lost_to": {
+										"Team 3 (Nomad)": 1,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Lone)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
