@@ -58926,6 +58926,871 @@
 						]
 					}
 				}
+			},
+			"03.21.26": {
+				"Nigeria": {
+					"date": "03.21.26",
+					"map": "Nigeria",
+					"commanders": "DD vs Cyber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Cyber",
+					"time": "32:30",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"Muffin",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"MAX",
+						"X-Triage",
+						"M.S"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:32:30",
+							"team_overviews": [
+								{
+									"name": "419 Scammers",
+									"score": 63,
+									"deaths": 16,
+									"kills": 49
+								},
+								{
+									"name": "Mugu",
+									"score": -801,
+									"deaths": 12,
+									"kills": 88
+								},
+								{
+									"name": "MAX",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Waddles (419 Scammers)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (419 Scammers - dd)",
+								"metrics": {
+									"craft_built": 76,
+									"craft_lost": 36,
+									"buildings_constructed": 19,
+									"buildings_lost": 14,
+									"scrap_collected": 725,
+									"scrap_spent": 2931,
+									"scrap_harvested_upgraded": 1017
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Cyber)": 3,
+										"Team 10 (M.S)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (Cyber)": 4,
+										"Team 7 (Scorpion)": 9,
+										"Team 8 (MAX)": 11,
+										"Team 9 (Toto)": 6,
+										"Team 10 (M.S)": 6
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 6 (Cyber)": 1,
+										"Team 7 (Scorpion)": 5,
+										"Team 8 (MAX)": 5,
+										"Team 9 (Toto)": 1,
+										"Team 10 (M.S)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (419 Scammers - national scionist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Cyber)": 9,
+										"Team 8 (MAX)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Scorpion)": 7,
+										"Team 8 (MAX)": 5,
+										"Team 10 (M.S)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Cyber)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (419 Scammers - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Cyber)": 2,
+										"Team 8 (MAX)": 2,
+										"Team 9 (Toto)": 2,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Cyber)": 2,
+										"Team 7 (Scorpion)": 3,
+										"Team 8 (MAX)": 2,
+										"Team 10 (M.S)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (419 Scammers - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 25,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Cyber)": 7,
+										"Team 8 (MAX)": 6,
+										"Team 9 (Toto)": 1,
+										"Team 10 (M.S)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Cyber)": 1,
+										"Team 7 (Scorpion)": 2,
+										"Team 9 (Toto)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Cyber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (419 Scammers - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Cyber)": 6,
+										"Team 8 (MAX)": 1,
+										"Team 9 (Toto)": 1,
+										"Team 10 (M.S)": 2
+									},
+									"craft_lost_to": {
+										"Team 7 (Scorpion)": 2,
+										"Team 10 (M.S)": 4
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Mugu - Cyber)",
+								"metrics": {
+									"craft_built": 73,
+									"craft_lost": 27,
+									"buildings_constructed": 24,
+									"buildings_lost": 6,
+									"scrap_collected": 1040,
+									"scrap_spent": 3466,
+									"scrap_harvested_upgraded": 1054
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 4,
+										"Team 3 (Nomad)": 2,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 3,
+										"Team 2 (national scionist)": 9,
+										"Team 3 (Nomad)": 2,
+										"Team 4 (Papa Lazarou)": 7,
+										"Team 5 (F9bomber)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 1
+									},
+									"buildings_lost_to": {
+										"Team 2 (national scionist)": 4,
+										"Team 4 (Papa Lazarou)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Mugu - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 9,
+										"Team 2 (national scionist)": 7,
+										"Team 3 (Nomad)": 3,
+										"Team 4 (Papa Lazarou)": 2,
+										"Team 5 (F9bomber)": 2
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Mugu - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 11,
+										"Team 2 (national scionist)": 5,
+										"Team 3 (Nomad)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (national scionist)": 2,
+										"Team 3 (Nomad)": 2,
+										"Team 4 (Papa Lazarou)": 6,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Mugu - Toto)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 60,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 6,
+										"Team 4 (Papa Lazarou)": 2
+									},
+									"craft_lost_to": {
+										"Team 3 (Nomad)": 2,
+										"Team 4 (Papa Lazarou)": 1,
+										"Team 5 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 10 (Mugu - M.S)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 6,
+										"Team 2 (national scionist)": 2,
+										"Team 3 (Nomad)": 3,
+										"Team 5 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 2,
+										"Team 3 (Nomad)": 1,
+										"Team 4 (Papa Lazarou)": 1,
+										"Team 5 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Snow Central": {
+					"date": "03.21.26",
+					"map": "Snow Central",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:18:54",
+					"teamOne": [
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Scorpion"
+					],
+					"teamOneStraggler": [
+						"Bylarge"
+					],
+					"teamTwoStraggler": [
+						"X-Triage",
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:18:54",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 271,
+									"deaths": 8,
+									"kills": 121
+								},
+								{
+									"name": "Team 1",
+									"score": 231,
+									"deaths": 7,
+									"kills": 107
+								},
+								{
+									"name": "Nomad (Team 1)",
+									"score": 40,
+									"deaths": 1,
+									"kills": 23
+								},
+								{
+									"name": "Toto (Team 1)",
+									"score": 32,
+									"deaths": 1,
+									"kills": 18
+								},
+								{
+									"name": "dark",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "blue (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - dark)",
+								"metrics": {
+									"craft_built": 167,
+									"craft_lost": 52,
+									"buildings_constructed": 42,
+									"buildings_lost": 27,
+									"scrap_collected": 1232,
+									"scrap_spent": 7266,
+									"scrap_harvested_upgraded": 3301
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dark)": 1,
+										"Team 6 (F9bomber)": 12,
+										"Team 7 (The_Bylarge)": 5,
+										"Team 9 (Hanno)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (dark)": 1,
+										"Team 6 (F9bomber)": 11,
+										"Team 7 (The_Bylarge)": 13,
+										"Team 9 (Hanno)": 26
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 4
+									},
+									"buildings_lost_to": {
+										"Team 6 (F9bomber)": 16,
+										"Team 7 (The_Bylarge)": 7,
+										"Team 9 (Hanno)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 50
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 39,
+										"Team 7 (The_Bylarge)": 9,
+										"Team 9 (Hanno)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 29,
+										"Team 7 (The_Bylarge)": 3,
+										"Team 9 (Hanno)": 18
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 21
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 220,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 3 (Team 1)": 1,
+										"Team 6 (F9bomber)": 12,
+										"Team 7 (The_Bylarge)": 2,
+										"Team 9 (Hanno)": 3
+									},
+									"craft_lost_to": {
+										"Team 3 (Team 1)": 1,
+										"Team 6 (F9bomber)": 3,
+										"Team 7 (The_Bylarge)": 1,
+										"Team 9 (Hanno)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Team 1)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 20,
+									"scrap_collected": 540,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (F9bomber)": 11,
+										"Team 9 (Hanno)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (F9bomber)": 4,
+										"Team 7 (The_Bylarge)": 9,
+										"Team 9 (Hanno)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (F9bomber)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - F9bomber)",
+								"metrics": {
+									"craft_built": 169,
+									"craft_lost": 76,
+									"buildings_constructed": 52,
+									"buildings_lost": 32,
+									"scrap_collected": 2104,
+									"scrap_spent": 7906,
+									"scrap_harvested_upgraded": 3626
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dark)": 11,
+										"Team 2 (Scorpion)": 29,
+										"Team 3 (Team 1)": 3,
+										"Team 4 (Team 1)": 4,
+										"Team 6 (F9bomber)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (dark)": 12,
+										"Team 2 (Scorpion)": 39,
+										"Team 3 (Team 1)": 12,
+										"Team 4 (Team 1)": 11,
+										"Team 6 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dark)": 16
+									},
+									"buildings_lost_to": {
+										"Team 1 (dark)": 4,
+										"Team 2 (Scorpion)": 21,
+										"Team 3 (Team 1)": 3,
+										"Team 4 (Team 1)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - The_Bylarge)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 17,
+									"scrap_collected": 200,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dark)": 13,
+										"Team 2 (Scorpion)": 3,
+										"Team 3 (Team 1)": 1,
+										"Team 4 (Team 1)": 9
+									},
+									"craft_lost_to": {
+										"Team 1 (dark)": 5,
+										"Team 2 (Scorpion)": 9,
+										"Team 3 (Team 1)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dark)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Hanno)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 15,
+									"scrap_collected": 60,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dark)": 26,
+										"Team 2 (Scorpion)": 18,
+										"Team 3 (Team 1)": 2,
+										"Team 4 (Team 1)": 7
+									},
+									"craft_lost_to": {
+										"Team 1 (dark)": 4,
+										"Team 2 (Scorpion)": 6,
+										"Team 3 (Team 1)": 3,
+										"Team 4 (Team 1)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dark)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Terron": {
+					"date": "03.21.26",
+					"map": "Terron",
+					"commanders": "DD vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "57:43",
+					"teamOne": [
+						"F9bomber",
+						"Nomad",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Bylarge",
+						"HyperVivify"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:57:43",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 680,
+									"deaths": 11,
+									"kills": 103
+								},
+								{
+									"name": "Team 1",
+									"score": 120,
+									"deaths": 2,
+									"kills": 69
+								},
+								{
+									"name": "VTrider",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "dark (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Scorpion (Team 1)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Bylarge (Team 2)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - dd)",
+								"metrics": {
+									"craft_built": 124,
+									"craft_lost": 60,
+									"buildings_constructed": 38,
+									"buildings_lost": 22,
+									"scrap_collected": 1270,
+									"scrap_spent": 5479,
+									"scrap_harvested_upgraded": 2017
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 16,
+										"Team 7 (national scionist)": 1,
+										"Team 8 (GUS)": 1,
+										"Team 9 (Hanno)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 11,
+										"Team 7 (national scionist)": 14,
+										"Team 8 (GUS)": 21,
+										"Team 9 (Hanno)": 14
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 1
+									},
+									"buildings_lost_to": {
+										"Team 7 (national scionist)": 3,
+										"Team 8 (GUS)": 13,
+										"Team 9 (Hanno)": 6
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 10
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 14,
+										"Team 7 (national scionist)": 1,
+										"Team 9 (Hanno)": 2
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 3,
+										"Team 7 (national scionist)": 1,
+										"Team 8 (GUS)": 1,
+										"Team 9 (Hanno)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 11,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 16,
+										"Team 8 (GUS)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 5,
+										"Team 7 (national scionist)": 1,
+										"Team 8 (GUS)": 2,
+										"Team 9 (Hanno)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (VTrider)": 16,
+										"Team 7 (national scionist)": 3,
+										"Team 8 (GUS)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (VTrider)": 4,
+										"Team 8 (GUS)": 2,
+										"Team 9 (Hanno)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (VTrider)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - VTrider)",
+								"metrics": {
+									"craft_built": 110,
+									"craft_lost": 62,
+									"buildings_constructed": 44,
+									"buildings_lost": 16,
+									"scrap_collected": 1500,
+									"scrap_spent": 5206,
+									"scrap_harvested_upgraded": 1813
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 11,
+										"Team 2 (F9bomber)": 3,
+										"Team 3 (Nomad)": 5,
+										"Team 4 (Scorpion)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 16,
+										"Team 2 (F9bomber)": 14,
+										"Team 3 (Nomad)": 16,
+										"Team 4 (Scorpion)": 16
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (dd)": 1,
+										"Team 2 (F9bomber)": 7,
+										"Team 3 (Nomad)": 1,
+										"Team 4 (Scorpion)": 7
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - national scionist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 5,
+									"scrap_collected": 80,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 14,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (Nomad)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 1,
+										"Team 2 (F9bomber)": 1,
+										"Team 4 (Scorpion)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - GUS)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 21,
+										"Team 2 (F9bomber)": 1,
+										"Team 3 (Nomad)": 2,
+										"Team 4 (Scorpion)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 1,
+										"Team 3 (Nomad)": 1,
+										"Team 4 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 13
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Hanno)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (dd)": 14,
+										"Team 2 (F9bomber)": 5,
+										"Team 3 (Nomad)": 3,
+										"Team 4 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (dd)": 1,
+										"Team 2 (F9bomber)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (dd)": 6
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
