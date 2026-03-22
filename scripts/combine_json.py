@@ -2,17 +2,9 @@ import json
 import os
 from collections import defaultdict, Counter
 from datetime import datetime
+from config import files, output_path, months
 
 # Note:    Scrap Harvested (Recycler) and Scrap Harvested (Extractor) not collected
-
-# Define the paths to the JSON files and their corresponding years
-files = [
-    ('data/Battlezone Combat Commander - VSR Games - 2024.json', 2024),
-    ('data/Battlezone Combat Commander - VSR Games - 2025.json', 2025),
-    ('data/Battlezone Combat Commander - VSR Games - 2026.json', 2026),
-]
-
-output_path = 'data/data.json'  # Output path for the combined JSON
 
 
 # Function to read a JSON file and return the parsed data
@@ -241,21 +233,6 @@ def count_game_times(json_data):
 
 
 def count_game_totals(json_data):
-
-    months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ]
 
     get_months = json_data["month"]
 
@@ -496,7 +473,6 @@ def process_commander_game_dates(json_data):
 
     return dict_to_json
 
-
 # Function to process the data and collect results
 def process_file(data, year):
     print(f"Processing {year} data:")
@@ -694,6 +670,141 @@ def categorize_maps(map_counts):
     return categories
 
 
+def get_faction_map_win_chance(
+    json_data,
+    min_total_games=20,
+    min_winrate_gap=0.05
+):
+    raw_stats = {}
+
+    for year in sorted(json_data.keys()):
+        raw_key = f"raw_{year}"
+
+        if raw_key not in json_data[year]:
+            continue
+
+        data = json_data[year][raw_key]["month"]
+
+        for month in data.values():
+            for day in month.values():
+                for match in day.values():
+                    map_name = match.get("map")
+                    factions = match.get("factions")
+                    winning_faction = match.get("winningFaction")
+
+                    if not map_name or not factions or not winning_faction:
+                        continue
+
+                    # Normalize factions
+                    if isinstance(factions, str):
+                        factions = factions.strip("[]")
+                        factions = [f.strip() for f in factions.split(",")]
+
+                    if len(factions) != 2:
+                        continue
+
+                    # Skip mirror matches
+                    if factions[0] == factions[1]:
+                        continue
+
+                    raw_stats.setdefault(map_name, {"matches": 0, "factions": {}})
+                    raw_stats[map_name]["matches"] += 1
+
+                    for faction in factions:
+                        raw_stats[map_name]["factions"].setdefault(
+                            faction, {"games": 0, "wins": 0}
+                        )
+
+                        raw_stats[map_name]["factions"][faction]["games"] += 1
+
+                        if faction == winning_faction:
+                            raw_stats[map_name]["factions"][faction]["wins"] += 1
+
+    final_stats = {}
+
+    for map_name, map_data in raw_stats.items():
+
+        total_games = map_data["matches"]
+
+        if total_games < min_total_games:
+            continue
+
+        factions = map_data["factions"]
+
+        winrates = {}
+        for faction, data in factions.items():
+            if data["games"] > 0:
+                winrates[faction] = data["wins"] / data["games"]
+
+        if len(winrates) < 2:
+            continue
+
+        sorted_factions = sorted(
+            winrates.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
+
+        top_faction, top_rate = sorted_factions[0]
+        second_faction, second_rate = sorted_factions[1]
+
+        if (top_rate - second_rate) >= min_winrate_gap:
+            favored = top_faction
+        else:
+            favored = "No clear favorite"
+
+        final_stats[map_name] = {
+            "totalGames": total_games,
+            "favoredFaction": favored,
+            "factions": {}
+        }
+
+        for faction, data in factions.items():
+            final_stats[map_name]["factions"][faction] = {
+                "games": data["games"],
+                "wins": data["wins"],
+                "winRate": round(data["wins"] / data["games"], 3)
+            }
+
+    return final_stats
+
+
+def processed_map_data(stats_data):
+
+    with open("data/vsrmaplist.json") as f:
+        maps_data = json.load(f)
+
+    # Build lookup dict for faster access
+    vsr_lookup = {m['Name']: m for m in maps_data}
+
+    for map_name, entry in stats_data.items():
+
+        if map_name in vsr_lookup:
+            map_info = vsr_lookup[map_name]
+
+            entry.update({
+                "pools": map_info.get('Pools', "NA"),
+                "loose": map_info.get('Loose', "NA"),
+                "author": map_info.get('Author', "NA"),
+                "mapSize": map_info.get('Size', {}).get('formattedSize', "NA"),
+                "basetoBase": map_info.get('Size', {}).get('baseToBase', "NA"),
+            })
+
+        else:
+            print(f"Map not in VSR list: {map_name}")
+
+            # Optional: assign defaults
+            entry.update({
+                "pools": "NA",
+                "loose": "NA",
+                "author": "NA",
+                "mapSize": "NA",
+                "basetoBase": "NA",
+            })
+
+    return stats_data
+
+
 output_data["processed_data"] = {
     "processed_map_counts": process_map_counts(output_data),
     "processed_most_played_factions": process_most_played_factions(output_data),
@@ -703,7 +814,8 @@ output_data["processed_data"] = {
     "processed_map_popularity": categorize_maps(process_map_counts(output_data)),
     "processed_player_times": print_player_times(output_data),
     "processed_commander_times": print_commander_times(output_data),
-    "processed_commander_game_dates": process_commander_game_dates(output_data)
+    "processed_commander_game_dates": process_commander_game_dates(output_data),
+    "processed_faction_favorite_maps": processed_map_data(get_faction_map_win_chance(output_data))
 }
 
 
