@@ -28,6 +28,14 @@ function addStats(commander, faction, map, opponent, isWinner) {
   c.opponents[opponent] = (c.opponents[opponent] || 0) + 1;
 }
 
+// Returns the top 3 opponements
+function topKeys(obj, n = 3) {
+  return Object.entries(obj)
+    .sort(([, aCount], [, bCount]) => bCount - aCount)
+    .slice(0, n)
+    .map(([key, count]) => `${key} (${count})`);
+}
+
 // Parse date from JSON format (MM.DD.YY)
 function parseDate(dateStr) {
   const [month, day, year] = dateStr.split(".").map(Number);
@@ -232,8 +240,8 @@ function createCard(c) {
   <div class="section-title">Most Played Map</div>
   <div class="stat">${topKey(c.maps)}</div>
 
-  <div class="section-title">Top Opponent</div>
-  <div class="stat">${topKey(c.opponents)}</div>
+  <div class="section-title">Top Opponents</div>
+  <div class="stat">${topKeys(c.opponents).join(", ")}</div>
 
   <div class="section-title">Commander Activity</div>
   <div class="stat">

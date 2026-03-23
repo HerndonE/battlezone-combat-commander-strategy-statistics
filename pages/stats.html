@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/mobile-stats.css">
     <link rel="stylesheet" href="../css/commanders.css">
     <link rel="stylesheet" href="../css/players.css">
+    <link rel="stylesheet" href="../css/maps.css">
     <link rel="stylesheet" href="../css/match-history.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -26,6 +27,7 @@
     <script type="module" src="../js/mobileStats.js"></script>
     <script type="module" src="../js/commanders.js"></script>
     <script type="module" src="../js/players.js"></script>
+    <script type="module" src="../js/maps.js"></script>
     <script type="module" src="../js/matchHistory.js"></script>
   </head>
   <body>
@@ -50,6 +52,7 @@
         <button class="tablinks" onclick="getData(event, 'twentySix')">2026</button>
         <button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>
         <button class="tablinks" onclick="getData(event, 'players')">Players</button>
+        <button class="tablinks" onclick="getData(event, 'maps')">Maps</button>
         <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
       </div>
       <div id="Overview" class="tabcontent">
@@ -206,6 +209,11 @@
       <div id="players" class="tabcontent">
         <div class="controls">
           <div id="player-card-container"></div>
+        </div>
+      </div>
+      <div id="maps" class="tabcontent">
+        <div class="controls">
+          <div id="map-card-container"></div>
         </div>
       </div>
       <div id="matchHistory" class="tabcontent">
