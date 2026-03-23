@@ -1,0 +1,4251 @@
+{
+    "commanders": {
+        "Jabbapop": {
+            "win_rate": 0.2413793103448276,
+            "wins": 7,
+            "matches": 29
+        },
+        "DD": {
+            "win_rate": 0.76,
+            "wins": 19,
+            "matches": 25
+        },
+        "F9bomber": {
+            "win_rate": 0.6093023255813953,
+            "wins": 131,
+            "matches": 215
+        },
+        "VTrider": {
+            "win_rate": 0.6161137440758294,
+            "wins": 130,
+            "matches": 211
+        },
+        "Gravey": {
+            "win_rate": 0.3333333333333333,
+            "wins": 20,
+            "matches": 60
+        },
+        "Blue Banana": {
+            "win_rate": 0.6575342465753424,
+            "wins": 96,
+            "matches": 146
+        },
+        "Sev": {
+            "win_rate": 0.55,
+            "wins": 55,
+            "matches": 100
+        },
+        "Herp McDerperson": {
+            "win_rate": 0.43333333333333335,
+            "wins": 13,
+            "matches": 30
+        },
+        "Sly": {
+            "win_rate": 0.6486486486486487,
+            "wins": 24,
+            "matches": 37
+        },
+        "Darkvale": {
+            "win_rate": 0.25287356321839083,
+            "wins": 22,
+            "matches": 87
+        },
+        "Lamper": {
+            "win_rate": 0.5,
+            "wins": 17,
+            "matches": 34
+        },
+        "Nozza34": {
+            "win_rate": 0.2,
+            "wins": 1,
+            "matches": 5
+        },
+        "M.S": {
+            "win_rate": 0.49333333333333335,
+            "wins": 37,
+            "matches": 75
+        },
+        "Muffin": {
+            "win_rate": 0.6176470588235294,
+            "wins": 21,
+            "matches": 34
+        },
+        "AI_Unit": {
+            "win_rate": 0.2857142857142857,
+            "wins": 2,
+            "matches": 7
+        },
+        "Zack": {
+            "win_rate": 0.3724137931034483,
+            "wins": 54,
+            "matches": 145
+        },
+        "Zentuski": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Cyber": {
+            "win_rate": 0.6923076923076923,
+            "wins": 18,
+            "matches": 26
+        },
+        "Econchump": {
+            "win_rate": 0.5,
+            "wins": 16,
+            "matches": 32
+        },
+        "Domakus": {
+            "win_rate": 0.7272727272727273,
+            "wins": 24,
+            "matches": 33
+        },
+        "Xohm": {
+            "win_rate": 0.32432432432432434,
+            "wins": 12,
+            "matches": 37
+        },
+        "Acolyte": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 3
+        },
+        "Laguna": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "Judgeguns": {
+            "win_rate": 0.15789473684210525,
+            "wins": 3,
+            "matches": 19
+        },
+        "X-Triage": {
+            "win_rate": 0.4666666666666667,
+            "wins": 14,
+            "matches": 30
+        },
+        "Xpi": {
+            "win_rate": 0.5,
+            "wins": 23,
+            "matches": 46
+        },
+        "CamelBay": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "DustRider": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "HappyOtter": {
+            "win_rate": 0.3333333333333333,
+            "wins": 2,
+            "matches": 6
+        },
+        "Seige": {
+            "win_rate": 0.5,
+            "wins": 2,
+            "matches": 4
+        },
+        "DatGuy": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "Cloaket": {
+            "win_rate": 0.48484848484848486,
+            "wins": 16,
+            "matches": 33
+        },
+        "Rosario": {
+            "win_rate": 0.45454545454545453,
+            "wins": 5,
+            "matches": 11
+        },
+        "General BlackDragon": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "Nielk1": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Maverick": {
+            "win_rate": 0.3333333333333333,
+            "wins": 9,
+            "matches": 27
+        },
+        "Athelas": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "DesUxS": {
+            "win_rate": 0.3333333333333333,
+            "wins": 2,
+            "matches": 6
+        },
+        "Shock": {
+            "win_rate": 0.6666666666666666,
+            "wins": 4,
+            "matches": 6
+        },
+        "MAX": {
+            "win_rate": 1.0,
+            "wins": 8,
+            "matches": 8
+        },
+        "Spacewars": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "RollyPolly": {
+            "win_rate": 0.4,
+            "wins": 6,
+            "matches": 15
+        },
+        "Bylarge": {
+            "win_rate": 0.375,
+            "wins": 3,
+            "matches": 8
+        },
+        "Ultimate": {
+            "win_rate": 1.0,
+            "wins": 3,
+            "matches": 3
+        },
+        "Whatever": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 3
+        },
+        "StarFox": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "Bacon": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "Certified Bad Guy": {
+            "win_rate": 0.5375,
+            "wins": 43,
+            "matches": 80
+        },
+        "Lithium": {
+            "win_rate": 0.34,
+            "wins": 34,
+            "matches": 100
+        },
+        "Nomad": {
+            "win_rate": 0.3181818181818182,
+            "wins": 21,
+            "matches": 66
+        },
+        "F9mama": {
+            "win_rate": 1.0,
+            "wins": 2,
+            "matches": 2
+        },
+        "KingFuryKiller": {
+            "win_rate": 1.0,
+            "wins": 2,
+            "matches": 2
+        },
+        "Vacuum34": {
+            "win_rate": 0.5555555555555556,
+            "wins": 5,
+            "matches": 9
+        },
+        "HyperVivify": {
+            "win_rate": 0.5714285714285714,
+            "wins": 24,
+            "matches": 42
+        },
+        "Systeme": {
+            "win_rate": 0.6666666666666666,
+            "wins": 2,
+            "matches": 3
+        },
+        "SilverBullet": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "SwiggityMcgiggity": {
+            "win_rate": 0.3333333333333333,
+            "wins": 1,
+            "matches": 3
+        },
+        "MurphysLawUS": {
+            "win_rate": 0.2857142857142857,
+            "wins": 4,
+            "matches": 14
+        },
+        "Echoblammo": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "Devastator": {
+            "win_rate": 0.2,
+            "wins": 1,
+            "matches": 5
+        },
+        "Psychic": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        }
+    },
+    "players": {
+        "Herp McDerperson": {
+            "win_rate": 0.556390977443609,
+            "wins": 74,
+            "matches": 133
+        },
+        "Pernicious_lunch": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Sly": {
+            "win_rate": 0.5,
+            "wins": 3,
+            "matches": 6
+        },
+        "M.S": {
+            "win_rate": 0.6222222222222222,
+            "wins": 56,
+            "matches": 90
+        },
+        "DD": {
+            "win_rate": 0.47619047619047616,
+            "wins": 10,
+            "matches": 21
+        },
+        "X-Triage": {
+            "win_rate": 0.5057471264367817,
+            "wins": 44,
+            "matches": 87
+        },
+        "F9mama": {
+            "win_rate": 0.40350877192982454,
+            "wins": 23,
+            "matches": 57
+        },
+        "HyperVivify": {
+            "win_rate": 0.5,
+            "wins": 62,
+            "matches": 124
+        },
+        "F9bomber": {
+            "win_rate": 0.49056603773584906,
+            "wins": 234,
+            "matches": 477
+        },
+        "Judgeguns": {
+            "win_rate": 0.5042016806722689,
+            "wins": 120,
+            "matches": 238
+        },
+        "Domakus": {
+            "win_rate": 0.549618320610687,
+            "wins": 72,
+            "matches": 131
+        },
+        "Juggs": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Darkvale": {
+            "win_rate": 0.4551282051282051,
+            "wins": 71,
+            "matches": 156
+        },
+        "HappyOtter": {
+            "win_rate": 0.46153846153846156,
+            "wins": 6,
+            "matches": 13
+        },
+        "VTrider": {
+            "win_rate": 0.6186440677966102,
+            "wins": 73,
+            "matches": 118
+        },
+        "Shock": {
+            "win_rate": 0.56,
+            "wins": 14,
+            "matches": 25
+        },
+        "Sev": {
+            "win_rate": 0.4306569343065693,
+            "wins": 59,
+            "matches": 137
+        },
+        "Xpi": {
+            "win_rate": 0.4342105263157895,
+            "wins": 33,
+            "matches": 76
+        },
+        "Lamper": {
+            "win_rate": 0.6666666666666666,
+            "wins": 10,
+            "matches": 15
+        },
+        "Zack": {
+            "win_rate": 0.4765625,
+            "wins": 61,
+            "matches": 128
+        },
+        "Cyber": {
+            "win_rate": 0.5306122448979592,
+            "wins": 26,
+            "matches": 49
+        },
+        "Athelas": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "Business Lawyer": {
+            "win_rate": 1.0,
+            "wins": 2,
+            "matches": 2
+        },
+        "Blue Banana": {
+            "win_rate": 0.48936170212765956,
+            "wins": 23,
+            "matches": 47
+        },
+        "Rosario": {
+            "win_rate": 0.6666666666666666,
+            "wins": 2,
+            "matches": 3
+        },
+        "Bylarge": {
+            "win_rate": 0.4270833333333333,
+            "wins": 41,
+            "matches": 96
+        },
+        "Econchump": {
+            "win_rate": 0.5106382978723404,
+            "wins": 48,
+            "matches": 94
+        },
+        "sahd0w": {
+            "win_rate": 0.4166666666666667,
+            "wins": 5,
+            "matches": 12
+        },
+        "Maverick": {
+            "win_rate": 0.45161290322580644,
+            "wins": 28,
+            "matches": 62
+        },
+        "Xohm": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "Andrey": {
+            "win_rate": 0.6666666666666666,
+            "wins": 2,
+            "matches": 3
+        },
+        "lux": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Sara": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "RollyPolly": {
+            "win_rate": 0.5625,
+            "wins": 18,
+            "matches": 32
+        },
+        "Muffin": {
+            "win_rate": 0.5175879396984925,
+            "wins": 103,
+            "matches": 199
+        },
+        "And": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Igugf": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "KingFuryKiller": {
+            "win_rate": 0.14285714285714285,
+            "wins": 1,
+            "matches": 7
+        },
+        "Pantouf": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Spymaster": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "arielle": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Jabbapop": {
+            "win_rate": 0.6666666666666666,
+            "wins": 2,
+            "matches": 3
+        },
+        "mueller43": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Nomad": {
+            "win_rate": 0.4413793103448276,
+            "wins": 128,
+            "matches": 290
+        },
+        "Gryphon": {
+            "win_rate": 0.5,
+            "wins": 4,
+            "matches": 8
+        },
+        "MAX": {
+            "win_rate": 0.4634146341463415,
+            "wins": 19,
+            "matches": 41
+        },
+        "Captain Quirk": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 3
+        },
+        "Ultimate": {
+            "win_rate": 0.5,
+            "wins": 15,
+            "matches": 30
+        },
+        "Gravey": {
+            "win_rate": 0.5789473684210527,
+            "wins": 11,
+            "matches": 19
+        },
+        "Feared_1": {
+            "win_rate": 0.3333333333333333,
+            "wins": 3,
+            "matches": 9
+        },
+        "GrizzlyOne95": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "HonourWolf": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Whatever": {
+            "win_rate": 0.5,
+            "wins": 3,
+            "matches": 6
+        },
+        "Lumi": {
+            "win_rate": 1.0,
+            "wins": 1,
+            "matches": 1
+        },
+        "Certified Bad Guy": {
+            "win_rate": 0.4537037037037037,
+            "wins": 49,
+            "matches": 108
+        },
+        "StarFox": {
+            "win_rate": 0.2857142857142857,
+            "wins": 2,
+            "matches": 7
+        },
+        "Oldman": {
+            "win_rate": 0.3333333333333333,
+            "wins": 1,
+            "matches": 3
+        },
+        "Lithium": {
+            "win_rate": 0.5555555555555556,
+            "wins": 90,
+            "matches": 162
+        },
+        "Bacon": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "Vacuum34": {
+            "win_rate": 0.625,
+            "wins": 25,
+            "matches": 40
+        },
+        "Nozza34": {
+            "win_rate": 0.5,
+            "wins": 3,
+            "matches": 6
+        },
+        "Cloaket": {
+            "win_rate": 0.4838709677419355,
+            "wins": 15,
+            "matches": 31
+        },
+        "Dynamic Solutions": {
+            "win_rate": 0.3333333333333333,
+            "wins": 1,
+            "matches": 3
+        },
+        "Acolyte": {
+            "win_rate": 0.3333333333333333,
+            "wins": 1,
+            "matches": 3
+        },
+        "Dr.Philadelphia": {
+            "win_rate": 0.16666666666666666,
+            "wins": 1,
+            "matches": 6
+        },
+        "DesUxS": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "$tar": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 1
+        },
+        "Systeme": {
+            "win_rate": 0.3076923076923077,
+            "wins": 12,
+            "matches": 39
+        },
+        "SwiggityMcgiggity": {
+            "win_rate": 0.46153846153846156,
+            "wins": 12,
+            "matches": 26
+        },
+        "Croatian Knight": {
+            "win_rate": 0.5,
+            "wins": 1,
+            "matches": 2
+        },
+        "VoodooChile": {
+            "win_rate": 1.0,
+            "wins": 3,
+            "matches": 3
+        },
+        "SilverBullet": {
+            "win_rate": 0.5,
+            "wins": 7,
+            "matches": 14
+        },
+        "Marduke": {
+            "win_rate": 1.0,
+            "wins": 2,
+            "matches": 2
+        },
+        "Moboy": {
+            "win_rate": 0.8571428571428571,
+            "wins": 6,
+            "matches": 7
+        },
+        "MurphysLawUS": {
+            "win_rate": 0.3076923076923077,
+            "wins": 4,
+            "matches": 13
+        },
+        "Lone": {
+            "win_rate": 0.3333333333333333,
+            "wins": 2,
+            "matches": 6
+        },
+        "TheBlackDog": {
+            "win_rate": 0.5,
+            "wins": 2,
+            "matches": 4
+        },
+        "doctorasher": {
+            "win_rate": 0.3,
+            "wins": 3,
+            "matches": 10
+        },
+        "Zorn": {
+            "win_rate": 0.0,
+            "wins": 0,
+            "matches": 2
+        },
+        "Psychic": {
+            "win_rate": 0.2,
+            "wins": 1,
+            "matches": 5
+        },
+        "FastChip": {
+            "win_rate": 0.4,
+            "wins": 2,
+            "matches": 5
+        },
+        "Devastator": {
+            "win_rate": 0.5,
+            "wins": 2,
+            "matches": 4
+        },
+        "Mr.Scout": {
+            "win_rate": 0.6666666666666666,
+            "wins": 2,
+            "matches": 3
+        },
+        "Scorpion": {
+            "win_rate": 0.4666666666666667,
+            "wins": 7,
+            "matches": 15
+        }
+    },
+    "player_commander": {
+        "Sev": {
+            "Herp McDerperson": {
+                "wins": 4,
+                "matches": 6
+            },
+            "Pernicious_lunch": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sly": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 10,
+                "matches": 12
+            },
+            "X-Triage": {
+                "wins": 4,
+                "matches": 8
+            },
+            "Lamper": {
+                "wins": 0,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 5,
+                "matches": 8
+            },
+            "Judgeguns": {
+                "wins": 10,
+                "matches": 16
+            },
+            "DD": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 10,
+                "matches": 17
+            },
+            "Cyber": {
+                "wins": 5,
+                "matches": 6
+            },
+            "Athelas": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 5,
+                "matches": 10
+            },
+            "Domakus": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Maverick": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Darkvale": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Rosario": {
+                "wins": 1,
+                "matches": 2
+            },
+            "RollyPolly": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Bylarge": {
+                "wins": 4,
+                "matches": 6
+            },
+            "Muffin": {
+                "wins": 4,
+                "matches": 9
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Gryphon": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Ultimate": {
+                "wins": 1,
+                "matches": 3
+            },
+            "sahd0w": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HonourWolf": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Certified Bad Guy": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Lithium": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Econchump": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Xpi": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Systeme": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Moboy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Psychic": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "F9bomber": {
+            "Sly": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 5,
+                "matches": 12
+            },
+            "F9mama": {
+                "wins": 8,
+                "matches": 10
+            },
+            "Herp McDerperson": {
+                "wins": 8,
+                "matches": 11
+            },
+            "Pernicious_lunch": {
+                "wins": 0,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 7,
+                "matches": 9
+            },
+            "X-Triage": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HappyOtter": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 7,
+                "matches": 9
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 11
+            },
+            "Judgeguns": {
+                "wins": 13,
+                "matches": 18
+            },
+            "Cyber": {
+                "wins": 5,
+                "matches": 8
+            },
+            "Shock": {
+                "wins": 3,
+                "matches": 5
+            },
+            "VTrider": {
+                "wins": 4,
+                "matches": 7
+            },
+            "lux": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 4,
+                "matches": 9
+            },
+            "Muffin": {
+                "wins": 16,
+                "matches": 23
+            },
+            "RollyPolly": {
+                "wins": 4,
+                "matches": 6
+            },
+            "KingFuryKiller": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Pantouf": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Bylarge": {
+                "wins": 7,
+                "matches": 9
+            },
+            "Econchump": {
+                "wins": 6,
+                "matches": 8
+            },
+            "Nomad": {
+                "wins": 10,
+                "matches": 17
+            },
+            "sahd0w": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Ultimate": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Xpi": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Darkvale": {
+                "wins": 6,
+                "matches": 10
+            },
+            "HonourWolf": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Whatever": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 7,
+                "matches": 15
+            },
+            "StarFox": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nozza34": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 12,
+                "matches": 17
+            },
+            "Vacuum34": {
+                "wins": 2,
+                "matches": 4
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Systeme": {
+                "wins": 0,
+                "matches": 2
+            },
+            "SwiggityMcgiggity": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Dr.Philadelphia": {
+                "wins": 1,
+                "matches": 1
+            },
+            "VoodooChile": {
+                "wins": 1,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Marduke": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Moboy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 2,
+                "matches": 2
+            },
+            "MurphysLawUS": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Lamper": {
+                "wins": 0,
+                "matches": 1
+            },
+            "TheBlackDog": {
+                "wins": 1,
+                "matches": 1
+            },
+            "FastChip": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Mr.Scout": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Scorpion": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "M.S": {
+            "DD": {
+                "wins": 2,
+                "matches": 4
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 2
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 6,
+                "matches": 16
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 6
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Judgeguns": {
+                "wins": 2,
+                "matches": 3
+            },
+            "lux": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 0,
+                "matches": 4
+            },
+            "Igugf": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MAX": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 4
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Systeme": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Nomad": {
+                "wins": 5,
+                "matches": 11
+            },
+            "Muffin": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Cyber": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Moboy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "KingFuryKiller": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Sly": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Xpi": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Lone": {
+                "wins": 1,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 0,
+                "matches": 1
+            },
+            "sahd0w": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MurphysLawUS": {
+                "wins": 0,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Devastator": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Scorpion": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Andrey": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "VTrider": {
+            "Herp McDerperson": {
+                "wins": 17,
+                "matches": 23
+            },
+            "F9bomber": {
+                "wins": 38,
+                "matches": 58
+            },
+            "Judgeguns": {
+                "wins": 28,
+                "matches": 42
+            },
+            "Sly": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 15,
+                "matches": 25
+            },
+            "M.S": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Darkvale": {
+                "wins": 15,
+                "matches": 19
+            },
+            "Econchump": {
+                "wins": 9,
+                "matches": 12
+            },
+            "Zack": {
+                "wins": 8,
+                "matches": 11
+            },
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Xohm": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 3,
+                "matches": 7
+            },
+            "X-Triage": {
+                "wins": 8,
+                "matches": 11
+            },
+            "RollyPolly": {
+                "wins": 3,
+                "matches": 4
+            },
+            "sahd0w": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Xpi": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Nomad": {
+                "wins": 24,
+                "matches": 38
+            },
+            "Maverick": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Muffin": {
+                "wins": 8,
+                "matches": 10
+            },
+            "Domakus": {
+                "wins": 9,
+                "matches": 10
+            },
+            "Ultimate": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Gravey": {
+                "wins": 4,
+                "matches": 6
+            },
+            "Lumi": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Jabbapop": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 15,
+                "matches": 18
+            },
+            "Lamper": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Certified Bad Guy": {
+                "wins": 5,
+                "matches": 5
+            },
+            "Vacuum34": {
+                "wins": 5,
+                "matches": 5
+            },
+            "Blue Banana": {
+                "wins": 6,
+                "matches": 10
+            },
+            "Cloaket": {
+                "wins": 2,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 6,
+                "matches": 9
+            },
+            "F9mama": {
+                "wins": 7,
+                "matches": 12
+            },
+            "Acolyte": {
+                "wins": 0,
+                "matches": 1
+            },
+            "KingFuryKiller": {
+                "wins": 0,
+                "matches": 1
+            },
+            "DD": {
+                "wins": 1,
+                "matches": 1
+            },
+            "DesUxS": {
+                "wins": 0,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Shock": {
+                "wins": 3,
+                "matches": 3
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Psychic": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Scorpion": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Blue Banana": {
+            "Domakus": {
+                "wins": 7,
+                "matches": 9
+            },
+            "Juggs": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 8,
+                "matches": 15
+            },
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Judgeguns": {
+                "wins": 9,
+                "matches": 20
+            },
+            "Shock": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 6,
+                "matches": 10
+            },
+            "Sev": {
+                "wins": 5,
+                "matches": 13
+            },
+            "M.S": {
+                "wins": 11,
+                "matches": 13
+            },
+            "Zack": {
+                "wins": 6,
+                "matches": 16
+            },
+            "F9bomber": {
+                "wins": 22,
+                "matches": 36
+            },
+            "Rosario": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 6,
+                "matches": 7
+            },
+            "Nomad": {
+                "wins": 12,
+                "matches": 24
+            },
+            "Certified Bad Guy": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Muffin": {
+                "wins": 22,
+                "matches": 31
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Cyber": {
+                "wins": 5,
+                "matches": 7
+            },
+            "DD": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Xpi": {
+                "wins": 9,
+                "matches": 14
+            },
+            "VTrider": {
+                "wins": 4,
+                "matches": 4
+            },
+            "Gravey": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Lithium": {
+                "wins": 7,
+                "matches": 10
+            },
+            "Cloaket": {
+                "wins": 2,
+                "matches": 3
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Vacuum34": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 2
+            },
+            "MAX": {
+                "wins": 3,
+                "matches": 8
+            },
+            "Bylarge": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Systeme": {
+                "wins": 5,
+                "matches": 8
+            },
+            "F9mama": {
+                "wins": 2,
+                "matches": 2
+            },
+            "SwiggityMcgiggity": {
+                "wins": 6,
+                "matches": 10
+            },
+            "SilverBullet": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Lamper": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Moboy": {
+                "wins": 2,
+                "matches": 2
+            },
+            "MurphysLawUS": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nozza34": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Scorpion": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Sly": {
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Judgeguns": {
+                "wins": 1,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 2,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 0,
+                "matches": 1
+            },
+            "X-Triage": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Xpi": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Muffin": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Psychic": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Xpi": {
+            "Sly": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 4
+            },
+            "F9bomber": {
+                "wins": 8,
+                "matches": 14
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Cyber": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Business Lawyer": {
+                "wins": 2,
+                "matches": 2
+            },
+            "sahd0w": {
+                "wins": 0,
+                "matches": 1
+            },
+            "RollyPolly": {
+                "wins": 1,
+                "matches": 3
+            },
+            "VTrider": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Econchump": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Nomad": {
+                "wins": 4,
+                "matches": 9
+            },
+            "Whatever": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Muffin": {
+                "wins": 6,
+                "matches": 7
+            },
+            "Judgeguns": {
+                "wins": 2,
+                "matches": 4
+            },
+            "KingFuryKiller": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 3,
+                "matches": 3
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 2
+            },
+            "MAX": {
+                "wins": 4,
+                "matches": 5
+            },
+            "M.S": {
+                "wins": 6,
+                "matches": 8
+            },
+            "SwiggityMcgiggity": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Gravey": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Zorn": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "DD": {
+            "Domakus": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 1
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 2
+            },
+            "F9bomber": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Andrey": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Cyber": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 3
+            },
+            "MAX": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Econchump": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Ultimate": {
+                "wins": 1,
+                "matches": 2
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Lamper": {
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Rosario": {
+            "F9bomber": {
+                "wins": 2,
+                "matches": 8
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Blue Banana": {
+                "wins": 0,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Sev": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Lamper": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Darkvale": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Andrey": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sara": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 0,
+                "matches": 1
+            },
+            "KingFuryKiller": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Zack": {
+            "Cyber": {
+                "wins": 2,
+                "matches": 6
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Darkvale": {
+                "wins": 8,
+                "matches": 22
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 9
+            },
+            "DD": {
+                "wins": 0,
+                "matches": 3
+            },
+            "F9bomber": {
+                "wins": 25,
+                "matches": 66
+            },
+            "Lamper": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 2,
+                "matches": 11
+            },
+            "Econchump": {
+                "wins": 5,
+                "matches": 8
+            },
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Sev": {
+                "wins": 4,
+                "matches": 13
+            },
+            "VTrider": {
+                "wins": 5,
+                "matches": 8
+            },
+            "Domakus": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Xohm": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 0,
+                "matches": 1
+            },
+            "RollyPolly": {
+                "wins": 5,
+                "matches": 10
+            },
+            "And": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 6,
+                "matches": 16
+            },
+            "X-Triage": {
+                "wins": 6,
+                "matches": 10
+            },
+            "Jabbapop": {
+                "wins": 1,
+                "matches": 1
+            },
+            "mueller43": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Gryphon": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 10
+            },
+            "Muffin": {
+                "wins": 4,
+                "matches": 20
+            },
+            "Nomad": {
+                "wins": 4,
+                "matches": 20
+            },
+            "Maverick": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Captain Quirk": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Gravey": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Certified Bad Guy": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Vacuum34": {
+                "wins": 0,
+                "matches": 4
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Lithium": {
+                "wins": 5,
+                "matches": 13
+            },
+            "MAX": {
+                "wins": 0,
+                "matches": 8
+            },
+            "SwiggityMcgiggity": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Systeme": {
+                "wins": 0,
+                "matches": 12
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Croatian Knight": {
+                "wins": 1,
+                "matches": 2
+            },
+            "MurphysLawUS": {
+                "wins": 0,
+                "matches": 1
+            },
+            "sahd0w": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Zorn": {
+                "wins": 0,
+                "matches": 1
+            },
+            "doctorasher": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Scorpion": {
+                "wins": 0,
+                "matches": 3
+            }
+        },
+        "Shock": {
+            "HappyOtter": {
+                "wins": 1,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Dr.Philadelphia": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "MAX": {
+            "Sev": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 3,
+                "matches": 3
+            },
+            "DD": {
+                "wins": 4,
+                "matches": 4
+            },
+            "Devastator": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 3,
+                "matches": 3
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 2
+            }
+        },
+        "Spacewars": {
+            "F9bomber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 0,
+                "matches": 1
+            },
+            "sahd0w": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Xohm": {
+            "M.S": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Cyber": {
+            "M.S": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "RollyPolly": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Bylarge": {
+                "wins": 3,
+                "matches": 3
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 0,
+                "matches": 1
+            },
+            "X-Triage": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Maverick": {
+            "F9bomber": {
+                "wins": 4,
+                "matches": 8
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Sev": {
+                "wins": 2,
+                "matches": 6
+            },
+            "RollyPolly": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 3,
+                "matches": 7
+            },
+            "Captain Quirk": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 2,
+                "matches": 5
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Dr.Philadelphia": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Shock": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Darkvale": {
+                "wins": 0,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Econchump": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Lithium": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Systeme": {
+                "wins": 0,
+                "matches": 2
+            },
+            "X-Triage": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 2
+            },
+            "MAX": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Judgeguns": {
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 0,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 0,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 0,
+                "matches": 2
+            },
+            "X-Triage": {
+                "wins": 0,
+                "matches": 2
+            },
+            "doctorasher": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MurphysLawUS": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Shock": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "RollyPolly": {
+            "F9bomber": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 4
+            },
+            "Spymaster": {
+                "wins": 0,
+                "matches": 1
+            },
+            "arielle": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "mueller43": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Econchump": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Feared_1": {
+                "wins": 0,
+                "matches": 2
+            }
+        },
+        "Muffin": {
+            "Sev": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Judgeguns": {
+                "wins": 4,
+                "matches": 4
+            },
+            "Econchump": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Gravey": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 2,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Devastator": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Jabbapop": {
+            "Zack": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Ultimate": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Judgeguns": {
+                "wins": 1,
+                "matches": 1
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 2
+            },
+            "StarFox": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Bylarge": {
+            "RollyPolly": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Herp McDerperson": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 1
+            },
+            "sahd0w": {
+                "wins": 0,
+                "matches": 1
+            },
+            "doctorasher": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "MAX": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Herp McDerperson": {
+            "Ultimate": {
+                "wins": 1,
+                "matches": 3
+            },
+            "F9bomber": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "X-Triage": {
+                "wins": 1,
+                "matches": 3
+            },
+            "VTrider": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Whatever": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Xpi": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Moboy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "SwiggityMcgiggity": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "X-Triage": {
+            "Domakus": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Herp McDerperson": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Judgeguns": {
+                "wins": 4,
+                "matches": 9
+            },
+            "VTrider": {
+                "wins": 6,
+                "matches": 9
+            },
+            "F9bomber": {
+                "wins": 4,
+                "matches": 7
+            },
+            "Ultimate": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Cloaket": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Lithium": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 4
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 3
+            }
+        },
+        "Ultimate": {
+            "F9bomber": {
+                "wins": 2,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 1
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 1
+            },
+            "TheBlackDog": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Gravey": {
+            "Sly": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Judgeguns": {
+                "wins": 1,
+                "matches": 7
+            },
+            "Ultimate": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 6
+            },
+            "F9bomber": {
+                "wins": 6,
+                "matches": 21
+            },
+            "GrizzlyOne95": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Sev": {
+                "wins": 4,
+                "matches": 9
+            },
+            "X-Triage": {
+                "wins": 3,
+                "matches": 8
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Darkvale": {
+                "wins": 3,
+                "matches": 12
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Blue Banana": {
+                "wins": 2,
+                "matches": 7
+            },
+            "Herp McDerperson": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Whatever": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Xpi": {
+                "wins": 3,
+                "matches": 7
+            },
+            "Certified Bad Guy": {
+                "wins": 2,
+                "matches": 6
+            },
+            "StarFox": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Bacon": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Oldman": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Nomad": {
+                "wins": 4,
+                "matches": 11
+            },
+            "HyperVivify": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Shock": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 2,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Lithium": {
+                "wins": 4,
+                "matches": 9
+            },
+            "Vacuum34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 2
+            }
+        },
+        "Domakus": {
+            "VTrider": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Sev": {
+                "wins": 3,
+                "matches": 3
+            },
+            "F9bomber": {
+                "wins": 6,
+                "matches": 6
+            },
+            "X-Triage": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Econchump": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Judgeguns": {
+                "wins": 4,
+                "matches": 4
+            },
+            "Nozza34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Xpi": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Herp McDerperson": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Cyber": {
+                "wins": 1,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 2,
+                "matches": 3
+            },
+            "SilverBullet": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 2,
+                "matches": 3
+            },
+            "DD": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Econchump": {
+            "VTrider": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 6
+            },
+            "Judgeguns": {
+                "wins": 3,
+                "matches": 7
+            },
+            "Ultimate": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 5
+            },
+            "F9bomber": {
+                "wins": 4,
+                "matches": 7
+            },
+            "Whatever": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Gravey": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 2
+            },
+            "StarFox": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Bacon": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 3,
+                "matches": 5
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 2
+            },
+            "X-Triage": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 2,
+                "matches": 3
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 3
+            },
+            "Cloaket": {
+                "wins": 1,
+                "matches": 1
+            },
+            "DD": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Scorpion": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Darkvale": {
+            "Ultimate": {
+                "wins": 0,
+                "matches": 3
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Herp McDerperson": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Judgeguns": {
+                "wins": 3,
+                "matches": 12
+            },
+            "Domakus": {
+                "wins": 3,
+                "matches": 12
+            },
+            "Zack": {
+                "wins": 5,
+                "matches": 8
+            },
+            "F9bomber": {
+                "wins": 9,
+                "matches": 39
+            },
+            "Shock": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Whatever": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 5,
+                "matches": 12
+            },
+            "VTrider": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Econchump": {
+                "wins": 1,
+                "matches": 11
+            },
+            "StarFox": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 9
+            },
+            "Lithium": {
+                "wins": 3,
+                "matches": 10
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 11
+            },
+            "Dynamic Solutions": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Nomad": {
+                "wins": 2,
+                "matches": 16
+            },
+            "HyperVivify": {
+                "wins": 9,
+                "matches": 16
+            },
+            "Acolyte": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 6
+            },
+            "Bylarge": {
+                "wins": 4,
+                "matches": 8
+            },
+            "Dr.Philadelphia": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Vacuum34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lone": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 0,
+                "matches": 10
+            },
+            "MurphysLawUS": {
+                "wins": 0,
+                "matches": 3
+            },
+            "TheBlackDog": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Blue Banana": {
+                "wins": 0,
+                "matches": 2
+            },
+            "doctorasher": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Psychic": {
+                "wins": 0,
+                "matches": 2
+            },
+            "FastChip": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Nozza34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Mr.Scout": {
+                "wins": 0,
+                "matches": 1
+            },
+            "M.S": {
+                "wins": 0,
+                "matches": 4
+            }
+        },
+        "Whatever": {
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "StarFox": {
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Oldman": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Bacon": {
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Gryphon": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lamper": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Certified Bad Guy": {
+            "Xpi": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Domakus": {
+                "wins": 6,
+                "matches": 11
+            },
+            "F9bomber": {
+                "wins": 22,
+                "matches": 38
+            },
+            "Judgeguns": {
+                "wins": 4,
+                "matches": 12
+            },
+            "Econchump": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Darkvale": {
+                "wins": 3,
+                "matches": 8
+            },
+            "Herp McDerperson": {
+                "wins": 8,
+                "matches": 11
+            },
+            "Blue Banana": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Vacuum34": {
+                "wins": 5,
+                "matches": 6
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Muffin": {
+                "wins": 5,
+                "matches": 7
+            },
+            "VTrider": {
+                "wins": 8,
+                "matches": 11
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 3
+            },
+            "sahd0w": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Acolyte": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 20,
+                "matches": 41
+            },
+            "Shock": {
+                "wins": 3,
+                "matches": 5
+            },
+            "DesUxS": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 9,
+                "matches": 18
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 9
+            },
+            "X-Triage": {
+                "wins": 2,
+                "matches": 4
+            },
+            "$tar": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Cloaket": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Maverick": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 3
+            },
+            "M.S": {
+                "wins": 3,
+                "matches": 5
+            },
+            "Systeme": {
+                "wins": 3,
+                "matches": 6
+            },
+            "SwiggityMcgiggity": {
+                "wins": 2,
+                "matches": 3
+            },
+            "SilverBullet": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lamper": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Sev": {
+                "wins": 3,
+                "matches": 6
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lone": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nozza34": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Lithium": {
+            "Zack": {
+                "wins": 4,
+                "matches": 10
+            },
+            "X-Triage": {
+                "wins": 1,
+                "matches": 5
+            },
+            "F9bomber": {
+                "wins": 11,
+                "matches": 37
+            },
+            "VTrider": {
+                "wins": 7,
+                "matches": 12
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Darkvale": {
+                "wins": 6,
+                "matches": 18
+            },
+            "Certified Bad Guy": {
+                "wins": 3,
+                "matches": 9
+            },
+            "Judgeguns": {
+                "wins": 6,
+                "matches": 14
+            },
+            "Nomad": {
+                "wins": 9,
+                "matches": 31
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 8
+            },
+            "Econchump": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 7
+            },
+            "Vacuum34": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 14
+            },
+            "Domakus": {
+                "wins": 7,
+                "matches": 16
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Bylarge": {
+                "wins": 2,
+                "matches": 8
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 5
+            },
+            "Shock": {
+                "wins": 2,
+                "matches": 4
+            },
+            "SwiggityMcgiggity": {
+                "wins": 0,
+                "matches": 6
+            },
+            "Cyber": {
+                "wins": 2,
+                "matches": 3
+            },
+            "VoodooChile": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Moboy": {
+                "wins": 0,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Xpi": {
+                "wins": 1,
+                "matches": 7
+            },
+            "M.S": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Lone": {
+                "wins": 0,
+                "matches": 1
+            },
+            "TheBlackDog": {
+                "wins": 0,
+                "matches": 1
+            },
+            "MurphysLawUS": {
+                "wins": 0,
+                "matches": 2
+            },
+            "doctorasher": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Dr.Philadelphia": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 4,
+                "matches": 5
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Scorpion": {
+                "wins": 2,
+                "matches": 2
+            }
+        },
+        "Cloaket": {
+            "Lithium": {
+                "wins": 5,
+                "matches": 7
+            },
+            "F9bomber": {
+                "wins": 6,
+                "matches": 12
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 6
+            },
+            "X-Triage": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Muffin": {
+                "wins": 4,
+                "matches": 6
+            },
+            "Vacuum34": {
+                "wins": 5,
+                "matches": 5
+            },
+            "Blue Banana": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Nomad": {
+                "wins": 2,
+                "matches": 7
+            },
+            "Herp McDerperson": {
+                "wins": 5,
+                "matches": 10
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 3
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Dynamic Solutions": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Feared_1": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Lamper": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Darkvale": {
+                "wins": 3,
+                "matches": 5
+            },
+            "M.S": {
+                "wins": 2,
+                "matches": 3
+            },
+            "MAX": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Systeme": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Maverick": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Judgeguns": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Xpi": {
+                "wins": 2,
+                "matches": 3
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Nomad": {
+            "X-Triage": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Zack": {
+                "wins": 0,
+                "matches": 3
+            },
+            "HyperVivify": {
+                "wins": 3,
+                "matches": 9
+            },
+            "Herp McDerperson": {
+                "wins": 0,
+                "matches": 4
+            },
+            "KingFuryKiller": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 8,
+                "matches": 14
+            },
+            "Judgeguns": {
+                "wins": 3,
+                "matches": 14
+            },
+            "Cloaket": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Darkvale": {
+                "wins": 2,
+                "matches": 7
+            },
+            "VTrider": {
+                "wins": 3,
+                "matches": 10
+            },
+            "Lithium": {
+                "wins": 3,
+                "matches": 12
+            },
+            "Dr.Philadelphia": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Vacuum34": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Econchump": {
+                "wins": 1,
+                "matches": 4
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 8
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 3
+            },
+            "F9mama": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Jabbapop": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 5,
+                "matches": 9
+            },
+            "Maverick": {
+                "wins": 0,
+                "matches": 3
+            },
+            "DD": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Gravey": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 2,
+                "matches": 6
+            },
+            "Xpi": {
+                "wins": 0,
+                "matches": 2
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Systeme": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Shock": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Marduke": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Scorpion": {
+                "wins": 1,
+                "matches": 3
+            }
+        },
+        "F9mama": {
+            "Econchump": {
+                "wins": 1,
+                "matches": 1
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "KingFuryKiller": {
+            "F9bomber": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Bylarge": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "DesUxS": {
+            "Judgeguns": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Cloaket": {
+                "wins": 1,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Gravey": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Vacuum34": {
+            "F9bomber": {
+                "wins": 4,
+                "matches": 7
+            },
+            "Domakus": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Lithium": {
+                "wins": 2,
+                "matches": 2
+            },
+            "Judgeguns": {
+                "wins": 2,
+                "matches": 4
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 3
+            },
+            "MAX": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 2
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Zack": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "SilverBullet": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "HyperVivify": {
+            "Nomad": {
+                "wins": 8,
+                "matches": 12
+            },
+            "Muffin": {
+                "wins": 5,
+                "matches": 9
+            },
+            "F9bomber": {
+                "wins": 10,
+                "matches": 12
+            },
+            "MAX": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Cyber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 8,
+                "matches": 11
+            },
+            "Zack": {
+                "wins": 3,
+                "matches": 4
+            },
+            "Judgeguns": {
+                "wins": 6,
+                "matches": 9
+            },
+            "FastChip": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Certified Bad Guy": {
+                "wins": 5,
+                "matches": 6
+            },
+            "Maverick": {
+                "wins": 2,
+                "matches": 4
+            },
+            "Domakus": {
+                "wins": 2,
+                "matches": 5
+            },
+            "Mr.Scout": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "M.S": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Xpi": {
+                "wins": 3,
+                "matches": 3
+            },
+            "VTrider": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Scorpion": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Blue Banana": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Cloaket": {
+                "wins": 0,
+                "matches": 2
+            },
+            "DD": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Systeme": {
+            "Blue Banana": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 2,
+                "matches": 2
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Sev": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "SilverBullet": {
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "SwiggityMcgiggity": {
+            "Muffin": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 1,
+                "matches": 2
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "MurphysLawUS": {
+            "Nomad": {
+                "wins": 0,
+                "matches": 3
+            },
+            "Darkvale": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Lone": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 5
+            },
+            "X-Triage": {
+                "wins": 0,
+                "matches": 1
+            },
+            "F9bomber": {
+                "wins": 3,
+                "matches": 7
+            },
+            "Ultimate": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Lithium": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Herp McDerperson": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Bylarge": {
+                "wins": 2,
+                "matches": 2
+            },
+            "F9mama": {
+                "wins": 0,
+                "matches": 1
+            },
+            "doctorasher": {
+                "wins": 0,
+                "matches": 4
+            },
+            "Shock": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "HyperVivify": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Sev": {
+                "wins": 0,
+                "matches": 1
+            }
+        },
+        "Echoblammo": {
+            "F9bomber": {
+                "wins": 0,
+                "matches": 1
+            },
+            "DD": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 2
+            },
+            "Domakus": {
+                "wins": 1,
+                "matches": 1
+            },
+            "Certified Bad Guy": {
+                "wins": 1,
+                "matches": 1
+            }
+        },
+        "Devastator": {
+            "Systeme": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Muffin": {
+                "wins": 1,
+                "matches": 3
+            },
+            "M.S": {
+                "wins": 1,
+                "matches": 3
+            },
+            "Nomad": {
+                "wins": 1,
+                "matches": 3
+            },
+            "F9bomber": {
+                "wins": 0,
+                "matches": 2
+            },
+            "Maverick": {
+                "wins": 0,
+                "matches": 1
+            },
+            "Zack": {
+                "wins": 0,
+                "matches": 1
+            }
+        }
+    }
+}

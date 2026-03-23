@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battlezone Lobby Builder</title>
+<style>
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+h1{
+    margin-top:10px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
+}
+
+.team{
+    background:#1e293b;
+    padding:15px;
+    width:260px;
+    border-radius:10px;
+    position: relative; /
+}
+
+.teamTitle{
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.dropzone{
+    min-height:180px;
+    max-height:220px;
+    overflow-y:auto;
+    border:2px dashed #475569;
+    padding:8px;
+    border-radius:8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    scroll-behavior: smooth; /* smooth scroll */
+}
+
+.player{
+    background:#334155;
+    padding:6px;
+    margin:4px;
+    border-radius:5px;
+    cursor:grab;
+    font-size:14px;
+}
+
+.playerRate{
+    color:#94a3b8;
+    font-size:12px;
+}
+
+select, input{
+    margin-bottom:10px;
+    width:90%;
+    padding:4px;
+    border-radius:4px;
+    border:none;
+    background:#475569;
+    color:white;
+}
+
+.teamSize{
+    font-size:12px;
+    color:#94a3b8;
+    margin-bottom:5px;
+}
+
+.autocomplete-suggestions{
+    background:#1e293b;
+    border:1px solid #475569;
+    position:absolute;
+    top: 58px; /* adjust so it’s just below the input */
+    left: 16px; /* match input padding */
+    width: calc(100% - 32px);
+    max-height:120px;
+    overflow-y:auto;
+    z-index:10;
+    border-radius:5px;
+}
+
+.autocomplete-suggestion{
+    padding:4px;
+    cursor:pointer;
+}
+
+.autocomplete-suggestion:hover{
+    background:#334155;
+}
+
+#prediction{
+    margin-top:30px;
+}
+
+.meter{
+    width:500px;
+    height:30px;
+    background:#1e293b;
+    border-radius:6px;
+    margin:auto;
+    overflow:hidden;
+    display:flex;
+}
+
+.bar1{
+    background:#22c55e;
+    height:100%;
+}
+
+.bar2{
+    background:#ef4444;
+    height:100%;
+}
+</style>
+</head>
+<body>
+<h1>Battlezone Lobby Builder</h1>
+
+<div class="container">
+
+<!-- Unassigned Players -->
+<div class="team">
+    <div class="teamTitle">Unassigned Players</div>
+    <div id="pool" class="dropzone"></div>
+</div>
+
+<!-- Team 1 -->
+<div class="team">
+    <div class="teamTitle">Team 1</div>
+    Commander<br>
+    <select id="commander1"></select>
+    <input type="text" id="playerSearch1" placeholder="Type player name..." autocomplete="off"/>
+    <div id="size1" class="teamSize">0 / 4 players</div>
+    <div id="team1" class="dropzone"></div>
+    <div id="suggestions1" class="autocomplete-suggestions"></div>
+</div>
+
+<!-- Team 2 -->
+<div class="team">
+    <div class="teamTitle">Team 2</div>
+    Commander<br>
+    <select id="commander2"></select>
+    <input type="text" id="playerSearch2" placeholder="Type player name..." autocomplete="off"/>
+    <div id="size2" class="teamSize">0 / 4 players</div>
+    <div id="team2" class="dropzone"></div>
+    <div id="suggestions2" class="autocomplete-suggestions"></div>
+</div>
+
+    <button id="clearLobby" style="margin-top:20px; padding:10px 20px; border:none; border-radius:6px; background:#ef4444; color:white; cursor:pointer;">
+    Clear Lobby
+</button>
+
+
+</div>
+
+<div id="prediction">
+<h2>Played Meter</h2>
+<div class="meter">
+    <div id="bar1" class="bar1" style="width:50%"></div>
+    <div id="bar2" class="bar2" style="width:50%"></div>
+</div>
+<div id="numbers"></div>
+</div>
+
+<script>
+let data;
+const MAX_PLAYERS=4;
+const SMOOTHING=5;
+
+// Load JSON data
+fetch("data\\played_meter.json")
+.then(r=>r.json())
+.then(j=>{
+    data=j;
+    init();
+});
+
+function init(){
+    const c1=document.getElementById("commander1");
+    const c2=document.getElementById("commander2");
+
+    c1.add(new Option("Select Commander",""));
+    c2.add(new Option("Select Commander",""));
+
+    Object.keys(data.commanders).forEach(c=>{
+        let rate=(data.commanders[c].win_rate*100).toFixed(1);
+        let o1=new Option(`${c} (${rate}%)`,c);
+        let o2=new Option(`${c} (${rate}%)`,c);
+        c1.add(o1);
+        c2.add(o2);
+    });
+
+    const pool=document.getElementById("pool");
+
+    Object.keys(data.players).forEach(p=>{
+        let rate=(data.players[p].win_rate*100).toFixed(1);
+        const div=document.createElement("div");
+        div.className="player";
+        div.draggable=true;
+        div.innerHTML=`${p}<div class="playerRate">${rate}% WR</div>`;
+        div.dataset.name=p;
+        div.ondragstart=e=>{
+            e.dataTransfer.setData("text",p);
+        }
+        pool.appendChild(div);
+    });
+
+    // Drag and drop
+    document.querySelectorAll(".dropzone").forEach(zone=>{
+        zone.ondragover=e=>e.preventDefault();
+        zone.ondrop=e=>{
+            e.preventDefault();
+            let player=e.dataTransfer.getData("text");
+            let el=[...document.querySelectorAll(".player")].find(x=>x.dataset.name===player);
+            if(zone.id==="team1" && zone.children.length>=MAX_PLAYERS) return;
+            if(zone.id==="team2" && zone.children.length>=MAX_PLAYERS) return;
+            zone.appendChild(el);
+            update();
+        }
+    });
+
+    c1.onchange=update;
+    c2.onchange=update;
+
+    setupAutocomplete("playerSearch1","team1","suggestions1");
+    setupAutocomplete("playerSearch2","team2","suggestions2");
+
+    update();
+}
+
+// Autocomplete logic
+function setupAutocomplete(inputId, teamId, suggestionsId){
+    const input=document.getElementById(inputId);
+    const suggestions=document.getElementById(suggestionsId);
+
+    input.addEventListener("input", e=>{
+        const val=input.value.toLowerCase();
+        suggestions.innerHTML="";
+        if(!val) return;
+
+        const matches=[...document.querySelectorAll("#pool .player")]
+            .filter(p=>p.dataset.name.toLowerCase().includes(val));
+
+        matches.forEach(p=>{
+            const div=document.createElement("div");
+            div.className="autocomplete-suggestion";
+            div.innerText=p.dataset.name;
+            div.onclick=()=>{
+                const team=document.getElementById(teamId);
+                if(team.children.length<MAX_PLAYERS){
+                    team.appendChild(p);
+                    input.value="";
+                    suggestions.innerHTML="";
+                    update();
+                }
+            }
+            suggestions.appendChild(div);
+        });
+    });
+
+    // Close suggestions when clicking outside
+    document.addEventListener("click", e=>{
+        if(e.target!==input){
+            suggestions.innerHTML="";
+        }
+    });
+}
+
+function getPlayers(id){
+    return [...document.querySelectorAll(`#${id} .player`)].map(p=>p.dataset.name);
+}
+
+function effectiveRate(player, commander){
+    let global=data.players[player].win_rate;
+    let pc=data.player_commander?.[commander]?.[player];
+    if(!pc) return global;
+    let wins=pc.wins;
+    let matches=pc.matches;
+    if(matches===0) return global;
+    let commanderRate=wins/matches;
+    return (commanderRate*matches + global*SMOOTHING)/(matches+SMOOTHING);
+}
+
+function teamStrength(players, commander){
+    let commanderRate=data.commanders[commander]?.win_rate ?? 0.5;
+    if(players.length===0) return commanderRate;
+    let total=0;
+    players.forEach(p=>{ total+=effectiveRate(p, commander); });
+    let avg=total/players.length;
+    return 0.35*commanderRate + 0.65*avg;
+}
+
+function update(){
+    let t1=getPlayers("team1");
+    let t2=getPlayers("team2");
+
+    document.getElementById("size1").innerText=`${t1.length} / ${MAX_PLAYERS} players`;
+    document.getElementById("size2").innerText=`${t2.length} / ${MAX_PLAYERS} players`;
+
+    let c1=document.getElementById("commander1").value;
+    let c2=document.getElementById("commander2").value;
+
+    if(!c1 || !c2){
+        document.getElementById("numbers").innerHTML="Select commanders to calculate prediction";
+        return;
+    }
+
+    let s1=teamStrength(t1,c1);
+    let s2=teamStrength(t2,c2);
+    let total=s1+s2;
+    if(total===0) return;
+
+    let w1=s1/total;
+    let w2=1-w1;
+
+    document.getElementById("bar1").style.width=(w1*100)+"%";
+    document.getElementById("bar2").style.width=(w2*100)+"%";
+
+    document.getElementById("numbers").innerHTML=`
+    Team 1: ${(w1*100).toFixed(1)}%
+    &nbsp;&nbsp;&nbsp;
+    Team 2: ${(w2*100).toFixed(1)}%
+    `;
+}
+
+    document.getElementById("clearLobby").onclick = () => {
+    const pool = document.getElementById("pool");
+    const teams = ["team1", "team2"];
+
+    // Move all players back to pool
+    teams.forEach(teamId => {
+        const team = document.getElementById(teamId);
+        [...team.children].forEach(player => pool.appendChild(player));
+    });
+
+    // Reset commanders
+    document.getElementById("commander1").value = "";
+    document.getElementById("commander2").value = "";
+
+    // Reset search inputs
+    document.getElementById("playerSearch1").value = "";
+    document.getElementById("playerSearch2").value = "";
+
+    // Clear autocomplete suggestions
+    document.getElementById("suggestions1").innerHTML = "";
+    document.getElementById("suggestions2").innerHTML = "";
+
+    // Update the UI
+    update();
+};
+</script>
+</body>
+</html>

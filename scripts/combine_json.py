@@ -3,7 +3,7 @@ import os
 from collections import defaultdict, Counter
 from datetime import datetime
 from config import files, output_path, months
-
+from helpers import iter_months
 # Note:    Scrap Harvested (Recycler) and Scrap Harvested (Extractor) not collected
 
 
@@ -473,6 +473,7 @@ def process_commander_game_dates(json_data):
 
     return dict_to_json
 
+
 # Function to process the data and collect results
 def process_file(data, year):
     print(f"Processing {year} data:")
@@ -805,6 +806,86 @@ def processed_map_data(stats_data):
     return stats_data
 
 
+def processed_commander_player_synergy(data):
+
+    commander_results = {}
+
+    for year, months in iter_months(data):
+        for month in months.values():
+            for day in month.values():
+                for match_name, match in day.items():
+                    team_one = match.get("teamOne", [])
+                    team_two = match.get("teamTwo", [])
+                    winning_faction = match.get("winningFaction", "")
+                    commanders = match.get("commanders", "")
+
+                    # Split commander string into two
+                    if " vs " in commanders:
+                        commander_one, commander_two = [c.strip() for c in commanders.split(" vs ")]
+                    else:
+                        commander_one = commanders
+                        commander_two = ""
+
+                    # Determine which team won
+                    factions = match.get("factions", [])
+                    if isinstance(factions, str):
+                        factions = factions.strip("[]").replace(" ", "").split(",")
+                    team_one_won = team_two_won = False
+                    if factions and winning_faction and len(factions) >= 2:
+                        team_one_won = factions[0] == winning_faction
+                        team_two_won = factions[1] == winning_faction
+
+                    # Record results for commander_one (ignore "NA")
+                    if commander_one:
+                        for player in team_one:
+                            if player != "NA":
+                                commander_results.setdefault(commander_one, {}).setdefault(player,
+                                                                                           []).append(team_one_won)
+
+                    # Record results for commander_two (ignore "NA")
+                    if commander_two:
+                        for player in team_two:
+                            if player != "NA":
+                                commander_results.setdefault(commander_two, {}).setdefault(player,
+                                                                                           []).append(team_two_won)
+
+    commander_player_synergy = {}
+    game_count = 5
+
+    for commander, players in commander_results.items():
+        all_players_under_cmder = []
+        player_after_certain_games = []
+        for player, results in players.items():
+            if not player or not player.strip():
+                continue
+
+            total_matches = len(results)
+            wins = sum(1 for r in results if r)
+            win_rate = wins / total_matches if total_matches > 0 else 0
+
+            player_data = {
+                "player": player,
+                "matches": total_matches,
+                "wins": wins,
+                "win_rate": round(win_rate, 2)
+            }
+
+            all_players_under_cmder.append(player_data)
+
+            if total_matches > game_count:
+                player_after_certain_games.append(player_data)
+
+        # Sort by win_rate descending, then matches descending
+        all_players_under_cmder.sort(key=lambda x: (x["win_rate"], x["matches"]), reverse=True)
+        player_after_certain_games.sort(key=lambda x: (x["win_rate"], x["matches"]), reverse=True)
+        commander_player_synergy[commander] = {
+            "raw": all_players_under_cmder,
+            "modified": player_after_certain_games
+        }
+
+    return commander_player_synergy
+
+
 output_data["processed_data"] = {
     "processed_map_counts": process_map_counts(output_data),
     "processed_most_played_factions": process_most_played_factions(output_data),
@@ -815,7 +896,9 @@ output_data["processed_data"] = {
     "processed_player_times": print_player_times(output_data),
     "processed_commander_times": print_commander_times(output_data),
     "processed_commander_game_dates": process_commander_game_dates(output_data),
-    "processed_faction_favorite_maps": processed_map_data(get_faction_map_win_chance(output_data))
+    "processed_faction_favorite_maps": processed_map_data(get_faction_map_win_chance(output_data)),
+    "processed_commander_player_synergy": processed_commander_player_synergy(output_data)
+
 }
 
 

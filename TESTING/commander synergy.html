@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Player Stats Dashboard</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .controls {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    select, button, input {
+        padding: 8px;
+        border-radius: 6px;
+        border: none;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #1e293b;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background: #334155;
+        cursor: pointer;
+    }
+
+    tr:nth-child(even) {
+        background: #1a2438;
+    }
+
+    .bar {
+        height: 10px;
+        background: #22c55e;
+        border-radius: 4px;
+    }
+
+    .bar-container {
+        background: #334155;
+        border-radius: 4px;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<h1>Player Stats Dashboard</h1>
+
+<div class="controls">
+    <input type="file" id="fileInput" accept=".json">
+    <select id="playerSelect"></select>
+    <select id="modeSelect">
+        <option value="raw">Raw</option>
+        <option value="modified">Modified</option>
+    </select>
+</div>
+
+<table id="table">
+    <thead>
+        <tr>
+            <th onclick="sortTable('player')">Player</th>
+            <th onclick="sortTable('matches')">Matches</th>
+            <th onclick="sortTable('wins')">Wins</th>
+            <th onclick="sortTable('win_rate')">Win Rate</th>
+            <th>Visual</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script>
+let data = {};
+let currentData = [];
+let currentSort = { key: 'win_rate', asc: false };
+
+document.getElementById('fileInput').addEventListener('change', function(e) {
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        data = JSON.parse(event.target.result);
+        populatePlayers();
+    };
+    reader.readAsText(e.target.files[0]);
+});
+
+function populatePlayers() {
+    const select = document.getElementById('playerSelect');
+    select.innerHTML = '';
+
+    Object.keys(data).forEach(player => {
+        const opt = document.createElement('option');
+        opt.value = player;
+        opt.textContent = player;
+        select.appendChild(opt);
+    });
+
+    loadTable();
+}
+
+document.getElementById('playerSelect').addEventListener('change', loadTable);
+document.getElementById('modeSelect').addEventListener('change', loadTable);
+
+function loadTable() {
+    const player = document.getElementById('playerSelect').value;
+    const mode = document.getElementById('modeSelect').value;
+
+    if (!player || !data[player]) return;
+
+    const section = data[player].find(obj => obj[mode]);
+    currentData = section ? section[mode] : [];
+
+    applySort();
+}
+
+function renderTable() {
+    const tbody = document.querySelector('#table tbody');
+    tbody.innerHTML = '';
+
+    currentData.forEach(row => {
+        const tr = document.createElement('tr');
+
+        tr.innerHTML = `
+            <td>${row.player}</td>
+            <td>${row.matches}</td>
+            <td>${row.wins}</td>
+            <td>${(row.win_rate * 100).toFixed(0)}%</td>
+            <td>
+                <div class="bar-container">
+                    <div class="bar" style="width:${row.win_rate * 100}%"></div>
+                </div>
+            </td>
+        `;
+
+        tbody.appendChild(tr);
+    });
+}
+
+function sortTable(key) {
+    if (currentSort.key === key) {
+        currentSort.asc = !currentSort.asc;
+    } else {
+        currentSort = { key, asc: false };
+    }
+    applySort();
+}
+
+function applySort() {
+    currentData.sort((a, b) => {
+        if (a[currentSort.key] < b[currentSort.key]) return currentSort.asc ? -1 : 1;
+        if (a[currentSort.key] > b[currentSort.key]) return currentSort.asc ? 1 : -1;
+        return 0;
+    });
+
+    renderTable();
+}
+</script>
+
+</body>
+</html>

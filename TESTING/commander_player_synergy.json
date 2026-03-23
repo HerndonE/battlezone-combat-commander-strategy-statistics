@@ -1,0 +1,5839 @@
+{
+    "Sev": {
+        "raw": [
+            {
+                "player": "RollyPolly",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "DD",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Athelas",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gryphon",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Systeme",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 12,
+                "wins": 10,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9bomber",
+                "matches": 16,
+                "wins": 13,
+                "win_rate": 0.81
+            },
+            {
+                "player": "Cyber",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Bylarge",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "VTrider",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Maverick",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Lithium",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 15,
+                "wins": 11,
+                "win_rate": 0.73
+            },
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Nomad",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Econchump",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Domakus",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Rosario",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sadh0w",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "X-Triage",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Muffin",
+                "matches": 8,
+                "wins": 3,
+                "win_rate": 0.38
+            },
+            {
+                "player": "Ultimate",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Pernicious_lunch",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "HonourWolf",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Psychic",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "M.S",
+                "matches": 12,
+                "wins": 10,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9bomber",
+                "matches": 16,
+                "wins": 13,
+                "win_rate": 0.81
+            },
+            {
+                "player": "VTrider",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 15,
+                "wins": 11,
+                "win_rate": 0.73
+            },
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Domakus",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "X-Triage",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Muffin",
+                "matches": 8,
+                "wins": 3,
+                "win_rate": 0.38
+            }
+        ]
+    },
+    "F9bomber": {
+        "raw": [
+            {
+                "player": "HyperVivify",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Ultimate",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Pantouf",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HonourWolf",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "StarFox",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nozza34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Dr.Philadelphia",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VoodooChile",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Marduke",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "TheBlackDog",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Bylarge",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Econchump",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Muffin",
+                "matches": 18,
+                "wins": 15,
+                "win_rate": 0.83
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Shock",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Nomad",
+                "matches": 13,
+                "wins": 10,
+                "win_rate": 0.77
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 17,
+                "wins": 13,
+                "win_rate": 0.76
+            },
+            {
+                "player": "Lithium",
+                "matches": 12,
+                "wins": 9,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 11,
+                "wins": 8,
+                "win_rate": 0.73
+            },
+            {
+                "player": "Cyber",
+                "matches": 7,
+                "wins": 5,
+                "win_rate": 0.71
+            },
+            {
+                "player": "VTrider",
+                "matches": 7,
+                "wins": 5,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Maverick",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Xpi",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Darkvale",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Sev",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "M.S",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sadh0w",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Systeme",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Zack",
+                "matches": 11,
+                "wins": 4,
+                "win_rate": 0.36
+            },
+            {
+                "player": "Pernicious_lunch",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "lux",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "HyperVivify",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Bylarge",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Econchump",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Muffin",
+                "matches": 18,
+                "wins": 15,
+                "win_rate": 0.83
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Nomad",
+                "matches": 13,
+                "wins": 10,
+                "win_rate": 0.77
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 17,
+                "wins": 13,
+                "win_rate": 0.76
+            },
+            {
+                "player": "Lithium",
+                "matches": 12,
+                "wins": 9,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 11,
+                "wins": 8,
+                "win_rate": 0.73
+            },
+            {
+                "player": "Cyber",
+                "matches": 7,
+                "wins": 5,
+                "win_rate": 0.71
+            },
+            {
+                "player": "VTrider",
+                "matches": 7,
+                "wins": 5,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Maverick",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Sev",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "M.S",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "Zack",
+                "matches": 11,
+                "wins": 4,
+                "win_rate": 0.36
+            }
+        ]
+    },
+    "M.S": {
+        "raw": [
+            {
+                "player": "Nomad",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Systeme",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "lux",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Igugf",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lone",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sahd0w",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "F9bomber",
+                "matches": 13,
+                "wins": 7,
+                "win_rate": 0.54
+            },
+            {
+                "player": "DD",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "MAX",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Bylarge",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Zack",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Darkvale",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Maverick",
+                "matches": 3,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 13,
+                "wins": 7,
+                "win_rate": 0.54
+            }
+        ]
+    },
+    "VTrider": {
+        "raw": [
+            {
+                "player": "Econchump",
+                "matches": 11,
+                "wins": 11,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 9,
+                "wins": 9,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xohm",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "sahd0w",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lumi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Jabbapop",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "DD",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "DesUxS",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Psychic",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 16,
+                "wins": 15,
+                "win_rate": 0.94
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 23,
+                "wins": 21,
+                "win_rate": 0.91
+            },
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "X-Triage",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Muffin",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Lithium",
+                "matches": 16,
+                "wins": 14,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Bylarge",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 41,
+                "wins": 34,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Xpi",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9bomber",
+                "matches": 53,
+                "wins": 43,
+                "win_rate": 0.81
+            },
+            {
+                "player": "Maverick",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Ultimate",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Nomad",
+                "matches": 33,
+                "wins": 26,
+                "win_rate": 0.79
+            },
+            {
+                "player": "Sev",
+                "matches": 19,
+                "wins": 15,
+                "win_rate": 0.79
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "F9mama",
+                "matches": 12,
+                "wins": 8,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Gravey",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Acolyte",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Econchump",
+                "matches": 11,
+                "wins": 11,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 9,
+                "wins": 9,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 16,
+                "wins": 15,
+                "win_rate": 0.94
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 23,
+                "wins": 21,
+                "win_rate": 0.91
+            },
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "X-Triage",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Muffin",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "Lithium",
+                "matches": 16,
+                "wins": 14,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Bylarge",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 41,
+                "wins": 34,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Xpi",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9bomber",
+                "matches": 53,
+                "wins": 43,
+                "win_rate": 0.81
+            },
+            {
+                "player": "Nomad",
+                "matches": 33,
+                "wins": 26,
+                "win_rate": 0.79
+            },
+            {
+                "player": "Sev",
+                "matches": 19,
+                "wins": 15,
+                "win_rate": 0.79
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "F9mama",
+                "matches": 12,
+                "wins": 8,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Gravey",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            }
+        ]
+    },
+    "Blue Banana": {
+        "raw": [
+            {
+                "player": "Vacuum34",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Maverick",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nozza34",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Juggs",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Rosario",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "DD",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Lithium",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Cyber",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "M.S",
+                "matches": 13,
+                "wins": 11,
+                "win_rate": 0.85
+            },
+            {
+                "player": "Econchump",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Darkvale",
+                "matches": 14,
+                "wins": 11,
+                "win_rate": 0.79
+            },
+            {
+                "player": "Muffin",
+                "matches": 28,
+                "wins": 21,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Systeme",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Xpi",
+                "matches": 14,
+                "wins": 10,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Bylarge",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "F9bomber",
+                "matches": 30,
+                "wins": 19,
+                "win_rate": 0.63
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 10,
+                "wins": 6,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 19,
+                "wins": 11,
+                "win_rate": 0.58
+            },
+            {
+                "player": "Nomad",
+                "matches": 23,
+                "wins": 13,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Zack",
+                "matches": 16,
+                "wins": 8,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sev",
+                "matches": 13,
+                "wins": 6,
+                "win_rate": 0.46
+            },
+            {
+                "player": "MAX",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Gravey",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Lithium",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Cyber",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "M.S",
+                "matches": 13,
+                "wins": 11,
+                "win_rate": 0.85
+            },
+            {
+                "player": "Econchump",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Darkvale",
+                "matches": 14,
+                "wins": 11,
+                "win_rate": 0.79
+            },
+            {
+                "player": "Muffin",
+                "matches": 28,
+                "wins": 21,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Systeme",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Xpi",
+                "matches": 14,
+                "wins": 10,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "F9bomber",
+                "matches": 30,
+                "wins": 19,
+                "win_rate": 0.63
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 10,
+                "wins": 6,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 19,
+                "wins": 11,
+                "win_rate": 0.58
+            },
+            {
+                "player": "Nomad",
+                "matches": 23,
+                "wins": 13,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Zack",
+                "matches": 16,
+                "wins": 8,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sev",
+                "matches": 13,
+                "wins": 6,
+                "win_rate": 0.46
+            },
+            {
+                "player": "MAX",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            }
+        ]
+    },
+    "Sly": {
+        "raw": [
+            {
+                "player": "Nomad",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Psychic",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Xpi": {
+        "raw": [
+            {
+                "player": "VTrider",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Business Lawyer",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sadh0w",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gravey",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "MAX",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "M.S",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Zack",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Econchump",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "F9bomber",
+                "matches": 14,
+                "wins": 8,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Nomad",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Darkvale",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sev",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Zorn",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Muffin",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "M.S",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "F9bomber",
+                "matches": 14,
+                "wins": 8,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Nomad",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            }
+        ]
+    },
+    "DD": {
+        "raw": [
+            {
+                "player": "Cyber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Andrey",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Lamper": {
+        "raw": [
+            {
+                "player": "Darkvale",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Rosario": {
+        "raw": [
+            {
+                "player": "VTrider",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "F9bomber",
+                "matches": 8,
+                "wins": 3,
+                "win_rate": 0.38
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Andrey",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Sara",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 8,
+                "wins": 3,
+                "win_rate": 0.38
+            }
+        ]
+    },
+    "Zack": {
+        "raw": [
+            {
+                "player": "Certified Bad Guy",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sahd0w",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Jabbapop",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "mueller43",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zorn",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "doctorasher",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "X-Triage",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "Lithium",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Sev",
+                "matches": 13,
+                "wins": 9,
+                "win_rate": 0.69
+            },
+            {
+                "player": "Darkvale",
+                "matches": 21,
+                "wins": 14,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Cyber",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Gravey",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Nomad",
+                "matches": 19,
+                "wins": 12,
+                "win_rate": 0.63
+            },
+            {
+                "player": "F9bomber",
+                "matches": 57,
+                "wins": 34,
+                "win_rate": 0.6
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 10,
+                "wins": 6,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Maverick",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Muffin",
+                "matches": 14,
+                "wins": 8,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Econchump",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Xpi",
+                "matches": 10,
+                "wins": 5,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Captain Quirk",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Croatian Knight",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 15,
+                "wins": 7,
+                "win_rate": 0.47
+            },
+            {
+                "player": "Bylarge",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Domakus",
+                "matches": 5,
+                "wins": 2,
+                "win_rate": 0.4
+            },
+            {
+                "player": "M.S",
+                "matches": 5,
+                "wins": 2,
+                "win_rate": 0.4
+            },
+            {
+                "player": "Gryphon",
+                "matches": 6,
+                "wins": 2,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Systeme",
+                "matches": 10,
+                "wins": 3,
+                "win_rate": 0.3
+            },
+            {
+                "player": "HappyOtter",
+                "matches": 4,
+                "wins": 1,
+                "win_rate": 0.25
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 4,
+                "wins": 1,
+                "win_rate": 0.25
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 9,
+                "wins": 2,
+                "win_rate": 0.22
+            },
+            {
+                "player": "MAX",
+                "matches": 6,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "DD",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Xohm",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "And",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "VTrider",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "X-Triage",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "Lithium",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Sev",
+                "matches": 13,
+                "wins": 9,
+                "win_rate": 0.69
+            },
+            {
+                "player": "Darkvale",
+                "matches": 21,
+                "wins": 14,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Cyber",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Nomad",
+                "matches": 19,
+                "wins": 12,
+                "win_rate": 0.63
+            },
+            {
+                "player": "F9bomber",
+                "matches": 57,
+                "wins": 34,
+                "win_rate": 0.6
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 10,
+                "wins": 6,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Muffin",
+                "matches": 14,
+                "wins": 8,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Econchump",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Xpi",
+                "matches": 10,
+                "wins": 5,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 15,
+                "wins": 7,
+                "win_rate": 0.47
+            },
+            {
+                "player": "Bylarge",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Gryphon",
+                "matches": 6,
+                "wins": 2,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Systeme",
+                "matches": 10,
+                "wins": 3,
+                "win_rate": 0.3
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 9,
+                "wins": 2,
+                "win_rate": 0.22
+            },
+            {
+                "player": "MAX",
+                "matches": 6,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ]
+    },
+    "Shock": {
+        "raw": [
+            {
+                "player": "HappyOtter",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Dr.Philadelphia",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "MAX": {
+        "raw": [
+            {
+                "player": "M.S",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "DD",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Spacewars": {
+        "raw": [
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "sahd0w",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Xohm": {
+        "raw": [
+            {
+                "player": "M.S",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Maverick",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Cyber": {
+        "raw": [
+            {
+                "player": "Domakus",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Maverick": {
+        "raw": [
+            {
+                "player": "Nomad",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Dr.Philadelphia",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Sev",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Zack",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Captain Quirk",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Judgeguns": {
+        "raw": [
+            {
+                "player": "Muffin",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "doctorasher",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "VTrider",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "RollyPolly": {
+        "raw": [
+            {
+                "player": "Maverick",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Spymaster",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "arielle",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "mueller43",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "F9bomber",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "MAX",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 4,
+                "wins": 1,
+                "win_rate": 0.25
+            },
+            {
+                "player": "Zack",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Muffin": {
+        "raw": [
+            {
+                "player": "Judgeguns",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gravey",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            }
+        ],
+        "modified": []
+    },
+    "Jabbapop": {
+        "raw": [
+            {
+                "player": "Ultimate",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "StarFox",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Econchump",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Bylarge": {
+        "raw": [
+            {
+                "player": "F9bomber",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "doctorasher",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "sahd0w",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "RollyPolly",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Herp McDerperson": {
+        "raw": [
+            {
+                "player": "Judgeguns",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Ultimate",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Lithium",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "X-Triage": {
+        "raw": [
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Maverick",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Ultimate",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            },
+            {
+                "player": "Darkvale",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 8,
+                "win_rate": 0.89
+            }
+        ]
+    },
+    "Ultimate": {
+        "raw": [
+            {
+                "player": "Darkvale",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "TheBlackDog",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Gravey": {
+        "raw": [
+            {
+                "player": "Bylarge",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Domakus",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "VTrider",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "Darkvale",
+                "matches": 12,
+                "wins": 7,
+                "win_rate": 0.58
+            },
+            {
+                "player": "Xpi",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Lithium",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Nomad",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "X-Triage",
+                "matches": 8,
+                "wins": 4,
+                "win_rate": 0.5
+            },
+            {
+                "player": "GrizzlyOne95",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "StarFox",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Oldman",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9bomber",
+                "matches": 21,
+                "wins": 10,
+                "win_rate": 0.48
+            },
+            {
+                "player": "Sev",
+                "matches": 9,
+                "wins": 4,
+                "win_rate": 0.44
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Ultimate",
+                "matches": 5,
+                "wins": 2,
+                "win_rate": 0.4
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 6,
+                "wins": 2,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Muffin",
+                "matches": 5,
+                "wins": 1,
+                "win_rate": 0.2
+            },
+            {
+                "player": "Sly",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Bacon",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Econchump",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Domakus",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Darkvale",
+                "matches": 12,
+                "wins": 7,
+                "win_rate": 0.58
+            },
+            {
+                "player": "Xpi",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Lithium",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Nomad",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "X-Triage",
+                "matches": 8,
+                "wins": 4,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9bomber",
+                "matches": 21,
+                "wins": 10,
+                "win_rate": 0.48
+            },
+            {
+                "player": "Sev",
+                "matches": 9,
+                "wins": 4,
+                "win_rate": 0.44
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 6,
+                "wins": 2,
+                "win_rate": 0.33
+            }
+        ]
+    },
+    "Domakus": {
+        "raw": [
+            {
+                "player": "F9bomber",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Xpi",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Muffin",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Darkvale",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Nomad",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Nozza34",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            }
+        ]
+    },
+    "Econchump": {
+        "raw": [
+            {
+                "player": "Zack",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gravey",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "StarFox",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bacon",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Darkvale",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Muffin",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9bomber",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9mama",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Ultimate",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Judgeguns",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            }
+        ]
+    },
+    "Darkvale": {
+        "raw": [
+            {
+                "player": "Bylarge",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "StarFox",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Acolyte",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9mama",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Lithium",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "Domakus",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Econchump",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "F9bomber",
+                "matches": 26,
+                "wins": 15,
+                "win_rate": 0.58
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Nomad",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "X-Triage",
+                "matches": 6,
+                "wins": 3,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Maverick",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Shock",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Dynamic Solutions",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Muffin",
+                "matches": 10,
+                "wins": 4,
+                "win_rate": 0.4
+            },
+            {
+                "player": "Ultimate",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 3,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Psychic",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Whatever",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Dr.Philadelphia",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Lone",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "TheBlackDog",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "doctorasher",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Bylarge",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "F9mama",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Econchump",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "F9bomber",
+                "matches": 26,
+                "wins": 15,
+                "win_rate": 0.58
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 5,
+                "win_rate": 0.56
+            },
+            {
+                "player": "Nomad",
+                "matches": 11,
+                "wins": 6,
+                "win_rate": 0.55
+            },
+            {
+                "player": "X-Triage",
+                "matches": 6,
+                "wins": 3,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Muffin",
+                "matches": 10,
+                "wins": 4,
+                "win_rate": 0.4
+            }
+        ]
+    },
+    "Whatever": {
+        "raw": [
+            {
+                "player": "F9mama",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "StarFox": {
+        "raw": [
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Oldman",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Bacon": {
+        "raw": [
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gryphon",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "Certified Bad Guy": {
+        "raw": [
+            {
+                "player": "Vacuum34",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Danya",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lone",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Reacher",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nozza34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Systeme",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 11,
+                "wins": 9,
+                "win_rate": 0.82
+            },
+            {
+                "player": "VTrider",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Xpi",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Shock",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Darkvale",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Zack",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Nomad",
+                "matches": 35,
+                "wins": 25,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Lithium",
+                "matches": 15,
+                "wins": 10,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 12,
+                "wins": 8,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Bylarge",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "M.S",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "F9bomber",
+                "matches": 31,
+                "wins": 20,
+                "win_rate": 0.65
+            },
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Sev",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            },
+            {
+                "player": "F9mama",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Econchump",
+                "matches": 4,
+                "wins": 1,
+                "win_rate": 0.25
+            },
+            {
+                "player": "Sadh0w",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Acolyte",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "DesUxS",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "$tar",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Maverick",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Vacuum34",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Systeme",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 11,
+                "wins": 9,
+                "win_rate": 0.82
+            },
+            {
+                "player": "VTrider",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Darkvale",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Nomad",
+                "matches": 35,
+                "wins": 25,
+                "win_rate": 0.71
+            },
+            {
+                "player": "Lithium",
+                "matches": 15,
+                "wins": 10,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 12,
+                "wins": 8,
+                "win_rate": 0.67
+            },
+            {
+                "player": "F9bomber",
+                "matches": 31,
+                "wins": 20,
+                "win_rate": 0.65
+            },
+            {
+                "player": "Domakus",
+                "matches": 8,
+                "wins": 5,
+                "win_rate": 0.62
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 7,
+                "wins": 3,
+                "win_rate": 0.43
+            }
+        ]
+    },
+    "Lithium": {
+        "raw": [
+            {
+                "player": "Sev",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VoodooChile",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Moboy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lone",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Dr. Philadelphia",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Domakus",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "F9bomber",
+                "matches": 30,
+                "wins": 23,
+                "win_rate": 0.77
+            },
+            {
+                "player": "X-Triage",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Econchump",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Xpi",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Darkvale",
+                "matches": 15,
+                "wins": 10,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Nomad",
+                "matches": 18,
+                "wins": 11,
+                "win_rate": 0.61
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 6,
+                "wins": 3,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9mama",
+                "matches": 5,
+                "wins": 2,
+                "win_rate": 0.4
+            },
+            {
+                "player": "Muffin",
+                "matches": 4,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "MurphysLawUS",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "TheBlackDog",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "doctorasher",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Zack",
+                "matches": 10,
+                "wins": 9,
+                "win_rate": 0.9
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 8,
+                "wins": 7,
+                "win_rate": 0.88
+            },
+            {
+                "player": "Domakus",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "VTrider",
+                "matches": 9,
+                "wins": 7,
+                "win_rate": 0.78
+            },
+            {
+                "player": "F9bomber",
+                "matches": 30,
+                "wins": 23,
+                "win_rate": 0.77
+            },
+            {
+                "player": "Darkvale",
+                "matches": 15,
+                "wins": 10,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Nomad",
+                "matches": 18,
+                "wins": 11,
+                "win_rate": 0.61
+            },
+            {
+                "player": "SwiggityMcgiggity",
+                "matches": 6,
+                "wins": 3,
+                "win_rate": 0.5
+            }
+        ]
+    },
+    "Cloaket": {
+        "raw": [
+            {
+                "player": "Vacuum34",
+                "matches": 5,
+                "wins": 5,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Darkvale",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Econchump",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Feared_1",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lamper",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Maverick",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Nomad",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "F9bomber",
+                "matches": 12,
+                "wins": 10,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 5,
+                "wins": 4,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Domakus",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Muffin",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Xpi",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "VTrider",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "Bylarge",
+                "matches": 2,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Dynamic Solutions",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Systeme",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Lithium",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Nomad",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "F9bomber",
+                "matches": 12,
+                "wins": 10,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Zack",
+                "matches": 6,
+                "wins": 5,
+                "win_rate": 0.83
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 10,
+                "wins": 7,
+                "win_rate": 0.7
+            },
+            {
+                "player": "Muffin",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            }
+        ]
+    },
+    "Nomad": {
+        "raw": [
+            {
+                "player": "HyperVivify",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Blue Banana",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gravey",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Dr.Philadelphia",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Vacuum34",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Xpi",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "M.S",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Systeme",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Marduke",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 12,
+                "wins": 11,
+                "win_rate": 0.92
+            },
+            {
+                "player": "Lithium",
+                "matches": 11,
+                "wins": 9,
+                "win_rate": 0.82
+            },
+            {
+                "player": "VTrider",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 4,
+                "wins": 3,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Darkvale",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "X-Triage",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Econchump",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "F9mama",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Muffin",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 12,
+                "wins": 6,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Maverick",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Zack",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "KingFuryKiller",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Jabbapop",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "DD",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "HyperVivify",
+                "matches": 6,
+                "wins": 6,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 12,
+                "wins": 11,
+                "win_rate": 0.92
+            },
+            {
+                "player": "Lithium",
+                "matches": 11,
+                "wins": 9,
+                "win_rate": 0.82
+            },
+            {
+                "player": "VTrider",
+                "matches": 10,
+                "wins": 8,
+                "win_rate": 0.8
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 8,
+                "wins": 6,
+                "win_rate": 0.75
+            },
+            {
+                "player": "Darkvale",
+                "matches": 6,
+                "wins": 4,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Muffin",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 12,
+                "wins": 6,
+                "win_rate": 0.5
+            }
+        ]
+    },
+    "F9mama": {
+        "raw": [
+            {
+                "player": "Econchump",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "VTrider",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "KingFuryKiller": {
+        "raw": [
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "DesUxS": {
+        "raw": [
+            {
+                "player": "Judgeguns",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cloaket",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Gravey",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "Vacuum34": {
+        "raw": [
+            {
+                "player": "Judgeguns",
+                "matches": 4,
+                "wins": 4,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 3,
+                "wins": 3,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Zack",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "SilverBullet",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Muffin",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "VTrider",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 6,
+                "win_rate": 0.86
+            }
+        ]
+    },
+    "HyperVivify": {
+        "raw": [
+            {
+                "player": "Lithium",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Judgeguns",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "FastChip",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "MAX",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 3,
+                "wins": 2,
+                "win_rate": 0.67
+            },
+            {
+                "player": "Bylarge",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Cyber",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "Zack",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "Lithium",
+                "matches": 7,
+                "wins": 7,
+                "win_rate": 1.0
+            }
+        ]
+    },
+    "Systeme": {
+        "raw": [
+            {
+                "player": "Blue Banana",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "SilverBullet": {
+        "raw": [
+            {
+                "player": "Certified Bad Guy",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Nomad",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            }
+        ],
+        "modified": []
+    },
+    "SwiggityMcgiggity": {
+        "raw": [
+            {
+                "player": "Muffin",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "F9bomber",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": []
+    },
+    "MurphysLawUS": {
+        "raw": [
+            {
+                "player": "Bylarge",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Muffin",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "HyperVivify",
+                "matches": 2,
+                "wins": 2,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Ultimate",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Lithium",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Herp McDerperson",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Shock",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Domakus",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Sev",
+                "matches": 1,
+                "wins": 1,
+                "win_rate": 1.0
+            },
+            {
+                "player": "Certified Bad Guy",
+                "matches": 5,
+                "wins": 3,
+                "win_rate": 0.6
+            },
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            },
+            {
+                "player": "doctorasher",
+                "matches": 4,
+                "wins": 2,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Darkvale",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Lone",
+                "matches": 2,
+                "wins": 1,
+                "win_rate": 0.5
+            },
+            {
+                "player": "Nomad",
+                "matches": 3,
+                "wins": 1,
+                "win_rate": 0.33
+            },
+            {
+                "player": "X-Triage",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            },
+            {
+                "player": "F9mama",
+                "matches": 1,
+                "wins": 0,
+                "win_rate": 0.0
+            }
+        ],
+        "modified": [
+            {
+                "player": "F9bomber",
+                "matches": 7,
+                "wins": 4,
+                "win_rate": 0.57
+            }
+        ]
+    }
+}
