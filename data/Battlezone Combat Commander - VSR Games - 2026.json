@@ -59791,6 +59791,588 @@
 						]
 					}
 				}
+			},
+			"03.22.26": {
+				"Ebola": {
+					"date": "03.22.26",
+					"map": "Ebola",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Zack",
+					"time": "18:57",
+					"teamOne": [
+						"MAX",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:18:57",
+							"team_overviews": [
+								{
+									"name": "Bush Meat",
+									"score": 382,
+									"deaths": 3,
+									"kills": 34
+								},
+								{
+									"name": "Vegetables",
+									"score": 36,
+									"deaths": 2,
+									"kills": 25
+								},
+								{
+									"name": "F9bomber",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Vegetables - F9bomber)",
+								"metrics": {
+									"craft_built": 35,
+									"craft_lost": 13,
+									"buildings_constructed": 17,
+									"buildings_lost": 10,
+									"scrap_collected": 355,
+									"scrap_spent": 1631,
+									"scrap_harvested_upgraded": 476
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Ralsei)": 2,
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Ralsei)": 6,
+										"Team 8 (Cyber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Ralsei)": 2,
+										"Team 7 (Scorpion)": 3,
+										"Team 8 (Cyber)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Vegetables - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 9,
+									"scrap_collected": 95,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Ralsei)": 7,
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Scorpion)": 4,
+										"Team 8 (Cyber)": 5
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Vegetables - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 5,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Ralsei)": 3,
+										"Team 7 (Scorpion)": 2,
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Ralsei)": 1,
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Bush Meat - Ralsei)",
+								"metrics": {
+									"craft_built": 35,
+									"craft_lost": 12,
+									"buildings_constructed": 20,
+									"buildings_lost": 6,
+									"scrap_collected": 415,
+									"scrap_spent": 1617,
+									"scrap_harvested_upgraded": 324
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 6,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 2,
+										"Team 2 (MAX)": 7,
+										"Team 4 (Papa Lazarou)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (MAX)": 2,
+										"Team 4 (Papa Lazarou)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Bush Meat - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 2 (MAX)": 4,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 2 (MAX)": 1,
+										"Team 4 (Papa Lazarou)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Bush Meat - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 3,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 7,
+										"Team 2 (MAX)": 5,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (MAX)": 1,
+										"Team 4 (Papa Lazarou)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Quagmire": {
+					"date": "03.22.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Zack",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Zack",
+					"time": "1:23:55",
+					"teamOne": [
+						"MAX",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:23:55",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 560,
+									"deaths": 13,
+									"kills": 127
+								},
+								{
+									"name": "Team 1",
+									"score": 312,
+									"deaths": 11,
+									"kills": 109
+								},
+								{
+									"name": "Ralsei",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 191,
+									"craft_lost": 90,
+									"buildings_constructed": 40,
+									"buildings_lost": 24,
+									"scrap_collected": 2145,
+									"scrap_spent": 7807,
+									"scrap_harvested_upgraded": 2836
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 4 (Papa Lazarou)": 1,
+										"Team 6 (Ralsei)": 15,
+										"Team 7 (Scorpion)": 1,
+										"Team 8 (Cyber)": 7
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 4 (Papa Lazarou)": 2,
+										"Team 6 (Ralsei)": 30,
+										"Team 7 (Scorpion)": 31,
+										"Team 8 (Cyber)": 26
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 11
+									},
+									"buildings_lost_to": {
+										"Team 6 (Ralsei)": 6,
+										"Team 7 (Scorpion)": 7,
+										"Team 8 (Cyber)": 11
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - MAX)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 53,
+									"scrap_collected": 465,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Ralsei)": 28,
+										"Team 7 (Scorpion)": 2,
+										"Team 8 (Cyber)": 12
+									},
+									"craft_lost_to": {
+										"Team 6 (Ralsei)": 18,
+										"Team 7 (Scorpion)": 24,
+										"Team 8 (Cyber)": 11
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Papa Lazarou)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 22,
+									"scrap_collected": 10,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 2,
+										"Team 6 (Ralsei)": 30,
+										"Team 7 (Scorpion)": 11,
+										"Team 8 (Cyber)": 9
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 6 (Ralsei)": 8,
+										"Team 7 (Scorpion)": 6,
+										"Team 8 (Cyber)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Ralsei)": 14
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Ralsei)",
+								"metrics": {
+									"craft_built": 190,
+									"craft_lost": 75,
+									"buildings_constructed": 59,
+									"buildings_lost": 28,
+									"scrap_collected": 2210,
+									"scrap_spent": 9974,
+									"scrap_harvested_upgraded": 4656
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 30,
+										"Team 2 (MAX)": 18,
+										"Team 4 (Papa Lazarou)": 8,
+										"Team 6 (Ralsei)": 1,
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 15,
+										"Team 2 (MAX)": 28,
+										"Team 4 (Papa Lazarou)": 30,
+										"Team 6 (Ralsei)": 1,
+										"Team 8 (Cyber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 6
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 11,
+										"Team 2 (MAX)": 3,
+										"Team 4 (Papa Lazarou)": 14
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 31,
+										"Team 2 (MAX)": 24,
+										"Team 4 (Papa Lazarou)": 6,
+										"Team 8 (Cyber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 1,
+										"Team 2 (MAX)": 2,
+										"Team 4 (Papa Lazarou)": 11
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 7
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - Cyber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 30,
+									"scrap_collected": 563,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 26,
+										"Team 2 (MAX)": 11,
+										"Team 4 (Papa Lazarou)": 7,
+										"Team 6 (Ralsei)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 7,
+										"Team 2 (MAX)": 12,
+										"Team 4 (Papa Lazarou)": 9,
+										"Team 6 (Ralsei)": 1,
+										"Team 7 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 11
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Overlook": {
+					"date": "03.22.26",
+					"map": "Overlook",
+					"commanders": "F9bomber vs Blue Banana",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "38:13",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					],
+					"teamOneStraggler": [
+						"Scorpion"
+					],
+					"teamTwoStraggler": [
+						"Nomad"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:38:18",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 261,
+									"deaths": 0,
+									"kills": 30
+								},
+								{
+									"name": "Team 2",
+									"score": 79,
+									"deaths": 0,
+									"kills": 23
+								},
+								{
+									"name": "Scorpion",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 74,
+									"craft_lost": 43,
+									"buildings_constructed": 29,
+									"buildings_lost": 13,
+									"scrap_collected": 1030,
+									"scrap_spent": 3944,
+									"scrap_harvested_upgraded": 1926
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 26,
+										"Team 7 (back)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 29,
+										"Team 7 (back)": 14
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 10
+									},
+									"buildings_lost_to": {
+										"Team 6 (blue)": 9,
+										"Team 7 (back)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 4 (Team 1 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7,
+									"scrap_collected": 30,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (blue)": 7,
+										"Team 7 (back)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (blue)": 5,
+										"Team 7 (back)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (blue)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - blue)",
+								"metrics": {
+									"craft_built": 80,
+									"craft_lost": 33,
+									"buildings_constructed": 30,
+									"buildings_lost": 15,
+									"scrap_collected": 660,
+									"scrap_spent": 3660,
+									"scrap_harvested_upgraded": 1481
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 29,
+										"Team 4 (Scorpion)": 5
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 26,
+										"Team 4 (Scorpion)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 9
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 10,
+										"Team 4 (Scorpion)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - back)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4,
+									"scrap_collected": 35,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 14,
+										"Team 4 (Scorpion)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 4 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
