@@ -57483,6 +57483,112 @@
 					]
 				}
 			},
+			"03.16.26": {
+				"Middle Wars": {
+					"date": "03.16.26",
+					"map": "Middle Wars",
+					"commanders": "DD vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "NA",
+					"teamOne": [
+						"MAX",
+						"Blue Banana",
+						"Spirit156",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Scorpion",
+						"Muffin"
+					],
+					"_comment": "Submitted game by Nomad"
+				},
+				"Mojave": {
+					"date": "03.16.26",
+					"map": "Mojave",
+					"commanders": "DD vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "NA",
+					"teamOne": [
+						"MAX",
+						"Blue Banana",
+						"Spirit156",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Scorpion",
+						"Muffin"
+					],
+					"_comment": "Submitted game by Nomad"
+				},
+				"Remant": {
+					"date": "03.16.26",
+					"map": "Remant",
+					"commanders": "Scorpion vs Blue Banana",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Blue Banana",
+					"time": "NA",
+					"teamOne": [
+						"Cyber",
+						"Nomad",
+						"HyperVivify",
+						"DD"
+					],
+					"teamTwo": [
+						"MAX",
+						"Muffin",
+						"M.S",
+						"Judgeguns"
+					],
+					"_comment": "Submitted game by Nomad"
+				},
+				"Oldboy": {
+					"date": "03.16.26",
+					"map": "Oldboy",
+					"commanders": "Cyber vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Cyber",
+					"time": "NA",
+					"teamOne": [
+						"Nomad",
+						"M.S",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Muffin",
+						"DD"
+					],
+					"_comment": "Submitted game by Nomad"
+				},
+				"Overlook": {
+					"date": "03.16.26",
+					"map": "Overlook",
+					"commanders": "Cyber vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "NA",
+					"teamOne": [
+						"Nomad",
+						"M.S",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Muffin",
+						"DD"
+					],
+					"_comment": "Submitted game by Nomad"
+				}
+			},
 			"03.17.26": {
 				"Ebola": {
 					"date": "03.17.26",
