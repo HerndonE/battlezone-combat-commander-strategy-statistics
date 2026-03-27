@@ -60479,6 +60479,950 @@
 						]
 					}
 				}
+			},
+			"03.26.26": {
+				"Domain": {
+					"date": "03.26.26",
+					"map": "Domain",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "37:04",
+					"teamOne": [
+						"Scorpion"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Darkvale"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:37:04",
+							"team_overviews": [
+								{
+									"name": "Apes",
+									"score": 284,
+									"deaths": 1,
+									"kills": 38
+								},
+								{
+									"name": "Wittens",
+									"score": 94,
+									"deaths": 12,
+									"kills": 43
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								},
+								{
+									"name": "Danya (Apes)",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Apes - F9bomber)",
+								"metrics": {
+									"craft_built": 78,
+									"craft_lost": 38,
+									"buildings_constructed": 37,
+									"buildings_lost": 4,
+									"scrap_collected": 805,
+									"scrap_spent": 3965,
+									"scrap_harvested_upgraded": 2139
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 8,
+										"Team 7 (national scionist)": 3,
+										"Team 8 (Nomad)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 17,
+										"Team 7 (national scionist)": 11,
+										"Team 8 (Nomad)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 5
+									},
+									"buildings_lost_to": {
+										"Team 6 (Lithium)": 3,
+										"Team 7 (national scionist)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Apes - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Apes - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 6,
+									"scrap_collected": 20,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 10,
+										"Team 7 (national scionist)": 4,
+										"Team 8 (Nomad)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (national scionist)": 3,
+										"Team 8 (Nomad)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 8
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Wittens - Lithium)",
+								"metrics": {
+									"craft_built": 50,
+									"craft_lost": 18,
+									"buildings_constructed": 19,
+									"buildings_lost": 14,
+									"scrap_collected": 455,
+									"scrap_spent": 2321,
+									"scrap_harvested_upgraded": 541
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 17,
+										"Team 4 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 8,
+										"Team 4 (Scorpion)": 10
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3,
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 5,
+										"Team 4 (Scorpion)": 8,
+										"Team 6 (Lithium)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Wittens - national scionist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 7
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 11,
+										"Team 4 (Scorpion)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 4 (Scorpion)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Wittens - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 13,
+									"scrap_collected": 15,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 10,
+										"Team 4 (Scorpion)": 2
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 6,
+										"Team 4 (Scorpion)": 7
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Insula": {
+					"date": "03.26.26",
+					"map": "Insula",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "12:21",
+					"teamOne": [
+						"Nomad",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:12:21",
+							"team_overviews": [
+								{
+									"name": "Team 1",
+									"score": 338,
+									"deaths": 0,
+									"kills": 17
+								},
+								{
+									"name": "Team 2",
+									"score": 11,
+									"deaths": 0,
+									"kills": 9
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 23,
+									"craft_lost": 8,
+									"buildings_constructed": 15,
+									"buildings_lost": 1,
+									"scrap_collected": 385,
+									"scrap_spent": 1190,
+									"scrap_harvested_upgraded": 387
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 4,
+										"Team 7 (judgeguns)": 3
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 3,
+										"Team 7 (judgeguns)": 1,
+										"Team 9 (Scorpion)": 4
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {
+										"Team 9 (Scorpion)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - national scionist)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 4
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 3 (Team 1 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (judgeguns)": 1,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - Lithium)",
+								"metrics": {
+									"craft_built": 22,
+									"craft_lost": 9,
+									"buildings_constructed": 13,
+									"buildings_lost": 6,
+									"scrap_collected": 245,
+									"scrap_spent": 846,
+									"scrap_harvested_upgraded": 193
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 4,
+										"Team 2 (national scionist)": 4,
+										"Team 3 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (national scionist)": 2,
+										"Team 3 (Nomad)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 3,
+										"Team 3 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 3 (Nomad)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Cracked": {
+					"date": "03.26.26",
+					"map": "Cracked",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "19:56",
+					"teamOne": [
+						"Darkvale",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Scorpion"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:19:56",
+							"team_overviews": [
+								{
+									"name": "Crackheads",
+									"score": 332,
+									"deaths": 4,
+									"kills": 18
+								},
+								{
+									"name": "Tweakers",
+									"score": 59,
+									"deaths": 0,
+									"kills": 23
+								},
+								{
+									"name": "judgeguns",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Crackheads - F9bomber)",
+								"metrics": {
+									"craft_built": 34,
+									"craft_lost": 11,
+									"buildings_constructed": 19,
+									"buildings_lost": 5,
+									"scrap_collected": 395,
+									"scrap_spent": 1764,
+									"scrap_harvested_upgraded": 485
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 6
+									},
+									"craft_lost_to": {
+										"Team 6 (Lithium)": 4,
+										"Team 7 (Nomad)": 4,
+										"Team 9 (Scorpion)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 4
+									},
+									"buildings_lost_to": {
+										"Team 7 (Nomad)": 3,
+										"Team 9 (Scorpion)": 2
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Crackheads - conmelter9000)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 2,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Nomad)": 1,
+										"Team 9 (Scorpion)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 4 (Crackheads - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 4
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Lithium)": 1,
+										"Team 7 (Nomad)": 2,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 7 (Nomad)": 2,
+										"Team 9 (Scorpion)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Lithium)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Tweakers - Lithium)",
+								"metrics": {
+									"craft_built": 27,
+									"craft_lost": 9,
+									"buildings_constructed": 19,
+									"buildings_lost": 9,
+									"scrap_collected": 440,
+									"scrap_spent": 1425,
+									"scrap_harvested_upgraded": 306
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 6,
+										"Team 2 (conmelter9000)": 2,
+										"Team 4 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 4,
+										"Team 2 (conmelter9000)": 2,
+										"Team 4 (judgeguns)": 3
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Tweakers - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 4,
+										"Team 2 (conmelter9000)": 1,
+										"Team 4 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 4 (judgeguns)": 2
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Tweakers - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 2
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 3,
+										"Team 2 (conmelter9000)": 3,
+										"Team 4 (judgeguns)": 2
+									},
+									"craft_lost_to": {
+										"Team 2 (conmelter9000)": 1,
+										"Team 4 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 2
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"Egypt": {
+					"date": "03.26.26",
+					"map": "Egypt",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:54:02",
+					"teamOne": [
+						"Lithium",
+						"Maverick"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Nomad",
+						"Judgeguns"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "1:54:02",
+							"team_overviews": [
+								{
+									"name": "Team 2",
+									"score": 617,
+									"deaths": 21,
+									"kills": 193
+								},
+								{
+									"name": "Team 1",
+									"score": 468,
+									"deaths": 25,
+									"kills": 76
+								},
+								{
+									"name": "Maverick",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Team 1 - F9bomber)",
+								"metrics": {
+									"craft_built": 261,
+									"craft_lost": 135,
+									"buildings_constructed": 66,
+									"buildings_lost": 42,
+									"scrap_collected": 4530,
+									"scrap_spent": 13498,
+									"scrap_harvested_upgraded": 4673
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 38,
+										"Team 7 (Nomad)": 11,
+										"Team 8 (judgeguns)": 16,
+										"Team 9 (Scorpion)": 5
+									},
+									"craft_lost_to": {
+										"Team 2 (Maverick)": 1,
+										"Team 6 (dark)": 48,
+										"Team 7 (Nomad)": 32,
+										"Team 8 (judgeguns)": 22,
+										"Team 9 (Scorpion)": 32
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 10
+									},
+									"buildings_lost_to": {
+										"Team 6 (dark)": 3,
+										"Team 7 (Nomad)": 13,
+										"Team 8 (judgeguns)": 11,
+										"Team 9 (Scorpion)": 15
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Team 1 - Maverick)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 33
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 1,
+										"Team 6 (dark)": 5,
+										"Team 7 (Nomad)": 5,
+										"Team 8 (judgeguns)": 5,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 6,
+										"Team 7 (Nomad)": 8,
+										"Team 8 (judgeguns)": 4,
+										"Team 9 (Scorpion)": 15
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 1
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 5 (Team 1 - Lithium)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 40
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (dark)": 30,
+										"Team 7 (Nomad)": 7,
+										"Team 8 (judgeguns)": 7,
+										"Team 9 (Scorpion)": 7
+									},
+									"craft_lost_to": {
+										"Team 6 (dark)": 11,
+										"Team 7 (Nomad)": 13,
+										"Team 8 (judgeguns)": 2,
+										"Team 9 (Scorpion)": 14
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (dark)": 5
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Team 2 - dark)",
+								"metrics": {
+									"craft_built": 182,
+									"craft_lost": 74,
+									"buildings_constructed": 43,
+									"buildings_lost": 16,
+									"scrap_collected": 1045,
+									"scrap_spent": 9303,
+									"scrap_harvested_upgraded": 2693
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 48,
+										"Team 2 (Maverick)": 6,
+										"Team 5 (Lithium)": 11,
+										"Team 9 (Scorpion)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 38,
+										"Team 2 (Maverick)": 5,
+										"Team 5 (Lithium)": 30,
+										"Team 9 (Scorpion)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 3
+									},
+									"buildings_lost_to": {
+										"Team 1 (F9bomber)": 10,
+										"Team 2 (Maverick)": 1,
+										"Team 5 (Lithium)": 5
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Team 2 - Nomad)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 23,
+									"scrap_collected": 295,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 32,
+										"Team 2 (Maverick)": 8,
+										"Team 5 (Lithium)": 13
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 11,
+										"Team 2 (Maverick)": 5,
+										"Team 5 (Lithium)": 7
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 13
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 8 (Team 2 - judgeguns)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 29,
+									"scrap_collected": 260,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 22,
+										"Team 2 (Maverick)": 4,
+										"Team 5 (Lithium)": 2,
+										"Team 8 (judgeguns)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 16,
+										"Team 2 (Maverick)": 5,
+										"Team 5 (Lithium)": 7,
+										"Team 8 (judgeguns)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 11
+									},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 9 (Team 2 - Scorpion)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 14,
+									"scrap_collected": 460,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (F9bomber)": 32,
+										"Team 2 (Maverick)": 15,
+										"Team 5 (Lithium)": 14,
+										"Team 6 (dark)": 1
+									},
+									"craft_lost_to": {
+										"Team 1 (F9bomber)": 5,
+										"Team 2 (Maverick)": 1,
+										"Team 5 (Lithium)": 7,
+										"Team 6 (dark)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (F9bomber)": 15
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				},
+				"The War": {
+					"date": "03.26.26",
+					"map": "The War",
+					"commanders": "Maverick vs Scorpion",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Scorpion",
+					"time": "17:43",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Bylarge"
+					],
+					"stats": {
+						"game_summary": {
+							"total_time": "0:17:43",
+							"team_overviews": [
+								{
+									"name": "Warmongers",
+									"score": 6,
+									"deaths": 5,
+									"kills": 7
+								},
+								{
+									"name": "Peacemakers",
+									"score": -252,
+									"deaths": 0,
+									"kills": 21
+								},
+								{
+									"name": "Scorpion",
+									"score": 0,
+									"deaths": 0,
+									"kills": 0
+								}
+							]
+						},
+						"teams_detailed": [
+							{
+								"header": "Team 1 (Warmongers - Maverick)",
+								"metrics": {
+									"craft_built": 32,
+									"craft_lost": 10,
+									"buildings_constructed": 16,
+									"buildings_lost": 9,
+									"scrap_collected": 160,
+									"scrap_spent": 1297,
+									"scrap_harvested_upgraded": 359
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {},
+									"craft_lost_to": {
+										"Team 6 (Scorpion)": 7,
+										"Team 7 (Bylarge: The Regent of Terron)": 3
+									},
+									"buildings_destroyed_of": {
+										"Team 6 (Scorpion)": 1
+									},
+									"buildings_lost_to": {
+										"Team 6 (Scorpion)": 5,
+										"Team 7 (Bylarge: The Regent of Terron)": 4
+									}
+								}
+							},
+							{
+								"header": "Team 2 (Warmongers - F9bomber)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 8,
+									"scrap_collected": 170,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 6 (Scorpion)": 6,
+										"Team 7 (Bylarge: The Regent of Terron)": 1
+									},
+									"craft_lost_to": {
+										"Team 6 (Scorpion)": 5,
+										"Team 7 (Bylarge: The Regent of Terron)": 3
+									},
+									"buildings_destroyed_of": {},
+									"buildings_lost_to": {}
+								}
+							},
+							{
+								"header": "Team 6 (Peacemakers - Scorpion)",
+								"metrics": {
+									"craft_built": 26,
+									"craft_lost": 6,
+									"buildings_constructed": 16,
+									"buildings_lost": 1,
+									"scrap_collected": 335,
+									"scrap_spent": 1412,
+									"scrap_harvested_upgraded": 240
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Maverick)": 7,
+										"Team 2 (F9bomber)": 5
+									},
+									"craft_lost_to": {
+										"Team 2 (F9bomber)": 6
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Maverick)": 5
+									},
+									"buildings_lost_to": {
+										"Team 1 (Maverick)": 1
+									}
+								}
+							},
+							{
+								"header": "Team 7 (Peacemakers - Bylarge: The Regent of Terron)",
+								"metrics": {
+									"craft_built": 1,
+									"craft_lost": 1,
+									"scrap_collected": 40,
+									"scrap_spent": 0,
+									"scrap_harvested_upgraded": 0
+								},
+								"combat_stats": {
+									"craft_destroyed_of": {
+										"Team 1 (Maverick)": 3,
+										"Team 2 (F9bomber)": 3
+									},
+									"craft_lost_to": {
+										"Team 2 (F9bomber)": 1
+									},
+									"buildings_destroyed_of": {
+										"Team 1 (Maverick)": 4
+									},
+									"buildings_lost_to": {}
+								}
+							}
+						]
+					}
+				}
 			}
 		}
 	}
