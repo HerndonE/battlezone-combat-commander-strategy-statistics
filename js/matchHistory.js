@@ -161,7 +161,21 @@ function renderTable() {
                     : ""
                 }
             </td>
-            <td style="display: none;"> //SHOW STATS LATER
+
+        `;
+    body.appendChild(tr);
+  });
+}
+
+document.getElementById("yearFilter").onchange = () => {
+  updateMonths();
+  renderTable();
+};
+document.getElementById("monthFilter").onchange = renderTable;
+document.getElementById("search").oninput = renderTable;
+
+/*
+            <td> //SHOW STATS LATER
             
               ${
                 SHOW_STATS && r.stats
@@ -238,14 +252,4 @@ function renderTable() {
                   : ""
               }
             </td>
-        `;
-    body.appendChild(tr);
-  });
-}
-
-document.getElementById("yearFilter").onchange = () => {
-  updateMonths();
-  renderTable();
-};
-document.getElementById("monthFilter").onchange = renderTable;
-document.getElementById("search").oninput = renderTable;
+*/
