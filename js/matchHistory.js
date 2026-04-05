@@ -27,7 +27,7 @@ function extractRows(json) {
               teamOneStraggler: m.teamOneStraggler || [],
               teamTwoStraggler: m.teamTwoStraggler || [],
             },
-            stats: m["stats"],
+            // stats: m["stats"],
           });
         }
       }
@@ -123,12 +123,13 @@ function renderTable() {
       (r.map.toLowerCase().includes(search) ||
         r.winner.toLowerCase().includes(search) ||
         r.commanders.toLowerCase().includes(search) ||
-        r.factions.toLowerCase().includes(search))
+        r.factions.toLowerCase().includes(search)),
   );
 
   filtered.forEach((r) => {
     const tr = document.createElement("tr");
     const summary = r.stats?.game_summary;
+    const SHOW_STATS = false;
     tr.innerHTML = `
             <td>${r.date}</td>
             <td>${r.map}</td>
@@ -143,14 +144,14 @@ function renderTable() {
                 ${
                   r.teams.teamOneStraggler.length
                     ? `<strong>Straggler 1:</strong> ${r.teams.teamOneStraggler.join(
-                        ", "
+                        ", ",
                       )}<br>`
                     : ""
                 }
                 ${
                   r.teams.teamTwoStraggler.length
                     ? `<strong>Straggler 2:</strong> ${r.teams.teamTwoStraggler.join(
-                        ", "
+                        ", ",
                       )}<br>`
                     : ""
                 }
@@ -160,9 +161,10 @@ function renderTable() {
                     : ""
                 }
             </td>
-            <td>
+            <td style="display: none;"> //SHOW STATS LATER
+            
               ${
-                r.stats
+                SHOW_STATS && r.stats
                   ? `
               <details>
                 <summary>View stats</summary>
@@ -183,7 +185,7 @@ function renderTable() {
                       Score: ${t.score}<br>
                       Kills: ${t.kills}<br>
                       Deaths: ${t.deaths}<br><br>
-                    `
+                    `,
                       )
                       .join("")}
                   </div>
@@ -220,12 +222,12 @@ function renderTable() {
                                   : "None"
                               }
                               <br><br>
-                            `
+                            `,
                             )
                             .join("")}
                         </div>
                       </details>
-                    `
+                    `,
                       )
                       .join("")}
                   </div>
@@ -233,10 +235,9 @@ function renderTable() {
 
               </details>
               `
-                  : "NA"
+                  : ""
               }
             </td>
-
         `;
     body.appendChild(tr);
   });
