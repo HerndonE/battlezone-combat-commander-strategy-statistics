@@ -6533,6 +6533,25 @@
 				}
 			},
 			"04.7.26": {
+				"Terron": {
+					"date": "04.7.26",
+					"map": "Terron",
+					"commanders": "X-Triage vs Lithium",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Lithium",
+					"time": "NA",
+					"teamOne": [
+						"Darkvale",
+						"Judgeguns",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Scorpion",
+						"Bylarge"
+					]
+				},
 				"Vegan": {
 					"date": "04.7.26",
 					"map": "Vegan",
