@@ -1,32 +1,49 @@
 
-footer,
-footer p {
-  text-align: center;
-  width: 100%;
-  padding: 15px 0;
-  background-color: #333;
+footer {
+  background-color: #2a2a2a;
   color: white;
+  width: 100%;
+  padding: 24px 16px 12px;
   position: relative;
   z-index: 10;
+  border-top: 1px solid #444;
+}
+
+footer p {
+  text-align: center;
+  color: white;
 }
 
 .footer-note {
   text-align: center;
+  font-size: 13px;
+  color: #ccc;
+  margin: 6px 0;
+  line-height: 1.6;
 }
 
-/* Float four columns side by side */
-.column {
-  flex: 0 0 10%; 
-  padding: 0 5px;
+.footer-note a {
+  color: #aac4ff;
+  text-decoration: none;
 }
 
-/* Remove extra left and right margins, due to padding */
+.footer-note a:hover {
+  text-decoration: underline;
+}
+
+/* Footer link columns */
 .row {
   display: flex;
-  justify-content: center; /* Center cards horizontally */
-  gap: 10px; /* optional spacing between columns */
-  padding: 0; /* remove horizontal padding */
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  justify-content: center;
+  gap: 32px;
+  padding: 0 16px 16px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 auto;
+  min-width: 150px;
+  padding: 0 8px;
 }
 
 /* Style the counter cards */
@@ -34,32 +51,56 @@ footer p {
   text-align: center;
 }
 
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #eee;
+  border-bottom: 1px solid #555;
+  padding-bottom: 6px;
+}
+
 .card p {
-  margin: 2px 0; 
+  margin: 4px 0;
+}
+
+.custom-link {
+  font-size: 13px;
+  color: #aac4ff;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+  color: #c8daff;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 12px auto;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
-
-  footer,
-  footer p {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+  footer {
+    padding: 16px 12px 12px;
   }
 
   .row {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 12px;
   }
 
   .column {
     width: 100%;
+    max-width: 280px;
     padding: 0;
   }
 
   .card {
-    text-align: left;
+    text-align: center;
   }
 
   .custom-link {
