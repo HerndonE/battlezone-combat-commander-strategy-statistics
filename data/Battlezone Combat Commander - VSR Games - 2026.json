@@ -6827,6 +6827,133 @@
 						"F9bomber",
 						"Lithium"
 					]
+				},
+				"Oldboy": {
+					"date": "04.09.26",
+					"map": "Oldboy",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "VTrider",
+					"time": "7:51",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"Domakus",
+						"Sev"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Econchump",
+						"DD",
+						"Lithium"
+					],
+					"_comment": "This game was played on 04.10.26, but had to put another date due to a current bug in code."
+				}
+			},
+			"04.10.26": {
+				"Mountain Top": {
+					"date": "04.10.26",
+					"map": "Mountain Top",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "24:27",
+					"teamOne": [
+						"Darkvale",
+						"Herp McDerperson",
+						"VTrider",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Scorpion",
+						"Domakus",
+						"Nomad",
+						"Lithium"
+					]
+				},
+				"Red Slope": {
+					"date": "04.10.26",
+					"map": "Red Slope",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "15:13",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Sev",
+						"Domakus",
+						"Lithium"
+					]
+				},
+				"Twin Peaks": {
+					"date": "04.10.26",
+					"map": "Twin Peaks",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "19:57",
+					"teamOne": [
+						"Darkvale",
+						"Blue Banana",
+						"VTrider",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Sev",
+						"Domakus",
+						"DD",
+						"Lithium"
+					]
+				},
+				"Oldboy": {
+					"date": "04.10.26",
+					"map": "Oldboy",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "15:25",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"Domakus",
+						"Sev"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Econchump",
+						"DD",
+						"Lithium"
+					]
+				},
+				"Vegan": {
+					"date": "04.10.26",
+					"map": "Vegan",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "16:01",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"Domakus",
+						"Sev"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Econchump",
+						"DD",
+						"Lithium"
+					]
 				}
 			}
 		}
