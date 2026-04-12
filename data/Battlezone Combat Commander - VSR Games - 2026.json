@@ -6955,6 +6955,108 @@
 						"Lithium"
 					]
 				}
+			},
+			"04.11.26": {
+				"Overlook": {
+					"date": "04.11.26",
+					"map": "Overlook",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "15:00",
+					"teamOne": [
+						"Econchump",
+						"HyperVivify",
+						"VTrider",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"Sev",
+						"Scorpion"
+					]
+				},
+				"Quagmire": {
+					"date": "04.11.26",
+					"map": "Quagmire",
+					"commanders": "Zack vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "6:16",
+					"teamOne": [
+						"Econchump",
+						"HyperVivify",
+						"VTrider",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"Sev",
+						"Scorpion"
+					]
+				},
+				"Sahara": {
+					"date": "04.11.26",
+					"map": "Sahara",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "",
+					"winner": "VTrider",
+					"time": "27:06",
+					"teamOne": [
+						"Domakus",
+						"Muffin",
+						"Xpi"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Sev",
+						"Scorpion"
+					]
+				},
+				"Ebola": {
+					"date": "04.11.26",
+					"map": "Ebola",
+					"commanders": "Lithium vs DD",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "17:59",
+					"teamOne": [
+						"Nomad",
+						"Sev",
+						"Blue Banana",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Econchump",
+						"HyperVivify",
+						"Judgeguns",
+						"VTrider"
+					]
+				},
+				"Terron": {
+					"date": "04.11.26",
+					"map": "Terron",
+					"commanders": "Lithium vs Judgeguns",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Lithium",
+					"time": "45:54",
+					"teamOne": [
+						"F9bomber",
+						"Blue Banana"
+					],
+					"teamTwo": [
+						"DD",
+						"HyperVivify",
+						"Nomad"
+					]
+				}
 			}
 		}
 	}
