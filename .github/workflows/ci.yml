@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main # Trigger on push to main branch
+  page_build: # Fires when GitHub Pages finishes building
 
 jobs:
   build:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -119,6 +121,55 @@ jobs:
                   ],
                   \"footer\": {
                     \"text\": \"GitHub Actions\",
+                    \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
+                  },
+                  \"timestamp\": \"$(date --utc +%FT%TZ)\"
+                }]
+              }"
+
+  notify-site-deployed:
+    if: github.event_name == 'page_build'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Website Built Discord Notification
+        run: |
+          BUILD_STATUS="${{ github.event.build.status }}"
+          COLOR=3066993
+          TITLE="Website Built Successfully"
+          DESCRIPTION="**bz2stats.us** has been deployed and is live."
+
+          if [ "$BUILD_STATUS" = "errored" ]; then
+            COLOR=15158332
+            TITLE="Website Build Failed"
+            DESCRIPTION="The **bz2stats.us** GitHub Pages build has failed."
+          fi
+
+          curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d "{
+                \"embeds\": [{
+                  \"title\": \"$TITLE\",
+                  \"description\": \"$DESCRIPTION\",
+                  \"color\": $COLOR,
+                  \"fields\": [
+                    {
+                      \"name\": \"Repository\",
+                      \"value\": \"${{ github.repository }}\",
+                      \"inline\": true
+                    },
+                    {
+                      \"name\": \"Status\",
+                      \"value\": \"$BUILD_STATUS\",
+                      \"inline\": true
+                    },
+                    {
+                      \"name\": \"Website\",
+                      \"value\": \"https://bz2stats.us\",
+                      \"inline\": false
+                    }
+                  ],
+                  \"footer\": {
+                    \"text\": \"GitHub Pages\",
                     \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
                   },
                   \"timestamp\": \"$(date --utc +%FT%TZ)\"

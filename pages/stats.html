@@ -18,8 +18,10 @@
     <link rel="stylesheet" href="../css/players.css">
     <link rel="stylesheet" href="../css/maps.css">
     <link rel="stylesheet" href="../css/match-history.css">
+    <link rel="stylesheet" href="../css/commander-synergy.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> <!-- For Excel -->
     <script type="module" src="../js/overview.js"></script>
     <script type="module" src="../js/twentyFour.js"></script>
     <script type="module" src="../js/twentyFive.js"></script>
@@ -29,6 +31,7 @@
     <script type="module" src="../js/players.js"></script>
     <script type="module" src="../js/maps.js"></script>
     <script type="module" src="../js/matchHistory.js"></script>
+    <script type="module" src="../js/commanderSynergy.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -53,6 +56,7 @@
         <button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>
         <button class="tablinks" onclick="getData(event, 'players')">Players</button>
         <button class="tablinks" onclick="getData(event, 'maps')">Maps</button>
+        <button class="tablinks" onclick="getData(event, 'commanderSynergy')">Commander Synergy</button>
         <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
       </div>
       <div id="Overview" class="tabcontent">
@@ -216,11 +220,41 @@
           <div id="map-card-container"></div>
         </div>
       </div>
-      <div id="matchHistory" class="tabcontent">
+      <div id="commanderSynergy" class="tabcontent">
+        <div id="synergy-root">
+          <div class="syn-toolbar">
+            <input type="text" id="syn-search" placeholder="Search commander...">
+            <div class="syn-view-toggles">
+              <button class="syn-view-btn active" id="syn-btn-raw">All Players</button>
+              <button class="syn-view-btn" id="syn-btn-modified">5+ Games</button>
+              <button class="syn-view-btn" id="syn-btn-reset">Reset</button>
+            </div>
+          </div>
+          <p class="syn-description">
+            Shows which players perform well under each commander.
+            <strong>5+ Games</strong> only includes players with more than 5 games under that commander.
+          </p>
+          <div class="syn-layout">
+            <div class="syn-list-panel" id="syn-commander-list"></div>
+            <div class="syn-detail">
+              <div class="syn-detail-header">
+                <span class="syn-detail-title" id="syn-detail-title"></span>
+                <span class="syn-player-count" id="syn-player-count"></span>
+              </div>
+              <div id="syn-detail-panel"><p class="syn-placeholder">Select a commander to view player synergy data.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div id="matchHistory" class="tabcontent">
         <div class="controls">
           <select id="yearFilter" disabled></select>
           <select id="monthFilter" disabled></select>
           <input type="text" id="search" placeholder="Search: map, winner, commander...">
+        </div>
+        <div class="match-history-actions">
+          <button id="export-excel-btn">&#11015; Export to Excel</button>
+          <button id="copy-data-url-btn">&#128279; Copy Data URL</button>
         </div>
         <table>
           <thead>

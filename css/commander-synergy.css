@@ -1,0 +1,246 @@
+/* ── Top toolbar ───────────────────────────────────────────── */
+#synergy-root {
+  padding-top: 18px;
+}
+
+.syn-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.syn-toolbar input {
+  padding: 7px 12px;
+  font-size: 14px;
+  background: #1a1a1a;
+  border: 1px solid #555;
+  color: #fff;
+  border-radius: 6px;
+  width: 220px;
+  max-width: 100%;
+}
+
+.syn-toolbar input:focus {
+  outline: none;
+  border-color: #4cc9f0;
+}
+
+.syn-view-toggles {
+  display: flex;
+  gap: 6px;
+}
+
+.syn-view-btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #bbb;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.syn-view-btn:hover {
+  border-color: #4cc9f0;
+  color: #fff;
+}
+
+.syn-view-btn.active {
+  background: #4cc9f0;
+  color: #000;
+  border-color: #4cc9f0;
+  font-weight: bold;
+}
+
+.syn-description {
+  color: #888;
+  font-size: 0.85rem;
+  margin: 0 0 14px;
+}
+
+/* ── Two-panel layout ─────────────────────────────────────── */
+.syn-layout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+/* ── Commander list (left panel) ──────────────────────────── */
+.syn-list-panel {
+  width: 190px;
+  flex-shrink: 0;
+  background: #1a1a1a;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 560px;
+}
+
+.syn-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #2a2a2a;
+  transition: background 0.15s;
+  gap: 8px;
+}
+
+.syn-list-item:last-child {
+  border-bottom: none;
+}
+
+.syn-list-item:hover {
+  background: #2a2a2a;
+}
+
+.syn-list-item.active {
+  background: #1c3a4a;
+  border-left: 3px solid #4cc9f0;
+}
+
+.syn-list-name {
+  font-size: 13px;
+  color: #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.syn-list-item.active .syn-list-name {
+  color: #4cc9f0;
+  font-weight: bold;
+}
+
+
+/* ── Detail panel (right) ─────────────────────────────────── */
+.syn-detail {
+  flex: 1;
+  min-width: 0;
+}
+
+.syn-detail-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.syn-detail-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4cc9f0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.syn-player-count {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* ── Player table ─────────────────────────────────────────── */
+.syn-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.syn-table th {
+  background: #222;
+  color: #4cc9f0;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #3a3a3a;
+}
+
+.syn-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #2a2a2a;
+  color: #ddd;
+  vertical-align: middle;
+}
+
+.syn-table tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.syn-col-player {
+  /* takes remaining space */
+}
+
+.syn-col-num {
+  width: 80px;
+  text-align: center;
+  color: #bbb;
+}
+
+.syn-col-rate {
+  width: 160px;
+}
+
+/* Win rate bar */
+.syn-bar-wrap {
+  background: #2e2e2e;
+  border-radius: 4px;
+  height: 7px;
+  width: 100%;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+
+.syn-bar {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.syn-rate-label {
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.syn-placeholder {
+  color: #555;
+  font-style: italic;
+  padding: 24px 0;
+  margin: 0;
+}
+
+.synergy-empty {
+  color: #666;
+  font-style: italic;
+  padding: 12px 0;
+  margin: 0;
+}
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .syn-layout {
+    flex-direction: column;
+  }
+
+  .syn-list-panel {
+    width: 100%;
+    max-height: 180px;
+  }
+
+  .syn-col-num {
+    width: 60px;
+  }
+
+  .syn-col-rate {
+    width: 120px;
+  }
+
+  .syn-toolbar input {
+    width: 100%;
+  }
+}

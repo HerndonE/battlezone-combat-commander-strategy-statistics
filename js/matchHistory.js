@@ -37,6 +37,7 @@ function extractRows(json) {
 }
 
 let rows = [];
+let filteredRows = [];
 
 fetch("../data/data.json")
   .then((response) => {
@@ -116,7 +117,7 @@ function renderTable() {
 
   const search = document.getElementById("search").value.toLowerCase();
 
-  const filtered = rows.filter(
+  filteredRows = rows.filter(
     (r) =>
       (!yearFilter || r.year === yearFilter) &&
       (!monthFilter || r.month === monthFilter) &&
@@ -126,7 +127,7 @@ function renderTable() {
         r.factions.toLowerCase().includes(search)),
   );
 
-  filtered.forEach((r) => {
+  filteredRows.forEach((r) => {
     const tr = document.createElement("tr");
     const summary = r.stats?.game_summary;
     const SHOW_STATS = false;
@@ -173,6 +174,86 @@ document.getElementById("yearFilter").onchange = () => {
 };
 document.getElementById("monthFilter").onchange = renderTable;
 document.getElementById("search").oninput = renderTable;
+
+// Export filtered rows to Excel (.xlsx) using SheetJS
+function exportToExcel() {
+  if (typeof XLSX === "undefined") {
+    alert("Excel export library is not loaded. Please try again.");
+    return;
+  }
+  const headers = [
+    "Date", "Map", "Commanders", "Factions",
+    "Winner", "Winning Faction", "Time",
+    "Team One", "Team Two", "Straggler 1", "Straggler 2",
+  ];
+  const dataRows = filteredRows.map((r) => [
+    r.date,
+    r.map,
+    r.commanders,
+    r.factions,
+    r.winner,
+    r.winningFaction || "",
+    r.time,
+    r.teams.teamOne.join(", "),
+    r.teams.teamTwo.join(", "),
+    r.teams.teamOneStraggler.join(", "),
+    r.teams.teamTwoStraggler.join(", "),
+  ]);
+
+  const wb = XLSX.utils.book_new();
+  const ws = XLSX.utils.aoa_to_sheet([headers, ...dataRows]);
+
+  // Auto-width columns
+  const colWidths = headers.map((h, i) => ({
+    wch: Math.max(
+      h.length,
+      ...dataRows.map((r) => String(r[i] || "").length),
+    ),
+  }));
+  ws["!cols"] = colWidths;
+
+  XLSX.utils.book_append_sheet(wb, ws, "Match History");
+  XLSX.writeFile(wb, "bzcc-match-history.xlsx");
+}
+
+// Copy the raw data.json URL to clipboard
+function copyDataUrl() {
+  const url = window.location.origin + "/data/data.json";
+  const btn = document.getElementById("copy-data-url-btn");
+  navigator.clipboard
+    .writeText(url)
+    .then(() => {
+      if (btn) {
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = original; }, 2000);
+      }
+    })
+    .catch(() => {
+      // Fallback for older browsers
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      if (btn) {
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = original; }, 2000);
+      }
+    });
+}
+
+document
+  .getElementById("export-excel-btn")
+  .addEventListener("click", exportToExcel);
+document
+  .getElementById("copy-data-url-btn")
+  .addEventListener("click", copyDataUrl);
 
 /*
             <td> //SHOW STATS LATER

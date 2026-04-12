@@ -69,3 +69,34 @@ details div {
   font-size: 13px;
   line-height: 1.4;
 }
+
+.match-history-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.match-history-actions button {
+  padding: 6px 14px;
+  font-size: 13px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #4cc9f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.match-history-actions button:hover {
+  background: #4cc9f0;
+  color: #000;
+  border-color: #4cc9f0;
+}
+
+@media (max-width: 600px) {
+  .match-history-actions button {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
