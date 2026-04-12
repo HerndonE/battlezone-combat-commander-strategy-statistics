@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main # Trigger on push to main branch
-  page_build: # Fires when GitHub Pages finishes building
 
 jobs:
   build:
-    if: github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -127,20 +125,33 @@ jobs:
                 }]
               }"
 
-  notify-site-deployed:
-    if: github.event_name == 'page_build'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Send Website Built Discord Notification
+      - name: Wait for GitHub Pages deployment
         run: |
-          BUILD_STATUS="${{ github.event.build.status }}"
+          echo "Waiting for GitHub Pages to finish building..."
+          for i in $(seq 1 30); do
+            RESPONSE=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pages/builds/latest")
+            BUILD_STATUS=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status','unknown'))")
+            echo "Attempt $i: Pages build status = $BUILD_STATUS"
+            if [ "$BUILD_STATUS" = "built" ] || [ "$BUILD_STATUS" = "errored" ]; then
+              echo "PAGES_BUILD_STATUS=$BUILD_STATUS" >> $GITHUB_ENV
+              break
+            fi
+            sleep 10
+          done
+
+      - name: Send Website Deployed Discord Notification
+        run: |
+          BUILD_STATUS="${{ env.PAGES_BUILD_STATUS }}"
           COLOR=3066993
-          TITLE="Website Built Successfully"
-          DESCRIPTION="**bz2stats.us** has been deployed and is live."
+          TITLE="Website Deployed Successfully"
+          DESCRIPTION="**bz2stats.us** is live with the latest changes."
 
           if [ "$BUILD_STATUS" = "errored" ]; then
             COLOR=15158332
-            TITLE="Website Build Failed"
+            TITLE="Website Deployment Failed"
             DESCRIPTION="The **bz2stats.us** GitHub Pages build has failed."
           fi
 
@@ -153,19 +164,14 @@ jobs:
                   \"color\": $COLOR,
                   \"fields\": [
                     {
-                      \"name\": \"Repository\",
-                      \"value\": \"${{ github.repository }}\",
-                      \"inline\": true
-                    },
-                    {
-                      \"name\": \"Status\",
-                      \"value\": \"$BUILD_STATUS\",
-                      \"inline\": true
-                    },
-                    {
                       \"name\": \"Website\",
                       \"value\": \"https://bz2stats.us\",
-                      \"inline\": false
+                      \"inline\": true
+                    },
+                    {
+                      \"name\": \"Pages Status\",
+                      \"value\": \"$BUILD_STATUS\",
+                      \"inline\": true
                     }
                   ],
                   \"footer\": {
