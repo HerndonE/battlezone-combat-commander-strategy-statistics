@@ -7057,6 +7057,159 @@
 						"Nomad"
 					]
 				}
+			},
+			"04.12.26": {
+				"Mort's Wasteland": {
+					"date": "04.12.26",
+					"map": "Mort's Wasteland",
+					"commanders": "Nomad vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "NA",
+					"teamOne": [
+						"Scorpion"
+					],
+					"teamTwo": [
+						"HyperVivify"
+					]
+				},
+				"Europa": {
+					"date": "04.12.26",
+					"map": "Europa",
+					"commanders": "lithium vs Scorpion",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Scorpion",
+					"time": "15:56",
+					"teamOne": [
+						"Nomad",
+						"Muffin",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"HyperVivify",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Oasis": {
+					"date": "04.12.26",
+					"map": "Oasis",
+					"commanders": "Lithium vs Muffin",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "29:30",
+					"teamOne": [
+						"Nomad",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Blue",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamOneStraggler": [
+						"Scorpion"
+					]
+				}
+			},
+			"04.13.26": {
+				"Reflex": {
+					"date": "04.13.26",
+					"map": "Reflex",
+					"commanders": "F9bomber vs Nomad",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "43:35",
+					"teamOne": [
+						"Scorpion",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Lithium"
+					]
+				}
+			},
+			"04.14.26": {
+				"Trench": {
+					"date": "04.14.26",
+					"map": "Trench",
+					"commanders": "Lamper vs Muffin",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Lamper",
+					"time": "20:07",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"Cyber",
+						"F9bomber"
+					]
+				},
+				"Fort 12C": {
+					"date": "04.14.26",
+					"map": "Fort 12C",
+					"commanders": "DD vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "17:25",
+					"teamOne": [
+						"Nomad",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Garden": {
+					"date": "04.14.26",
+					"map": "Garden",
+					"commanders": "F9bomber vs X-Triage",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "8:27",
+					"teamOne": [
+						"Cloaket",
+						"Lithium",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Scorpion",
+						"Darkvale"
+					]
+				},
+				"Plaza": {
+					"date": "04.14.26",
+					"map": "Plaza",
+					"commanders": "F9bomber vs X-Triage",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "2:27:30",
+					"teamOne": [
+						"Cloaket",
+						"Lithium",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Scorpion",
+						"Darkvale"
+					],
+					"_comment": "X-Triage dropped command about 3/4 of the way through game, VTrider took command."
+				}
 			}
 		}
 	}
