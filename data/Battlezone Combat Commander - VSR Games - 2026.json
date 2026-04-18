@@ -7077,7 +7077,7 @@
 				"Europa": {
 					"date": "04.12.26",
 					"map": "Europa",
-					"commanders": "lithium vs Scorpion",
+					"commanders": "Lithium vs Scorpion",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
 					"winner": "Scorpion",
@@ -7209,6 +7209,246 @@
 						"Darkvale"
 					],
 					"_comment": "X-Triage dropped command about 3/4 of the way through game, VTrider took command."
+				}
+			},
+			"04.15.26": {
+				"Ebola": {
+					"date": "04.15.26",
+					"map": "Ebola",
+					"commanders": "DD vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "16:24",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Domakus"
+					]
+				},
+				"Terron": {
+					"date": "04.15.26",
+					"map": "Terron",
+					"commanders": "Darkvale vs DD",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "18:39",
+					"teamOne": [
+						"Lithium",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Judgeguns"
+					]
+				},
+				"Haven": {
+					"date": "04.15.26",
+					"map": "Haven",
+					"commanders": "Certified Bad Guy vs DesUxS",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "14:08",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns",
+						"VTrider",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Domakus",
+						"F9bomber",
+						"Herp McDerperson"
+					]
+				},
+				"Red Slope": {
+					"date": "04.15.26",
+					"map": "Red Slope",
+					"commanders": "Certified Bad Guy vs DesUxS",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "12:10",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Domakus",
+						"HyperVivify",
+						"Darkvale"
+					]
+				},
+				"Remnant": {
+					"date": "04.15.26",
+					"map": "Remnant",
+					"commanders": "Certified Bad Guy vs DesUxS",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "22:24",
+					"teamOne": [
+						"Judgeguns",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Lithium",
+						"HyperVivify"
+					]
+				}
+			},
+			"04.16.26": {
+				"Mojave": {
+					"date": "04.16.26",
+					"map": "Mojave",
+					"commanders": "Judgeguns vs X-Triage",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Judgeguns",
+					"time": "11:50",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"VTrider",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Scorpion",
+						"Blue Banana",
+						"Cloaket"
+					]
+				},
+				"Vegan": {
+					"date": "04.16.26",
+					"map": "Vegan",
+					"commanders": "X-Triage vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "23:41",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"VTrider",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Scorpion",
+						"Blue Banana",
+						"Cloaket"
+					]
+				},
+				"Trench": {
+					"date": "04.16.26",
+					"map": "Trench",
+					"commanders": "Cloaket vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "18:54",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Scorpion",
+						"Judgeguns"
+					]
+				}
+			},
+			"04.17.26": {
+				"Oldboy": {
+					"date": "04.17.26",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Cyber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Cyber",
+					"time": "54:49",
+					"teamOne": [
+						"Shock",
+						"Scorpion"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Judgeguns"
+					]
+				},
+				"Mountain Top": {
+					"date": "04.17.26",
+					"map": "Mountain Top",
+					"commanders": "Nomad vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "8:47",
+					"teamOne": [
+						"Scorpion",
+						"Judgeguns",
+						"Shock",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"HyperVivify",
+						"Herp McDerperson",
+						"Lithium"
+					]
+				},
+				"Iraq": {
+					"date": "04.17.26",
+					"map": "Iraq",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "15:45",
+					"teamOne": [
+						"Scorpion",
+						"Judgeguns",
+						"Shock",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"HyperVivify",
+						"Muffin",
+						"Lithium"
+					]
+				},
+				"Red Slope": {
+					"date": "04.17.26",
+					"map": "Red Slope",
+					"commanders": "F9bomber vs Scorpion",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Scorpion",
+					"time": "17:43",
+					"teamOne": [
+						"Nomad",
+						"Shock",
+						"Lithium",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"HyperVivify",
+						"VTrider",
+						"Judgeguns"
+					]
 				}
 			}
 		}
