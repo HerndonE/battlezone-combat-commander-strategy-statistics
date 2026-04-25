@@ -7449,6 +7449,463 @@
 						"VTrider",
 						"Judgeguns"
 					]
+				},
+				"Barren": {
+					"date": "04.17.26",
+					"map": "Barren",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "9:13",
+					"teamOne": [
+						"DD",
+						"Devastator"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Darkvale",
+						"Judgeguns"
+					],
+					"_comment": "This game was played on 04.18.26, but had to put another date due to a current bug in code."
+				}
+			},
+			"04.18.26": {
+				"Bowl": {
+					"date": "04.18.26",
+					"map": "Barren",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "9:45",
+					"teamOne": [
+						"Darkvale",
+						"Devastator",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Muffin",
+						"DD"
+					]
+				},
+				"Barren": {
+					"date": "04.18.26",
+					"map": "Barren",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "5:10",
+					"teamOne": [
+						"Darkvale",
+						"Devastator",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Muffin",
+						"DD"
+					]
+				},
+				"Phoenix": {
+					"date": "04.18.26",
+					"map": "Phoenix",
+					"commanders": "DD vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "55:22",
+					"teamOne": [
+						"Econchump",
+						"Devastator"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Judgeguns"
+					]
+				},
+				"Know Thyself": {
+					"date": "04.18.26",
+					"map": "Know Thyself",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "15:56",
+					"teamOne": [
+						"HyperVivify",
+						"VTrider",
+						"Devastator"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"DD"
+					],
+					"teamOneStraggler": [
+						"Nomad"
+					],
+					"teamTwoStraggler": [
+						"Blue Banana"
+					]
+				}
+			},
+			"04.20.26": {
+				"Ice Age": {
+					"date": "04.20.26",
+					"map": "Ice Age",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "24:58",
+					"teamOne": [
+						"Cloaket",
+						"Muffin",
+						"Darkvale",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Domakus",
+						"Judgeguns",
+						"Nomad"
+					]
+				},
+				"Oldboy": {
+					"date": "04.20.26",
+					"map": "Oldboy",
+					"commanders": "Cyber vs Domakus",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Cyber",
+					"time": "14:37",
+					"teamOne": [
+						"Cloaket",
+						"F9bomber",
+						"Judgeguns",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Darkvale",
+						"Nomad",
+						"Muffin"
+					]
+				},
+				"Power Struggle": {
+					"date": "04.20.26",
+					"map": "Power Struggle",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "8:17",
+					"teamOne": [
+						"Muffin",
+						"Judgeguns",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Darkvale",
+						"Certified Bad Guy"
+					]
+				}
+			},
+			"04.21.26": {
+				"Haven": {
+					"date": "04.21.26",
+					"map": "Haven",
+					"commanders": "Vacuum34 vs DD",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "DD",
+					"time": "24:51",
+					"teamOne": [
+						"F9bomber",
+						"VTrider",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Sev"
+					],
+					"teamOneStraggler": [
+						"X-Triage"
+					],
+					"teamTwoStraggler": [
+						"Appel",
+						"Domakus"
+					]
+				},
+				"Mountain Pass": {
+					"date": "04.21.26",
+					"map": "Mountain Pass",
+					"commanders": "Cloaket vs Vacuum34",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "24:51",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Domakus",
+						"Econchump",
+						"HyperVivify"
+					]
+				},
+				"Ancient Hills": {
+					"date": "04.21.26",
+					"map": "Ancient Hills",
+					"commanders": "Cloaket vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "14:10",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Darkvale",
+						"VTrider",
+						"HyperVivify"
+					]
+				},
+				"Egypt": {
+					"date": "04.21.26",
+					"map": "Egypt",
+					"commanders": "Cloaket vs Econchump",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "9:10",
+					"teamOne": [
+						"Domakus",
+						"Sev",
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Darkvale",
+						"VTrider",
+						"HyperVivify"
+					]
+				}
+			},
+			"04.22.26": {
+				"Egypt": {
+					"date": "04.22.26",
+					"map": "Egypt",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "28:22",
+					"teamOne": [
+						"HyperVivify",
+						"Cloaket",
+						"Domakus",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"DD",
+						"VTrider",
+						"Sly",
+						"Blue Banana"
+					]
+				},
+				"Dune Night": {
+					"date": "04.22.26",
+					"map": "Dune Night",
+					"commanders": "Blue Banana vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "5:03",
+					"teamOne": [
+						"DD",
+						"Cloaket",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Domakus",
+						"Sly",
+						"Lithium"
+					]
+				},
+				"Vegan": {
+					"date": "04.22.26",
+					"map": "Vegan",
+					"commanders": "Darkvale vs Blue Banana",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "6:06",
+					"teamOne": [
+						"Sev",
+						"Cloaket",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"Domakus",
+						"Sly",
+						"Lithium"
+					]
+				},
+				"Throbbing Gristle": {
+					"date": "04.22.26",
+					"map": "Throbbing Gristle",
+					"commanders": "Blue Banana vs Cloaket",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Blue Banana",
+					"time": "36:16",
+					"teamOne": [
+						"Sly",
+						"Lithium",
+						"Domakus",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"HyperVivify",
+						"VTrider",
+						"Sev",
+						"Darkvale"
+					]
+				}
+			},
+			"04.23.26": {
+				"Island of V8": {
+					"date": "04.23.26",
+					"map": "Island of V8",
+					"commanders": "Vacuum34 vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "33:19",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Econchump",
+						"VTrider",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Herp McDerperson",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Oasis": {
+					"date": "04.23.26",
+					"map": "Oasis",
+					"commanders": "Certified Bad Guy vs Darkvale",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "8:54",
+					"teamOne": [
+						"F9bomber",
+						"Lamper",
+						"Sev",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Xpi",
+						"Nomad",
+						"VTrider"
+					]
+				}
+			},
+			"04.24.26": {
+				"Cracked": {
+					"date": "04.24.26",
+					"map": "Cracked",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "9:16",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Darkvale"
+					]
+				},
+				"Mojave": {
+					"date": "04.24.26",
+					"map": "Mojave",
+					"commanders": "Herp McDerperson vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "15:50",
+					"teamOne": [
+						""
+					],
+					"teamTwo": [
+						""
+					]
+				},
+				"Barren": {
+					"date": "04.24.26",
+					"map": "Barren",
+					"commanders": "Darkvale vs Certified Bad Guy",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "9:35",
+					"teamOne": [
+						"Herp McDerperson",
+						"Econchump",
+						"Judgeguns",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Lithium",
+						"Sev",
+						"F9bomber"
+					]
+				},
+				"Overlook": {
+					"date": "04.24.26",
+					"map": "Overlook",
+					"commanders": "Xpi vs Lithium",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Lithium",
+					"time": "45:20",
+					"teamOne": [
+						"Herp McDerperson",
+						"Econchump",
+						"Judgeguns",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Certified Bad Guy",
+						"Sev",
+						"F9bomber"
+					]
 				}
 			}
 		}
