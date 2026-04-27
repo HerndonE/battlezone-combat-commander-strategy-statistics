@@ -7907,6 +7907,172 @@
 						"F9bomber"
 					]
 				}
+			},
+			"04.26.26": {
+				"Abuse": {
+					"date": "04.26.26",
+					"map": "Abuse",
+					"commanders": "F9bomber vs Cyber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Cyber",
+					"time": "18:46",
+					"teamOne": [
+						"Lamper",
+						"SaggiSponge",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"Certified Bad Guy"
+					]
+				},
+				"Europa Night": {
+					"date": "04.26.26",
+					"map": "Europa Night",
+					"commanders": "Sly vs Certified Bad Guy",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sly",
+					"time": "18:04",
+					"teamOne": [
+						"DD",
+						"SaggiSponge",
+						"Cyber"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"X-Triage"
+					]
+				},
+				"Haven": {
+					"date": "04.26.26",
+					"map": "Haven",
+					"commanders": "Danya vs Blue Banana",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "13:02",
+					"teamOne": [
+						"DD",
+						"Certified Bad Guy",
+						"Cyber"
+					],
+					"teamTwo": [
+						"Sahd0w",
+						"Domakus",
+						"F9bomber",
+						"VTrider"
+					]
+				},
+				"Royal Stadium": {
+					"date": "04.26.26",
+					"map": "Royal Stadium",
+					"commanders": "Lamper vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "11:33",
+					"teamOne": [
+						"Cyber",
+						"SaggiSponge",
+						"Certified Bad Guy",
+						"DD"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"HyperVivify",
+						"X-Triage"
+					]
+				},
+				"Strategy Arena": {
+					"date": "04.26.26",
+					"map": "Strategy Arena",
+					"commanders": "DD vs X-Triage",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "12:19",
+					"teamOne": [
+						"Cyber",
+						"Darkvale",
+						"Lamper",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"VTrider",
+						"F9bomber",
+						"Certified Bad Guy"
+					]
+				},
+				"Oldboy": {
+					"date": "04.26.26",
+					"map": "Oldboy",
+					"commanders": "Cyber vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "18:04",
+					"teamOne": [
+						"DD",
+						"X-Triage",
+						"Lamper",
+						"HyperVivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"SaggiSponge"
+					]
+				},
+				"Sahara": {
+					"date": "04.26.26",
+					"map": "Sahara",
+					"commanders": "Sev vs Certified Bad Guy",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "21:27",
+					"teamOne": [
+						"DD",
+						"Blue Banana",
+						"VTrider",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Sahd0w",
+						"Cyber",
+						"F9bomber",
+						"Sly"
+					]
+				},
+				"Garden": {
+					"date": "04.26.26",
+					"map": "Garden",
+					"commanders": "Sev vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "8:15",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Darkvale",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Cyber",
+						"HyperVivify",
+						"Certified Bad Guy",
+						"X-Triage"
+					]
+				}
 			}
 		}
 	}
