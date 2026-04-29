@@ -8073,6 +8073,164 @@
 						"X-Triage"
 					]
 				}
+			},
+			"04.28.26": {
+				"310": {
+					"date": "04.28.26",
+					"map": "310",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "11:37",
+					"teamOne": [
+						"Certified Bad Guy",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"X-Triage",
+						"VTrider"
+					]
+				},
+				"Abundance": {
+					"date": "04.28.26",
+					"map": "Abundance",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "9:14",
+					"teamOne": [
+						"Xpi",
+						"X-Triage",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"SaggiSponge",
+						"VTrider"
+					]
+				},
+				"Abuse": {
+					"date": "04.28.26",
+					"map": "Abuse",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "10:39",
+					"teamOne": [
+						"Domakus",
+						"Certified Bad Guy",
+						"X-Triage",
+						"VTrider"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Xpi",
+						"Snake",
+						"F9bomber"
+					]
+				},
+				"Amino": {
+					"date": "04.28.26",
+					"map": "Amino",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "national scionist",
+					"time": "22:23",
+					"teamOne": [
+						"Domakus",
+						"Certified Bad Guy",
+						"X-Triage",
+						"Snake"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Xpi",
+						"VTrider",
+						"F9bomber"
+					]
+				},
+				"Terron": {
+					"date": "04.28.26",
+					"map": "Terron",
+					"commanders": "Domakus vs Snake",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Domakus",
+					"time": "41:26",
+					"teamOne": [
+						"SaggiSponge",
+						"Darkvale",
+						"X-Triage",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Xpi",
+						"Lithium",
+						"Nomad"
+					]
+				},
+				"Overlook": {
+					"date": "04.28.26",
+					"map": "Overlook",
+					"commanders": "Snake vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "14:50",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Nomad",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Sev",
+						"Domakus",
+						"SaggiSponge",
+						"Cloaket"
+					]
+				},
+				"Egypt": {
+					"date": "04.28.26",
+					"map": "Egypt",
+					"commanders": "Snake vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "13:34",
+					"teamOne": [
+						"SaggiSponge",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Econchump",
+						"Cloaket"
+					]
+				},
+				"Haven": {
+					"date": "04.28.26",
+					"map": "Haven",
+					"commanders": "Snake vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "6:23",
+					"teamOne": [
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Econchump"
+					]
+				}
 			}
 		}
 	}
