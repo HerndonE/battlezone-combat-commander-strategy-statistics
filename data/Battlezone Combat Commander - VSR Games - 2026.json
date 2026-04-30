@@ -8231,6 +8231,100 @@
 						"Econchump"
 					]
 				}
+			},
+			"04.29.26": {
+				"Quagmire": {
+					"date": "04.29.26",
+					"map": "Quagmire",
+					"commanders": "Certified Bad Guy vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "12:58",
+					"teamOne": [
+						"X-Triage",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Domakus",
+						"F9bomber"
+					]
+				},
+				"Reflex": {
+					"date": "04.29.26",
+					"map": "Reflex",
+					"commanders": "DD vs Lithium",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "14:39",
+					"teamOne": [
+						"Darkvale",
+						"Certified Bad Guy",
+						"VTrider",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Domakus",
+						"F9bomber",
+						"X-Triage",
+						"Sev"
+					]
+				},
+				"Oldboy": {
+					"date": "04.29.26",
+					"map": "Oldboy",
+					"commanders": "Sev vs Snake",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "18:30",
+					"teamOne": [
+						"DD",
+						"Certified Bad Guy",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"F9bomber"
+					]
+				},
+				"Mojave": {
+					"date": "04.29.26",
+					"map": "Mojave",
+					"commanders": "Sev vs Snake",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Sev",
+					"time": "1:07:10",
+					"teamOne": [
+						"Certified Bad Guy",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"F9bomber"
+					]
+				},
+				"Giza": {
+					"date": "04.29.26",
+					"map": "Giza",
+					"commanders": "Nomad vs Snake",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "22:17",
+					"teamOne": [
+						"Sev",
+						"HyperVivify",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Cloaket",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
