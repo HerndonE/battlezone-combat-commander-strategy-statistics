@@ -8495,6 +8495,64 @@
 						"Lithium"
 					]
 				}
+			},
+			"05.04.26": {
+				"Quagmire": {
+					"date": "05.04.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "28:02",
+					"teamOne": [
+						"Bylarge",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"DD",
+						"Lithium",
+						"Nomad"
+					]
+				},
+				"Ancient Hills": {
+					"date": "05.04.26",
+					"map": "Ancient Hills",
+					"commanders": "Cloaket vs Domakus",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "16:59",
+					"teamOne": [
+						"VTrider",
+						"DD",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Fort 12C": {
+					"date": "05.04.26",
+					"map": "Fort 12C",
+					"commanders": "Cloaket vs Certified Bad Guy",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "1:13:57",
+					"teamOne": [
+						"Domakus",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Lithium",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
