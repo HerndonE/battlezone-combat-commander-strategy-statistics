@@ -8553,6 +8553,42 @@
 						"F9bomber"
 					]
 				}
+			},
+			"05.05.26": {
+				"Mort's Wasteland": {
+					"date": "05.05.26",
+					"map": "Mort's Wasteland",
+					"commanders": "F9bomber vs Nomad",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "19:00",
+					"teamOne": [
+						"Darkvale",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Lithium",
+						"HyperVivify"
+					]
+				},
+				"Overlook": {
+					"date": "05.05.26",
+					"map": "Overlook",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "12:04",
+					"teamOne": [
+						"The_Bylarge",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Lithium",
+						"HyperVivify"
+					]
+				}
 			}
 		}
 	}
