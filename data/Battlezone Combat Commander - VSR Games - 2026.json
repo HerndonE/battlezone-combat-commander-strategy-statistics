@@ -1285,7 +1285,7 @@
 					"commanders": "Muffin vs HyperVivify",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Muffin",
+					"winner": "HyperVivify",
 					"time": "NA",
 					"teamOne": [
 						"M.S"
@@ -8587,6 +8587,191 @@
 					"teamTwo": [
 						"Lithium",
 						"HyperVivify"
+					]
+				}
+			},
+			"05.06.26": {
+				"Quarry": {
+					"date": "05.06.26",
+					"map": "Quarry",
+					"commanders": "Domakus vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "3:05:17",
+					"teamOne": [
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"SaggiSponge"
+					],
+					"_comment": "Game had to be ended due to it getting late on a work night."
+				}
+			},
+			"05.07.26": {
+				"Remnant": {
+					"date": "05.07.26",
+					"map": "Remnant",
+					"commanders": "M.S vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "11:05",
+					"teamOne": [
+						"Xpi",
+						"MAX",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"Kebbz"
+					]
+				},
+				"Reflex": {
+					"date": "05.07.26",
+					"map": "Reflex",
+					"commanders": "M.S vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "20:36",
+					"teamOne": [
+						"Kebbz",
+						"Xpi",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Muffin",
+						"MAX"
+					]
+				},
+				"Oasis": {
+					"date": "05.07.26",
+					"map": "Oasis",
+					"commanders": "Darkvale vs Snake",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "17:49",
+					"teamOne": [
+						"DD",
+						"Xpi"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
+			},
+			"05.08.26": {
+				"Excavation": {
+					"date": "05.08.26",
+					"map": "Excavation",
+					"commanders": "Sev vs Snake",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Snake",
+					"time": "10:33",
+					"teamOne": [
+						"F9bomber",
+						"Cyber",
+						"HyperVivify",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Judgeguns",
+						"Herp McDerperson",
+						"Domakus"
+					]
+				},
+				"Hilo Blues": {
+					"date": "05.08.26",
+					"map": "Hilo Blues",
+					"commanders": "Snake vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "10:12",
+					"teamOne": [
+						"Cyber",
+						"F9bomber",
+						"HyperVivify",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Judgeguns",
+						"Herp McDerperson",
+						"Domakus"
+					]
+				},
+				"Europa Night": {
+					"date": "05.08.26",
+					"map": "Europa Night",
+					"commanders": "Snake vs Blue Banana",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "17:10",
+					"teamOne": [
+						"Cyber",
+						"F9bomber",
+						"HyperVivify",
+						"X-Triage"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"Darkvale",
+						"Domakus"
+					]
+				},
+				"Oldboy": {
+					"date": "05.08.26",
+					"map": "Oldboy",
+					"commanders": "Sev vs Herp McDerperson",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "22:43",
+					"teamOne": [
+						"Domakus",
+						"Blue Banana",
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Snake",
+						"Nomad",
+						"Lithium",
+						"HyperVivify"
+					]
+				},
+				"Quagmire": {
+					"date": "05.08.26",
+					"map": "Quagmire",
+					"commanders": "Sev vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "1:21:59",
+					"teamOne": [
+						"Blue Banana",
+						"Nomad",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Lithium",
+						"HyperVivify"
+					],
+					"teamOneStraggler": [
+						"Snake",
+						"Xpi"
+					],
+					"teamTwoStraggler": [
+						"Domakus"
 					]
 				}
 			}
