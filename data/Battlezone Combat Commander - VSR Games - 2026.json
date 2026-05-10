@@ -8774,6 +8774,124 @@
 						"Domakus"
 					]
 				}
+			},
+			"05.09.26": {
+				"Egypt": {
+					"date": "05.09.26",
+					"map": "Egypt",
+					"commanders": "MAX vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "8:32",
+					"teamOne": [
+						"M.S",
+						"DD"
+					],
+					"teamTwo": [
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Jade Green": {
+					"date": "05.09.26",
+					"map": "Jade Green",
+					"commanders": "MAX vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "30:20",
+					"teamOne": [
+						"M.S",
+						"DD"
+					],
+					"teamTwo": [
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"DuneNight": {
+					"date": "05.09.26",
+					"map": "DuneNight",
+					"commanders": "DD vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "27:50",
+					"teamOne": [
+						"Snake",
+						"M.S",
+						"Xpi"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Mojave": {
+					"date": "05.09.26",
+					"map": "Mojave",
+					"commanders": "Cyber vs Econchump",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "16:46",
+					"teamOne": [
+						"M.S",
+						"Xpi",
+						"Snake",
+						"DD"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Europa": {
+					"date": "05.09.26",
+					"map": "Europa",
+					"commanders": "Cyber vs Econchump",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "9:36",
+					"teamOne": [
+						"M.S",
+						"Xpi",
+						"Snake",
+						"DD"
+					],
+					"teamTwo": [
+						"Zack",
+						"Herp McDerperson",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Giza": {
+					"date": "05.09.26",
+					"map": "Giza",
+					"commanders": "Sev vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "26:32",
+					"teamOne": [
+						"Zack",
+						"Herp McDerperson",
+						"Cyber",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"econchump",
+						"Xpi",
+						"Snake",
+						"M.S"
+					]
+				}
 			}
 		}
 	}
