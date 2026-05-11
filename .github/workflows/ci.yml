@@ -52,6 +52,70 @@ jobs:
         with:
           python-version: "3.x"
 
+      # Alternative simpler lint using jq (pre-installed on ubuntu-latest), but lacks line/column details for Discord:
+      # - name: Lint JSON data files
+      #   run: |
+      #     for f in data/*.json; do
+      #       jq empty "$f" && echo "OK: $f" || { echo "FAIL: $f"; exit 1; }
+      #     done
+      - name: Lint JSON data files
+        id: lint_json
+        run: |
+          python3 << 'EOF'
+          import json, sys, os, glob
+
+          failed = []
+          for path in sorted(glob.glob('data/*.json')):
+            try:
+              with open(path) as f:
+                json.load(f)
+              print(f'OK: {path}')
+            except json.JSONDecodeError as e:
+              msg = f'{os.path.basename(path)}: line {e.lineno}, col {e.colno} — {e.msg}'
+              print(f'FAIL: {msg}', file=sys.stderr)
+              failed.append(msg)
+
+          if failed:
+            with open(os.environ['GITHUB_ENV'], 'a') as env_file:
+              env_file.write('JSON_LINT_ERRORS=' + ' | '.join(failed) + '\n')
+            sys.exit(1)
+          EOF
+
+      - name: Notify Discord on JSON lint failure
+        if: steps.lint_json.outcome == 'failure'
+        run: |
+          curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d "{
+                \"embeds\": [{
+                  \"title\": \"JSON Lint Failed\",
+                  \"description\": \"One or more data files contain invalid JSON and cannot be processed.\",
+                  \"color\": 15158332,
+                  \"fields\": [
+                    {
+                      \"name\": \"Errors\",
+                      \"value\": \"${{ env.JSON_LINT_ERRORS }}\",
+                      \"inline\": false
+                    },
+                    {
+                      \"name\": \"Repository\",
+                      \"value\": \"${{ github.repository }}\",
+                      \"inline\": true
+                    },
+                    {
+                      \"name\": \"Branch\",
+                      \"value\": \"${{ github.ref_name }}\",
+                      \"inline\": true
+                    }
+                  ],
+                  \"footer\": {
+                    \"text\": \"GitHub Actions\",
+                    \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
+                  },
+                  \"timestamp\": \"$(date --utc +%FT%TZ)\"
+                }]
+              }"
+
       - name: Run combine_json.py
         run: python scripts/combine_json.py
 
