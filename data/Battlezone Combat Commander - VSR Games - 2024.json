@@ -890,7 +890,7 @@
 				"Remnant": {
 					"date": "8.10.24",
 					"map": "Remnant",
-					"commanders": "Darkvale vs Xpi",
+					"commanders": "Darkvale vs Monkey",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "Scion",
 					"winner": "Darkvale"
@@ -2184,7 +2184,7 @@
 				"Red Slope": {
 					"date": "11.8.24",
 					"map": "Red Slope",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber"
@@ -2192,7 +2192,7 @@
 				"Scammed": {
 					"date": "11.8.24",
 					"map": "Scammed",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber"
@@ -2200,7 +2200,7 @@
 				"Terron": {
 					"date": "11.8.24",
 					"map": "Terron",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber"
@@ -2230,18 +2230,18 @@
 				"Forgotten": {
 					"date": "11.17.24",
 					"map": "Forgotten",
-					"commanders": "X-Triage vs Xpi",
+					"commanders": "X-Triage vs Monkey",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi"
+					"winner": "Monkey"
 				},
 				"Ogg Vorbis": {
 					"date": "11.17.24",
 					"map": "Ogg Vorbis",
-					"commanders": "Herp McDerperson vs Xpi",
+					"commanders": "Herp McDerperson vs Monkey",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi"
+					"winner": "Monkey"
 				},
 				"Rendon": {
 					"date": "11.17.24",
@@ -2266,7 +2266,7 @@
 				"Overlook": {
 					"date": "12.2.24",
 					"map": "Overlook",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber"
@@ -2360,15 +2360,15 @@
 				"Oasis": {
 					"date": "12.7.24",
 					"map": "Oasis",
-					"commanders": "Xpi vs Xohm",
+					"commanders": "Monkey vs Xohm",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi"
+					"winner": "Monkey"
 				},
 				"Reflex": {
 					"date": "12.7.24",
 					"map": "Reflex",
-					"commanders": "Xpi vs Xohm",
+					"commanders": "Monkey vs Xohm",
 					"factions": "[Scion, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Xohm"

@@ -66,7 +66,7 @@
 						"F9mama"
 					],
 					"teamTwo": [
-						"HyperVivify",
+						"Vivify",
 						"X-Triage"
 					]
 				},
@@ -83,7 +83,7 @@
 					],
 					"teamTwo": [
 						"F9mama",
-						"HyperVivify"
+						"Vivify"
 					]
 				}
 			},
@@ -150,7 +150,7 @@
 				"Bowl": {
 					"date": "01.6.25",
 					"map": "Bowl",
-					"commanders": "VTrider vs Xpi",
+					"commanders": "VTrider vs Monkey",
 					"factions": "[Hadean, I.S.D.F]",
 					"winningFaction": "Hadean",
 					"winner": "VTrider",
@@ -213,7 +213,7 @@
 					],
 					"teamTwo": [
 						"Domakus",
-						"Xpi"
+						"Monkey"
 					]
 				}
 			},
@@ -321,7 +321,7 @@
 					"time": "16:50",
 					"teamOne": [
 						"Cyber",
-						"HyperVivify",
+						"Vivify",
 						"Darkvale"
 					],
 					"teamTwo": [
@@ -390,7 +390,7 @@
 				"Red Slope": {
 					"date": "01.22.25",
 					"map": "Red Slope",
-					"commanders": "Xpi vs Sev",
+					"commanders": "Monkey vs Sev",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Sev",
@@ -406,7 +406,7 @@
 					],
 					"teamTwoStraggler": [
 						"Domakus",
-						"HyperVivify"
+						"Vivify"
 					]
 				}
 			},
@@ -414,7 +414,7 @@
 				"Garden": {
 					"date": "01.23.25",
 					"map": "Garden",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Blue Banana",
@@ -430,10 +430,10 @@
 				"Overlook": {
 					"date": "01.23.25",
 					"map": "Overlook",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "14:14",
 					"teamOne": [
 						"F9bomber",
@@ -446,10 +446,10 @@
 				"Remnant": {
 					"date": "01.23.25",
 					"map": "Remnant",
-					"commanders": "Sev vs Xpi",
+					"commanders": "Sev vs Monkey",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "16:13",
 					"teamOne": [
 						"Zack",
@@ -954,10 +954,10 @@
 				"Remnant": {
 					"date": "01.23.25",
 					"map": "Remnant",
-					"commanders": "Sev vs Xpi",
+					"commanders": "Sev vs Monkey",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "8:27",
 					"teamOne": [
 						"Zack",
@@ -1624,7 +1624,7 @@
 					"time": "9:34",
 					"teamOne": [
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"Nomad",
 						"Maverick"
 					],
@@ -1651,7 +1651,7 @@
 					],
 					"teamTwo": [
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"Gryphon",
 						"Darkvale"
 					]
@@ -1659,7 +1659,7 @@
 				"Mojave": {
 					"date": "04.7.25",
 					"map": "Mojave",
-					"commanders": "RollyPolly vs Xpi",
+					"commanders": "RollyPolly vs Monkey",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "Scion",
 					"winner": "RollyPolly",
@@ -1760,7 +1760,7 @@
 				"Plaza": {
 					"date": "04.9.25",
 					"map": "Plaza",
-					"commanders": "Xpi vs Maverick",
+					"commanders": "Monkey vs Maverick",
 					"factions": "[Scion, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Maverick",
@@ -1777,10 +1777,10 @@
 				"Scammed": {
 					"date": "04.9.25",
 					"map": "Scammed",
-					"commanders": "Xpi vs Maverick",
+					"commanders": "Monkey vs Maverick",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "Scion",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "27:54",
 					"teamOne": [
 						"F9bomber",
@@ -1794,7 +1794,7 @@
 				"Terron": {
 					"date": "04.9.25",
 					"map": "Terron",
-					"commanders": "Xpi vs Zack",
+					"commanders": "Monkey vs Zack",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
@@ -1811,7 +1811,7 @@
 				"Vortex": {
 					"date": "04.9.25",
 					"map": "Vortex",
-					"commanders": "Xpi vs Zack",
+					"commanders": "Monkey vs Zack",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
 					"winner": "Zack",
@@ -1910,7 +1910,7 @@
 						"Muffin"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"Darkvale"
 					],
 					"teamOneStraggler": [
@@ -1933,7 +1933,7 @@
 						"RollyPolly"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"Darkvale"
 					]
 				}
@@ -2501,7 +2501,7 @@
 					"teamOne": [
 						"Ultimate",
 						"Herp McDerperson",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"VTrider",
@@ -2512,10 +2512,10 @@
 				"Quarry": {
 					"date": "05.2.25",
 					"map": "Quarry",
-					"commanders": "Darkvale vs Xpi",
+					"commanders": "Darkvale vs Monkey",
 					"factions": "[Scion, Scion]",
 					"winningFaction": "Scion",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "8:03",
 					"teamOne": [
 						"Ultimate",
@@ -2533,7 +2533,7 @@
 				"Red Slope": {
 					"date": "05.2.25",
 					"map": "Red Slope",
-					"commanders": "X-Triage vs Xpi",
+					"commanders": "X-Triage vs Monkey",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
 					"winner": "X-Triage",
@@ -2554,7 +2554,7 @@
 				"Strategy Arena": {
 					"date": "05.2.25",
 					"map": "Strategy Arena",
-					"commanders": "F9bomber vs Xpi",
+					"commanders": "F9bomber vs Monkey",
 					"factions": "[Hadean, Scion]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber",
@@ -2655,10 +2655,10 @@
 				"Red Slope": {
 					"date": "05.5.25",
 					"map": "Red Slope",
-					"commanders": "Xpi vs Judgeguns",
+					"commanders": "Monkey vs Judgeguns",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "Scion",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "33:23",
 					"teamOne": [
 						"F9bomber",
@@ -2674,7 +2674,7 @@
 				"Throbbing Gristle": {
 					"date": "05.5.25",
 					"map": "Throbbing Gristle",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber",
@@ -2702,7 +2702,7 @@
 					"time": "16:54",
 					"teamOne": [
 						"Sev",
-						"Xpi",
+						"Monkey",
 						"F9mama"
 					],
 					"teamTwo": [
@@ -2991,7 +2991,7 @@
 					"winner": "VTrider",
 					"time": "32:00",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"X-Triage",
 						"Nomad",
 						"Certified Bad Guy"
@@ -3063,7 +3063,7 @@
 					"winner": "Herp McDerperson",
 					"time": "30:34",
 					"teamOne": [
-						"Xpi",
+						"Monkey",
 						"Certified Bad Guy"
 					],
 					"teamTwo": [
@@ -3079,10 +3079,10 @@
 				"Remnant": {
 					"date": "07.21.25",
 					"map": "Remnant",
-					"commanders": "Xpi vs Zack",
+					"commanders": "Monkey vs Zack",
 					"factions": "[Scion, Scion]",
 					"winningFaction": "Scion",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "45:06",
 					"teamOne": [
 						"Bylarge"
@@ -3110,7 +3110,7 @@
 					],
 					"teamTwo": [
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"Bylarge"
 					]
 				},
@@ -3129,7 +3129,7 @@
 					"teamTwo": [
 						"Zack",
 						"Herp McDerperson",
-						"Xpi"
+						"Monkey"
 					]
 				},
 				"Mojave": {
@@ -3142,7 +3142,7 @@
 					"time": "22:08",
 					"teamOne": [
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"Bylarge"
 					],
 					"teamTwo": [
@@ -3336,7 +3336,7 @@
 						"Judgeguns"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"Domakus",
 						"F9bomber"
 					]
@@ -3355,7 +3355,7 @@
 						"Zack"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"Judgeguns",
 						"Domakus",
 						"F9bomber"
@@ -3389,7 +3389,7 @@
 					"winner": "Zack",
 					"time": "12:53",
 					"teamOne": [
-						"Xpi",
+						"Monkey",
 						"X-Triage"
 					],
 					"teamTwo": [
@@ -3412,7 +3412,7 @@
 					],
 					"teamTwo": [
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"Judgeguns"
 					],
 					"teamOneStraggler": [
@@ -3439,7 +3439,7 @@
 					"teamTwo": [
 						"Judgeguns",
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"F9bomber"
 					]
 				},
@@ -3502,7 +3502,7 @@
 				"Terron": {
 					"date": "07.29.25",
 					"map": "Terron",
-					"commanders": "Zack vs Xpi",
+					"commanders": "Zack vs Monkey",
 					"factions": "[Scion, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Zack",
@@ -3655,7 +3655,7 @@
 						"Domakus",
 						"F9bomber",
 						"Zack",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Muffin",
@@ -3676,7 +3676,7 @@
 						"Cyber",
 						"Domakus",
 						"Muffin",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Zack",
@@ -3697,7 +3697,7 @@
 						"Cyber",
 						"Domakus",
 						"Muffin",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Zack",
@@ -3718,7 +3718,7 @@
 						"Zack",
 						"Domakus",
 						"Econchump",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Judgeguns",
@@ -3742,7 +3742,7 @@
 						"VTrider"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"F9bomber",
 						"Certified Bad Guy",
 						"Econchump"
@@ -3758,7 +3758,7 @@
 					"time": "20:15",
 					"teamOne": [
 						"Certified Bad Guy",
-						"Xpi",
+						"Monkey",
 						"VTrider"
 					],
 					"teamTwo": [
@@ -3783,7 +3783,7 @@
 					],
 					"teamTwo": [
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"VTrider",
 						"Darkvale"
 					]
@@ -3804,7 +3804,7 @@
 					],
 					"teamTwo": [
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"Econchump",
 						"Darkvale"
 					]
@@ -3865,7 +3865,7 @@
 						"Sev",
 						"Herp McDerperson",
 						"Judgeguns",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"F9bomber",
@@ -4113,7 +4113,7 @@
 					"winner": "Gravey",
 					"time": "1:12:11",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"Shock",
 						"X-Triage",
 						"Cloaket"
@@ -4169,7 +4169,7 @@
 					"teamTwo": [
 						"Muffin",
 						"F9mama",
-						"HyperVivify",
+						"Vivify",
 						"Domakus"
 					],
 					"teamOneStraggler": [
@@ -4190,7 +4190,7 @@
 					"teamOne": [
 						"X-Triage",
 						"Zack",
-						"HyperVivify",
+						"Vivify",
 						"Herp McDerperson"
 					],
 					"teamTwo": [
@@ -4211,7 +4211,7 @@
 					"teamOne": [
 						"Domakus",
 						"Muffin",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					],
 					"teamTwo": [
@@ -4232,7 +4232,7 @@
 					"teamOne": [
 						"VTrider",
 						"Nomad",
-						"HyperVivify",
+						"Vivify",
 						"Dynamic Solutions"
 					],
 					"teamTwo": [
@@ -4252,7 +4252,7 @@
 					"time": "39:41",
 					"teamOne": [
 						"Nomad",
-						"HyperVivify",
+						"Vivify",
 						"VTrider"
 					],
 					"teamTwo": [
@@ -4355,7 +4355,7 @@
 					],
 					"teamTwo": [
 						"F9bomber",
-						"HyperVivify",
+						"Vivify",
 						"F9mama",
 						"Acolyte"
 					]
@@ -4392,7 +4392,7 @@
 					"time": "17:50",
 					"teamOne": [
 						"F9bomber",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"Herp McDerperson",
@@ -4417,7 +4417,7 @@
 						"Nomad",
 						"F9bomber",
 						"X-Triage",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"High & Low": {
@@ -4438,7 +4438,7 @@
 						"Nomad",
 						"Darkvale",
 						"Judgeguns",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Ancient Hills": {
@@ -4459,7 +4459,7 @@
 						"Nomad",
 						"Darkvale",
 						"Judgeguns",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Cracked": {
@@ -4473,7 +4473,7 @@
 					"teamOne": [
 						"Lithium",
 						"Econchump",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					],
 					"teamTwo": [
@@ -4498,7 +4498,7 @@
 					],
 					"teamTwo": [
 						"Lithium",
-						"HyperVivify",
+						"Vivify",
 						"Judgeguns",
 						"Nomad"
 					]
@@ -4514,7 +4514,7 @@
 					"winner": "VTrider",
 					"time": "48:37",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"Feared_1",
 						"Econchump",
 						"Nomad"
@@ -4539,7 +4539,7 @@
 					"teamOne": [
 						"Darkvale",
 						"Herp McDerperson",
-						"HyperVivify",
+						"Vivify",
 						"Econchump"
 					],
 					"teamTwo": [
@@ -4657,7 +4657,7 @@
 					"teamTwo": [
 						"F9bomber",
 						"Lithium",
-						"Xpi"
+						"Monkey"
 					]
 				}
 			},
@@ -4673,7 +4673,7 @@
 					"teamOne": [
 						"Herp McDerperson",
 						"Nomad",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Lithium",
@@ -4704,10 +4704,10 @@
 				"Remnant": {
 					"date": "09.4.25",
 					"map": "Remnant",
-					"commanders": "Nomad vs Xpi",
+					"commanders": "Nomad vs Monkey",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "16:11",
 					"teamOne": [
 						"Judgeguns"
@@ -4719,10 +4719,10 @@
 				"Red Slope": {
 					"date": "09.4.25",
 					"map": "Red Slope",
-					"commanders": "Nomad vs Xpi",
+					"commanders": "Nomad vs Monkey",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "10:06",
 					"teamOne": [
 						"Lithium"
@@ -4734,10 +4734,10 @@
 				"Excavation": {
 					"date": "09.4.25",
 					"map": "Excavation",
-					"commanders": "Judgeguns vs Xpi",
+					"commanders": "Judgeguns vs Monkey",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "Scion",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "29:08",
 					"teamOne": [
 						"VTrider",
@@ -4753,10 +4753,10 @@
 				"Remnant": {
 					"date": "09.5.25",
 					"map": "Remnant",
-					"commanders": "Nomad vs Xpi",
+					"commanders": "Nomad vs Monkey",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "11:20",
 					"teamOne": [
 						"Judgeguns"
@@ -4847,7 +4847,7 @@
 					"teamTwo": [
 						"Judgeguns",
 						"Muffin",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"310": {
@@ -4868,7 +4868,7 @@
 						"Judgeguns",
 						"Herp McDerperson",
 						"VTrider",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Mort's Wasteland": {
@@ -4889,7 +4889,7 @@
 						"Judgeguns",
 						"Herp McDerperson",
 						"VTrider",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Red Slope": {
@@ -4910,7 +4910,7 @@
 						"Judgeguns",
 						"Herp McDerperson",
 						"Cloaket",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Terron": {
@@ -4923,7 +4923,7 @@
 					"time": "26:14",
 					"teamOne": [
 						"Nomad",
-						"HyperVivify",
+						"Vivify",
 						"Muffin"
 					],
 					"teamTwo": [
@@ -4943,13 +4943,13 @@
 					"winner": "Blue Banana",
 					"time": "16:21",
 					"teamOne": [
-						"Xpi",
+						"Monkey",
 						"VTrider",
 						"F9bomber"
 					],
 					"teamTwo": [
 						"Cloaket",
-						"HyperVivify",
+						"Vivify",
 						"Maverick"
 					]
 				},
@@ -4969,7 +4969,7 @@
 					],
 					"teamTwo": [
 						"Cloaket",
-						"HyperVivify",
+						"Vivify",
 						"Maverick",
 						"Zack"
 					]
@@ -4983,7 +4983,7 @@
 					"winner": "VTrider",
 					"time": "10:30",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"Maverick",
 						"F9bomber",
 						"Domakus"
@@ -5012,7 +5012,7 @@
 					"teamTwo": [
 						"Econchump",
 						"X-Triage",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					]
 				},
@@ -5033,7 +5033,7 @@
 					"teamTwo": [
 						"Herp McDerperson",
 						"X-Triage",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					]
 				},
@@ -5054,7 +5054,7 @@
 					"teamTwo": [
 						"VTrider",
 						"Herp McDerperson",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					]
 				}
@@ -5166,7 +5166,7 @@
 						"Herp McDerperson"
 					],
 					"teamTwo": [
-						"HyperVivify",
+						"Vivify",
 						"Muffin",
 						"Lithium"
 					]
@@ -5181,7 +5181,7 @@
 					"time": "18:35",
 					"teamOne": [
 						"F9mama",
-						"HyperVivify",
+						"Vivify",
 						"Muffin",
 						"Nomad"
 					],
@@ -5202,7 +5202,7 @@
 					"time": "53:14",
 					"teamOne": [
 						"F9mama",
-						"HyperVivify",
+						"Vivify",
 						"Muffin",
 						"Nomad"
 					],
@@ -5523,7 +5523,7 @@
 					"teamTwo": [
 						"Vacuum34",
 						"Judgeguns",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamOneStraggler": [
 						"Maverick"
@@ -5545,7 +5545,7 @@
 					"teamTwo": [
 						"F9bomber",
 						"Judgeguns",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Vegan": {
@@ -5564,7 +5564,7 @@
 					"teamTwo": [
 						"F9bomber",
 						"Judgeguns",
-						"HyperVivify"
+						"Vivify"
 					]
 				}
 			},
@@ -5583,7 +5583,7 @@
 					],
 					"teamTwo": [
 						"F9mama",
-						"HyperVivify"
+						"Vivify"
 					]
 				},
 				"Remnant": {
@@ -5595,7 +5595,7 @@
 					"winner": "Lithium",
 					"time": "22:59",
 					"teamOne": [
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"F9bomber"
@@ -5613,7 +5613,7 @@
 						"Nomad"
 					],
 					"teamTwo": [
-						"HyperVivify"
+						"Vivify"
 					]
 				}
 			},
@@ -5671,7 +5671,7 @@
 					],
 					"teamTwo": [
 						"Vacuum34",
-						"HyperVivify",
+						"Vivify",
 						"Judgeguns",
 						"MAX"
 					]
@@ -5692,7 +5692,7 @@
 					],
 					"teamTwo": [
 						"F9bomber",
-						"HyperVivify",
+						"Vivify",
 						"Judgeguns",
 						"MAX"
 					]
@@ -5709,7 +5709,7 @@
 					"time": "19:59",
 					"teamOne": [
 						"Judgeguns",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					],
 					"teamTwo": [
@@ -5745,7 +5745,7 @@
 					"winner": "Nomad",
 					"time": "18:36",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"Certified Bad Guy"
 					],
 					"teamTwo": [
@@ -5762,7 +5762,7 @@
 					"winner": "Nomad",
 					"time": "25:41",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"Certified Bad Guy"
 					],
 					"teamTwo": [
@@ -5780,7 +5780,7 @@
 					"time": "19:59",
 					"teamOne": [
 						"Econchump",
-						"HyperVivify",
+						"Vivify",
 						"Nomad"
 					],
 					"teamTwo": [
@@ -5973,7 +5973,7 @@
 						"Lithium",
 						"$tar",
 						"Nomad",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"Judgeguns",
@@ -5994,7 +5994,7 @@
 						"Judgeguns",
 						"Cloaket",
 						"Nomad",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"Lithium",
@@ -6015,7 +6015,7 @@
 						"Lithium",
 						"Maverick",
 						"Nomad",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"F9bomber",
@@ -6023,7 +6023,7 @@
 						"Judgeguns",
 						"Cloaket"
 					],
-					"_comment": "VTrider won by having his Recycler hovered down by HyperVivify"
+					"_comment": "VTrider won by having his Recycler hovered down by Vivify"
 				},
 				"Twin Peaks": {
 					"date": "10.5.25",
@@ -6202,7 +6202,7 @@
 					],
 					"teamTwo": [
 						"Sev",
-						"HyperVivify",
+						"Vivify",
 						"Domakus"
 					]
 				},
@@ -6220,7 +6220,7 @@
 						"VTrider"
 					],
 					"teamTwo": [
-						"HyperVivify",
+						"Vivify",
 						"Sev",
 						"Domakus"
 					]
@@ -6235,7 +6235,7 @@
 					"time": "26:03",
 					"teamOne": [
 						"F9bomber",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"Lithium",
@@ -6265,7 +6265,7 @@
 						"VTrider"
 					],
 					"teamTwo": [
-						"HyperVivify",
+						"Vivify",
 						"Sev",
 						"Domakus"
 					],
@@ -6330,7 +6330,7 @@
 					],
 					"teamTwo": [
 						"Judgeguns",
-						"HyperVivify",
+						"Vivify",
 						"Herp McDerperson",
 						"VTrider"
 					]
@@ -6345,7 +6345,7 @@
 					"time": "10:29",
 					"teamOne": [
 						"F9bomber",
-						"HyperVivify",
+						"Vivify",
 						"Judgeguns",
 						"VTrider"
 					],
@@ -6366,7 +6366,7 @@
 					"time": "1:06:07",
 					"teamOne": [
 						"F9bomber",
-						"HyperVivify",
+						"Vivify",
 						"Econchump"
 					],
 					"teamTwo": [
@@ -6605,7 +6605,7 @@
 						"Nomad"
 					],
 					"teamTwo": [
-						"HyperVivify",
+						"Vivify",
 						"F9bomber"
 					]
 				},
@@ -6618,7 +6618,7 @@
 					"winner": "Lithium",
 					"time": "24:26",
 					"teamOne": [
-						"HyperVivify",
+						"Vivify",
 						"VTrider"
 					],
 					"teamTwo": [
@@ -6878,7 +6878,7 @@
 					"time": "15:28",
 					"teamOne": [
 						"Muffin",
-						"Xpi",
+						"Monkey",
 						"Nomad"
 					],
 					"teamTwo": [
@@ -6905,7 +6905,7 @@
 						"F9bomber",
 						"Cyber",
 						"Muffin",
-						"Xpi"
+						"Monkey"
 					]
 				}
 			}
@@ -6915,13 +6915,13 @@
 				"Revolution": {
 					"date": "11.1.25",
 					"map": "Revolution",
-					"commanders": "Blue Banana vs HyperVivify",
+					"commanders": "Blue Banana vs Vivify",
 					"factions": "[Scion, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "HyperVivify",
+					"winner": "Vivify",
 					"time": "15:48",
 					"teamOne": [
-						"Xpi",
+						"Monkey",
 						"MAX",
 						"M.S",
 						"Darkvale"
@@ -6941,10 +6941,10 @@
 					"winner": "VTrider",
 					"time": "15:11",
 					"teamOne": [
-						"Xpi",
+						"Monkey",
 						"Muffin",
 						"Nomad",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamTwo": [
 						"Darkvale",
@@ -6969,14 +6969,14 @@
 					"teamTwo": [
 						"Darkvale",
 						"Muffin",
-						"HyperVivify"
+						"Vivify"
 					],
 					"teamOneStraggler": [
 						"Domakus",
 						"Nomad"
 					],
 					"teamTwoStraggler": [
-						"Xpi"
+						"Monkey"
 					]
 				},
 				"Insula": {
@@ -6989,7 +6989,7 @@
 					"time": "20:44",
 					"teamOne": [
 						"Nomad",
-						"Xpi",
+						"Monkey",
 						"Muffin"
 					],
 					"teamTwo": [
@@ -7021,14 +7021,14 @@
 				"Sahara": {
 					"date": "11.9.25",
 					"map": "Sahara",
-					"commanders": "Xpi vs F9bomber",
+					"commanders": "Monkey vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "19:07",
 					"teamOne": [
 						"VTrider",
-						"HyperVivify",
+						"Vivify",
 						"Blue Banana",
 						"Judgeguns"
 					],
@@ -7044,10 +7044,10 @@
 				"Oasis": {
 					"date": "11.14.25",
 					"map": "Oasis",
-					"commanders": "Xpi vs Sev",
+					"commanders": "Monkey vs Sev",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "15:33",
 					"teamOne": [
 						"F9bomber",
@@ -7069,7 +7069,7 @@
 					"time": "14:45",
 					"teamOne": [
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"Herp McDerperson"
 					],
 					"teamTwo": [
@@ -7087,7 +7087,7 @@
 					"time": "54:29",
 					"teamOne": [
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"Muffin"
 					],
 					"teamTwo": [
@@ -7155,7 +7155,7 @@
 					],
 					"teamTwo": [
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"F9bomber",
 						"VTrider"
 					]
@@ -7172,7 +7172,7 @@
 						"Blue Banana",
 						"Sev",
 						"Lithium",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Herp McDerperson",
@@ -7199,16 +7199,16 @@
 						"Blue Banana",
 						"X-Triage",
 						"F9bomber",
-						"Xpi"
+						"Monkey"
 					]
 				},
 				"Remnant": {
 					"date": "11.24.25",
 					"map": "Remnant",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "13:35",
 					"teamOne": [
 						"MAX",
@@ -7256,7 +7256,7 @@
 						"SwiggityMcgiggity",
 						"Muffin",
 						"F9bomber",
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Judgeguns",
@@ -7268,10 +7268,10 @@
 				"Selena": {
 					"date": "11.29.25",
 					"map": "Selena",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "14:26",
 					"teamOne": [
 						"MAX",
@@ -7288,10 +7288,10 @@
 				"Remnant": {
 					"date": "11.29.25",
 					"map": "Remnant",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "3:35",
 					"teamOne": [
 						"MAX",
@@ -7308,10 +7308,10 @@
 				"The War": {
 					"date": "11.29.25",
 					"map": "The War",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "5:37",
 					"teamOne": [
 						"MAX",
@@ -7328,10 +7328,10 @@
 				"Mojave": {
 					"date": "11.29.25",
 					"map": "Mojave",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Xpi",
+					"winner": "Monkey",
 					"time": "6:36",
 					"teamOne": [
 						"SwiggityMcgiggity",
@@ -7348,7 +7348,7 @@
 				"Twin Peaks": {
 					"date": "11.29.25",
 					"map": "Twin Peaks",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Blue Banana",
@@ -7367,7 +7367,7 @@
 				"Strategy Arena": {
 					"date": "11.29.25",
 					"map": "Strategy Arena",
-					"commanders": "Xpi vs Blue Banana",
+					"commanders": "Monkey vs Blue Banana",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "Scion",
 					"winner": "Blue Banana",
@@ -7398,7 +7398,7 @@
 						"M.S"
 					],
 					"teamTwo": [
-						"Xpi",
+						"Monkey",
 						"Muffin",
 						"MAX",
 						"SwiggityMcgiggity"
@@ -7420,7 +7420,7 @@
 					],
 					"teamTwo": [
 						"MAX",
-						"Xpi",
+						"Monkey",
 						"SwiggityMcgiggity",
 						"M.S"
 					]
@@ -7441,7 +7441,7 @@
 					],
 					"teamTwo": [
 						"MAX",
-						"Xpi",
+						"Monkey",
 						"SwiggityMcgiggity",
 						"M.S"
 					]
@@ -7461,7 +7461,7 @@
 					],
 					"teamTwo": [
 						"MAX",
-						"Xpi",
+						"Monkey",
 						"SwiggityMcgiggity"
 					],
 					"teamOneStraggler": [
@@ -7482,7 +7482,7 @@
 					"teamOne": [
 						"Cyber",
 						"F9bomber",
-						"Xpi",
+						"Monkey",
 						"M.S"
 					],
 					"teamTwo": [
@@ -7503,7 +7503,7 @@
 					"teamOne": [
 						"Muffin",
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"Zack"
 					],
 					"teamTwo": [
@@ -7524,7 +7524,7 @@
 					"teamOne": [
 						"Muffin",
 						"Herp McDerperson",
-						"Xpi",
+						"Monkey",
 						"F9bomber"
 					],
 					"teamTwo": [
@@ -9196,254 +9196,15 @@
 					"time": "36:00",
 					"teamOne": [
 						"Darkvale",
-						"Xpi",
+						"Monkey",
 						"Nomad"
 					],
 					"teamTwo": [
 						"F9bomber",
 						"Certified Bad Guy",
 						"Lithium"
-					],
-					"stats": {
-						"game_summary": {
-							"total_time": "0:36:00",
-							"team_overviews": [
-								{
-									"name": "Team 2",
-									"score": 581,
-									"deaths": 7,
-									"kills": 74
-								},
-								{
-									"name": "Team 1",
-									"score": 54,
-									"deaths": 5,
-									"kills": 35
-								},
-								{
-									"name": "F9bomber",
-									"score": 0,
-									"deaths": 0,
-									"kills": 0
-								}
-							]
-						},
-						"teams_detailed": [
-							{
-								"header": "Team 1 (Team 1 - Domakus)",
-								"metrics": {
-									"craft_built": 83,
-									"craft_lost": 39,
-									"buildings_constructed": 26,
-									"buildings_lost": 17,
-									"scrap_collected": 779,
-									"scrap_spent": 3506,
-									"scrap_harvested_upgraded": 1608
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 6 (Zack)": 3,
-										"Team 7 (F9bomber)": 1,
-										"Team 8 (Certified Bad Guy)": 3,
-										"Team 9 (Lithium)": 6
-									},
-									"craft_lost_to": {
-										"Team 6 (Zack)": 8,
-										"Team 7 (F9bomber)": 13,
-										"Team 8 (Certified Bad Guy)": 11,
-										"Team 9 (Lithium)": 7
-									},
-									"buildings_destroyed_of": {},
-									"buildings_lost_to": {
-										"Team 6 (Zack)": 7,
-										"Team 7 (F9bomber)": 2,
-										"Team 8 (Certified Bad Guy)": 5,
-										"Team 9 (Lithium)": 3
-									}
-								}
-							},
-							{
-								"header": "Team 2 (Team 1 - jolly cringlebird)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 9,
-									"scrap_collected": 15,
-									"scrap_spent": 0,
-									"scrap_harvested_upgraded": 0
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 6 (Zack)": 1,
-										"Team 9 (Lithium)": 1
-									},
-									"craft_lost_to": {
-										"Team 6 (Zack)": 6,
-										"Team 7 (F9bomber)": 2,
-										"Team 8 (Certified Bad Guy)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 6 (Zack)": 2
-									},
-									"buildings_lost_to": {}
-								}
-							},
-							{
-								"header": "Team 3 (Team 1 - Reacher)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 8,
-									"scrap_collected": 60,
-									"scrap_spent": 0,
-									"scrap_harvested_upgraded": 0
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 6 (Zack)": 7,
-										"Team 7 (F9bomber)": 1
-									},
-									"craft_lost_to": {
-										"Team 6 (Zack)": 5,
-										"Team 7 (F9bomber)": 2,
-										"Team 8 (Certified Bad Guy)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 6 (Zack)": 2
-									},
-									"buildings_lost_to": {}
-								}
-							},
-							{
-								"header": "Team 5 (Team 1 - Monkey)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 9,
-									"scrap_collected": 65,
-									"scrap_spent": 0,
-									"scrap_harvested_upgraded": 0
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 5 (Monkey)": 1,
-										"Team 6 (Zack)": 9,
-										"Team 8 (Certified Bad Guy)": 1,
-										"Team 9 (Lithium)": 1
-									},
-									"craft_lost_to": {
-										"Team 5 (Monkey)": 1,
-										"Team 6 (Zack)": 4,
-										"Team 7 (F9bomber)": 2,
-										"Team 8 (Certified Bad Guy)": 1,
-										"Team 9 (Lithium)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 6 (Zack)": 1
-									},
-									"buildings_lost_to": {}
-								}
-							},
-							{
-								"header": "Team 6 (Team 2 - Zack)",
-								"metrics": {
-									"craft_built": 61,
-									"craft_lost": 20,
-									"buildings_constructed": 39,
-									"buildings_lost": 5,
-									"scrap_collected": 605,
-									"scrap_spent": 3393,
-									"scrap_harvested_upgraded": 1957
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 1 (Domakus)": 8,
-										"Team 2 (jolly cringlebird)": 6,
-										"Team 3 (Reacher)": 5,
-										"Team 5 (Monkey)": 4
-									},
-									"craft_lost_to": {
-										"Team 1 (Domakus)": 3,
-										"Team 2 (jolly cringlebird)": 1,
-										"Team 3 (Reacher)": 7,
-										"Team 5 (Monkey)": 9
-									},
-									"buildings_destroyed_of": {
-										"Team 1 (Domakus)": 7
-									},
-									"buildings_lost_to": {
-										"Team 2 (jolly cringlebird)": 2,
-										"Team 3 (Reacher)": 2,
-										"Team 5 (Monkey)": 1
-									}
-								}
-							},
-							{
-								"header": "Team 7 (Team 2 - F9bomber)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 2
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 1 (Domakus)": 13,
-										"Team 2 (jolly cringlebird)": 2,
-										"Team 3 (Reacher)": 2,
-										"Team 5 (Monkey)": 2
-									},
-									"craft_lost_to": {
-										"Team 1 (Domakus)": 1,
-										"Team 3 (Reacher)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 1 (Domakus)": 2
-									},
-									"buildings_lost_to": {}
-								}
-							},
-							{
-								"header": "Team 8 (Team 2 - Certified Bad Guy)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 4
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 1 (Domakus)": 11,
-										"Team 2 (jolly cringlebird)": 1,
-										"Team 3 (Reacher)": 1,
-										"Team 5 (Monkey)": 1
-									},
-									"craft_lost_to": {
-										"Team 1 (Domakus)": 3,
-										"Team 5 (Monkey)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 1 (Domakus)": 5
-									},
-									"buildings_lost_to": {}
-								}
-							},
-							{
-								"header": "Team 9 (Team 2 - Lithium)",
-								"metrics": {
-									"craft_built": 1,
-									"craft_lost": 9
-								},
-								"combat_stats": {
-									"craft_destroyed_of": {
-										"Team 1 (Domakus)": 7,
-										"Team 5 (Monkey)": 1
-									},
-									"craft_lost_to": {
-										"Team 1 (Domakus)": 6,
-										"Team 2 (jolly cringlebird)": 1,
-										"Team 5 (Monkey)": 1
-									},
-									"buildings_destroyed_of": {
-										"Team 1 (Domakus)": 3
-									},
-									"buildings_lost_to": {}
-								}
-							}
-						]
+					]
+						
 					}
 				},
 				"Sahara": {
@@ -9455,7 +9216,7 @@
 					"winner": "F9bomber",
 					"time": "23:14",
 					"teamOne": [
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Lithium",
@@ -9471,7 +9232,7 @@
 					"winner": "Sly",
 					"time": "30:03",
 					"teamOne": [
-						"Xpi"
+						"Monkey"
 					],
 					"teamTwo": [
 						"Lithium",
