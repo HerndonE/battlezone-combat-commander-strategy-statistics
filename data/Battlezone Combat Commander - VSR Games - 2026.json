@@ -9464,6 +9464,88 @@
 						"Econchump"
 					]
 				}
+			},
+			"05.16.26": {
+				"Quagmire": {
+					"date": "05.16.26",
+					"map": "Quagmire",
+					"commanders": "Sev vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "30:48",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Econchump",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Herp McDerperson",
+						"Lithium",
+						"Certified Bad Guy"
+					]
+				},
+				"Oldboy": {
+					"date": "05.16.26",
+					"map": "Oldboy",
+					"commanders": "Nomad vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "11:55",
+					"teamOne": [
+						"Muffin",
+						"Herp McDerperson",
+						"Sev"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Econchump",
+						"Lithium"
+					],
+					"teamOneStraggler": [
+						"F9bomber"
+					],
+					"teamTwoStraggler": [
+						"Certified Bad Guy"
+					]
+				},
+				"Ebola": {
+					"date": "05.16.26",
+					"map": "Ebola",
+					"commanders": "Domakus vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Domakus",
+					"time": "28:19",
+					"teamOne": [
+						"Muffin",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Vivify"
+					]
+				},
+				"Ice Age": {
+					"date": "05.16.26",
+					"map": "Ice Age",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "25:27",
+					"teamOne": [
+						"Sev",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Vivify"
+					]
+				}
 			}
 		}
 	}
