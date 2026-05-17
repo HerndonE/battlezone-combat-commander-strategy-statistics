@@ -8810,9 +8810,9 @@
 						"F9bomber"
 					]
 				},
-				"DuneNight": {
+				"Dune Night": {
 					"date": "05.09.26",
-					"map": "DuneNight",
+					"map": "Dune Night",
 					"commanders": "DD vs Econchump",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
@@ -8890,6 +8890,578 @@
 						"Monkey",
 						"Snake",
 						"M.S"
+					]
+				}
+			},
+			"05.16.26": {
+				"Aussault": {
+					"date": "05.10.26",
+					"map": "Aussault",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "9:02",
+					"teamOne": [
+						"Vivify",
+						"Econchump"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Blue Banana"
+					]
+				},
+				"Oasis": {
+					"date": "05.10.26",
+					"map": "Oasis",
+					"commanders": "Lithium vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "34:30",
+					"teamOne": [
+						"Vivify",
+						"Econchump"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Blue Banana"
+					]
+				},
+				"Reflex": {
+					"date": "05.10.26",
+					"map": "Reflex",
+					"commanders": "Lithium vs Blue Banana",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Blue Banana",
+					"time": "58:03",
+					"teamOne": [
+						"Nomad",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Vivify"
+					]
+				}
+			},
+			"05.11.26": {
+				"Domain": {
+					"date": "05.11.26",
+					"map": "Domain",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "28:08",
+					"teamOne": [
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				},
+				"Excavation": {
+					"date": "05.11.26",
+					"map": "Excavation",
+					"commanders": "Darkvale vs Nomad",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "5:55",
+					"teamOne": [
+						"Lithium",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"Judgeguns"
+					]
+				},
+				"Ebola": {
+					"date": "05.11.26",
+					"map": "Ebola",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "18:15",
+					"teamOne": [
+						"Vivify",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Cloaket",
+						"Nomad"
+					]
+				},
+				"Terron": {
+					"date": "05.11.26",
+					"map": "Terron",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "8:56",
+					"teamOne": [
+						"Vivify",
+						"SaggiSponge",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Moonshroud": {
+					"date": "05.11.26",
+					"map": "Moonshroud",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "11:47",
+					"teamOne": [
+						"Vivify",
+						"SaggiSponge",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Nomad"
+					]
+				}
+			},
+			"05.12.26": {
+				"Remnant": {
+					"date": "05.12.26",
+					"map": "Remnant",
+					"commanders": "Monkey vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Monkey",
+					"time": "49:18",
+					"teamOne": [
+						"Cloaket",
+						"Nomad"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Lithium"
+					]
+				}
+			},
+			"05.13.26": {
+				"Ebola": {
+					"date": "05.13.26",
+					"map": "Ebola",
+					"commanders": "Lithium vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "10:55",
+					"teamOne": [
+						"Snake",
+						"Lamper",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Domakus",
+						"SaggiSponge"
+					]
+				},
+				"Domain": {
+					"date": "05.13.26",
+					"map": "Domain",
+					"commanders": "Sev vs Snake",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "16:04",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Domakus",
+						"SaggiSponge"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Lithium",
+						"Lamper"
+					]
+				},
+				"Finland Daylight": {
+					"date": "05.13.26",
+					"map": "Finland Daylight",
+					"commanders": "Sev vs Lamper",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "Sev",
+					"winner": "",
+					"time": "10:00",
+					"teamOne": [
+						"Certified Bad Guy",
+						"Domakus",
+						"SaggiSponge"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Snake",
+						"Lithium"
+					]
+				},
+				"Insula": {
+					"date": "05.13.26",
+					"map": "Insula",
+					"commanders": "Sev vs Domakus",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "8:46",
+					"teamOne": [
+						"Lamper",
+						"Certified Bad Guy",
+						"Herp McDerperson",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Snake",
+						"Darkvale",
+						"Lithium"
+					]
+				},
+				"Plaza": {
+					"date": "05.13.26",
+					"map": "Plaza",
+					"commanders": "Sev vs Cloaket",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Sev",
+					"time": "1:23:54",
+					"teamOne": [
+						"Lithium",
+						"Domakus",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"DD",
+						"Certified Bad Guy"
+					]
+				}
+			},
+			"05.14.26": {
+				"Dedux": {
+					"date": "05.14.26",
+					"map": "Dedux",
+					"commanders": "Domakus vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "15:31",
+					"teamOne": [
+						"Zack",
+						"M.S",
+						"Muffin",
+						"MAX"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Vivify",
+						"Nomad",
+						"Ultimate"
+					]
+				},
+				"Know Thyself": {
+					"date": "05.14.26",
+					"map": "Know Thyself",
+					"commanders": "Domakus vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "7:16",
+					"teamOne": [
+						"F9bomber",
+						"Muffin",
+						"Vivify"
+					],
+					"teamTwo": [
+						"M.S",
+						"MAX",
+						"Ultimate"
+					]
+				},
+				"Barren": {
+					"date": "05.14.26",
+					"map": "Barren",
+					"commanders": "Domakus vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "14:57",
+					"teamOne": [
+						"F9bomber",
+						"Muffin",
+						"Vivify"
+					],
+					"teamTwo": [
+						"M.S",
+						"MAX",
+						"Ultimate"
+					]
+				},
+				"Ancient Hills": {
+					"date": "05.14.26",
+					"map": "Ancient Hills",
+					"commanders": "Muffin vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "10:20",
+					"teamOne": [
+						"F9bomber",
+						"Snake",
+						"Vivify"
+					],
+					"teamTwo": [
+						"M.S",
+						"Ultimate",
+						"Domakus"
+					]
+				},
+				"Nigeria": {
+					"date": "05.14.26",
+					"map": "Nigeria",
+					"commanders": "M.S vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "19:34",
+					"teamOne": [
+						"Nomad",
+						"Snake",
+						"Ultimate",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Vivify",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Moonshroud": {
+					"date": "05.14.26",
+					"map": "Moonshroud",
+					"commanders": "Domakus vs Snake",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "17:51",
+					"teamOne": [
+						"Nomad",
+						"Ultimate",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Vivify",
+						"F9bomber"
+					]
+				}
+			},
+			"05.15.26": {
+				"Rapemas": {
+					"date": "05.15.26",
+					"map": "Rapemas",
+					"commanders": "Lithium vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "8:39",
+					"teamOne": [
+						"F9bomber",
+						"Ultimate",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Monkey",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Rectal": {
+					"date": "05.15.26",
+					"map": "Rectal",
+					"commanders": "Lithium vs Snake",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "3:52",
+					"teamOne": [
+						"Ultimate",
+						"F9bomber",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Monkey",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Ice Age": {
+					"date": "05.15.26",
+					"map": "Ice Age",
+					"commanders": "Certified Bad Guy vs Snake",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "31:37",
+					"teamOne": [
+						"Lithium",
+						"Ultimate",
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Monkey",
+						"DD",
+						"Judgeguns"
+					]
+				},
+				"Stone Circle": {
+					"date": "05.15.26",
+					"map": "Stone Circle",
+					"commanders": "Ultimate vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Ultimate",
+					"time": "14:55",
+					"teamOne": [
+						"Lithium",
+						"Snake",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Sev",
+						"DD"
+					]
+				},
+				"Titan": {
+					"date": "05.15.26",
+					"map": "Titan",
+					"commanders": "Nomad vs DD",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DD",
+					"time": "16:40",
+					"teamOne": [
+						"Darkvale",
+						"Snake",
+						"Sev"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Ultimate",
+						"F9bomber"
+					]
+				},
+				"Satart": {
+					"date": "05.15.26",
+					"map": "Satart",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "8:16",
+					"teamOne": [
+						"Lithium",
+						"Snake"
+					],
+					"teamTwo": [
+						"Sev",
+						"Nomad"
+					]
+				},
+				"Trinity": {
+					"date": "05.15.26",
+					"map": "Trinity",
+					"commanders": "Lithium vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Nomad",
+					"time": "11:25",
+					"teamOne": [
+						"Judgeguns",
+						"Sev",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Snake"
+					]
+				},
+				"Revolution": {
+					"date": "05.15.26",
+					"map": "Revolution",
+					"commanders": "Snake vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "17:56",
+					"teamOne": [
+						"Judgeguns",
+						"Sev",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Econchump",
+						"Monkey"
+					]
+				},
+				"Echelon": {
+					"date": "05.15.26",
+					"map": "Echelon",
+					"commanders": "Monkey vs Sev",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "4:43",
+					"teamOne": [
+						"Judgeguns",
+						"Snake",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Lithium",
+						"Econchump"
+					]
+				},
+				"Ancient Outposts": {
+					"date": "05.15.26",
+					"map": "Ancient Outposts",
+					"commanders": "Monkey vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "14:44",
+					"teamOne": [
+						"Judgeguns",
+						"Snake",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Nomad",
+						"Lithium",
+						"Econchump"
 					]
 				}
 			}
