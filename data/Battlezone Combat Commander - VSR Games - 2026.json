@@ -9861,6 +9861,46 @@
 						"Nomad"
 					]
 				}
+			},
+			"05.26.26": {
+				"Twin Peaks": {
+					"date": "05.26.26",
+					"map": "Twin Peaks",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "37:20",
+					"teamOne": [
+						"Domakus",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Ultimate",
+						"Monkey"
+					]
+				},
+				"Excavation": {
+					"date": "05.26.26",
+					"map": "Excavation",
+					"commanders": "Herp McDerperson vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Herp McDerperson",
+					"time": "12:57",
+					"teamOne": [
+						"Domakus",
+						"F9bomber",
+						"Darkvale",
+						"Monkey"
+					],
+					"teamTwo": [
+						"X-Triage",
+						"SaggiSponge",
+						"Econchump",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
