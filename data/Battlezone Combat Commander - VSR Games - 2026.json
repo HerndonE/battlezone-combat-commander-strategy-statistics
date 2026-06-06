@@ -9901,6 +9901,61 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"05.31.26": {
+				"Mojave": {
+					"date": "05.31.26",
+					"map": "Mojave",
+					"commanders": "Certified Bad Guy vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "18:30",
+					"teamOne": [
+						"Judgeguns",
+						"Sev"
+					],
+					"teamTwo": [
+						"Monkey",
+						"Bylarge"
+					]
+				},
+				"Ebola": {
+					"date": "05.31.26",
+					"map": "Ebola",
+					"commanders": "F9bomber vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "21:48",
+					"teamOne": [
+						"Judgeguns",
+						"Sev"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Monkey"
+					]
+				},
+				"Sahara": {
+					"date": "05.31.26",
+					"map": "Sahara",
+					"commanders": "Nomad vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "9:40",
+					"teamOne": [
+						"Judgeguns",
+						"Monkey",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Certified Bad Guy",
+						"Sev"
+					]
+				}
 			}
 		}
 	}
