@@ -9957,6 +9957,90 @@
 					]
 				}
 			}
+		},
+		"June": {
+			"06.06.26": {
+				"Quagmire": {
+					"date": "06.06.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Nomad",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "10:07",
+					"teamOne": [
+						"Domakus",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Sev"
+					]
+				},
+				"Vegan": {
+					"date": "06.06.26",
+					"map": "Vegan",
+					"commanders": "Sev vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "13:29",
+					"teamOne": [
+						"Cyber",
+						"Certified Bad Guy",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Nomad",
+						"F9bomber"
+					]
+				},
+				"Reflex": {
+					"date": "06.06.26",
+					"map": "Reflex",
+					"commanders": "Sev vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "18:58",
+					"teamOne": [
+						"DD",
+						"Herp McDerperson",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Certified Bad Guy",
+						"Econchump"
+					],
+					"teamOneStraggler": [
+						"Cyber"
+					],
+					"teamTwoStraggler": [
+						"Domakus"
+					]
+				},
+				"Giza": {
+					"date": "06.06.26",
+					"map": "Giza",
+					"commanders": "Herp McDerperson vs Cyber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "28:18",
+					"teamOne": [
+						"DD",
+						"Nomad",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Sev",
+						"Lithium",
+						"Certified Bad Guy"
+					]
+				}
+			}
 		}
 	}
 }
