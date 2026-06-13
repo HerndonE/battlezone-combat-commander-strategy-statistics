@@ -9789,7 +9789,7 @@
 					"time": "6:46",
 					"teamOne": [
 						"Certified Bad Guy",
-						"Toto",
+						"X-Triage",
 						"F9bomber",
 						"Econchump"
 					],
@@ -10038,6 +10038,31 @@
 						"Sev",
 						"Lithium",
 						"Certified Bad Guy"
+					]
+				}
+			}
+		}
+	},
+	"Stock": {
+		"month": {
+			"June": {
+				"High & Low": {
+					"date": "06.11.26",
+					"map": "High & Low",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "1:34:11",
+					"teamOne": [
+						"Shock",
+						"DrPhiladelphia",
+						"General BlackDragon"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Darkvale",
+						"Judgeguns"
 					]
 				}
 			}
