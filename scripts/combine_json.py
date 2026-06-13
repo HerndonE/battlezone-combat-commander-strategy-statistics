@@ -639,36 +639,27 @@ def process_commander_list(data):
 
 
 def categorize_maps(map_counts):
-    sorted_counts = sorted(map_counts.values(), reverse=True)
+    total_maps = len(map_counts)
 
-    total_maps = len(sorted_counts)
-
-    # Define the thresholds for each category based on the number of maps
-    very_popular_threshold = int(total_maps * 0.25)  # Top 25%
-    mostly_popular_threshold = int(total_maps * 0.5)  # Top 50%
-    moderately_popular_threshold = int(total_maps * 0.75)  # Top 75%
-
-    categories = {
-        "Very Popular": [],
-        "Mostly Popular": [],
-        "Moderately Popular": [],
-        "Least Popular": []
-    }
+    very_popular_threshold = int(total_maps * 0.25)
+    mostly_popular_threshold = int(total_maps * 0.5)
+    moderately_popular_threshold = int(total_maps * 0.75)
 
     sorted_map_names = sorted(map_counts, key=map_counts.get, reverse=True)
 
-    # Categorize based on the thresholds
+    result = []
     for i, map_name in enumerate(sorted_map_names):
         if i < very_popular_threshold:
-            categories["Very Popular"].append(map_name)
+            category = "Very Popular"
         elif i < mostly_popular_threshold:
-            categories["Mostly Popular"].append(map_name)
+            category = "Mostly Popular"
         elif i < moderately_popular_threshold:
-            categories["Moderately Popular"].append(map_name)
+            category = "Moderately Popular"
         else:
-            categories["Least Popular"].append(map_name)
+            category = "Least Popular"
+        result.append({"name": map_name, "count": map_counts[map_name], "category": category})
 
-    return categories
+    return result
 
 
 def get_faction_map_win_chance(

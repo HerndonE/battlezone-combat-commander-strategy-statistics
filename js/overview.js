@@ -496,106 +496,149 @@ function commanderFactionChoiceCountBarChart(
   }
 }
 
-function mapPopularity(containerSelector, chartData) {
-  d3.select(containerSelector).selectAll("*").remove();
+function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expand-btn-popular-maps-1") {
+  const defaultItemCount = 10;
+  const expandBtn = document.querySelector(expandBtnSelector);
+  let isExpanded = false;
 
-  const wrapper = d3.select(containerSelector);
+  const CATEGORY_COLORS = {
+    "Very Popular": COLOR_PALETTE[0],
+    "Mostly Popular": COLOR_PALETTE[2],
+    "Moderately Popular": COLOR_PALETTE[4],
+    "Least Popular": COLOR_PALETTE[6],
+  };
+  const CATEGORIES = ["Very Popular", "Mostly Popular", "Moderately Popular", "Least Popular"];
 
-  wrapper
-    .append("svg")
-    .attr("class", "popularity-chart")
-    .attr("width", 800)
-    .attr("height", 300)
-    .style("background-color", BACKGROUND_COLOR);
+  const margin = { top: 20, right: 80, bottom: 70, left: 160 };
+  const barHeight = 22;
+  const width = 800;
 
-  wrapper
-    .append("div")
-    .attr("class", "tooltip")
-    .attr("id", "tooltip-" + containerSelector.replace(/[^a-zA-Z0-9]/g, ""));
+  function drawChart(data) {
+    d3.select(containerSelector).selectAll("*").remove();
 
-  const svg = wrapper.select("svg");
-  const tooltip = wrapper.select(".tooltip");
+    const wrapper = d3.select(containerSelector);
+    const height = data.length * barHeight + margin.top + margin.bottom;
 
-  const totalMaps = Object.values(chartData).reduce(
-    (sum, arr) => sum + arr.length,
-    0
-  );
+    wrapper
+      .append("div")
+      .attr("class", "tooltip")
+      .attr("id", "tooltip-" + containerSelector.replace(/[^a-zA-Z0-9]/g, ""));
 
-  const data = Object.entries(chartData).map(([category, maps]) => ({
-    category,
-    maps,
-    count: maps.length,
-    percentile: (maps.length / totalMaps) * 100,
-  }));
+    const tooltip = wrapper.select(".tooltip");
 
-  const width = +svg.attr("width");
-  const height = +svg.attr("height");
-  const margin = { top: 20, right: 80, bottom: 40, left: 160 };
-  const borderRadius = 5;
+    const svg = wrapper
+      .append("svg")
+      .attr("class", "popularity-chart")
+      .attr("width", width)
+      .attr("height", height)
+      .style("background-color", BACKGROUND_COLOR);
 
-  const x = d3
-    .scaleLinear()
-    .domain([0, d3.max(data, (d) => d.percentile)])
-    .range([margin.left, width - margin.right]);
+    const x = d3
+      .scaleLinear()
+      .domain([0, d3.max(chartData, (d) => d.count)])
+      .nice()
+      .range([margin.left, width - margin.right]);
 
-  const y = d3
-    .scaleBand()
-    .domain(data.map((d) => d.category))
-    .range([margin.top, height - margin.bottom])
-    .padding(0.25);
+    const y = d3
+      .scaleBand()
+      .domain(data.map((d) => d.name))
+      .range([margin.top, height - margin.bottom])
+      .padding(0.15);
 
-  svg
-    .append("g")
-    .attr("class", "axis")
-    .attr("transform", `translate(0, ${height - margin.bottom})`)
-    .call(d3.axisBottom(x).tickFormat((d) => d + "%"))
-    .selectAll("text")
-    .attr("fill", TEXT_LIGHT);
+    svg
+      .append("g")
+      .attr("class", "axis")
+      .attr("transform", `translate(0, ${height - margin.bottom})`)
+      .call(d3.axisBottom(x).ticks(6))
+      .selectAll("text")
+      .attr("fill", TEXT_LIGHT);
 
-  svg
-    .append("g")
-    .attr("class", "axis")
-    .attr("transform", `translate(${margin.left}, 0)`)
-    .call(d3.axisLeft(y));
+    svg
+      .append("g")
+      .attr("class", "axis")
+      .attr("transform", `translate(${margin.left}, 0)`)
+      .call(d3.axisLeft(y))
+      .selectAll("text")
+      .attr("fill", TEXT_LIGHT)
+      .style("font-size", "11px");
 
-  svg
-    .selectAll("rect.bar")
-    .data(data)
-    .enter()
-    .append("rect")
-    .attr("class", "bar")
-    .attr("x", margin.left)
-    .attr("y", (d) => y(d.category))
-    .attr("width", (d) => x(d.percentile) - margin.left)
-    .attr("height", y.bandwidth())
-    .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
-    .attr("rx", borderRadius)
-    .attr("ry", borderRadius)
-    .on("mousemove", function (event, d) {
-      tooltip
-        .style("opacity", 1)
-        .html(
-          `<strong>${d.category}</strong><br>` +
-            `Percentile: ${d.percentile.toFixed(1)}%<br><br>` +
-            `<strong>Maps:</strong><br>${d.maps.join(", ")}`
-        )
-        .style("left", event.pageX + 12 + "px")
-        .style("top", event.pageY - 28 + "px");
-    })
-    .on("mouseleave", () => {
-      tooltip.style("opacity", 0);
+    svg
+      .selectAll("rect.bar")
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("class", "bar")
+      .attr("x", margin.left)
+      .attr("y", (d) => y(d.name))
+      .attr("width", (d) => x(d.count) - margin.left)
+      .attr("height", y.bandwidth())
+      .attr("fill", (d) => CATEGORY_COLORS[d.category])
+      .attr("rx", 3)
+      .attr("ry", 3)
+      .on("mousemove", function (event, d) {
+        tooltip
+          .style("opacity", 1)
+          .html(
+            `<strong>${d.name}</strong><br>` +
+              `Games: ${d.count}<br>` +
+              `Category: ${d.category}`
+          )
+          .style("left", event.pageX + 12 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseleave", () => {
+        tooltip.style("opacity", 0);
+      });
+
+    svg
+      .selectAll("text.count-label")
+      .data(data)
+      .enter()
+      .append("text")
+      .attr("class", "count-label")
+      .attr("x", (d) => x(d.count) + 5)
+      .attr("y", (d) => y(d.name) + y.bandwidth() / 2 + 4)
+      .style("font-size", "11px")
+      .text((d) => d.count)
+      .attr("fill", TEXT_LIGHT);
+
+    const legendY = height - margin.bottom + 40;
+    const legendSpacing = (width - margin.left - margin.right) / CATEGORIES.length;
+
+    CATEGORIES.forEach((cat, i) => {
+      const lx = margin.left + i * legendSpacing;
+      svg
+        .append("rect")
+        .attr("x", lx)
+        .attr("y", legendY)
+        .attr("width", 12)
+        .attr("height", 12)
+        .attr("fill", CATEGORY_COLORS[cat])
+        .attr("rx", 2);
+
+      svg
+        .append("text")
+        .attr("x", lx + 16)
+        .attr("y", legendY + 10)
+        .text(cat)
+        .style("font-size", "11px")
+        .attr("fill", TEXT_LIGHT);
     });
+  }
 
-  svg
-    .selectAll("text.percent-label")
-    .data(data)
-    .enter()
-    .append("text")
-    .attr("x", (d) => x(d.percentile) + 5)
-    .attr("y", (d) => y(d.category) + y.bandwidth() / 2 + 4)
-    .style("font-size", "12px")
-    .text((d) => d.percentile.toFixed(1) + "%")
-    .attr("fill", TEXT_LIGHT);
+  drawChart(chartData.slice(0, defaultItemCount));
+
+  if (expandBtn && chartData.length > defaultItemCount) {
+    expandBtn.style.display = "inline-block";
+    expandBtn.textContent = "Expand Chart";
+
+    expandBtn.addEventListener("click", () => {
+      isExpanded = !isExpanded;
+      const dataToUse = isExpanded ? chartData : chartData.slice(0, defaultItemCount);
+      drawChart(dataToUse);
+      expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
+    });
+  }
 }
 
 function commanderWinPercentages(
@@ -732,7 +775,7 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     "#expand-btn-faction-choice-1"
   );
 
-  mapPopularity("#chart-wrapper-popular-maps-1", data.processed_map_popularity);
+  mapPopularity("#chart-wrapper-popular-maps-1", data.processed_map_popularity, "#expand-btn-popular-maps-1");
 
   commanderWinPercentages(
     "#chart-wrapper-commander-wins-1",
