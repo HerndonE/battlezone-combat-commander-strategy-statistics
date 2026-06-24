@@ -10,28 +10,9 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sections.css">
     <link id="smokeCSS" rel="stylesheet" href="../css/smoke.css">
-    <link rel="stylesheet" href="../css/content.css">
-    <link rel="stylesheet" href="../css/stats-tab.css">
-    <link rel="stylesheet" href="../css/graph.css">
-    <link rel="stylesheet" href="../css/mobile-stats.css">
-    <link rel="stylesheet" href="../css/commanders.css">
-    <link rel="stylesheet" href="../css/players.css">
-    <link rel="stylesheet" href="../css/maps.css">
-    <link rel="stylesheet" href="../css/match-history.css">
-    <link rel="stylesheet" href="../css/commander-synergy.css">
     <title>bz2stats.us: stats</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> <!-- For Excel -->
     <script type="module" src="../js/overview.js"></script>
-    <script type="module" src="../js/twentyFour.js"></script>
-    <script type="module" src="../js/twentyFive.js"></script>
-    <script type="module" src="../js/twentySix.js"></script>
-    <script type="module" src="../js/mobileStats.js"></script>
-    <script type="module" src="../js/commanders.js"></script>
-    <script type="module" src="../js/players.js"></script>
-    <script type="module" src="../js/maps.js"></script>
-    <script type="module" src="../js/matchHistory.js"></script>
-    <script type="module" src="../js/commanderSynergy.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -47,389 +28,87 @@
         <div id="last-updated"></div>
       </div>
     </nav>
-    <div id="overlay-text-stats">
-      <div class="tab">
-        <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
-        <button class="tablinks" onclick="getData(event, 'twentyFour')">2024</button>
-        <button class="tablinks" onclick="getData(event, 'twentyFive')">2025</button>
-        <button class="tablinks" onclick="getData(event, 'twentySix')">2026</button>
-        <button class="tablinks" onclick="getData(event, 'commanders')">Commanders</button>
-        <button class="tablinks" onclick="getData(event, 'players')">Players</button>
-        <button class="tablinks" onclick="getData(event, 'maps')">Maps</button>
-        <button class="tablinks" onclick="getData(event, 'commanderSynergy')">Commander Synergy</button>
-        <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
-      </div>
-      <div id="Overview" class="tabcontent">
-        <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-1"></div>
-          <div class="graph-container">
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Most Played Maps (2024–Present)</h3>
-              <button class="expand-btn" id="expand-btn-played-maps-1" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-maps-1"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Map Popularity (Percentile)</h3>
-              <button class="expand-btn" id="expand-btn-popular-maps-1" style="display: none;">Expand Chart</button>
-              <div id="chart-wrapper-popular-maps-1"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commanders (2024–Present)</h3>
-              <button class="expand-btn" id="expand-btn-active-commanders-1" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-active-commanders-1"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Overall Commander Win Percentages (Adjusted After First 5 Games)</h3>
-              <button class="expand-btn" id="expand-btn-commander-wins-1" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-commander-wins-1"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
-              <button class="expand-btn" id="expand-btn-faction-choice-1" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-faction-choice-1"></div>
-            </div>
+    <div id="overlay-text-stats" class="stats-landing">
+      <div class="stats-card-grid">
+        <a href="stock.html" class="stats-nav-card">
+          <img src="/assets/images/stock.jpeg" alt="Stock" />
+          <span class="stats-card-title">Stock</span>
+        </a>
+        <a href="vsr.html" class="stats-nav-card">
+          <img src="/assets/images/vsr.jpg" alt="VSR" />
+          <div class="stats-card-text">
+            <span class="stats-card-title">VSR</span>
+            <span class="stats-card-subtitle">Vet Strategy Recycler Variant</span>
+            <span class="stats-card-subtitle">Nightly games &middot; 7pm ET</span>
+            <span class="stats-card-localtime vsr-localtime"></span>
           </div>
-          <div id="tooltip" class="tooltip"></div>
-        </div>
+        </a>
+        <a href="tournaments.html" class="stats-nav-card">
+          <img src="/assets/images/tournament.jpg" alt="Tournaments" />
+          <span class="stats-card-title">Tournaments</span>
+        </a>
       </div>
-      <div id="twentyFour" class="tabcontent">
-        <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-2"></div>
-          <div id="info-2024"></div>
-          <div class="graph-container">
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Most Played Maps</h3>
-              <button class="expand-btn" id="expand-btn-played-maps-2024" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-maps-2024"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commanders</h3>
-              <button class="expand-btn" id="expand-btn-played-commanders-2024" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-commanders-2024"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
-              <button class="expand-btn" id="expand-btn-commander-wins-2024" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-commander-wins-2024"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
-              <button class="expand-btn" id="expand-btn-faction-choice-2024" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-faction-choice-2024"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Month</h3>
-              <div id="monthly-2024"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Day</h3>
-              <button class="expand-btn" id="expand-btn-played-days-2024">Expand Chart</button>
-              <div id="daily-2024"></div>
-            </div>
-            <div id="tooltip1" class="tooltip"></div>
-          </div>
-        </div>
-      </div>
-      <div id="twentyFive" class="tabcontent">
-        <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
-          <div id="info-2025"></div>
-          <div class="graph-container">
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Most Played Maps</h3>
-              <button class="expand-btn" id="expand-btn-played-maps-2025" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-maps-2025"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commanders</h3>
-              <button class="expand-btn" id="expand-btn-played-commanders-2025" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-commanders-2025"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
-              <button class="expand-btn" id="expand-btn-commander-wins-2025" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-commander-wins-2025"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
-              <button class="expand-btn" id="expand-btn-faction-choice-2025" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-faction-choice-2025"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Month</h3>
-              <div id="monthly-2025"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Day</h3>
-              <button class="expand-btn" id="expand-btn-played-days-2025">Expand Chart</button>
-              <div id="daily-2025"></div>
-            </div>
-            <div id="tooltip2" class="tooltip"></div>
-          </div>
-        </div>
-      </div>
-      <div id="twentySix" class="tabcontent">
-        <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-4"></div>
-          <div id="info-2026"></div>
-          <div class="graph-container">
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Most Played Maps</h3>
-              <button class="expand-btn" id="expand-btn-played-maps-2026" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-maps-2026"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commanders</h3>
-              <button class="expand-btn" id="expand-btn-played-commanders-2026" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-played-commanders-2026"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10;">Commander Win Percentages (Adjusted After First 5 Games)</h3>
-              <button class="expand-btn" id="expand-btn-commander-wins-2026" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-commander-wins-2026"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Commanders Faction Choices</h3>
-              <button class="expand-btn" id="expand-btn-faction-choice-2026" style="display: none;">Expand Chart</button>
-              <div class="graph-box" id="chart-wrapper-faction-choice-2026"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Month</h3>
-              <div id="monthly-2026"></div>
-            </div>
-            <div class="graph-wrapper">
-              <h3 style="padding-top: 10px;">Games Played per Day</h3>
-              <button class="expand-btn" id="expand-btn-played-days-2026">Expand Chart</button>
-              <div id="daily-2026"></div>
-            </div>
-            <div id="tooltip3" class="tooltip"></div>
-          </div>
-        </div>
-      </div>
-      <div id="commanders" class="tabcontent">
-        <div class="controls">
-          <div id="commander-card-container"></div>
-        </div>
-      </div>
-      <div id="players" class="tabcontent">
-        <div class="controls">
-          <div id="player-card-container"></div>
-        </div>
-      </div>
-      <div id="maps" class="tabcontent">
-        <div class="controls">
-          <div id="map-card-container"></div>
-        </div>
-      </div>
-      <div id="commanderSynergy" class="tabcontent">
-        <div id="synergy-root">
-          <div class="syn-toolbar">
-            <input type="text" id="syn-search" placeholder="Search commander...">
-            <div class="syn-view-toggles">
-              <button class="syn-view-btn active" id="syn-btn-raw">All Players</button>
-              <button class="syn-view-btn" id="syn-btn-modified">5+ Games</button>
-              <button class="syn-view-btn" id="syn-btn-reset">Reset</button>
-            </div>
-          </div>
-          <p class="syn-description">
-            Shows which players perform well under each commander.
-            <strong>5+ Games</strong> only includes players with more than 5 games under that commander.
-          </p>
-          <div class="syn-layout">
-            <div class="syn-list-panel" id="syn-commander-list"></div>
-            <div class="syn-detail">
-              <div class="syn-detail-header">
-                <span class="syn-detail-title" id="syn-detail-title"></span>
-                <span class="syn-player-count" id="syn-player-count"></span>
-              </div>
-              <div id="syn-detail-panel"><p class="syn-placeholder">Select a commander to view player synergy data.</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-            <div id="matchHistory" class="tabcontent">
-        <div class="controls">
-          <select id="yearFilter" disabled></select>
-          <select id="monthFilter" disabled></select>
-          <input type="text" id="search" placeholder="Search: map, winner, commander...">
-        </div>
-        <div class="match-history-actions">
-          <button id="export-excel-btn">&#11015; Export to Excel</button>
-          <button id="copy-data-url-btn">&#128279; Copy Data URL</button>
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Map</th>
-              <th>Commanders</th>
-              <th>Factions</th>
-              <th>Winner</th>
-              <th>Winning Faction</th>
-              <th>Time</th>
-              <th>Teams</th>
-              <!--SHOW STATS LATER
-              <th>Stats</th>
-              -->
-            </tr>
-          </thead>
-          <tbody id="tableBody"></tbody>
-        </table>
-      </div>
-    </div>
     </div>
     <div id="overlay-text-mobile">
-      <div class="category">
-        <h3>Overview</h3>
-        <div class="sub-category">
-          <button class="dropdown-btn">Faction Popularity ▼</button>
-          <div class="cards dropdown-content" id="overview-factions"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Map Counts ▼</button>
-          <div class="cards dropdown-content" id="overview-maps"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commanders ▼</button>
-          <div class="cards dropdown-content" id="overview-active-commanders"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commander Faction Choices ▼</button>
-          <div class="cards dropdown-content" id="overview-commander-cards"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
-          <div class="cards dropdown-content" id="commander-win-cards"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commander Time ▼</button>
-          <div class="cards dropdown-content" id="overview-commander-times"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Player Time ▼</button>
-          <div class="cards dropdown-content" id="overview-player-times"></div>
-        </div>
-        <div class="category">
-          <h3>Map Popularity</h3>
-          <div class="sub-category" id="map-popularity-container"></div>
-        </div>
-      </div>
-      <div class="category">
-        <h3>2024</h3>
-        <div class="sub-category">
-          <button class="dropdown-btn">Faction Popularity ▼</button>
-          <div class="cards dropdown-content" id="factions-2024"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Map Counts ▼</button>
-          <div class="cards dropdown-content" id="maps-2024"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commanders ▼</button>
-          <div class="cards dropdown-content" id="active-commanders-2024"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commander Faction Choices ▼</button>
-          <div class="cards dropdown-content" id="commander-cards-2024"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
-          <div class="cards dropdown-content" id="commander-win-cards-2024"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Games by Month ▼</button>
-          <div class="cards dropdown-content" id="games-by-month-2024"></div>
-        </div>
-      </div>
-      <div class="category">
-        <h3>2025</h3>
-        <div class="sub-category">
-          <button class="dropdown-btn">Faction Popularity ▼</button>
-          <div class="cards dropdown-content" id="factions-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Map Counts ▼</button>
-          <div class="cards dropdown-content" id="maps-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commanders ▼</button>
-          <div class="cards dropdown-content" id="active-commanders-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commander Faction Choices ▼</button>
-          <div class="cards dropdown-content" id="commander-cards-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
-          <div class="cards dropdown-content" id="commander-win-cards-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Games by Month ▼</button>
-          <div class="cards dropdown-content" id="games-by-month-2025"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Match Times ▼</button>
-          <div class="cards dropdown-content" id="match-times-2025"></div>
-        </div>
-      </div>
-      <div class="category">
-        <h3>2026</h3>
-        <div class="sub-category">
-          <button class="dropdown-btn">Faction Popularity ▼</button>
-          <div class="cards dropdown-content" id="factions-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Map Counts ▼</button>
-          <div class="cards dropdown-content" id="maps-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commanders ▼</button>
-          <div class="cards dropdown-content" id="active-commanders-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Commander Faction Choices ▼</button>
-          <div class="cards dropdown-content" id="commander-cards-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Win % > 5 Games Commanded ▼</button>
-          <div class="cards dropdown-content" id="commander-win-cards-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Games by Month ▼</button>
-          <div class="cards dropdown-content" id="games-by-month-2026"></div>
-        </div>
-        <div class="sub-category">
-          <button class="dropdown-btn">Match Times ▼</button>
-          <div class="cards dropdown-content" id="match-times-2026"></div>
-        </div>
+      <div class="stats-card-grid">
+        <a href="stock.html" class="stats-nav-card">
+          <img src="/assets/images/stock.jpeg" alt="Stock" />
+          <span class="stats-card-title">Stock</span>
+        </a>
+        <a href="vsr.html" class="stats-nav-card">
+          <img src="/assets/images/vsr.jpg" alt="VSR" />
+          <div class="stats-card-text">
+            <span class="stats-card-title">VSR</span>
+            <span class="stats-card-subtitle">Vet Strategy Recycler Variant</span>
+            <span class="stats-card-subtitle">Nightly games &middot; 7pm ET</span>
+            <span class="stats-card-localtime vsr-localtime"></span>
+          </div>
+        </a>
+        <a href="tournaments.html" class="stats-nav-card">
+          <img src="/assets/images/tournament.jpg" alt="Tournaments" />
+          <span class="stats-card-title">Tournaments</span>
+        </a>
       </div>
     </div>
     <script type="module" src="../smoke.js"></script>
-    <script src="../stats-info.js"></script>
-    <div id="activityModal" class="global-modal">
-      <div class="global-modal-content">
-        <button class="global-close">&times;</button>
-        <h2 id="modalTitle"></h2>
-        <div class="modal-controls">
-          <label>Compare Commanders:</label>
-          <select id="modalCompareA">
-            <option value="">Commander A</option>
-          </select>
-          <select id="modalCompareB">
-            <option value="">Commander B</option>
-          </select>
-        </div>
-        <div id="modalCharts" style="display:flex; gap:20px; flex-wrap: wrap;">
-          <div id="modalChartLeftContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
-            <div id="modalChartLeft" style="flex:1;"></div>
-          </div>
-          <div id="modalChartRightContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
-            <div id="modalChartRight" style="flex:1;"></div>
-            <div id="modalLegendRight" style="margin-top:10px; display:flex; gap:20px; flex-wrap: wrap;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <script>
+      (function () {
+        function getLocalGameTime() {
+          try {
+            const now = new Date();
+            const parts = new Intl.DateTimeFormat('en-US', {
+              timeZone: 'America/New_York',
+              year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit', second: '2-digit',
+              hour12: false
+            }).formatToParts(now);
+            const get = type => parseInt(parts.find(p => p.type === type).value);
+            const nyOffset = Math.round(
+              (now.getTime() - Date.UTC(get('year'), get('month') - 1, get('day'), get('hour'), get('minute'), get('second'))) / 3600000
+            );
+            const nyDate = now.toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+            const [y, m, d] = nyDate.split('-').map(Number);
+            const gameUTC = new Date(Date.UTC(y, m - 1, d, 19) + nyOffset * 3600000);
+            const localStr = gameUTC.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+            const nyStr = gameUTC.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+            if (localStr === nyStr) return null;
+            return localStr;
+          } catch (e) {
+            return null;
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+          const localTime = getLocalGameTime();
+          if (localTime) {
+            document.querySelectorAll('.vsr-localtime').forEach(function (el) {
+              el.textContent = 'Your time: ' + localTime;
+            });
+          }
+        });
+      })();
+    </script>
+
     <footer>
       <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — see Discord links on the <a href="../index.html">home page</a>.</p>
       <p class="footer-note">

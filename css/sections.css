@@ -119,6 +119,118 @@
   }
 }
 
+.stats-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 60px 20px;
+}
+
+.stats-nav-card {
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  border-radius: 15px;
+  padding: 20px;
+  border: 2px solid #444;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.25s, opacity 0.25s, filter 0.25s, box-shadow 0.25s;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 260px;
+}
+
+a.stats-nav-card:hover {
+  transform: scale(1.03);
+  border-color: #b5179e;
+  box-shadow: 0 0 20px #b5179e90;
+}
+
+.stats-nav-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.stats-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  color: #4cc9f0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stats-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stats-card-subtitle {
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.stats-card-localtime {
+  font-size: 0.8rem;
+  color: #7ec8e3;
+  text-align: center;
+  font-style: italic;
+}
+
+#overlay-text-mobile .stats-card-text {
+  align-items: flex-start;
+}
+
+#overlay-text-mobile .stats-card-subtitle,
+#overlay-text-mobile .stats-card-localtime {
+  text-align: left;
+}
+
+#overlay-text-mobile .stats-card-grid {
+  flex-direction: column;
+  padding: 20px 15px;
+  gap: 15px;
+}
+
+#overlay-text-mobile .stats-nav-card {
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+#overlay-text-mobile .stats-nav-card img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+#overlay-text-mobile .stats-card-title {
+  font-size: 1.1rem;
+  text-align: left;
+}
+
 @media screen and (max-width: 480px) {
   .welcome-section h1,
   .about-section h1 {

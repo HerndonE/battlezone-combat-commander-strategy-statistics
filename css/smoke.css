@@ -32,12 +32,12 @@ canvas {
     display: none !important;
   }
 
-#overlay-text-mobile {
-  display: block;
-  position: relative;
-  color: white;
-  font-family: Arial, sans-serif;
-  z-index: 1;
-}
-
+  #overlay-text-mobile {
+    display: block;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+    flex: 1;
+  }
 }

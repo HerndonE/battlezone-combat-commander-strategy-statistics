@@ -893,14 +893,15 @@ output_data["processed_data"] = {
 }
 
 
-# Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
+# Additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
 bzcc_2025_data = read_file('data/BZCC-2025-Tournament.json')  # Read the raw data file
 output_data["BZCC-2025-Tournament"] = {
     "raw": bzcc_2025_data['month'],
     "most_played_maps": bzcc_2025_data['most_played_maps'],
     "game_times": bzcc_2025_data["game_times"],
     "popular_matchups": bzcc_2025_data["popular_matchups"],
-    "faction_counts": bzcc_2025_data["faction_counts"]
+    "faction_counts": bzcc_2025_data["faction_counts"],
+    "teams": bzcc_2025_data["teams"],
 }
 
 
@@ -912,7 +913,6 @@ def get_timestamp():
     timestamp = now.strftime('%Y/%m/%d %H:%M%p UTC')
 
     return timestamp
-
 
 output_data["last_updated"] = get_timestamp()
 
