@@ -228,14 +228,21 @@ function populatePlayerTimes(containerId, data) {
 function populateMapPopularity(containerId, data) {
   const container = document.getElementById(containerId);
 
+  // data is a flat array of { name, count, category } — group by category/tier
+  const tiers = {};
+  data.forEach(({ name, category }) => {
+    if (!tiers[category]) tiers[category] = [];
+    tiers[category].push(name);
+  });
+
   // Map tier to a color from the palette
-  const tierNames = Object.keys(data);
+  const tierNames = Object.keys(tiers);
   const tierColors = {};
   tierNames.forEach((tier, index) => {
     tierColors[tier] = COLOR_PALETTE[index % COLOR_PALETTE.length];
   });
 
-  Object.entries(data).forEach(([tier, maps]) => {
+  Object.entries(tiers).forEach(([tier, maps]) => {
     // Sub-category dropdown
     const subCategory = document.createElement("div");
     subCategory.className = "sub-category";
