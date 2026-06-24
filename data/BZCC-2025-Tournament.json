@@ -291,5 +291,43 @@
 		"I.S.D.F": 16,
 		"Hadean": 13,
 		"Scion": 7
+	},
+	"teams": {
+		"Alpha": [
+			"Zack",
+			"Bylarge"
+		],
+		"Bravo": [
+			"Gravey",
+			"Sahd0w"
+		],
+		"Charlie": [
+			"Blue Banana",
+			"Business Lawyer"
+		],
+		"Delta": [
+			"Domakus",
+			"GrizzlyOne95"
+		],
+		"Echo": [
+			"Shock",
+			"Pantouf"
+		],
+		"Foxtrot": [
+			"Sev",
+			"Rosario"
+		],
+		"Golf": [
+			"Maverick",
+			"DriveLine"
+		],
+		"India": [
+			"M.S",
+			"Cokol"
+		],
+		"Juliet": [
+			"F9bomber",
+			"SpaceWars"
+		]
 	}
 }
