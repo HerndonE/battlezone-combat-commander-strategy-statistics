@@ -116,8 +116,8 @@ jobs:
                 }]
               }"
 
-      - name: Run combine_json.py
-        run: python scripts/combine_json.py
+      - name: Run main.py
+        run: python scripts/main.py
 
       - name: Check if data.json exists
         run: |
@@ -162,7 +162,7 @@ jobs:
           -d "{
                 \"embeds\": [{
                   \"title\": \"$TITLE\",
-                  \"description\": \"The **combine_json.py** job has completed.\",
+                  \"description\": \"The **main.py** job has completed.\",
                   \"color\": $COLOR,
                   \"fields\": [
                     {
