@@ -1,12 +1,12 @@
-import { CONFIG, GRAPH_POPERTIES } from "./config.js";
+import { CONFIG, GRAPH_POPERTIES } from "../config.js";
 import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
-} from "./config.js";
+} from "../config.js";
 
-function mapCountBarChart2025(containerSelector, mapData, expandBtnSelector) {
+function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
   const container = d3.select(containerSelector);
 
   let svg = container.select("svg");
@@ -28,7 +28,7 @@ function mapCountBarChart2025(containerSelector, mapData, expandBtnSelector) {
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip1");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -136,7 +136,7 @@ function mapCountBarChart2025(containerSelector, mapData, expandBtnSelector) {
   }
 }
 
-function commanderCountBarChart2025(
+function commanderCountBarChart2024(
   containerSelector,
   mapData,
   expandBtnSelector,
@@ -162,7 +162,7 @@ function commanderCountBarChart2025(
   function drawChart(dataSubset) {
     svg.selectAll("*").remove();
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip1");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
@@ -226,7 +226,6 @@ function commanderCountBarChart2025(
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", "steelblue")
       .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
       .attr("rx", borderRadius)
       .attr("ry", borderRadius)
@@ -270,7 +269,7 @@ function commanderCountBarChart2025(
   }
 }
 
-function commanderFactionChoiceCountBarChart2025(
+function commanderFactionChoiceCountBarChart2024(
   containerId,
   chartData,
   expandBtnSelector = "#expand-btn",
@@ -286,7 +285,7 @@ function commanderFactionChoiceCountBarChart2025(
     .append("svg")
     .attr("height", svgHeight)
     .style("background-color", BACKGROUND_COLOR);
-  const tooltip = d3.select("#tooltip2");
+  const tooltip = d3.select("#tooltip1");
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
 
@@ -357,7 +356,7 @@ function commanderFactionChoiceCountBarChart2025(
       .attr("y", (d) => y(d.value))
       .attr("width", x1.bandwidth())
       .attr("height", (d) => height + margin.top - y(d.value))
-      .attr("fill", (d) => color(d.faction))
+      .attr("fill", (d, i) => COLOR_PALETTE[i % COLOR_PALETTE.length])
       .attr("rx", borderRadius)
       .attr("ry", borderRadius)
       .attr("class", "bar")
@@ -400,8 +399,8 @@ function commanderFactionChoiceCountBarChart2025(
         .append("text")
         .attr("x", 18)
         .attr("y", 10)
-        .text(faction)
         .attr("fill", TEXT_LIGHT)
+        .text(faction)
         .attr("class", "axis-label");
     });
   }
@@ -435,7 +434,7 @@ function commanderFactionChoiceCountBarChart2025(
   }
 }
 
-function factionPopularity2025(containerId, chartData) {
+function factionPopularity2024(containerId, chartData) {
   const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
 
   const width = 600;
@@ -492,7 +491,7 @@ function factionPopularity2025(containerId, chartData) {
     });
 }
 
-function commanderWinPercentages2025(
+function commanderWinPercentages2024(
   containerSelector,
   chartData,
   expandButtonSelector,
@@ -526,11 +525,11 @@ function commanderWinPercentages2025(
     })
     .sort((a, b) => b.percentage - a.percentage);
 
-  let tooltip = container.select(".tooltip2");
+  let tooltip = container.select(".tooltip1");
   if (tooltip.empty()) {
     tooltip = container
       .append("div")
-      .attr("class", "tooltip2")
+      .attr("class", "tooltip1")
       .style("position", "absolute")
       .style("background", "rgba(0,0,0,0.8)")
       .style("color", "white")
@@ -596,15 +595,6 @@ function commanderWinPercentages2025(
     .call(d3.axisLeft(y))
     .selectAll("text")
     .attr("fill", TEXT_LIGHT);
-
-  svg
-    .append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("x", -(height / 2) - margin.top)
-    .attr("y", margin.left - 35)
-    .attr("text-anchor", "middle")
-    .attr("fill", TEXT_LIGHT)
-    .text("Count");
 
   if (expandButtonSelector) {
     d3.select(expandButtonSelector).on("click", () => {
@@ -739,14 +729,14 @@ function gamesPlayedPerDayBarChart(
       .y((d) => y(d.value))
       .curve(d3.curveMonotoneX);
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip1");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
         .append("div")
         .style("position", "fixed")
-        .attr("id", "tooltip2")
-        .attr("class", "tooltip2");
+        .attr("id", "tooltip1")
+        .attr("class", "tooltip1");
     }
 
     // Line
@@ -843,13 +833,13 @@ function gamesPlayedPerMonthBarChart(container, data) {
       .attr("height", height + margin.top + margin.bottom)
       .style("background-color", BACKGROUND_COLOR);
 
-    let tooltip = d3.select("#tooltip2");
+    let tooltip = d3.select("#tooltip1");
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
         .append("div")
-        .attr("id", "tooltip2")
-        .attr("class", "tooltip2");
+        .attr("id", "tooltip1")
+        .attr("class", "tooltip1");
     }
 
     const x = d3
@@ -921,7 +911,7 @@ function gamesPlayedPerMonthBarChart(container, data) {
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData["2025"]["data_2025"];
+  const data = rawData["2024"]["data_2024"];
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
 
@@ -930,51 +920,52 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     value,
   }));
 
-  const factionCounts = Object.entries(data.commander_faction_counts).flatMap(
-    ([commander, factions]) =>
-      Object.entries(factions).map(([faction, value]) => ({
-        commander,
-        faction,
-        value,
-      })),
+  const commanderFactionCounts = Object.entries(
+    data.commander_faction_counts,
+  ).flatMap(([commander, factions]) =>
+    Object.entries(factions).map(([faction, value]) => ({
+      commander,
+      faction,
+      value,
+    })),
   );
 
-  showTotals("#info-2025", data.game_totals, data.game_times);
+  showTotals("#info-2024", data.game_totals, data.game_times);
 
-  mapCountBarChart2025(
-    "#chart-wrapper-played-maps-2025",
+  mapCountBarChart2024(
+    "#chart-wrapper-played-maps-2024",
     mapCounts,
-    "#expand-btn-played-maps-2025",
+    "#expand-btn-played-maps-2024",
   );
 
-  commanderCountBarChart2025(
-    "#chart-wrapper-played-commanders-2025",
+  commanderCountBarChart2024(
+    "#chart-wrapper-played-commanders-2024",
     commanderCounts,
-    "#expand-btn-played-commanders-2025",
+    "#expand-btn-played-commanders-2024",
   );
 
-  commanderFactionChoiceCountBarChart2025(
-    "#chart-wrapper-faction-choice-2025",
-    factionCounts,
-    "#expand-btn-faction-choice-2025",
+  commanderFactionChoiceCountBarChart2024(
+    "#chart-wrapper-faction-choice-2024",
+    commanderFactionCounts,
+    "#expand-btn-faction-choice-2024",
   );
 
-  factionPopularity2025("#inline-bar-chart-3", data.faction_counter);
+  factionPopularity2024("#inline-bar-chart-2", data.faction_counter);
 
-  commanderWinPercentages2025(
-    "#chart-wrapper-commander-wins-2025",
+  commanderWinPercentages2024(
+    "#chart-wrapper-commander-wins-2024",
     data.commander_win_percentages,
-    "#expand-btn-commander-wins-2025",
+    "#expand-btn-commander-wins-2024",
   );
 
   gamesPlayedPerMonthBarChart(
-    "#monthly-2025",
+    "#monthly-2024",
     getMonthlyGames(data.game_totals),
   );
 
   gamesPlayedPerDayBarChart(
-    "#daily-2025",
+    "#daily-2024",
     getDailyGames(data.game_totals),
-    "#expand-btn-played-days-2025",
+    "#expand-btn-played-days-2024",
   );
 });

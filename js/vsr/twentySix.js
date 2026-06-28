@@ -1,10 +1,10 @@
-import { CONFIG, GRAPH_POPERTIES } from "./config.js";
+import { CONFIG, GRAPH_POPERTIES } from "../config.js";
 import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
-} from "./config.js";
+} from "../config.js";
 
 function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
   const container = d3.select(containerSelector);

@@ -1,5 +1,5 @@
-import { CONFIG } from "./config.js";
-import { COLOR_PALETTE } from "./config.js";
+import { CONFIG } from "../config.js";
+import { COLOR_PALETTE } from "../config.js";
 
 const response = await fetch(CONFIG.jsonFile);
 const allData = await response.json();

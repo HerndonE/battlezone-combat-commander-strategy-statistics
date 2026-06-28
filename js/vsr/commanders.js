@@ -1,5 +1,5 @@
-import { CONFIG } from "./config.js";
-import { COLOR_PALETTE, BACKGROUND_COLOR, TEXT_LIGHT } from "./config.js";
+import { CONFIG } from "../config.js";
+import { COLOR_PALETTE, BACKGROUND_COLOR, TEXT_LIGHT } from "../config.js";
 
 // Aggregation
 const commanders = {};

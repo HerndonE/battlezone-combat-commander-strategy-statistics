@@ -1,5 +1,5 @@
-import { CONFIG } from "./config.js";
-import { FACTIONICONS } from "./config.js";
+import { CONFIG } from "../config.js";
+import { FACTIONICONS } from "../config.js";
 
 // Aggregation
 const players = {};

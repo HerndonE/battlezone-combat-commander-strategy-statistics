@@ -1,10 +1,10 @@
-import { CONFIG, GRAPH_POPERTIES } from "./config.js";
+import { CONFIG, GRAPH_POPERTIES } from "../config.js";
 import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
-} from "./config.js";
+} from "../config.js";
 
 function factionPopularity(containerId, chartData) {
   const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
@@ -66,7 +66,7 @@ function factionPopularity(containerId, chartData) {
 function mapCountBarChart(
   containerId,
   chartData,
-  expandBtnSelector = "#expand-btn"
+  expandBtnSelector = "#expand-btn",
 ) {
   const fullData = Object.entries(chartData)
     .map(([name, value]) => ({ name, value }))
@@ -94,7 +94,7 @@ function mapCountBarChart(
     const minSvgWidth = 500;
     const computedWidth = Math.max(
       minSvgWidth,
-      Math.min(dataSubset.length * 60, maxSvgWidth)
+      Math.min(dataSubset.length * 60, maxSvgWidth),
     );
     svg.attr("width", computedWidth);
 
@@ -195,7 +195,7 @@ function mapCountBarChart(
 function commanderCountBarChart(
   containerId,
   chartData,
-  expandBtnSelector = "#expand-btn"
+  expandBtnSelector = "#expand-btn",
 ) {
   const fullData = chartData
     .map(([name, value]) => ({ name, value }))
@@ -223,7 +223,7 @@ function commanderCountBarChart(
     const minSvgWidth = 500;
     const computedWidth = Math.max(
       minSvgWidth,
-      Math.min(dataSubset.length * 60, maxSvgWidth)
+      Math.min(dataSubset.length * 60, maxSvgWidth),
     );
     svg.attr("width", computedWidth);
 
@@ -322,7 +322,7 @@ function commanderCountBarChart(
 function commanderFactionChoiceCountBarChart(
   containerId,
   chartData,
-  expandBtnSelector = "#expand-btn"
+  expandBtnSelector = "#expand-btn",
 ) {
   const defaultItemCount = 10;
   const barWidth = 50;
@@ -348,7 +348,7 @@ function commanderFactionChoiceCountBarChart(
       commander,
       faction,
       value,
-    }))
+    })),
   );
 
   const allCommanders = Array.from(new Set(fullData.map((d) => d.commander)));
@@ -426,7 +426,7 @@ function commanderFactionChoiceCountBarChart(
         tooltip
           .style("opacity", 1)
           .html(
-            `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`
+            `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>Count: ${d.value}`,
           );
       })
       .on("mousemove", (event) => {
@@ -443,7 +443,7 @@ function commanderFactionChoiceCountBarChart(
       .append("g")
       .attr(
         "transform",
-        `translate(${svgWidth - margin.right - 100},${margin.top})`
+        `translate(${svgWidth - margin.right - 100},${margin.top})`,
       );
 
     factions.forEach((faction, i) => {
@@ -470,7 +470,7 @@ function commanderFactionChoiceCountBarChart(
   // Initial chart render
   const initialCommanders = allCommanders.slice(0, defaultItemCount);
   const initialData = fullData.filter((d) =>
-    initialCommanders.includes(d.commander)
+    initialCommanders.includes(d.commander),
   );
   drawChart(initialData);
 
@@ -487,7 +487,7 @@ function commanderFactionChoiceCountBarChart(
         : allCommanders.slice(0, defaultItemCount);
 
       const dataToUse = fullData.filter((d) =>
-        commandersToShow.includes(d.commander)
+        commandersToShow.includes(d.commander),
       );
       drawChart(dataToUse);
 
@@ -496,7 +496,11 @@ function commanderFactionChoiceCountBarChart(
   }
 }
 
-function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expand-btn-popular-maps-1") {
+function mapPopularity(
+  containerSelector,
+  chartData,
+  expandBtnSelector = "#expand-btn-popular-maps-1",
+) {
   const defaultItemCount = 10;
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
@@ -507,7 +511,12 @@ function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expan
     "Moderately Popular": COLOR_PALETTE[4],
     "Least Popular": COLOR_PALETTE[6],
   };
-  const CATEGORIES = ["Very Popular", "Mostly Popular", "Moderately Popular", "Least Popular"];
+  const CATEGORIES = [
+    "Very Popular",
+    "Mostly Popular",
+    "Moderately Popular",
+    "Least Popular",
+  ];
 
   const margin = { top: 20, right: 80, bottom: 70, left: 160 };
   const barHeight = 22;
@@ -581,7 +590,7 @@ function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expan
           .html(
             `<strong>${d.name}</strong><br>` +
               `Games: ${d.count}<br>` +
-              `Category: ${d.category}`
+              `Category: ${d.category}`,
           )
           .style("left", event.pageX + 12 + "px")
           .style("top", event.pageY - 28 + "px");
@@ -603,7 +612,8 @@ function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expan
       .attr("fill", TEXT_LIGHT);
 
     const legendY = height - margin.bottom + 40;
-    const legendSpacing = (width - margin.left - margin.right) / CATEGORIES.length;
+    const legendSpacing =
+      (width - margin.left - margin.right) / CATEGORIES.length;
 
     CATEGORIES.forEach((cat, i) => {
       const lx = margin.left + i * legendSpacing;
@@ -634,7 +644,9 @@ function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expan
 
     expandBtn.addEventListener("click", () => {
       isExpanded = !isExpanded;
-      const dataToUse = isExpanded ? chartData : chartData.slice(0, defaultItemCount);
+      const dataToUse = isExpanded
+        ? chartData
+        : chartData.slice(0, defaultItemCount);
       drawChart(dataToUse);
       expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
     });
@@ -644,7 +656,7 @@ function mapPopularity(containerSelector, chartData, expandBtnSelector = "#expan
 function commanderWinPercentages(
   containerSelector,
   chartData,
-  expandButtonSelector
+  expandButtonSelector,
 ) {
   const container = d3.select(containerSelector);
   container.html(""); // clear previous content
@@ -721,7 +733,7 @@ function commanderWinPercentages(
           `<strong>${d.name}</strong><br>` +
             `Games (After 5 removed): ${d.total}<br>` +
             `Wins (After 5 removed): ${d.wins}<br>` +
-            `Win %: ${d.percentage.toFixed(1)}%`
+            `Win %: ${d.percentage.toFixed(1)}%`,
         )
         .style("left", event.pageX + 10 + "px")
         .style("top", event.pageY - 28 + "px");
@@ -762,25 +774,29 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
   mapCountBarChart(
     "#chart-wrapper-played-maps-1",
     data.processed_map_counts,
-    "#expand-btn-played-maps-1"
+    "#expand-btn-played-maps-1",
   );
   commanderCountBarChart(
     "#chart-wrapper-active-commanders-1",
     data.processed_commander_list,
-    "#expand-btn-active-commanders-1"
+    "#expand-btn-active-commanders-1",
   );
   commanderFactionChoiceCountBarChart(
     "#chart-wrapper-faction-choice-1",
     data.processed_commander_faction_counts,
-    "#expand-btn-faction-choice-1"
+    "#expand-btn-faction-choice-1",
   );
 
-  mapPopularity("#chart-wrapper-popular-maps-1", data.processed_map_popularity, "#expand-btn-popular-maps-1");
+  mapPopularity(
+    "#chart-wrapper-popular-maps-1",
+    data.processed_map_popularity,
+    "#expand-btn-popular-maps-1",
+  );
 
   commanderWinPercentages(
     "#chart-wrapper-commander-wins-1",
     data.processed_commander_win_percentages,
-    "#expand-btn-commander-wins-1"
+    "#expand-btn-commander-wins-1",
   );
 
   const updatedText = lastUpdated(rawData.last_updated);
