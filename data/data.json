@@ -3069,98 +3069,98 @@
                 ]
             ],
             "unique_map_values": [
-                "Sinister",
-                "Stone Circle",
-                "Chill",
-                "Garden",
-                "Titan",
-                "Oldboy",
-                "Beyond",
-                "Abuse",
-                "Phoenix",
-                "Ravine",
-                "Throbbing Gristle",
-                "Domain",
-                "High Heat",
-                "Twin Peaks",
-                "Rendon",
-                "Transfer",
-                "Excavation",
-                "Quarry",
-                "Royal Stadium",
-                "Ancient Hills",
-                "Alien Dunes",
-                "Ebola",
-                "Snow Central",
-                "Mexican Mission",
-                "Madern Warfare",
-                "Prodigy Ver .2",
-                "Egypt",
-                "Moonshroud",
-                "Concrete Jungle",
-                "Lunix",
-                "Trail",
-                "Abundance",
-                "Terrace",
-                "Scion Central",
-                "No Mans Land",
-                "Crater",
-                "Forgotten",
-                "Tempest",
-                "Dune Night",
-                "310",
-                "Oxide",
-                "Rectal",
-                "Ridges",
-                "Trench",
-                "Iceberg",
-                "Bridges",
-                "Vortex",
-                "Echelon",
-                "Ogg Vorbis",
-                "Mesa",
-                "Mojave",
-                "Hound",
-                "JO Crystal",
-                "Plaza",
-                "Strategy Arena",
-                "Selena",
-                "Phazon",
-                "Aztec",
-                "Hi-Mid-Lo",
-                "Red Slope",
                 "High & Low",
-                "Iraq",
-                "Lunar",
-                "Ice Age",
-                "Bowl",
+                "Barren",
+                "Moonshroud",
+                "Titan",
+                "Quarry",
+                "JO Crystal",
                 "Casius",
+                "Dusk",
+                "Scion Central",
+                "Phoenix",
+                "Quagmire",
+                "Vortex",
+                "Aztec",
+                "Trench",
+                "Terrace",
+                "Overlook",
+                "Plaza",
+                "Snow Central",
+                "Excavation",
+                "Abuse",
+                "Bridges",
+                "Pitbull",
+                "Scammed",
+                "Selena",
+                "Mexican Mission",
+                "Island of V8",
+                "Sinister",
+                "Red Slope",
+                "Dream",
+                "Reflex",
+                "Giza",
+                "Iceberg",
+                "Iraq",
+                "310",
                 "Insula",
                 "Terron",
-                "Mort's Wasteland",
-                "Scammed",
-                "Island of V8",
-                "Europa Night",
-                "Quagmire",
-                "Satart",
-                "Aussault",
-                "Dream",
-                "Giza",
-                "Pitbull",
-                "Oasis",
-                "Ragnarok",
-                "Overlook",
+                "Transfer",
                 "Plus",
-                "Europa",
-                "Dusk",
-                "Remnant",
-                "Mountain Top",
+                "Concrete Jungle",
+                "Twin Peaks",
+                "Bowl",
                 "Sahara",
-                "Barren",
-                "Haven",
+                "Stone Circle",
+                "Ridges",
+                "Throbbing Gristle",
+                "Europa Night",
+                "Remnant",
+                "Echelon",
+                "Oxide",
+                "Royal Stadium",
+                "Ragnarok",
+                "Phazon",
+                "Rendon",
+                "Oasis",
+                "Madern Warfare",
                 "Vegan",
+                "Crater",
+                "Domain",
+                "Alien Dunes",
+                "Mort's Wasteland",
+                "Lunar",
+                "Hi-Mid-Lo",
+                "Rectal",
+                "Haven",
+                "Forgotten",
                 "Consciousness",
-                "Reflex"
+                "Oldboy",
+                "Trail",
+                "Prodigy Ver .2",
+                "Europa",
+                "Garden",
+                "Tempest",
+                "Mojave",
+                "Mesa",
+                "Ebola",
+                "Ogg Vorbis",
+                "Egypt",
+                "High Heat",
+                "Lunix",
+                "Mountain Top",
+                "Chill",
+                "Strategy Arena",
+                "Beyond",
+                "Ancient Hills",
+                "No Mans Land",
+                "Abundance",
+                "Ice Age",
+                "Aussault",
+                "Dune Night",
+                "Satart",
+                "Hound",
+                "Ravine"
             ],
             "commander_list": [
                 [
@@ -13644,89 +13644,89 @@
                 ]
             ],
             "unique_map_values": [
-                "Garden",
-                "Titan",
-                "Oldboy",
-                "Jade Green",
-                "Abuse",
-                "Throbbing Gristle",
-                "Domain",
-                "XMAS-Consciousness",
-                "Twin Peaks",
-                "Rendon",
-                "Transfer",
-                "Power Struggle",
-                "Excavation",
-                "Quarry",
-                "Ancient Hills",
-                "Ebola",
-                "Snow Central",
-                "Mexican Mission",
-                "Prodigy Ver .2",
-                "Egypt",
-                "Moonshroud",
-                "XMAS-Remnant",
-                "Lunix",
-                "Fort 12C",
-                "Jurrasic Dog Park",
-                "Trail",
-                "Forgotten",
-                "Tempest",
-                "310",
-                "Ridges",
-                "Trench",
-                "Vortex",
-                "Echelon",
-                "Mesa",
-                "Mojave",
-                "Hound",
-                "Strategy Arena",
-                "Plaza",
-                "Selena",
-                "Aztec",
-                "Red Slope",
-                "The War",
-                "XMAS-Haven",
                 "High & Low",
-                "Iraq",
-                "Lunar",
-                "Ice Age",
-                "Bowl",
-                "XMAS-Europa",
-                "Ground Zero",
-                "Impact",
-                "Middle Wars",
-                "Casius",
-                "Insula",
-                "Terron",
-                "Mort's Wasteland",
-                "Scammed",
-                "Europa Night",
-                "Island of V8",
-                "Quagmire",
-                "Ancient Outposts",
-                "Toxicity",
-                "Aussault",
-                "Dream",
-                "Cracked",
-                "Giza",
-                "Revolution",
-                "Oasis",
-                "Pitbull",
-                "Magma",
-                "Ragnarok",
-                "Overlook",
-                "Plus",
-                "Europa",
-                "Mayhem",
-                "Remnant",
-                "Mountain Top",
-                "Sahara",
                 "Barren",
-                "Haven",
+                "Moonshroud",
+                "Titan",
+                "Quarry",
+                "Casius",
+                "Impact",
+                "Toxicity",
+                "Fort 12C",
+                "Power Struggle",
+                "Quagmire",
+                "Vortex",
+                "Aztec",
+                "Trench",
+                "XMAS-Consciousness",
+                "Overlook",
+                "Plaza",
+                "Snow Central",
+                "Excavation",
+                "Abuse",
+                "Pitbull",
+                "Scammed",
+                "Selena",
+                "Mexican Mission",
+                "Ancient Outposts",
+                "Island of V8",
+                "Red Slope",
+                "Dream",
+                "Mayhem",
+                "Reflex",
+                "Giza",
+                "Iraq",
+                "310",
+                "Jurrasic Dog Park",
+                "Insula",
+                "Jade Green",
+                "Terron",
+                "Transfer",
+                "Plus",
+                "Bowl",
+                "Twin Peaks",
+                "Sahara",
+                "XMAS-Haven",
+                "Ridges",
+                "Europa Night",
+                "Throbbing Gristle",
+                "Remnant",
+                "Echelon",
+                "Ragnarok",
+                "Cracked",
+                "Rendon",
+                "Oasis",
+                "The War",
+                "Ground Zero",
                 "Vegan",
+                "Domain",
+                "Mort's Wasteland",
+                "Lunar",
+                "Haven",
+                "Forgotten",
                 "Consciousness",
-                "Reflex"
+                "Oldboy",
+                "Trail",
+                "Prodigy Ver .2",
+                "Europa",
+                "Garden",
+                "Tempest",
+                "Mojave",
+                "Ebola",
+                "Mesa",
+                "Egypt",
+                "Revolution",
+                "Lunix",
+                "Mountain Top",
+                "Strategy Arena",
+                "Ancient Hills",
+                "Magma",
+                "XMAS-Remnant",
+                "Ice Age",
+                "Aussault",
+                "Middle Wars",
+                "Hound",
+                "XMAS-Europa"
             ],
             "commander_list": [
                 [
@@ -24882,6 +24882,61 @@
                                 "Certified Bad Guy"
                             ]
                         }
+                    },
+                    "06.27.26": {
+                        "Giza": {
+                            "date": "06.27.26",
+                            "map": "Giza",
+                            "commanders": "F9bomber vs Monkey",
+                            "factions": "[I.S.D.F, I.S.D.F]",
+                            "winningFaction": "I.S.D.F",
+                            "winner": "Monkey",
+                            "time": "15:08",
+                            "teamOne": [
+                                "F9mama",
+                                "Econchump",
+                                "Bylarge"
+                            ],
+                            "teamTwo": [
+                                "Domakus",
+                                "SaggiSponge",
+                                "Judgeguns"
+                            ]
+                        },
+                        "Oasis": {
+                            "date": "06.27.26",
+                            "map": "Oasis",
+                            "commanders": "Econchump vs F9bomber",
+                            "factions": "[Scion, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "F9bomber",
+                            "time": "1:09:40",
+                            "teamOne": [
+                                "Monkey",
+                                "Judgeguns"
+                            ],
+                            "teamTwo": [
+                                "SaggiSponge",
+                                "F9mama"
+                            ]
+                        },
+                        "Red Slope": {
+                            "date": "06.27.26",
+                            "map": "Red Slope",
+                            "commanders": "Lithium vs F9bomber",
+                            "factions": "[I.S.D.F, Hadean]",
+                            "winningFaction": "Hadean",
+                            "winner": "F9bomber",
+                            "time": "36:24",
+                            "teamOne": [
+                                "Darkvale",
+                                "Nomad"
+                            ],
+                            "teamTwo": [
+                                "F9mama",
+                                "Bylarge"
+                            ]
+                        }
                     }
                 }
             }
@@ -24894,7 +24949,7 @@
                 ],
                 [
                     "Red Slope",
-                    23
+                    24
                 ],
                 [
                     "Remnant",
@@ -24913,6 +24968,10 @@
                     20
                 ],
                 [
+                    "Giza",
+                    18
+                ],
+                [
                     "Vegan",
                     18
                 ],
@@ -24921,12 +24980,8 @@
                     18
                 ],
                 [
-                    "Giza",
-                    17
-                ],
-                [
                     "Oasis",
-                    16
+                    17
                 ],
                 [
                     "Barren",
@@ -25270,110 +25325,110 @@
                 ]
             ],
             "unique_map_values": [
-                "Stone Circle",
-                "Garden",
-                "Titan",
-                "Finland Daylight",
-                "Oldboy",
-                "Jade Green",
-                "Abuse",
-                "Phoenix",
-                "Throbbing Gristle",
-                "Domain",
-                "Dedux",
-                "Twin Peaks",
-                "Rendon",
-                "Nigeria",
-                "Power Struggle",
-                "Excavation",
-                "Hilo Blues",
-                "Quarry",
-                "Royal Stadium",
-                "Ancient Hills",
-                "Alien Dunes",
-                "Ebola",
-                "Snow Central",
-                "Stack",
-                "Prodigy Ver .2",
-                "Egypt",
+                "Barren",
                 "Moonshroud",
-                "Lunix",
-                "Fort 12C",
-                "Curiosity",
-                "Know Thyself",
-                "Trail",
-                "Abundance",
-                "Amino",
-                "No Mans Land",
-                "Mountain Pass",
-                "Forgotten",
-                "Dune Night",
-                "310",
-                "Rectal",
-                "Ridges",
-                "Trench",
-                "Echelon",
-                "Ogg Vorbis",
-                "Mesa",
-                "Mojave",
-                "Strategy Arena",
-                "Plaza",
-                "Aztec",
-                "Red Slope",
-                "Flooded",
-                "The War",
-                "Marden Warfare",
-                "Iraq",
-                "Lunar",
-                "Ice Age",
-                "Bowl",
-                "Impact",
-                "Middle Wars",
-                "Casius",
+                "Titan",
+                "Quarry",
                 "Hubris",
-                "Insula",
-                "Terron",
-                "Mort's Wasteland",
-                "Scammed",
-                "Island of V8",
-                "Europa Night",
+                "Casius",
+                "Dusk",
+                "Impact",
+                "Toxicity",
+                "Fort 12C",
+                "Power Struggle",
+                "Phoenix",
                 "Quagmire",
-                "Satart",
+                "Aztec",
+                "Trench",
+                "Overlook",
+                "Plaza",
+                "Snow Central",
+                "Excavation",
+                "Abuse",
+                "Curiosity",
+                "Scammed",
                 "Rapemas",
                 "Ancient Outposts",
-                "Toxicity",
-                "Aussault",
-                "Trinity",
+                "Marden Warfare",
+                "Island of V8",
+                "Red Slope",
                 "Dream",
                 "Fever Valley",
-                "Cracked",
-                "Giza",
-                "Revolution",
-                "Oasis",
-                "Ragnarok",
-                "Overlook",
-                "Europa",
-                "Dusk",
                 "Mayhem",
-                "Equinox",
-                "Remnant",
-                "Mountain Top",
+                "Reflex",
+                "Giza",
+                "Iraq",
+                "310",
+                "Insula",
+                "Jade Green",
+                "Finland Daylight",
+                "Terron",
+                "Flooded",
+                "Nigeria",
+                "Twin Peaks",
+                "Bowl",
                 "Sahara",
-                "Barren",
+                "Stone Circle",
+                "Ridges",
+                "Throbbing Gristle",
+                "Europa Night",
+                "Remnant",
+                "Echelon",
                 "Wipeout",
-                "Haven",
+                "Mountain Pass",
+                "Royal Stadium",
+                "Ragnarok",
+                "Cracked",
+                "Rendon",
+                "Oasis",
+                "The War",
                 "Vegan",
+                "Domain",
+                "Mort's Wasteland",
+                "Lunar",
+                "Rectal",
+                "Haven",
+                "Forgotten",
                 "Consciousness",
-                "Reflex"
+                "Oldboy",
+                "Trail",
+                "Prodigy Ver .2",
+                "Europa",
+                "Garden",
+                "Amino",
+                "Mojave",
+                "Mesa",
+                "Ebola",
+                "Equinox",
+                "Ogg Vorbis",
+                "Egypt",
+                "Revolution",
+                "Lunix",
+                "Mountain Top",
+                "Strategy Arena",
+                "Know Thyself",
+                "Stack",
+                "Trinity",
+                "Ancient Hills",
+                "Hilo Blues",
+                "No Mans Land",
+                "Abundance",
+                "Ice Age",
+                "Aussault",
+                "Dune Night",
+                "Satart",
+                "Middle Wars",
+                "Dedux",
+                "Alien Dunes"
             ],
             "commander_list": [
                 [
                     "F9bomber",
-                    130
+                    133
                 ],
                 [
                     "Lithium",
-                    120
+                    121
                 ],
                 [
                     "Darkvale",
@@ -25429,7 +25484,7 @@
                 ],
                 [
                     "Econchump",
-                    22
+                    23
                 ],
                 [
                     "Cyber",
@@ -25440,12 +25495,12 @@
                     19
                 ],
                 [
-                    "X-Triage",
+                    "Monkey",
                     17
                 ],
                 [
-                    "Monkey",
-                    16
+                    "X-Triage",
+                    17
                 ],
                 [
                     "Muffin",
@@ -25566,16 +25621,16 @@
                     7
                 ],
                 [
-                    "F9bomber",
-                    70.0,
-                    130,
-                    91
-                ],
-                [
                     "MAX",
                     70.0,
                     10,
                     7
+                ],
+                [
+                    "F9bomber",
+                    69.92481203007519,
+                    133,
+                    93
                 ],
                 [
                     "Blue Banana",
@@ -25638,16 +25693,16 @@
                     18
                 ],
                 [
-                    "Econchump",
-                    54.54545454545454,
-                    22,
-                    12
-                ],
-                [
                     "VTrider",
                     52.63157894736842,
                     38,
                     20
+                ],
+                [
+                    "Econchump",
+                    52.17391304347826,
+                    23,
+                    12
                 ],
                 [
                     "Herp McDerperson",
@@ -25692,6 +25747,12 @@
                     11
                 ],
                 [
+                    "Monkey",
+                    35.294117647058826,
+                    17,
+                    6
+                ],
+                [
                     "Nomad",
                     34.48275862068966,
                     58,
@@ -25699,8 +25760,8 @@
                 ],
                 [
                     "Lithium",
-                    32.5,
-                    120,
+                    32.231404958677686,
+                    121,
                     39
                 ],
                 [
@@ -25708,12 +25769,6 @@
                     31.57894736842105,
                     19,
                     6
-                ],
-                [
-                    "Monkey",
-                    31.25,
-                    16,
-                    5
                 ],
                 [
                     "Judgeguns",
@@ -25771,20 +25826,20 @@
                 ]
             ],
             "faction_counter": {
-                "I.S.D.F": 567,
-                "Hadean": 178,
-                "Scion": 271
+                "I.S.D.F": 570,
+                "Hadean": 180,
+                "Scion": 272
             },
             "commander_faction_counts": {
                 "Monkey": {
-                    "I.S.D.F": 12,
+                    "I.S.D.F": 13,
                     "Hadean": 2,
                     "Scion": 2
                 },
                 "F9bomber": {
-                    "I.S.D.F": 41,
+                    "I.S.D.F": 42,
                     "Scion": 45,
-                    "Hadean": 44
+                    "Hadean": 46
                 },
                 "Certified Bad Guy": {
                     "I.S.D.F": 48,
@@ -25821,7 +25876,7 @@
                     "Scion": 10
                 },
                 "Lithium": {
-                    "I.S.D.F": 93,
+                    "I.S.D.F": 94,
                     "Hadean": 15,
                     "Scion": 12
                 },
@@ -25887,7 +25942,7 @@
                 },
                 "Econchump": {
                     "I.S.D.F": 18,
-                    "Scion": 4
+                    "Scion": 5
                 },
                 "Maverick": {
                     "I.S.D.F": 16,
@@ -25940,7 +25995,7 @@
                 "F9bomber": {
                     "I.S.D.F": 25,
                     "Scion": 30,
-                    "Hadean": 36
+                    "Hadean": 38
                 },
                 "Certified Bad Guy": {
                     "I.S.D.F": 25,
@@ -25968,7 +26023,7 @@
                     "I.S.D.F": 1
                 },
                 "Monkey": {
-                    "I.S.D.F": 4,
+                    "I.S.D.F": 5,
                     "Scion": 1
                 },
                 "Zack": {
@@ -26082,15 +26137,15 @@
                 [
                     [
                         "Total Time",
-                        "204:00:07"
+                        "206:01:19"
                     ],
                     [
                         "Mean",
-                        "25:36"
+                        "25:41"
                     ],
                     [
                         "Median",
-                        "17:46"
+                        "17:49"
                     ],
                     [
                         "Range",
@@ -26317,21 +26372,22 @@
                 [
                     "June",
                     {
-                        "06.06.26": 4
+                        "06.06.26": 4,
+                        "06.27.26": 3
                     },
                     {
-                        "Day(s) Played": 1
+                        "Day(s) Played": 2
                     },
                     {
-                        "Game(s) Played": 4
+                        "Game(s) Played": 7
                     }
                 ],
                 [
                     {
-                        "Total Days Played": 109
+                        "Total Days Played": 110
                     },
                     {
-                        "Total Games Played": 508
+                        "Total Games Played": 511
                     }
                 ]
             ]
@@ -26340,13 +26396,13 @@
     "processed_data": {
         "processed_map_counts": {
             "Mojave": 65,
-            "Red Slope": 62,
+            "Red Slope": 63,
             "Terron": 55,
             "Remnant": 54,
             "Overlook": 51,
-            "Giza": 41,
+            "Giza": 42,
             "Quagmire": 38,
-            "Oasis": 36,
+            "Oasis": 37,
             "Vegan": 34,
             "Oldboy": 31,
             "Sahara": 26,
@@ -26468,9 +26524,9 @@
             "Trinity": 1
         },
         "processed_most_played_factions": {
-            "I.S.D.F": 1438,
-            "Scion": 578,
-            "Hadean": 490
+            "I.S.D.F": 1441,
+            "Scion": 579,
+            "Hadean": 492
         },
         "processed_commander_faction_counts": {
             "Jabbapop": {
@@ -26482,8 +26538,8 @@
                 "Scion": 4
             },
             "F9bomber": {
-                "I.S.D.F": 95,
-                "Hadean": 144,
+                "I.S.D.F": 96,
+                "Hadean": 146,
                 "Scion": 61
             },
             "VTrider": {
@@ -26555,7 +26611,7 @@
             },
             "Econchump": {
                 "I.S.D.F": 38,
-                "Scion": 8
+                "Scion": 9
             },
             "Domakus": {
                 "Hadean": 15,
@@ -26582,7 +26638,7 @@
                 "Scion": 3
             },
             "Monkey": {
-                "I.S.D.F": 36,
+                "I.S.D.F": 37,
                 "Scion": 15,
                 "Hadean": 5
             },
@@ -26662,7 +26718,7 @@
                 "Hadean": 1
             },
             "Lithium": {
-                "I.S.D.F": 139,
+                "I.S.D.F": 140,
                 "Hadean": 17,
                 "Scion": 13
             },
@@ -26814,9 +26870,9 @@
             ],
             [
                 "F9bomber",
-                63.66666666666667,
-                300,
-                191
+                63.6963696369637,
+                303,
+                193
             ],
             [
                 "Muffin",
@@ -26849,16 +26905,16 @@
                 57
             ],
             [
-                "Econchump",
-                52.17391304347826,
-                46,
-                24
-            ],
-            [
                 "Lamper",
                 51.28205128205128,
                 39,
                 20
+            ],
+            [
+                "Econchump",
+                51.06382978723404,
+                47,
+                24
             ],
             [
                 "M.S",
@@ -26904,9 +26960,9 @@
             ],
             [
                 "Monkey",
-                46.42857142857143,
-                56,
-                26
+                47.368421052631575,
+                57,
+                27
             ],
             [
                 "Herp McDerperson",
@@ -26988,8 +27044,8 @@
             ],
             [
                 "Lithium",
-                31.360946745562128,
-                169,
+                31.176470588235293,
+                170,
                 53
             ],
             [
@@ -27110,7 +27166,7 @@
         "processed_commander_list": [
             [
                 "F9bomber",
-                300
+                303
             ],
             [
                 "VTrider",
@@ -27122,7 +27178,7 @@
             ],
             [
                 "Lithium",
-                169
+                170
             ],
             [
                 "Zack",
@@ -27154,7 +27210,7 @@
             ],
             [
                 "Monkey",
-                56
+                57
             ],
             [
                 "Domakus",
@@ -27166,7 +27222,7 @@
             ],
             [
                 "Econchump",
-                46
+                47
             ],
             [
                 "DD",
@@ -27373,7 +27429,7 @@
             },
             {
                 "name": "Red Slope",
-                "count": 62,
+                "count": 63,
                 "category": "Very Popular"
             },
             {
@@ -27393,7 +27449,7 @@
             },
             {
                 "name": "Giza",
-                "count": 41,
+                "count": 42,
                 "category": "Very Popular"
             },
             {
@@ -27403,7 +27459,7 @@
             },
             {
                 "name": "Oasis",
-                "count": 36,
+                "count": 37,
                 "category": "Very Popular"
             },
             {
@@ -28015,19 +28071,19 @@
             [
                 {
                     "Player": "Nomad",
-                    "Total Time": "164:11:57",
+                    "Total Time": "164:48:21",
                     "Status": "Active",
-                    "Last Played": "2026-06-06",
-                    "Factions Played": "[I.S.D.F : 265], [Scion : 98], [Hadean : 60]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 266], [Scion : 98], [Hadean : 60]"
                 }
             ],
             [
                 {
                     "Player": "Judgeguns",
-                    "Total Time": "120:06:40",
+                    "Total Time": "121:31:28",
                     "Status": "Active",
-                    "Last Played": "2026-05-31",
-                    "Factions Played": "[I.S.D.F : 177], [Scion : 84], [Hadean : 61]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 178], [Scion : 85], [Hadean : 61]"
                 }
             ],
             [
@@ -28060,19 +28116,19 @@
             [
                 {
                     "Player": "Darkvale",
-                    "Total Time": "85:32:30",
+                    "Total Time": "86:08:54",
                     "Status": "Active",
-                    "Last Played": "2026-05-26",
-                    "Factions Played": "[I.S.D.F : 134], [Scion : 52], [Hadean : 33]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 135], [Scion : 52], [Hadean : 33]"
                 }
             ],
             [
                 {
                     "Player": "Domakus",
-                    "Total Time": "79:21:04",
+                    "Total Time": "79:36:12",
                     "Status": "Active",
-                    "Last Played": "2026-06-06",
-                    "Factions Played": "[I.S.D.F : 117], [Scion : 57], [Hadean : 40]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 118], [Scion : 57], [Hadean : 40]"
                 }
             ],
             [
@@ -28096,10 +28152,10 @@
             [
                 {
                     "Player": "Econchump",
-                    "Total Time": "59:16:02",
+                    "Total Time": "59:31:10",
                     "Status": "Active",
-                    "Last Played": "2026-06-06",
-                    "Factions Played": "[I.S.D.F : 76], [Scion : 52], [Hadean : 15]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 77], [Scion : 52], [Hadean : 15]"
                 }
             ],
             [
@@ -28123,10 +28179,10 @@
             [
                 {
                     "Player": "Bylarge",
-                    "Total Time": "50:22:37",
+                    "Total Time": "51:14:09",
                     "Status": "Active",
-                    "Last Played": "2026-05-31",
-                    "Factions Played": "[I.S.D.F : 68], [Scion : 31], [Hadean : 21]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 69], [Scion : 31], [Hadean : 22]"
                 }
             ],
             [
@@ -28159,10 +28215,10 @@
             [
                 {
                     "Player": "Monkey",
-                    "Total Time": "39:17:19",
+                    "Total Time": "40:26:59",
                     "Status": "Active",
-                    "Last Played": "2026-05-31",
-                    "Factions Played": "[I.S.D.F : 66], [Scion : 31], [Hadean : 14]"
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 66], [Scion : 32], [Hadean : 14]"
                 }
             ],
             [
@@ -28222,10 +28278,10 @@
             [
                 {
                     "Player": "F9mama",
-                    "Total Time": "21:56:09",
-                    "Status": "Semi-Active",
-                    "Last Played": "2026-01-28",
-                    "Factions Played": "[I.S.D.F : 29], [Hadean : 12], [Scion : 12]"
+                    "Total Time": "23:57:21",
+                    "Status": "Active",
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 30], [Hadean : 14], [Scion : 12]"
                 }
             ],
             [
@@ -28257,20 +28313,20 @@
             ],
             [
                 {
+                    "Player": "SaggiSponge",
+                    "Total Time": "14:01:03",
+                    "Status": "Active",
+                    "Last Played": "2026-06-27",
+                    "Factions Played": "[I.S.D.F : 15], [Scion : 9], [Hadean : 7]"
+                }
+            ],
+            [
+                {
                     "Player": "Ultimate",
                     "Total Time": "12:47:34",
                     "Status": "Active",
                     "Last Played": "2026-05-26",
                     "Factions Played": "[I.S.D.F : 30], [Hadean : 6], [Scion : 6]"
-                }
-            ],
-            [
-                {
-                    "Player": "SaggiSponge",
-                    "Total Time": "12:36:15",
-                    "Status": "Active",
-                    "Last Played": "2026-05-26",
-                    "Factions Played": "[I.S.D.F : 14], [Scion : 9], [Hadean : 6]"
                 }
             ],
             [
@@ -28794,16 +28850,16 @@
             [
                 {
                     "Commander": "F9bomber",
-                    "Total Time": "95:08:55",
-                    "Average Time": "26:55",
+                    "Total Time": "97:10:07",
+                    "Average Time": "27:07",
                     "First Year on Record": 2024
                 }
             ],
             [
                 {
                     "Commander": "Lithium",
-                    "Total Time": "68:27:20",
-                    "Average Time": "24:53",
+                    "Total Time": "69:03:44",
+                    "Average Time": "24:57",
                     "First Year on Record": 2025
                 }
             ],
@@ -28898,8 +28954,8 @@
             [
                 {
                     "Commander": "Monkey",
-                    "Total Time": "15:47:36",
-                    "Average Time": "20:36",
+                    "Total Time": "16:02:44",
+                    "Average Time": "20:29",
                     "First Year on Record": 2024
                 }
             ],
@@ -28929,18 +28985,18 @@
             ],
             [
                 {
-                    "Commander": "Vivify",
-                    "Total Time": "11:51:58",
-                    "Average Time": "23:43",
-                    "First Year on Record": 2025
+                    "Commander": "Econchump",
+                    "Total Time": "12:01:55",
+                    "Average Time": "20:03",
+                    "First Year on Record": 2024
                 }
             ],
             [
                 {
-                    "Commander": "Econchump",
-                    "Total Time": "10:52:15",
-                    "Average Time": "18:38",
-                    "First Year on Record": 2024
+                    "Commander": "Vivify",
+                    "Total Time": "11:51:58",
+                    "Average Time": "23:43",
+                    "First Year on Record": 2025
                 }
             ],
             [
@@ -31528,6 +31584,12 @@
                 "Lithium": 1,
                 "Herp McDerperson": 1,
                 "Cyber": 1
+            },
+            "06.27.26": {
+                "F9bomber": 3,
+                "Monkey": 1,
+                "Econchump": 1,
+                "Lithium": 1
             }
         },
         "processed_faction_favorite_maps": {
@@ -31714,7 +31776,7 @@
                 "basetoBase": 1280
             },
             "Oasis": {
-                "totalGames": 27,
+                "totalGames": 28,
                 "favoredFaction": "Hadean",
                 "factions": {
                     "I.S.D.F": {
@@ -31723,14 +31785,14 @@
                         "winRate": 0.471
                     },
                     "Hadean": {
-                        "games": 14,
-                        "wins": 11,
-                        "winRate": 0.786
+                        "games": 15,
+                        "wins": 12,
+                        "winRate": 0.8
                     },
                     "Scion": {
-                        "games": 23,
+                        "games": 24,
                         "wins": 8,
-                        "winRate": 0.348
+                        "winRate": 0.333
                     }
                 },
                 "pools": 7,
@@ -31740,18 +31802,18 @@
                 "basetoBase": 1216
             },
             "Red Slope": {
-                "totalGames": 35,
+                "totalGames": 36,
                 "favoredFaction": "Scion",
                 "factions": {
                     "Hadean": {
-                        "games": 20,
-                        "wins": 11,
-                        "winRate": 0.55
+                        "games": 21,
+                        "wins": 12,
+                        "winRate": 0.571
                     },
                     "I.S.D.F": {
-                        "games": 29,
+                        "games": 30,
                         "wins": 7,
-                        "winRate": 0.241
+                        "winRate": 0.233
                     },
                     "Scion": {
                         "games": 21,
@@ -32283,9 +32345,9 @@
                     },
                     {
                         "player": "F9mama",
-                        "matches": 10,
-                        "wins": 9,
-                        "win_rate": 0.9
+                        "matches": 13,
+                        "wins": 12,
+                        "win_rate": 0.92
                     },
                     {
                         "player": "Judgeguns",
@@ -32301,9 +32363,9 @@
                     },
                     {
                         "player": "Bylarge",
-                        "matches": 17,
-                        "wins": 15,
-                        "win_rate": 0.88
+                        "matches": 19,
+                        "wins": 17,
+                        "win_rate": 0.89
                     },
                     {
                         "player": "Muffin",
@@ -32337,9 +32399,9 @@
                     },
                     {
                         "player": "Econchump",
-                        "matches": 15,
-                        "wins": 12,
-                        "win_rate": 0.8
+                        "matches": 16,
+                        "wins": 13,
+                        "win_rate": 0.81
                     },
                     {
                         "player": "Scorpion",
@@ -32486,16 +32548,16 @@
                         "win_rate": 0.5
                     },
                     {
+                        "player": "SaggiSponge",
+                        "matches": 5,
+                        "wins": 2,
+                        "win_rate": 0.4
+                    },
+                    {
                         "player": "Zack",
                         "matches": 12,
                         "wins": 4,
                         "win_rate": 0.33
-                    },
-                    {
-                        "player": "SaggiSponge",
-                        "matches": 4,
-                        "wins": 1,
-                        "win_rate": 0.25
                     },
                     {
                         "player": "Pernicious_lunch",
@@ -32519,9 +32581,9 @@
                     },
                     {
                         "player": "F9mama",
-                        "matches": 10,
-                        "wins": 9,
-                        "win_rate": 0.9
+                        "matches": 13,
+                        "wins": 12,
+                        "win_rate": 0.92
                     },
                     {
                         "player": "Judgeguns",
@@ -32537,9 +32599,9 @@
                     },
                     {
                         "player": "Bylarge",
-                        "matches": 17,
-                        "wins": 15,
-                        "win_rate": 0.88
+                        "matches": 19,
+                        "wins": 17,
+                        "win_rate": 0.89
                     },
                     {
                         "player": "Muffin",
@@ -32573,9 +32635,9 @@
                     },
                     {
                         "player": "Econchump",
-                        "matches": 15,
-                        "wins": 12,
-                        "win_rate": 0.8
+                        "matches": 16,
+                        "wins": 13,
+                        "win_rate": 0.81
                     },
                     {
                         "player": "Scorpion",
@@ -33913,6 +33975,12 @@
                         "win_rate": 1.0
                     },
                     {
+                        "player": "SaggiSponge",
+                        "matches": 1,
+                        "wins": 1,
+                        "win_rate": 1.0
+                    },
+                    {
                         "player": "MAX",
                         "matches": 5,
                         "wins": 4,
@@ -33943,6 +34011,12 @@
                         "win_rate": 0.67
                     },
                     {
+                        "player": "Domakus",
+                        "matches": 3,
+                        "wins": 2,
+                        "win_rate": 0.67
+                    },
+                    {
                         "player": "Nomad",
                         "matches": 11,
                         "wins": 7,
@@ -33968,9 +34042,9 @@
                     },
                     {
                         "player": "Judgeguns",
-                        "matches": 8,
-                        "wins": 4,
-                        "win_rate": 0.5
+                        "matches": 9,
+                        "wins": 5,
+                        "win_rate": 0.56
                     },
                     {
                         "player": "Herp McDerperson",
@@ -33980,12 +34054,6 @@
                     },
                     {
                         "player": "Sev",
-                        "matches": 2,
-                        "wins": 1,
-                        "win_rate": 0.5
-                    },
-                    {
-                        "player": "Domakus",
                         "matches": 2,
                         "wins": 1,
                         "win_rate": 0.5
@@ -34060,9 +34128,9 @@
                     },
                     {
                         "player": "Judgeguns",
-                        "matches": 8,
-                        "wins": 4,
-                        "win_rate": 0.5
+                        "matches": 9,
+                        "wins": 5,
+                        "win_rate": 0.56
                     },
                     {
                         "player": "Econchump",
@@ -37043,12 +37111,6 @@
                         "win_rate": 0.6
                     },
                     {
-                        "player": "Judgeguns",
-                        "matches": 8,
-                        "wins": 4,
-                        "win_rate": 0.5
-                    },
-                    {
                         "player": "F9mama",
                         "matches": 2,
                         "wins": 1,
@@ -37061,6 +37123,12 @@
                         "win_rate": 0.5
                     },
                     {
+                        "player": "Judgeguns",
+                        "matches": 9,
+                        "wins": 4,
+                        "win_rate": 0.44
+                    },
+                    {
                         "player": "Blue Banana",
                         "matches": 4,
                         "wins": 1,
@@ -37068,6 +37136,12 @@
                     },
                     {
                         "player": "Ultimate",
+                        "matches": 1,
+                        "wins": 0,
+                        "win_rate": 0.0
+                    },
+                    {
+                        "player": "Monkey",
                         "matches": 1,
                         "wins": 0,
                         "win_rate": 0.0
@@ -37118,9 +37192,9 @@
                     },
                     {
                         "player": "Judgeguns",
-                        "matches": 8,
+                        "matches": 9,
                         "wins": 4,
-                        "win_rate": 0.5
+                        "win_rate": 0.44
                     }
                 ]
             },
@@ -38126,12 +38200,6 @@
                         "win_rate": 0.68
                     },
                     {
-                        "player": "Darkvale",
-                        "matches": 24,
-                        "wins": 16,
-                        "win_rate": 0.67
-                    },
-                    {
                         "player": "Certified Bad Guy",
                         "matches": 18,
                         "wins": 12,
@@ -38150,6 +38218,12 @@
                         "win_rate": 0.67
                     },
                     {
+                        "player": "Darkvale",
+                        "matches": 25,
+                        "wins": 16,
+                        "win_rate": 0.64
+                    },
+                    {
                         "player": "Monkey",
                         "matches": 11,
                         "wins": 7,
@@ -38163,9 +38237,9 @@
                     },
                     {
                         "player": "Nomad",
-                        "matches": 48,
+                        "matches": 49,
                         "wins": 29,
-                        "win_rate": 0.6
+                        "win_rate": 0.59
                     },
                     {
                         "player": "Scorpion",
@@ -38308,12 +38382,6 @@
                         "win_rate": 0.68
                     },
                     {
-                        "player": "Darkvale",
-                        "matches": 24,
-                        "wins": 16,
-                        "win_rate": 0.67
-                    },
-                    {
                         "player": "Certified Bad Guy",
                         "matches": 18,
                         "wins": 12,
@@ -38324,6 +38392,12 @@
                         "matches": 12,
                         "wins": 8,
                         "win_rate": 0.67
+                    },
+                    {
+                        "player": "Darkvale",
+                        "matches": 25,
+                        "wins": 16,
+                        "win_rate": 0.64
                     },
                     {
                         "player": "Monkey",
@@ -38339,9 +38413,9 @@
                     },
                     {
                         "player": "Nomad",
-                        "matches": 48,
+                        "matches": 49,
                         "wins": 29,
-                        "win_rate": 0.6
+                        "win_rate": 0.59
                     },
                     {
                         "player": "Scorpion",
@@ -40306,5 +40380,5 @@
             ]
         }
     },
-    "last_updated": "2026/06/24 05:52AM UTC"
+    "last_updated": "2026/06/28 04:29AM UTC"
 }
