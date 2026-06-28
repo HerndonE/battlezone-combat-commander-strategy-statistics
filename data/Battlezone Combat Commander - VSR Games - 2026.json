@@ -10040,6 +10040,61 @@
 						"Certified Bad Guy"
 					]
 				}
+			},
+			"06.27.26": {
+				"Giza": {
+					"date": "06.27.26",
+					"map": "Giza",
+					"commanders": "F9bomber vs Monkey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Monkey",
+					"time": "15:08",
+					"teamOne": [
+						"F9mama",
+						"Econchump",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Domakus",
+						"SaggiSponge",
+						"Judgeguns"
+					]
+				},
+				"Oasis": {
+					"date": "06.27.26",
+					"map": "Oasis",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:09:40",
+					"teamOne": [
+						"Monkey",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"F9mama"
+					]
+				},
+				"Red Slope": {
+					"date": "06.27.26",
+					"map": "Red Slope",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "36:24",
+					"teamOne": [
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"F9mama",
+						"Bylarge"
+					]
+				}
 			}
 		}
 	}
