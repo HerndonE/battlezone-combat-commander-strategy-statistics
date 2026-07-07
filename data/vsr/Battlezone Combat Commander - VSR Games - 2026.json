@@ -10099,9 +10099,9 @@
 		},
 		"July": {
 			"07.05.26": {
-				"Quarry 2": {
+				"Quarry": {
 					"date": "07.05.26",
-					"map": "Quarry 2",
+					"map": "Quarry",
 					"commanders": "Nomad vs F9bomber",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Hadean",
