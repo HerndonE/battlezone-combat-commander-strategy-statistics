@@ -10096,6 +10096,25 @@
 					]
 				}
 			}
+		},
+		"July": {
+			"07.05.26": {
+				"Quarry 2": {
+					"date": "07.05.26",
+					"map": "Quarry 2",
+					"commanders": "Nomad vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "29:45",
+					"teamOne": [
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Judgeguns"
+					]
+				}
+			}
 		}
 	}
 }
