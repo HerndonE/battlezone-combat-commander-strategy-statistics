@@ -10114,6 +10114,77 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"07.18.26": {
+				"Remnant": {
+					"date": "07.18.26",
+					"map": "Remnant",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "23:18",
+					"teamOne": [
+						"Bylarge",
+						"Muerte",
+						"Econchump"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Nomad",
+						"Darkvale"
+					],
+					"teamOneStraggler": [
+						"Judgeguns"
+					],
+					"teamTwoStraggler": [
+						"sahd0w",
+						"Sev"
+					]
+				},
+				"Excavation": {
+					"date": "07.18.26",
+					"map": "Excavation",
+					"commanders": "Sev vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "21:32",
+					"teamOne": [
+						"Darkvale",
+						"Judgeguns",
+						"Nomad",
+						"Econchump"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Lithium",
+						"F9bomber",
+						"Bylarge"
+					]
+				},
+				"Oldboy": {
+					"date": "07.18.26",
+					"map": "Oldboy",
+					"commanders": "Muerte vs Sev",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Sev",
+					"time": "1:31:31",
+					"teamOne": [
+						"Lithium",
+						"VTrider",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Herp McDerperson"
+					],
+					"teamTwoStraggler": [
+						"F9bomber",
+						"Darkvale"
+					]
+				}
 			}
 		}
 	}
