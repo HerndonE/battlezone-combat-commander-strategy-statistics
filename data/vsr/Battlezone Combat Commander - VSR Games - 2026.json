@@ -10185,6 +10185,23 @@
 						"Darkvale"
 					]
 				}
+			},
+			"07.19.26": {
+				"Ice Age": {
+					"date": "07.19.26",
+					"map": "Ice Age",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "17:11",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"VTrider"
+					]
+				}
 			}
 		}
 	}
