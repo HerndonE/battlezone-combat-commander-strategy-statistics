@@ -3,5 +3,5 @@
 // For local development against the test sheet, copy js/env.local.example.js
 // to js/env.local.js (gitignored) and submit.js will prefer it instead.
 export const ENV = {
-  SUBMISSION_ENDPOINT: "https://script.google.com/macros/s/AKfycbxR_LhBqdEK1eHtXA7SQ1f57pAnebl1ihZADlwn3rqPK3wRKaOjW5DrTxBFAJnz1GK4/exec",
+  SUBMISSION_ENDPOINT: "https://script.google.com/macros/s/AKfycbwmAlpt-VjmBtEI5Za2LfGMvywgAjgveFCnPLpgwk7VxRHjyswvS_sQyRP7p-mNhSJH/exec",
 };
