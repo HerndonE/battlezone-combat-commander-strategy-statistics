@@ -1,0 +1,108 @@
+body.convert-page {
+  background-color: #111111;
+  color: #eeeeee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.convert-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.convert-container h1 {
+  font-family: inherit;
+  color: #4cc9f0;
+}
+
+.convert-intro {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.convert-steps {
+  color: #ccc;
+  line-height: 1.8;
+}
+
+code {
+  background: #222;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
+
+.convert-card {
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-top: 24px;
+}
+
+.file-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+.warnings {
+  margin-top: 14px;
+  background: #3a1414;
+  border: 1px solid #ff6b6b60;
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: #ff9b9b;
+  font-size: 0.9em;
+}
+
+.warnings ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+
+.download-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.download-row .classic-button {
+  border: none;
+  cursor: pointer;
+  font-size: 0.95em;
+}
+
+.download-row .classic-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.preview-details {
+  margin-top: 18px;
+  color: #aaa;
+}
+
+.preview-details summary {
+  cursor: pointer;
+  color: #4cc9f0;
+}
+
+#json-preview {
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 6px;
+  max-height: 400px;
+  overflow: auto;
+  font-size: 0.8em;
+}

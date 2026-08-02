@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="convert-submissions.css">
+    <title>bz2stats.us: Submission Converter (internal)</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  </head>
+  <body class="convert-page">
+    <main class="convert-container">
+      <h1>Submission Converter</h1>
+      <p class="convert-intro">
+        Internal tool — not linked from the site. Turns the <strong>Approved</strong> rows in
+        <code>Game Submissions.xlsx</code> into JSON shaped like the existing VSR/Stock data files.
+        Nothing here uploads anywhere; the file is only read in your browser.
+      </p>
+
+      <ol class="convert-steps">
+        <li>In the Google Sheet, set each row's <strong>Approval Status</strong> to Approved or Rejected.</li>
+        <li>File &rarr; Download &rarr; Microsoft Excel (.xlsx).</li>
+        <li>Load that file below.</li>
+        <li>Download the JSON for whichever mod(s) have approved rows.</li>
+        <li>Merge the downloaded JSON into the right year's file under <code>data/vsr/</code> or
+          <code>data/stock/</code> (it's keyed by month &rarr; date &rarr; map, same as those files), then run
+          <code>python scripts/main.py</code>.</li>
+      </ol>
+
+      <div class="convert-card">
+        <label class="file-label" for="file-input">Game Submissions.xlsx</label>
+        <input type="file" id="file-input" accept=".xlsx,.xls">
+      </div>
+
+      <div class="convert-card" id="summary-card" hidden>
+        <h2>Summary</h2>
+        <ul id="summary-list" class="summary-list"></ul>
+        <div id="warnings" class="warnings" hidden></div>
+      </div>
+
+      <div class="convert-card" id="download-card" hidden>
+        <h2>Download</h2>
+        <div class="download-row">
+          <button type="button" class="classic-button" id="download-vsr" disabled>Download VSR JSON</button>
+          <button type="button" class="classic-button" id="download-stock" disabled>Download Stock JSON</button>
+        </div>
+        <details class="preview-details">
+          <summary>Preview combined JSON</summary>
+          <pre id="json-preview"></pre>
+        </details>
+      </div>
+    </main>
+    <script src="convert-submissions.js"></script>
+  </body>
+</html>

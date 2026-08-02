@@ -1,0 +1,250 @@
+.submit-page {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  flex: 1;
+}
+
+.submit-hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit-hero h1 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.submit-hero p {
+  color: #cccccc;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
+.submit-card,
+.thank-you-card {
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  border: 2px solid #444;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00000080;
+  padding: 30px;
+}
+
+.form-section {
+  border: none;
+  border-top: 1px solid #444;
+  padding: 20px 0 0;
+  margin: 0 0 20px;
+}
+
+.form-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.form-section legend {
+  padding: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4cc9f0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+.optional-tag {
+  color: #999;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.85em;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-row.two-col > .form-field {
+  flex: 1 1 50%;
+  min-width: 0;
+}
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.92em;
+  color: #dddddd;
+}
+
+.field-hint {
+  margin: 6px 0 0;
+  font-size: 0.82em;
+  color: #999;
+  line-height: 1.4;
+}
+
+.form-error {
+  color: #ff6b6b;
+  background: #3a1414;
+  border: 1px solid #ff6b6b60;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.9em;
+  margin: 0 0 16px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="url"],
+input[type="file"],
+select {
+  width: 100%;
+  background: #111111;
+  border: 1px solid #555;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 12px;
+  font-size: 0.95em;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+select:focus {
+  outline: none;
+  border-color: #b5179e;
+  box-shadow: 0 0 0 2px #b5179e40;
+}
+
+select {
+  appearance: auto;
+}
+
+.thug-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.pill-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pill-option {
+  background: #111111;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.pill-option:hover {
+  border-color: #b5179e;
+}
+
+.pill-option.selected {
+  background-color: #b5179e;
+  border-color: #b5179e;
+  color: #ffffff;
+}
+
+.checkbox-field {
+  margin-top: 20px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #ccc;
+  font-size: 0.85em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  accent-color: #b5179e;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-actions .classic-button {
+  width: 100%;
+  max-width: 260px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.form-actions .classic-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.field-invalid {
+  border-color: #ff6b6b !important;
+}
+
+.thank-you-card {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.thank-you-icon {
+  font-size: 3rem;
+  color: #4cc9f0;
+  text-shadow: 0 0 20px #4cc9f060;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.thank-you-card h2 {
+  font-family: customfont;
+  font-size: 1.8em;
+  margin: 0 0 12px;
+}
+
+.thank-you-card p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .form-row.two-col {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .thug-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .submit-card,
+  .thank-you-card {
+    padding: 20px;
+  }
+}
