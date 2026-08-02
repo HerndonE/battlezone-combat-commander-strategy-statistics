@@ -14,6 +14,15 @@
 // Row values are matched to the sheet's header row (row 1) by name, so
 // column order/extra columns (e.g. a leftover "Match Length" column) don't
 // need to match this script exactly.
+//
+// Discord notifications:
+//   To get pinged in Discord whenever a new submission comes in, create a
+//   webhook in your Discord channel (Channel Settings > Integrations >
+//   Webhooks > New Webhook, then Copy Webhook URL), then in the Apps Script
+//   editor go to Project Settings > Script Properties and add a property
+//   named DISCORD_WEBHOOK_URL with that URL as the value. Do this on both
+//   the test and production Sheets. If the property is left unset, no
+//   notification is sent (and submissions still succeed normally).
 
 const SHEET_NAME = "Submissions";
 const SCREENSHOT_FOLDER_NAME = "bz2stats submission screenshots";
@@ -32,7 +41,13 @@ function doPost(e) {
       .getValues()[0]
       .map((h) => String(h).trim());
 
-    sheet.appendRow(buildRow(headers, payload));
+    const screenshotLink =
+      payload.verification && payload.verification.type === "image" && payload.verification.image
+        ? saveScreenshot(payload.verification.image)
+        : "";
+
+    sheet.appendRow(buildRow(headers, payload, screenshotLink));
+    notifyDiscord(payload, screenshotLink);
 
     return jsonResponse({ ok: true });
   } catch (err) {
@@ -46,15 +61,12 @@ function doGet() {
   return jsonResponse({ ok: true, message: "bz2stats submission endpoint is live." });
 }
 
-function buildRow(headers, payload) {
+function buildRow(headers, payload, screenshotLink) {
   const teamOne = payload.teamOne || {};
   const teamTwo = payload.teamTwo || {};
   const thugsOne = teamOne.thugs || [];
   const thugsTwo = teamTwo.thugs || [];
   const verification = payload.verification || {};
-
-  const screenshotLink =
-    verification.type === "image" && verification.image ? saveScreenshot(verification.image) : "";
 
   const values = {
     "Timestamp": new Date(),
@@ -95,6 +107,60 @@ function saveScreenshot(image) {
   const file = folder.createFile(blob);
   file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
   return file.getUrl();
+}
+
+function notifyDiscord(payload, screenshotLink) {
+  const webhookUrl = PropertiesService.getScriptProperties().getProperty("DISCORD_WEBHOOK_URL");
+  if (!webhookUrl) return;
+
+  const teamOne = payload.teamOne || {};
+  const teamTwo = payload.teamTwo || {};
+  const verification = payload.verification || {};
+  const winner = payload.winner === "team1" ? "Team 1" : payload.winner === "team2" ? "Team 2" : "Unknown";
+
+  const verificationLink =
+    verification.type === "youtube" && verification.youtubeUrl
+      ? verification.youtubeUrl
+      : screenshotLink || "";
+
+  const fields = [
+    { name: "Mod", value: payload.mod || "Unknown", inline: true },
+    { name: "Map", value: payload.map || "Unknown", inline: true },
+    { name: "Winner", value: winner, inline: true },
+    { name: "Team 1", value: teamOne.faction ? teamOne.faction + " — " + (teamOne.commander || "?") : "Unknown", inline: true },
+    { name: "Team 2", value: teamTwo.faction ? teamTwo.faction + " — " + (teamTwo.commander || "?") : "Unknown", inline: true },
+  ];
+
+  if (verificationLink) {
+    fields.push({ name: "Verification", value: verificationLink, inline: false });
+  }
+
+  const body = {
+    embeds: [
+      {
+        title: "New match submission",
+        description: payload.submittedBy ? "Submitted by " + payload.submittedBy : undefined,
+        fields: fields,
+        color: 5814783,
+      },
+    ],
+  };
+
+  try {
+    const response = UrlFetchApp.fetch(webhookUrl, {
+      method: "post",
+      contentType: "application/json",
+      payload: JSON.stringify(body),
+      muteHttpExceptions: true,
+    });
+    const code = response.getResponseCode();
+    if (code < 200 || code >= 300) {
+      Logger.log("Discord webhook returned " + code + ": " + response.getContentText());
+    }
+  } catch (err) {
+    // Don't let a Discord outage fail the submission.
+    Logger.log("Discord webhook threw: " + err);
+  }
 }
 
 function getOrCreateFolder(name) {
