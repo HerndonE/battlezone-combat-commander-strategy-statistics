@@ -10202,6 +10202,59 @@
 						"VTrider"
 					]
 				}
+			},
+			"07.31.26": {
+				"Overlook": {
+					"date": "07.31.26",
+					"map": "Overlook",
+					"commanders": "Snake vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "15:55",
+					"teamOne": [
+						"Hunk",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Nozza34"
+					]
+				},
+				"Mojave": {
+					"date": "07.31.26",
+					"map": "Mojave",
+					"commanders": "Snake vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "23:16",
+					"teamOne": [
+						"Rogue"
+					],
+					"teamTwo": [
+						"Hunk",
+						"Lithium",
+						"Nozza34"
+					]
+				},
+				"Giza": {
+					"date": "07.31.26",
+					"map": "Giza",
+					"commanders": "Snake vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Snake",
+					"time": "32:34",
+					"teamOne": [
+						"Nomad"
+					],
+					"teamTwo": [
+						"Hunk",
+						"Nozza34",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
