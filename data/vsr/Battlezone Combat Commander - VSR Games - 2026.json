@@ -10230,7 +10230,7 @@
 					"winner": "F9bomber",
 					"time": "23:16",
 					"teamOne": [
-						"Rogue"
+						"Nomad"
 					],
 					"teamTwo": [
 						"Hunk",
@@ -10253,6 +10253,106 @@
 						"Hunk",
 						"Nozza34",
 						"F9bomber"
+					]
+				}
+			}
+		},
+		"August": {
+			"08.02.26": {
+				"Titan": {
+					"date": "08.02.26",
+					"map": "Titan",
+					"commanders": "Snake vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "18:14",
+					"teamOne": [
+						"Muffin"
+					],
+					"teamTwo": [
+						"Sev",
+						"Econchump"
+					]
+				},
+				"Mountain Top": {
+					"date": "08.02.26",
+					"map": "Mountain Top",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "17:51",
+					"teamOne": [
+						"Snake",
+						"Monkey",
+						"Muffin",
+						"Nozza34"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"Domakus",
+						"Lithium"
+					]
+				},
+				"Europa Night": {
+					"date": "08.02.26",
+					"map": "Europa Night",
+					"commanders": "Econchump vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "10:47",
+					"teamOne": [
+						"Snake",
+						"Monkey",
+						"Muffin",
+						"Nozza34"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"Domakus",
+						"Lithium"
+					]
+				},
+				"Mountain Pass": {
+					"date": "08.02.26",
+					"map": "Mountain Pass",
+					"commanders": "Lithium vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "23:11",
+					"teamOne": [
+						"Hunk",
+						"F9bomber",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Judgeguns",
+						"Domakus"
+					]
+				},
+				"Excavation": {
+					"date": "08.02.26",
+					"map": "Excavation",
+					"commanders": "Lithium vs Sev",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "15:47",
+					"teamOne": [
+						"Hunk",
+						"F9bomber",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Judgeguns",
+						"Domakus"
 					]
 				}
 			}
