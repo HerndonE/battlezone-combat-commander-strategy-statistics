@@ -10355,6 +10355,47 @@
 						"Domakus"
 					]
 				}
+			},
+			"08.05.26": {
+				"Fort 12C": {
+					"date": "08.05.26",
+					"map": "Fort 12C",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "16:02",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Nomad",
+						"Monkey"
+					],
+					"teamTwo": [
+						"Sev",
+						"SaggiSponge",
+						"Cloaket"
+					]
+				},
+				"Cracked": {
+					"date": "08.05.26",
+					"map": "Cracked",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "14:27",
+					"teamOne": [
+						"Sev",
+						"Judgeguns",
+						"Monkey"
+					],
+					"teamTwo": [
+						"SaggiSponge",
+						"Nomad",
+						"Cloaket"
+					]
+				}
 			}
 		}
 	}
