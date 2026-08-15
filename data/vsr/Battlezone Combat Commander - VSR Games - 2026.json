@@ -10396,6 +10396,284 @@
 						"Cloaket"
 					]
 				}
+			},
+			"08.08.26": {
+				"Island of V8": {
+					"date": "08.08.26",
+					"map": "Island of V8",
+					"commanders": "Darkvale vs Sev",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "16:39",
+					"teamOne": [
+						"F9bomber",
+						"F9mama",
+						"Nozza34",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Muffin",
+						"Nomad",
+						"General BlackDragon"
+					]
+				},
+				"Iraq": {
+					"date": "08.08.26",
+					"map": "Iraq",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "15:57",
+					"teamOne": [
+						"Judgeguns",
+						"Sev",
+						"SaggiSponge",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Muffin",
+						"F9mama",
+						"Nomad"
+					]
+				},
+				"Bowl": {
+					"date": "08.08.26",
+					"map": "Bowl",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "8:18",
+					"teamOne": [
+						"VTrider",
+						"F9mama",
+						"SaggiSponge"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Muffin",
+						"Judgeguns"
+					]
+				},
+				"Tempest": {
+					"date": "08.08.26",
+					"map": "Tempest",
+					"commanders": "F9bomber vs Lamper",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "15:54",
+					"teamOne": [
+						"Sev",
+						"SaggiSponge",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Muffin",
+						"Judgeguns",
+						"Monkey"
+					]
+				},
+				"Quarry": {
+					"date": "08.08.26",
+					"map": "Quarry",
+					"commanders": "Darkvale vs SaggiSponge",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "SaggiSponge",
+					"time": "22:47",
+					"teamOne": [
+						"Muffin",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Monkey"
+					]
+				}
+			},
+			"08.10.26": {
+				"Forgotten": {
+					"date": "08.10.26",
+					"map": "Forgotten",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "15:49",
+					"teamOne": [
+						"Domakus",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Sev",
+						"Judgeguns"
+					]
+				},
+				"Mojave": {
+					"date": "08.10.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "9:12",
+					"teamOne": [
+						"Domakus",
+						"Certified Bad Guy",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"F9bomber"
+					]
+				},
+				"Mojave_1": {
+					"date": "08.10.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Darkvale",
+					"time": "33:35",
+					"teamOne": [
+						"Domakus",
+						"Certified Bad Guy",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns",
+						"F9bomber"
+					]
+				},
+				"310": {
+					"date": "08.10.26",
+					"map": "310",
+					"commanders": "SaggiSponge vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "SaggiSponge",
+					"time": "15:04",
+					"teamOne": [
+						"Nomad",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Maverick",
+						"judgeguns"
+					]
+				},
+				"Cracked": {
+					"date": "08.10.26",
+					"map": "Cracked",
+					"commanders": "SaggiSponge vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "20:03",
+					"teamOne": [
+						"Maverick",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Certified Bad Guy"
+					]
+				}
+			},
+			"08.12.26": {
+				"Iraq": {
+					"date": "08.12.26",
+					"map": "Iraq",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "37:04",
+					"teamOne": [
+						"Nomad",
+						"Sev",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"Lamper",
+						"Muerte"
+					]
+				},
+				"Vegan": {
+					"date": "08.12.26",
+					"map": "Vegan",
+					"commanders": "Domakus vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "9:45",
+					"teamOne": [
+						"Lithium",
+						"Sev",
+						"Muffin",
+						"Lamper"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Lunar": {
+					"date": "08.12.26",
+					"map": "Lunar",
+					"commanders": "Domakus vs Muerte",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "12:08",
+					"teamOne": [
+						"Lithium",
+						"Sev",
+						"Muffin",
+						"Lamper"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Remnant": {
+					"date": "08.12.26",
+					"map": "Remnant",
+					"commanders": "Sev vs Muerte",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "27:53",
+					"teamOne": [
+						"Lithium",
+						"Lamper",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Domakus",
+						"Muffin",
+						"Nomad"
+					]
+				}
 			}
 		}
 	}
