@@ -10674,6 +10674,32 @@
 						"Nomad"
 					]
 				}
+			},
+			"08.14.26": {
+				"Quarry": {
+					"date": "08.14.26",
+					"map": "Quarry",
+					"commanders": "Lithium vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "NA",
+					"teamOne": [],
+					"teamTwo": [],
+					"comment": "Submitted game by Certified Bad Guy"
+				},
+				"Overlook": {
+					"date": "08.14.26",
+					"map": "Overlook",
+					"commanders": "Muerte vs Certified Bad Guy",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "NA",
+					"teamOne": [],
+					"teamTwo": [],
+					"comment": "Submitted game by Certified Bad Guy"
+				}
 			}
 		}
 	}
