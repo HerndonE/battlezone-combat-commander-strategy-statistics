@@ -10686,7 +10686,7 @@
 					"time": "NA",
 					"teamOne": [],
 					"teamTwo": [],
-					"comment": "Submitted game by Certified Bad Guy"
+					"_comment": "Submitted game by Certified Bad Guy"
 				},
 				"Overlook": {
 					"date": "08.14.26",
@@ -10698,7 +10698,175 @@
 					"time": "NA",
 					"teamOne": [],
 					"teamTwo": [],
-					"comment": "Submitted game by Certified Bad Guy"
+					"_comment": "Submitted game by Certified Bad Guy"
+				}
+			},
+			"08.12.26": {
+				"Iraq": {
+					"date": "08.12.26",
+					"map": "Iraq",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "37:16",
+					"teamOne": [
+						"Nomad",
+						"Sev",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"Lamper",
+						"Muerte"
+					]
+				},
+				"Vegan": {
+					"date": "08.12.26",
+					"map": "Vegan",
+					"commanders": "Domakus vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "9:45",
+					"teamOne": [
+						"Lithium",
+						"Sev",
+						"Muffin",
+						"Lamper"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Lunar": {
+					"date": "08.12.26",
+					"map": "Lunar",
+					"commanders": "Domakus vs Muerte",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "12:08",
+					"teamOne": [
+						"Lithium",
+						"Sev",
+						"Muffin",
+						"Lamper"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Remnant": {
+					"date": "08.12.26",
+					"map": "Remnant",
+					"commanders": "Sev vs Muerte",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "28:03",
+					"teamOne": [
+						"Lithium",
+						"Lamper",
+						"F9bomber",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Domakus",
+						"Muffin",
+						"Nomad"
+					]
+				}
+			},
+			"08.22.26": {
+				"Scammed": {
+					"date": "08.22.26",
+					"map": "Scammed",
+					"commanders": "Muerte vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "37:15",
+					"teamOne": [
+						"Judgeguns",
+						"Herp McDerperson",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Sev",
+						"aggressor",
+						"Darkvale"
+					]
+				},
+				"Barren": {
+					"date": "08.22.26",
+					"map": "Barren",
+					"commanders": "Muerte vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "13:45",
+					"teamOne": [
+						"Judgeguns",
+						"Herp McDerperson",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Sev",
+						"aggressor",
+						"Darkvale"
+					]
+				},
+				"Ebola": {
+					"date": "08.22.26",
+					"map": "Ebola",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "18:31",
+					"teamOne": [
+						"Judgeguns",
+						"Herp McDerperson",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Sev",
+						"aggressor",
+						"Darkvale"
+					]
+				},
+				"Oldboy": {
+					"date": "08.22.26",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "1:25:16",
+					"teamOne": [
+						"VTrider"
+					],
+					"teamTwo": [
+						"Sev"
+					],
+					"teamOneStraggler": [
+						"Lithium",
+						"Judgeguns"
+					],
+					"teamTwoStraggler": [
+						"aggressor",
+						"Darkvale"
+					]
 				}
 			}
 		}
