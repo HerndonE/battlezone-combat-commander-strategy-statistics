@@ -10868,6 +10868,147 @@
 						"Darkvale"
 					]
 				}
+			},
+			"08.23.26": {
+				"Strategy Arena": {
+					"date": "08.23.26",
+					"map": "Strategy Arena",
+					"commanders": "Dark vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:26:35",
+					"teamOne": [
+						"VTrider",
+						"aggressor"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns"
+					]
+				}
+			},
+			"08.28.26": {
+				"Ice Age": {
+					"date": "08.28.26",
+					"map": "Ice Age",
+					"commanders": "F9bomber vs dark",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "9:44",
+					"teamOne": [
+						"Lithium",
+						"Muffin",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Sev",
+						"VTrider",
+						"Certified Bad Guy"
+					]
+				},
+				"Haven": {
+					"date": "08.28.26",
+					"map": "Haven",
+					"commanders": "F9bomber vs dark",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "11:35",
+					"teamOne": [
+						"Lithium",
+						"Muffin",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Sev",
+						"VTrider",
+						"Certified Bad Guy"
+					]
+				},
+				"Twin Peaks": {
+					"date": "08.28.26",
+					"map": "Twin Peaks",
+					"commanders": "F9bomber vs Certified Bad Guy",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "18:28",
+					"teamOne": [
+						"Lithium",
+						"Muffin",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Domakus",
+						"aggressor",
+						"Darkvale"
+					]
+				},
+				"Ebola": {
+					"date": "08.28.26",
+					"map": "Ebola",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "25:23",
+					"teamOne": [
+						"Muffin",
+						"HappyOtter",
+						"Bylarge",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Vivify",
+						"Certified Bad Guy",
+						"Darkvale"
+					]
+				},
+				"Fort 12C": {
+					"date": "08.28.26",
+					"map": "Fort 12C",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "26:07",
+					"teamOne": [
+						"Vivify",
+						"Darkvale",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"battlezonepedro",
+						"Shock",
+						"Muffin"
+					],
+					"teamOneStraggler": [
+						"Certified Bad Guy"
+					],
+					"teamTwoStraggler": [
+						"HappyOtter"
+					]
+				},
+				"Quagmire": {
+					"date": "08.28.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Muffin",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "21:55",
+					"teamOne": [
+						"Shock",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"battlezonepedro",
+						"HappyOtter"
+					]
+				}
 			}
 		}
 	}
