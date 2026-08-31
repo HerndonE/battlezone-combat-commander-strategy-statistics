@@ -11009,6 +11009,24 @@
 						"HappyOtter"
 					]
 				}
+			},
+			"08.29.26": {
+				"Vegan": {
+					"date": "08.29.26",
+					"map": "Vegan",
+					"commanders": "VTrider vs Darkvale",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Darkvale",
+					"time": "54:45",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"Sev",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
