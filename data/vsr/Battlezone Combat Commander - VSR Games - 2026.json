@@ -10873,7 +10873,7 @@
 				"Strategy Arena": {
 					"date": "08.23.26",
 					"map": "Strategy Arena",
-					"commanders": "Dark vs F9bomber",
+					"commanders": "Darkvale vs F9bomber",
 					"factions": "[I.S.D.F, Hadean]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber",
@@ -10892,7 +10892,7 @@
 				"Ice Age": {
 					"date": "08.28.26",
 					"map": "Ice Age",
-					"commanders": "F9bomber vs dark",
+					"commanders": "F9bomber vs Darkvale",
 					"factions": "[Hadean, Scion]",
 					"winningFaction": "Hadean",
 					"winner": "F9bomber",
@@ -10911,7 +10911,7 @@
 				"Haven": {
 					"date": "08.28.26",
 					"map": "Haven",
-					"commanders": "F9bomber vs dark",
+					"commanders": "F9bomber vs Darkvale",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Scion",
 					"winner": "F9bomber",
