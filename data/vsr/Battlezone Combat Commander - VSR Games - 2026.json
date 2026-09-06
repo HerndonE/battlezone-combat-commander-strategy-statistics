@@ -11028,6 +11028,59 @@
 					]
 				}
 			}
+		},
+		"September": {
+			"09.02.26": {
+				"Mort's Wasteland": {
+					"date": "09.02.26",
+					"map": "Mort's Wasteland",
+					"commanders": "Muerte vs Domakus",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "1:52:39",
+					"teamOne": [
+						"VTrider",
+						"Lamper"
+					],
+					"teamTwo": [
+						"Sev",
+						"aggressor"
+					]
+				}
+			},
+			"09.04.26": {
+				"Europa": {
+					"date": "09.04.26",
+					"map": "Europa",
+					"commanders": "Muerte vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "14:46",
+					"teamOne": [
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				},
+				"Europa Night": {
+					"date": "09.04.26",
+					"map": "Europa Night",
+					"commanders": "Muerte vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "44:25",
+					"teamOne": [
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
+			}
 		}
 	}
 }
