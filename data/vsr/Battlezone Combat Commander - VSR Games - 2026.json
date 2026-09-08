@@ -11080,6 +11080,140 @@
 						"F9bomber"
 					]
 				}
+			},
+			"09.07.26": {
+				"Red Slope": {
+					"date": "09.07.26",
+					"map": "Red Slope",
+					"commanders": "Judgeguns vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "16:26",
+					"teamOne": [
+						"Vivify",
+						"SaggiSponge",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Bylarge",
+						"HappyOtter"
+					]
+				},
+				"Remnant": {
+					"date": "09.07.26",
+					"map": "Remnant",
+					"commanders": "Cyber vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "9:31",
+					"teamOne": [
+						"VTrider",
+						"HappyOtter",
+						"Judgeguns",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Sev",
+						"Bylarge",
+						"SaggiSponge",
+						"Sev"
+					]
+				},
+				"Remnant_1": {
+					"date": "09.07.26",
+					"map": "Remnant",
+					"commanders": "F9bomber vs Cyber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "19:31",
+					"teamOne": [
+						"Judgeguns",
+						"VTrider",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Sev",
+						"SaggiSponge",
+						"Bylarge"
+					]
+				},
+				"Ice Age": {
+					"date": "09.07.26",
+					"map": "Ice Age",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "12:16",
+					"teamOne": [
+						"Judgeguns",
+						"Herp McDerperson",
+						"VTrider",
+						"aggressor"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Cyber",
+						"SaggiSponge",
+						"Vivify"
+					]
+				},
+				"Quagmire": {
+					"date": "09.07.26",
+					"map": "Quagmire",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "10:12",
+					"teamOne": [
+						"Vivify",
+						"VTrider",
+						"aggressor"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Cyber",
+						"Judgeguns"
+					]
+				},
+				"Vegan": {
+					"date": "09.07.26",
+					"map": "Vegan",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "13:52",
+					"teamOne": [
+						"Vivify",
+						"aggressor"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Judgeguns"
+					]
+				},
+				"Terron": {
+					"date": "09.07.26",
+					"map": "Terron",
+					"commanders": "Vivify vs Lithium",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "59:06",
+					"teamOne": [
+						"aggressor"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
