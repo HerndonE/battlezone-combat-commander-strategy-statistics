@@ -10803,7 +10803,7 @@
 					],
 					"teamTwo": [
 						"Sev",
-						"aggressor",
+						"Nomad",
 						"Darkvale"
 					]
 				},
@@ -10822,7 +10822,7 @@
 					],
 					"teamTwo": [
 						"Sev",
-						"aggressor",
+						"Nomad",
 						"Darkvale"
 					]
 				},
@@ -10841,7 +10841,7 @@
 					],
 					"teamTwo": [
 						"Sev",
-						"aggressor",
+						"Nomad",
 						"Darkvale"
 					]
 				},
@@ -10864,7 +10864,7 @@
 						"Judgeguns"
 					],
 					"teamTwoStraggler": [
-						"aggressor",
+						"Nomad",
 						"Darkvale"
 					]
 				}
@@ -10880,7 +10880,7 @@
 					"time": "1:26:35",
 					"teamOne": [
 						"VTrider",
-						"aggressor"
+						"Nomad"
 					],
 					"teamTwo": [
 						"Sev",
@@ -10942,7 +10942,7 @@
 					],
 					"teamTwo": [
 						"Domakus",
-						"aggressor",
+						"Nomad",
 						"Darkvale"
 					]
 				},
@@ -11045,7 +11045,7 @@
 					],
 					"teamTwo": [
 						"Sev",
-						"aggressor"
+						"Nomad"
 					]
 				}
 			},
@@ -11154,7 +11154,7 @@
 						"Judgeguns",
 						"Herp McDerperson",
 						"VTrider",
-						"aggressor"
+						"Nomad"
 					],
 					"teamTwo": [
 						"Domakus",
@@ -11174,7 +11174,7 @@
 					"teamOne": [
 						"Vivify",
 						"VTrider",
-						"aggressor"
+						"Nomad"
 					],
 					"teamTwo": [
 						"Domakus",
@@ -11192,7 +11192,7 @@
 					"time": "13:52",
 					"teamOne": [
 						"Vivify",
-						"aggressor"
+						"Nomad"
 					],
 					"teamTwo": [
 						"Domakus",
@@ -11208,10 +11208,290 @@
 					"winner": "Vivify",
 					"time": "59:06",
 					"teamOne": [
-						"aggressor"
+						"Nomad"
 					],
 					"teamTwo": [
 						"F9bomber"
+					]
+				}
+			},
+			"09.10.26": {
+				"Mojave": {
+					"date": "09.10.26",
+					"map": "Mojave",
+					"commanders": "HappyOtter vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "7:52",
+					"teamOne": [
+						"Nomad",
+						"Muffin"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber"
+					]
+				},
+				"Excavation": {
+					"date": "09.10.26",
+					"map": "Excavation",
+					"commanders": "Muffin vs Lithium",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "22:21",
+					"teamOne": [
+						"Nomad",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber"
+					]
+				},
+				"Oasis": {
+					"date": "09.10.26",
+					"map": "Oasis",
+					"commanders": "Muffin vs Lithium",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "24:46",
+					"teamOne": [
+						"Darkvale",
+						"Nomad",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"Judgeguns"
+					]
+				},
+				"Aussault": {
+					"date": "09.10.26",
+					"map": "Aussault",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "23:48",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns",
+						"Muffin"
+					]
+				},
+				"Consciousness": {
+					"date": "09.10.26",
+					"map": "Consciousness",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Lithium",
+					"time": "13:47",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Judgeguns",
+						"Muffin"
+					]
+				}
+			},
+			"09.12.26": {
+				"Wales": {
+					"date": "09.12.26",
+					"map": "Wales",
+					"commanders": "Domakus vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "18:22",
+					"teamOne": [
+						"Judgeguns",
+						"HappyOtter",
+						"Sev",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Muffin",
+						"Nomad",
+						"Bylarge"
+					]
+				},
+				"Plaza": {
+					"date": "09.12.26",
+					"map": "Plaza",
+					"commanders": "Muffin vs Cloaket",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "12:46",
+					"teamOne": [
+						"Bylarge",
+						"HappyOtter",
+						"F9bomber",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Nomad",
+						"Judgeguns",
+						"Sev"
+					]
+				},
+				"Egypt": {
+					"date": "09.12.26",
+					"map": "Egypt",
+					"commanders": "Sev vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "25:03",
+					"teamOne": [
+						"Herp McDerperson",
+						"HappyOtter",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Domakus",
+						"Muffin",
+						"Judgeguns"
+					]
+				},
+				"Titan": {
+					"date": "09.12.26",
+					"map": "Titan",
+					"commanders": "Domakus vs Herp",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "13:48",
+					"teamOne": [
+						"Muffin",
+						"Judgeguns",
+						"Sev",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Nomad",
+						"HappyOtter",
+						"AussieLag"
+					]
+				},
+				"Reflex": {
+					"date": "09.12.26",
+					"map": "Reflex",
+					"commanders": "F9bomber vs AussieLag",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "17:30",
+					"teamOne": [
+						"Domakus",
+						"Judgeguns",
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"VTrider",
+						"HappyOtter",
+						"Muffin"
+					]
+				}
+			},
+			"09.13.26": {
+				"Overlook": {
+					"date": "09.13.26",
+					"map": "Overlook",
+					"commanders": "VTrider vs Domakus",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "9:27",
+					"teamOne": [
+						"F9bomber",
+						"Vivify",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Sev",
+						"HappyOtter",
+						"Bylarge"
+					]
+				},
+				"Insula": {
+					"date": "09.13.26",
+					"map": "Insula",
+					"commanders": "VTrider vs Domakus",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Domakus",
+					"time": "20:12",
+					"teamOne": [
+						"Vivify",
+						"Darkvale",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Sev",
+						"Infected",
+						"Bylarge"
+					]
+				},
+				"Aussault": {
+					"date": "09.13.26",
+					"map": "Aussault",
+					"commanders": "F9bomber vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "8:55",
+					"teamOne": [
+						"Darkvalevale",
+						"Vivify",
+						"VTrider",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Nomad",
+						"HappyOtter",
+						"Sev",
+						"battlezonepedro"
+					]
+				},
+				"Ancient Hills": {
+					"date": "09.13.26",
+					"map": "Ancient Hills",
+					"commanders": "Lithium vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "1:33:34",
+					"teamOne": [
+						"Vivify",
+						"Darkvale",
+						"VTrider",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"HappyOtter",
+						"Nomad",
+						"battlezonepedro"
 					]
 				}
 			}
