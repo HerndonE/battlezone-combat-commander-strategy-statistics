@@ -11494,6 +11494,183 @@
 						"battlezonepedro"
 					]
 				}
+			},
+			"09.16.26": {
+				"Quarry": {
+					"date": "09.16.26",
+					"map": "Quarry",
+					"commanders": "Muerte vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "12:06",
+					"teamOne": [
+						"DraconisMarch",
+						"HappyOtter",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"D4RKN00b",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Red Slope": {
+					"date": "09.16.26",
+					"map": "Red Slope",
+					"commanders": "Muerte vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "28:57",
+					"teamOne": [
+						"DraconisMarch",
+						"HappyOtter",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"D4RKN00b",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Giza": {
+					"date": "09.16.26",
+					"map": "Giza",
+					"commanders": "Muerte vs F9bomber",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "10:48",
+					"teamOne": [
+						"HappyOtter",
+						"Nomad",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"VTrider"
+					]
+				},
+				"Mojave": {
+					"date": "09.16.26",
+					"map": "Mojave",
+					"commanders": "Muerte vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "17:03",
+					"teamOne": [
+						"HappyOtter",
+						"Lithium",
+						"Nomad",
+						"PhoebeSnowDLW"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Reflex": {
+					"date": "09.16.26",
+					"map": "Reflex",
+					"commanders": "Muerte vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "13:25",
+					"teamOne": [
+						"HappyOtter",
+						"Lithium",
+						"Nomad",
+						"PhoebeSnowDLW"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"VTrider",
+						"Judgeguns"
+					]
+				}
+			},
+			"09.18.26": {
+				"Vegan": {
+					"date": "09.18.26",
+					"map": "Vegan",
+					"commanders": "Vivify vs Muerte",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "14:40",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"F9bomber"
+					]
+				},
+				"Sahara": {
+					"date": "09.18.26",
+					"map": "Sahara",
+					"commanders": "Muerte vs Vivify",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "8:20",
+					"teamOne": [
+						"Judgeguns",
+						"VTrider",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Terron": {
+					"date": "09.18.26",
+					"map": "Terron",
+					"commanders": "Muerte vs Vivify",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "22:42",
+					"teamOne": [
+						"Judgeguns",
+						"VTrider",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Nomad"
+					]
+				},
+				"Europa Night": {
+					"date": "09.18.26",
+					"map": "Europa Night",
+					"commanders": "Muerte vs Vivify",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "9:36",
+					"teamOne": [
+						"Judgeguns",
+						"VTrider",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Sev",
+						"F9bomber",
+						"Nomad"
+					]
+				}
 			}
 		}
 	}
