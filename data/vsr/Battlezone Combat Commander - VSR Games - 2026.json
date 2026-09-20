@@ -11693,6 +11693,46 @@
 						"Nomad"
 					]
 				}
+			},
+			"09.19.26": {
+				"Overlook": {
+					"date": "09.19.26",
+					"map": "Overlook",
+					"commanders": "Cloaket vs Nomad",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "17:33",
+					"teamOne": [
+						"Vivify",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Sev",
+						"F9bomber"
+					]
+				},
+				"Excavation": {
+					"date": "09.19.26",
+					"map": "Excavation",
+					"commanders": "Cloaket vs Nomad",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "15:10",
+					"teamOne": [
+						"Vivify",
+						"Herp McDerperson",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"Darkvale",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
