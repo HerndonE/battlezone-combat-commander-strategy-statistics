@@ -11596,6 +11596,28 @@
 					]
 				}
 			},
+			"09.17.26": {
+				"Mojave": {
+					"date": "09.17.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Nomad",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Nomad",
+					"time": "NA",
+					"teamOne": [
+						"Cloaket",
+						"Vivify",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Muffin",
+						"HappyOtter",
+						"DraconisMarch"
+					],
+					"_comment": "Submitted game by Nomad"
+				}
+			},
 			"09.18.26": {
 				"Vegan": {
 					"date": "09.18.26",
