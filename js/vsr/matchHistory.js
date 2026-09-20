@@ -21,6 +21,7 @@ function extractRows(json) {
             winner: m.winner,
             time: m.time || "",
             comment: m._comment || "",
+            seq: rows.length,
             teams: {
               teamOne: m.teamOne || [],
               teamTwo: m.teamTwo || [],
@@ -76,6 +77,25 @@ const monthOrder = {
   December: 12,
 };
 
+// Build a comparable number from the row's date ("M.D.YY"), falling back to
+// the year/month the row was nested under when the date string is unusable.
+function dateValue(r) {
+  const parts = String(r.date || "").split(".");
+  const month = parseInt(parts[0], 10) || monthOrder[r.month] || 0;
+  const day = parseInt(parts[1], 10) || 0;
+  const year = parseInt(r.year, 10) || 0;
+  return year * 10000 + month * 100 + day;
+}
+
+function sortRows(list) {
+  const desc = document.getElementById("sortOrder").value === "desc";
+  return list.sort((a, b) => {
+    const diff = dateValue(a) - dateValue(b);
+    // Games share a date, so fall back to the order they appear in the data.
+    return (diff || a.seq - b.seq) * (desc ? -1 : 1);
+  });
+}
+
 function loadFilters() {
   const yearDropdown = document.getElementById("yearFilter");
   const monthDropdown = document.getElementById("monthFilter");
@@ -127,6 +147,8 @@ function renderTable() {
         r.factions.toLowerCase().includes(search)),
   );
 
+  sortRows(filteredRows);
+
   filteredRows.forEach((r) => {
     const tr = document.createElement("tr");
     const summary = r.stats?.game_summary;
@@ -173,6 +195,7 @@ document.getElementById("yearFilter").onchange = () => {
   renderTable();
 };
 document.getElementById("monthFilter").onchange = renderTable;
+document.getElementById("sortOrder").onchange = renderTable;
 document.getElementById("search").oninput = renderTable;
 
 // Export filtered rows to Excel (.xlsx) using SheetJS
