@@ -11733,6 +11733,105 @@
 						"F9bomber"
 					]
 				}
+			},
+			"09.20.26": {
+				"Strategy Arena": {
+					"date": "09.20.26",
+					"map": "Strategy Arena",
+					"commanders": "Vivify vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "21:54",
+					"teamOne": [
+						"F9bomber",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Lithium",
+						"Judgeguns"
+					]
+				},
+				"Throbbing Gristle": {
+					"date": "09.20.26",
+					"map": "Throbbing Gristle",
+					"commanders": "Vivify vs VTrider",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "2:06:41",
+					"teamOne": [
+						"Darkvale",
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Lithium",
+						"Judgeguns"
+					]
+				}
+			},
+			"09.25.26": {
+				"Lunar": {
+					"date": "09.25.26",
+					"map": "Lunar",
+					"commanders": "Cloaket vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "Cloaket",
+					"winner": "I.S.D.F",
+					"time": "11:23",
+					"teamOne": [
+						"Shock",
+						"Vivify",
+						"Domakus",
+						"Econchump"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Muffin",
+						"F9bomber",
+						"Certified Bad Guy"
+					]
+				},
+				"Giza": {
+					"date": "09.25.26",
+					"map": "Giza",
+					"commanders": "Muffin vs Econchump",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "14:43",
+					"teamOne": [
+						"Shock",
+						"Vivify",
+						"Nomad"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"F9bomber",
+						"Sev"
+					]
+				},
+				"Domain": {
+					"date": "09.25.26",
+					"map": "Domain",
+					"commanders": "Vivify vs Muffin",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "50:51",
+					"teamOne": [
+						"HappyOtter",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Nomad",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
