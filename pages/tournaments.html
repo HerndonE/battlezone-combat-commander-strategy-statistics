@@ -10,57 +10,16 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sections.css">
     <link id="smokeCSS" rel="stylesheet" href="../css/smoke.css">
-    <title>bz2stats.us: Tournaments</title>
-    <style>
-      .coming-soon-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-        padding: 60px 20px;
-        text-align: center;
-      }
-
-      .coming-soon-badge {
-        display: inline-block;
-        background: linear-gradient(135deg, #1a1a1a, #292929);
-        border: 2px solid #b5179e;
-        border-radius: 20px;
-        padding: 60px 80px;
-        box-shadow: 0 0 40px #b5179e50, 0 0 10px #000;
-      }
-
-      .coming-soon-badge h1 {
-        font-size: 3rem;
-        color: #4cc9f0;
-        margin: 0 0 16px;
-        letter-spacing: 0.05em;
-        text-shadow: 0 0 20px #4cc9f060;
-      }
-
-      .coming-soon-badge p {
-        font-size: 1.1rem;
-        color: #aaaaaa;
-        margin: 0;
-        line-height: 1.6;
-      }
-
-      .coming-soon-badge .accent {
-        color: #b5179e;
-        font-weight: bold;
-      }
-
-      @media (max-width: 768px) {
-        .coming-soon-badge {
-          padding: 40px 30px;
-        }
-
-        .coming-soon-badge h1 {
-          font-size: 2rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/stats-tab.css">
+    <link rel="stylesheet" href="../css/graph.css">
+    <link rel="stylesheet" href="../css/match-history.css">
+    <link rel="stylesheet" href="../css/mobile-stats.css">
+    <link rel="stylesheet" href="../css/tournaments.css">
+    <title>bz2stats.us: stats: Tournaments</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> <!-- For Excel -->
+    <script type="module" src="../js/tournaments/index.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -76,26 +35,104 @@
       </div>
     </nav>
     <div id="overlay-text-stats">
-      <div class="coming-soon-wrapper">
-        <div class="coming-soon-badge">
-          <h1>Tournaments</h1>
-          <p>Tournament stats and brackets are coming soon.</p>
-          <p>Check back later or head back to <a href="./stats.html" style="color:#4cc9f0;">stats</a>.</p>
+      <div id="trn-root">
+        <div class="trn-picker" id="trn-picker">
+          <label for="trn-select">Tournament:</label>
+          <select id="trn-select"></select>
+        </div>
+        <h2 class="trn-title" id="trn-title"></h2>
+        <div class="tab">
+          <button class="tablinks" onclick="getData(event, 'tournamentOverview')">Overview</button>
+          <button class="tablinks" onclick="getData(event, 'tournamentStandings')">Standings</button>
+          <button class="tablinks" onclick="getData(event, 'matchHistory')">Match History</button>
+        </div>
+        <div id="tournamentOverview" class="tabcontent">
+          <div align="center">
+            <div class="trn-summary" id="trn-summary"></div>
+            <h3 style="padding-top: 10;">Faction Popularity</h3>
+            <p class="trn-chart-note">Counts every faction played across the tournament, one per team per game.</p>
+            <div id="trn-faction-bar"></div>
+            <div class="graph-container">
+              <div class="graph-wrapper">
+                <h3 style="padding-top: 10;">Most Played Maps</h3>
+                <div class="graph-box" id="trn-chart-maps"></div>
+              </div>
+              <div class="graph-wrapper">
+                <h3 style="padding-top: 10;">Faction Matchups</h3>
+                <div class="graph-box" id="trn-chart-matchups"></div>
+              </div>
+              <div class="graph-wrapper">
+                <h3 style="padding-top: 10;">Match Length</h3>
+                <div class="graph-box" id="trn-chart-rounds"></div>
+              </div>
+              <div class="graph-wrapper">
+                <h3 style="padding-top: 10;">Longest Games</h3>
+                <div class="graph-box" id="trn-chart-longest"></div>
+              </div>
+            </div>
+            <div id="tooltip" class="tooltip"></div>
+          </div>
+        </div>
+        <div id="tournamentStandings" class="tabcontent">
+          <div class="trn-table-wrap">
+            <table class="trn-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Team</th>
+                  <th>Roster</th>
+                  <th>Pts</th>
+                  <th>Matches</th>
+                  <th>Games</th>
+                  <th>Game Win Rate</th>
+                  <th>Factions Played</th>
+                  <th>Commanders</th>
+                </tr>
+              </thead>
+              <tbody id="trn-standings-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="matchHistory" class="tabcontent">
+          <div class="trn-controls">
+            <input type="text" id="trn-search" placeholder="Search: map, team, commander, faction...">
+            <select id="trn-team-filter" disabled></select>
+            <select id="trn-sort-order" title="Sort by date">
+              <option value="asc">Oldest &rarr; Newest</option>
+              <option value="desc">Newest &rarr; Oldest</option>
+            </select>
+          </div>
+          <div class="trn-actions">
+            <button id="trn-export-btn">&#11015; Export to Excel</button>
+            <span class="trn-count" id="trn-match-count"></span>
+          </div>
+          <div class="trn-table-wrap">
+            <table class="trn-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Game</th>
+                  <th>Map</th>
+                  <th>Teams</th>
+                  <th>Factions</th>
+                  <th>Winner</th>
+                  <th>Commanders</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody id="trn-match-body"></tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
     <div id="overlay-text-mobile">
-      <div class="coming-soon-wrapper">
-        <div class="coming-soon-badge">
-          <h1>Tournaments</h1>
-          <p>Tournament stats and brackets are coming soon.</p>
-          <p>Check back later or head back to <a href="./stats.html" style="color:#4cc9f0;">stats</a>.</p>
-        </div>
-      </div>
+      <div id="trn-mobile-root"></div>
     </div>
     <script type="module" src="../smoke.js"></script>
+    <script src="../stats-info.js"></script>
     <footer>
-      <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
+      <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome &mdash; use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
       <p class="footer-note">
         <a href="https://www.buymeacoffee.com/F9bomber" target="_blank" rel="noopener noreferrer">
           <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 50px; width: auto;">

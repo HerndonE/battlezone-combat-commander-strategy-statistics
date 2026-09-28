@@ -100,3 +100,28 @@ details div {
     text-align: center;
   }
 }
+/*
+ * Match history table header, matching the tournament tables. Scoped to the
+ * class rather than the bare `th` above, which is shared with other pages.
+ */
+.mh-table {
+  color: #dddddd;
+  font-size: 0.92rem;
+}
+
+.mh-table th,
+.mh-table td {
+  padding: 9px 12px;
+  vertical-align: middle;
+}
+
+.mh-table th {
+  color: #4cc9f0;
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom: 2px solid #b5179e;
+  background: #121212;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

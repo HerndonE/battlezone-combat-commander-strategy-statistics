@@ -1,0 +1,306 @@
+/* Tournament pages: picker, summary tiles, standings and match tables. */
+
+.trn-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 20px 0;
+  flex-wrap: wrap;
+}
+
+.trn-picker label {
+  color: #aaaaaa;
+  font-size: 0.95rem;
+}
+
+.trn-picker select {
+  background: #1a1a1a;
+  color: #4cc9f0;
+  border: 1px solid #b5179e;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Full-width band, matching the .tab row above it. */
+.trn-title {
+  text-align: center;
+  color: #4cc9f0;
+  margin: 0;
+  padding: 14px 16px;
+  background-color: #333;
+  overflow: hidden;
+  font-size: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+/* Summary tiles ---------------------------------------------------------- */
+
+.trn-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  padding: 18px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trn-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  padding: 16px 12px;
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  border: 1px solid #3a3a3a;
+  border-radius: 12px;
+}
+
+.trn-stat-value {
+  color: #4cc9f0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.trn-stat-label {
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.trn-stat-sub {
+  color: #888888;
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+/* Tables ----------------------------------------------------------------- */
+
+.trn-table-wrap {
+  overflow-x: auto;
+  padding: 0 20px 20px;
+}
+
+.trn-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #dddddd;
+  font-size: 0.92rem;
+}
+
+.trn-table th,
+.trn-table td {
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid #2c2c2c;
+  vertical-align: middle;
+}
+
+.trn-table th {
+  color: #4cc9f0;
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom: 2px solid #b5179e;
+  position: sticky;
+  top: 0;
+  background: #121212;
+  z-index: 1;
+}
+
+.trn-col-rank {
+  width: 48px;
+  color: #888888;
+}
+
+.trn-col-team {
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.trn-col-roster {
+  color: #bbbbbb;
+  white-space: nowrap;
+}
+
+.trn-col-num {
+  width: 64px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.trn-col-rate {
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+.trn-col-wide {
+  min-width: 170px;
+  color: #bbbbbb;
+}
+
+.trn-row-inactive td {
+  opacity: 0.55;
+}
+
+.trn-muted {
+  color: #777777;
+  font-style: italic;
+}
+
+/* Win-rate bar, matching the commander synergy treatment. */
+.trn-bar-wrap {
+  display: inline-block;
+  width: 90px;
+  height: 8px;
+  background: #2c2c2c;
+  border-radius: 4px;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.trn-bar {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.trn-rate-label {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.trn-winner {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.trn-loser {
+  color: #999999;
+}
+
+/* Match-history controls ------------------------------------------------- */
+
+.trn-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px 20px 8px;
+}
+
+.trn-controls input,
+.trn-controls select {
+  background: #1a1a1a;
+  color: #dddddd;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.92rem;
+}
+
+.trn-controls input {
+  min-width: 240px;
+  flex: 1;
+}
+
+.trn-controls input:focus,
+.trn-controls select:focus {
+  outline: none;
+  border-color: #4cc9f0;
+}
+
+.trn-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px 8px;
+}
+
+.trn-actions button {
+  background: #1a1a1a;
+  color: #4cc9f0;
+  border: 1px solid #b5179e;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.trn-actions button:hover {
+  background: #292929;
+}
+
+.trn-count {
+  color: #888888;
+  font-size: 0.85rem;
+}
+
+.trn-error {
+  color: #f72585;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Charts ----------------------------------------------------------------- */
+
+.trn-chart-note {
+  color: #999999;
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 0 0 6px;
+}
+
+/* Mobile ------------------------------------------------------------------ */
+/*
+ * Below 768px css/smoke.css swaps #overlay-text-stats for #overlay-text-mobile,
+ * the same way the VSR page works, so the desktop tables and charts are simply
+ * not shown. The mobile tree is built by js/tournaments/mobileStats.js and
+ * styled by css/mobile-stats.css; only the extras live here.
+ */
+@media (max-width: 768px) {
+  .trn-error {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Two-up summary cards read better than the default single column. */
+.trn-m-summary .stat-card {
+  flex: 1 1 calc(50% - 0.75rem);
+}
+
+.trn-m-rank {
+  color: #4cc9f0;
+  font-weight: bold;
+}
+
+.trn-m-card-inactive {
+  opacity: 0.6;
+}
+
+.trn-m-winner {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* Roster row sits under the record, visually distinct from the stat pills. */
+.trn-m-roster {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid #2e2e44;
+  width: 100%;
+}
+
+.trn-m-roster .faction-item {
+  background: #3a3a55;
+  color: #cfd4ff;
+  /* One item holding every player, so it may use the full width. */
+  max-width: 100%;
+}
