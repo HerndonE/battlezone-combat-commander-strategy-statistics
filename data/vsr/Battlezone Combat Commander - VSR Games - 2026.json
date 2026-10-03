@@ -11780,8 +11780,8 @@
 					"map": "Lunar",
 					"commanders": "Cloaket vs Sev",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winningFaction": "Cloaket",
-					"winner": "I.S.D.F",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
 					"time": "11:23",
 					"teamOne": [
 						"Shock",
@@ -11830,6 +11830,199 @@
 					"teamTwo": [
 						"Nomad",
 						"F9bomber"
+					]
+				}
+			},
+			"09.27.26": {
+				"Terron": {
+					"date": "09.27.26",
+					"map": "Terron",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Darkvale",
+					"time": "26:50",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Bylarge"
+					]
+				},
+				"Terron_2": {
+					"date": "09.27.26",
+					"map": "Terron",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "20:35",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"Bylarge"
+					]
+				},
+				"Overlook": {
+					"date": "09.27.26",
+					"map": "Overlook",
+					"commanders": "Darkvale vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "43:58",
+					"teamOne": [
+						"Lithium",
+						"VTrider"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"Nomad"
+					]
+				}
+			}
+		},
+		"October": {
+			"10.01.26": {
+				"Mojave": {
+					"date": "10.01.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "20:05",
+					"teamOne": [
+						"F9bomber",
+						"Nomad"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"VTrider"
+					]
+				},
+				"Mojave": {
+					"date": "10.01.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Lithium",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "41:33",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Jade Green": {
+					"date": "10.01.26",
+					"map": "Jade Green",
+					"commanders": "Cloaket vs DraconisMarch",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "17:02",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Darkvale",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Lithium",
+						"VTrider",
+						"Judgeguns",
+						"Muffin"
+					]
+				},
+				"Quagmire": {
+					"date": "10.01.26",
+					"map": "Quagmire",
+					"commanders": "Cloaket vs DraconisMarch",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "11:39",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Darkvale",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Lithium",
+						"VTrider",
+						"Judgeguns",
+						"Muffin"
+					]
+				},
+				"Remnant": {
+					"date": "10.01.26",
+					"map": "Remnant",
+					"commanders": "Cloaket vs DraconisMarch",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "11:11",
+					"teamOne": [
+						"Nomad",
+						"F9bomber",
+						"Darkvale",
+						"Bylarge"
+					],
+					"teamTwo": [
+						"Lithium",
+						"VTrider",
+						"Judgeguns",
+						"Muffin"
+					]
+				}
+			},
+			"10.02.26": {
+				"Cracked": {
+					"date": "10.02.26",
+					"map": "Cracked",
+					"commanders": "Lithium vs DraconisMarch",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "DraconisMarch",
+					"time": "1:03:04",
+					"teamOne": [
+						"F9bomber",
+						"Darkvale",
+						"Herp McDerperson"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Nomad",
+						"VTrider"
+					]
+				},
+				"Strategy Arena": {
+					"date": "10.02.26",
+					"map": "Strategy Arena",
+					"commanders": "Darkvale vs DraconisMarch",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "21:34",
+					"teamOne": [
+						"Maverick",
+						"Nomad",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"Judgeguns"
 					]
 				}
 			}
