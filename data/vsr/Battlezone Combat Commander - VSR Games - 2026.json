@@ -12024,6 +12024,74 @@
 						"F9bomber",
 						"Judgeguns"
 					]
+				},
+				"Lunix": {
+					"date": "10.02.26",
+					"map": "Lunix",
+					"commanders": "DraconisMarch vs Econchump",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "14:11",
+					"teamOne": [
+						"Nomad",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Maverick",
+						"F9bomber"
+					]
+				},
+				"Terron": {
+					"date": "10.02.26",
+					"map": "Terron",
+					"commanders": "DraconisMarch vs Maverick",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Maverick",
+					"time": "15:59",
+					"teamOne": [
+						"Nomad",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Econchump",
+						"F9bomber"
+					]
+				},
+				"Giza": {
+					"date": "10.02.26",
+					"map": "Giza",
+					"commanders": "Cloaket vs Econchump",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Econchump",
+					"time": "16:51",
+					"teamOne": [
+						"DraconisMarch",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"Maverick",
+						"F9bomber"
+					]
+				},
+				"Insula": {
+					"date": "10.02.26",
+					"map": "Insula",
+					"commanders": "DraconisMarch vs Muffin",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muffin",
+					"time": "14:28",
+					"teamOne": [
+						"Cloaket",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Maverick",
+						"F9bomber"
+					]
 				}
 			}
 		}
