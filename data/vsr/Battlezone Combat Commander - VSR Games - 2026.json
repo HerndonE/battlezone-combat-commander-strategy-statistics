@@ -12219,6 +12219,137 @@
 						"Manslayer"
 					]
 				}
+			},
+			"10.11.26": {
+				"Domain": {
+					"date": "10.11.26",
+					"map": "Domain",
+					"commanders": "DraconisMarch vs Judgeguns",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Judgeguns",
+					"time": "17:30",
+					"teamOne": [
+						"Darkvale",
+						"F9bomber",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Monkey",
+						"Nomad"
+					]
+				},
+				"Domain_1": {
+					"date": "10.11.26",
+					"map": "Domain",
+					"commanders": "DraconisMarch vs Judgeguns",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Judgeguns",
+					"time": "17:31",
+					"teamOne": [
+						"Darkvale",
+						"F9bomber",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Monkey",
+						"Nomad"
+					]
+				},
+				"Excavation": {
+					"date": "10.11.26",
+					"map": "Excavation",
+					"commanders": "Cloaket vs VTrider",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "VTrider",
+					"winner": "Scion",
+					"time": "12:41",
+					"teamOne": [
+						"F9bomber",
+						"DraconisMarch",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamOneStraggler": [
+						"Lithium"
+					],
+					"teamTwoStraggler": [
+						"Monkey"
+					]
+				},
+				"Excavation_1": {
+					"date": "10.11.26",
+					"map": "Excavation",
+					"commanders": "Cloaket vs VTrider",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "15:50",
+					"teamOne": [
+						"Lithium",
+						"F9bomber",
+						"DraconisMarch",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Darkvale",
+						"Monkey",
+						"Nomad"
+					]
+				},
+				"Oasis": {
+					"date": "10.11.26",
+					"map": "Oasis",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "11:27",
+					"teamOne": [
+						"The Wanderer",
+						"Lithium",
+						"F9bomber",
+						"DraconisMarch"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"Darkvale",
+						"Monkey",
+						"Nomad"
+					],
+					"lateJoiners": [
+						"The Wanderer"
+					]
+				},
+				"Rectal": {
+					"date": "10.11.26",
+					"map": "Rectal",
+					"commanders": "Muerte vs Lithium",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "6:30",
+					"teamOne": [
+						"Cloaket",
+						"Judgeguns",
+						"Darkvale",
+						"Monkey"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"DraconisMarch",
+						"The Wanderer",
+						"VTrider"
+					]
+				}
 			}
 		}
 	}
