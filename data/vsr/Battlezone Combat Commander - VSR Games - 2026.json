@@ -12093,6 +12093,132 @@
 						"F9bomber"
 					]
 				}
+			},
+			"10.06.26": {
+				"Forgotten": {
+					"date": "10.06.26",
+					"map": "Forgotten",
+					"commanders": "Cloaket vs Muerte",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "7:39",
+					"teamOne": [
+						"Lithium",
+						"Nomad",
+						"Sev",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Manslayer",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Plaza": {
+					"date": "10.06.26",
+					"map": "Plaza",
+					"commanders": "Cloaket vs Muerte",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "13:10",
+					"teamOne": [
+						"Lithium",
+						"Nomad",
+						"Sev",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Manslayer",
+						"HappyOtter",
+						"F9bomber",
+						"Domakus"
+					]
+				},
+				"Vortex": {
+					"date": "10.06.26",
+					"map": "Vortex",
+					"commanders": "Muerte vs Cloaket",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "9:43",
+					"teamOne": [
+						"Sev",
+						"Nomad",
+						"Darkvale",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Manslayer",
+						"Judgeguns"
+					]
+				},
+				"Remnant": {
+					"date": "10.06.26",
+					"map": "Remnant",
+					"commanders": "Muerte vs Cloaket",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "10:21",
+					"teamOne": [
+						"Sev",
+						"Nomad",
+						"Darkvale",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Manslayer",
+						"Judgeguns"
+					]
+				},
+				"Egypt": {
+					"date": "10.06.26",
+					"map": "Egypt",
+					"commanders": "Muerte vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "8:45",
+					"teamOne": [
+						"Certified Bad Guy",
+						"F9bomber",
+						"Manslayer",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"Nomad",
+						"Lithium",
+						"Darkvale"
+					]
+				},
+				"Ebola": {
+					"date": "10.06.26",
+					"map": "Ebola",
+					"commanders": "Muerte vs DraconisMarch",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "11:02",
+					"teamOne": [
+						"Nomad",
+						"Darkvale",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lithium",
+						"F9bomber",
+						"Manslayer"
+					]
+				}
 			}
 		}
 	}
