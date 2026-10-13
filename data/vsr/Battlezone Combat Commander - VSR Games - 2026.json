@@ -12350,6 +12350,78 @@
 						"VTrider"
 					]
 				}
+			},
+			"10.12.26": {
+				"Bowl": {
+					"date": "10.12.26",
+					"map": "Bowl",
+					"commanders": "DraconisMarch vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "13:40",
+					"teamOne": [
+						"Lamper",
+						"Nomad",
+						"Econchump"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"F9bomber",
+						"HappyOtter"
+					]
+				},
+				"Bowl_1": {
+					"date": "10.12.26",
+					"map": "Bowl",
+					"commanders": "DraconisMarch vs Lithium",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "10:52",
+					"teamOne": [
+						"Nomad",
+						"Lamper",
+						"Econchump"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"F9bomber",
+						"HappyOtter"
+					]
+				},
+				"Consciousness": {
+					"date": "10.12.26",
+					"map": "Consciousness",
+					"commanders": "HappyOtter vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "19:04",
+					"teamOne": [
+						"Lithium"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"DraconisMarch"
+					]
+				},
+				"Red Slope": {
+					"date": "10.12.26",
+					"map": "Red Slope",
+					"commanders": "Lithium vs Judgeguns",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Lithium",
+					"time": "58:18",
+					"teamOne": [
+						"HappyOtter",
+						"DraconisMarch"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
