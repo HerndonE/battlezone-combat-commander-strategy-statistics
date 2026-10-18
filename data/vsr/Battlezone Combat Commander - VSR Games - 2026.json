@@ -12264,8 +12264,8 @@
 					"map": "Excavation",
 					"commanders": "Cloaket vs VTrider",
 					"factions": "[Hadean, Scion]",
-					"winningFaction": "VTrider",
-					"winner": "Scion",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
 					"time": "12:41",
 					"teamOne": [
 						"F9bomber",
@@ -12420,6 +12420,220 @@
 					],
 					"teamTwo": [
 						"F9bomber"
+					]
+				}
+			},
+			"10.15.26": {
+				"Throbbing Gristle": {
+					"date": "10.15.26",
+					"map": "Throbbing Gristle",
+					"commanders": "Cloaket vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "1:03:50",
+					"teamOne": [
+						"F9bomber",
+						"Vivify",
+						"Judgeguns",
+						"Monkey"
+					],
+					"teamTwo": [
+						"Econchump",
+						"DraconisMarch",
+						"VTrider",
+						"Darkvale"
+					]
+				},
+				"Remnant": {
+					"date": "10.15.26",
+					"map": "Remnant",
+					"commanders": "Cloaket vs Sev",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Sev",
+					"time": "48:04",
+					"teamOne": [
+						"Vivify",
+						"Judgeguns",
+						"Monkey",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Econchump",
+						"DraconisMarch",
+						"VTrider",
+						"Darkvale"
+					]
+				},
+				"Consciousness": {
+					"date": "10.15.26",
+					"map": "Consciousness",
+					"commanders": "F9bomber vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "9:14",
+					"teamOne": [
+						"Darkvale",
+						"Econchump",
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Vivify",
+						"Cloaket",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Vegan": {
+					"date": "10.15.26",
+					"map": "Vegan",
+					"commanders": "F9bomber vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "6:32",
+					"teamOne": [
+						"Darkvale",
+						"Econchump",
+						"Sev",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Vivify",
+						"Cloaket",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Titan": {
+					"date": "10.15.26",
+					"map": "Titan",
+					"commanders": "Sev vs F9bomber",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "16:49",
+					"teamOne": [
+						"DraconisMarch",
+						"Econchump",
+						"Cloaket",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Vivify",
+						"Darkvale",
+						"VTrider",
+						"Judgeguns"
+					]
+				}
+			},
+			"10.16.26": {
+				"Phoenix": {
+					"date": "10.16.26",
+					"map": "Phoenix",
+					"commanders": "F9bomber vs Vivify",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "15:11",
+					"teamOne": [
+						"DraconisMarch",
+						"Lithium",
+						"HappyOtter",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Nomad",
+						"Darkvale",
+						"Muffin"
+					]
+				},
+				"Magma": {
+					"date": "10.16.26",
+					"map": "Magma",
+					"commanders": "F9bomber vs Vivify",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "11:10",
+					"teamOne": [
+						"DraconisMarch",
+						"Lithium",
+						"HappyOtter",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Nomad",
+						"Darkvale",
+						"Muffin"
+					]
+				},
+				"Mesa": {
+					"date": "10.16.26",
+					"map": "Mesa",
+					"commanders": "F9bomber vs Vivify",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Vivify",
+					"time": "21:45",
+					"teamOne": [
+						"DraconisMarch",
+						"Lithium",
+						"HappyOtter",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Nomad",
+						"Darkvale",
+						"Muffin"
+					]
+				},
+				"Hound": {
+					"date": "10.16.26",
+					"map": "Hound",
+					"commanders": "F9bomber vs Vivify",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Vivify",
+					"time": "7:16",
+					"teamOne": [
+						"DraconisMarch",
+						"Lithium",
+						"HappyOtter",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Cyber",
+						"Lamper",
+						"Darkvale",
+						"Muffin"
+					]
+				},
+				"Remnant": {
+					"date": "10.16.26",
+					"map": "Remnant",
+					"commanders": "Cyber vs Vivify",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cyber",
+					"time": "13:27",
+					"teamOne": [
+						"DraconisMarch",
+						"Darkvale",
+						"HappyOtter",
+						"Muffin"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Lithium",
+						"F9bomber",
+						"Judgeguns"
 					]
 				}
 			}
