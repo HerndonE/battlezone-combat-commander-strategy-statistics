@@ -9097,8 +9097,8 @@
 					"map": "Finland Daylight",
 					"commanders": "Sev vs Lamper",
 					"factions": "[I.S.D.F, I.S.D.F]",
-					"winningFaction": "Sev",
-					"winner": "",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
 					"time": "10:00",
 					"teamOne": [
 						"Certified Bad Guy",
@@ -12634,6 +12634,92 @@
 						"Lithium",
 						"F9bomber",
 						"Judgeguns"
+					]
+				}
+			},
+			"10.17.26": {
+				"Rectal": {
+					"date": "10.17.26",
+					"map": "Rectal",
+					"commanders": "Cloaket vs Domakus",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Domakus",
+					"time": "13:43",
+					"teamOne": [
+						"Sev",
+						"DraconisMarch",
+						"Darkvale",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"VTrider",
+						"HappyOtter",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Aussault": {
+					"date": "10.17.26",
+					"map": "Aussault",
+					"commanders": "Cloaket vs Domakus",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Domakus",
+					"time": "18:02",
+					"teamOne": [
+						"Sev",
+						"DraconisMarch",
+						"HappyOtter",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Nomad",
+						"Judgeguns",
+						"VTrider"
+					]
+				},
+				"Abuse": {
+					"date": "10.17.26",
+					"map": "Abuse",
+					"commanders": "Domakus vs Cloaket",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "19:47",
+					"teamOne": [
+						"The Wanderer",
+						"Sev",
+						"Lithium",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Nomad",
+						"Judgeguns",
+						"VTrider"
+					]
+				},
+				"DuneNight": {
+					"date": "10.17.26",
+					"map": "DuneNight",
+					"commanders": "F9bomber vs VTrider",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "9:24",
+					"teamOne": [
+						"Judgeguns",
+						"The Wanderer",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Lithium",
+						"Sev",
+						"Domakus"
 					]
 				}
 			}

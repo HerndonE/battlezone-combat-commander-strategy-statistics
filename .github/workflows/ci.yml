@@ -128,6 +128,76 @@ jobs:
             exit 1
           fi
 
+      - name: Validate winningFaction values in data.json
+        id: validate_factions
+        run: |
+          python3 << 'EOF'
+          import json, sys, os
+
+          VALID_FACTIONS = {'I.S.D.F', 'Hadean', 'Scion', 'NA'}
+
+          with open('data/data.json') as f:
+            data = json.load(f)
+
+          failed = []
+          def walk(node, path):
+            if isinstance(node, dict):
+              for key, value in node.items():
+                if key == 'winningFaction' and value not in VALID_FACTIONS:
+                  where = f"{node.get('date', '?')} {node.get('map', '?')}" if 'date' in node else '/'.join(path)
+                  failed.append(f"{where}: invalid winningFaction '{value}'")
+                walk(value, path + [str(key)])
+            elif isinstance(node, list):
+              for i, item in enumerate(node):
+                walk(item, path + [str(i)])
+
+          walk(data, [])
+
+          for msg in failed:
+            print(f'FAIL: {msg}', file=sys.stderr)
+
+          if failed:
+            with open(os.environ['GITHUB_ENV'], 'a') as env_file:
+              env_file.write('FACTION_VALIDATION_ERRORS=' + ' | '.join(failed) + '\n')
+            sys.exit(1)
+          print('OK: all winningFaction values are valid')
+          EOF
+
+      - name: Notify Discord on winningFaction validation failure
+        if: failure() && steps.validate_factions.outcome == 'failure'
+        run: |
+          curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d "{
+                \"embeds\": [{
+                  \"title\": \"winningFaction Validation Failed\",
+                  \"description\": \"data.json contains winningFaction values other than I.S.D.F, Hadean, Scion, or NA.\",
+                  \"color\": 15158332,
+                  \"fields\": [
+                    {
+                      \"name\": \"Errors\",
+                      \"value\": \"${{ env.FACTION_VALIDATION_ERRORS }}\",
+                      \"inline\": false
+                    },
+                    {
+                      \"name\": \"Repository\",
+                      \"value\": \"${{ github.repository }}\",
+                      \"inline\": true
+                    },
+                    {
+                      \"name\": \"Branch\",
+                      \"value\": \"${{ github.ref_name }}\",
+                      \"inline\": true
+                    }
+                  ],
+                  \"footer\": {
+                    \"text\": \"GitHub Actions\",
+                    \"icon_url\": \"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\"
+                  },
+                  \"timestamp\": \"$(date --utc +%FT%TZ)\"
+                }]
+              }"
+
       - name: Generate js/env.js from secret
         run: |
           cat > js/env.js << 'EOF'
