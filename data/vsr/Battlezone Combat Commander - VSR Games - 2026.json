@@ -12777,6 +12777,29 @@
 					"teamOne": [],
 					"teamTwo": []
 				}
+			},
+			"10.22.26": {
+				"Vegan": {
+					"date": "10.22.26",
+					"map": "Vegan",
+					"commanders": "F9bomber vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "1:09:23",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"Monkey",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Sev",
+						"Darkvale",
+						"DraconisMarch",
+						"HappyOtter"
+					]
+				}
 			}
 		}
 	}
