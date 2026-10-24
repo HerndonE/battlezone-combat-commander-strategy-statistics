@@ -12800,6 +12800,140 @@
 						"HappyOtter"
 					]
 				}
+			},
+			"10.23.26": {
+				"Reflex": {
+					"date": "10.23.26",
+					"map": "Reflex",
+					"commanders": "Sev vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Cloaket",
+					"time": "9:37",
+					"teamOne": [
+						"F9bomber",
+						"Domakus",
+						"DraconisMarch",
+						"Nomad"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Certified Bad Guy",
+						"Blue Banana",
+						"Darkvale"
+					]
+				},
+				"Excavation": {
+					"date": "10.23.26",
+					"map": "Excavation",
+					"commanders": "Sev vs Cloaket",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "2:40",
+					"teamOne": [
+						"F9bomber",
+						"Domakus",
+						"DraconisMarch",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"Blue Banana",
+						"Darkvale",
+						"HappyOtter"
+					]
+				},
+				"Excavation_1": {
+					"date": "10.23.26",
+					"map": "Excavation",
+					"commanders": "Sev vs Cloaket",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "15:55",
+					"teamOne": [
+						"F9bomber",
+						"Domakus",
+						"DraconisMarch"
+					],
+					"teamTwo": [
+						"Blue Banana",
+						"Darkvale",
+						"HappyOtter"
+					],
+					"teamOneStraggler": [
+						"Nomad"
+					],
+					"teamTwoStraggler": [
+						"Certified Bad Guy"
+					]
+				},
+				"Moonshroud": {
+					"date": "10.23.26",
+					"map": "Moonshroud",
+					"commanders": "Sev vs Blue Banana",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "16:46",
+					"teamOne": [
+						"F9bomber",
+						"Domakus",
+						"Econchump",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Certified Bad Guy",
+						"DraconisMarch",
+						"Cloaket",
+						"Darkvale"
+					]
+				},
+				"Fort 12C": {
+					"date": "10.23.26",
+					"map": "Fort 12C",
+					"commanders": "Sev vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "11:56",
+					"teamOne": [
+						"F9bomber",
+						"Cloaket",
+						"Nomad",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Econchump",
+						"DraconisMarch",
+						"Certified Bad Guy",
+						"VTrider"
+					]
+				},
+				"Oasis": {
+					"date": "10.23.26",
+					"map": "Oasis",
+					"commanders": "Sev vs Blue Banana",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Blue Banana",
+					"time": "1:01:31",
+					"teamOne": [
+						"F9bomber",
+						"Cloaket",
+						"Nomad",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Econchump",
+						"Certified Bad Guy",
+						"VTrider"
+					],
+					"teamTwoStraggler": [
+						"DraconisMarch"
+					]
+				}
 			}
 		}
 	}
