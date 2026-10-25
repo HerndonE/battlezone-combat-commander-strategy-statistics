@@ -12934,6 +12934,29 @@
 						"DraconisMarch"
 					]
 				}
+			},
+			"10.24.26": {
+				"Garden": {
+					"date": "10.24.26",
+					"map": "Garden",
+					"commanders": "Cloaket vs MAX",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "45:54",
+					"teamOne": [
+						"F9bomber",
+						"Darkvale",
+						"Sev",
+						"Domakus"
+					],
+					"teamTwo": [
+						"Kebbz",
+						"Nomad",
+						"Econchump",
+						"Cyber"
+					]
+				}
 			}
 		}
 	}
