@@ -12957,6 +12957,102 @@
 						"Cyber"
 					]
 				}
+			},
+			"10.25.26": {
+				"Haven": {
+					"date": "10.25.26",
+					"map": "Haven",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "5:06",
+					"teamOne": [
+						"Sev",
+						"Darkvale",
+						"Domakus"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Cyber",
+						"HappyOtter"
+					]
+				},
+				"Haven_1": {
+					"date": "10.25.26",
+					"map": "Haven",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "VTrider",
+					"time": "1:02:48",
+					"teamOne": [
+						"Sev",
+						"Darkvale",
+						"Domakus"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Cyber",
+						"HappyOtter"
+					]
+				}
+			},
+			"10.27.26": {
+				"Trench": {
+					"date": "10.27.26",
+					"map": "Trench",
+					"commanders": "F9bomber vs HappyOtter",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "13:01",
+					"teamOne": [
+						"DraconisMarch",
+						"Nomad",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"Darkvale",
+						"Econchump"
+					]
+				},
+				"Murky": {
+					"date": "10.27.26",
+					"map": "Murky",
+					"commanders": "F9bomber vs HappyOtter",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "22:49",
+					"teamOne": [
+						"The Wanderer",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"DraconisMarch",
+						"Judgeguns"
+					]
+				},
+				"Wasteland (Aegeis)": {
+					"date": "10.27.26",
+					"map": "Wasteland (Aegeis)",
+					"commanders": "F9bomber vs HappyOtter",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "13:37",
+					"teamOne": [
+						"Judgeguns",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"DraconisMarch"
+					]
+				}
 			}
 		}
 	}
