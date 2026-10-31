@@ -125,7 +125,7 @@ async function initSynergy() {
     const response = await fetch(CONFIG.jsonFile);
     if (!response.ok) throw new Error("Failed to load data");
     const data = await response.json();
-    synergyData = data.processed_data.processed_commander_player_synergy;
+    synergyData = data.vsr.processed_data.processed_commander_player_synergy;
 
     buildList();
 

@@ -768,7 +768,7 @@ function lastUpdated(dateValue) {
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData.processed_data;
+  const data = rawData.vsr.processed_data;
 
   factionPopularity("#inline-bar-chart-1", data.processed_most_played_factions);
   mapCountBarChart(

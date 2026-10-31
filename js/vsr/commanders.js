@@ -93,7 +93,8 @@ async function loadData() {
 
     const data = await response.json();
 
-    const totalCommanders = data["processed_data"]["processed_commander_times"];
+    const totalCommanders =
+      data["vsr"]["processed_data"]["processed_commander_times"];
     mergeCommanderTimes(totalCommanders);
 
     const lastEntry = totalCommanders[totalCommanders.length - 1];
@@ -101,8 +102,8 @@ async function loadData() {
       totalCommandersText = lastEntry[0];
     }
 
-    Object.values(data).forEach((yearBlock) => {
-      Object.values(yearBlock).forEach((rawYear) => {
+    Object.values(data?.vsr || {}).forEach((yearBlock) => {
+      Object.values(yearBlock || {}).forEach((rawYear) => {
         if (!rawYear?.month) return;
 
         Object.values(rawYear.month).forEach((monthBlock) => {
@@ -357,7 +358,7 @@ async function renderCommanderChart(
   }
 
   const totalCommandersGameDates =
-    data["processed_data"]["processed_commander_game_dates"];
+    data["vsr"]["processed_data"]["processed_commander_game_dates"];
 
   Object.entries(totalCommandersGameDates).forEach(([date, day]) => {
     let [month, , year] = date.split(".");

@@ -21,6 +21,15 @@ vsr_files = [
     ('data/vsr/Battlezone Combat Commander - VSR Games - 2026.json', 2026),
 ]
 
+stock_files = [
+    ('data/stock/Battlezone Combat Commander - Stock Games - 2026.json', 2026)
+]
+
+game_types = {
+    "vsr": vsr_files,
+    "stock": stock_files,
+}
+
 map_list = 'data/maplist.json'
 
 # Output path for the combined JSON

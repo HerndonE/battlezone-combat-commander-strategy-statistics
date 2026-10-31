@@ -921,7 +921,7 @@ function gamesPlayedPerMonthBarChart(container, data) {
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData["2025"]["data_2025"];
+  const data = rawData["vsr"]["2025"]["data_2025"];
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
 

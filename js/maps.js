@@ -99,7 +99,7 @@ async function initMaps() {
     if (!response.ok) throw new Error("Failed to load JSON file");
 
     const data = await response.json();
-    const totalMaps = data?.processed_data?.processed_faction_favorite_maps;
+    const totalMaps = data?.vsr?.processed_data?.processed_faction_favorite_maps;
 
     if (!totalMaps) {
       console.error("No map data found in JSON");

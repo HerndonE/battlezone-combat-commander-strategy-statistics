@@ -46,7 +46,7 @@ fetch("../data/data.json")
     return response.json();
   })
   .then((data) => {
-    rows = extractRows(data);
+    rows = extractRows(data?.vsr || {});
     loadFilters();
     document.getElementById("yearFilter").disabled = false;
     document.getElementById("monthFilter").disabled = false;
@@ -205,9 +205,17 @@ function exportToExcel() {
     return;
   }
   const headers = [
-    "Date", "Map", "Commanders", "Factions",
-    "Winner", "Winning Faction", "Time",
-    "Team One", "Team Two", "Straggler 1", "Straggler 2",
+    "Date",
+    "Map",
+    "Commanders",
+    "Factions",
+    "Winner",
+    "Winning Faction",
+    "Time",
+    "Team One",
+    "Team Two",
+    "Straggler 1",
+    "Straggler 2",
   ];
   const dataRows = filteredRows.map((r) => [
     r.date,
@@ -228,10 +236,7 @@ function exportToExcel() {
 
   // Auto-width columns
   const colWidths = headers.map((h, i) => ({
-    wch: Math.max(
-      h.length,
-      ...dataRows.map((r) => String(r[i] || "").length),
-    ),
+    wch: Math.max(h.length, ...dataRows.map((r) => String(r[i] || "").length)),
   }));
   ws["!cols"] = colWidths;
 
@@ -249,7 +254,9 @@ function copyDataUrl() {
       if (btn) {
         const original = btn.textContent;
         btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = original; }, 2000);
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 2000);
       }
     })
     .catch(() => {
@@ -266,7 +273,9 @@ function copyDataUrl() {
       if (btn) {
         const original = btn.textContent;
         btn.textContent = "Copied!";
-        setTimeout(() => { btn.textContent = original; }, 2000);
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 2000);
       }
     });
 }
