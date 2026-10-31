@@ -280,95 +280,110 @@ function populateMapPopularity(containerId, data) {
 // Overview
 populateCards(
   "overview-factions",
-  allData.processed_data.processed_most_played_factions,
+  allData.vsr.processed_data.processed_most_played_factions,
 );
-populateCards("overview-maps", allData.processed_data.processed_map_counts);
+populateCards("overview-maps", allData.vsr.processed_data.processed_map_counts);
 populateCards(
   "overview-active-commanders",
-  allData.processed_data.processed_commander_list,
+  allData.vsr.processed_data.processed_commander_list,
 );
 populateCommanderCards(
   "overview-commander-cards",
-  allData.processed_data.processed_commander_faction_counts,
+  allData.vsr.processed_data.processed_commander_faction_counts,
 );
 populateCommanderWinCards(
   "commander-win-cards",
-  allData.processed_data.processed_commander_win_percentages,
+  allData.vsr.processed_data.processed_commander_win_percentages,
 );
 populateCommanderTimes(
   "overview-commander-times",
-  allData.processed_data.processed_commander_times,
+  allData.vsr.processed_data.processed_commander_times,
 );
 populatePlayerTimes(
   "overview-player-times",
-  allData.processed_data.processed_player_times,
+  allData.vsr.processed_data.processed_player_times,
 );
 populateMapPopularity(
   "map-popularity-container",
-  allData.processed_data.processed_map_popularity,
+  allData.vsr.processed_data.processed_map_popularity,
 );
 
 // 2024
-populateCards("factions-2024", allData["2024"]["data_2024"].faction_counter);
-populateCards("maps-2024", allData["2024"]["data_2024"].map_counts);
+populateCards(
+  "factions-2024",
+  allData["vsr"]["2024"]["data_2024"].faction_counter,
+);
+populateCards("maps-2024", allData["vsr"]["2024"]["data_2024"].map_counts);
 populateCards(
   "active-commanders-2024",
-  allData["2024"]["data_2024"].commander_list,
+  allData["vsr"]["2024"]["data_2024"].commander_list,
 );
 populateCommanderCards(
   "commander-cards-2024",
-  allData["2024"]["data_2024"].commander_faction_counts,
+  allData["vsr"]["2024"]["data_2024"].commander_faction_counts,
 );
 populateCommanderWinCards(
   "commander-win-cards-2024",
-  allData["2024"]["data_2024"].commander_win_percentages,
+  allData["vsr"]["2024"]["data_2024"].commander_win_percentages,
 );
 populateGamesByMonth(
   "games-by-month-2024",
-  allData["2024"]["data_2024"].game_totals,
+  allData["vsr"]["2024"]["data_2024"].game_totals,
 );
 
 // 2025
-populateCards("factions-2025", allData["2025"]["data_2025"].faction_counter);
-populateCards("maps-2025", allData["2025"]["data_2025"].map_counts);
+populateCards(
+  "factions-2025",
+  allData["vsr"]["2025"]["data_2025"].faction_counter,
+);
+populateCards("maps-2025", allData["vsr"]["2025"]["data_2025"].map_counts);
 populateCards(
   "active-commanders-2025",
-  allData["2025"]["data_2025"].commander_list,
+  allData["vsr"]["2025"]["data_2025"].commander_list,
 );
 populateCommanderCards(
   "commander-cards-2025",
-  allData["2025"]["data_2025"].commander_faction_counts,
+  allData["vsr"]["2025"]["data_2025"].commander_faction_counts,
 );
 populateCommanderWinCards(
   "commander-win-cards-2025",
-  allData["2025"]["data_2025"].commander_win_percentages,
+  allData["vsr"]["2025"]["data_2025"].commander_win_percentages,
 );
 populateGamesByMonth(
   "games-by-month-2025",
-  allData["2025"]["data_2025"].game_totals,
+  allData["vsr"]["2025"]["data_2025"].game_totals,
 );
-populateMatchTimes("match-times-2025", allData["2025"]["data_2025"].game_times);
+populateMatchTimes(
+  "match-times-2025",
+  allData["vsr"]["2025"]["data_2025"].game_times,
+);
 
 // 2026
-populateCards("factions-2026", allData["2026"]["data_2026"].faction_counter);
-populateCards("maps-2026", allData["2026"]["data_2026"].map_counts);
+populateCards(
+  "factions-2026",
+  allData["vsr"]["2026"]["data_2026"].faction_counter,
+);
+populateCards("maps-2026", allData["vsr"]["2026"]["data_2026"].map_counts);
 populateCards(
   "active-commanders-2026",
-  allData["2026"]["data_2026"].commander_list,
+  allData["vsr"]["2026"]["data_2026"].commander_list,
 );
 populateCommanderCards(
   "commander-cards-2026",
-  allData["2026"]["data_2026"].commander_faction_counts,
+  allData["vsr"]["2026"]["data_2026"].commander_faction_counts,
 );
 populateCommanderWinCards(
   "commander-win-cards-2026",
-  allData["2026"]["data_2026"].commander_win_percentages,
+  allData["vsr"]["2026"]["data_2026"].commander_win_percentages,
 );
 populateGamesByMonth(
   "games-by-month-2026",
-  allData["2026"]["data_2026"].game_totals,
+  allData["vsr"]["2026"]["data_2026"].game_totals,
 );
-populateMatchTimes("match-times-2026", allData["2026"]["data_2026"].game_times);
+populateMatchTimes(
+  "match-times-2026",
+  allData["vsr"]["2026"]["data_2026"].game_times,
+);
 
 // Dropdown toggle
 document.querySelectorAll(".dropdown-btn").forEach((btn) => {

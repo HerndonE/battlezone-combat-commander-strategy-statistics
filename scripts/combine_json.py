@@ -870,42 +870,43 @@ def get_timestamp():
     return timestamp
 
 
-def process_games():
-    # Create an empty dictionary to store the output data
-    vsr_output_data = {}
-    files = config.vsr_files
+def process_section(files):
+    section = {}
 
-    # Loop through each file and process it dynamically
     for file_path, year in files:
-        file_data = read_file(file_path)  # Read the file data
-
-        # Process the data for the current file
-        processed_data = process_file(file_data, year)
-
-        # Group the raw data and processed data under each year
-        vsr_output_data[year] = {
-            f'raw_{year}': file_data,
-            f'data_{year}': processed_data
+        file_data = read_file(file_path)
+        section[year] = {
+          f'raw_{year}': file_data,
+          f'data_{year}': process_file(file_data, year)
         }
 
-    vsr_output_data["processed_data"] = {
-        "processed_map_counts": process_map_counts(vsr_output_data),
-        "processed_most_played_factions": process_most_played_factions(vsr_output_data),
-        "processed_commander_faction_counts": process_commander_faction_counts(vsr_output_data),
-        "processed_commander_win_percentages": process_commander_win_percentages(vsr_output_data),
-        "processed_commander_list": process_commander_list(vsr_output_data),
-        "processed_map_popularity": categorize_maps(process_map_counts(vsr_output_data)),
-        "processed_player_times": print_player_times(vsr_output_data),
-        "processed_commander_times": print_commander_times(vsr_output_data),
-        "processed_commander_game_dates": process_commander_game_dates(vsr_output_data),
-        "processed_faction_favorite_maps": processed_map_data(get_faction_map_win_chance(vsr_output_data)),
-        "processed_commander_player_synergy": processed_commander_player_synergy(vsr_output_data)
-
+    # Run the aggregators on the year keys only, before adding "processed_data"
+    section["processed_data"] = {
+        "processed_map_counts": process_map_counts(section),
+        "processed_most_played_factions": process_most_played_factions(section),
+        "processed_commander_faction_counts": process_commander_faction_counts(section),
+        "processed_commander_win_percentages": process_commander_win_percentages(section),
+        "processed_commander_list": process_commander_list(section),
+        "processed_map_popularity": categorize_maps(process_map_counts(section)),
+        "processed_player_times": print_player_times(section),
+        "processed_commander_times": print_commander_times(section),
+        "processed_commander_game_dates": process_commander_game_dates(section),
+        "processed_faction_favorite_maps": processed_map_data(get_faction_map_win_chance(section)),
+        "processed_commander_player_synergy": processed_commander_player_synergy(section)
     }
+
+    return section
+
+
+def process_games(game_types):
+    output_data = {}
+
+    for name, files in game_types.items():
+        output_data[name] = process_section(files)
 
     # Add the additional entry for "BZCC-2025-Tournament" with raw data (no processing needed)
     bzcc_2025_data = read_file('data/tournaments/BZCC-2025-Tournament.json')  # Read the raw data file
-    vsr_output_data["BZCC-2025-Tournament"] = {
+    output_data["BZCC-2025-Tournament"] = {
         "raw": bzcc_2025_data['month'],
         "most_played_maps": bzcc_2025_data['most_played_maps'],
         "game_times": bzcc_2025_data["game_times"],
@@ -914,6 +915,6 @@ def process_games():
         "teams": bzcc_2025_data["teams"],
     }
 
-    vsr_output_data["last_updated"] = get_timestamp()
+    output_data["last_updated"] = get_timestamp()
 
-    return vsr_output_data
+    return output_data

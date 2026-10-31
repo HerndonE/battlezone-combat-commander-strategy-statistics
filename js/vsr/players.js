@@ -149,7 +149,8 @@ async function loadData() {
     if (!response.ok) throw new Error("Failed to load JSON file");
 
     const data = await response.json();
-    const totalPlayers = data["processed_data"]["processed_player_times"];
+    const totalPlayers =
+      data["vsr"]["processed_data"]["processed_player_times"];
 
     const lastEntry = totalPlayers[totalPlayers.length - 1];
     if (Array.isArray(lastEntry) && typeof lastEntry[0] === "string") {

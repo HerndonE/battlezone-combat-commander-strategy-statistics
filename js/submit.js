@@ -65,9 +65,9 @@ async function loadReferenceData() {
 
     const data = await dataRes.json();
     const names = new Set();
-    const commanderList = data?.processed_data?.processed_commander_list || [];
+    const commanderList = data?.vsr?.processed_data?.processed_commander_list || [];
     commanderList.forEach(([name]) => names.add(name));
-    const playerTimes = data?.processed_data?.processed_player_times || [];
+    const playerTimes = data?.vsr?.processed_data?.processed_player_times || [];
     playerTimes.forEach((entry) => {
       const player = entry?.[0]?.Player;
       if (player) names.add(player);
