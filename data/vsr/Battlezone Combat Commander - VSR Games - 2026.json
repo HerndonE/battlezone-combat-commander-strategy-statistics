@@ -13053,6 +13053,62 @@
 						"DraconisMarch"
 					]
 				}
+			},
+			"10.30.26": {
+				"Island of V8": {
+					"date": "10.30.26",
+					"map": "Island of V8",
+					"commanders": "F9bomber vs HappyOtter",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "6:24",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Bylarge"
+					]
+				},
+				"Overlook": {
+					"date": "10.30.26",
+					"map": "Overlook",
+					"commanders": "F9bomber vs HappyOtter",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "16:16",
+					"teamOne": [
+						"Lithium",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Bylarge",
+						"HappyOtter"
+					]
+				},
+				"Scammed": {
+					"date": "10.30.26",
+					"map": "Scammed",
+					"commanders": "VTrider vs F9bomber",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "16:12",
+					"teamOne": [
+						"Lithium",
+						"Bylarge",
+						"Sev"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Judgeguns",
+						"HappyOtter"
+					]
+				}
 			}
 		}
 	}
