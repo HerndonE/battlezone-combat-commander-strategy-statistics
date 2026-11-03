@@ -13110,6 +13110,130 @@
 					]
 				}
 			}
+		},
+		"November": {
+			"11.01.26": {
+				"Strategy Arena": {
+					"date": "11.01.26",
+					"map": "Strategy Arena",
+					"commanders": "Muffin vs F9bomber",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "20:20",
+					"teamOne": [
+						"Darkvale",
+						"Xohm"
+					],
+					"teamTwo": [
+						"Lithium",
+						"MAX"
+					]
+				},
+				"Remnant": {
+					"date": "11.01.26",
+					"map": "Remnant",
+					"commanders": "Muffin vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muffin",
+					"time": "18:22",
+					"teamOne": [
+						"Lithium",
+						"Darkvale",
+						"Certified Bad Guy",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"MAX",
+						"M.S",
+						"Xohm",
+						"Monkey"
+					]
+				},
+				"Ravine": {
+					"date": "11.01.26",
+					"map": "Ravine",
+					"commanders": "Certified Bad Guy vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "11:17",
+					"teamOne": [
+						"Xohm",
+						"VTrider",
+						"Lithium",
+						"Sev"
+					],
+					"teamTwo": [
+						"MAX",
+						"Muffin",
+						"M.S",
+						"F9bomber"
+					]
+				},
+				"Ravine_1": {
+					"date": "11.01.26",
+					"map": "Ravine",
+					"commanders": "DraconisMarch vs Certified Bad Guy",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Certified Bad Guy",
+					"time": "14:04",
+					"teamOne": [
+						"Xohm",
+						"VTrider",
+						"Lithium",
+						"Sev"
+					],
+					"teamTwo": [
+						"MAX",
+						"Muffin",
+						"M.S",
+						"F9bomber"
+					]
+				},
+				"Nigeria": {
+					"date": "11.01.26",
+					"map": "Nigeria",
+					"commanders": "Xohm vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "16:20",
+					"teamOne": [
+						"Lithium",
+						"VTrider",
+						"M.S"
+					],
+					"teamTwo": [
+						"Muffin",
+						"F9bomber",
+						"Certified Bad Guy"
+					]
+				},
+				"Rectal": {
+					"date": "11.01.26",
+					"map": "Rectal",
+					"commanders": "M.S vs VTrider",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "15:57",
+					"teamOne": [
+						"Lithium",
+						"Monkey",
+						"Muffin",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Cloaket",
+						"F9bomber",
+						"Darkvale"
+					]
+				}
+			}
 		}
 	}
 }
