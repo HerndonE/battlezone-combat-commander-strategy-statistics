@@ -21,7 +21,15 @@
 					"commanders": "F9bomber vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "F9bomber"
+					"winner": "F9bomber",
+					"teamOne": [
+						"Muffin",
+						"Vivify"
+					],
+					"teamTwo": [
+						"DD",
+						"Sentient"
+					]
 				}
 			}
 		},
@@ -33,7 +41,17 @@
 					"commanders": "Gravey vs VTrider",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Hadean",
-					"winner": "VTrider"
+					"winner": "VTrider",
+					"teamOne": [
+						"Blue Banana",
+						"Judgeguns",
+						"HappyOtter"
+					],
+					"teamTwo": [
+						"Vivify",
+						"F9bomber",
+						"Lamper"
+					]
 				},
 				"Haven": {
 					"date": "5.11.24",
@@ -41,7 +59,17 @@
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Scion, Hadean]",
 					"winningFaction": "Scion",
-					"winner": "Blue Banana"
+					"winner": "Blue Banana",
+					"teamOne": [
+						"F9bomber",
+						"Vivify",
+						"Juggs"
+					],
+					"teamTwo": [
+						"Lamper",
+						"HappyOtter",
+						"Judgeguns"
+					]
 				},
 				"Quagmire": {
 					"date": "5.11.24",
@@ -49,7 +77,17 @@
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[I.S.D.F, Scion]",
 					"winningFaction": "I.S.D.F",
-					"winner": "Blue Banana"
+					"winner": "Blue Banana",
+					"teamOne": [
+						"HappyOtter",
+						"Herp McDerperson",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Lamper",
+						"Vivify",
+						"Juggs"
+					]
 				},
 				"Sahara": {
 					"date": "5.11.24",
@@ -57,7 +95,18 @@
 					"commanders": "Blue Banana vs VTrider",
 					"factions": "[Hadean, Scion]",
 					"winningFaction": "Hadean",
-					"winner": "Blue Banana"
+					"winner": "Blue Banana",
+					"teamOne": [
+						"Jabbapop",
+						"F9bomber",
+						"Lamper",
+						"Vivify"
+					],
+					"teamTwo": [
+						"Herp McDerperson",
+						"Juggs",
+						"HappyOtter"
+					]
 				}
 			},
 			"5.18.24": {
@@ -75,7 +124,17 @@
 					"commanders": "Sev vs F9bomber",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
-					"winner": "F9bomber"
+					"winner": "F9bomber",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Econchump"
+					],
+					"teamTwo": [
+						"Sly",
+						"Herp McDerperson",
+						"Lamper"
+					]
 				}
 			},
 			"5.21.24": {

@@ -13233,6 +13233,195 @@
 						"Darkvale"
 					]
 				}
+			},
+			"11.03.26": {
+				"Strategy Arena": {
+					"date": "11.03.26",
+					"map": "Strategy Arena",
+					"commanders": "Sev vs Xohm",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "5:29",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Darkvale",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"DraconisMarch",
+						"Econchump",
+						"Lithium"
+					]
+				},
+				"Red Slope": {
+					"date": "11.03.26",
+					"map": "Red Slope",
+					"commanders": "Sev vs Xohm",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Sev",
+					"time": "5:51",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Darkvale",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Econchump",
+						"Lithium",
+						"F9bomber"
+					]
+				},
+				"Ravine": {
+					"date": "11.03.26",
+					"map": "Ravine",
+					"commanders": "Xohm vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Xohm",
+					"time": "5:59",
+					"teamOne": [
+						"VTrider",
+						"Lithium",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"Judgeguns",
+						"Cloaket"
+					]
+				},
+				"Reflex": {
+					"date": "11.03.26",
+					"map": "Reflex",
+					"commanders": "Xohm vs F9bomber",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Xohm",
+					"time": "12:15",
+					"teamOne": [
+						"VTrider",
+						"Lithium",
+						"Darkvale",
+						"Nomad"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"Judgeguns",
+						"Cloaket"
+					]
+				},
+				"Sahara": {
+					"date": "11.03.26",
+					"map": "Sahara",
+					"commanders": "F9bomber vs Xohm",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "12:22",
+					"teamOne": [
+						"VTrider",
+						"Lithium",
+						"Nomad"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Sev",
+						"Judgeguns",
+						"Cloaket"
+					]
+				},
+				"Oldboy": {
+					"date": "11.03.26",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "10:46",
+					"teamOne": [
+						"DraconisMarch",
+						"Xohm",
+						"Lithium",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"Judgeguns",
+						"Nomad"
+					]
+				},
+				"Murky": {
+					"date": "11.03.26",
+					"map": "Murky",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "17:51",
+					"teamOne": [
+						"DraconisMarch",
+						"Xohm",
+						"Lithium",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"Judgeguns",
+						"Nomad"
+					]
+				},
+				"Giza": {
+					"date": "11.03.26",
+					"map": "Giza",
+					"commanders": "F9bomber vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "12:34",
+					"teamOne": [
+						"DraconisMarch",
+						"Cyber",
+						"Monkey",
+						"Nomad"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"Judgeguns",
+						"Cloaket"
+					]
+				},
+				"Overlook": {
+					"date": "11.03.26",
+					"map": "Overlook",
+					"commanders": "VTrider vs Sev",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "6:09",
+					"teamOne": [
+						"DraconisMarch",
+						"F9bomber",
+						"Monkey",
+						"Vivify"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Cyber",
+						"Judgeguns"
+					]
+				}
 			}
 		}
 	}
