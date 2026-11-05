@@ -80,3 +80,9 @@ svg {
   min-height: 300px;
   height: auto; 
 }
+
+.activity-note {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  color: #aaa;
+}

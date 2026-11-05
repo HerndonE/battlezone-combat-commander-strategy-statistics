@@ -173,7 +173,15 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
 
   const container = d3.select(containerSelector);
   const tooltip = d3.select(tooltipSelector);
-  const allCommanders = Array.from(new Set(data.map((d) => d.commander)));
+  // Most games commanded (all factions combined) first; ties alphabetical.
+  const totals = d3.rollup(
+    data,
+    (v) => d3.sum(v, (d) => d.value),
+    (d) => d.commander,
+  );
+  const allCommanders = Array.from(totals.keys()).sort(
+    (a, b) => totals.get(b) - totals.get(a) || a.localeCompare(b),
+  );
   const factions = Array.from(new Set(data.map((d) => d.faction)));
   const color = d3.scaleOrdinal().domain(factions).range(COLOR_PALETTE);
   const margin = {
@@ -241,7 +249,7 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
         bindTooltip,
         tooltip,
         (d) =>
-          `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>${valueLabel}: ${d.value}`,
+          `<strong>${d.commander}</strong><br><em>${d.faction}</em><br>${valueLabel}: ${d.value}<br>Total commanded: ${totals.get(d.commander)}`,
       );
 
     // Legend along the top, directly below the Expand Chart button.

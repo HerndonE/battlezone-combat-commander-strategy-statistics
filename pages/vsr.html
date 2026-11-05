@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="../css/maps.css">
     <link rel="stylesheet" href="../css/match-history.css">
     <link rel="stylesheet" href="../css/commander-synergy.css">
+    <link rel="icon" href="/assets/images/api-icon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/api-icon.png" sizes="128x128">
+    <link rel="apple-touch-icon" href="/assets/images/api-icon.png">
     <title>bz2stats.us: stats: VSR</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> <!-- For Excel -->
@@ -32,6 +35,7 @@
     <script type="module" src="../js/vsr/matchHistory.js"></script>
     <script type="module" src="../js/vsr/commanderSynergy.js"></script>
     <script type="module" src="../js/maps.js"></script>
+    <script type="module" src="../js/vsr/playerActivity.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -98,6 +102,12 @@
               <button class="expand-btn" id="expand-btn-monthly-timeline-1">Expand Chart</button>
               <div id="monthly-timeline-1"></div>
             </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Player Activity per Month (2024–Present)</h3>
+              <p class="activity-note">Players = everyone in a game, commanders included. New players = first game on record.</p>
+              <button class="expand-btn" id="expand-btn-player-activity-1">Expand Chart</button>
+              <div id="player-activity-1"></div>
+            </div>
           </div>
           <div id="tooltip" class="tooltip"></div>
         </div>
@@ -135,6 +145,11 @@
               <h3 style="padding-top: 10px;">Games Played per Day</h3>
               <button class="expand-btn" id="expand-btn-played-days-2024">Expand Chart</button>
               <div id="daily-2024"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Player Activity per Month</h3>
+              <p class="activity-note">Players = everyone in a game, commanders included. New players = first game on record. Most 2024 games have no team roster, so these counts are mostly commanders.</p>
+              <div id="player-activity-2024"></div>
             </div>
             <div id="tooltip1" class="tooltip"></div>
           </div>
@@ -174,6 +189,11 @@
               <button class="expand-btn" id="expand-btn-played-days-2025">Expand Chart</button>
               <div id="daily-2025"></div>
             </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Player Activity per Month</h3>
+              <p class="activity-note">Players = everyone in a game, commanders included. New players = first game on record.</p>
+              <div id="player-activity-2025"></div>
+            </div>
             <div id="tooltip2" class="tooltip"></div>
           </div>
         </div>
@@ -211,6 +231,11 @@
               <h3 style="padding-top: 10px;">Games Played per Day</h3>
               <button class="expand-btn" id="expand-btn-played-days-2026">Expand Chart</button>
               <div id="daily-2026"></div>
+            </div>
+            <div class="graph-wrapper">
+              <h3 style="padding-top: 10px;">Player Activity per Month</h3>
+              <p class="activity-note">Players = everyone in a game, commanders included. New players = first game on record.</p>
+              <div id="player-activity-2026"></div>
             </div>
             <div id="tooltip3" class="tooltip"></div>
           </div>
@@ -420,28 +445,36 @@
     </div>
     <script type="module" src="../smoke.js"></script>
     <script src="../stats-info.js"></script>
-    <div id="activityModal" class="global-modal">
-      <div class="global-modal-content">
-        <button class="global-close">&times;</button>
-        <h2 id="modalTitle"></h2>
-        <div class="modal-controls">
-          <label>Compare Commanders:</label>
-          <select id="modalCompareA">
-            <option value="">Commander A</option>
-          </select>
-          <select id="modalCompareB">
-            <option value="">Commander B</option>
-          </select>
-        </div>
-        <div id="modalCharts" style="display:flex; gap:20px; flex-wrap: wrap;">
-          <div id="modalChartLeftContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
-            <div id="modalChartLeft" style="flex:1;"></div>
+    <div id="activityModal" class="global-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="global-modal-content cmd-modal">
+        <button class="global-close" aria-label="Close">&times;</button>
+        <header class="cmd-head">
+          <span id="modalStatus" class="status"></span>
+          <h2 id="modalTitle"></h2>
+        </header>
+        <div id="cmd-stats" class="cmd-stats"></div>
+        <section class="cmd-section">
+          <h3 class="cmd-section-title" id="cmd-activity-title">Activity</h3>
+          <div class="cmd-compare">
+            <label for="cmd-compare-select" id="cmd-compare-label">Compare against up to 4:</label>
+            <select id="cmd-compare-select"></select>
+            <div id="cmd-compare-chips" class="cmd-chips"></div>
           </div>
-          <div id="modalChartRightContainer" style="flex:1; min-width:400px; display:flex; flex-direction:column;">
-            <div id="modalChartRight" style="flex:1;"></div>
-            <div id="modalLegendRight" style="margin-top:10px; display:flex; gap:20px; flex-wrap: wrap;"></div>
-          </div>
+          <div id="cmd-legend" class="cmd-legend"></div>
+          <h4 class="cmd-chart-title">Games per quarter</h4>
+          <div id="cmd-chart-games" class="cmd-chart"></div>
+          <h4 class="cmd-chart-title">Win rate per quarter</h4>
+          <div id="cmd-chart-winrate" class="cmd-chart"></div>
+          <div id="cmd-compare-table"></div>
+        </section>
+        <div id="cmd-lists"></div>
+        <div class="cmd-actions">
+          <button type="button" id="cmd-export-excel">&#11015; Export to Excel</button>
+          <button type="button" id="cmd-copy-text">Copy to Clipboard</button>
+          <button type="button" id="cmd-copy-discord">Copy for Discord</button>
+          <span id="cmd-copy-msg" class="cmd-copy-msg" role="status" aria-live="polite"></span>
         </div>
+        <div id="cmd-tooltip" class="cmd-tooltip" role="tooltip"></div>
       </div>
     </div>
     <footer>

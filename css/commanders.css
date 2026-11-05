@@ -53,6 +53,18 @@
     padding-bottom: 4px;
 }
 
+/* Most played faction */
+.faction {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cmd-faction .faction-icon {
+  width: 32px;
+  height: 32px;
+}
+
 /* Card activity states */
 .card.active {
     box-shadow: 0 0 15px #28a74566; /* green glow */
@@ -95,18 +107,6 @@
 .status.inactive {
     background-color: #6c757d;
     box-shadow: 0 0 8px #6c757d88;
-}
-
-.faction {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.faction-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
 }
 
 .total-commanders-heading {
@@ -159,3 +159,531 @@
   margin-bottom: 20px;
 }
 
+
+/* ---------- Card: details button ---------- */
+#commander-card-container .card,
+#player-card-container .card {
+  cursor: pointer;
+}
+
+.card-details-btn {
+  display: block;
+  width: 100%;
+  margin-top: 14px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #4cc9f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.card-details-btn:hover,
+.card-details-btn:focus-visible {
+  background: #4cc9f0;
+  color: #000;
+  border-color: #4cc9f0;
+}
+
+/* ---------- Commander detail modal ---------- */
+.cmd-modal {
+  --cmd-ink: #f2f2f2;
+  --cmd-ink-2: #b9b9b9;
+  --cmd-ink-3: #8a8a8a;
+  --cmd-line: #3a3a3a;
+  --cmd-grid: rgba(255, 255, 255, 0.08);
+  --cmd-tile: rgba(255, 255, 255, 0.04);
+  /* --cmd-win / --cmd-loss are set from COLOR_PALETTE in commanders.js */
+  --cmd-win: #4cc9f0;
+  --cmd-loss: #f72585;
+  --cmd-accent: #4cc9f0;
+  color: var(--cmd-ink);
+  max-width: 1100px;
+}
+
+.cmd-head {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-right: 40px;
+}
+
+.cmd-head h2 {
+  margin: 0;
+  color: var(--cmd-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.cmd-head .status {
+  margin-bottom: 0;
+}
+
+.cmd-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--cmd-line);
+}
+
+.cmd-actions button,
+.cmd-compare select,
+.cmd-sort {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: var(--cmd-accent);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cmd-actions button:hover,
+.cmd-actions button:focus-visible {
+  background: var(--cmd-accent);
+  color: #000;
+  border-color: var(--cmd-accent);
+}
+
+.cmd-copy-msg {
+  font-size: 13px;
+  color: var(--cmd-ink-2);
+}
+
+/* Stat tiles */
+.cmd-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.cmd-tile {
+  background: var(--cmd-tile);
+  border: 1px solid var(--cmd-line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-width: 0;
+}
+
+.cmd-tile-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--cmd-ink-3);
+}
+
+.cmd-tile-value {
+  margin-top: 4px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+.cmd-tile-sub {
+  font-size: 0.8rem;
+  color: var(--cmd-ink-2);
+}
+
+.cmd-tile.wide {
+  grid-column: span 2;
+}
+
+.cmd-tile.wide .cmd-tile-value {
+  font-size: 1rem;
+}
+
+/* Sections */
+.cmd-section {
+  margin-top: 28px;
+}
+
+.cmd-section-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--cmd-line);
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.cmd-section-title {
+  margin: 0;
+  color: #4895ef;
+  font-size: 1.1rem;
+}
+
+.cmd-section > .cmd-section-title {
+  border-bottom: 1px solid var(--cmd-line);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.cmd-section-head .cmd-sort {
+  margin-left: auto;
+}
+
+.cmd-chart-title {
+  margin: 16px 0 4px;
+  font-size: 0.9rem;
+  color: var(--cmd-ink-2);
+  font-weight: normal;
+}
+
+.cmd-chart {
+  width: 100%;
+  position: relative;
+}
+
+/* graph.css gives every svg a white background; keep these transparent */
+.cmd-chart svg {
+  background: transparent;
+  display: block;
+  overflow: visible;
+}
+
+/* Compare controls */
+.cmd-compare {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--cmd-ink-2);
+}
+
+.cmd-compare select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cmd-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cmd-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 4px 3px 10px;
+  border: 1px solid var(--cmd-line);
+  border-radius: 999px;
+  background: var(--cmd-tile);
+  color: var(--cmd-ink);
+  font-size: 0.85rem;
+}
+
+.cmd-chip button {
+  background: none;
+  border: none;
+  color: var(--cmd-ink-2);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 6px;
+}
+
+.cmd-chip button:hover {
+  color: #ff4d6d;
+}
+
+.cmd-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: var(--cmd-ink);
+}
+
+.cmd-legend:empty {
+  display: none;
+}
+
+.cmd-legend span,
+.cmd-wl-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cmd-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.cmd-swatch.cmd-win {
+  background: var(--cmd-win);
+}
+
+.cmd-swatch.cmd-loss {
+  background: var(--cmd-loss);
+}
+
+.cmd-wl-legend {
+  display: flex;
+  gap: 12px;
+  font-size: 0.85rem;
+  color: var(--cmd-ink-2);
+}
+
+/* Tables (comparison) */
+.cmd-table {
+  width: 100%;
+  margin-top: 16px;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cmd-table th,
+.cmd-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--cmd-line);
+  text-align: right;
+  color: var(--cmd-ink);
+  background: none;
+}
+
+.cmd-table th {
+  color: var(--cmd-ink-3);
+  font-weight: normal;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.cmd-table th:first-child,
+.cmd-table td:first-child {
+  text-align: left;
+}
+
+.cmd-table-wrap {
+  overflow-x: auto;
+}
+
+/* W/L lists (opponents, maps) */
+.cmd-list {
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.cmd-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 180px) 1fr 64px 56px;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 4px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cmd-row:hover {
+  background: var(--cmd-tile);
+}
+
+.cmd-row-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cmd-top-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  background: #4895ef33;
+  color: #9cc7ff;
+  vertical-align: middle;
+}
+
+.cmd-bar {
+  display: flex;
+  gap: 2px;
+  height: 12px;
+}
+
+.cmd-bar-w,
+.cmd-bar-l {
+  height: 100%;
+  min-width: 0;
+}
+
+.cmd-bar-w {
+  background: var(--cmd-win);
+  border-radius: 3px 0 0 3px;
+}
+
+.cmd-bar-l {
+  background: var(--cmd-loss);
+  border-radius: 0 3px 3px 0;
+}
+
+.cmd-bar-w:last-child {
+  border-radius: 3px;
+}
+
+.cmd-bar-l:first-child {
+  border-radius: 3px;
+}
+
+.cmd-row-wl {
+  text-align: right;
+}
+
+.cmd-row-pct {
+  text-align: right;
+  color: var(--cmd-ink-2);
+}
+
+/* Tooltip */
+.cmd-tooltip {
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 100000;
+  background: #111;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.82rem;
+  color: var(--cmd-ink);
+  box-shadow: 0 4px 16px #000a;
+  transition: opacity 0.1s;
+  min-width: 140px;
+}
+
+.cmd-tooltip .tt-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.cmd-tooltip .tt-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.cmd-tooltip .tt-row b {
+  margin-left: auto;
+  padding-left: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+  .cmd-modal {
+    padding: 20px 16px;
+  }
+
+  .cmd-tile.wide {
+    grid-column: 1 / -1;
+  }
+
+  .cmd-row {
+    grid-template-columns: minmax(70px, 110px) 1fr 52px 46px;
+    gap: 6px;
+  }
+
+  .cmd-actions button {
+    flex: 1 1 auto;
+  }
+}
+
+/* ---------- Visible scrollbars (modal + opponent/map lists) ---------- */
+.cmd-modal,
+.cmd-list {
+  scrollbar-width: auto;
+  scrollbar-color: #4cc9f0 #1a1a1a; /* Firefox: thumb track */
+}
+
+.cmd-list {
+  border: 1px solid var(--cmd-line);
+  border-radius: 8px;
+  padding: 4px 8px 4px 4px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.cmd-modal::-webkit-scrollbar,
+.cmd-list::-webkit-scrollbar {
+  width: 12px;
+}
+
+.cmd-modal::-webkit-scrollbar-track,
+.cmd-list::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+
+.cmd-modal::-webkit-scrollbar-thumb,
+.cmd-list::-webkit-scrollbar-thumb {
+  background: #4cc9f0;
+  border: 2px solid #1a1a1a;
+  border-radius: 8px;
+}
+
+.cmd-modal::-webkit-scrollbar-thumb:hover,
+.cmd-list::-webkit-scrollbar-thumb:hover {
+  background: #4895ef;
+}
+
+/* Fade + hint at the bottom of a list that has more rows below */
+.cmd-list-wrap {
+  position: relative;
+}
+
+.cmd-more-hint {
+  position: absolute;
+  left: 1px;
+  right: 14px;
+  bottom: 1px;
+  height: 56px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 6px;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0), #1f1f1f 85%);
+  color: #4cc9f0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.cmd-list-wrap.has-more .cmd-more-hint {
+  opacity: 1;
+}
+
+/* Faction icons in W/L rows */
+.faction-icon-sm {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* One-line explainer under a list heading */
+.cmd-section-note {
+  margin: -4px 0 10px;
+  font-size: 0.82rem;
+  color: var(--cmd-ink-2);
+}
