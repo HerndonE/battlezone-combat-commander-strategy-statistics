@@ -13422,6 +13422,40 @@
 						"Judgeguns"
 					]
 				}
+			},
+			"11.04.26": {
+				"Quarry 2": {
+					"date": "11.04.26",
+					"map": "Quarry 2",
+					"commanders": "DraconisMarch vs PhoebeSnowDLW",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "37:06",
+					"teamOne": [
+						"F9bomber",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"Lithium",
+						"VTrider"
+					]
+				},
+				"Oasis": {
+					"date": "11.04.26",
+					"map": "Oasis",
+					"commanders": "PhoebeSnowDLW vs DraconisMarch",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "DraconisMarch",
+					"time": "48:15",
+					"teamOne": [
+						"VTrider"
+					],
+					"teamTwo": [
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
