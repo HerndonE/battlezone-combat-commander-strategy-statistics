@@ -13424,9 +13424,9 @@
 				}
 			},
 			"11.04.26": {
-				"Quarry 2": {
+				"Quarry": {
 					"date": "11.04.26",
-					"map": "Quarry 2",
+					"map": "Quarry",
 					"commanders": "DraconisMarch vs PhoebeSnowDLW",
 					"factions": "[I.S.D.F, I.S.D.F]",
 					"winningFaction": "I.S.D.F",
