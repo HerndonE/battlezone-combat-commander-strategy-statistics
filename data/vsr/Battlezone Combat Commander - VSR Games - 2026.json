@@ -13456,6 +13456,109 @@
 						"F9bomber"
 					]
 				}
+			},
+			"11.06.26": {
+				"Ancient Hills": {
+					"date": "11.06.26",
+					"map": "Ancient Hills",
+					"commanders": "DraconisMarch vs Certified Bad Guy",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "23:53",
+					"teamOne": [
+						"The Wanderer",
+						"Econchump",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"Darkvale",
+						"F9bomber"
+					]
+				},
+				"Dream": {
+					"date": "11.06.26",
+					"map": "Dream",
+					"commanders": "DraconisMarch vs Certified Bad Guy",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Certified Bad Guy",
+					"time": "35:40",
+					"teamOne": [
+						"Darkvale",
+						"VTrider",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"Econchump",
+						"The Wanderer"
+					]
+				},
+				"Excavation": {
+					"date": "11.06.26",
+					"map": "Excavation",
+					"commanders": "DraconisMarch vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "16:51",
+					"teamOne": [
+						"Darkvale",
+						"VTrider",
+						"Judgeguns",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Certified Bad Guy",
+						"Econchump",
+						"The Wanderer"
+					]
+				},
+				"Excavation_1": {
+					"date": "11.06.26",
+					"map": "Excavation",
+					"commanders": "DraconisMarch vs F9bomber",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "16:41",
+					"teamOne": [
+						"Darkvale",
+						"VTrider",
+						"Judgeguns",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Certified Bad Guy",
+						"Econchump",
+						"The Wanderer"
+					]
+				},
+				"Oasis": {
+					"date": "11.06.26",
+					"map": "Oasis",
+					"commanders": "DraconisMarch vs F9bomber",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "54:25",
+					"teamOne": [
+						"Darkvale",
+						"VTrider",
+						"Judgeguns",
+						"Nomad"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Certified Bad Guy",
+						"Econchump",
+						"The Wanderer"
+					]
+				}
 			}
 		}
 	}
