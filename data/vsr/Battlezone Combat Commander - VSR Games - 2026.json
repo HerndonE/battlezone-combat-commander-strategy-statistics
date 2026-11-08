@@ -13558,6 +13558,111 @@
 						"The Wanderer"
 					]
 				}
+			},
+			"11.07.26": {
+				"Oxide": {
+					"date": "11.07.26",
+					"map": "Oxide",
+					"commanders": "Certified Bad Guy vs DraconisMarch",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "18:35",
+					"teamOne": [
+						"Sev",
+						"Judgeguns",
+						"Econchump"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Darkvale",
+						"F9bomber"
+					]
+				},
+				"Strategy Arena": {
+					"date": "11.07.26",
+					"map": "Strategy Arena",
+					"commanders": "Certified Bad Guy vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "16:26",
+					"teamOne": [
+						"Lithium",
+						"Darkvale",
+						"Econchump",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Judgeguns",
+						"VTrider",
+						"Sev"
+					]
+				},
+				"Egypt": {
+					"date": "11.07.26",
+					"map": "Egypt",
+					"commanders": "Certified Bad Guy vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "Certified Bad Guy",
+					"time": "7:58",
+					"teamOne": [
+						"Judgeguns",
+						"Nomad",
+						"VTrider",
+						"Sev"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"F9bomber",
+						"Econchump",
+						"Lithium"
+					]
+				},
+				"Oasis": {
+					"date": "11.07.26",
+					"map": "Oasis",
+					"commanders": "Darkvale vs Certified Bad Guy",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Certified Bad Guy",
+					"time": "11:06",
+					"teamOne": [
+						"Judgeguns",
+						"Nomad",
+						"VTrider",
+						"Sev"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"F9bomber",
+						"Econchump",
+						"Lithium"
+					]
+				},
+				"Mojave": {
+					"date": "11.07.26",
+					"map": "Mojave",
+					"commanders": "Darkvale vs Sev",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Sev",
+					"time": "16:28",
+					"teamOne": [
+						"Econchump",
+						"F9bomber",
+						"Judgeguns",
+						"Certified Bad Guy"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Lithium",
+						"VTrider",
+						"Nomad"
+					]
+				}
 			}
 		}
 	}
