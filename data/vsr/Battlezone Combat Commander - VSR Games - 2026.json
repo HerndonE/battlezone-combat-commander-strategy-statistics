@@ -13663,6 +13663,107 @@
 						"Nomad"
 					]
 				}
+			},
+			"11.10.26": {
+				"Red Slope": {
+					"date": "11.10.26",
+					"map": "Red Slope",
+					"commanders": "F9bomber vs Darkvale",
+					"factions": "[Hadean, Scion]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "12:07",
+					"teamOne": [
+						"DraconisMarch",
+						"SaggiSponge"
+					],
+					"teamTwo": [
+						"VTrider",
+						"The Wanderer"
+					]
+				},
+				"Scammed": {
+					"date": "11.10.26",
+					"map": "Scammed",
+					"commanders": "DraconisMarch vs Darkvale",
+					"factions": "[I.S.D.F, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Darkvale",
+					"time": "20:05",
+					"teamOne": [
+						"Nomad",
+						"Vivify",
+						"SaggiSponge",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"The Wanderer",
+						"Lithium"
+					]
+				},
+				"Strategy Arena": {
+					"date": "11.10.26",
+					"map": "Strategy Arena",
+					"commanders": "Darkvale vs DraconisMarch",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "6:46",
+					"teamOne": [
+						"Nomad",
+						"Vivify",
+						"SaggiSponge",
+						"Judgeguns"
+					],
+					"teamTwo": [
+						"VTrider",
+						"F9bomber",
+						"The Wanderer",
+						"Lithium"
+					]
+				},
+				"Remnant": {
+					"date": "11.10.26",
+					"map": "Remnant",
+					"commanders": "Darkvale vs DraconisMarch",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "15:32",
+					"teamOne": [
+						"SaggiSponge",
+						"The Wanderer",
+						"VTrider",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Vivify",
+						"Lithium",
+						"Nomad",
+						"Judgeguns"
+					]
+				},
+				"Fort 12C": {
+					"date": "11.10.26",
+					"map": "Fort 12C",
+					"commanders": "VTrider vs DraconisMarch",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "VTrider",
+					"time": "1:27:22",
+					"teamOne": [
+						"Nomad",
+						"Judgeguns",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"Vivify",
+						"SaggiSponge",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
