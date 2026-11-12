@@ -13764,6 +13764,141 @@
 						"F9bomber"
 					]
 				}
+			},
+			"11.11.26": {
+				"Red Slope": {
+					"date": "11.11.26",
+					"map": "Red Slope",
+					"commanders": "F9bomber vs DD",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "17:09",
+					"teamOne": [
+						"M.S"
+					],
+					"teamTwo": [
+						"MAX"
+					]
+				},
+				"Mojave": {
+					"date": "11.11.26",
+					"map": "Mojave",
+					"commanders": "F9bomber vs M.S",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "32:04",
+					"teamOne": [
+						"Cyber"
+					],
+					"teamTwo": [
+						"MAX"
+					]
+				},
+				"Oldboy": {
+					"date": "11.11.26",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "12:21",
+					"teamOne": [
+						"M.S"
+					],
+					"teamTwo": [
+						"Cloaket"
+					]
+				},
+				"Phoenix": {
+					"date": "11.11.26",
+					"map": "Phoenix",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[Hadean, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "F9bomber",
+					"time": "11:37",
+					"teamOne": [
+						"Muffin",
+						"Cloaket"
+					],
+					"teamTwo": [
+						"M.S"
+					]
+				},
+				"Rapemas": {
+					"date": "11.11.26",
+					"map": "Rapemas",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "20:54",
+					"teamOne": [
+						"MAX",
+						"M.S"
+					],
+					"teamTwo": [
+						"Lithium",
+						"Cloaket"
+					]
+				},
+				"Tempest": {
+					"date": "11.11.26",
+					"map": "Tempest",
+					"commanders": "F9bomber vs Muerte",
+					"factions": "[Scion, I.S.D.F]",
+					"winningFaction": "Scion",
+					"winner": "F9bomber",
+					"time": "33:20",
+					"teamOne": [
+						"Bylarge",
+						"Herp"
+					],
+					"teamTwo": [
+						"Lithium"
+					],
+					"cameras": [
+						"Darkvale"
+					]
+				},
+				"Egypt": {
+					"date": "11.11.26",
+					"map": "Egypt",
+					"commanders": "Darkvale vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "17:40",
+					"teamOne": [
+						"Bylarge",
+						"Lithium",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"HappyOtter",
+						"Certified Bad Guy"
+					]
+				},
+				"Haven": {
+					"date": "11.11.26",
+					"map": "Haven",
+					"commanders": "Muerte vs Darkvale",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Darkvale",
+					"time": "1:17:17",
+					"teamOne": [
+						"DraconisMarch",
+						"Lithium"
+					],
+					"teamTwo": [
+						"Bylarge",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
