@@ -13854,7 +13854,7 @@
 					"time": "33:20",
 					"teamOne": [
 						"Bylarge",
-						"Herp"
+						"Herp McDerperson"
 					],
 					"teamTwo": [
 						"Lithium"
@@ -13897,6 +13897,235 @@
 					"teamTwo": [
 						"Bylarge",
 						"F9bomber"
+					]
+				}
+			},
+			"11.13.26": {
+				"Stack": {
+					"date": "11.13.26",
+					"map": "Stack",
+					"commanders": "Sev vs DraconisMarch",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "10:10",
+					"teamOne": [
+						"Cloaket",
+						"Darkvale",
+						"M.S",
+						"DD"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"F9bomber",
+						"VTrider",
+						"Herp McDerperson"
+					]
+				},
+				"Vegan": {
+					"date": "11.13.26",
+					"map": "Vegan",
+					"commanders": "DraconisMarch vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "13:03",
+					"teamOne": [
+						"Cloaket",
+						"Darkvale",
+						"M.S",
+						"DD"
+					],
+					"teamTwo": [
+						"F9bomber",
+						"The Wanderer",
+						"VTrider",
+						"Herp McDerperson"
+					]
+				},
+				"Overlook": {
+					"date": "11.13.26",
+					"map": "Overlook",
+					"commanders": "DraconisMarch vs Sev",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Sev",
+					"time": "7:17",
+					"teamOne": [
+						"Cloaket",
+						"F9bomber",
+						"Monkey",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"M.S",
+						"VTrider",
+						"Judgeguns"
+					]
+				},
+				"Sahara": {
+					"date": "11.13.26",
+					"map": "Sahara",
+					"commanders": "DraconisMarch vs Monkey",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Monkey",
+					"time": "5:29",
+					"teamOne": [
+						"VTrider",
+						"F9bomber",
+						"M.S",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Sev",
+						"Cloaket",
+						"Judgeguns"
+					]
+				},
+				"Insula": {
+					"date": "11.13.26",
+					"map": "Insula",
+					"commanders": "Cloaket vs VTrider",
+					"factions": "[Scion, Scion]",
+					"winningFaction": "Scion",
+					"winner": "Cloaket",
+					"time": "11:57",
+					"teamOne": [
+						"Sev",
+						"DraconisMarch",
+						"M.S",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Monkey",
+						"F9bomber",
+						"Judgeguns"
+					]
+				},
+				"Excavation": {
+					"date": "11.13.26",
+					"map": "Excavation",
+					"commanders": "VTrider vs Cloaket",
+					"factions": "[Scion, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "6:32",
+					"teamOne": [
+						"Sev",
+						"DraconisMarch",
+						"M.S",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Monkey",
+						"F9bomber",
+						"Judgeguns"
+					]
+				},
+				"Ebola": {
+					"date": "11.13.26",
+					"map": "Ebola",
+					"commanders": "M.S vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "7:55",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Monkey",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"Nomad",
+						"F9bomber",
+						"DraconisMarch"
+					]
+				},
+				"Terron": {
+					"date": "11.13.26",
+					"map": "Terron",
+					"commanders": "M.S vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "M.S",
+					"time": "9:11",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"The Wanderer",
+						"F9bomber",
+						"DraconisMarch"
+					]
+				},
+				"Scammed": {
+					"date": "11.13.26",
+					"map": "Scammed",
+					"commanders": "DraconisMarch vs Muerte",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "Muerte",
+					"time": "3:16",
+					"teamOne": [
+						"VTrider",
+						"Nomad",
+						"The Wanderer"
+					],
+					"teamTwo": [
+						"M.S",
+						"F9bomber",
+						"Darkvale"
+					]
+				}
+			},
+			"11.14.26": {
+				"Stack": {
+					"date": "11.14.26",
+					"map": "Stack",
+					"commanders": "Cloaket vs Muerte",
+					"factions": "[Hadean, I.S.D.F]",
+					"winningFaction": "Hadean",
+					"winner": "Cloaket",
+					"time": "36:11",
+					"teamOne": [
+						"Monkey",
+						"Sev",
+						"Vivify",
+						"F9bomber"
+					],
+					"teamTwo": [
+						"Judgeguns",
+						"DraconisMarch",
+						"Nomad",
+						"VTrider"
+					]
+				},
+				"Oldboy": {
+					"date": "11.14.26",
+					"map": "Oldboy",
+					"commanders": "F9bomber vs Cloaket",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "F9bomber",
+					"time": "8:45",
+					"teamOne": [
+						"VTrider",
+						"Judgeguns",
+						"Nomad"
+					],
+					"teamTwo": [
+						"DraconisMarch",
+						"Vivify",
+						"Sev"
 					]
 				}
 			}
