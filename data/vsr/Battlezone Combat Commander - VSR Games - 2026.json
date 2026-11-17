@@ -14128,6 +14128,82 @@
 						"Sev"
 					]
 				}
+			},
+			"11.15.26": {
+				"Forgotten": {
+					"date": "11.15.26",
+					"map": "Forgotten",
+					"commanders": "DraconisMarch vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "21:48",
+					"teamOne": [
+						"F9bomber",
+						"Darkvale"
+					],
+					"teamTwo": [
+						"HappyOtter",
+						"Judgeguns"
+					]
+				},
+				"Hilo Blues": {
+					"date": "11.15.26",
+					"map": "Hilo Blues",
+					"commanders": "DraconisMarch vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "Hadean",
+					"winner": "Muerte",
+					"time": "14:59",
+					"teamOne": [
+						"F9bomber",
+						"HappyOtter",
+						"Monkey"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Judgeguns",
+						"Nomad"
+					]
+				},
+				"Insula": {
+					"date": "11.15.26",
+					"map": "Insula",
+					"commanders": "DraconisMarch vs Muerte",
+					"factions": "[I.S.D.F, I.S.D.F]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "12:45",
+					"teamOne": [
+						"F9bomber",
+						"HappyOtter",
+						"Monkey"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Judgeguns",
+						"Nomad"
+					]
+				},
+				"Jade Green": {
+					"date": "11.15.26",
+					"map": "Jade Green",
+					"commanders": "DraconisMarch vs Muerte",
+					"factions": "[I.S.D.F, Hadean]",
+					"winningFaction": "I.S.D.F",
+					"winner": "DraconisMarch",
+					"time": "35:53",
+					"teamOne": [
+						"Monkey",
+						"Nomad",
+						"Cyber"
+					],
+					"teamTwo": [
+						"Darkvale",
+						"Judgeguns",
+						"F9bomber"
+					]
+				}
 			}
 		}
 	}
