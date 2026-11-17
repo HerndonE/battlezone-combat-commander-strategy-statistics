@@ -5,6 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     z-index: 1; /* Ensure text/content stays above the canvas */
+    text-shadow: 0 1px 3px rgba(10, 2, 6, 0.9);
   }
 
   .welcome-content {
@@ -13,7 +14,7 @@
   }
 
   .highlight {
-    color: #b5179e;
+    color: var(--color-primary);
   }
 
   .welcome-section h1 {
@@ -23,14 +24,14 @@
 
   .welcome-section h2 {
     font-size: 1.6em;
-    color: #cccccc;
+    color: var(--color-text-muted);
     margin-bottom: 20px;
   }
 
   .welcome-section p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #ffffff;
+    color: var(--color-text);
   }
 
   strong {
@@ -44,6 +45,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     z-index: 1; /* Ensure text/content stays above the canvas */
+    text-shadow: 0 1px 3px rgba(10, 2, 6, 0.9);
   }
 
   .about-content {
@@ -58,14 +60,14 @@
 
   .about-section h2 {
     font-size: 1.6em;
-    color: #cccccc;
+    color: var(--color-text-muted);
     margin-bottom: 20px;
   }
 
   .about-section p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #bbbbbb;
+    color: var(--color-text-muted);
   }
 
   .text-content {
@@ -135,7 +137,7 @@
 }
 
 .stats-nav-card {
-  background: linear-gradient(135deg, #1a1a1a, #292929);
+  background: linear-gradient(135deg, var(--color-bg), var(--color-surface));
   border-radius: 15px;
   padding: 20px;
   border: 2px solid #444;
@@ -153,8 +155,8 @@
 
 a.stats-nav-card:hover {
   transform: scale(1.03);
-  border-color: #b5179e;
-  box-shadow: 0 0 20px #b5179e90;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 55%, transparent);
 }
 
 .stats-nav-card img {
@@ -168,7 +170,7 @@ a.stats-nav-card:hover {
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -182,7 +184,7 @@ a.stats-nav-card:hover {
 
 .stats-card-subtitle {
   font-size: 0.85rem;
-  color: #aaaaaa;
+  color: var(--color-text-muted);
   text-align: center;
   text-transform: none;
   letter-spacing: 0;
@@ -191,7 +193,7 @@ a.stats-nav-card:hover {
 
 .stats-card-localtime {
   font-size: 0.8rem;
-  color: #7ec8e3;
+  color: var(--color-secondary-light);
   text-align: center;
   font-style: italic;
 }

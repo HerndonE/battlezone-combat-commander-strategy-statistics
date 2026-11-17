@@ -1,5 +1,9 @@
-import { CONFIG } from "../config.js";
-import { COLOR_PALETTE } from "../config.js";
+import {
+  CONFIG,
+  POPULARITY_COLORS,
+  SERIES_COLOR,
+  textOn,
+} from "../config.js";
 
 const response = await fetch(CONFIG.jsonFile);
 const allData = await response.json();
@@ -235,12 +239,8 @@ function populateMapPopularity(containerId, data) {
     tiers[category].push(name);
   });
 
-  // Map tier to a color from the palette
-  const tierNames = Object.keys(tiers);
-  const tierColors = {};
-  tierNames.forEach((tier, index) => {
-    tierColors[tier] = COLOR_PALETTE[index % COLOR_PALETTE.length];
-  });
+  // Tiers share the Map Popularity chart's colors.
+  const tierColor = (tier) => POPULARITY_COLORS[tier] || SERIES_COLOR;
 
   Object.entries(tiers).forEach(([tier, maps]) => {
     // Sub-category dropdown
@@ -250,7 +250,8 @@ function populateMapPopularity(containerId, data) {
     const btn = document.createElement("button");
     btn.className = "dropdown-btn-map-popularity";
     btn.textContent = `${tier} ▼`;
-    btn.style.backgroundColor = tierColors[tier];
+    btn.style.backgroundColor = tierColor(tier);
+    btn.style.color = textOn(tierColor(tier));
 
     const cardContainer = document.createElement("div");
     cardContainer.className = "cards dropdown-content";

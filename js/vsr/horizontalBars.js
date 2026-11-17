@@ -1,16 +1,26 @@
 // Shared horizontal bar charts:
 // category labels on the left, bars growing to the right, so expanding a
 // chart makes it taller rather than wider.
-import { COLOR_PALETTE, BACKGROUND_COLOR, TEXT_LIGHT } from "../config.js";
+import {
+  COLOR_PALETTE,
+  factionColor,
+  BACKGROUND_COLOR,
+  TEXT_LIGHT,
+  textOn,
+  chartWidth,
+  redrawOnResize,
+  fitLabel,
+} from "../config.js";
 
-const CHART_WIDTH = 800;
-const BAR_HEIGHT = 22;
+// Charts fill their box; below this they would be too cramped to read.
+const MIN_CHART_WIDTH = 360;
+const BAR_HEIGHT = 26;
 const DEFAULT_ITEM_COUNT = 10;
 
 // Rough label width so long names are not clipped off the left edge.
 function leftMarginFor(names) {
   const longest = d3.max(names, (n) => String(n).length) || 0;
-  return Math.max(80, Math.min(220, longest * 7 + 16));
+  return Math.max(90, Math.min(250, longest * 8 + 18));
 }
 
 function bindTooltip(selection, tooltip, htmlFn) {
@@ -52,11 +62,11 @@ function drawValueAxis(svg, x, height, margin, label) {
 
   svg
     .append("text")
-    .attr("x", margin.left + (CHART_WIDTH - margin.left - margin.right) / 2)
+    .attr("x", (x.range()[0] + x.range()[1]) / 2)
     .attr("y", height - margin.bottom + 36)
     .attr("text-anchor", "middle")
     .attr("fill", TEXT_LIGHT)
-    .style("font-size", "12px")
+    .style("font-size", "14px")
     .text(label);
 }
 
@@ -65,10 +75,15 @@ function drawCategoryAxis(svg, y, margin) {
     .append("g")
     .attr("class", "axis")
     .attr("transform", `translate(${margin.left}, 0)`)
-    .call(d3.axisLeft(y))
+    .call(d3.axisLeft(y).tickFormat((d) => fitLabel(d, margin.left - 14)))
     .selectAll("text")
     .attr("fill", TEXT_LIGHT)
-    .style("font-size", "11px");
+    .style("font-size", "13px");
+}
+
+// Left margin sized for the names, but never more than ~35% of the chart.
+function marginFor(base, width) {
+  return { ...base, left: Math.min(base.left, Math.round(width * 0.35)) };
 }
 
 /**
@@ -91,7 +106,7 @@ export function horizontalBarChart(containerSelector, data, opts = {}) {
 
   const container = d3.select(containerSelector);
   const tooltip = d3.select(tooltipSelector);
-  const margin = {
+  const baseMargin = {
     top: 20,
     right: 60,
     bottom: 50,
@@ -99,14 +114,18 @@ export function horizontalBarChart(containerSelector, data, opts = {}) {
   };
   // Keep the value scale fixed across expand/collapse.
   const maxValue = d3.max(data, (d) => d.value) || 0;
+  let current = data.slice(0, defaultItemCount);
 
   function drawChart(subset) {
+    current = subset;
     container.selectAll("svg").remove();
 
+    const width = chartWidth(container.node(), { min: MIN_CHART_WIDTH });
+    const margin = marginFor(baseMargin, width);
     const height = subset.length * BAR_HEIGHT + margin.top + margin.bottom;
     const svg = container
       .append("svg")
-      .attr("width", CHART_WIDTH)
+      .attr("width", width)
       .attr("height", height)
       .style("background-color", BACKGROUND_COLOR);
 
@@ -114,7 +133,7 @@ export function horizontalBarChart(containerSelector, data, opts = {}) {
       .scaleLinear()
       .domain([0, maxValue])
       .nice()
-      .range([margin.left, CHART_WIDTH - margin.right]);
+      .range([margin.left, width - margin.right]);
 
     const y = d3
       .scaleBand()
@@ -147,13 +166,15 @@ export function horizontalBarChart(containerSelector, data, opts = {}) {
       .append("text")
       .attr("class", "count-label")
       .attr("x", (d) => Math.max(margin.left, x(d.value)) + 5)
-      .attr("y", (d) => y(d.name) + y.bandwidth() / 2 + 4)
-      .style("font-size", "11px")
+      .attr("y", (d) => y(d.name) + y.bandwidth() / 2 + 5)
+      .style("font-size", "13px")
+      .style("font-weight", "bold")
       .attr("fill", TEXT_LIGHT)
       .text((d) => formatValue(d.value));
   }
 
-  drawChart(data.slice(0, defaultItemCount));
+  drawChart(current);
+  redrawOnResize(container.node(), () => drawChart(current));
   setupExpand(expandBtnSelector, data.length, defaultItemCount, (expanded) =>
     drawChart(expanded ? data : data.slice(0, defaultItemCount)),
   );
@@ -183,25 +204,29 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
     (a, b) => totals.get(b) - totals.get(a) || a.localeCompare(b),
   );
   const factions = Array.from(new Set(data.map((d) => d.faction)));
-  const color = d3.scaleOrdinal().domain(factions).range(COLOR_PALETTE);
-  const margin = {
+  const color = factionColor;
+  const baseMargin = {
     top: 40,
     right: 60,
     bottom: 50,
     left: leftMarginFor(allCommanders),
   };
-  const groupHeight = Math.max(BAR_HEIGHT, factions.length * 12 + 8);
+  const groupHeight = Math.max(BAR_HEIGHT, factions.length * 14 + 10);
   const maxValue = d3.max(data, (d) => d.value) || 0;
+  let current = allCommanders.slice(0, defaultItemCount);
 
   function drawChart(commanders) {
+    current = commanders;
     container.selectAll("svg").remove();
 
+    const width = chartWidth(container.node(), { min: MIN_CHART_WIDTH });
+    const margin = marginFor(baseMargin, width);
     const subset = data.filter((d) => commanders.includes(d.commander));
     const height = commanders.length * groupHeight + margin.top + margin.bottom;
 
     const svg = container
       .append("svg")
-      .attr("width", CHART_WIDTH)
+      .attr("width", width)
       .attr("height", height)
       .style("background-color", BACKGROUND_COLOR);
 
@@ -209,7 +234,7 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
       .scaleLinear()
       .domain([0, maxValue])
       .nice()
-      .range([margin.left, CHART_WIDTH - margin.right]);
+      .range([margin.left, width - margin.right]);
 
     const y0 = d3
       .scaleBand()
@@ -255,7 +280,7 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
     // Legend along the top, directly below the Expand Chart button.
     const legendY = 8;
     const legendSpacing =
-      (CHART_WIDTH - margin.left - margin.right) / Math.max(1, factions.length);
+      (width - margin.left - margin.right) / Math.max(1, factions.length);
 
     factions.forEach((faction, i) => {
       const lx = margin.left + i * legendSpacing;
@@ -271,14 +296,15 @@ export function groupedHorizontalBarChart(containerSelector, data, opts = {}) {
       svg
         .append("text")
         .attr("x", lx + 16)
-        .attr("y", legendY + 10)
-        .style("font-size", "11px")
+        .attr("y", legendY + 11)
+        .style("font-size", "13px")
         .attr("fill", TEXT_LIGHT)
         .text(faction);
     });
   }
 
-  drawChart(allCommanders.slice(0, defaultItemCount));
+  drawChart(current);
+  redrawOnResize(container.node(), () => drawChart(current));
   setupExpand(
     expandBtnSelector,
     allCommanders.length,
@@ -312,3 +338,87 @@ export const winPercentTooltip = (d) =>
   `Games (After 5 removed): ${d.total}<br>` +
   `Wins (After 5 removed): ${d.wins}<br>` +
   `Win %: ${d.value.toFixed(1)}%`;
+
+// Faction Popularity: one stacked bar, each faction's share of the total.
+// Used by the VSR Overview and every year tab.
+const FACTION_MAX_WIDTH = 600;
+const FACTION_HEIGHT = 60;
+const FACTION_BAR_HEIGHT = 28;
+const FACTION_BORDER_RADIUS = 5;
+const FACTION_LABEL_PAD = 8; // breathing room inside the segment
+
+// Longest label that really fits in the segment, measured after rendering:
+// "Scion: 96", then "Scion 96", then just "96".
+function fitFactionLabel(textEl, name, value, segmentWidth) {
+  for (const label of [`${name}: ${value}`, `${name} ${value}`, String(value)]) {
+    textEl.text(label);
+    if (textEl.node().getComputedTextLength() + FACTION_LABEL_PAD <= segmentWidth) return;
+  }
+}
+
+export function factionPopularity(containerId, chartData) {
+  const node = document.querySelector(containerId);
+  if (!node) return;
+
+  const data = Object.entries(chartData || {}).sort((a, b) => b[1] - a[1]);
+  const total = d3.sum(data, (d) => d[1]);
+  const color = factionColor; // fixed per faction, not by rank
+
+  function render() {
+    d3.select(node).selectAll("svg").remove();
+
+    const width = Math.min(
+      FACTION_MAX_WIDTH,
+      chartWidth(node, { min: 280, fallback: FACTION_MAX_WIDTH }),
+    );
+    const x = d3.scaleLinear().domain([0, total]).range([0, width]);
+
+    const svg = d3
+      .select(node)
+      .append("svg")
+      .attr("width", width)
+      .attr("height", FACTION_HEIGHT)
+      .style("background-color", BACKGROUND_COLOR);
+
+    let currentX = 0;
+
+    svg
+      .selectAll("g")
+      .data(data)
+      .enter()
+      .append("g")
+      .attr("transform", (d) => {
+        const xPos = currentX;
+        currentX += x(d[1]);
+        return `translate(${xPos}, 20)`;
+      })
+      .each(function (d) {
+        const g = d3.select(this);
+        const segment = x(d[1]);
+
+        g.append("rect")
+          .attr("width", segment)
+          .attr("height", FACTION_BAR_HEIGHT)
+          .attr("fill", color(d[0]))
+          .attr("rx", FACTION_BORDER_RADIUS)
+          .attr("ry", FACTION_BORDER_RADIUS);
+
+        g.append("title").text(`${d[0]}: ${d[1]}`);
+
+        const inside = segment > 40;
+        const label = g
+          .append("text")
+          .attr("x", inside ? segment / 2 : segment + 5)
+          .attr("y", FACTION_BAR_HEIGHT / 2 + 5)
+          .attr("text-anchor", inside ? "middle" : "start")
+          .attr("fill", inside ? textOn(color(d[0])) : TEXT_LIGHT)
+          .style("font-size", "15px")
+          .style("font-weight", "bold")
+          .text(`${d[0]}: ${d[1]}`);
+        if (inside) fitFactionLabel(label, d[0], d[1], segment);
+      });
+  }
+
+  render();
+  redrawOnResize(node, render);
+}

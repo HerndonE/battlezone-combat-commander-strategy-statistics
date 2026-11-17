@@ -6,6 +6,7 @@ import {
   computeTotals,
 } from "./data.js";
 import { renderOverview } from "./overview.js";
+import { showLastUpdated } from "../config.js";
 import { renderStandings } from "./standings.js";
 import { initMatches, renderMatches } from "./matches.js";
 import { renderMobile } from "./mobileStats.js";
@@ -83,10 +84,7 @@ async function init() {
       return;
     }
 
-    const updated = document.getElementById("last-updated");
-    if (updated && json.last_updated) {
-      updated.textContent = "Last Updated: " + json.last_updated;
-    }
+    showLastUpdated(json.last_updated);
 
     buildSelector();
     initMatches();

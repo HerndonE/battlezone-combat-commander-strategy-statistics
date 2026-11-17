@@ -6,6 +6,7 @@
     <meta name="color-scheme" content="light dark" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
+    <script type="module" src="../js/config.js"></script><!-- applies THEME colors -->
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sections.css">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="../css/match-history.css">
     <link rel="stylesheet" href="../css/mobile-stats.css">
     <link rel="stylesheet" href="../css/tournaments.css">
+    <link rel="stylesheet" href="../css/summary-cards.css">
     <link rel="icon" href="/assets/images/api-icon.ico" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/api-icon.png" sizes="128x128">
     <link rel="apple-touch-icon" href="/assets/images/api-icon.png">
@@ -24,13 +26,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script> <!-- For Excel -->
     <script type="module" src="../js/tournaments/index.js"></script>
   </head>
-  <body>
+  <body class="theme-classic">
     <nav class="navbar">
       <input type="checkbox" id="toggle-menu" class="toggle-menu">
       <a href="./stats.html" class="brand-link">
         <div class="brand">
-          <img src="/assets/images/api-icon.png" alt="logo" width="40" height="40" />
-          <h3>bz2stats.us</h3>
+          <span class="brand-icon" role="img" aria-label="bz2stats logo">
+            <img class="brand-icon-gear" src="/assets/images/api-icon-gear.svg" alt="" width="40" height="40" />
+            <img class="brand-icon-logo" src="/assets/images/api-icon-logo.svg" alt="" width="40" height="40" />
+          </span>
+          <h3>bz2stats.<span class="brand-tld">us</span></h3>
         </div>
       </a>
       <div class="nav-right">
@@ -51,7 +56,7 @@
         </div>
         <div id="tournamentOverview" class="tabcontent">
           <div align="center">
-            <div class="trn-summary" id="trn-summary"></div>
+            <div class="summary-cards" id="trn-summary"></div>
             <h3 style="padding-top: 10;">Faction Popularity</h3>
             <p class="trn-chart-note">Counts every faction played across the tournament, one per team per game.</p>
             <div id="trn-faction-bar"></div>
@@ -100,9 +105,9 @@
           <div class="trn-controls">
             <input type="text" id="trn-search" placeholder="Search: map, team, commander, faction...">
             <select id="trn-team-filter" disabled></select>
-            <select id="trn-sort-order" title="Sort by date">
+            <select id="trn-sort-order" title="Sort by date" autocomplete="off">
+              <option value="desc" selected>Newest &rarr; Oldest</option>
               <option value="asc">Oldest &rarr; Newest</option>
-              <option value="desc">Newest &rarr; Oldest</option>
             </select>
           </div>
           <div class="trn-actions">
@@ -135,12 +140,7 @@
     <script type="module" src="../smoke.js"></script>
     <script src="../stats-info.js"></script>
     <footer>
-      <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome &mdash; use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
-      <p class="footer-note">
-        <a href="https://www.buymeacoffee.com/F9bomber" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 50px; width: auto;">
-        </a>
-      </p>
+      <p class="footer-note">Statistics are primarily based on games played by <a href="https://f9bomber.com/" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome &mdash; use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
       <p class="footer-note">2026 &copy; bz2stats.us &mdash; all rights reserved</p>
     </footer>
   </body>

@@ -24,7 +24,7 @@
 
 .syn-toolbar input:focus {
   outline: none;
-  border-color: #4cc9f0;
+  border-color: var(--color-primary);
 }
 
 .syn-view-toggles {
@@ -45,14 +45,14 @@
 }
 
 .syn-view-btn:hover {
-  border-color: #4cc9f0;
+  border-color: var(--color-primary);
   color: #fff;
 }
 
 .syn-view-btn.active {
-  background: #4cc9f0;
+  background: var(--color-primary);
   color: #000;
-  border-color: #4cc9f0;
+  border-color: var(--color-primary);
   font-weight: bold;
 }
 
@@ -100,8 +100,8 @@
 }
 
 .syn-list-item.active {
-  background: #1c3a4a;
-  border-left: 3px solid #4cc9f0;
+  background: color-mix(in srgb, var(--color-primary) 15%, transparent);
+  border-left: 3px solid var(--color-primary);
 }
 
 .syn-list-name {
@@ -113,7 +113,7 @@
 }
 
 .syn-list-item.active .syn-list-name {
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   font-weight: bold;
 }
 
@@ -135,7 +135,7 @@
 .syn-detail-title {
   font-size: 1.4rem;
   font-weight: bold;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -154,7 +154,7 @@
 
 .syn-table th {
   background: #222;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   padding: 8px 10px;
   text-align: left;
   font-weight: bold;

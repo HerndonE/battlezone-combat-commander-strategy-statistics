@@ -1,11 +1,15 @@
 import {
   COLOR_PALETTE,
+  factionColor,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
+  textOn,
   GRAPH_POPERTIES,
+  redrawOnResize,
 } from "../config.js";
 import { timeToSeconds } from "./data.js";
+import { statCard as summaryCard } from "../vsr/summaryCards.js";
 
 function clear(selector) {
   const el = document.querySelector(selector);
@@ -13,9 +17,11 @@ function clear(selector) {
   return el;
 }
 
-// Widest a chart may be drawn. Charts are sized from their data, but on a
-// phone that has to give way to the viewport or the SVG overflows the screen.
-function availableWidth() {
+// Widest a chart may be drawn: the box it sits in when that box is visible,
+// otherwise the viewport (a hidden tab measures 0 wide).
+function availableWidth(el) {
+  const box = el && el.clientWidth;
+  if (box) return Math.min(1200, Math.max(300, box));
   const viewport =
     typeof window !== "undefined" && window.innerWidth ? window.innerWidth : 1200;
   return Math.min(1200, Math.max(300, viewport - 40));
@@ -31,7 +37,7 @@ function factionPopularity(containerId, chartData) {
 
   const width = Math.min(600, availableWidth());
   const height = 60;
-  const barHeight = 20;
+  const barHeight = 28;
   const borderRadius = 5;
 
   const svg = d3
@@ -43,10 +49,7 @@ function factionPopularity(containerId, chartData) {
 
   const total = d3.sum(data, (d) => d[1]);
   const x = d3.scaleLinear().domain([0, total]).range([0, width]);
-  const color = d3
-    .scaleOrdinal()
-    .domain(data.map((d) => d[0]))
-    .range(COLOR_PALETTE);
+  const color = factionColor; // fixed per faction, not by rank
 
   let currentX = 0;
 
@@ -73,24 +76,33 @@ function factionPopularity(containerId, chartData) {
 
       g.append("text")
         .attr("x", barWidth > 40 ? barWidth / 2 : barWidth + 5)
-        .attr("y", barHeight / 2 + 4)
+        .attr("y", barHeight / 2 + 5)
         .attr("text-anchor", barWidth > 40 ? "middle" : "start")
-        .attr("fill", barWidth > 40 ? TEXT_LIGHT : TEXT_DARK)
-        .style("font-size", "12px")
+        .attr("fill", barWidth > 40 ? textOn(color(d[0])) : TEXT_LIGHT)
+        .style("font-size", "15px")
+        .style("font-weight", "bold")
         .text(`${d[0]}: ${d[1]}`);
     });
 }
 
 // Vertical bar chart used for map counts, matchups, rounds and game lengths.
 function countBarChart(containerId, entries, options = {}) {
-  if (!clear(containerId)) return;
+  const el = clear(containerId);
+  if (!el) return;
+
+  // Redraw to fit when the box changes width; always with the latest data.
+  el._chartArgs = [entries, options];
+  if (!el._resizeBound) {
+    el._resizeBound = true;
+    redrawOnResize(el, () => countBarChart(containerId, ...el._chartArgs));
+  }
 
   const data = entries
     .map(([name, value]) => ({ name, value }))
     .sort((a, b) => b.value - a.value);
   if (!data.length) return;
 
-  const narrow = availableWidth() < 520;
+  const narrow = availableWidth(el) < 520;
   const svgHeight = narrow
     ? Math.round(GRAPH_POPERTIES.svgHeight * 0.85)
     : GRAPH_POPERTIES.svgHeight;
@@ -102,7 +114,7 @@ function countBarChart(containerId, entries, options = {}) {
   };
   const borderRadius = 5;
 
-  const maxWidth = availableWidth();
+  const maxWidth = availableWidth(el);
   const computedWidth = Math.min(
     Math.max(data.length * 90, Math.min(500, maxWidth)),
     maxWidth,
@@ -189,15 +201,6 @@ function countBarChart(containerId, entries, options = {}) {
     .attr("text-anchor", "middle")
     .attr("fill", TEXT_LIGHT)
     .text(options.label || "Count");
-}
-
-function summaryCard(label, value, sub) {
-  return `
-    <div class="trn-stat">
-      <span class="trn-stat-value">${value}</span>
-      <span class="trn-stat-label">${label}</span>
-      ${sub ? `<span class="trn-stat-sub">${sub}</span>` : ""}
-    </div>`;
 }
 
 function describeGame(record) {

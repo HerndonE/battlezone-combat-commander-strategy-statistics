@@ -1,15 +1,22 @@
-import { CONFIG, GRAPH_POPERTIES } from "../config.js";
 import {
+  CONFIG,
+  GRAPH_POPERTIES,
+  chartWidth,
+  redrawOnResize,
+  setFullRow,
+  dayAxisTicks,
   COLOR_PALETTE,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
 } from "../config.js";
+import { renderYearSummary } from "./summaryCards.js";
 import {
   horizontalBarChart,
   groupedHorizontalBarChart,
   prepareWinPercentages,
   winPercentTooltip,
+  factionPopularity,
 } from "./horizontalBars.js";
 
 function mapCountBarChart2026(containerSelector, mapData, expandBtnSelector) {
@@ -41,63 +48,6 @@ function commanderFactionChoiceCountBarChart2026(
   });
 }
 
-function factionPopularity2026(containerId, chartData) {
-  const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
-
-  const width = 600;
-  const height = 60;
-  const barHeight = 20;
-  const borderRadius = 5;
-
-  const svg = d3
-    .select(containerId)
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .style("background-color", BACKGROUND_COLOR);
-
-  const total = d3.sum(data, (d) => d[1]);
-  const x = d3.scaleLinear().domain([0, total]).range([0, width]);
-
-  const color = d3
-    .scaleOrdinal()
-    .domain(data.map((d) => d[0]))
-    .range(COLOR_PALETTE);
-
-  let currentX = 0;
-
-  svg
-    .selectAll("g")
-    .data(data)
-    .enter()
-    .append("g")
-    .attr("transform", (d) => {
-      const xPos = currentX;
-      currentX += x(d[1]);
-      return `translate(${xPos}, 20)`;
-    })
-    .each(function (d, i) {
-      const g = d3.select(this);
-
-      g.append("rect")
-        .attr("width", x(d[1]))
-        .attr("height", barHeight)
-        .attr("fill", color(d[0]))
-        .attr("rx", borderRadius)
-        .attr("ry", borderRadius);
-
-      const textColor = x(d[1]) > 40 ? TEXT_LIGHT : TEXT_DARK;
-
-      g.append("text")
-        .attr("x", x(d[1]) > 40 ? x(d[1]) / 2 : x(d[1]) + 5)
-        .attr("y", barHeight / 2 + 4)
-        .attr("text-anchor", x(d[1]) > 40 ? "middle" : "start")
-        .attr("fill", textColor)
-        .style("font-size", "12px")
-        .text(`${d[0]}: ${d[1]}`);
-    });
-}
-
 function commanderWinPercentages2026(
   containerSelector,
   chartData,
@@ -112,53 +62,6 @@ function commanderWinPercentages2026(
   });
 }
 
-function showTotals(container, data, gameTimeData) {
-  const displayData = document.querySelector(container);
-  if (!displayData) return;
-
-  const totals = data[data.length - 1];
-  const totalDays = totals[0]["Total Days Played"];
-  const totalGames = totals[1]["Total Games Played"];
-
-  const gameTimeTotals = gameTimeData || [];
-  const totalTime = gameTimeTotals[0] || [];
-  const totalMode = gameTimeTotals[1] || [];
-  const matchTimes = gameTimeTotals[2] || [];
-
-  // Shortest and Longest match details (extract first object from array)
-  const shortestMatchTime = matchTimes[0]?.[1] || null;
-  const shortestMatchDetails = matchTimes[1]?.[0] || {};
-  const longestMatchTime = matchTimes[2]?.[1] || null;
-  const longestMatchDetails = matchTimes[3]?.[0] || {};
-
-  // Main totals
-  const mainTotals = [
-    totalDays ? `Total Days Played: ${totalDays}` : null,
-    totalGames ? `Total Games Played: ${totalGames}` : null,
-    totalTime[0]?.[1] ? `${totalTime[0][0]}: ${totalTime[0][1]}` : null,
-    totalTime[1]?.[1] ? `${totalTime[1][0]}: ${totalTime[1][1]}` : null,
-    totalTime[2]?.[1] ? `${totalTime[2][0]}: ${totalTime[2][1]}` : null,
-    totalTime[3]?.[1] ? `${totalTime[3][0]}: ${totalTime[3][1]}` : null,
-    totalMode[1] ? `${totalMode[0]}: ${totalMode[1]}` : null,
-  ]
-    .filter(Boolean)
-    .join(" · ");
-
-  // Shortest and Longest matches on separate lines
-  const matchTotals = [
-    shortestMatchTime
-      ? `<strong>Shortest Match:</strong> ${shortestMatchTime} · ${shortestMatchDetails.commanders || "N/A"} · ${shortestMatchDetails.map || "Unknown"} · ${shortestMatchDetails.date || ""}`
-      : null,
-    longestMatchTime
-      ? `<strong>Longest Match:</strong> ${longestMatchTime} · ${longestMatchDetails.commanders || "N/A"} · ${longestMatchDetails.map || "Unknown"} · ${longestMatchDetails.date || ""}`
-      : null,
-  ]
-    .filter(Boolean)
-    .join("<br>");
-
-  displayData.innerHTML =
-    mainTotals + (matchTotals ? "<br>" + matchTotals : "");
-}
 
 function getValidMonths(data) {
   return data.filter((m) => Array.isArray(m) && typeof m[0] === "string");
@@ -198,15 +101,13 @@ function gamesPlayedPerDayBarChart(
 ) {
   const container = d3.select(containerSelector);
 
-  const baseWidth = 800;
-  const expandedWidth = 1400;
   const height = 400;
 
   function render() {
     container.select("svg").remove();
 
     const isExpanded = container.classed("expanded");
-    const width = isExpanded ? expandedWidth : baseWidth;
+    const width = chartWidth(container.node(), { min: 360 });
 
     const svg = container
       .append("svg")
@@ -277,12 +178,15 @@ function gamesPlayedPerDayBarChart(
       })
       .on("mouseleave", () => tooltip.style("opacity", 0));
 
-    // X Axis
+    // X Axis: evenly spaced dates (1st/15th, or monthly when narrow)
+    const dayTicks = dayAxisTicks(x, width - margin.left - margin.right);
     svg
       .append("g")
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .attr("class", "axis")
-      .call(d3.axisBottom(x));
+      .call(
+        d3.axisBottom(x).tickValues(dayTicks.values).tickFormat(dayTicks.format),
+      );
 
     // Y Axis
     svg
@@ -303,12 +207,16 @@ function gamesPlayedPerDayBarChart(
   }
 
   render();
+  redrawOnResize(container.node(), render);
 
   if (expandButtonSelector) {
-    d3.select(expandButtonSelector).on("click", function () {
+    d3.select(expandButtonSelector)
+      .classed("expand-btn--row", true)
+      .on("click", function () {
       const isExpanded = container.classed("expanded");
 
       container.classed("expanded", !isExpanded);
+      setFullRow(container.node(), !isExpanded);
 
       d3.select(this).text(isExpanded ? "Expand Chart" : "Collapse Chart");
 
@@ -325,12 +233,9 @@ function gamesPlayedPerMonthBarChart(container, data) {
   function drawChart(dataSubset) {
     d3.select(container).select("svg").remove();
 
-    const maxSvgWidth = 1200;
-    const minSvgWidth = 800;
-    const computedWidth = Math.max(
-      minSvgWidth,
-      Math.min(dataSubset.length * 60, maxSvgWidth),
-    );
+    const computedWidth = chartWidth(document.querySelector(container), {
+      min: 360,
+    });
 
     const width = computedWidth - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
@@ -417,6 +322,9 @@ function gamesPlayedPerMonthBarChart(container, data) {
 
   // Initial render
   drawChart(data.slice(0, defaultItemCount));
+  redrawOnResize(document.querySelector(container), () =>
+    drawChart(data.slice(0, defaultItemCount)),
+  );
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
@@ -438,7 +346,7 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
       })),
   );
 
-  showTotals("#info-2026", data.game_totals, data.game_times);
+  renderYearSummary("#info-2026", data.game_totals, data.game_times);
 
   mapCountBarChart2026(
     "#chart-wrapper-played-maps-2026",
@@ -458,7 +366,7 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     "#expand-btn-faction-choice-2026",
   );
 
-  factionPopularity2026("#inline-bar-chart-4", data.faction_counter);
+  factionPopularity("#inline-bar-chart-4", data.faction_counter);
 
   commanderWinPercentages2026(
     "#chart-wrapper-commander-wins-2026",

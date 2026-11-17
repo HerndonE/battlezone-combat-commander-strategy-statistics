@@ -13,6 +13,7 @@
     <meta property="og:title" content="bz2stats.us" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="js/config.js"></script><!-- applies THEME colors -->
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/sections.css">
@@ -28,8 +29,11 @@
       <label for="toggle-menu" class="hamburger">&#9776;</label>
       <a href="index.html" class="brand-link">
         <div class="brand">
-          <img src="/assets/images/api-icon.png" alt="logo" width="40" height="40" />
-          <h3>bz2stats.us</h3>
+          <span class="brand-icon" role="img" aria-label="bz2stats logo">
+            <img class="brand-icon-gear" src="/assets/images/api-icon-gear.svg" alt="" width="40" height="40" />
+            <img class="brand-icon-logo" src="/assets/images/api-icon-logo.svg" alt="" width="40" height="40" />
+          </span>
+          <h3>bz2stats.<span class="brand-tld">us</span></h3>
         </div>
       </a>
       <div class="nav-links">
@@ -167,12 +171,7 @@
       </div>
     </div>
     <hr class="footer-divider">
-    <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — use the <a href="./pages/submit.html">submission form</a> or the Discord links above.</p>
-    <p class="footer-note">
-      <a href="https://www.buymeacoffee.com/F9bomber" target="_blank" rel="noopener noreferrer">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 50px; width: auto;">
-      </a>
-    </p>
+    <p class="footer-note">Statistics are primarily based on games played by <a href="https://f9bomber.com/" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — use the <a href="./pages/submit.html">submission form</a> or the Discord links above.</p>
     <p class="footer-note">2026 &copy; bz2stats.us &mdash; all rights reserved</p>
   </footer>
   </body>

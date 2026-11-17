@@ -50,7 +50,7 @@
   padding: 0;
   font-size: 1.1em;
   font-weight: bold;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 16px;
@@ -123,8 +123,8 @@ input[type="date"]:focus,
 input[type="url"]:focus,
 select:focus {
   outline: none;
-  border-color: #b5179e;
-  box-shadow: 0 0 0 2px #b5179e40;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-primary) 25%, transparent);
 }
 
 select {
@@ -155,13 +155,13 @@ select {
 }
 
 .pill-option:hover {
-  border-color: #b5179e;
+  border-color: var(--color-primary);
 }
 
 .pill-option.selected {
-  background-color: #b5179e;
-  border-color: #b5179e;
-  color: #ffffff;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-on-primary);
 }
 
 .checkbox-field {
@@ -183,7 +183,7 @@ select {
   flex-shrink: 0;
   width: 16px;
   height: 16px;
-  accent-color: #b5179e;
+  accent-color: var(--color-primary);
 }
 
 .form-actions {
@@ -215,8 +215,8 @@ select {
 
 .thank-you-icon {
   font-size: 3rem;
-  color: #4cc9f0;
-  text-shadow: 0 0 20px #4cc9f060;
+  color: var(--color-primary-light);
+  text-shadow: 0 0 20px rgba(248, 129, 60, 0.38);
   margin-bottom: 16px;
   display: block;
 }

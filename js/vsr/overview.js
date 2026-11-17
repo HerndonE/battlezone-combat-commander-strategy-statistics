@@ -1,78 +1,28 @@
-import { CONFIG, GRAPH_POPERTIES } from "../config.js";
 import {
-  COLOR_PALETTE,
+  chartWidth,
+  redrawOnResize,
+  fitLabel,
+  CONFIG,
+  GRAPH_POPERTIES,
+  showLastUpdated,
+  POPULARITY_COLORS,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
   TEXT_DARK,
 } from "../config.js";
+import { renderOverviewSummary } from "./summaryCards.js";
 import {
   horizontalBarChart,
   groupedHorizontalBarChart,
   prepareWinPercentages,
   winPercentTooltip,
+  factionPopularity,
 } from "./horizontalBars.js";
 import {
   getAllDailyGames,
   gamesPlayedPerMonthLineChart,
   gamesPlayedPerMonthTimelineChart,
 } from "./dailyGames.js";
-
-function factionPopularity(containerId, chartData) {
-  const data = Object.entries(chartData).sort((a, b) => b[1] - a[1]);
-
-  const width = 600;
-  const height = 60;
-  const barHeight = 20;
-  const borderRadius = 5;
-
-  const svg = d3
-    .select(containerId)
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .style("background-color", BACKGROUND_COLOR);
-
-  const total = d3.sum(data, (d) => d[1]);
-  const x = d3.scaleLinear().domain([0, total]).range([0, width]);
-
-  const color = d3
-    .scaleOrdinal()
-    .domain(data.map((d) => d[0]))
-    .range(COLOR_PALETTE);
-
-  let currentX = 0;
-
-  svg
-    .selectAll("g")
-    .data(data)
-    .enter()
-    .append("g")
-    .attr("transform", (d) => {
-      const xPos = currentX;
-      currentX += x(d[1]);
-      return `translate(${xPos}, 20)`;
-    })
-    .each(function (d, i) {
-      const g = d3.select(this);
-
-      g.append("rect")
-        .attr("width", x(d[1]))
-        .attr("height", barHeight)
-        .attr("fill", color(d[0]))
-        .attr("rx", borderRadius)
-        .attr("ry", borderRadius);
-
-      const textColor = x(d[1]) > 40 ? TEXT_LIGHT : TEXT_DARK;
-
-      g.append("text")
-        .attr("x", x(d[1]) > 40 ? x(d[1]) / 2 : x(d[1]) + 5)
-        .attr("y", barHeight / 2 + 4)
-        .attr("text-anchor", x(d[1]) > 40 ? "middle" : "start")
-        .attr("fill", textColor)
-        .style("font-size", "12px")
-        .text(`${d[0]}: ${d[1]}`);
-    });
-}
 
 function mapCountBarChart(
   containerId,
@@ -127,12 +77,7 @@ function mapPopularity(
   const expandBtn = document.querySelector(expandBtnSelector);
   let isExpanded = false;
 
-  const CATEGORY_COLORS = {
-    "Very Popular": COLOR_PALETTE[0],
-    "Mostly Popular": COLOR_PALETTE[2],
-    "Moderately Popular": COLOR_PALETTE[4],
-    "Least Popular": COLOR_PALETTE[6],
-  };
+  const CATEGORY_COLORS = POPULARITY_COLORS; // cyan → pink, same as the original chart
   const CATEGORIES = [
     "Very Popular",
     "Mostly Popular",
@@ -140,14 +85,28 @@ function mapPopularity(
     "Least Popular",
   ];
 
-  const margin = { top: 20, right: 80, bottom: 70, left: 160 };
   const barHeight = 22;
-  const width = 800;
+  const node = document.querySelector(containerSelector);
+  let current = chartData.slice(0, defaultItemCount);
 
   function drawChart(data) {
+    current = data;
     d3.select(containerSelector).selectAll("*").remove();
 
     const wrapper = d3.select(containerSelector);
+    const width = chartWidth(node, { min: 360 });
+    // Legend: as many columns as fit (~170px each), wrapping onto more rows.
+    const legendCols = Math.max(
+      1,
+      Math.min(CATEGORIES.length, Math.floor((width - 20) / 170)),
+    );
+    const legendRows = Math.ceil(CATEGORIES.length / legendCols);
+    const margin = {
+      top: 20,
+      right: 60,
+      bottom: 50 + legendRows * 20,
+      left: Math.min(160, Math.round(width * 0.35)),
+    };
     const height = data.length * barHeight + margin.top + margin.bottom;
 
     wrapper
@@ -188,10 +147,10 @@ function mapPopularity(
       .append("g")
       .attr("class", "axis")
       .attr("transform", `translate(${margin.left}, 0)`)
-      .call(d3.axisLeft(y))
+      .call(d3.axisLeft(y).tickFormat((d) => fitLabel(d, margin.left - 14)))
       .selectAll("text")
       .attr("fill", TEXT_LIGHT)
-      .style("font-size", "11px");
+      .style("font-size", "13px");
 
     svg
       .selectAll("rect.bar")
@@ -228,17 +187,19 @@ function mapPopularity(
       .append("text")
       .attr("class", "count-label")
       .attr("x", (d) => x(d.count) + 5)
-      .attr("y", (d) => y(d.name) + y.bandwidth() / 2 + 4)
-      .style("font-size", "11px")
+      .attr("y", (d) => y(d.name) + y.bandwidth() / 2 + 5)
+      .style("font-size", "13px")
+      .style("font-weight", "bold")
       .text((d) => d.count)
       .attr("fill", TEXT_LIGHT);
 
-    const legendY = height - margin.bottom + 40;
-    const legendSpacing =
-      (width - margin.left - margin.right) / CATEGORIES.length;
+    const legendTop = height - margin.bottom + 40;
+    const legendLeft = legendCols === CATEGORIES.length ? margin.left : 10;
+    const legendSpacing = (width - legendLeft - 10) / legendCols;
 
     CATEGORIES.forEach((cat, i) => {
-      const lx = margin.left + i * legendSpacing;
+      const lx = legendLeft + (i % legendCols) * legendSpacing;
+      const legendY = legendTop + Math.floor(i / legendCols) * 20;
       svg
         .append("rect")
         .attr("x", lx)
@@ -251,14 +212,15 @@ function mapPopularity(
       svg
         .append("text")
         .attr("x", lx + 16)
-        .attr("y", legendY + 10)
+        .attr("y", legendY + 11)
         .text(cat)
-        .style("font-size", "11px")
+        .style("font-size", "13px")
         .attr("fill", TEXT_LIGHT);
     });
   }
 
-  drawChart(chartData.slice(0, defaultItemCount));
+  drawChart(current);
+  redrawOnResize(node, () => drawChart(current));
 
   if (expandBtn && chartData.length > defaultItemCount) {
     expandBtn.style.display = "inline-block";
@@ -288,12 +250,10 @@ function commanderWinPercentages(
   });
 }
 
-function lastUpdated(dateValue) {
-  return "Last Updated: " + dateValue;
-}
-
 d3.json(CONFIG.jsonFile).then((rawData) => {
   const data = rawData.vsr.processed_data;
+
+  renderOverviewSummary("#info-overview", rawData.vsr);
 
   factionPopularity("#inline-bar-chart-1", data.processed_most_played_factions);
   mapCountBarChart(
@@ -334,6 +294,5 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     expandBtnSelector: "#expand-btn-monthly-timeline-1",
   });
 
-  const updatedText = lastUpdated(rawData.last_updated);
-  document.getElementById("last-updated").textContent = updatedText;
+  showLastUpdated(rawData.last_updated);
 });

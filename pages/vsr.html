@@ -6,6 +6,7 @@
     <meta name="color-scheme" content="light dark" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
+    <script type="module" src="../js/config.js"></script><!-- applies THEME colors -->
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/sections.css">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="../css/maps.css">
     <link rel="stylesheet" href="../css/match-history.css">
     <link rel="stylesheet" href="../css/commander-synergy.css">
+    <link rel="stylesheet" href="../css/summary-cards.css">
     <link rel="icon" href="/assets/images/api-icon.ico" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/api-icon.png" sizes="128x128">
     <link rel="apple-touch-icon" href="/assets/images/api-icon.png">
@@ -37,14 +39,17 @@
     <script type="module" src="../js/maps.js"></script>
     <script type="module" src="../js/vsr/playerActivity.js"></script>
   </head>
-  <body>
+  <body class="theme-classic">
     <nav class="navbar">
       <input type="checkbox" id="toggle-menu" class="toggle-menu">
       <!--<label for="toggle-menu" class="hamburger">&#9776;</label>-->
       <a href="./stats.html" class="brand-link">
         <div class="brand">
-          <img src="/assets/images/api-icon.png" alt="logo" width="40" height="40" />
-          <h3>bz2stats.us</h3>
+          <span class="brand-icon" role="img" aria-label="bz2stats logo">
+            <img class="brand-icon-gear" src="/assets/images/api-icon-gear.svg" alt="" width="40" height="40" />
+            <img class="brand-icon-logo" src="/assets/images/api-icon-logo.svg" alt="" width="40" height="40" />
+          </span>
+          <h3>bz2stats.<span class="brand-tld">us</span></h3>
         </div>
       </a>
       <div class="nav-right">
@@ -65,6 +70,7 @@
       </div>
       <div id="Overview" class="tabcontent">
         <div align="center">
+          <div id="info-overview"></div>
           <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-1"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
@@ -114,8 +120,8 @@
       </div>
       <div id="twentyFour" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-2"></div>
           <div id="info-2024"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-2"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -157,8 +163,8 @@
       </div>
       <div id="twentyFive" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
           <div id="info-2025"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-3"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -200,8 +206,8 @@
       </div>
       <div id="twentySix" class="tabcontent">
         <div align="center">
-          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-4"></div>
           <div id="info-2026"></div>
+          <h3 style="padding-top: 10;">Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-4"></div>
           <div class="graph-container">
             <div class="graph-wrapper">
               <h3 style="padding-top: 10;">Most Played Maps</h3>
@@ -287,9 +293,9 @@
           <select id="yearFilter" disabled></select>
           <select id="monthFilter" disabled></select>
           <input type="text" id="search" placeholder="Search: map, winner, commander...">
-          <select id="sortOrder" title="Sort by date">
+          <select id="sortOrder" title="Sort by date" autocomplete="off">
+            <option value="desc" selected>Newest → Oldest</option>
             <option value="asc">Oldest → Newest</option>
-            <option value="desc">Newest → Oldest</option>
           </select>
         </div>
         <div class="match-history-actions">
@@ -478,12 +484,7 @@
       </div>
     </div>
     <footer>
-      <p class="footer-note">Statistics are primarily based on games played by <a href="https://www.youtube.com/@F9bomber" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
-      <p class="footer-note">
-        <a href="https://www.buymeacoffee.com/F9bomber" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-violet.png" alt="Buy Me A Coffee" style="height: 50px; width: auto;">
-        </a>
-      </p>
+      <p class="footer-note">Statistics are primarily based on games played by <a href="https://f9bomber.com/" target="_blank" rel="noopener noreferrer">F9bomber</a>. Submitted games are welcome — use the <a href="submit.html">submission form</a> or the Discord links on the <a href="../index.html">home page</a>.</p>
       <p class="footer-note">2026 &copy; bz2stats.us &mdash; all rights reserved</p>
     </footer>
   </body>

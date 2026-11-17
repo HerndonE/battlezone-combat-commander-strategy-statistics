@@ -1,6 +1,6 @@
 
 footer {
-  background-color: #2a2a2a;
+  background-color: var(--color-surface);
   color: white;
   width: 100%;
   padding: 24px 16px 12px;
@@ -17,13 +17,13 @@ footer p {
 .footer-note {
   text-align: center;
   font-size: 13px;
-  color: #ccc;
+  color: var(--color-text-muted);
   margin: 6px 0;
   line-height: 1.6;
 }
 
 .footer-note a {
-  color: #aac4ff;
+  color: var(--color-secondary-light);
   text-decoration: none;
 }
 
@@ -65,13 +65,13 @@ footer p {
 
 .custom-link {
   font-size: 13px;
-  color: #aac4ff;
+  color: var(--color-secondary-light);
   text-decoration: none;
 }
 
 .custom-link:hover {
   text-decoration: underline;
-  color: #c8daff;
+  color: var(--color-primary-light);
 }
 
 .footer-divider {

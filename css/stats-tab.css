@@ -12,7 +12,8 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* Change background color of buttons on hover */
@@ -22,7 +23,8 @@
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #b5179e;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
 }
 
 .tabcontent {
@@ -42,7 +44,7 @@
 .tabcontent::-webkit-scrollbar-thumb {
   background: linear-gradient(
     180deg,
-    #4cc9f0
+    var(--color-primary)
   );
   border-radius: 6px;
 }
@@ -53,5 +55,5 @@
 
 .tabcontent {
   scrollbar-width: thin;
-  scrollbar-color: #4cc9f0 rgba(255,255,255,0.1);
+  scrollbar-color: var(--color-primary) rgba(255,255,255,0.1);
 }

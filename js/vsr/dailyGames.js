@@ -1,5 +1,13 @@
 // Games Played per Month: one line per year, overlaid on a shared Jan–Dec axis.
-import { COLOR_PALETTE, BACKGROUND_COLOR, TEXT_LIGHT } from "../config.js";
+import {
+  COLOR_PALETTE,
+  BACKGROUND_COLOR,
+  TEXT_LIGHT,
+  chartWidth,
+  redrawOnResize,
+  setFullRow,
+  monthTickStep,
+} from "../config.js";
 
 const MONTHS = [
   "Jan",
@@ -88,8 +96,6 @@ export function gamesPlayedPerMonthTimelineChart(
 ) {
   const container = d3.select(containerSelector);
   const tooltip = d3.select(tooltipSelector);
-  const baseWidth = 800;
-  const expandedWidth = 1400;
   const height = 400;
   let isExpanded = false;
 
@@ -117,7 +123,7 @@ export function gamesPlayedPerMonthTimelineChart(
   function render() {
     container.select("svg").remove();
 
-    const width = isExpanded ? expandedWidth : baseWidth;
+    const width = chartWidth(container.node(), { min: 360 });
     // Wider right margin leaves room for the reference line labels.
     const margin = { top: 40, right: 90, bottom: 50, left: 60 };
 
@@ -165,7 +171,7 @@ export function gamesPlayedPerMonthTimelineChart(
       .append("text")
       .attr("x", width - margin.right + 6)
       .attr("dy", "0.35em")
-      .style("font-size", "11px")
+      .style("font-size", "13px")
       .attr("fill", TEXT_LIGHT)
       .text((d) => `${d.label}: ${Math.round(d.value * 10) / 10}`);
 
@@ -212,7 +218,11 @@ export function gamesPlayedPerMonthTimelineChart(
       .call(
         d3
           .axisBottom(x)
-          .ticks(d3.timeMonth.every(isExpanded ? 1 : 3))
+          .ticks(
+            d3.timeMonth.every(
+              monthTickStep(data.length, width - margin.left - margin.right),
+            ),
+          )
           .tickFormat(tickFormat),
       );
 
@@ -248,20 +258,23 @@ export function gamesPlayedPerMonthTimelineChart(
     legend
       .append("text")
       .attr("x", 16)
-      .attr("y", 10)
-      .style("font-size", "11px")
+      .attr("y", 11)
+      .style("font-size", "13px")
       .attr("fill", TEXT_LIGHT)
       .text((d) => d);
   }
 
   render();
+  redrawOnResize(container.node(), render);
 
   const expandBtn = expandBtnSelector
     ? document.querySelector(expandBtnSelector)
     : null;
   if (expandBtn) {
+    expandBtn.classList.add("expand-btn--row");
     expandBtn.addEventListener("click", () => {
       isExpanded = !isExpanded;
+      setFullRow(container.node(), isExpanded);
       expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
       render();
     });
@@ -275,8 +288,6 @@ export function gamesPlayedPerMonthLineChart(
 ) {
   const container = d3.select(containerSelector);
   const tooltip = d3.select(tooltipSelector);
-  const baseWidth = 800;
-  const expandedWidth = 1400;
   const height = 400;
   let isExpanded = false;
 
@@ -288,7 +299,7 @@ export function gamesPlayedPerMonthLineChart(
   function render() {
     container.select("svg").remove();
 
-    const width = isExpanded ? expandedWidth : baseWidth;
+    const width = chartWidth(container.node(), { min: 360 });
     const margin = { top: 40, right: 30, bottom: 50, left: 60 };
 
     const svg = container
@@ -373,7 +384,14 @@ export function gamesPlayedPerMonthLineChart(
       .append("g")
       .attr("class", "axis")
       .attr("transform", `translate(0,${height - margin.bottom})`)
-      .call(d3.axisBottom(x).tickFormat((m) => MONTHS[m]));
+      .call(
+        d3
+          .axisBottom(x)
+          .tickValues(
+            d3.range(0, 12, monthTickStep(12, width - margin.left - margin.right, 44)),
+          )
+          .tickFormat((m) => MONTHS[m]),
+      );
 
     svg
       .append("g")
@@ -412,21 +430,23 @@ export function gamesPlayedPerMonthLineChart(
     legend
       .append("text")
       .attr("x", 16)
-      .attr("y", 10)
-      .style("font-size", "11px")
+      .attr("y", 11)
+      .style("font-size", "13px")
       .attr("fill", TEXT_LIGHT)
       .text((d) => d);
   }
 
   render();
+  redrawOnResize(container.node(), render);
 
   const expandBtn = expandBtnSelector
     ? document.querySelector(expandBtnSelector)
     : null;
   if (expandBtn) {
+    expandBtn.classList.add("expand-btn--row");
     expandBtn.addEventListener("click", () => {
       isExpanded = !isExpanded;
-      container.classed("expanded", isExpanded);
+      setFullRow(container.node(), isExpanded);
       expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
       render();
     });

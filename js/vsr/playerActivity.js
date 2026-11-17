@@ -9,7 +9,15 @@
 //                              2026, 2027, ...). Adding a new year tab only
 //                              needs <div id="player-activity-2027"></div>.
 // Each chart uses the .tooltip element inside its own tab.
-import { CONFIG, COLOR_PALETTE, TEXT_LIGHT } from "../config.js";
+import {
+  CONFIG,
+  COLOR_PALETTE,
+  TEXT_LIGHT,
+  chartWidth,
+  redrawOnResize,
+  setFullRow,
+  monthTickStep,
+} from "../config.js";
 import { cleanRoster, forEachMatch, parseDate, splitMatch } from "./matchData.js";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -102,8 +110,6 @@ export function playerActivityChart(
     : Array.from(tab?.querySelectorAll(".tooltip") || []).find(isTabTooltip) ||
       document.getElementById("tooltip");
   const tooltip = d3.select(tooltipEl);
-  const baseWidth = 800;
-  const expandedWidth = 1400;
   const height = 400;
   let isExpanded = false;
 
@@ -115,7 +121,7 @@ export function playerActivityChart(
   function render() {
     container.select("svg").remove();
 
-    const width = isExpanded ? expandedWidth : baseWidth;
+    const width = chartWidth(container.node(), { min: 360 });
     const margin = { top: 40, right: 30, bottom: 50, left: 60 };
 
     const svg = container
@@ -195,7 +201,7 @@ export function playerActivityChart(
     });
 
     // Axes
-    const every = Math.max(1, Math.ceil(data.length / Math.floor((width - 90) / 44)));
+    const every = monthTickStep(data.length, width - margin.left - margin.right);
     svg
       .append("g")
       .attr("class", "axis")
@@ -205,7 +211,7 @@ export function playerActivityChart(
           .axisBottom(x)
           .tickValues(
             data
-              .filter((d, i) => (multiYear ? d.month.getMonth() % (isExpanded ? 1 : 3) === 0 : i % every === 0))
+              .filter((d, i) => (multiYear ? d.month.getMonth() % every === 0 : i % every === 0))
               .map((d) => +d.month),
           )
           .tickFormat((k) => tickLabel(new Date(k))),
@@ -279,19 +285,22 @@ export function playerActivityChart(
       }
       g.append("text")
         .attr("x", 18)
-        .attr("y", 10)
-        .style("font-size", "11px")
+        .attr("y", 11)
+        .style("font-size", "13px")
         .attr("fill", TEXT_LIGHT)
         .text(s.label);
     });
   }
 
   render();
+  redrawOnResize(container.node(), render);
 
   const expandBtn = expandBtnSelector ? document.querySelector(expandBtnSelector) : null;
   if (expandBtn) {
+    expandBtn.classList.add("expand-btn--row");
     expandBtn.addEventListener("click", () => {
       isExpanded = !isExpanded;
+      setFullRow(container.node(), isExpanded);
       expandBtn.textContent = isExpanded ? "Collapse Chart" : "Expand Chart";
       render();
     });

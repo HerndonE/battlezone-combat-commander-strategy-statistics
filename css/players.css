@@ -18,8 +18,8 @@
 
 .card:hover {
     transform: scale(1.03);
-    border-color: #b5179e;
-    box-shadow: 0 0 20px #b5179e90;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 55%, transparent);
 }
 
 /* Name */
@@ -27,7 +27,7 @@
     font-size: 1.6rem;
     font-weight: bold;
     text-align: center;
-    color: #4cc9f0;
+    color: var(--color-primary-light);
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -47,7 +47,7 @@
 .section-title {
     margin-top: 12px;
     font-size: 1rem;
-    color: #4895ef;
+    color: var(--color-secondary-light);
     font-weight: bold;
     border-bottom: 1px solid #333;
     padding-bottom: 4px;

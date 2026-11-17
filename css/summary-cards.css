@@ -1,0 +1,46 @@
+/* Summary stat cards (tournaments overview, VSR year tabs) ---------------- */
+
+.summary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* a short row (e.g. 2024's single card) stays centered */
+  gap: 14px;
+  padding: 32px 20px 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  flex: 1 1 160px; /* share the row evenly; wrap below ~160px */
+  max-width: 260px;
+  padding: 16px 12px;
+  background: linear-gradient(135deg, #1a1a1a, #292929);
+  border: 1px solid #3a3a3a;
+  border-radius: 12px;
+}
+
+.summary-card-value {
+  color: var(--color-primary-light);
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.summary-card-label {
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.summary-card-sub {
+  color: #888888;
+  font-size: 0.78rem;
+  line-height: 1.3;
+}

@@ -52,8 +52,9 @@
     }
 
     .classic-button {
-      background-color: #b5179e;
-      color: white;
+      background-color: var(--color-primary);
+      color: var(--color-on-primary);
+      text-shadow: none; /* don't inherit the section text shadow; it smears dark text */
       text-decoration: none;
       padding: 10px 20px;
       display: inline-block;
@@ -64,7 +65,7 @@
     }
 
     .classic-button:hover {
-      background-color: #a02087;
+      background-color: var(--color-primary-light);
     }
 
     .brand-link {

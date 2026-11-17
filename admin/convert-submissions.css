@@ -14,7 +14,7 @@ body.convert-page {
 
 .convert-container h1 {
   font-family: inherit;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
 }
 
 .convert-intro {
@@ -95,7 +95,7 @@ code {
 
 .preview-details summary {
   cursor: pointer;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
 }
 
 #json-preview {

@@ -1,4 +1,5 @@
 import * as THREE from "https://unpkg.com/three@0.161.0/build/three.module.js";
+import { THEME } from "./js/config.js";
 
 const clock = new THREE.Clock();
 const scene = new THREE.Scene();
@@ -20,7 +21,7 @@ scene.add(light);
 
 camera.position.z = 1000;
 scene.add(camera);
-scene.background = new THREE.Color(0x000000);
+scene.background = new THREE.Color(THEME.background);
 
 // Smoke texture
 const smokeTexture = new THREE.TextureLoader().load(
@@ -29,10 +30,10 @@ const smokeTexture = new THREE.TextureLoader().load(
 
 // Use MeshBasicMaterial instead of Lambert for performance
 const smokeMaterial = new THREE.MeshBasicMaterial({
-  color: 0x0287ef,
+  color: THEME.smoke,
   map: smokeTexture,
   transparent: true,
-  opacity: 0.7,
+  opacity: THEME.smokeOpacity, // kept low so text over it stays readable
 });
 
 const smokeGeo = new THREE.PlaneGeometry(300, 300);

@@ -82,16 +82,16 @@ details div {
   font-size: 13px;
   border: 1px solid #555;
   background: #2a2a2a;
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .match-history-actions button:hover {
-  background: #4cc9f0;
+  background: var(--color-primary);
   color: #000;
-  border-color: #4cc9f0;
+  border-color: var(--color-primary);
 }
 
 @media (max-width: 600px) {
@@ -116,10 +116,10 @@ details div {
 }
 
 .mh-table th {
-  color: #4cc9f0;
+  color: var(--color-primary-light);
   font-weight: 600;
   white-space: nowrap;
-  border-bottom: 2px solid #b5179e;
+  border-bottom: 2px solid var(--color-primary);
   background: #121212;
   position: sticky;
   top: 0;
