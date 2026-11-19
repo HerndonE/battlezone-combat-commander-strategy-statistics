@@ -1,4 +1,4 @@
-import { CONFIG } from "../config.js";
+import { CONFIG, MODE } from "../config.js";
 
 let synergyData = null;
 let activeCommander = null;
@@ -125,7 +125,7 @@ async function initSynergy() {
     const response = await fetch(CONFIG.jsonFile);
     if (!response.ok) throw new Error("Failed to load data");
     const data = await response.json();
-    synergyData = data.stock.processed_data.processed_commander_player_synergy;
+    synergyData = data[MODE].processed_data.processed_commander_player_synergy;
 
     buildList();
 

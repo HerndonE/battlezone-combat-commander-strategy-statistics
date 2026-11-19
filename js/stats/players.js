@@ -1,4 +1,4 @@
-import { CONFIG } from "../config.js";
+import { CONFIG, MODE } from "../config.js";
 import {
   averageTime,
   bump,
@@ -112,7 +112,7 @@ async function loadData() {
     if (!response.ok) throw new Error("Failed to load JSON file");
     const data = await response.json();
 
-    const playerTimes = data["vsr"]["processed_data"]["processed_player_times"];
+    const playerTimes = data[MODE]["processed_data"]["processed_player_times"];
     const lastEntry = playerTimes[playerTimes.length - 1];
     if (Array.isArray(lastEntry) && typeof lastEntry[0] === "string") {
       totalPlayersText = lastEntry[0];

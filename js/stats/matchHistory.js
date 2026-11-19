@@ -1,3 +1,4 @@
+import { MODE } from "../config.js";
 function extractRows(json) {
   const rows = [];
   for (const year in json) {
@@ -46,7 +47,7 @@ fetch("../data/data.json")
     return response.json();
   })
   .then((data) => {
-    rows = extractRows(data?.vsr || {});
+    rows = extractRows(data?.[MODE] || {});
     loadFilters();
     document.getElementById("yearFilter").disabled = false;
     document.getElementById("monthFilter").disabled = false;

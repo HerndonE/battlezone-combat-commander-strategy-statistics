@@ -340,7 +340,7 @@ export const winPercentTooltip = (d) =>
   `Win %: ${d.value.toFixed(1)}%`;
 
 // Faction Popularity: one stacked bar, each faction's share of the total.
-// Used by the VSR Overview and every year tab.
+// Used by the Overview and every year tab.
 const FACTION_MAX_WIDTH = 600;
 const FACTION_HEIGHT = 60;
 const FACTION_BAR_HEIGHT = 28;

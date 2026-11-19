@@ -9,7 +9,7 @@ import {
   redrawOnResize,
 } from "../config.js";
 import { timeToSeconds } from "./data.js";
-import { statCard as summaryCard } from "../vsr/summaryCards.js";
+import { statCard as summaryCard } from "../stats/summaryCards.js";
 
 function clear(selector) {
   const el = document.querySelector(selector);

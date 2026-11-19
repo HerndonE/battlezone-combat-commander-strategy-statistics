@@ -1,5 +1,4 @@
-import { CONFIG } from "./config.js";
-import { FACTIONICONS } from "./config.js";
+import { CONFIG, FACTIONICONS, MODE } from "../config.js";
 
 function formatPercent(value) {
   return (value * 100).toFixed(1) + "%";
@@ -99,7 +98,7 @@ async function initMaps() {
     if (!response.ok) throw new Error("Failed to load JSON file");
 
     const data = await response.json();
-    const totalMaps = data?.vsr?.processed_data?.processed_faction_favorite_maps;
+    const totalMaps = data?.[MODE]?.processed_data?.processed_faction_favorite_maps;
 
     if (!totalMaps) {
       console.error("No map data found in JSON");

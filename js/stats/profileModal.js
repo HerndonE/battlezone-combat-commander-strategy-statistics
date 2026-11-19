@@ -1,4 +1,4 @@
-import { COLOR_PALETTE } from "../config.js";
+import { COLOR_PALETTE, MODE } from "../config.js";
 import {
   parseDate,
   quarterKeyOf,
@@ -646,7 +646,7 @@ function buildDiscordText() {
     ...cfg.discordLines,
     "```",
   ].join("\n");
-  const footer = "\n<https://bz2stats.us/pages/vsr.html>";
+  const footer = `\n<https://bz2stats.us/pages/${MODE}.html>`;
 
   const lists = cfg.lists
     .filter((l) => l.discord)

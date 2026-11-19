@@ -1,4 +1,4 @@
-import { CONFIG } from "../config.js";
+import { CONFIG, MODE } from "../config.js";
 import {
   bump,
   buildQuarterRange,
@@ -86,7 +86,7 @@ async function loadData() {
     const data = await response.json();
 
     const totalCommanders =
-      data["stock"]["processed_data"]["processed_commander_times"];
+      data[MODE]["processed_data"]["processed_commander_times"];
     mergeCommanderTimes(totalCommanders);
 
     const lastEntry = totalCommanders[totalCommanders.length - 1];

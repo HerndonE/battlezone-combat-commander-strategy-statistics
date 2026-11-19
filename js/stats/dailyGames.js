@@ -1,3 +1,4 @@
+import { MODE } from "../config.js";
 // Games Played per Month: one line per year, overlaid on a shared Jan–Dec axis.
 import {
   COLOR_PALETTE,
@@ -34,16 +35,16 @@ function parseGameDate(str) {
 }
 
 /**
- * Collect daily game counts from every year key under rawData.stock
+ * Collect daily game counts from every year key under rawData[MODE]
  * (e.g. "2024", "2025", ...), so future years are picked up automatically.
  */
-export function getAllDailyGames(vsrData) {
+export function getAllDailyGames(modeData) {
   const days = [];
 
-  Object.keys(vsrData)
+  Object.keys(modeData)
     .filter((key) => /^\d{4}$/.test(key))
     .forEach((year) => {
-      const gameTotals = vsrData[year]?.[`data_${year}`]?.game_totals || [];
+      const gameTotals = modeData[year]?.[`data_${year}`]?.game_totals || [];
       gameTotals
         .filter((m) => Array.isArray(m) && typeof m[0] === "string")
         .forEach((month) => {

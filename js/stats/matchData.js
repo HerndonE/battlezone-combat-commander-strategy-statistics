@@ -1,11 +1,11 @@
-import { FACTIONICONS } from "../config.js";
+import { FACTIONICONS, MODE } from "../config.js";
 
 /* ==========================================================================
  * Pure data helpers shared by the Commanders, Players and Player Activity
  * code. No DOM access at import time, so any page can use them.
  * ========================================================================== */
 
-// Every year key under data.vsr ("2024", "2025", ... and any future year) is
+// Every year key under data[MODE] ("2024", "2025", ... and any future year) is
 // read automatically by forEachMatch, so new years need no code changes here.
 
 // Players listed on a team roster, ignoring blanks and the "NA" placeholder.
@@ -53,8 +53,15 @@ export function bump(bucket, key, won) {
 }
 
 // Iterate every raw match in data.json.
+// Year keys ("2024", "2025", ...) under a mode's data, oldest first.
+export function getYears(modeData) {
+  return Object.keys(modeData || {})
+    .filter((key) => /^\d{4}$/.test(key))
+    .sort();
+}
+
 export function forEachMatch(data, fn) {
-  Object.values(data?.vsr || {}).forEach((yearBlock) => {
+  Object.values(data?.[MODE] || {}).forEach((yearBlock) => {
     Object.values(yearBlock || {}).forEach((rawYear) => {
       if (!rawYear?.month) return;
       Object.values(rawYear.month).forEach((monthBlock) => {

@@ -1,6 +1,10 @@
+// Year tabs for a stats page (VSR, Stock, ...). One tab per year key under
+// data[MODE] ("2024", "2025", ... and any future year), each built from the
+// same template below, so adding a year needs no new JS file or HTML.
+// The mobile cards for each year are built in mobileStats.js.
 import {
   CONFIG,
-  GRAPH_POPERTIES,
+  MODE,
   chartWidth,
   redrawOnResize,
   setFullRow,
@@ -8,7 +12,6 @@ import {
   COLOR_PALETTE,
   BACKGROUND_COLOR,
   TEXT_LIGHT,
-  TEXT_DARK,
 } from "../config.js";
 import { renderYearSummary } from "./summaryCards.js";
 import {
@@ -18,50 +21,78 @@ import {
   winPercentTooltip,
   factionPopularity,
 } from "./horizontalBars.js";
+import { getMonthlyActivity, playerActivityChart } from "./playerActivity.js";
+import { getYears } from "./matchData.js";
 
-function mapCountBarChart2024(containerSelector, mapData, expandBtnSelector) {
-  horizontalBarChart(containerSelector, mapData, {
-    expandBtnSelector,
-    tooltipSelector: "#tooltip1",
-  });
+// Extra text under a year's Player Activity chart, per mode and year.
+const ACTIVITY_NOTES = {
+  vsr: {
+    2024: "Most 2024 games have no team roster, so these counts are mostly commanders.",
+  },
+};
+
+function chartBox(title, id, { expand = false, hidden = true } = {}) {
+  const btn = expand
+    ? `<button class="expand-btn" id="expand-btn-${id}"${hidden ? ' style="display: none;"' : ""}>Expand Chart</button>`
+    : "";
+  return `
+    <div class="graph-wrapper">
+      <h3 style="padding-top: 10px;">${title}</h3>
+      ${btn}
+      <div class="graph-box" id="chart-wrapper-${id}"></div>
+    </div>`;
 }
 
-function commanderCountBarChart2024(
-  containerSelector,
-  mapData,
-  expandBtnSelector,
-) {
-  horizontalBarChart(containerSelector, mapData, {
-    expandBtnSelector,
-    tooltipSelector: "#tooltip1",
-  });
+function yearTabHtml(year) {
+  const note = ACTIVITY_NOTES[MODE]?.[year] || "";
+  return `
+    <div align="center">
+      <div id="info-${year}"></div>
+      <h3>Faction Popularity</h3> Values are based on the faction the commander choses to play as. <div id="inline-bar-chart-${year}"></div>
+      <div class="graph-container">
+        ${chartBox("Most Played Maps", `played-maps-${year}`, { expand: true })}
+        ${chartBox("Commanders", `played-commanders-${year}`, { expand: true })}
+        ${chartBox("Commander Win Percentages (Adjusted After First 5 Games)", `commander-wins-${year}`, { expand: true })}
+        ${chartBox("Commanders Faction Choices", `faction-choice-${year}`, { expand: true })}
+        <div class="graph-wrapper">
+          <h3 style="padding-top: 10px;">Games Played per Month</h3>
+          <div id="monthly-${year}"></div>
+        </div>
+        <div class="graph-wrapper">
+          <h3 style="padding-top: 10px;">Games Played per Day</h3>
+          <button class="expand-btn" id="expand-btn-played-days-${year}">Expand Chart</button>
+          <div id="daily-${year}"></div>
+        </div>
+        <div class="graph-wrapper">
+          <h3 style="padding-top: 10px;">Player Activity per Month</h3>
+          <p class="activity-note">Players = everyone in a game, commanders included. New players = first game on record.${note ? ` ${note}` : ""}</p>
+          <div id="player-activity-${year}"></div>
+        </div>
+        <div id="tooltip${year}" class="tooltip"></div>
+      </div>
+    </div>`;
 }
 
-function commanderFactionChoiceCountBarChart2024(
-  containerId,
-  chartData,
-  expandBtnSelector = "#expand-btn",
-) {
-  groupedHorizontalBarChart(containerId, chartData, {
-    expandBtnSelector,
-    tooltipSelector: "#tooltip1",
+// Adds a tab button (after Overview) and tab content (after #Overview) per year.
+function buildYearTabs(years) {
+  let lastBtn = document.querySelector(".tablinks[onclick*=\"'Overview'\"]");
+  let lastTab = document.getElementById("Overview");
+  years.forEach((year) => {
+    const btn = document.createElement("button");
+    btn.className = "tablinks";
+    btn.textContent = year;
+    btn.setAttribute("onclick", `getData(event, 'year-${year}')`);
+    lastBtn.after(btn);
+    lastBtn = btn;
+
+    const tab = document.createElement("div");
+    tab.id = `year-${year}`;
+    tab.className = "tabcontent";
+    tab.innerHTML = yearTabHtml(year);
+    lastTab.after(tab);
+    lastTab = tab;
   });
 }
-
-function commanderWinPercentages2024(
-  containerSelector,
-  chartData,
-  expandButtonSelector,
-) {
-  horizontalBarChart(containerSelector, prepareWinPercentages(chartData), {
-    expandBtnSelector: expandButtonSelector,
-    tooltipSelector: "#tooltip1",
-    valueLabel: "Win %",
-    formatValue: (v) => `${v.toFixed(1)}%`,
-    tooltipHtml: winPercentTooltip,
-  });
-}
-
 
 function getValidMonths(data) {
   return data.filter((m) => Array.isArray(m) && typeof m[0] === "string");
@@ -98,6 +129,7 @@ function gamesPlayedPerDayBarChart(
   containerSelector,
   data,
   expandButtonSelector,
+  tooltipSelector,
 ) {
   const container = d3.select(containerSelector);
 
@@ -139,14 +171,14 @@ function gamesPlayedPerDayBarChart(
       .y((d) => y(d.value))
       .curve(d3.curveMonotoneX);
 
-    let tooltip = d3.select("#tooltip1");
+    let tooltip = d3.select(tooltipSelector);
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
         .append("div")
         .style("position", "fixed")
-        .attr("id", "tooltip1")
-        .attr("class", "tooltip1");
+        .attr("id", tooltipSelector.slice(1))
+        .attr("class", "tooltip");
     }
 
     // Line
@@ -225,7 +257,7 @@ function gamesPlayedPerDayBarChart(
   }
 }
 
-function gamesPlayedPerMonthBarChart(container, data) {
+function gamesPlayedPerMonthBarChart(container, data, tooltipSelector) {
   const defaultItemCount = 12;
   const margin = { top: 40, right: 20, bottom: 80, left: 60 };
   const borderRadius = 5;
@@ -247,13 +279,13 @@ function gamesPlayedPerMonthBarChart(container, data) {
       .attr("height", height + margin.top + margin.bottom)
       .style("background-color", BACKGROUND_COLOR);
 
-    let tooltip = d3.select("#tooltip1");
+    let tooltip = d3.select(tooltipSelector);
     if (tooltip.empty()) {
       tooltip = d3
         .select("body")
         .append("div")
-        .attr("id", "tooltip1")
-        .attr("class", "tooltip1");
+        .attr("id", tooltipSelector.slice(1))
+        .attr("class", "tooltip");
     }
 
     const x = d3
@@ -327,62 +359,76 @@ function gamesPlayedPerMonthBarChart(container, data) {
   );
 }
 
-d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData["vsr"]["2024"]["data_2024"];
+function renderYear(rawData, year, monthlyActivity) {
+  const data = rawData[MODE][year][`data_${year}`];
+  const tooltipSelector = `#tooltip${year}`;
+  const id = (name) => `#chart-wrapper-${name}-${year}`;
+  const btn = (name) => `#expand-btn-${name}-${year}`;
 
   const mapCounts = data.map_counts.map(([name, value]) => ({ name, value }));
-
   const commanderCounts = data.commander_list.map(([name, value]) => ({
     name,
     value,
   }));
-
-  const commanderFactionCounts = Object.entries(
-    data.commander_faction_counts,
-  ).flatMap(([commander, factions]) =>
-    Object.entries(factions).map(([faction, value]) => ({
-      commander,
-      faction,
-      value,
-    })),
+  const factionCounts = Object.entries(data.commander_faction_counts).flatMap(
+    ([commander, factions]) =>
+      Object.entries(factions).map(([faction, value]) => ({
+        commander,
+        faction,
+        value,
+      })),
   );
 
-  renderYearSummary("#info-2024", data.game_totals, data.game_times);
+  renderYearSummary(`#info-${year}`, data.game_totals, data.game_times);
 
-  mapCountBarChart2024(
-    "#chart-wrapper-played-maps-2024",
-    mapCounts,
-    "#expand-btn-played-maps-2024",
-  );
+  horizontalBarChart(id("played-maps"), mapCounts, {
+    expandBtnSelector: btn("played-maps"),
+    tooltipSelector,
+  });
+  horizontalBarChart(id("played-commanders"), commanderCounts, {
+    expandBtnSelector: btn("played-commanders"),
+    tooltipSelector,
+  });
+  groupedHorizontalBarChart(id("faction-choice"), factionCounts, {
+    expandBtnSelector: btn("faction-choice"),
+    tooltipSelector,
+  });
 
-  commanderCountBarChart2024(
-    "#chart-wrapper-played-commanders-2024",
-    commanderCounts,
-    "#expand-btn-played-commanders-2024",
-  );
+  factionPopularity(`#inline-bar-chart-${year}`, data.faction_counter);
 
-  commanderFactionChoiceCountBarChart2024(
-    "#chart-wrapper-faction-choice-2024",
-    commanderFactionCounts,
-    "#expand-btn-faction-choice-2024",
-  );
-
-  factionPopularity("#inline-bar-chart-2", data.faction_counter);
-
-  commanderWinPercentages2024(
-    "#chart-wrapper-commander-wins-2024",
-    data.commander_win_percentages,
-    "#expand-btn-commander-wins-2024",
+  horizontalBarChart(
+    id("commander-wins"),
+    prepareWinPercentages(data.commander_win_percentages),
+    {
+      expandBtnSelector: btn("commander-wins"),
+      tooltipSelector,
+      valueLabel: "Win %",
+      formatValue: (v) => `${v.toFixed(1)}%`,
+      tooltipHtml: winPercentTooltip,
+    },
   );
 
   gamesPlayedPerMonthBarChart(
-    "#monthly-2024",
+    `#monthly-${year}`,
     getMonthlyGames(data.game_totals),
+    tooltipSelector,
+  );
+  gamesPlayedPerDayBarChart(
+    `#daily-${year}`,
+    getDailyGames(data.game_totals),
+    btn("played-days"),
+    tooltipSelector,
   );
 
-  gamesPlayedPerDayBarChart(
-    "#daily-2024",
-    getDailyGames(data.game_totals),
-    "#expand-btn-played-days-2024",
+  playerActivityChart(
+    `#player-activity-${year}`,
+    monthlyActivity.filter((d) => d.month.getFullYear() === Number(year)),
   );
+}
+
+d3.json(CONFIG.jsonFile).then((rawData) => {
+  const years = getYears(rawData[MODE]);
+  buildYearTabs(years);
+  const monthlyActivity = getMonthlyActivity(rawData);
+  years.forEach((year) => renderYear(rawData, year, monthlyActivity));
 });

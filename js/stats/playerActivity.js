@@ -2,12 +2,11 @@
 // players in their first recorded game (line), on one count axis. Players
 // include commanders as well as everyone on the team rosters.
 //
-// Where it renders (found automatically, no year list to maintain):
+// Where it renders:
 //   #player-activity-1      -> Overview: full timeline, with Expand button
-//                              #expand-btn-player-activity-1
-//   #player-activity-YYYY   -> that year's months, for any year (2024, 2025,
-//                              2026, 2027, ...). Adding a new year tab only
-//                              needs <div id="player-activity-2027"></div>.
+//                              #expand-btn-player-activity-1 (drawn here)
+//   #player-activity-YYYY   -> that year's months, drawn by year.js when it
+//                              builds each year tab.
 // Each chart uses the .tooltip element inside its own tab.
 import {
   CONFIG,
@@ -307,22 +306,10 @@ export function playerActivityChart(
   }
 }
 
-// Overview chart plus one per year container present on the page.
+// Overview chart (year tabs are drawn by year.js).
 function renderAll(rawData) {
-  const monthly = getMonthlyActivity(rawData);
-
-  playerActivityChart("#player-activity-1", monthly, {
+  playerActivityChart("#player-activity-1", getMonthlyActivity(rawData), {
     expandBtnSelector: "#expand-btn-player-activity-1",
-  });
-
-  document.querySelectorAll('[id^="player-activity-"]').forEach((el) => {
-    const match = el.id.match(/^player-activity-(\d{4})$/);
-    if (!match) return;
-    const year = Number(match[1]);
-    playerActivityChart(
-      `#${el.id}`,
-      monthly.filter((d) => d.month.getFullYear() === year),
-    );
   });
 }
 

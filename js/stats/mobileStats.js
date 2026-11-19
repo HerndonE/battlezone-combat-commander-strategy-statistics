@@ -1,9 +1,11 @@
 import {
   CONFIG,
+  MODE,
   POPULARITY_COLORS,
   SERIES_COLOR,
   textOn,
 } from "../config.js";
+import { getYears } from "./matchData.js";
 
 const response = await fetch(CONFIG.jsonFile);
 const allData = await response.json();
@@ -281,60 +283,69 @@ function populateMapPopularity(containerId, data) {
 // Overview
 populateCards(
   "overview-factions",
-  allData.stock.processed_data.processed_most_played_factions,
+  allData[MODE].processed_data.processed_most_played_factions,
 );
-populateCards("overview-maps", allData.stock.processed_data.processed_map_counts);
+populateCards("overview-maps", allData[MODE].processed_data.processed_map_counts);
 populateCards(
   "overview-active-commanders",
-  allData.stock.processed_data.processed_commander_list,
+  allData[MODE].processed_data.processed_commander_list,
 );
 populateCommanderCards(
   "overview-commander-cards",
-  allData.stock.processed_data.processed_commander_faction_counts,
+  allData[MODE].processed_data.processed_commander_faction_counts,
 );
 populateCommanderWinCards(
   "commander-win-cards",
-  allData.stock.processed_data.processed_commander_win_percentages,
+  allData[MODE].processed_data.processed_commander_win_percentages,
 );
 populateCommanderTimes(
   "overview-commander-times",
-  allData.stock.processed_data.processed_commander_times,
+  allData[MODE].processed_data.processed_commander_times,
 );
 populatePlayerTimes(
   "overview-player-times",
-  allData.stock.processed_data.processed_player_times,
+  allData[MODE].processed_data.processed_player_times,
 );
 populateMapPopularity(
   "map-popularity-container",
-  allData.stock.processed_data.processed_map_popularity,
+  allData[MODE].processed_data.processed_map_popularity,
 );
 
-// 2026
-populateCards(
-  "factions-2026",
-  allData["stock"]["2026"]["data_2026"].faction_counter,
-);
-populateCards("maps-2026", allData["stock"]["2026"]["data_2026"].map_counts);
-populateCards(
-  "active-commanders-2026",
-  allData["stock"]["2026"]["data_2026"].commander_list,
-);
-populateCommanderCards(
-  "commander-cards-2026",
-  allData["stock"]["2026"]["data_2026"].commander_faction_counts,
-);
-populateCommanderWinCards(
-  "commander-win-cards-2026",
-  allData["stock"]["2026"]["data_2026"].commander_win_percentages,
-);
-populateGamesByMonth(
-  "games-by-month-2026",
-  allData["stock"]["2026"]["data_2026"].game_totals,
-);
-populateMatchTimes(
-  "match-times-2026",
-  allData["stock"]["2026"]["data_2026"].game_times,
-);
+// One category per year key under allData[MODE] (2024, 2025, ...), so a new
+// year shows up here without touching the HTML.
+const YEAR_SECTIONS = [
+  ["Faction Popularity", "factions", populateCards, (d) => d.faction_counter],
+  ["Map Counts", "maps", populateCards, (d) => d.map_counts],
+  ["Commanders", "active-commanders", populateCards, (d) => d.commander_list],
+  ["Commander Faction Choices", "commander-cards", populateCommanderCards, (d) => d.commander_faction_counts],
+  ["Win % > 5 Games Commanded", "commander-win-cards", populateCommanderWinCards, (d) => d.commander_win_percentages],
+  ["Games by Month", "games-by-month", populateGamesByMonth, (d) => d.game_totals],
+  ["Match Times", "match-times", populateMatchTimes, (d) => d.game_times],
+];
+
+const mobileRoot = document.getElementById("overlay-text-mobile");
+getYears(allData[MODE]).forEach((year) => {
+  const data = allData[MODE][year][`data_${year}`];
+  // Skip sections with no data (e.g. 2024 has no recorded match times).
+  const sections = YEAR_SECTIONS.filter(([, , , pick]) => pick(data));
+
+  const category = document.createElement("div");
+  category.className = "category";
+  category.innerHTML =
+    `<h3>${year}</h3>` +
+    sections
+      .map(
+        ([title, key]) => `
+      <div class="sub-category">
+        <button class="dropdown-btn">${title} ▼</button>
+        <div class="cards dropdown-content" id="${key}-${year}"></div>
+      </div>`,
+      )
+      .join("");
+  mobileRoot.appendChild(category);
+
+  sections.forEach(([, key, fn, pick]) => fn(`${key}-${year}`, pick(data)));
+});
 
 // Dropdown toggle
 document.querySelectorAll(".dropdown-btn").forEach((btn) => {

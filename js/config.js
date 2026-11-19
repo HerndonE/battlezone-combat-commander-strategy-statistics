@@ -2,6 +2,11 @@ export const CONFIG = {
   jsonFile: "../data/data.json",
 };
 
+// Which game mode a stats page shows: the data.json top-level key ("vsr",
+// "stock", ...). Set per page with <html data-mode="vsr">. Every module under
+// js/stats/ reads its data through this, so one set of files serves all modes.
+export const MODE = document.documentElement.dataset.mode || "vsr";
+
 export const COLOR_PALETTE = [
   "#4cc9f0",
   "#4895ef",

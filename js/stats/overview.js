@@ -1,4 +1,5 @@
 import {
+  MODE,
   chartWidth,
   redrawOnResize,
   fitLabel,
@@ -251,9 +252,9 @@ function commanderWinPercentages(
 }
 
 d3.json(CONFIG.jsonFile).then((rawData) => {
-  const data = rawData.stock.processed_data;
+  const data = rawData[MODE].processed_data;
 
-  renderOverviewSummary("#info-overview", rawData.stock);
+  renderOverviewSummary("#info-overview", rawData[MODE]);
 
   factionPopularity("#inline-bar-chart-1", data.processed_most_played_factions);
   mapCountBarChart(
@@ -284,7 +285,7 @@ d3.json(CONFIG.jsonFile).then((rawData) => {
     "#expand-btn-commander-wins-1",
   );
 
-  const allDailyGames = getAllDailyGames(rawData.stock);
+  const allDailyGames = getAllDailyGames(rawData[MODE]);
 
   gamesPlayedPerMonthLineChart("#daily-1", allDailyGames, {
     expandBtnSelector: "#expand-btn-played-days-1",

@@ -1,4 +1,5 @@
-// Summary stat cards for a Stock year tab (games, time stats, longest and
+import { MODE } from "../config.js";
+// Summary stat cards for a year tab (games, time stats, longest and
 // shortest match), styled by css/summary-cards.css.
 
 export function statCard(label, value, sub) {
@@ -80,13 +81,13 @@ function formatSeconds(total) {
   return h ? `${h}:${String(m).padStart(2, "0")}:${sec}` : `${m}:${sec}`;
 }
 
-// stockData: rawData.stock. Uses every year key (2024, 2025, ...) so new years
+// modeData: rawData[MODE]. Uses every year key (2024, 2025, ...) so new years
 // are picked up automatically.
-export function renderOverviewSummary(container, vsrData) {
+export function renderOverviewSummary(container, modeData) {
   const el = document.querySelector(container);
   if (!el) return;
 
-  const years = Object.keys(vsrData)
+  const years = Object.keys(modeData)
     .filter((key) => /^\d{4}$/.test(key))
     .sort();
 
@@ -95,12 +96,12 @@ export function renderOverviewSummary(container, vsrData) {
   const timed = [];
 
   for (const year of years) {
-    const totals = vsrData[year]?.[`data_${year}`]?.game_totals || [];
+    const totals = modeData[year]?.[`data_${year}`]?.game_totals || [];
     const last = totals[totals.length - 1] || [];
     totalDays += last[0]?.["Total Days Played"] || 0;
     totalGames += last[1]?.["Total Games Played"] || 0;
 
-    const months = vsrData[year]?.[`raw_${year}`]?.month || {};
+    const months = modeData[year]?.[`raw_${year}`]?.month || {};
     for (const days of Object.values(months)) {
       for (const games of Object.values(days)) {
         for (const game of Object.values(games)) {
