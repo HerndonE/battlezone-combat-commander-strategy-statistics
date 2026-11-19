@@ -273,13 +273,23 @@ jobs:
 
       - name: Wait for GitHub Pages deployment
         run: |
-          echo "Waiting for GitHub Pages to finish building..."
+          # Track the build for the commit this job ended on (its own data.json
+          # commit if one was pushed). "latest" can be an older build that Pages
+          # cancelled when that commit landed, which the API reports as "errored".
+          TARGET_SHA=$(git rev-parse HEAD)
+          echo "Waiting for GitHub Pages to build $TARGET_SHA..."
+          echo "PAGES_BUILD_STATUS=timed out" >> $GITHUB_ENV
           for i in $(seq 1 30); do
             RESPONSE=$(curl -s \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${{ github.repository }}/pages/builds/latest")
-            BUILD_STATUS=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status','unknown'))")
+              "https://api.github.com/repos/${{ github.repository }}/pages/builds?per_page=10")
+            BUILD_STATUS=$(echo "$RESPONSE" | TARGET_SHA="$TARGET_SHA" python3 -c "
+          import sys, json, os
+          builds = json.load(sys.stdin)
+          match = next((b for b in builds if isinstance(b, dict) and b.get('commit') == os.environ['TARGET_SHA']), None)
+          print(match.get('status', 'unknown') if match else 'pending')
+          ")
             echo "Attempt $i: Pages build status = $BUILD_STATUS"
             if [ "$BUILD_STATUS" = "built" ] || [ "$BUILD_STATUS" = "errored" ]; then
               echo "PAGES_BUILD_STATUS=$BUILD_STATUS" >> $GITHUB_ENV
@@ -299,6 +309,10 @@ jobs:
             COLOR=15158332
             TITLE="Website Deployment Failed"
             DESCRIPTION="The **bz2stats.us** GitHub Pages build has failed."
+          elif [ "$BUILD_STATUS" != "built" ]; then
+            COLOR=16776960
+            TITLE="Website Deployment Status Unknown"
+            DESCRIPTION="Stopped waiting for the **bz2stats.us** GitHub Pages build. Check the Actions tab."
           fi
 
           curl -X POST ${{ secrets.DISCORD_WEBHOOK_URL }} \
