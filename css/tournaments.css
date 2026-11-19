@@ -24,18 +24,6 @@
   cursor: pointer;
 }
 
-/* Full-width band, matching the .tab row above it. */
-.trn-title {
-  text-align: center;
-  color: var(--color-primary-light);
-  margin: 0;
-  padding: 14px 16px;
-  background-color: #333;
-  overflow: hidden;
-  font-size: 1.5rem;
-  letter-spacing: 0.03em;
-}
-
 /* Tables ----------------------------------------------------------------- */
 
 .trn-table-wrap {

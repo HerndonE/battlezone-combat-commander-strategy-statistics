@@ -42,13 +42,16 @@
         <div id="last-updated"></div>
       </div>
     </nav>
+    <div class="page-title-bar">
+      <a href="./stats.html" class="classic-button back-button" aria-label="Back to all stats"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Stats</a>
+      <h2 class="page-title" id="trn-title"></h2>
+    </div>
     <div id="overlay-text-stats">
       <div id="trn-root">
         <div class="trn-picker" id="trn-picker" style="display: none;">
           <label for="trn-select">Tournament:</label>
           <select id="trn-select"></select>
         </div>
-        <h2 class="trn-title" id="trn-title"></h2>
         <div class="tab">
           <button class="tablinks" onclick="getData(event, 'tournamentOverview')">Overview</button>
           <button class="tablinks" onclick="getData(event, 'tournamentStandings')">Standings</button>

@@ -54,6 +54,10 @@
         <div id="last-updated"></div>
       </div>
     </nav>
+    <div class="page-title-bar">
+      <a href="./stats.html" class="classic-button back-button" aria-label="Back to all stats"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Stats</a>
+      <h2 class="page-title">BZCC VSR Stats</h2>
+    </div>
     <div id="overlay-text-stats">
       <div class="tab">
         <button class="tablinks" onclick="getData(event, 'Overview')">Overview</button>
@@ -164,10 +168,10 @@
             <option value="desc" selected>Newest → Oldest</option>
             <option value="asc">Oldest → Newest</option>
           </select>
-        </div>
-        <div class="match-history-actions">
-          <button id="export-excel-btn">&#11015; Export to Excel</button>
-          <button id="copy-data-url-btn">&#128279; Copy Data URL</button>
+          <div class="match-history-actions">
+            <button id="export-excel-btn">&#11015; Export to Excel</button>
+            <button id="copy-data-url-btn">&#128279; Copy Data URL</button>
+          </div>
         </div>
         <table class="mh-table">
           <thead>

@@ -23,6 +23,17 @@
     box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 55%, transparent);
 }
 
+/* Map preview image (added only after it loads, see js/stats/maps.js) */
+.map-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #444;
+    margin-bottom: 12px;
+}
+
 /* Map name */
 .name {
     font-size: 1.6rem;
@@ -116,6 +127,21 @@
     width: 100%;
     margin-bottom: 1rem;
     font-weight: bold; 
+}
+
+/* Plain-language explanation under the heading */
+.maps-description {
+    max-width: 760px;
+    margin: -0.5rem auto 1.5rem;
+    padding: 0 16px;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+}
+
+.maps-description strong {
+    color: var(--color-text);
 }
 
 /* Global modal (optional for map detail popups) */

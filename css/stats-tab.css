@@ -1,3 +1,56 @@
+/* Page title band under the navbar (VSR, Stock, Tournaments), with a
+   "Back to Stats" button on the left. Sits outside #overlay-text-stats so it
+   also shows on mobile. */
+.page-title-bar {
+  position: relative;
+  z-index: 1; /* above the smoke canvas */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background-color: #333;
+}
+
+.page-title {
+  grid-column: 2;
+  margin: 0;
+  text-align: center;
+  color: var(--color-primary-light);
+  font-size: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+.page-title-bar .back-button {
+  grid-column: 1;
+  justify-self: start;
+  width: auto;
+  margin: 0;
+  padding: 8px 14px;
+  white-space: nowrap;
+}
+
+.page-title-bar .back-button:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Narrow screens: button on its own row, title below it. */
+@media (max-width: 600px) {
+  .page-title-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .page-title,
+  .page-title-bar .back-button {
+    grid-column: 1;
+  }
+
+  .page-title {
+    font-size: 1.25rem;
+  }
+}
+
 .tab {
   overflow: hidden;
   background-color: #333;

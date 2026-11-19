@@ -70,11 +70,17 @@ details div {
   line-height: 1.4;
 }
 
+/* Filters on the left, Export / Copy buttons pushed to the right of the
+   same row. When the row wraps, the buttons stay right-aligned. */
+#matchHistory .controls {
+  align-items: center;
+}
+
 .match-history-actions {
   display: flex;
   gap: 10px;
-  margin-bottom: 12px;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .match-history-actions button {
